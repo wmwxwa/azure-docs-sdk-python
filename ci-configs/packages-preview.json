@@ -5,12 +5,26 @@
     "folder": "preview"
   },
   "packages": [
+   {
+      "package_info": {
+        "install_type": "pypi",
+        "name": "azure-core-tracing-opencensus",
+        "version": ">=1.0.0b7",
+        "prefer_source_distribution": "true"
+      },
+      "exclude_path": [
+        "test*",
+        "example*",
+        "sample*",
+        "doc*"
+      ]
+    },
     {
       "package_info": {
         "url": "https://github.com/Azure/azure-sdk-for-python.git",
         "folder": "sdk/contentsafety/azure-ai-contentsafety",
         "branch": "main",
-        "install_type": "source_code"
+        "install_type": "pypi"
       },
       "exclude_path": [
         "test*",
