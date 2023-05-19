@@ -1,11 +1,53 @@
 - items:
   - name: Overview
-    uid: project-azure-core-tracing-opencensus
+    uid: project-azure-ai-contentsafety
   - items:
     - name: Overview
-      uid: azure.core.tracing.ext.opencensus_span
-    - name: azure.core.tracing.ext.opencensus_span.OpenCensusSpan
-      uid: azure.core.tracing.ext.opencensus_span.OpenCensusSpan
-    name: azure.core.tracing.ext.opencensus_span
-  name: azure-core-tracing-opencensus
+      uid: azure.ai.contentsafety
+    - items:
+      - name: Overview
+        uid: azure.ai.contentsafety.aio
+      - name: azure.ai.contentsafety.aio.ContentSafetyClient
+        uid: azure.ai.contentsafety.aio.ContentSafetyClient
+      name: azure.ai.contentsafety.aio
+    - items:
+      - name: Overview
+        uid: azure.ai.contentsafety.models
+      - name: azure.ai.contentsafety.models.AddBlockItemsOptions
+        uid: azure.ai.contentsafety.models.AddBlockItemsOptions
+      - name: azure.ai.contentsafety.models.AddBlockItemsResult
+        uid: azure.ai.contentsafety.models.AddBlockItemsResult
+      - name: azure.ai.contentsafety.models.AnalyzeImageOptions
+        uid: azure.ai.contentsafety.models.AnalyzeImageOptions
+      - name: azure.ai.contentsafety.models.AnalyzeImageResult
+        uid: azure.ai.contentsafety.models.AnalyzeImageResult
+      - name: azure.ai.contentsafety.models.AnalyzeTextOptions
+        uid: azure.ai.contentsafety.models.AnalyzeTextOptions
+      - name: azure.ai.contentsafety.models.AnalyzeTextResult
+        uid: azure.ai.contentsafety.models.AnalyzeTextResult
+      - name: azure.ai.contentsafety.models.ImageAnalyzeSeverityResult
+        uid: azure.ai.contentsafety.models.ImageAnalyzeSeverityResult
+      - name: azure.ai.contentsafety.models.ImageCategory
+        uid: azure.ai.contentsafety.models.ImageCategory
+      - name: azure.ai.contentsafety.models.ImageData
+        uid: azure.ai.contentsafety.models.ImageData
+      - name: azure.ai.contentsafety.models.RemoveBlockItemsOptions
+        uid: azure.ai.contentsafety.models.RemoveBlockItemsOptions
+      - name: azure.ai.contentsafety.models.TextAnalyzeSeverityResult
+        uid: azure.ai.contentsafety.models.TextAnalyzeSeverityResult
+      - name: azure.ai.contentsafety.models.TextBlockItem
+        uid: azure.ai.contentsafety.models.TextBlockItem
+      - name: azure.ai.contentsafety.models.TextBlockItemInfo
+        uid: azure.ai.contentsafety.models.TextBlockItemInfo
+      - name: azure.ai.contentsafety.models.TextBlocklist
+        uid: azure.ai.contentsafety.models.TextBlocklist
+      - name: azure.ai.contentsafety.models.TextBlocklistMatchResult
+        uid: azure.ai.contentsafety.models.TextBlocklistMatchResult
+      - name: azure.ai.contentsafety.models.TextCategory
+        uid: azure.ai.contentsafety.models.TextCategory
+      name: azure.ai.contentsafety.models
+    - name: azure.ai.contentsafety.ContentSafetyClient
+      uid: azure.ai.contentsafety.ContentSafetyClient
+    name: azure.ai.contentsafety
+  name: azure-ai-contentsafety
 

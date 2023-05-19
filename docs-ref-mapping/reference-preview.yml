@@ -5,16 +5,6 @@
   - name: Other
     landingPageType: Service
     items:
-    - name: Core
-      landingPageType: Service
-      items:
-      - name: Client
-        landingPageType: Service
-        items:
-        - name: Tracing Opencensus
-          href: ~/docs-ref-services/preview/core-tracing-opencensus-readme.md
-          children:
-          - azure-core-tracing-opencensus
     - name: Uncategorized Packages
       landingPageType: Service
       children:
