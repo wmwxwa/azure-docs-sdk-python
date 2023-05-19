@@ -18,21 +18,6 @@
         "sample*",
         "doc*"
       ]
-    },
-    {
-      "package_info": {
-        "url": "https://github.com/Azure/azure-sdk-for-python.git",
-        "folder": "sdk/contentsafety/azure-ai-contentsafety",
-        "branch": "main",
-        "name": "azure-ai-contentsafety",
-        "install_type": "pypi"
-      },
-      "exclude_path": [
-        "test*",
-        "example*",
-        "sample*",
-        "doc*"
-      ]
     }
   ],
   "required_packages": [
