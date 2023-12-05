@@ -5,4 +5,5 @@ fullName: azure-ai-generative
 type: distribution
 packages:
 - azure.ai.generative
+- azure.ai.generative.synthetic
 - azure.ai.generative.synthetic.simulator.simulator

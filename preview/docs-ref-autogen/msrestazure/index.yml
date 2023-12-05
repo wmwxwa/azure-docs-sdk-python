@@ -5,6 +5,7 @@ fullName: msrestazure
 type: distribution
 packages:
 - msrestazure
+- msrestazure.polling
 modules:
 - msrestazure.azure_active_directory
 - msrestazure.azure_cloud

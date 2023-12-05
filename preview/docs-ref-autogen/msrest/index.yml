@@ -5,6 +5,9 @@ fullName: msrest
 type: distribution
 packages:
 - msrest
+- msrest.pipeline
+- msrest.polling
+- msrest.universal_http
 modules:
 - msrest.async_client
 - msrest.async_paging
