@@ -69,3 +69,14 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.edgeorder.v2021_12_01.models.AddressType>
+  keywordOnlyArguments:
+  - name: street_address1
+  - name: country
+  - name: street_address2
+  - name: street_address3
+  - name: city
+  - name: state_or_province
+  - name: postal_code
+  - name: zip_extended_code
+  - name: company_name
+  - name: address_type

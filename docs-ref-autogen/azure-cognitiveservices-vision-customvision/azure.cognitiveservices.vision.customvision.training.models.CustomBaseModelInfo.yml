@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: project_id
+  - name: iteration_id
 methods:
 - uid: azure.cognitiveservices.vision.customvision.training.models.CustomBaseModelInfo.as_dict
   name: as_dict

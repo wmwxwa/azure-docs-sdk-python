@@ -32,6 +32,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ContainerEvent>]
+  keywordOnlyArguments:
+  - name: restart_count
+  - name: current_state
+  - name: previous_state
+  - name: events
 methods:
 - uid: azure.servicefabric.models.ContainerInstanceView.as_dict
   name: as_dict

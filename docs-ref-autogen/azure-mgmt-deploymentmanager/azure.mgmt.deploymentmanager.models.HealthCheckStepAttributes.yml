@@ -51,3 +51,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: healthy_state_duration
+  - name: wait_duration
+  - name: max_elastic_duration

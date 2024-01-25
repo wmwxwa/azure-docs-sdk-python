@@ -73,3 +73,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: description
+  - name: authorizations
+  - name: eligible_authorizations
+  - name: registration_definition_name
+  - name: provisioning_state
+  - name: managee_tenant_id
+  - name: managee_tenant_name
+  - name: managed_by_tenant_id
+  - name: managed_by_tenant_name

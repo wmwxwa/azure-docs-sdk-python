@@ -35,6 +35,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ReplicaInfo>]
+  keywordOnlyArguments:
+  - name: continuation_token
+  - name: items
 methods:
 - uid: azure.servicefabric.models.PagedReplicaInfoList.as_dict
   name: as_dict

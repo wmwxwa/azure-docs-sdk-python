@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: previous_qna_id
+  - name: previous_user_query
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.QueryDTOContext.as_dict
   name: as_dict

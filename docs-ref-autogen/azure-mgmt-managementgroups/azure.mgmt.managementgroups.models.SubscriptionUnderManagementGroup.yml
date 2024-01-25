@@ -36,6 +36,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: tenant
+  - name: display_name
+  - name: parent
+  - name: state
 variables:
 - description: 'The fully qualified ID for the subscription.  For example,
 

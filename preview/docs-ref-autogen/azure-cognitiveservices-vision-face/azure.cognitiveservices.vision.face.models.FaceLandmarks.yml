@@ -126,6 +126,34 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.vision.face.models.Coordinate>
+  keywordOnlyArguments:
+  - name: pupil_left
+  - name: pupil_right
+  - name: nose_tip
+  - name: mouth_left
+  - name: mouth_right
+  - name: eyebrow_left_outer
+  - name: eyebrow_left_inner
+  - name: eye_left_outer
+  - name: eye_left_top
+  - name: eye_left_bottom
+  - name: eye_left_inner
+  - name: eyebrow_right_inner
+  - name: eyebrow_right_outer
+  - name: eye_right_inner
+  - name: eye_right_top
+  - name: eye_right_bottom
+  - name: eye_right_outer
+  - name: nose_root_left
+  - name: nose_root_right
+  - name: nose_left_alar_top
+  - name: nose_right_alar_top
+  - name: nose_left_alar_out_tip
+  - name: nose_right_alar_out_tip
+  - name: upper_lip_top
+  - name: upper_lip_bottom
+  - name: under_lip_top
+  - name: under_lip_bottom
 methods:
 - uid: azure.cognitiveservices.vision.face.models.FaceLandmarks.as_dict
   name: as_dict

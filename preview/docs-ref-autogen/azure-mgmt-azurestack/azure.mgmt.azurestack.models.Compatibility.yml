@@ -10,7 +10,7 @@ constructor:
   syntax: 'Compatibility(*, is_compatible: bool | None = None, message: str | None
     = None, description: str | None = None, issues: List[str | _models.CompatibilityIssue]
     | None = None, **kwargs)'
-  parameters:
+  keywordOnlyArguments:
   - name: is_compatible
     description: Tells if product is compatible with current device.
     types:

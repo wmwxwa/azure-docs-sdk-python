@@ -40,6 +40,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.maps.route.models.GeoJsonObjectType>
+  keywordOnlyArguments:
+  - name: coordinates
 methods:
 - uid: azure.maps.route.models.GeoJsonMultiPolygon.as_dict
   name: as_dict

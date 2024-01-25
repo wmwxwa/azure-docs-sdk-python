@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: message
 methods:
 - uid: azure.cognitiveservices.language.textanalytics.models.ErrorRecord.as_dict
   name: as_dict

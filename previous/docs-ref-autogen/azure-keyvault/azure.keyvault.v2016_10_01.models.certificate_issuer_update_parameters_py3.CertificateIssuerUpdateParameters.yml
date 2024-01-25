@@ -32,6 +32,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.keyvault.v2016_10_01.models.IssuerAttributes>
+  keywordOnlyArguments:
+  - name: provider
+  - name: credentials
+  - name: organization_details
+  - name: attributes
 methods:
 - uid: azure.keyvault.v2016_10_01.models.certificate_issuer_update_parameters_py3.CertificateIssuerUpdateParameters.as_dict
   name: as_dict

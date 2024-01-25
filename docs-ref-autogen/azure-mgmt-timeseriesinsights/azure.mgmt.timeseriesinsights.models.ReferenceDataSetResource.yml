@@ -52,6 +52,11 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.timeseriesinsights.models.DataStringComparisonBehavior>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: key_properties
+  - name: data_string_comparison_behavior
 variables:
 - description: Resource Id.
   name: id

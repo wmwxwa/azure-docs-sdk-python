@@ -25,6 +25,9 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: tag_ids
+  - name: threshold
 methods:
 - uid: azure.cognitiveservices.vision.customvision.training.models.TagFilter.as_dict
   name: as_dict

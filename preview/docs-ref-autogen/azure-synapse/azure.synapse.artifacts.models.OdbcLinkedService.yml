@@ -98,6 +98,18 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: connection_string
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: authentication_type
+  - name: credential
+  - name: user_name
+  - name: password
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.OdbcLinkedService.as_dict
   name: as_dict

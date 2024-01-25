@@ -30,6 +30,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.machinelearningservices.models.Status>
+  keywordOnlyArguments:
+  - name: limit
+  - name: status
 variables:
 - description: Specifies the resource ID.
   name: id

@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: utterance_text
+  - name: example_id
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.LabelExampleResponse.as_dict
   name: as_dict

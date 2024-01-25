@@ -37,6 +37,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.contentmoderator.models.CreateVideoReviewsBodyItemVideoFramesItemMetadataItem>]
+  keywordOnlyArguments:
+  - name: id
+  - name: timestamp
+  - name: frame_image
+  - name: reviewer_result_tags
+  - name: metadata
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.CreateVideoReviewsBodyItemVideoFramesItem.as_dict
   name: as_dict

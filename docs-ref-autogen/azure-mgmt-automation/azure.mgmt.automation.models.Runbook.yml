@@ -112,6 +112,24 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: tags
+  - name: location
+  - name: etag
+  - name: runbook_type
+  - name: publish_content_link
+  - name: state
+  - name: log_verbose
+  - name: log_progress
+  - name: log_activity_trace
+  - name: job_count
+  - name: parameters
+  - name: output_types
+  - name: draft
+  - name: last_modified_by
+  - name: creation_time
+  - name: last_modified_time
+  - name: description
 variables:
 - description: Fully qualified resource Id for the resource.
   name: id

@@ -35,3 +35,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.databoxedge.v2020_09_01.models.MetricCounterSet>]
+  keywordOnlyArguments:
+  - name: resource_id
+  - name: counter_sets
+  - name: mdm_account
+  - name: metric_name_space

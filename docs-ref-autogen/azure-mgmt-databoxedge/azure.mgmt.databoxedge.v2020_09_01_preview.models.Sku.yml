@@ -30,3 +30,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.databoxedge.v2020_09_01_preview.models.SkuTier>
+  keywordOnlyArguments:
+  - name: name
+  - name: tier

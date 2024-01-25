@@ -86,6 +86,15 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: metric_id
+  - name: timespan
+  - name: aggregation
+  - name: interval
+  - name: segment
+  - name: top
+  - name: orderby
+  - name: filter
 methods:
 - uid: azure.applicationinsights.models.metrics_post_body_schema_parameters_py3.MetricsPostBodySchemaParameters.as_dict
   name: as_dict

@@ -22,3 +22,6 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: start_port
+  - name: end_port

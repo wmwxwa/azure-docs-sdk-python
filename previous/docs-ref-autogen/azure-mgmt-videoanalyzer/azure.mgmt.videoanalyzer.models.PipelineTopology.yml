@@ -54,3 +54,11 @@ constructor:
     = None, parameters: List[ParameterDeclaration] | None = None, sources: List[SourceNodeBase]
     | None = None, processors: List[ProcessorNodeBase] | None = None, sinks: List[SinkNodeBase]
     | None = None, **kwargs)'
+  keywordOnlyArguments:
+  - name: kind
+  - name: sku
+  - name: description
+  - name: parameters
+  - name: sources
+  - name: processors
+  - name: sinks

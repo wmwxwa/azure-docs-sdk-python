@@ -28,6 +28,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.face.models.IdentifyCandidate>]
+  keywordOnlyArguments:
+  - name: face_id
+  - name: candidates
 methods:
 - uid: azure.cognitiveservices.vision.face.models.IdentifyResult.as_dict
   name: as_dict

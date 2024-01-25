@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: id
+  - name: is_data_action
 methods:
 - uid: azure.synapse.accesscontrol.models.RequiredAction.as_dict
   name: as_dict

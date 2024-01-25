@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: key
+  - name: value
 methods:
 - uid: azure.servicefabric.models.ServiceTypeExtensionDescription.as_dict
   name: as_dict

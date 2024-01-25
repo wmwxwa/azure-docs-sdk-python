@@ -58,3 +58,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: resourcename
+  - name: resource_u_id
+  - name: resource_cost
+  - name: resource_type
+  - name: resource_owner
+  - name: resource_pricing_tier
+  - name: resource_status
+  - name: resource_id
+  - name: external_resource_id

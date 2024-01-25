@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: health_state
+  - name: node_name
 methods:
 - uid: azure.servicefabric.models.NodeHealthStateChunk.as_dict
   name: as_dict

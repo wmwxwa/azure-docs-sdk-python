@@ -44,6 +44,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.FabricErrorError>
+  keywordOnlyArguments:
+  - name: restore_state
+  - name: time_stamp_utc
+  - name: restored_epoch
+  - name: restored_lsn
+  - name: failure_error
 methods:
 - uid: azure.servicefabric.models.RestoreProgressInfo.as_dict
   name: as_dict

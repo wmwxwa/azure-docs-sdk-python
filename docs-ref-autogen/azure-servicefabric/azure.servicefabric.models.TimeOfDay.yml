@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: hour
+  - name: minute
 methods:
 - uid: azure.servicefabric.models.TimeOfDay.as_dict
   name: as_dict

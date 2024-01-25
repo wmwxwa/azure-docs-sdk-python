@@ -89,6 +89,17 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: linked_service_name
+  - name: index
+  - name: additional_properties
+  - name: description
+  - name: structure
+  - name: schema
+  - name: parameters
+  - name: annotations
+  - name: folder
+  - name: path
 methods:
 - uid: azure.synapse.artifacts.models.WebTableDataset.as_dict
   name: as_dict

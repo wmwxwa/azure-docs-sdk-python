@@ -30,6 +30,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: url
+  - name: duration
+  - name: performance_bucket
 methods:
 - uid: azure.applicationinsights.models.EventsPageViewInfo.as_dict
   name: as_dict

@@ -48,6 +48,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.deploymentmanager.models.ServiceUnitArtifacts>
+  keywordOnlyArguments:
+  - name: location
+  - name: target_resource_group
+  - name: deployment_mode
+  - name: tags
+  - name: artifacts
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

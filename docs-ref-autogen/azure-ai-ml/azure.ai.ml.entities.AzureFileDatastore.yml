@@ -62,6 +62,18 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>
+  keywordOnlyArguments:
+  - name: name
+  - name: account_name
+  - name: file_share_name
+  - name: description
+  - name: tags
+  - name: endpoint
+    defaultValue: core.windows.net
+  - name: protocol
+    defaultValue: https
+  - name: properties
+  - name: credentials
 methods:
 - uid: azure.ai.ml.entities.AzureFileDatastore.dump
   name: dump

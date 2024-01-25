@@ -236,6 +236,23 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.AuthenticationTokenSettings>
+  keywordOnlyArguments:
+  - name: id
+  - name: command_line
+  - name: display_name
+  - name: container_settings
+  - name: exit_conditions
+  - name: resource_files
+  - name: output_files
+  - name: environment_settings
+  - name: affinity_info
+  - name: constraints
+  - name: required_slots
+  - name: user_identity
+  - name: multi_instance_settings
+  - name: depends_on
+  - name: application_package_references
+  - name: authentication_token_settings
 methods:
 - uid: azure.batch.models.TaskAddParameter.as_dict
   name: as_dict

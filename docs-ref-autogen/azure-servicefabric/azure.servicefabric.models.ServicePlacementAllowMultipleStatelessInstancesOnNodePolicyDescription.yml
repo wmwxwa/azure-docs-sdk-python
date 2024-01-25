@@ -31,6 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: domain_name
 methods:
 - uid: azure.servicefabric.models.ServicePlacementAllowMultipleStatelessInstancesOnNodePolicyDescription.as_dict
   name: as_dict

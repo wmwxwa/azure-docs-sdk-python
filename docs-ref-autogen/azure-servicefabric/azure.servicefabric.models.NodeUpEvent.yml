@@ -58,6 +58,14 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: node_name
+  - name: node_instance
+  - name: last_node_down_at
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.NodeUpEvent.as_dict
   name: as_dict

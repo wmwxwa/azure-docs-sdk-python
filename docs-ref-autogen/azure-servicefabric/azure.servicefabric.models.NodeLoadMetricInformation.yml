@@ -101,6 +101,18 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: node_capacity
+  - name: node_load
+  - name: node_remaining_capacity
+  - name: is_capacity_violation
+  - name: node_buffered_capacity
+  - name: node_remaining_buffered_capacity
+  - name: current_node_load
+  - name: node_capacity_remaining
+  - name: buffered_node_capacity_remaining
+  - name: planned_node_load_removal
 methods:
 - uid: azure.servicefabric.models.NodeLoadMetricInformation.as_dict
   name: as_dict

@@ -19,6 +19,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bytes>
+  keywordOnlyArguments:
+  - name: key_bundle_backup
 methods:
 - uid: azure.keyvault.v2016_10_01.models.key_restore_parameters_py3.KeyRestoreParameters.as_dict
   name: as_dict

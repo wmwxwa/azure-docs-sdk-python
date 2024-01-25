@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.sql.models.QueryMetricInterval>]
+  keywordOnlyArguments:
+  - name: intervals
 variables:
 - description: Resource ID.
   name: id

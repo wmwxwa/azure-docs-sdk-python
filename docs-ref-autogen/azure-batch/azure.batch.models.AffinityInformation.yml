@@ -27,6 +27,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: affinity_id
 methods:
 - uid: azure.batch.models.AffinityInformation.as_dict
   name: as_dict

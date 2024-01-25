@@ -44,6 +44,11 @@ constructor:
     isRequired: true
     types:
     - <xref:video_analyzer.models.VideoArchival>
+  keywordOnlyArguments:
+  - name: title
+  - name: description
+  - name: media_info
+  - name: archival
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

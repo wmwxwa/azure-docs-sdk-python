@@ -15,7 +15,7 @@ summary: 'Collection of performance monitor counters.
 constructor:
   syntax: 'PerfMonCounterCollection(*, value: List[_models.PerfMonResponse], **kwargs:
     Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: Collection of resources. Required.
     types:

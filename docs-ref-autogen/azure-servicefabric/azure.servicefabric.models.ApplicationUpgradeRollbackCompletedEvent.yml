@@ -83,6 +83,16 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: application_id
+  - name: application_type_name
+  - name: application_type_version
+  - name: failure_reason
+  - name: overall_upgrade_elapsed_time_in_ms
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.ApplicationUpgradeRollbackCompletedEvent.as_dict
   name: as_dict

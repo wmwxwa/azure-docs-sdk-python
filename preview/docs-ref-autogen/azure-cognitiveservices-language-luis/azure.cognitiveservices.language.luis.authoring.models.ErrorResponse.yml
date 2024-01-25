@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: error_type
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.ErrorResponse.as_dict
   name: as_dict

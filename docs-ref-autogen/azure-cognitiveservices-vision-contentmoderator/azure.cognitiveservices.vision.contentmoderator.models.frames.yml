@@ -18,6 +18,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.contentmoderator.models.Frame>]
+  keywordOnlyArguments:
+  - name: review_id
+  - name: video_frames
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.Frames.as_dict
   name: as_dict

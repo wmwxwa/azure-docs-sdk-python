@@ -59,6 +59,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: allowed_member_types
+  - name: description
+  - name: display_name
+  - name: is_enabled
+  - name: value
 methods:
 - uid: azure.graphrbac.models.app_role_py3.AppRole.as_dict
   name: as_dict

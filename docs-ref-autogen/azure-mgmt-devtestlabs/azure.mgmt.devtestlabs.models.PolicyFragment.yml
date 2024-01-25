@@ -61,3 +61,11 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.devtestlabs.models.PolicyEvaluatorType>
+  keywordOnlyArguments:
+  - name: tags
+  - name: description
+  - name: status
+  - name: fact_name
+  - name: fact_data
+  - name: threshold
+  - name: evaluator_type

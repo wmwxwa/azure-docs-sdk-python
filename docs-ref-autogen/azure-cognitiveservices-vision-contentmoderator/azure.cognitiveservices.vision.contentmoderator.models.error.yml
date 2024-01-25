@@ -17,6 +17,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: code
+  - name: message
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.Error.as_dict
   name: as_dict

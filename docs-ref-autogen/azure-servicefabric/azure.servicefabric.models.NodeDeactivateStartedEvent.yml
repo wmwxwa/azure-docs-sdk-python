@@ -63,6 +63,15 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: node_name
+  - name: node_instance
+  - name: batch_id
+  - name: deactivate_intent
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.NodeDeactivateStartedEvent.as_dict
   name: as_dict

@@ -47,6 +47,11 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: remote_source
+  - name: remote_destination
+  - name: skip_files
+  - name: check_mark_file
 methods:
 - uid: azure.servicefabric.models.ImageStoreCopyDescription.as_dict
   name: as_dict

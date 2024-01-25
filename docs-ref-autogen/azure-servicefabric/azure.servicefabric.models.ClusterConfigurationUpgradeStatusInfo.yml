@@ -37,6 +37,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: upgrade_state
+  - name: progress_status
+  - name: config_version
+  - name: details
 methods:
 - uid: azure.servicefabric.models.ClusterConfigurationUpgradeStatusInfo.as_dict
   name: as_dict

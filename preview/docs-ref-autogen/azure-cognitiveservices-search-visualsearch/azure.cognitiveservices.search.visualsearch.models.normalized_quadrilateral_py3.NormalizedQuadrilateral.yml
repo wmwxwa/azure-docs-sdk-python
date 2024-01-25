@@ -49,6 +49,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.search.visualsearch.models.Point2D>
+  keywordOnlyArguments:
+  - name: top_left
+  - name: top_right
+  - name: bottom_right
+  - name: bottom_left
 variables:
 - description: A String identifier.
   name: id

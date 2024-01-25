@@ -38,3 +38,7 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: enable_schema_validation
+  - name: enable_data_integrity_validation
+  - name: enable_query_analysis_validation

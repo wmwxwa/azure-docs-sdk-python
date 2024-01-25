@@ -58,6 +58,14 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.alertsmanagement.models.ThrottlingInformation>
+  keywordOnlyArguments:
+  - name: tags
+  - name: description
+  - name: state
+  - name: severity
+  - name: frequency
+  - name: action_groups
+  - name: throttling
 variables:
 - description: The resource ID.
   name: id

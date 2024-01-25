@@ -50,6 +50,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: display_name
+  - name: sold_to
+  - name: billing_profiles
+  - name: departments
+  - name: enrollment_accounts
+  - name: notification_email_address
 variables:
 - description: 'The type of agreement. Possible values include:
 

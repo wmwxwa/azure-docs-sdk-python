@@ -35,6 +35,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: status
+  - name: execution_count
+  - name: data
+  - name: ename
+  - name: evalue
+  - name: traceback
 methods:
 - uid: azure.synapse.models.LivyStatementOutput.as_dict
   name: as_dict

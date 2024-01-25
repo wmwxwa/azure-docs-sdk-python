@@ -36,3 +36,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: content
+  - name: title
+  - name: subtitle
+  - name: markdown_source
+  - name: markdown_uri

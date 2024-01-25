@@ -36,6 +36,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: properties
+  - name: identity
+  - name: tags
 variables:
 - description: ARM id of the monitor resource.
   name: id

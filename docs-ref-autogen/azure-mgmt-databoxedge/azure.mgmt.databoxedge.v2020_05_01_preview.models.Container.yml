@@ -23,6 +23,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.databoxedge.v2020_05_01_preview.models.AzureContainerDataFormat>
+  keywordOnlyArguments:
+  - name: data_format
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

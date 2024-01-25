@@ -33,3 +33,8 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: key_vault_uri
+  - name: key_name
+  - name: key_version
+  - name: key_rsa_size

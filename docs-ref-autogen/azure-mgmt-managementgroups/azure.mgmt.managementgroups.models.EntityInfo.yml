@@ -81,6 +81,17 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: tenant_id
+  - name: display_name
+  - name: parent
+  - name: permissions
+  - name: inherited_permissions
+  - name: number_of_descendants
+  - name: number_of_children
+  - name: number_of_child_groups
+  - name: parent_display_name_chain
+  - name: parent_name_chain
 variables:
 - description: 'The fully qualified ID for the entity.  For example,
 

@@ -43,3 +43,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: id
+  - name: type
+  - name: name
+  - name: timestamp
+  - name: compliance_state

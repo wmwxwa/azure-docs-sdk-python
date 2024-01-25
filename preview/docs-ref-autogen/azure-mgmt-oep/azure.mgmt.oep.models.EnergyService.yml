@@ -15,7 +15,7 @@ summary: 'EnergyService.
 constructor:
   syntax: 'EnergyService(*, location: str, properties: _models.EnergyServiceProperties
     | None = None, tags: Dict[str, str] | None = None, **kwargs)'
-  parameters:
+  keywordOnlyArguments:
   - name: properties
     types:
     - <xref:azure.mgmt.oep.models.EnergyServiceProperties>

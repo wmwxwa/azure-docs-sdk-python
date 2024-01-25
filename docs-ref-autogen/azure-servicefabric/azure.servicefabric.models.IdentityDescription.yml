@@ -46,6 +46,12 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:azure.servicefabric.models.IdentityItemDescription>]
+  keywordOnlyArguments:
+  - name: type
+  - name: token_service_endpoint
+  - name: tenant_id
+  - name: principal_id
+  - name: user_assigned_identities
 methods:
 - uid: azure.servicefabric.models.IdentityDescription.as_dict
   name: as_dict

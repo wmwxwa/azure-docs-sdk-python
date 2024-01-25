@@ -21,6 +21,7 @@ constructor:
     types:
     - <xref:azure.core.credentials.AzureKeyCredential>
     - <xref:azure.core.credentials_async.AsyncTokenCredential>
+  keywordOnlyArguments:
   - name: api_version
     description: The Search API version to use for requests.
     types:
@@ -63,7 +64,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    186\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_analyze_text_async.py\"\
+    185\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_analyze_text_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   from azure.core.credentials import AzureKeyCredential\n   from azure.search.documents.indexes.aio\
@@ -99,7 +100,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    186\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_index_alias_crud_operations_async.py\"\
+    185\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_index_alias_crud_operations_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   alias = SearchAlias(name=alias_name, indexes=[index_name])\n   result = await\
@@ -125,7 +126,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    186\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_index_crud_operations_async.py\"\
+    185\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_index_crud_operations_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   client = SearchIndexClient(service_endpoint, AzureKeyCredential(key))\n \
@@ -151,6 +152,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.search.documents.indexes.models.SearchAlias>
+  keywordOnlyArguments:
   - name: match_condition
     description: The match condition to use upon the etag
     types:
@@ -170,7 +172,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    186\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_index_alias_crud_operations_async.py\"\
+    185\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_index_alias_crud_operations_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   new_index_name = \"hotels\"\n   fields = [\n       SimpleField(name=\"hotelId\"\
@@ -217,6 +219,7 @@ methods:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
   - name: match_condition
     description: The match condition to use upon the etag
     types:
@@ -236,7 +239,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    186\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_index_crud_operations_async.py\"\
+    185\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_index_crud_operations_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   client = SearchIndexClient(service_endpoint, AzureKeyCredential(key))\n \
@@ -267,6 +270,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.search.documents.indexes.models.SynonymMap>
+  keywordOnlyArguments:
   - name: match_condition
     description: The match condition to use upon the etag
     types:
@@ -295,7 +299,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    186\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_synonym_map_operations_async.py\"\
+    185\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_synonym_map_operations_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   synonyms = [\n       \"USA, United States, United States of America\",\n\
@@ -325,7 +329,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    186\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_index_alias_crud_operations_async.py\"\
+    185\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_index_alias_crud_operations_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n\n   await client.delete_alias(alias_name)\n\n   ````\n"
@@ -342,6 +346,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.search.documents.indexes.models.SearchIndex>
+  keywordOnlyArguments:
   - name: match_condition
     description: The match condition to use upon the etag
     types:
@@ -353,7 +358,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    186\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_index_crud_operations_async.py\"\
+    185\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_index_crud_operations_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   client = SearchIndexClient(service_endpoint, AzureKeyCredential(key))\n \
@@ -375,6 +380,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.search.documents.indexes.models.SynonymMap>
+  keywordOnlyArguments:
   - name: match_condition
     description: The match condition to use upon the etag
     types:
@@ -388,7 +394,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    186\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_synonym_map_operations_async.py\"\
+    185\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_synonym_map_operations_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   await client.delete_synonym_map(\"test-syn-map\")\n   print(\"Synonym Map\
@@ -428,7 +434,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    186\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_index_crud_operations_async.py\"\
+    185\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_index_crud_operations_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   client = SearchIndexClient(service_endpoint, AzureKeyCredential(key))\n \
@@ -497,7 +503,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    186\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_synonym_map_operations_async.py\"\
+    185\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_synonym_map_operations_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   result = await client.get_synonym_map(\"test-syn-map\")\n   print(\"Retrived\
@@ -518,7 +524,7 @@ methods:
   summary: List the Synonym Maps in an Azure Search service.
   signature: 'async get_synonym_maps(*, select: List[str] | None = None, **kwargs)
     -> List[SynonymMap]'
-  parameters:
+  keywordOnlyArguments:
   - name: select
     description: 'Selects which top-level properties of the skillsets to retrieve.
       Specified as a
@@ -539,7 +545,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    186\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_synonym_map_operations_async.py\"\
+    185\\\\azure-search-documents-11.4.0b11\\\\samples\\\\async_samples\\\\sample_synonym_map_operations_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   result = await client.get_synonym_maps()\n   names = [x.name for x in result]\n\
@@ -559,7 +565,7 @@ methods:
   name: list_aliases
   summary: List the aliases in an Azure Search service.
   signature: 'list_aliases(*, select: List[str] | None = None, **kwargs) -> AsyncItemPaged[SearchAlias]'
-  parameters:
+  keywordOnlyArguments:
   - name: select
     description: 'Selects which top-level properties of the skillsets to retrieve.
       Specified as a
@@ -589,7 +595,7 @@ methods:
   name: list_indexes
   summary: List the indexes in an Azure Search service.
   signature: 'list_indexes(*, select: List[str] | None = None, **kwargs) -> AsyncItemPaged[SearchIndex]'
-  parameters:
+  keywordOnlyArguments:
   - name: select
     description: 'Selects which top-level properties of the skillsets to retrieve.
       Specified as a

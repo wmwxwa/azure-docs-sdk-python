@@ -35,3 +35,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: client_secret_store_id
+  - name: client_secret_store_url
+  - name: channel_integrity_key_name
+  - name: channel_integrity_key_version

@@ -29,3 +29,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.managedservices.models.ErrorDefinition>]
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: details

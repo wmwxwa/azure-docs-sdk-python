@@ -61,6 +61,11 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: properties
+  - name: kind
+  - name: etag
+  - name: tags
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

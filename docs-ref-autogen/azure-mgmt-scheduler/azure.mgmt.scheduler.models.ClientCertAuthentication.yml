@@ -52,3 +52,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: password
+  - name: pfx
+  - name: certificate_thumbprint
+  - name: certificate_expiration_date
+  - name: certificate_subject_name

@@ -25,6 +25,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: estimated_vm_prices
+  - name: supported_compute_types
 variables:
 - description: The name of the virtual machine size.
   name: name

@@ -25,3 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.portal.models.ResourceProviderOperationDisplay>
+  keywordOnlyArguments:
+  - name: name
+  - name: is_data_action
+  - name: display

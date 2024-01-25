@@ -165,6 +165,15 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: source_id
+  - name: property
+  - name: health_state
+  - name: time_to_live_in_milli_seconds
+  - name: description
+  - name: sequence_number
+  - name: remove_when_expired
+  - name: health_report_id
 methods:
 - uid: azure.servicefabric.models.HealthInformation.as_dict
   name: as_dict

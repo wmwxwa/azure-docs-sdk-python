@@ -82,6 +82,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: start_time
+  - name: end_time
+  - name: pool_id
+  - name: scheduling_error
+  - name: terminate_reason
 methods:
 - uid: azure.batch.models.JobExecutionInformation.as_dict
   name: as_dict

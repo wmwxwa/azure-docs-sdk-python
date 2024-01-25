@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.personalizer.models.PersonalizerError>
+  keywordOnlyArguments:
+  - name: error
 methods:
 - uid: azure.cognitiveservices.personalizer.models.ErrorResponse.as_dict
   name: as_dict

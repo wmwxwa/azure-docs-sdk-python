@@ -23,3 +23,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.serialconsole.models.SerialConsoleOperationsValueItemDisplay>
+  keywordOnlyArguments:
+  - name: name
+  - name: is_data_action
+  - name: display

@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.managedservices.models.RegistrationAssignmentProperties>
+  keywordOnlyArguments:
+  - name: properties
 variables:
 - description: The fully qualified path of the registration assignment.
   name: id

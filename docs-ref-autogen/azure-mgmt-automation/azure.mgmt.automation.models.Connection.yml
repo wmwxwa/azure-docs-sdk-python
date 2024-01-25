@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: connection_type
+  - name: description
 variables:
 - description: Fully qualified resource Id for the resource.
   name: id

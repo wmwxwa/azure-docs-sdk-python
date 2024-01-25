@@ -36,6 +36,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: role_definition_id
+  - name: principal_id
+  - name: scope
+  - name: principal_type
 methods:
 - uid: azure.synapse.accesscontrol.models.RoleAssignmentDetails.as_dict
   name: as_dict

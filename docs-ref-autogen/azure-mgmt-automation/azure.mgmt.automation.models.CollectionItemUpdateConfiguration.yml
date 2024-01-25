@@ -25,3 +25,6 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.timedelta>
+  keywordOnlyArguments:
+  - name: azure_virtual_machines
+  - name: duration

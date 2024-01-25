@@ -57,6 +57,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.search.visualsearch.models.CropArea>
+  keywordOnlyArguments:
+  - name: image_insights_token
+  - name: url
+  - name: crop_area
 methods:
 - uid: azure.cognitiveservices.search.visualsearch.models.image_info_py3.ImageInfo.as_dict
   name: as_dict

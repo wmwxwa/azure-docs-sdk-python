@@ -59,6 +59,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.PartitionHealthState>]
+  keywordOnlyArguments:
+  - name: aggregated_health_state
+  - name: health_events
+  - name: unhealthy_evaluations
+  - name: health_statistics
+  - name: name
+  - name: partition_health_states
 methods:
 - uid: azure.servicefabric.models.ServiceHealth.as_dict
   name: as_dict

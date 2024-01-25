@@ -164,6 +164,22 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.ManagedApplicationIdentityDescription>
+  keywordOnlyArguments:
+  - name: name
+  - name: target_application_type_version
+  - name: parameters
+  - name: upgrade_kind
+    defaultValue: Rolling
+  - name: rolling_upgrade_mode
+    defaultValue: UnmonitoredAuto
+  - name: upgrade_replica_set_check_timeout_in_seconds
+  - name: force_restart
+  - name: sort_order
+    defaultValue: Default
+  - name: monitoring_policy
+  - name: application_health_policy
+  - name: instance_close_delay_duration_in_seconds
+  - name: managed_application_identity
 methods:
 - uid: azure.servicefabric.models.ApplicationUpgradeDescription.as_dict
   name: as_dict

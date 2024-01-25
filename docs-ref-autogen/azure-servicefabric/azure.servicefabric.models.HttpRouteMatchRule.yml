@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.HttpRouteMatchHeader>]
+  keywordOnlyArguments:
+  - name: path
+  - name: headers
 methods:
 - uid: azure.servicefabric.models.HttpRouteMatchRule.as_dict
   name: as_dict

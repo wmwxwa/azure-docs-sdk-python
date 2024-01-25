@@ -94,6 +94,18 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime>
+  keywordOnlyArguments:
+  - name: created_utc_timestamp
+  - name: claimed_utc_timestamp
+  - name: preparing_utc_timestamp
+  - name: approved_utc_timestamp
+  - name: executing_utc_timestamp
+  - name: restoring_utc_timestamp
+  - name: completed_utc_timestamp
+  - name: preparing_health_check_start_utc_timestamp
+  - name: preparing_health_check_end_utc_timestamp
+  - name: restoring_health_check_start_utc_timestamp
+  - name: restoring_health_check_end_utc_timestamp
 methods:
 - uid: azure.servicefabric.models.RepairTaskHistory.as_dict
   name: as_dict

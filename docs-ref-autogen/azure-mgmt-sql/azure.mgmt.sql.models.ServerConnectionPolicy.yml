@@ -21,6 +21,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.sql.models.ServerConnectionType>
+  keywordOnlyArguments:
+  - name: connection_type
 variables:
 - description: Resource ID.
   name: id

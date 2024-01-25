@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.billing.models.ReservationSummary>
+  keywordOnlyArguments:
+  - name: summary
 variables:
 - description: The list of reservations.
   name: value

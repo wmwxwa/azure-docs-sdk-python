@@ -20,3 +20,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: primary_shared_key
+  - name: secondary_shared_key

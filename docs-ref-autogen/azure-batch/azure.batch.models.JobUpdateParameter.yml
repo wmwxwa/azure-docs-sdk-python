@@ -112,6 +112,15 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.OnAllTasksComplete>
+  keywordOnlyArguments:
+  - name: pool_info
+  - name: priority
+  - name: max_parallel_tasks
+    defaultValue: '-1'
+  - name: allow_task_preemption
+  - name: constraints
+  - name: metadata
+  - name: on_all_tasks_complete
 methods:
 - uid: azure.batch.models.JobUpdateParameter.as_dict
   name: as_dict

@@ -44,6 +44,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: username
+  - name: source
+  - name: relative_mount_path
+  - name: password
+  - name: mount_options
 methods:
 - uid: azure.batch.models.CIFSMountConfiguration.as_dict
   name: as_dict

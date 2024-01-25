@@ -120,6 +120,22 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: service_id
+  - name: service_type_name
+  - name: application_name
+  - name: application_type_name
+  - name: service_instance
+  - name: is_stateful
+  - name: partition_count
+  - name: target_replica_set_size
+  - name: min_replica_set_size
+  - name: service_package_version
+  - name: partition_id
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.ServiceCreatedEvent.as_dict
   name: as_dict

@@ -199,6 +199,29 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: deployment_name
+  - name: application_name
+  - name: upgrade_state
+  - name: upgrade_status_details
+  - name: upgrade_kind
+    defaultValue: Rolling
+  - name: rolling_upgrade_mode
+    defaultValue: UnmonitoredAuto
+  - name: force_restart
+  - name: upgrade_replica_set_check_timeout_in_seconds
+  - name: monitoring_policy
+  - name: application_health_policy
+  - name: target_application_type_version
+  - name: upgrade_duration
+  - name: current_upgrade_domain_duration
+  - name: application_unhealthy_evaluations
+  - name: current_upgrade_domain_progress
+  - name: start_timestamp_utc
+  - name: failure_timestamp_utc
+  - name: failure_reason
+  - name: upgrade_domain_progress_at_failure
+  - name: application_upgrade_status_details
 methods:
 - uid: azure.servicefabric.models.ComposeDeploymentUpgradeProgressInfo.as_dict
   name: as_dict

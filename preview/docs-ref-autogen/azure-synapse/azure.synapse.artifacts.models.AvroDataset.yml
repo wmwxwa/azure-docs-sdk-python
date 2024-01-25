@@ -91,6 +91,18 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: linked_service_name
+  - name: additional_properties
+  - name: description
+  - name: structure
+  - name: schema
+  - name: parameters
+  - name: annotations
+  - name: folder
+  - name: location
+  - name: avro_compression_codec
+  - name: avro_compression_level
 methods:
 - uid: azure.synapse.artifacts.models.AvroDataset.as_dict
   name: as_dict

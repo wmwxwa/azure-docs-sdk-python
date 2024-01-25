@@ -35,6 +35,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: text
 variables:
 - description: 'The name of the field that the rule applies
 

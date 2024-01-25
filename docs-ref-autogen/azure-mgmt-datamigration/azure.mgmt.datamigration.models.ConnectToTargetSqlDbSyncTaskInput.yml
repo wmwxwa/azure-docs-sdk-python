@@ -24,3 +24,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datamigration.models.SqlConnectionInfo>
+  keywordOnlyArguments:
+  - name: source_connection_info
+  - name: target_connection_info

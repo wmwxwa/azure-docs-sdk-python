@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: enabled
+  - name: sync_interval_in_minutes
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

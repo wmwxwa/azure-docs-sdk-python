@@ -117,6 +117,21 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: partition_id
+  - name: replica_id
+  - name: source_id
+  - name: property
+  - name: health_state
+  - name: time_to_live_ms
+  - name: sequence_number
+  - name: description
+  - name: remove_when_expired
+  - name: source_utc_timestamp
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.StatelessReplicaNewHealthReportEvent.as_dict
   name: as_dict

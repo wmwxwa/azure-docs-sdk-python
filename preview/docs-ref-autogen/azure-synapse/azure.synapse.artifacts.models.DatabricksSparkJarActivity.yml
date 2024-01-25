@@ -81,6 +81,17 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:dict>[<xref:str>, <xref:object>]]
+  keywordOnlyArguments:
+  - name: name
+  - name: main_class_name
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: linked_service_name
+  - name: policy
+  - name: parameters
+  - name: libraries
 methods:
 - uid: azure.synapse.artifacts.models.DatabricksSparkJarActivity.as_dict
   name: as_dict

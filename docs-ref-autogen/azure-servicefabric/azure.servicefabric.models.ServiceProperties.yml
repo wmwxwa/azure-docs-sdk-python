@@ -48,6 +48,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: description
+  - name: replica_count
+  - name: execution_policy
+  - name: auto_scaling_policies
+  - name: identity_refs
+  - name: dns_name
 variables:
 - description: 'Status of the service. Possible values include: ''Unknown'',
 

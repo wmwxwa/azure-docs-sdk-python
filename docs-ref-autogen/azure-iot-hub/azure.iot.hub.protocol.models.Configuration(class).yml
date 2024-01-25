@@ -74,6 +74,18 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: schema_version
+  - name: labels
+  - name: content
+  - name: target_condition
+  - name: created_time_utc
+  - name: last_updated_time_utc
+  - name: priority
+  - name: system_metrics
+  - name: metrics
+  - name: etag
 methods:
 - uid: azure.iot.hub.protocol.models.Configuration.as_dict
   name: as_dict

@@ -92,6 +92,16 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.servicefabric.models.HealthState>
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: type_name
+  - name: type_version
+  - name: status
+  - name: work_directory
+  - name: log_directory
+  - name: temp_directory
+  - name: health_state
 methods:
 - uid: azure.servicefabric.models.DeployedApplicationInfo.as_dict
   name: as_dict

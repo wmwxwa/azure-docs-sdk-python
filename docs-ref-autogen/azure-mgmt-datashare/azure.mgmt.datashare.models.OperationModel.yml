@@ -31,3 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datashare.models.OperationMetaServiceSpecification>
+  keywordOnlyArguments:
+  - name: display
+  - name: name
+  - name: origin
+  - name: service_specification

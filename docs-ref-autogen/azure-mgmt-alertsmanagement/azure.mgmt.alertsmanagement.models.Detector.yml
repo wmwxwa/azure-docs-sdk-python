@@ -56,3 +56,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: id
+  - name: parameters
+  - name: name
+  - name: description
+  - name: supported_resource_types
+  - name: image_paths

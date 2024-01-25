@@ -48,6 +48,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.machinelearningservices.models.VirtualMachineProperties>
+  keywordOnlyArguments:
+  - name: compute_location
+  - name: description
+  - name: resource_id
+  - name: properties
 variables:
 - description: 'The provision state of the cluster. Valid values are Unknown,
 

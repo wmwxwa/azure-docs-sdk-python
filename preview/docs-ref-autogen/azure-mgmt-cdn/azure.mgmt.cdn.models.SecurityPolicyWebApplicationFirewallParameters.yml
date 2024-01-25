@@ -13,7 +13,7 @@ constructor:
   syntax: 'SecurityPolicyWebApplicationFirewallParameters(*, waf_policy: _models.ResourceReference
     | None = None, associations: List[_models.SecurityPolicyWebApplicationFirewallAssociation]
     | None = None, **kwargs)'
-  parameters:
+  keywordOnlyArguments:
   - name: waf_policy
     description: Resource ID.
     types:

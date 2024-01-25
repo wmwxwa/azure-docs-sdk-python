@@ -9,7 +9,7 @@ summary: Restore file spec.
 constructor:
   syntax: 'RestoreFileSpec(*, path: str | None = None, isdir: bool | None = None,
     **kwargs)'
-  parameters:
+  keywordOnlyArguments:
   - name: path
     description: Restore file spec path.
     types:

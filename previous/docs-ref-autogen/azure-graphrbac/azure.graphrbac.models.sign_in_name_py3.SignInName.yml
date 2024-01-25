@@ -33,6 +33,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: type
+  - name: value
 methods:
 - uid: azure.graphrbac.models.sign_in_name_py3.SignInName.as_dict
   name: as_dict

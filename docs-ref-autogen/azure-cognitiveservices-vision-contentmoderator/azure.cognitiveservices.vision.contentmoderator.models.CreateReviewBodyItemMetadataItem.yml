@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: key
+  - name: value
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.CreateReviewBodyItemMetadataItem.as_dict
   name: as_dict

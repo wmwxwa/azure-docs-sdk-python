@@ -34,3 +34,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.automation.models.ContentLink>
+  keywordOnlyArguments:
+  - name: content_link
+  - name: name
+  - name: location
+  - name: tags

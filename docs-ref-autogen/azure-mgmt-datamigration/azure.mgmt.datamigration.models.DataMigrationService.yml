@@ -65,6 +65,15 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: etag
+  - name: kind
+  - name: sku
+  - name: public_key
+  - name: virtual_subnet_id
+  - name: virtual_nic_id
 variables:
 - description: Resource ID.
   name: id

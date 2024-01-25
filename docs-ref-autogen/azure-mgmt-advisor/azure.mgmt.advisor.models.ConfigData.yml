@@ -37,6 +37,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.advisor.models.DigestConfig>]
+  keywordOnlyArguments:
+  - name: exclude
+  - name: low_cpu_threshold
+  - name: digests
 variables:
 - description: The resource ID.
   name: id

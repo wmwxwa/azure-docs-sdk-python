@@ -153,6 +153,24 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: project
+  - name: authentication_type
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: additional_projects
+  - name: request_google_drive_scope
+  - name: refresh_token
+  - name: client_id
+  - name: client_secret
+  - name: email
+  - name: key_file_path
+  - name: trusted_cert_path
+  - name: use_system_trust_store
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.GoogleBigQueryLinkedService.as_dict
   name: as_dict

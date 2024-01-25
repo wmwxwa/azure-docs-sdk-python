@@ -26,3 +26,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.AzureMonitorSelectedConfigurations>
+  keywordOnlyArguments:
+  - name: workspace_id
+  - name: primary_key
+  - name: selected_configurations

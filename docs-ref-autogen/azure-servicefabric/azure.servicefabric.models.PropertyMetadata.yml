@@ -54,6 +54,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: type_id
+  - name: custom_type_id
+  - name: parent
+  - name: size_in_bytes
+  - name: last_modified_utc_timestamp
+  - name: sequence_number
 methods:
 - uid: azure.servicefabric.models.PropertyMetadata.as_dict
   name: as_dict

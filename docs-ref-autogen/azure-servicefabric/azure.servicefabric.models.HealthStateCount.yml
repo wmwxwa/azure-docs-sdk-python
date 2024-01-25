@@ -33,6 +33,10 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
+  keywordOnlyArguments:
+  - name: ok_count
+  - name: warning_count
+  - name: error_count
 methods:
 - uid: azure.servicefabric.models.HealthStateCount.as_dict
   name: as_dict

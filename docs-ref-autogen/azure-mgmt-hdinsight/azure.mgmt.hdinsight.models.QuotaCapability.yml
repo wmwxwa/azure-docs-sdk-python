@@ -25,3 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.hdinsight.models.RegionalQuotaCapability>]
+  keywordOnlyArguments:
+  - name: cores_used
+  - name: max_cores_allowed
+  - name: regional_quotas

@@ -28,6 +28,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.edgegateway.models.ShareAccessRight>]
+  keywordOnlyArguments:
+  - name: encrypted_password
+  - name: share_access_rights
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

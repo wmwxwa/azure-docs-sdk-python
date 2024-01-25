@@ -19,6 +19,8 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: score
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.ClassificationCategory1.as_dict
   name: as_dict

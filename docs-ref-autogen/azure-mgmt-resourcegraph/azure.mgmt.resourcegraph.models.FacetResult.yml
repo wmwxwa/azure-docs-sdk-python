@@ -42,3 +42,8 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: expression
+  - name: total_records
+  - name: count
+  - name: data

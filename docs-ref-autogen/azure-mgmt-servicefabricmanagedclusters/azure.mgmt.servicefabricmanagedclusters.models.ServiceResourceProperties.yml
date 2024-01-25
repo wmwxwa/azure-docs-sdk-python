@@ -99,6 +99,16 @@ constructor:
     types:
     - <xref:str>
     - <xref:service_fabric_managed_clusters_management_client.models.ServicePackageActivationMode>
+  keywordOnlyArguments:
+  - name: service_type_name
+  - name: partition_description
+  - name: placement_constraints
+  - name: correlation_scheme
+  - name: service_load_metrics
+  - name: service_placement_policies
+  - name: default_move_cost
+  - name: scaling_policies
+  - name: service_package_activation_mode
 variables:
 - description: 'The current deployment or provisioning state, which only appears in
 

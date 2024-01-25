@@ -38,6 +38,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
   - name: format_version
     description: 'File format version. If not specified, the service will
 

@@ -41,6 +41,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: data_set_id
+  - name: synapse_workspace_sql_pool_table_resource_id
 variables:
 - description: The resource id of the azure resource.
   name: id

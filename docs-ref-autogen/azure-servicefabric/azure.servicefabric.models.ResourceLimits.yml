@@ -25,6 +25,9 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: memory_in_gb
+  - name: cpu
 methods:
 - uid: azure.servicefabric.models.ResourceLimits.as_dict
   name: as_dict

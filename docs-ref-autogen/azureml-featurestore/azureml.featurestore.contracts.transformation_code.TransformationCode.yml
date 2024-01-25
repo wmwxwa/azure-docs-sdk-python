@@ -16,6 +16,9 @@ summary: 'Feature transformation code representation
   :type transformer_class: str, required'
 constructor:
   syntax: 'TransformationCode(*, path: str, transformer_class: str, **kwargs)'
+  keywordOnlyArguments:
+  - name: path
+  - name: transformer_class
 attributes:
 - uid: azureml.featurestore.contracts.transformation_code.TransformationCode.code_local_path
   name: code_local_path

@@ -36,6 +36,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: external_service_fabric_id
+  - name: environment_id
 variables:
 - description: The identifier of the resource.
   name: id

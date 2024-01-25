@@ -34,6 +34,11 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: object_ids
+  - name: types
+  - name: include_directory_object_references
 methods:
 - uid: azure.graphrbac.models.GetObjectsParameters.as_dict
   name: as_dict

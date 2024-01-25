@@ -162,6 +162,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.DeployedApplicationHealthStateFilter>]
+  keywordOnlyArguments:
+  - name: application_name_filter
+  - name: application_type_name_filter
+  - name: health_state_filter
+  - name: service_filters
+  - name: deployed_application_filters
 methods:
 - uid: azure.servicefabric.models.ApplicationHealthStateFilter.as_dict
   name: as_dict

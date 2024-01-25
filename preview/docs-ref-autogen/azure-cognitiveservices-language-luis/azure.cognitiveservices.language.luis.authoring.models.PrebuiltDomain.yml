@@ -34,6 +34,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.PrebuiltDomainItem>]
+  keywordOnlyArguments:
+  - name: name
+  - name: culture
+  - name: description
+  - name: examples
+  - name: intents
+  - name: entities
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.PrebuiltDomain.as_dict
   name: as_dict

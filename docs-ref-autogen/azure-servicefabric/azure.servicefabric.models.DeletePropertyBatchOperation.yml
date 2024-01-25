@@ -29,6 +29,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: property_name
 methods:
 - uid: azure.servicefabric.models.DeletePropertyBatchOperation.as_dict
   name: as_dict

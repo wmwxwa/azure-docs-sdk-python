@@ -28,3 +28,6 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.timedelta>
+  keywordOnlyArguments:
+  - name: multi_factor_auth_provider
+  - name: maximum_activation_duration

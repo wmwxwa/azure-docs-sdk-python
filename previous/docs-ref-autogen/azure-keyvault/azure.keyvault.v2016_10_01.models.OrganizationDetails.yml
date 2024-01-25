@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.keyvault.v2016_10_01.models.AdministratorDetails>]
+  keywordOnlyArguments:
+  - name: id
+  - name: admin_details
 methods:
 - uid: azure.keyvault.v2016_10_01.models.OrganizationDetails.as_dict
   name: as_dict

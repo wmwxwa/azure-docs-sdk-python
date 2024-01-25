@@ -34,6 +34,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: requires_client_authorization
+  - name: user_metadata
 variables:
 - description: Resource ID.
   name: id

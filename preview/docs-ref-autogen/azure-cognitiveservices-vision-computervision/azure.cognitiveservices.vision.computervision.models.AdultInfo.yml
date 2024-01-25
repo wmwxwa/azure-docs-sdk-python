@@ -49,6 +49,13 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: is_adult_content
+  - name: is_racy_content
+  - name: is_gory_content
+  - name: adult_score
+  - name: racy_score
+  - name: gore_score
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.AdultInfo.as_dict
   name: as_dict

@@ -83,6 +83,15 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: type_name
+  - name: manifest_version
+  - name: health_state
+  - name: service_status
+  - name: is_service_group
+  - name: has_persisted_state
 methods:
 - uid: azure.servicefabric.models.StatefulServiceInfo.as_dict
   name: as_dict

@@ -38,3 +38,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: contact_name
+  - name: phone
+  - name: email_list
+  - name: phone_extension
+  - name: mobile

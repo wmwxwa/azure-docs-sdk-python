@@ -14,6 +14,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: session_id
 methods:
 - uid: azure.synapse.artifacts.models.CreateDataFlowDebugSessionResponse.as_dict
   name: as_dict

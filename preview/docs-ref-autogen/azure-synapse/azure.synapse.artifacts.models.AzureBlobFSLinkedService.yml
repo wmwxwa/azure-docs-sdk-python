@@ -99,6 +99,18 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: url
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: account_key
+  - name: service_principal_id
+  - name: service_principal_key
+  - name: tenant
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.AzureBlobFSLinkedService.as_dict
   name: as_dict

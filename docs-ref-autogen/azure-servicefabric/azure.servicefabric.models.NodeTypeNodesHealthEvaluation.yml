@@ -80,6 +80,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.HealthEvaluationWrapper>]
+  keywordOnlyArguments:
+  - name: aggregated_health_state
+  - name: description
+  - name: node_type_name
+  - name: max_percent_unhealthy_nodes
+  - name: total_count
+  - name: unhealthy_evaluations
 methods:
 - uid: azure.servicefabric.models.NodeTypeNodesHealthEvaluation.as_dict
   name: as_dict

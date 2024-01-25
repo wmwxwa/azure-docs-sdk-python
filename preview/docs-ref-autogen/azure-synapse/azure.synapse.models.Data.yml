@@ -31,6 +31,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.models.Config>
+  keywordOnlyArguments:
+  - name: handler_path
+  - name: inputs
+  - name: outputs
+  - name: tables
+  - name: config
 methods:
 - uid: azure.synapse.models.Data.as_dict
   name: as_dict

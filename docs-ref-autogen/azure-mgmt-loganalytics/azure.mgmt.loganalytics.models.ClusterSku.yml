@@ -22,3 +22,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.loganalytics.models.ClusterSkuNameEnum>
+  keywordOnlyArguments:
+  - name: capacity
+  - name: name

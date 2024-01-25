@@ -37,6 +37,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: partition_id
 methods:
 - uid: azure.servicefabric.models.PartitionSafetyCheck.as_dict
   name: as_dict

@@ -51,3 +51,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: principal_id
+  - name: role_definition_id
+  - name: principal_id_display_name
+  - name: delegated_role_definition_ids

@@ -37,3 +37,7 @@ constructor:
     isRequired: true
     types:
     - <xref:typing.Optional>[<xref:str>]
+  keywordOnlyArguments:
+  - name: admin_username
+  - name: admin_password
+  - name: ssh_key_value

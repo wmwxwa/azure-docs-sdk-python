@@ -42,3 +42,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: offer_durable_id
+  - name: currency
+  - name: locale
+  - name: region_info

@@ -21,6 +21,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.OperationStatus>
+  keywordOnlyArguments:
+  - name: value
+  - name: has_error
+  - name: error
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.BatchLabelExample.as_dict
   name: as_dict

@@ -136,6 +136,26 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.SSISLogLocation>
+  keywordOnlyArguments:
+  - name: name
+  - name: package_location
+  - name: connect_via
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: linked_service_name
+  - name: policy
+  - name: runtime
+  - name: logging_level
+  - name: environment_path
+  - name: execution_credential
+  - name: project_parameters
+  - name: package_parameters
+  - name: project_connection_managers
+  - name: package_connection_managers
+  - name: property_overrides
+  - name: log_location
 methods:
 - uid: azure.synapse.artifacts.models.ExecuteSSISPackageActivity.as_dict
   name: as_dict

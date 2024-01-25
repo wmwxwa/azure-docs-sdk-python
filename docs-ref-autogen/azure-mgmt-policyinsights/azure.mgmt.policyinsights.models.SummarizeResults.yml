@@ -30,3 +30,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.policyinsights.models.Summary>]
+  keywordOnlyArguments:
+  - name: odata_context
+  - name: odata_count
+  - name: value

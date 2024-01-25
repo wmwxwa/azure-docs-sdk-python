@@ -52,6 +52,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: culture
+  - name: name
+  - name: domain
+  - name: description
+  - name: initial_version_id
+  - name: usage_scenario
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.ApplicationCreateObject.as_dict
   name: as_dict

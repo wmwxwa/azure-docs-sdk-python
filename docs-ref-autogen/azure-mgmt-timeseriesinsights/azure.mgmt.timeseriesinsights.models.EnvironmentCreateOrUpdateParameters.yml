@@ -48,3 +48,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.timeseriesinsights.models.Sku>
+  keywordOnlyArguments:
+  - name: location
+  - name: sku
+  - name: tags

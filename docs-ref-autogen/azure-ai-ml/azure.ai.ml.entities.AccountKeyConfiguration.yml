@@ -8,6 +8,8 @@ inheritances:
 - azure.ai.ml.entities._mixins.DictMixin
 constructor:
   syntax: 'AccountKeyConfiguration(*, account_key: str)'
+  keywordOnlyArguments:
+  - name: account_key
 methods:
 - uid: azure.ai.ml.entities.AccountKeyConfiguration.get
   name: get

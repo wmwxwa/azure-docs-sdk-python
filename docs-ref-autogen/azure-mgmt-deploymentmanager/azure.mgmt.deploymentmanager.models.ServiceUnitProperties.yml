@@ -34,3 +34,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.deploymentmanager.models.ServiceUnitArtifacts>
+  keywordOnlyArguments:
+  - name: target_resource_group
+  - name: deployment_mode
+  - name: artifacts

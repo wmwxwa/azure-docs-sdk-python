@@ -27,6 +27,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: service_host_upgrade_impact
+  - name: validation_details
 methods:
 - uid: azure.servicefabric.models.ValidateClusterUpgradeResult.as_dict
   name: as_dict

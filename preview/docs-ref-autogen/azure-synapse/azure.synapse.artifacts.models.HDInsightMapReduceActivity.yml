@@ -105,6 +105,22 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:object>]
+  keywordOnlyArguments:
+  - name: name
+  - name: class_name
+  - name: jar_file_path
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: linked_service_name
+  - name: policy
+  - name: storage_linked_services
+  - name: arguments
+  - name: get_debug_info
+  - name: jar_linked_service
+  - name: jar_libs
+  - name: defines
 methods:
 - uid: azure.synapse.artifacts.models.HDInsightMapReduceActivity.as_dict
   name: as_dict

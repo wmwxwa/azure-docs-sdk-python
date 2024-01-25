@@ -24,3 +24,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.machinelearningservices.models.NotebookPreparationError>
+  keywordOnlyArguments:
+  - name: fqdn
+  - name: resource_id
+  - name: notebook_preparation_error

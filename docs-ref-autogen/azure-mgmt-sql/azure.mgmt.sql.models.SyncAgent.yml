@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: sync_database_id
 variables:
 - description: Resource ID.
   name: id

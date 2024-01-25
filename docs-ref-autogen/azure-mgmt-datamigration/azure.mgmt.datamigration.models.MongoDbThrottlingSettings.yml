@@ -33,3 +33,7 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: min_free_cpu
+  - name: min_free_memory_mb
+  - name: max_parallelism

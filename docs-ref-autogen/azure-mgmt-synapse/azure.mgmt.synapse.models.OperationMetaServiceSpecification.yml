@@ -21,3 +21,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.synapse.models.OperationMetaLogSpecification>]
+  keywordOnlyArguments:
+  - name: metric_specifications
+  - name: log_specifications

@@ -46,6 +46,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: property_name
+  - name: sequence_number
 methods:
 - uid: azure.servicefabric.models.CheckSequencePropertyBatchOperation.as_dict
   name: as_dict

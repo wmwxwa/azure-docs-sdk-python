@@ -31,6 +31,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.ObjectHierarchy>
+  keywordOnlyArguments:
+  - name: object_property
+  - name: confidence
+  - name: parent
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.ObjectHierarchy.as_dict
   name: as_dict

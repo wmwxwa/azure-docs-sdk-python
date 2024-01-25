@@ -80,6 +80,19 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.cognitiveservices.language.luis.authoring.models.TrainingStatus>
+  keywordOnlyArguments:
+  - name: version
+  - name: training_status
+  - name: created_date_time
+  - name: last_modified_date_time
+  - name: last_trained_date_time
+  - name: last_published_date_time
+  - name: endpoint_url
+  - name: assigned_endpoint_key
+  - name: external_api_keys
+  - name: intents_count
+  - name: entities_count
+  - name: endpoint_hits_count
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.VersionInfo.as_dict
   name: as_dict

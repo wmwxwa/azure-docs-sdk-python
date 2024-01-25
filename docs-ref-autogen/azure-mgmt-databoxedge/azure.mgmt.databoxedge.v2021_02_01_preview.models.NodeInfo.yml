@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.databoxedge.v2021_02_01_preview.models.KubernetesIPConfiguration>]
+  keywordOnlyArguments:
+  - name: ip_configuration
 variables:
 - description: Node name.
   name: name

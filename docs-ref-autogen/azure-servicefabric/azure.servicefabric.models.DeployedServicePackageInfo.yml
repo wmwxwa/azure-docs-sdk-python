@@ -51,6 +51,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: version
+  - name: status
+  - name: service_package_activation_id
 methods:
 - uid: azure.servicefabric.models.DeployedServicePackageInfo.as_dict
   name: as_dict

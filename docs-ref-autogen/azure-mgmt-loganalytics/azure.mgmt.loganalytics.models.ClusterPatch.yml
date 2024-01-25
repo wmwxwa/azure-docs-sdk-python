@@ -39,3 +39,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.loganalytics.models.BillingType>
+  keywordOnlyArguments:
+  - name: identity
+  - name: sku
+  - name: tags
+  - name: key_vault_properties
+  - name: billing_type

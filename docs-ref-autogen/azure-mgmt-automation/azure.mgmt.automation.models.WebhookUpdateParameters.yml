@@ -37,3 +37,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: is_enabled
+  - name: run_on
+  - name: parameters
+  - name: description

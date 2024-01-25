@@ -17,3 +17,5 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.powerbidedicated.models.DedicatedCapacity>]
+  keywordOnlyArguments:
+  - name: value

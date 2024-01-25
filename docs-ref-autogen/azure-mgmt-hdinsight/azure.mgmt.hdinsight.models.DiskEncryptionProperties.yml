@@ -47,3 +47,10 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: vault_uri
+  - name: key_name
+  - name: key_version
+  - name: encryption_algorithm
+  - name: msi_resource_id
+  - name: encryption_at_host

@@ -27,6 +27,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.FaceRectangle>
+  keywordOnlyArguments:
+  - name: name
+  - name: confidence
+  - name: face_rectangle
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.CelebritiesModel.as_dict
   name: as_dict

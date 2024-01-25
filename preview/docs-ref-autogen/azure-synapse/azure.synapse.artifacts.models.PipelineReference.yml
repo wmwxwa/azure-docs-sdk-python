@@ -25,6 +25,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: reference_name
+  - name: name
 variables:
 - description: 'Required. Pipeline reference type. Default value: "PipelineReference".'
   name: type

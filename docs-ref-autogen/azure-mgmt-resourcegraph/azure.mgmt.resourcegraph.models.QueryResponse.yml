@@ -54,3 +54,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.resourcegraph.models.Facet>]
+  keywordOnlyArguments:
+  - name: total_records
+  - name: count
+  - name: result_truncated
+  - name: data
+  - name: skip_token
+  - name: facets

@@ -35,6 +35,11 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.cognitiveservices.vision.face.models.RecognitionModel>
+  keywordOnlyArguments:
+  - name: name
+  - name: user_data
+  - name: recognition_model
+    defaultValue: recognition_01
 methods:
 - uid: azure.cognitiveservices.vision.face.models.MetaDataContract.as_dict
   name: as_dict

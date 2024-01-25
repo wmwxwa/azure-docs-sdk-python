@@ -21,6 +21,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: enabled
+  - name: sink_refs
 methods:
 - uid: azure.servicefabric.models.DiagnosticsRef.as_dict
   name: as_dict

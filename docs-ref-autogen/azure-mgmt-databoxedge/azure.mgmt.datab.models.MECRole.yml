@@ -36,6 +36,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.databoxedge.v2020_12_01.models.RoleStatus>
+  keywordOnlyArguments:
+  - name: connection_string
+  - name: role_status
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

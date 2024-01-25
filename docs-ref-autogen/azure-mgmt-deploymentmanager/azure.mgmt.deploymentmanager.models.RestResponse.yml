@@ -25,3 +25,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.deploymentmanager.models.RestResponseRegex>
+  keywordOnlyArguments:
+  - name: success_status_codes
+  - name: regex

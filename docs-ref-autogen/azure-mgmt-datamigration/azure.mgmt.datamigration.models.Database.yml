@@ -113,3 +113,21 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: compatibility_level
+  - name: collation
+  - name: server_name
+  - name: fqdn
+  - name: install_id
+  - name: server_version
+  - name: server_edition
+  - name: server_level
+  - name: server_default_data_path
+  - name: server_default_log_path
+  - name: server_default_backup_path
+  - name: server_core_count
+  - name: server_visible_online_core_count
+  - name: database_state
+  - name: server_id

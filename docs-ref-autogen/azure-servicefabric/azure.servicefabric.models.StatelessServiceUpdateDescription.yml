@@ -286,6 +286,23 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: flags
+  - name: placement_constraints
+  - name: correlation_scheme
+  - name: load_metrics
+  - name: service_placement_policies
+  - name: default_move_cost
+  - name: scaling_policies
+  - name: service_dns_name
+  - name: tags_for_placement
+  - name: tags_for_running
+  - name: instance_count
+  - name: min_instance_count
+  - name: min_instance_percentage
+  - name: instance_close_delay_duration_seconds
+  - name: instance_lifecycle_description
+  - name: instance_restart_wait_duration_seconds
 methods:
 - uid: azure.servicefabric.models.StatelessServiceUpdateDescription.as_dict
   name: as_dict

@@ -45,3 +45,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.deploymentmanager.models.Authentication>
+  keywordOnlyArguments:
+  - name: source_type
+  - name: authentication
+  - name: artifact_root

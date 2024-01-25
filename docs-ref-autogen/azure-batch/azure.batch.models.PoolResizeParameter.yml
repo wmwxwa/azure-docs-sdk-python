@@ -47,6 +47,11 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.ComputeNodeDeallocationOption>
+  keywordOnlyArguments:
+  - name: target_dedicated_nodes
+  - name: target_low_priority_nodes
+  - name: resize_timeout
+  - name: node_deallocation_option
 methods:
 - uid: azure.batch.models.PoolResizeParameter.as_dict
   name: as_dict

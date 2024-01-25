@@ -37,6 +37,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure_arc_data_management_client.models.DataControllerProperties>
+  keywordOnlyArguments:
+  - name: location
+  - name: properties
+  - name: tags
+  - name: extended_location
 variables:
 - description: 'Fully qualified resource Id for the resource. Ex -
 

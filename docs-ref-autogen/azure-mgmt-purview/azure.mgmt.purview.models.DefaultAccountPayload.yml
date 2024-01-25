@@ -45,3 +45,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: account_name
+  - name: resource_group_name
+  - name: scope
+  - name: scope_tenant_id
+  - name: scope_type
+  - name: subscription_id

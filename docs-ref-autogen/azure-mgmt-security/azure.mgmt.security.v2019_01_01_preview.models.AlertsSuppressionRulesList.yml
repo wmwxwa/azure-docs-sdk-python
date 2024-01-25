@@ -15,7 +15,7 @@ summary: 'Suppression rules list for subscription.
 constructor:
   syntax: 'AlertsSuppressionRulesList(*, value: List[_models.AlertsSuppressionRule],
     **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: Required.
     types:

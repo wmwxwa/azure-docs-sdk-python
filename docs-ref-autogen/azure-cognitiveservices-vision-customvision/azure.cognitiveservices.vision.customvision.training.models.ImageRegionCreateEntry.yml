@@ -43,6 +43,13 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: image_id
+  - name: tag_id
+  - name: left
+  - name: top
+  - name: width
+  - name: height
 methods:
 - uid: azure.cognitiveservices.vision.customvision.training.models.ImageRegionCreateEntry.as_dict
   name: as_dict

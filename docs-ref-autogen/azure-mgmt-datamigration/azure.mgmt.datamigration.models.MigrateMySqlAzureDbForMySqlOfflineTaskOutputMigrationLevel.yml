@@ -34,6 +34,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datamigration.models.MigrationReportResult>
+  keywordOnlyArguments:
+  - name: databases
+  - name: migration_report_result
 variables:
 - description: Result identifier.
   name: id

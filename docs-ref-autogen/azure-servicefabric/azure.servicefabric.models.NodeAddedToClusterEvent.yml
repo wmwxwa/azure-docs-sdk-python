@@ -79,6 +79,18 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: node_name
+  - name: node_id
+  - name: node_instance
+  - name: node_type
+  - name: fabric_version
+  - name: ip_address_or_fqdn
+  - name: node_capacities
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.NodeAddedToClusterEvent.as_dict
   name: as_dict

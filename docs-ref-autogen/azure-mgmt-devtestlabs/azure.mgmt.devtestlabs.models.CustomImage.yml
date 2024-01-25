@@ -76,6 +76,18 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: vm
+  - name: vhd
+  - name: description
+  - name: author
+  - name: managed_image_id
+  - name: managed_snapshot_id
+  - name: data_disk_storage_info
+  - name: custom_image_plan
+  - name: is_plan_authorized
 variables:
 - description: The identifier of the resource.
   name: id

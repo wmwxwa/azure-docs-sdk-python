@@ -52,6 +52,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.HttpConfig>]
+  keywordOnlyArguments:
+  - name: name
+  - name: source_network
+  - name: destination_network
+  - name: description
+  - name: tcp
+  - name: http
 variables:
 - description: 'Status of the resource. Possible values include: ''Unknown'',
 

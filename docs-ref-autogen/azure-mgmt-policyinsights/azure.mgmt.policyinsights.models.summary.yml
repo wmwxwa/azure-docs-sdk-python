@@ -34,3 +34,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.policyinsights.models.PolicyAssignmentSummary>]
+  keywordOnlyArguments:
+  - name: odata_id
+  - name: odata_context
+  - name: results
+  - name: policy_assignments

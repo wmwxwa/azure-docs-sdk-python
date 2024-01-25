@@ -8,6 +8,12 @@ inheritances:
 constructor:
   syntax: 'Output(type: Literal[''uri_folder''] = ''uri_folder'', path=None, mode=None,
     description=None)'
+  keywordOnlyArguments:
+  - name: type
+    defaultValue: uri_folder
+  - name: path
+  - name: mode
+  - name: description
 methods:
 - uid: azure.ai.ml.Output.get
   name: get

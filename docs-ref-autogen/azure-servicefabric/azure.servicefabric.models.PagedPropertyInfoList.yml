@@ -46,6 +46,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.PropertyInfo>]
+  keywordOnlyArguments:
+  - name: continuation_token
+  - name: is_consistent
+  - name: properties
 methods:
 - uid: azure.servicefabric.models.PagedPropertyInfoList.as_dict
   name: as_dict

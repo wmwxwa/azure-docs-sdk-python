@@ -40,6 +40,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: is_dynamic_allocation_on
+  - name: executor_instances
+  - name: start_time
+  - name: end_time
+  - name: events
+  - name: executor_cores
+  - name: executor_memory
 methods:
 - uid: azure.synapse.models.Executors.as_dict
   name: as_dict

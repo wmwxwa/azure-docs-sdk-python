@@ -26,3 +26,6 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: stage_name
+  - name: send_notification

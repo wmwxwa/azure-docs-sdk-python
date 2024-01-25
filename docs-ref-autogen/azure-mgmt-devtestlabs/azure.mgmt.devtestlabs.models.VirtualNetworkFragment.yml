@@ -39,3 +39,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.devtestlabs.models.SubnetOverrideFragment>]
+  keywordOnlyArguments:
+  - name: tags
+  - name: allowed_subnets
+  - name: description
+  - name: external_provider_resource_id
+  - name: subnet_overrides

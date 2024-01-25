@@ -60,6 +60,14 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: sunday
+  - name: monday
+  - name: tuesday
+  - name: wednesday
+  - name: thursday
+  - name: friday
+  - name: saturday
 methods:
 - uid: azure.servicefabric.models.ChaosScheduleJobActiveDaysOfWeek.as_dict
   name: as_dict

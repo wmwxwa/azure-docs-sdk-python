@@ -54,3 +54,12 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: target_database_name
+  - name: schema_name
+  - name: table_map
+  - name: migration_setting
+  - name: source_setting
+  - name: target_setting

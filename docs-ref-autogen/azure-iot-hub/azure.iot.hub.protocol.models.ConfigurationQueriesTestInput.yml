@@ -24,6 +24,9 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: target_condition
+  - name: custom_metric_queries
 methods:
 - uid: azure.iot.hub.protocol.models.ConfigurationQueriesTestInput.as_dict
   name: as_dict

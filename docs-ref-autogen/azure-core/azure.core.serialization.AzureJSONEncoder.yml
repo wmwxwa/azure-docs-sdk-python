@@ -76,6 +76,18 @@ summary: 'A JSON encoder that''s capable of serializing datetime objects and byt
 constructor:
   syntax: AzureJSONEncoder(*, skipkeys=False, ensure_ascii=True, check_circular=True,
     allow_nan=True, sort_keys=False, indent=None, separators=None, default=None)
+  keywordOnlyArguments:
+  - name: skipkeys
+  - name: ensure_ascii
+    defaultValue: 'True'
+  - name: check_circular
+    defaultValue: 'True'
+  - name: allow_nan
+    defaultValue: 'True'
+  - name: sort_keys
+  - name: indent
+  - name: separators
+  - name: default
 methods:
 - uid: azure.core.serialization.AzureJSONEncoder.default
   name: default

@@ -49,3 +49,10 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: enable_data_export
+  - name: immediate_purge_data_on30_days
+  - name: enable_log_access_using_only_resource_permissions
+  - name: cluster_resource_id
+  - name: disable_local_auth

@@ -99,6 +99,14 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.batch.models.MetadataItem>]
+  keywordOnlyArguments:
+  - name: priority
+  - name: max_parallel_tasks
+  - name: allow_task_preemption
+  - name: on_all_tasks_complete
+  - name: constraints
+  - name: pool_info
+  - name: metadata
 methods:
 - uid: azure.batch.models.JobPatchParameter.as_dict
   name: as_dict

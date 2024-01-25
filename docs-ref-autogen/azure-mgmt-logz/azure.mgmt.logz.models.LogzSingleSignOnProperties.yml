@@ -32,6 +32,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: single_sign_on_state
+  - name: enterprise_app_id
+  - name: single_sign_on_url
 variables:
 - description: 'Flag specifying if the resource provisioning state as tracked by ARM.
 

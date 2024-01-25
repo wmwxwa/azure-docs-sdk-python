@@ -15,7 +15,7 @@ summary: 'Collection of source controls.
 constructor:
   syntax: 'SourceControlCollection(*, value: List[_models.SourceControl], **kwargs:
     Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: Collection of resources. Required.
     types:

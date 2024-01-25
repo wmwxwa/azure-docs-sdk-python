@@ -33,6 +33,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: status
+  - name: comments
 variables:
 - description: Time of status update.
   name: update_date_time

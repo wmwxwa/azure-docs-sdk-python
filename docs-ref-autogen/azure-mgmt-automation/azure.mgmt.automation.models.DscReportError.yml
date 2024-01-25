@@ -41,3 +41,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: error_source
+  - name: resource_id
+  - name: error_code
+  - name: error_message
+  - name: locale
+  - name: error_details

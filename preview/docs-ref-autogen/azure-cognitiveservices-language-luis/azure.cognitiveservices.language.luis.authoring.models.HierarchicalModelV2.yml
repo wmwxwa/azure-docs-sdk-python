@@ -26,6 +26,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: name
+  - name: children
+  - name: inherits
+  - name: roles
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.HierarchicalModelV2.as_dict
   name: as_dict

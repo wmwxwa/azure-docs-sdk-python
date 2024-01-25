@@ -37,3 +37,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: value
+  - name: type
+    defaultValue: TSql
+  - name: source
+    defaultValue: Inline

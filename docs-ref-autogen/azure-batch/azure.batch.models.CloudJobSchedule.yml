@@ -127,6 +127,22 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.JobScheduleStatistics>
+  keywordOnlyArguments:
+  - name: id
+  - name: display_name
+  - name: url
+  - name: e_tag
+  - name: last_modified
+  - name: creation_time
+  - name: state
+  - name: state_transition_time
+  - name: previous_state
+  - name: previous_state_transition_time
+  - name: schedule
+  - name: job_specification
+  - name: execution_info
+  - name: metadata
+  - name: stats
 methods:
 - uid: azure.batch.models.CloudJobSchedule.as_dict
   name: as_dict

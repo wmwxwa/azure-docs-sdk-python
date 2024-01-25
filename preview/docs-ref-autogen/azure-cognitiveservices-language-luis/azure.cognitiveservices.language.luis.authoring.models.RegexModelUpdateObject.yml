@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: regex_pattern
+  - name: name
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.RegexModelUpdateObject.as_dict
   name: as_dict

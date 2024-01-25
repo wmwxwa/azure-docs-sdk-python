@@ -35,6 +35,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: uri_path
+  - name: http_verb
+  - name: content_type
+  - name: body
 methods:
 - uid: azure.servicefabric.models.ContainerApiRequestBody.as_dict
   name: as_dict

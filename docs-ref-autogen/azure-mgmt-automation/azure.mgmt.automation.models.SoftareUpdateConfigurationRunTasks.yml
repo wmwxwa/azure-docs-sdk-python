@@ -21,3 +21,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.automation.models.SoftareUpdateConfigurationRunTaskProperties>
+  keywordOnlyArguments:
+  - name: pre_task
+  - name: post_task

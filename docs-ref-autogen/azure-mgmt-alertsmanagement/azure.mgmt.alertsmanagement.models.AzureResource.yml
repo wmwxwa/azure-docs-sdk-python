@@ -23,6 +23,10 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: location
+    defaultValue: global
+  - name: tags
 variables:
 - description: The resource ID.
   name: id

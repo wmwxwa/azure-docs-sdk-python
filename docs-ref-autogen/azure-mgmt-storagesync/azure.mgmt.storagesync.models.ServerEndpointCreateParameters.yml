@@ -80,6 +80,17 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.storagesync.models.LocalCacheMode>
+  keywordOnlyArguments:
+  - name: server_local_path
+  - name: cloud_tiering
+  - name: volume_free_space_percent
+  - name: tier_files_older_than_days
+  - name: friendly_name
+  - name: server_resource_id
+  - name: offline_data_transfer
+  - name: offline_data_transfer_share_name
+  - name: initial_download_policy
+  - name: local_cache_mode
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

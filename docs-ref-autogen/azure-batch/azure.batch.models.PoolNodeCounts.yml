@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.NodeCounts>
+  keywordOnlyArguments:
+  - name: pool_id
+  - name: dedicated
+  - name: low_priority
 methods:
 - uid: azure.batch.models.PoolNodeCounts.as_dict
   name: as_dict

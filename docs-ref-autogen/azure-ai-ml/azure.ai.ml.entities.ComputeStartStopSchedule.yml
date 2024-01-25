@@ -31,6 +31,11 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>
+  keywordOnlyArguments:
+  - name: trigger
+  - name: action
+  - name: state
+    defaultValue: ScheduleStatus.ENABLED
 examples:
 - "Creating a ComputeStartStopSchedule object.<!--[!code-python[Main](les\\ml_samples_compute.py\
   \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\

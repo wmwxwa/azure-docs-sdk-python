@@ -61,6 +61,14 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.FabricErrorError>
+  keywordOnlyArguments:
+  - name: backup_state
+  - name: time_stamp_utc
+  - name: backup_id
+  - name: backup_location
+  - name: epoch_of_last_backup_record
+  - name: lsn_of_last_backup_record
+  - name: failure_error
 methods:
 - uid: azure.servicefabric.models.BackupProgressInfo.as_dict
   name: as_dict

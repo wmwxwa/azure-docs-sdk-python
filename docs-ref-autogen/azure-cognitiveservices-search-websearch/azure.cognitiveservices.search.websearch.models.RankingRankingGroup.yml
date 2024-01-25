@@ -19,6 +19,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.search.websearch.models.RankingRankingItem>]
+  keywordOnlyArguments:
+  - name: items
 methods:
 - uid: azure.cognitiveservices.search.websearch.models.RankingRankingGroup.as_dict
   name: as_dict

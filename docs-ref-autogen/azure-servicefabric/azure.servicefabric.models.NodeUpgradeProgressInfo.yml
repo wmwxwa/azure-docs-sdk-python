@@ -37,6 +37,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: node_name
+  - name: upgrade_phase
+  - name: pending_safety_checks
+  - name: upgrade_duration
 methods:
 - uid: azure.servicefabric.models.NodeUpgradeProgressInfo.as_dict
   name: as_dict

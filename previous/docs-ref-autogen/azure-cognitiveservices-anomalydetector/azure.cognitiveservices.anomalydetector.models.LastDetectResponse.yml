@@ -84,6 +84,15 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: period
+  - name: suggested_window
+  - name: expected_value
+  - name: upper_margin
+  - name: lower_margin
+  - name: is_anomaly
+  - name: is_negative_anomaly
+  - name: is_positive_anomaly
 methods:
 - uid: azure.cognitiveservices.anomalydetector.models.LastDetectResponse.as_dict
   name: as_dict

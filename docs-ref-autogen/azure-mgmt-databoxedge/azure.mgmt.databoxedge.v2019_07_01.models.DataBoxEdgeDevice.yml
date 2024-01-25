@@ -75,6 +75,15 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: sku
+  - name: etag
+  - name: data_box_edge_device_status
+  - name: description
+  - name: model_description
+  - name: friendly_name
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

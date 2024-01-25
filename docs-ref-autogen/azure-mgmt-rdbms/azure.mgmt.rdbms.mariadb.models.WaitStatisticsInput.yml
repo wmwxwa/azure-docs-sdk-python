@@ -28,3 +28,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: observation_start_time
+  - name: observation_end_time
+  - name: aggregation_window

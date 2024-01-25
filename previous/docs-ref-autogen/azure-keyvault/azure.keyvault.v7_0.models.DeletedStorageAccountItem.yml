@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: recovery_id
 variables:
 - description: Storage identifier.
   name: id

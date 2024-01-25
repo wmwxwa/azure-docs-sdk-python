@@ -39,6 +39,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.machinelearningservices.models.Compute>
+  keywordOnlyArguments:
+  - name: identity
+  - name: location
+  - name: tags
+  - name: sku
+  - name: properties
 variables:
 - description: Specifies the resource ID.
   name: id

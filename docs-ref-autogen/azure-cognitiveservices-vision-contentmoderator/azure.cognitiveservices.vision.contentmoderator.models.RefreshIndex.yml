@@ -35,6 +35,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: content_source_id
+  - name: is_update_success
+  - name: advanced_info
+  - name: status
+  - name: tracking_id
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.RefreshIndex.as_dict
   name: as_dict

@@ -67,10 +67,12 @@ methods:
     isRequired: true
     types:
     - <xref:azure.core.pipeline.Pipeline>
+  keywordOnlyArguments:
   - name: decompress
     description: 'If True which is default, will attempt to decode the body based
 
       on the *content-encoding* header.'
+    defaultValue: 'True'
     types:
     - <xref:bool>
   return:

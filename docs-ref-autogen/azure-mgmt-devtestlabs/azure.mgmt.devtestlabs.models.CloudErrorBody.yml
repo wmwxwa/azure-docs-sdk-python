@@ -30,3 +30,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.devtestlabs.models.CloudErrorBody>]
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: target
+  - name: details

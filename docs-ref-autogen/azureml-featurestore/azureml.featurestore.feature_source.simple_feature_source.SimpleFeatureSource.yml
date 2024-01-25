@@ -21,6 +21,10 @@ summary: 'A simple feature source (abstract)
 constructor:
   syntax: 'SimpleFeatureSource(*, path: str, timestamp_column: TimestampColumn = None,
     source_delay: DateTimeOffset = None)'
+  keywordOnlyArguments:
+  - name: path
+  - name: timestamp_column
+  - name: source_delay
 methods:
 - uid: azureml.featurestore.feature_source.simple_feature_source.SimpleFeatureSource.load
   name: load

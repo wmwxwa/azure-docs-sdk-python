@@ -91,3 +91,18 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.hdinsight.models.PrivateLinkConfiguration>]
+  keywordOnlyArguments:
+  - name: cluster_version
+  - name: os_type
+  - name: tier
+  - name: cluster_definition
+  - name: kafka_rest_properties
+  - name: security_profile
+  - name: compute_profile
+  - name: storage_profile
+  - name: disk_encryption_properties
+  - name: encryption_in_transit_properties
+  - name: min_supported_tls_version
+  - name: network_properties
+  - name: compute_isolation_properties
+  - name: private_link_configurations

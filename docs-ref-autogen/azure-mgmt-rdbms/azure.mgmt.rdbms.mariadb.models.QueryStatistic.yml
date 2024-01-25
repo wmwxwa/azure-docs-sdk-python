@@ -66,6 +66,17 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: query_id
+  - name: start_time
+  - name: end_time
+  - name: aggregation_function
+  - name: database_names
+  - name: query_execution_count
+  - name: metric_name
+  - name: metric_display_name
+  - name: metric_value
+  - name: metric_value_unit
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

@@ -38,3 +38,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.timeseriesinsights.models.CloudErrorBody>]
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: target
+  - name: details

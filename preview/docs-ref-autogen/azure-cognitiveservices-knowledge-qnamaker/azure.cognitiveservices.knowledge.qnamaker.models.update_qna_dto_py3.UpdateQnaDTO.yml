@@ -42,6 +42,13 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.knowledge.qnamaker.models.UpdateQnaDTOContext>
+  keywordOnlyArguments:
+  - name: id
+  - name: answer
+  - name: source
+  - name: questions
+  - name: metadata
+  - name: context
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.update_qna_dto_py3.UpdateQnaDTO.as_dict
   name: as_dict

@@ -38,6 +38,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.servicefabric.models.OperationType>
+  keywordOnlyArguments:
+  - name: operation_id
+  - name: state
+  - name: type
 methods:
 - uid: azure.servicefabric.models.OperationStatus.as_dict
   name: as_dict

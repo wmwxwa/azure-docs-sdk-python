@@ -22,6 +22,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: data
 methods:
 - uid: azure.servicefabric.models.Int64PropertyValue.as_dict
   name: as_dict

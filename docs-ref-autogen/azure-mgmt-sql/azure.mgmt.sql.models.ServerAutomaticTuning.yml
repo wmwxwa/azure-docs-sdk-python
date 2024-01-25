@@ -27,6 +27,9 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:azure.mgmt.sql.models.AutomaticTuningServerOptions>]
+  keywordOnlyArguments:
+  - name: desired_state
+  - name: options
 variables:
 - description: Resource ID.
   name: id

@@ -52,6 +52,11 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: source_retry_count
+  - name: source_retry_wait
+  - name: max_concurrent_connections
 methods:
 - uid: azure.synapse.artifacts.models.CopySource.as_dict
   name: as_dict

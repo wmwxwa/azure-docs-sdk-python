@@ -19,6 +19,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: site
 methods:
 - uid: azure.cognitiveservices.search.visualsearch.models.filters_py3.Filters.as_dict
   name: as_dict

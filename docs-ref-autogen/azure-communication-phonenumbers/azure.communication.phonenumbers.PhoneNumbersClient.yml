@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:TokenCredential>, <xref:AzureKeyCredential>]
+  - name: endpoint
+  keywordOnlyArguments:
   - name: api_version
     description: 'Azure Communication Phone Number API version.
 
@@ -25,7 +27,6 @@ constructor:
       Note that overriding this default value may result in unsupported behavior.'
     types:
     - <xref:str>
-  - name: endpoint
 methods:
 - uid: azure.communication.phonenumbers.PhoneNumbersClient.begin_purchase_phone_numbers
   name: begin_purchase_phone_numbers
@@ -37,6 +38,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
   - name: continuation_token
     description: A continuation token to restart a poller from a saved state.
     types:
@@ -68,6 +70,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
   - name: continuation_token
     description: A continuation token to restart a poller from a saved state.
     types:
@@ -126,6 +129,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.communication.phonenumbers.models.PhoneNumberCapabilities>
+  keywordOnlyArguments:
   - name: area_code
     description: 'The area code of the desired phone number, e.g. 425. If not set,
 
@@ -184,6 +188,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.communication.phonenumbers.models.PhoneNumberCapabilityType>
+  keywordOnlyArguments:
   - name: continuation_token
     description: A continuation token to restart a poller from a saved state.
     types:
@@ -294,7 +299,7 @@ methods:
 
     Gets the list of supported countries.'
   signature: 'list_available_countries(**kwargs: Any) -> ItemPaged[PhoneNumberCountry]'
-  parameters:
+  keywordOnlyArguments:
   - name: skip
     description: 'An optional parameter for how many entries to skip, for pagination
       purposes. The
@@ -328,6 +333,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
   - name: skip
     description: 'An optional parameter for how many entries to skip, for pagination
       purposes. The
@@ -368,6 +374,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.communication.phonenumbers.models.PhoneNumberAssignmentType>
+  keywordOnlyArguments:
   - name: skip
     description: 'An optional parameter for how many entries to skip, for pagination
       purposes. The
@@ -385,7 +392,7 @@ methods:
   name: list_purchased_phone_numbers
   summary: Gets the list of all purchased phone numbers.
   signature: 'list_purchased_phone_numbers(**kwargs: Any) -> ItemPaged[PurchasedPhoneNumber]'
-  parameters:
+  keywordOnlyArguments:
   - name: skip
     description: 'An optional parameter for how many entries to skip, for pagination
       purposes. The

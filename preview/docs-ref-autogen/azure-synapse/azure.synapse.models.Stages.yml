@@ -44,6 +44,15 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:int>]
+  keywordOnlyArguments:
+  - name: data_avg
+  - name: time_avg
+  - name: id
+  - name: attempt_id
+  - name: name
+  - name: data_skew_task
+  - name: time_skew_task
+  - name: tasks
 methods:
 - uid: azure.synapse.models.Stages.as_dict
   name: as_dict

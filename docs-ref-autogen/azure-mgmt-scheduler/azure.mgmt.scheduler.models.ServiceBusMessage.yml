@@ -48,3 +48,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.scheduler.models.ServiceBusTransportType>
+  keywordOnlyArguments:
+  - name: authentication
+  - name: brokered_message_properties
+  - name: custom_message_properties
+  - name: message
+  - name: namespace
+  - name: transport_type

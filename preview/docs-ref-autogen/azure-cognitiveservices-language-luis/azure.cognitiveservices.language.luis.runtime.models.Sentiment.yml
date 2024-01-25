@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: score
+  - name: label
 methods:
 - uid: azure.cognitiveservices.language.luis.runtime.models.Sentiment.as_dict
   name: as_dict

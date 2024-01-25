@@ -18,6 +18,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:typing.Type>
+  keywordOnlyArguments:
+  - name: type
 variables:
 - description: Service principal object Id.
   name: principal_id

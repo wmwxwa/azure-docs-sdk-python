@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: server_key_type
+  - name: uri
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.applicationinsights.models.MetricsPostBodySchemaParameters>
+  keywordOnlyArguments:
+  - name: id
+  - name: parameters
 methods:
 - uid: azure.applicationinsights.models.MetricsPostBodySchema.as_dict
   name: as_dict

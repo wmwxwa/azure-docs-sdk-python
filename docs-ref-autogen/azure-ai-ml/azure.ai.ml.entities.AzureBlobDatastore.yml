@@ -62,6 +62,17 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>
+  keywordOnlyArguments:
+  - name: name
+  - name: account_name
+  - name: container_name
+  - name: description
+  - name: tags
+  - name: endpoint
+  - name: protocol
+    defaultValue: https
+  - name: properties
+  - name: credentials
 methods:
 - uid: azure.ai.ml.entities.AzureBlobDatastore.dump
   name: dump

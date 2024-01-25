@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: tenant_id
 variables:
 - description: The principal id of user assigned identity.
   name: principal_id

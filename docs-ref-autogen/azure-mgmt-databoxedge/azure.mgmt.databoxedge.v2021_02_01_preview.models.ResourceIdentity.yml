@@ -19,6 +19,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.databoxedge.v2021_02_01_preview.models.MsiIdentityType>
+  keywordOnlyArguments:
+  - name: type
 variables:
 - description: Service Principal Id backing the Msi.
   name: principal_id

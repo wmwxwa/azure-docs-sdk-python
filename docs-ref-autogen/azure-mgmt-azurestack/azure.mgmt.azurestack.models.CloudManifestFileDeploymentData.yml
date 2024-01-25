@@ -31,3 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: external_dsms_certificates
+  - name: custom_cloud_verification_key
+  - name: custom_cloud_arm_endpoint
+  - name: external_dsms_endpoint

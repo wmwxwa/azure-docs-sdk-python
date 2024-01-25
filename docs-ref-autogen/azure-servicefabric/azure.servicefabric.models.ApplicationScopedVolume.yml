@@ -39,6 +39,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.ApplicationScopedVolumeCreationParameters>
+  keywordOnlyArguments:
+  - name: name
+  - name: destination_path
+  - name: creation_parameters
+  - name: read_only
 methods:
 - uid: azure.servicefabric.models.ApplicationScopedVolume.as_dict
   name: as_dict

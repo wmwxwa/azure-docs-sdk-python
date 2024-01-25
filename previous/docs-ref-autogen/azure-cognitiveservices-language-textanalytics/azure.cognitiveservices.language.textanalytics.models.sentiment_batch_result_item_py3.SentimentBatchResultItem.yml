@@ -33,6 +33,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.language.textanalytics.models.DocumentStatistics>
+  keywordOnlyArguments:
+  - name: id
+  - name: score
+  - name: statistics
 methods:
 - uid: azure.cognitiveservices.language.textanalytics.models.sentiment_batch_result_item_py3.SentimentBatchResultItem.as_dict
   name: as_dict

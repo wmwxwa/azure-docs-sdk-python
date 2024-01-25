@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: invitation_id
 variables:
 - description: The resource id of the azure resource.
   name: id

@@ -42,6 +42,10 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: min_partition_count
+  - name: max_partition_count
+  - name: scale_increment
 methods:
 - uid: azure.servicefabric.models.AddRemoveIncrementalNamedPartitionScalingMechanism.as_dict
   name: as_dict

@@ -14,15 +14,9 @@ summary: "Specifies the web app that snapshot contents will be retrieved from.\n
 constructor:
   syntax: 'SnapshotRecoverySource(*, location: str | None = None, id: str | None =
     None, **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: location
-    description: 'Geographical location of the source web app, e.g. SouthEastAsia,
-
-      SouthCentralUS.'
-    types:
-    - <xref:str>
   - name: id
-    description: ARM resource ID of the source app.
 variables:
 - description: 'Geographical location of the source web app, e.g. SouthEastAsia,
 

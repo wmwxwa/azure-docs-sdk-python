@@ -46,6 +46,10 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: folder_path
+  - name: file_name
 methods:
 - uid: azure.synapse.artifacts.models.DatasetLocation.as_dict
   name: as_dict

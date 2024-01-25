@@ -86,6 +86,20 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: start_time
+  - name: expiry_time
+  - name: expiry_time_offset_minutes
+  - name: is_enabled
+  - name: next_run
+  - name: next_run_offset_minutes
+  - name: interval
+  - name: frequency
+  - name: time_zone
+  - name: advanced_schedule
+  - name: creation_time
+  - name: last_modified_time
+  - name: description
 variables:
 - description: Fully qualified resource Id for the resource.
   name: id

@@ -21,6 +21,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: enforce_private_markdown_storage
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

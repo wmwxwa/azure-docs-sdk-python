@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.billing.models.ValidateSubscriptionTransferEligibilityError>
+  keywordOnlyArguments:
+  - name: error_details
 variables:
 - description: Specifies whether the subscription is eligible to be transferred.
   name: is_move_eligible

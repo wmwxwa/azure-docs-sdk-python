@@ -46,3 +46,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: timestamp_property_name
+  - name: local_timestamp
+  - name: shared_access_key

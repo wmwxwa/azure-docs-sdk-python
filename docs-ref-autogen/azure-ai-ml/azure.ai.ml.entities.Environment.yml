@@ -64,6 +64,16 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>
+  keywordOnlyArguments:
+  - name: name
+  - name: version
+  - name: description
+  - name: image
+  - name: build
+  - name: conda_file
+  - name: tags
+  - name: properties
+  - name: datastore
 examples:
 - "Create a Environment object.<!--[!code-python[Main](les\\ml_samples_misc.py )]-->\n\
   \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
@@ -93,6 +103,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:PathLike>, <xref:str>, <xref:typing.IO>[<xref:typing.AnyStr>]]
+  keywordOnlyArguments:
   - name: kwargs
     description: Additional arguments to pass to the YAML serializer.
     types:

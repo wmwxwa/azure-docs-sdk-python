@@ -22,6 +22,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.models.Stages>
+  keywordOnlyArguments:
+  - name: is_app_finished
+  - name: jobs
+  - name: stages
 methods:
 - uid: azure.synapse.models.HistoryServerGraphResponseData.as_dict
   name: as_dict

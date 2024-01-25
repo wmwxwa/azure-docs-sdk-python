@@ -27,3 +27,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: enabled
+  - name: markdown

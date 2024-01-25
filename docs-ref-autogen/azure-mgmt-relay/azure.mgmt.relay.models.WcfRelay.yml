@@ -46,6 +46,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: relay_type
+  - name: requires_client_authorization
+  - name: requires_transport_security
+  - name: user_metadata
 variables:
 - description: Resource ID.
   name: id

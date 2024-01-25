@@ -60,3 +60,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: type
+  - name: host_name
+  - name: account_name
+  - name: project_name
+  - name: repository_name
+  - name: collaboration_branch
+  - name: root_folder
+  - name: last_commit_id
+  - name: tenant_id

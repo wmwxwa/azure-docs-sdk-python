@@ -103,6 +103,18 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: client_id
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: client_secret
+  - name: use_encrypted_endpoints
+  - name: use_host_verification
+  - name: use_peer_verification
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.SalesforceMarketingCloudLinkedService.as_dict
   name: as_dict

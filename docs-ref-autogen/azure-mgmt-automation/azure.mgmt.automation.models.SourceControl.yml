@@ -68,6 +68,16 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
+  keywordOnlyArguments:
+  - name: repo_url
+  - name: branch
+  - name: folder_path
+  - name: auto_sync
+  - name: publish_runbook
+  - name: source_type
+  - name: description
+  - name: creation_time
+  - name: last_modified_time
 variables:
 - description: Fully qualified resource Id for the resource.
   name: id

@@ -44,3 +44,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: number_of_top_queries
+  - name: aggregation_function
+  - name: observed_metric
+  - name: observation_start_time
+  - name: observation_end_time
+  - name: aggregation_window

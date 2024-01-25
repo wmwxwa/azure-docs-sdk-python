@@ -16,6 +16,9 @@ summary: 'Source process code representation
   :type process_class: str, required'
 constructor:
   syntax: 'SourceProcessCode(*, path: str, process_class: str)'
+  keywordOnlyArguments:
+  - name: path
+  - name: process_class
 attributes:
 - uid: azureml.featurestore.contracts.transformation_code.SourceProcessCode.code_local_path
   name: code_local_path

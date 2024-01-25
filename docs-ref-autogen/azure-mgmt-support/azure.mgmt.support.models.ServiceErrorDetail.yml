@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: target
 variables:
 - description: The error code.
   name: code

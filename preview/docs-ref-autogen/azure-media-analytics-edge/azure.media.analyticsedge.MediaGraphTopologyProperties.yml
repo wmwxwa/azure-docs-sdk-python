@@ -42,6 +42,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.media.analyticsedge.models.MediaGraphSink>]
+  keywordOnlyArguments:
+  - name: description
+  - name: parameters
+  - name: sources
+  - name: processors
+  - name: sinks
 methods:
 - uid: azure.media.analyticsedge.MediaGraphTopologyProperties.as_dict
   name: as_dict

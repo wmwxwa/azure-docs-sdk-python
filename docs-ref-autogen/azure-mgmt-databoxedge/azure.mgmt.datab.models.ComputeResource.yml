@@ -22,3 +22,6 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
+  keywordOnlyArguments:
+  - name: processor_count
+  - name: memory_in_gb

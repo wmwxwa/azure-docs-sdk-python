@@ -55,6 +55,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.ExitOptions>
+  keywordOnlyArguments:
+  - name: exit_codes
+  - name: exit_code_ranges
+  - name: pre_processing_error
+  - name: file_upload_error
+  - name: default
 methods:
 - uid: azure.batch.models.ExitConditions.as_dict
   name: as_dict

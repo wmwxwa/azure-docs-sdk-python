@@ -14,6 +14,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: message
 methods:
 - uid: azure.synapse.spark.models.SparkStatementCancellationResult.as_dict
   name: as_dict

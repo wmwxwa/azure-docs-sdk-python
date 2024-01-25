@@ -51,3 +51,10 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: runbook_type
+  - name: draft
+  - name: log_verbose
+  - name: log_progress
+  - name: description
+  - name: log_activity_trace

@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: kid
+  - name: attributes
+  - name: tags
 variables:
 - description: 'True if the key''s lifetime is managed by key vault. If this
 

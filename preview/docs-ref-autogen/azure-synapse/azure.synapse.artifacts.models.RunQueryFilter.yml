@@ -47,6 +47,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: operand
+  - name: operator
+  - name: values
 methods:
 - uid: azure.synapse.artifacts.models.RunQueryFilter.as_dict
   name: as_dict

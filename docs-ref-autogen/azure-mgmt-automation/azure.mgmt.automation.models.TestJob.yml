@@ -72,3 +72,15 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: creation_time
+  - name: status
+  - name: status_details
+  - name: run_on
+  - name: start_time
+  - name: end_time
+  - name: exception
+  - name: last_modified_time
+  - name: last_status_modified_time
+  - name: parameters
+  - name: log_activity_trace

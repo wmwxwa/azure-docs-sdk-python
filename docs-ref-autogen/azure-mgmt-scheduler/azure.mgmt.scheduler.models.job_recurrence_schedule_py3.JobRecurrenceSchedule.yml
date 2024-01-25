@@ -46,3 +46,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.scheduler.models.JobRecurrenceScheduleMonthlyOccurrence>]
+  keywordOnlyArguments:
+  - name: week_days
+  - name: hours
+  - name: minutes
+  - name: month_days
+  - name: monthly_occurrences

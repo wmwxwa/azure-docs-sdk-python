@@ -36,6 +36,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: target_resource
+  - name: target_resource_name
+  - name: target_resource_group
+  - name: target_resource_type
 variables:
 - description: 'Severity of alert Sev0 being highest and Sev4 being lowest. Possible
     values

@@ -15,6 +15,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
 methods:
 - uid: azure.synapse.artifacts.models.DatasetFolder.as_dict
   name: as_dict

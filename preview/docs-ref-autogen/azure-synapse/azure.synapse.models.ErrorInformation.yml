@@ -24,6 +24,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.synapse.models.ErrorSource>
+  keywordOnlyArguments:
+  - name: message
+  - name: error_code
+  - name: source
 methods:
 - uid: azure.synapse.models.ErrorInformation.as_dict
   name: as_dict

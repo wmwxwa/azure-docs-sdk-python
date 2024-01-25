@@ -34,3 +34,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.datamigration.models.ServiceScalability>
+  keywordOnlyArguments:
+  - name: minimum
+  - name: maximum
+  - name: default
+  - name: scale_type

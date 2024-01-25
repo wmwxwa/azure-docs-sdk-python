@@ -28,6 +28,10 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: is_built_in
+  - name: id
+  - name: name
 methods:
 - uid: azure.synapse.accesscontrol.models.SynapseRole.as_dict
   name: as_dict

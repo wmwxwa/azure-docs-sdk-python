@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.sql.models.PrivateLinkServiceConnectionStateProperty>
+  keywordOnlyArguments:
+  - name: private_endpoint
+  - name: private_link_service_connection_state
 variables:
 - description: 'State of the private endpoint connection. Possible values include:
 

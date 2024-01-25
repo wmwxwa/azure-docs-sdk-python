@@ -21,6 +21,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: image_reference
+  - name: scale_set_vm_resource_id
 methods:
 - uid: azure.batch.models.VirtualMachineInfo.as_dict
   name: as_dict

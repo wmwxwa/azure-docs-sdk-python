@@ -36,6 +36,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.billing.models.EnrollmentAccount>]
+  keywordOnlyArguments:
+  - name: department_name
+  - name: cost_center
+  - name: status
+  - name: enrollment_accounts
 variables:
 - description: Resource Id.
   name: id

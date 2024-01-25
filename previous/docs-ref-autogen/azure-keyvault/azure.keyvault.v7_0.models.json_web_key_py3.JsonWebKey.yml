@@ -101,6 +101,23 @@ constructor:
     isRequired: true
     types:
     - <xref:bytes>
+  keywordOnlyArguments:
+  - name: kid
+  - name: kty
+  - name: key_ops
+  - name: n
+  - name: e
+  - name: d
+  - name: dp
+  - name: dq
+  - name: qi
+  - name: p
+  - name: q
+  - name: k
+  - name: t
+  - name: crv
+  - name: x
+  - name: y
 methods:
 - uid: azure.keyvault.v7_0.models.json_web_key_py3.JsonWebKey.as_dict
   name: as_dict

@@ -14,6 +14,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
 methods:
 - uid: azure.applicationinsights.models.EventsCustomEventInfo.as_dict
   name: as_dict

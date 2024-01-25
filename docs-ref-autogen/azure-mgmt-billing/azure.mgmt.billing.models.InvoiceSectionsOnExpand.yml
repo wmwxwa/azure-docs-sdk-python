@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.billing.models.InvoiceSection>]
+  keywordOnlyArguments:
+  - name: value
 variables:
 - description: 'Indicates whether there are more invoice sections than the ones listed
 

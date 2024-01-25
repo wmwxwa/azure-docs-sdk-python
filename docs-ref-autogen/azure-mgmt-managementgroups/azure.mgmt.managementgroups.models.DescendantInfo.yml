@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.managementgroups.models.DescendantParentGroupInfo>
+  keywordOnlyArguments:
+  - name: display_name
+  - name: parent
 variables:
 - description: 'The fully qualified ID for the descendant.  For example,
 

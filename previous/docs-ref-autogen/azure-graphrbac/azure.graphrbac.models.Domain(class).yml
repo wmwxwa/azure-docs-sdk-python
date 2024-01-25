@@ -29,6 +29,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: additional_properties
 variables:
 - description: the type of the authentication into the domain.
   name: authentication_type

@@ -27,3 +27,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: fqdn
+  - name: effective_disk_encryption_key_url

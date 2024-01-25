@@ -36,3 +36,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.datamigration.models.MongoDbErrorType>
+  keywordOnlyArguments:
+  - name: code
+  - name: count
+  - name: message
+  - name: type

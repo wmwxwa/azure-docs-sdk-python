@@ -82,6 +82,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.timeseriesinsights.models.TimeSeriesIdProperty>]
+  keywordOnlyArguments:
+  - name: location
+  - name: sku
+  - name: data_retention_time
+  - name: tags
+  - name: storage_limit_exceeded_behavior
+  - name: partition_key_properties
 variables:
 - description: Resource Id.
   name: id

@@ -36,3 +36,7 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: state
+  - name: current_count
+  - name: max_count

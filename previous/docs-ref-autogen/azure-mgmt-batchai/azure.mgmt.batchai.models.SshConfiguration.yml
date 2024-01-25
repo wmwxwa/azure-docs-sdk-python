@@ -30,3 +30,6 @@ constructor:
     isRequired: true
     types:
     - <xref:batch_ai.models.UserAccountSettings>
+  keywordOnlyArguments:
+  - name: user_account_settings
+  - name: public_ips_to_allow

@@ -53,6 +53,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.WindowsUserConfiguration>
+  keywordOnlyArguments:
+  - name: name
+  - name: password
+  - name: elevation_level
+  - name: linux_user_configuration
+  - name: windows_user_configuration
 methods:
 - uid: azure.batch.models.UserAccount.as_dict
   name: as_dict

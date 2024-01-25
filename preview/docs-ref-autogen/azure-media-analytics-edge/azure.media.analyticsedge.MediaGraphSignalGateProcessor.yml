@@ -67,6 +67,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: inputs
+  - name: activation_evaluation_window
+  - name: activation_signal_offset
+  - name: minimum_activation_time
+  - name: maximum_activation_time
 methods:
 - uid: azure.media.analyticsedge.MediaGraphSignalGateProcessor.as_dict
   name: as_dict

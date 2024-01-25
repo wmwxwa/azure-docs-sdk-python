@@ -66,6 +66,16 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: alerts_count
+  - name: resources
+  - name: resource_types
+  - name: resource_groups
+  - name: monitor_services
+  - name: monitor_conditions
+  - name: alert_states
+  - name: alert_severities
+  - name: next_link
 variables:
 - description: Azure resource Id.
   name: id

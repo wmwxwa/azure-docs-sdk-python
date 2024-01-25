@@ -19,6 +19,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.ai.metricsadvisor.models.AnomalyDetectorDirection>
+  keywordOnlyArguments:
   - name: lower
     description: lower bound should be specified when direction is Both or Down.
     types:

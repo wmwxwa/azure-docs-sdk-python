@@ -37,6 +37,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: package_path
+  - name: package_content
+  - name: package_name
+  - name: package_last_modified_date
 methods:
 - uid: azure.synapse.artifacts.models.SSISChildPackage.as_dict
   name: as_dict

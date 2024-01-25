@@ -35,6 +35,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.cognitiveservices.vision.face.models.SnapshotApplyMode>
+  keywordOnlyArguments:
+  - name: object_id
+  - name: mode
+    defaultValue: CreateNew
 methods:
 - uid: azure.cognitiveservices.vision.face.models.ApplySnapshotRequest.as_dict
   name: as_dict

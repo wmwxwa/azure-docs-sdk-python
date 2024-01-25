@@ -32,6 +32,11 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: is_active
+  - name: enabled_for_all_models
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.FeatureInfoObject.as_dict
   name: as_dict

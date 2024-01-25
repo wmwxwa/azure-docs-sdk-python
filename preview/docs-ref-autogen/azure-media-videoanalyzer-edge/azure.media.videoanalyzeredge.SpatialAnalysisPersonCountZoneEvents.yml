@@ -12,7 +12,7 @@ summary: 'SpatialAnalysisPersonCountZoneEvents.
 constructor:
   syntax: 'SpatialAnalysisPersonCountZoneEvents(*, zone: NamedPolygonBase, events:
     List[SpatialAnalysisPersonCountEvent] | None = None, **kwargs)'
-  parameters:
+  keywordOnlyArguments:
   - name: zone
     description: Required. The named zone.
     types:

@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: dimension
 methods:
 - uid: azure.ai.metricsadvisor.models.SeriesIdentity.as_dict
   name: as_dict

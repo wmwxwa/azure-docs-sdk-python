@@ -36,6 +36,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: error_message
+  - name: operation_index
 methods:
 - uid: azure.servicefabric.models.FailedPropertyBatchInfo.as_dict
   name: as_dict

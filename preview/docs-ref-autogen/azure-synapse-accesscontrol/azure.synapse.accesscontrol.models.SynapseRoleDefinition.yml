@@ -47,6 +47,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: is_built_in
+  - name: description
+  - name: permissions
+  - name: scopes
+  - name: availability_status
 methods:
 - uid: azure.synapse.accesscontrol.models.SynapseRoleDefinition.as_dict
   name: as_dict

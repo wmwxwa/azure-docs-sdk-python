@@ -181,6 +181,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: code
+  - name: message
 methods:
 - uid: azure.cognitiveservices.vision.customvision.training.models.CustomVisionError.as_dict
   name: as_dict

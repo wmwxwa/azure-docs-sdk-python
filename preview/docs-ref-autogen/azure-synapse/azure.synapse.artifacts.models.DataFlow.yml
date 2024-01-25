@@ -42,6 +42,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.DataFlowFolder>
+  keywordOnlyArguments:
+  - name: description
+  - name: annotations
+  - name: folder
 methods:
 - uid: azure.synapse.artifacts.models.DataFlow.as_dict
   name: as_dict

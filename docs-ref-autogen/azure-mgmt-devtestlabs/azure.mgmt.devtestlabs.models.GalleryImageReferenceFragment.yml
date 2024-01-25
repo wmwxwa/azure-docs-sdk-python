@@ -36,3 +36,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: offer
+  - name: publisher
+  - name: sku
+  - name: os_type
+  - name: version

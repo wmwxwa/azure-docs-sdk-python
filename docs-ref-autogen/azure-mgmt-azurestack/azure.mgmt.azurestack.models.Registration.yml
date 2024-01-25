@@ -50,6 +50,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: etag
+  - name: object_id
+  - name: cloud_id
+  - name: billing_model
 variables:
 - description: ID of the resource.
   name: id

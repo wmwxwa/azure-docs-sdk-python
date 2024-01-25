@@ -58,6 +58,12 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.edgegateway.models.RoleStatus>
+  keywordOnlyArguments:
+  - name: host_platform
+  - name: io_tdevice_details
+  - name: io_tedge_device_details
+  - name: role_status
+  - name: share_mappings
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

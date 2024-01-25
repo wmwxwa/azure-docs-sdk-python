@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.synapse.models.SqlPoolUsage>]
+  keywordOnlyArguments:
+  - name: value
 variables:
 - description: Link to retrieve next page of results.
   name: next_link

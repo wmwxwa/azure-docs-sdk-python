@@ -79,6 +79,16 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.databoxedge.v2019_08_01.models.DataPolicy>
+  keywordOnlyArguments:
+  - name: share_status
+  - name: monitoring_status
+  - name: access_protocol
+  - name: description
+  - name: azure_container_info
+  - name: user_access_rights
+  - name: client_access_rights
+  - name: refresh_details
+  - name: data_policy
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

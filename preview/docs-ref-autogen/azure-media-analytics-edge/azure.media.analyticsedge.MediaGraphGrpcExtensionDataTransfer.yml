@@ -29,6 +29,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.media.analyticsedge.models.MediaGraphGrpcExtensionDataTransferMode>
+  keywordOnlyArguments:
+  - name: mode
+  - name: shared_memory_size_mi_b
 methods:
 - uid: azure.media.analyticsedge.MediaGraphGrpcExtensionDataTransfer.as_dict
   name: as_dict

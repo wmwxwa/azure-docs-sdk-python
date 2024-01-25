@@ -25,3 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:any>]
+  keywordOnlyArguments:
+  - name: tags
+  - name: lenses
+  - name: metadata

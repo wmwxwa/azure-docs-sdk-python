@@ -9,7 +9,7 @@ summary: Resume job params.
 constructor:
   syntax: 'ResumeJobParams(*, properties: _models.ResumeJobParamsProperties | None
     = None, **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: properties
     description: Resume job properties.
     types:

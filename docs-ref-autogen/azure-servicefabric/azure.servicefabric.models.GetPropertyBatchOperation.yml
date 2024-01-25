@@ -41,6 +41,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: property_name
+  - name: include_value
 methods:
 - uid: azure.servicefabric.models.GetPropertyBatchOperation.as_dict
   name: as_dict

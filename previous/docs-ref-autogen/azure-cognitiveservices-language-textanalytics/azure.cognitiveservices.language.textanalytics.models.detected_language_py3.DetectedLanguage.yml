@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: name
+  - name: iso6391_name
+  - name: score
 methods:
 - uid: azure.cognitiveservices.language.textanalytics.models.detected_language_py3.DetectedLanguage.as_dict
   name: as_dict

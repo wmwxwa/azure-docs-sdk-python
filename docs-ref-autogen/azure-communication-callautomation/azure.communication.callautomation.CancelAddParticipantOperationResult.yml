@@ -18,6 +18,9 @@ summary: 'The result payload for cancelling add participant request for a partic
 constructor:
   syntax: 'CancelAddParticipantOperationResult(*, invitation_id: str, operation_context:
     str | None = None)'
+  keywordOnlyArguments:
+  - name: invitation_id
+  - name: operation_context
 attributes:
 - uid: azure.communication.callautomation.CancelAddParticipantOperationResult.invitation_id
   name: invitation_id

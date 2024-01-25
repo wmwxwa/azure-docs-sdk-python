@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.RestartPartitionResult>
+  keywordOnlyArguments:
+  - name: state
+  - name: restart_partition_result
 methods:
 - uid: azure.servicefabric.models.PartitionRestartProgress.as_dict
   name: as_dict

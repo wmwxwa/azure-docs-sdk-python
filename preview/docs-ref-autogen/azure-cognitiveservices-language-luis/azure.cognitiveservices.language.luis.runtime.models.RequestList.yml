@@ -27,6 +27,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: canonical_form
+  - name: name
+  - name: synonyms
 methods:
 - uid: azure.cognitiveservices.language.luis.runtime.models.RequestList.as_dict
   name: as_dict

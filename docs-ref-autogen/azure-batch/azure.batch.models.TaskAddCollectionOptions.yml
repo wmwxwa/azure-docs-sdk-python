@@ -42,6 +42,12 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime>
+  keywordOnlyArguments:
+  - name: timeout
+    defaultValue: '30'
+  - name: client_request_id
+  - name: return_client_request_id
+  - name: ocp_date
 methods:
 - uid: azure.batch.models.TaskAddCollectionOptions.as_dict
   name: as_dict

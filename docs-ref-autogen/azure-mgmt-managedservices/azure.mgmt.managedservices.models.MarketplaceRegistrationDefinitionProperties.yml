@@ -52,3 +52,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: managed_by_tenant_id
+  - name: authorizations
+  - name: eligible_authorizations
+  - name: offer_display_name
+  - name: publisher_display_name
+  - name: plan_display_name

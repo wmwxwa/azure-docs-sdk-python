@@ -44,6 +44,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:object>]
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: description
+  - name: annotations
 variables:
 - description: 'Indicates if trigger is running or not. Updated when Start/Stop APIs
     are

@@ -24,3 +24,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:video_analyzer.models.VideoAnalyzerEndpointType>
+  keywordOnlyArguments:
+  - name: type
+  - name: endpoint_url

@@ -141,6 +141,21 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: collation
+  - name: restore_point_in_time
+  - name: catalog_collation
+  - name: create_mode
+  - name: storage_container_uri
+  - name: source_database_id
+  - name: restorable_dropped_database_id
+  - name: storage_container_sas_token
+  - name: recoverable_database_id
+  - name: long_term_retention_backup_resource_id
+  - name: auto_complete_restore
+  - name: last_backup_name
 variables:
 - description: Resource ID.
   name: id

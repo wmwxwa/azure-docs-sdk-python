@@ -43,3 +43,7 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: can_stream
+  - name: has_data
+  - name: is_in_use

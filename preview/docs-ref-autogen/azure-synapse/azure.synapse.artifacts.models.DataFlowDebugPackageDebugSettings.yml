@@ -26,6 +26,10 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: source_settings
+  - name: parameters
+  - name: dataset_parameters
 methods:
 - uid: azure.synapse.artifacts.models.DataFlowDebugPackageDebugSettings.as_dict
   name: as_dict

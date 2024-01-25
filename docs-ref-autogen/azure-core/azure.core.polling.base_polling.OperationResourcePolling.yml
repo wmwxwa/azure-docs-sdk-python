@@ -15,6 +15,7 @@ constructor:
     defaultValue: operation-location
     types:
     - <xref:str>
+  keywordOnlyArguments:
   - name: lro_options
     description: 'Additional options for LRO. For more information, see
 

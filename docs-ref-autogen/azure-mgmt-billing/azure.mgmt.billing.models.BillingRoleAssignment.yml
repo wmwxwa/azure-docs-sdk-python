@@ -39,6 +39,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: principal_id
+  - name: principal_tenant_id
+  - name: role_definition_id
+  - name: user_authentication_type
+  - name: user_email_address
 variables:
 - description: Resource Id.
   name: id

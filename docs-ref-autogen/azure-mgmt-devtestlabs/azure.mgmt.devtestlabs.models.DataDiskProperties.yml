@@ -32,3 +32,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.devtestlabs.models.HostCachingOptions>
+  keywordOnlyArguments:
+  - name: attach_new_data_disk_options
+  - name: existing_lab_disk_id
+  - name: host_caching

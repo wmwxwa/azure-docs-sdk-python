@@ -25,6 +25,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: email_address
+  - name: name
+  - name: phone
 methods:
 - uid: azure.keyvault.v7_0.models.Contact.as_dict
   name: as_dict

@@ -76,3 +76,15 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.sql.models.NetworkIsolationSettings>
+  keywordOnlyArguments:
+  - name: storage_key_type
+  - name: storage_key
+  - name: storage_uri
+  - name: administrator_login
+  - name: administrator_login_password
+  - name: database_name
+  - name: edition
+  - name: service_objective_name
+  - name: max_size_bytes
+  - name: authentication_type
+  - name: network_isolation

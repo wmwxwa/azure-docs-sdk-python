@@ -31,3 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: environment_folder_name
+  - name: environment_name
+  - name: reference_type

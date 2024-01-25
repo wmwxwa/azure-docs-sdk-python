@@ -65,6 +65,15 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: target_cluster_version
+  - name: upgrade_state
+  - name: upgrade_domains
+  - name: upgrade_domain_elapsed_time_in_ms
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.ClusterUpgradeDomainCompletedEvent.as_dict
   name: as_dict

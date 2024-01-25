@@ -42,3 +42,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: execution_count
+  - name: cpu_time_ms
+  - name: elapsed_time_ms
+  - name: wait_stats
+  - name: has_errors
+  - name: sql_errors

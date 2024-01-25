@@ -50,6 +50,14 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.devtestlabs.models.FormulaPropertiesFromVm>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: description
+  - name: author
+  - name: os_type
+  - name: formula_content
+  - name: vm
 variables:
 - description: The identifier of the resource.
   name: id

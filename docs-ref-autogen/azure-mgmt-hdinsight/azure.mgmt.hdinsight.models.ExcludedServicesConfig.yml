@@ -20,3 +20,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: excluded_services_config_id
+  - name: excluded_services_list

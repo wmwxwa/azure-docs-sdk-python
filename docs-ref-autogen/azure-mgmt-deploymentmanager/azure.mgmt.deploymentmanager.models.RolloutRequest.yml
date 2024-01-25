@@ -56,6 +56,14 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.deploymentmanager.models.StepGroup>]
+  keywordOnlyArguments:
+  - name: location
+  - name: identity
+  - name: build_version
+  - name: target_service_topology_id
+  - name: step_groups
+  - name: tags
+  - name: artifact_source_id
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

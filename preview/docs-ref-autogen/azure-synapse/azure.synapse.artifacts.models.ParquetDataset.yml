@@ -84,6 +84,17 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.synapse.artifacts.models.ParquetCompressionCodec>
+  keywordOnlyArguments:
+  - name: linked_service_name
+  - name: additional_properties
+  - name: description
+  - name: structure
+  - name: schema
+  - name: parameters
+  - name: annotations
+  - name: folder
+  - name: location
+  - name: compression_codec
 methods:
 - uid: azure.synapse.artifacts.models.ParquetDataset.as_dict
   name: as_dict

@@ -40,6 +40,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.maps.route.models.GeoJsonObjectType>
+  keywordOnlyArguments:
+  - name: geometries
 methods:
 - uid: azure.maps.route.models.GeoJsonGeometryCollection.as_dict
   name: as_dict

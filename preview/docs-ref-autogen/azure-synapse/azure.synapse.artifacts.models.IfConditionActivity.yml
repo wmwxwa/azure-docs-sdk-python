@@ -77,6 +77,15 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.artifacts.models.Activity>]
+  keywordOnlyArguments:
+  - name: name
+  - name: expression
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: if_true_activities
+  - name: if_false_activities
 methods:
 - uid: azure.synapse.artifacts.models.IfConditionActivity.as_dict
   name: as_dict

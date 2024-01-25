@@ -104,6 +104,20 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.sql.models.ServerNetworkAccessFlag>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: identity
+  - name: administrator_login
+  - name: administrator_login_password
+  - name: version
+  - name: minimal_tls_version
+  - name: public_network_access
+  - name: primary_user_assigned_identity_id
+  - name: federated_client_id
+  - name: key_id
+  - name: administrators
+  - name: restrict_outbound_network_access
 variables:
 - description: Resource ID.
   name: id

@@ -48,6 +48,11 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
+  keywordOnlyArguments:
+  - name: metric_name
+  - name: lower_load_threshold
+  - name: upper_load_threshold
+  - name: scale_interval_in_seconds
 methods:
 - uid: azure.servicefabric.models.AveragePartitionLoadScalingTrigger.as_dict
   name: as_dict

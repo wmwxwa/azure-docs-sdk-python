@@ -30,6 +30,11 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: x
+  - name: y
+  - name: w
+  - name: h
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.BoundingRect.as_dict
   name: as_dict

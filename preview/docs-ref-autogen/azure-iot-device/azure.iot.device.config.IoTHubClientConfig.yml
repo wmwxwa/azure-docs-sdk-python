@@ -29,3 +29,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: device_id
+  - name: module_id
+  - name: product_info

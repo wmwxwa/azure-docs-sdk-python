@@ -57,3 +57,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.rdbms.mariadb.models.PerformanceTierServiceLevelObjectives>]
+  keywordOnlyArguments:
+  - name: id
+  - name: max_backup_retention_days
+  - name: min_backup_retention_days
+  - name: max_storage_mb
+  - name: min_large_storage_mb
+  - name: max_large_storage_mb
+  - name: min_storage_mb
+  - name: service_level_objectives

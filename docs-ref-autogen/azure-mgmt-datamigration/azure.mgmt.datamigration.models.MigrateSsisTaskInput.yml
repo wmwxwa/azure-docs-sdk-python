@@ -29,3 +29,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datamigration.models.SsisMigrationInfo>
+  keywordOnlyArguments:
+  - name: source_connection_info
+  - name: target_connection_info
+  - name: ssis_migration_info

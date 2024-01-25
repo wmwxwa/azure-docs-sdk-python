@@ -63,6 +63,13 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: is_active
+  - name: enabled_for_all_models
+  - name: phrases
+  - name: is_exchangeable
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.PhraseListFeatureInfo.as_dict
   name: as_dict

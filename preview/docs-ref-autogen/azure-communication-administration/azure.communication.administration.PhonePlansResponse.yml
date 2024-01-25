@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: phone_plans
+  - name: next_link
 methods:
 - uid: azure.communication.administration.PhonePlansResponse.as_dict
   name: as_dict

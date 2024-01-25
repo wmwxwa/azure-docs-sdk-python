@@ -32,6 +32,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.automation.models.StreamType>
+  keywordOnlyArguments:
+  - name: source_control_sync_job_stream_id
+  - name: summary
+  - name: stream_type
 variables:
 - description: Resource id.
   name: id

@@ -35,6 +35,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.cognitiveservices.vision.customvision.training.models.TagType>
+  keywordOnlyArguments:
+  - name: name
+  - name: description
+  - name: type
 variables:
 - description: Gets the Tag ID.
   name: id

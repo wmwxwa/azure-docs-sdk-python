@@ -34,3 +34,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: sku
+  - name: tags
+  - name: billing_config
+  - name: tenant_id

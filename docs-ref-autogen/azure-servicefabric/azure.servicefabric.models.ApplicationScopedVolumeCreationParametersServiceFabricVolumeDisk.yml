@@ -33,6 +33,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.servicefabric.models.SizeTypes>
+  keywordOnlyArguments:
+  - name: size_disk
+  - name: description
 methods:
 - uid: azure.servicefabric.models.ApplicationScopedVolumeCreationParametersServiceFabricVolumeDisk.as_dict
   name: as_dict

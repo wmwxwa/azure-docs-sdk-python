@@ -32,3 +32,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.powerbidedicated.models.Mode>
+  keywordOnlyArguments:
+  - name: sku
+  - name: tags
+  - name: administration
+  - name: mode

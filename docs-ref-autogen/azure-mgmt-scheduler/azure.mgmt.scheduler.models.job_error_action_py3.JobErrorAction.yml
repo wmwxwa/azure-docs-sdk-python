@@ -49,3 +49,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.scheduler.models.RetryPolicy>
+  keywordOnlyArguments:
+  - name: type
+  - name: request
+  - name: queue_message
+  - name: service_bus_queue_message
+  - name: service_bus_topic_message
+  - name: retry_policy

@@ -21,3 +21,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:storage_pool_management.models.EndpointDetail>]
+  keywordOnlyArguments:
+  - name: domain_name
+  - name: endpoint_details

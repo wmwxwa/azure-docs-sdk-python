@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.alertsmanagement.models.AlertsSummaryGroup>
+  keywordOnlyArguments:
+  - name: properties
 variables:
 - description: Azure resource Id.
   name: id

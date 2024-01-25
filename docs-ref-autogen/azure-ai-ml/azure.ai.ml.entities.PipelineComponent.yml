@@ -57,6 +57,16 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: name
+  - name: version
+  - name: description
+  - name: tags
+  - name: display_name
+  - name: inputs
+  - name: outputs
+  - name: jobs
+  - name: is_deterministic
 methods:
 - uid: azure.ai.ml.entities.PipelineComponent.dump
   name: dump

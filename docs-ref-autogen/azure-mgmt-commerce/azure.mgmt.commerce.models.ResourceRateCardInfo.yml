@@ -36,3 +36,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.commerce.models.MeterInfo>]
+  keywordOnlyArguments:
+  - name: currency
+  - name: locale
+  - name: is_tax_included
+  - name: offer_terms
+  - name: meters

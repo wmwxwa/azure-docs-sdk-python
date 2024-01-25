@@ -25,6 +25,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.iotcentral.models.SystemAssignedServiceIdentityType>
+  keywordOnlyArguments:
+  - name: type
 variables:
 - description: 'The service principal ID of the system assigned identity. This property
 

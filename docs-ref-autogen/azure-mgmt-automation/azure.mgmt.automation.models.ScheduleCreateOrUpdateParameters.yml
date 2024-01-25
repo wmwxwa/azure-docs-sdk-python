@@ -58,3 +58,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.automation.models.AdvancedSchedule>
+  keywordOnlyArguments:
+  - name: name
+  - name: start_time
+  - name: frequency
+  - name: description
+  - name: expiry_time
+  - name: interval
+  - name: time_zone
+  - name: advanced_schedule

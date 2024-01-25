@@ -83,6 +83,20 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.applicationinsights.models.EventsRequestInfo>
+  keywordOnlyArguments:
+  - name: id
+  - name: count
+  - name: timestamp
+  - name: custom_dimensions
+  - name: custom_measurements
+  - name: operation
+  - name: session
+  - name: user
+  - name: cloud
+  - name: ai
+  - name: application
+  - name: client
+  - name: request
 methods:
 - uid: azure.applicationinsights.models.EventsRequestResult.as_dict
   name: as_dict

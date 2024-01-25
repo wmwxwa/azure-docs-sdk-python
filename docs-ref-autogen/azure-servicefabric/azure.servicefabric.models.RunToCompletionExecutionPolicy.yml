@@ -35,6 +35,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.servicefabric.models.RestartPolicy>
+  keywordOnlyArguments:
+  - name: restart
 methods:
 - uid: azure.servicefabric.models.RunToCompletionExecutionPolicy.as_dict
   name: as_dict

@@ -83,6 +83,17 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.loganalytics.models.CapacityReservationProperties>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: identity
+  - name: sku
+  - name: is_double_encryption_enabled
+  - name: is_availability_zones_enabled
+  - name: billing_type
+  - name: key_vault_properties
+  - name: associated_workspaces
+  - name: capacity_reservation_properties
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

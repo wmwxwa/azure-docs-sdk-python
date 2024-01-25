@@ -54,6 +54,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.servicefabric.models.ApplicationPackageCleanupPolicy>
+  keywordOnlyArguments:
+  - name: async_property
+  - name: application_type_build_path
+  - name: application_package_cleanup_policy
 methods:
 - uid: azure.servicefabric.models.ProvisionApplicationTypeDescription.as_dict
   name: as_dict

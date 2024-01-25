@@ -70,3 +70,13 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: change_type
+  - name: change_category
+  - name: json_path
+  - name: display_name
+  - name: level
+  - name: description
+  - name: old_value
+  - name: new_value
+  - name: is_data_masked

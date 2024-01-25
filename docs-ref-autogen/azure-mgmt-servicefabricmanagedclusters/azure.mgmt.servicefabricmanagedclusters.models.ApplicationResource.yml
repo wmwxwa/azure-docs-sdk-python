@@ -61,6 +61,14 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:service_fabric_managed_clusters_management_client.models.ApplicationUserAssignedIdentity>]
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: identity
+  - name: version
+  - name: parameters
+  - name: upgrade_policy
+  - name: managed_identities
 variables:
 - description: Azure resource identifier.
   name: id

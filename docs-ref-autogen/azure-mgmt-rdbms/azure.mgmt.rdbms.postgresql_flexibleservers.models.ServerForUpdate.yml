@@ -62,3 +62,13 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.rdbms.postgresql_flexibleservers.models.CreateModeForUpdate>
+  keywordOnlyArguments:
+  - name: location
+  - name: sku
+  - name: tags
+  - name: administrator_login_password
+  - name: storage
+  - name: backup
+  - name: high_availability
+  - name: maintenance_window
+  - name: create_mode

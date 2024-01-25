@@ -28,6 +28,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: export_model_container_uri
+  - name: notification_queue_uri
 methods:
 - uid: azure.cognitiveservices.vision.customvision.training.models.CreateProjectOptions.as_dict
   name: as_dict

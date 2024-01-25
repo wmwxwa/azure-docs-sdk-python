@@ -18,3 +18,5 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.devtestlabs.models.NotificationChannelEventType>
+  keywordOnlyArguments:
+  - name: event_name

@@ -49,3 +49,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: in_progress_refresh_job_id
+  - name: last_completed_refresh_job_time_in_utc
+  - name: error_manifest_file
+  - name: last_job

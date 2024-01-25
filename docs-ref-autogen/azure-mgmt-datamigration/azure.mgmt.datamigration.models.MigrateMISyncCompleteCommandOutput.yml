@@ -16,3 +16,5 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.datamigration.models.ReportableException>]
+  keywordOnlyArguments:
+  - name: errors

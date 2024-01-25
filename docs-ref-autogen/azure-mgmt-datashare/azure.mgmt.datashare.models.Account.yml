@@ -31,6 +31,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datashare.models.Identity>
+  keywordOnlyArguments:
+  - name: identity
+  - name: location
+  - name: tags
 variables:
 - description: The resource id of the azure resource.
   name: id

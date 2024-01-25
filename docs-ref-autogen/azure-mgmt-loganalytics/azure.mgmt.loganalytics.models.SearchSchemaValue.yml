@@ -52,3 +52,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: indexed
+  - name: stored
+  - name: facet
+  - name: name
+  - name: display_name
+  - name: type
+  - name: owner_type

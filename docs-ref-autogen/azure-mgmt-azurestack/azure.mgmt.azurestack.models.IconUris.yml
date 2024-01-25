@@ -35,3 +35,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: large
+  - name: wide
+  - name: medium
+  - name: small
+  - name: hero

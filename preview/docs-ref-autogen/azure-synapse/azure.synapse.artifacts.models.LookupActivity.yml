@@ -77,6 +77,17 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: name
+  - name: source
+  - name: dataset
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: linked_service_name
+  - name: policy
+  - name: first_row_only
 methods:
 - uid: azure.synapse.artifacts.models.LookupActivity.as_dict
   name: as_dict

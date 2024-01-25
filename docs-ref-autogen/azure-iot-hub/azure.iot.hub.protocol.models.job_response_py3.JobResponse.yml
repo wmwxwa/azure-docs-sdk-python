@@ -100,6 +100,20 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.iot.hub.protocol.models.DeviceJobStatistics>
+  keywordOnlyArguments:
+  - name: job_id
+  - name: query_condition
+  - name: created_time
+  - name: start_time
+  - name: end_time
+  - name: max_execution_time_in_seconds
+  - name: type
+  - name: cloud_to_device_method
+  - name: update_twin
+  - name: status
+  - name: failure_reason
+  - name: status_message
+  - name: device_job_statistics
 methods:
 - uid: azure.iot.hub.protocol.models.job_response_py3.JobResponse.as_dict
   name: as_dict

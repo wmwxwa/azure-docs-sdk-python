@@ -64,6 +64,15 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: name
+  - name: pipeline
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: parameters
+  - name: wait_on_completion
 methods:
 - uid: azure.synapse.artifacts.models.ExecutePipelineActivity.as_dict
   name: as_dict

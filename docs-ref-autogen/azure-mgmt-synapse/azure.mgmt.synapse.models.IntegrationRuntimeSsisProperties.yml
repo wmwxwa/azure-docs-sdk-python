@@ -64,3 +64,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.synapse.models.CustomSetupBase>]
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: catalog_info
+  - name: license_type
+  - name: custom_setup_script_properties
+  - name: data_proxy_properties
+  - name: edition
+  - name: express_custom_setup_properties

@@ -34,3 +34,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.policyinsights.models.PolicyEvent>]
+  keywordOnlyArguments:
+  - name: odata_context
+  - name: odata_count
+  - name: odata_next_link
+  - name: value

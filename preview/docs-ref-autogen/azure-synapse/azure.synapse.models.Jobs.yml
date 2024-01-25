@@ -31,6 +31,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:int>]
+  keywordOnlyArguments:
+  - name: time
+  - name: start_time
+  - name: id
+  - name: edges
+  - name: nodes
 methods:
 - uid: azure.synapse.models.Jobs.as_dict
   name: as_dict

@@ -44,6 +44,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: inputs
+  - name: hub_output_name
 methods:
 - uid: azure.media.analyticsedge.MediaGraphIoTHubMessageSink.as_dict
   name: as_dict

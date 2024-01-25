@@ -63,6 +63,13 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.communication.administration.models.ActivationState>
+  keywordOnlyArguments:
+  - name: phone_number
+  - name: acquired_capabilities
+  - name: available_capabilities
+  - name: assignment_status
+  - name: place_name
+  - name: activation_state
 methods:
 - uid: azure.communication.administration.AcquiredPhoneNumber.as_dict
   name: as_dict

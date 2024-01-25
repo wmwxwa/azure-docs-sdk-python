@@ -25,3 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: quoted_name
+  - name: data_size
+  - name: data_type

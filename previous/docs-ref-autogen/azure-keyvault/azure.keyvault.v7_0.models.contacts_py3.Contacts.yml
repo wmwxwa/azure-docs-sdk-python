@@ -19,6 +19,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.keyvault.v7_0.models.Contact>]
+  keywordOnlyArguments:
+  - name: contact_list
 variables:
 - description: Identifier for the contacts collection.
   name: id

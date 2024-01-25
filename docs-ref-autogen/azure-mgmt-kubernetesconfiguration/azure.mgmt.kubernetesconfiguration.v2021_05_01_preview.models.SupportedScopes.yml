@@ -9,7 +9,7 @@ summary: Extension scopes.
 constructor:
   syntax: 'SupportedScopes(*, default_scope: str | None = None, cluster_scope_settings:
     _models.ClusterScopeSettings | None = None, **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: default_scope
     description: 'Default extension scopes: cluster or namespace.'
     types:

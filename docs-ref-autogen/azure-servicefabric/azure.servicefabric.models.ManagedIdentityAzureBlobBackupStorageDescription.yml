@@ -49,6 +49,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: managed_identity_type
+  - name: blob_service_uri
+  - name: container_name
+  - name: friendly_name
 methods:
 - uid: azure.servicefabric.models.ManagedIdentityAzureBlobBackupStorageDescription.as_dict
   name: as_dict

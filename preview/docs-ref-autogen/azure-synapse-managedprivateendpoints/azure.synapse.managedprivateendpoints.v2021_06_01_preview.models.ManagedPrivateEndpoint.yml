@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.managedprivateendpoints.v2021_06_01_preview.models.ManagedPrivateEndpointProperties>
+  keywordOnlyArguments:
+  - name: properties
 variables:
 - description: 'Fully qualified resource Id for the resource. Ex -
 

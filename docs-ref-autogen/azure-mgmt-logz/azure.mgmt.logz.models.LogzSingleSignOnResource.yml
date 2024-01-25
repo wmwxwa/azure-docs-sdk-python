@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:microsoft_logz.models.LogzSingleSignOnProperties>
+  keywordOnlyArguments:
+  - name: properties
 variables:
 - description: ARM id of the resource.
   name: id

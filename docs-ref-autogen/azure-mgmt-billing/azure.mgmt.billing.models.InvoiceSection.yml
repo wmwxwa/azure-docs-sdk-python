@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: display_name
+  - name: labels
 variables:
 - description: Resource Id.
   name: id

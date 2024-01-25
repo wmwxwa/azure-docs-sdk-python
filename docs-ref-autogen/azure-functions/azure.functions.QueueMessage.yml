@@ -23,6 +23,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: body
+  - name: pop_receipt
 methods:
 - uid: azure.functions.QueueMessage.get_body
   name: get_body

@@ -27,3 +27,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.edgegateway.models.ShareAccessType>
+  keywordOnlyArguments:
+  - name: share_id
+  - name: access_type

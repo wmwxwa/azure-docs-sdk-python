@@ -96,6 +96,18 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: name
+  - name: method
+  - name: function_name
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: linked_service_name
+  - name: policy
+  - name: headers
+  - name: body
 methods:
 - uid: azure.synapse.artifacts.models.AzureFunctionActivity.as_dict
   name: as_dict

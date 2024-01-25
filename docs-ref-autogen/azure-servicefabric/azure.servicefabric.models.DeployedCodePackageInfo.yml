@@ -103,6 +103,17 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.CodePackageEntryPoint>
+  keywordOnlyArguments:
+  - name: name
+  - name: version
+  - name: service_manifest_name
+  - name: service_package_activation_id
+  - name: host_type
+  - name: host_isolation_mode
+  - name: status
+  - name: run_frequency_interval
+  - name: setup_entry_point
+  - name: main_entry_point
 methods:
 - uid: azure.servicefabric.models.DeployedCodePackageInfo.as_dict
   name: as_dict

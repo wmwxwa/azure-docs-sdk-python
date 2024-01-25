@@ -37,6 +37,11 @@ constructor:
     isRequired: true
     types:
     - <xref:typing.Optional>[<xref:azure.ai.ml.entities.PipelineJobSettings>]
+  keywordOnlyArguments:
+  - name: component
+  - name: inputs
+  - name: outputs
+  - name: settings
 methods:
 - uid: azure.ai.ml.entities.Pipeline.clear
   name: clear
@@ -58,6 +63,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:PathLike>, <xref:str>, <xref:typing.IO>[<xref:typing.AnyStr>]]
+  keywordOnlyArguments:
   - name: kwargs
     description: Additional arguments to pass to the YAML serializer.
     types:
@@ -71,22 +77,23 @@ methods:
   name: fromkeys
   summary: Create a new dictionary with keys from iterable and values set to value.
   signature: fromkeys(value=None, /)
-  parameters:
-  - name: type
-    isRequired: true
+  positionalOnlyArguments:
   - name: iterable
     isRequired: true
   - name: value
-    defaultValue: None
+    isRequired: true
+  parameters:
+  - name: type
+    isRequired: true
 - uid: azure.ai.ml.entities.Pipeline.get
   name: get
   summary: Return the value for key if key is in the dictionary, else default.
   signature: get(key, default=None, /)
-  parameters:
+  positionalOnlyArguments:
   - name: key
     isRequired: true
   - name: default
-    defaultValue: None
+    isRequired: true
 - uid: azure.ai.ml.entities.Pipeline.items
   name: items
   signature: items() -> a set-like object providing a view on D's items
@@ -115,11 +122,11 @@ methods:
 
     Return the value for key if key is in the dictionary, else default.'
   signature: setdefault(key, default=None, /)
-  parameters:
+  positionalOnlyArguments:
   - name: key
     isRequired: true
   - name: default
-    defaultValue: None
+    isRequired: true
 - uid: azure.ai.ml.entities.Pipeline.update
   name: update
   summary: 'If E is present and has a .keys() method, then does:  for k in E: D[k]

@@ -38,6 +38,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:storage_pool_management.models.IscsiLun>]
+  keywordOnlyArguments:
+  - name: managed_by
+  - name: managed_by_extended
+  - name: static_acls
+  - name: luns
 variables:
 - description: 'Fully qualified resource Id for the resource. Ex -
 

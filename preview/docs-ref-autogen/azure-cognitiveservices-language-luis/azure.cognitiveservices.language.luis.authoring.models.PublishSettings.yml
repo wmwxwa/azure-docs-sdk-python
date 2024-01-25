@@ -39,6 +39,11 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: id
+  - name: is_sentiment_analysis_enabled
+  - name: is_speech_enabled
+  - name: is_spell_checker_enabled
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.PublishSettings.as_dict
   name: as_dict

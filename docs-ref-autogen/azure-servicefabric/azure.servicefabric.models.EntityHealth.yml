@@ -47,6 +47,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.HealthStatistics>
+  keywordOnlyArguments:
+  - name: aggregated_health_state
+  - name: health_events
+  - name: unhealthy_evaluations
+  - name: health_statistics
 methods:
 - uid: azure.servicefabric.models.EntityHealth.as_dict
   name: as_dict

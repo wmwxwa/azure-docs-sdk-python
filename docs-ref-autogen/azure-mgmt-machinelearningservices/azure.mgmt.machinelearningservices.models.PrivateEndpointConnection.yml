@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.machinelearningservices.models.PrivateLinkServiceConnectionState>
+  keywordOnlyArguments:
+  - name: private_endpoint
+  - name: private_link_service_connection_state
 variables:
 - description: ResourceId of the private endpoint connection.
   name: id

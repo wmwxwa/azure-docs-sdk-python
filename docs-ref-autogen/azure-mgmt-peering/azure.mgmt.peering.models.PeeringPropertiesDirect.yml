@@ -36,3 +36,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.peering.models.DirectPeeringType>
+  keywordOnlyArguments:
+  - name: connections
+  - name: use_for_peering_service
+  - name: peer_asn
+  - name: direct_peering_type

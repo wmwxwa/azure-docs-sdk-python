@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.accesscontrol.models.RoleAssignmentDetails>]
+  keywordOnlyArguments:
+  - name: count
+  - name: value
 methods:
 - uid: azure.synapse.accesscontrol.models.RoleAssignmentDetailsList.as_dict
   name: as_dict

@@ -60,3 +60,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: type
+  - name: membership_type
+    defaultValue: Include
+  - name: server_name
+  - name: database_name
+  - name: elastic_pool_name
+  - name: shard_map_name
+  - name: refresh_credential

@@ -31,6 +31,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.AutoScaleRunError>
+  keywordOnlyArguments:
+  - name: timestamp
+  - name: results
+  - name: error
 methods:
 - uid: azure.batch.models.AutoScaleRun.as_dict
   name: as_dict

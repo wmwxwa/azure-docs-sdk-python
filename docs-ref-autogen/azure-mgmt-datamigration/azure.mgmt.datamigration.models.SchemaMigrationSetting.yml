@@ -24,3 +24,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: schema_option
+  - name: file_id

@@ -45,6 +45,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.artifacts.models.TriggerPipelineReference>]
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: description
+  - name: annotations
+  - name: pipelines
 variables:
 - description: 'Indicates if trigger is running or not. Updated when Start/Stop APIs
     are

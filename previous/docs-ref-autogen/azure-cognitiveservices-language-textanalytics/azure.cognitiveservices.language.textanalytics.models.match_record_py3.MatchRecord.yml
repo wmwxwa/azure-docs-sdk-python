@@ -45,6 +45,12 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: wikipedia_score
+  - name: entity_type_score
+  - name: text
+  - name: offset
+  - name: length
 methods:
 - uid: azure.cognitiveservices.language.textanalytics.models.match_record_py3.MatchRecord.as_dict
   name: as_dict

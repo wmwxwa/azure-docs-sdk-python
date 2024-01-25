@@ -47,6 +47,13 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.LinkedServiceReference>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: additional_properties
+  - name: identity
+  - name: default_storage
+  - name: default_sql_server
 variables:
 - description: The resource identifier.
   name: id

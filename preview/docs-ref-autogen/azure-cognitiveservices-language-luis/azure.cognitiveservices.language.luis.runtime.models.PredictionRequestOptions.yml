@@ -24,6 +24,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: datetime_reference
+  - name: prefer_external_entities
 methods:
 - uid: azure.cognitiveservices.language.luis.runtime.models.PredictionRequestOptions.as_dict
   name: as_dict

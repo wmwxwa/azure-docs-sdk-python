@@ -30,6 +30,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: additional_properties
+  - name: codemirror_mode
 methods:
 - uid: azure.synapse.artifacts.models.NotebookLanguageInfo.as_dict
   name: as_dict

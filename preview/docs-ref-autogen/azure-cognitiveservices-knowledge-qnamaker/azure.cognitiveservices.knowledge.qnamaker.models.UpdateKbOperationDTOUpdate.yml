@@ -36,6 +36,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: qna_list
+  - name: urls
+  - name: default_answer
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.UpdateKbOperationDTOUpdate.as_dict
   name: as_dict

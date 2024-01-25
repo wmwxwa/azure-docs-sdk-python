@@ -53,6 +53,15 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: version_id
+  - name: is_staging
+  - name: endpoint_url
+  - name: region
+  - name: assigned_endpoint_key
+  - name: endpoint_region
+  - name: failed_regions
+  - name: published_date_time
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.EndpointInfo.as_dict
   name: as_dict

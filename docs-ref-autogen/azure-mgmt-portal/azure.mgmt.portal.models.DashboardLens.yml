@@ -28,3 +28,7 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:any>]
+  keywordOnlyArguments:
+  - name: order
+  - name: parts
+  - name: metadata

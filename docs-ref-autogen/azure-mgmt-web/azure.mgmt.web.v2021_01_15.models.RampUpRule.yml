@@ -61,3 +61,12 @@ constructor:
     int | None = None, min_reroute_percentage: float | None = None, max_reroute_percentage:
     float | None = None, change_decision_callback_url: str | None = None, name: str
     | None = None, **kwargs: Any)'
+  keywordOnlyArguments:
+  - name: action_host_name
+  - name: reroute_percentage
+  - name: change_step
+  - name: change_interval_in_minutes
+  - name: min_reroute_percentage
+  - name: max_reroute_percentage
+  - name: change_decision_callback_url
+  - name: name

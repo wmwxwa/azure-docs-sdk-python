@@ -69,6 +69,16 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.artifacts.models.SSISChildPackage>]
+  keywordOnlyArguments:
+  - name: package_path
+  - name: type
+  - name: package_password
+  - name: access_credential
+  - name: configuration_path
+  - name: package_name
+  - name: package_content
+  - name: package_last_modified_date
+  - name: child_packages
 methods:
 - uid: azure.synapse.artifacts.models.SSISPackageLocation.as_dict
   name: as_dict

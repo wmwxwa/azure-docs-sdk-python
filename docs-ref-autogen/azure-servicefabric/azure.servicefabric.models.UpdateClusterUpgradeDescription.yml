@@ -60,6 +60,14 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.ApplicationHealthPolicies>
+  keywordOnlyArguments:
+  - name: upgrade_kind
+    defaultValue: Rolling
+  - name: update_description
+  - name: cluster_health_policy
+  - name: enable_delta_health_evaluation
+  - name: cluster_upgrade_health_policy
+  - name: application_health_policy_map
 methods:
 - uid: azure.servicefabric.models.UpdateClusterUpgradeDescription.as_dict
   name: as_dict

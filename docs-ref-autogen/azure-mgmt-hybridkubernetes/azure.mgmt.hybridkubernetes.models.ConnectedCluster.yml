@@ -64,6 +64,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: identity
+  - name: agent_public_key_certificate
+  - name: tags
+  - name: provisioning_state
+  - name: distribution
+  - name: infrastructure
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

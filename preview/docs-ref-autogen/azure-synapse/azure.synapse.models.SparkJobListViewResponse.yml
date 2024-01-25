@@ -18,6 +18,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.models.SparkJob>]
+  keywordOnlyArguments:
+  - name: n_jobs
+  - name: spark_jobs
 methods:
 - uid: azure.synapse.models.SparkJobListViewResponse.as_dict
   name: as_dict

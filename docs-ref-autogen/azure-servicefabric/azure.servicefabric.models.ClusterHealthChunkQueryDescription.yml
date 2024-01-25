@@ -72,6 +72,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.ApplicationHealthPolicies>
+  keywordOnlyArguments:
+  - name: node_filters
+  - name: application_filters
+  - name: cluster_health_policy
+  - name: application_health_policies
 methods:
 - uid: azure.servicefabric.models.ClusterHealthChunkQueryDescription.as_dict
   name: as_dict

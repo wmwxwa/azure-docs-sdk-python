@@ -44,6 +44,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: tags
+  - name: location
+  - name: etag
+  - name: sku
+  - name: last_modified_by
+  - name: description
 variables:
 - description: Fully qualified resource Id for the resource.
   name: id

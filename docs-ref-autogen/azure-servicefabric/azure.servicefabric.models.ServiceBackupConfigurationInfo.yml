@@ -51,6 +51,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: policy_name
+  - name: policy_inherited_from
+  - name: suspension_info
+  - name: service_name
 methods:
 - uid: azure.servicefabric.models.ServiceBackupConfigurationInfo.as_dict
   name: as_dict

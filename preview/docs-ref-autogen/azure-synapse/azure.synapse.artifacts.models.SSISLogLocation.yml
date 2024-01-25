@@ -38,6 +38,10 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: log_path
+  - name: access_credential
+  - name: log_refresh_interval
 variables:
 - description: 'Required. The type of SSIS log location. Default value: "File".'
   name: type

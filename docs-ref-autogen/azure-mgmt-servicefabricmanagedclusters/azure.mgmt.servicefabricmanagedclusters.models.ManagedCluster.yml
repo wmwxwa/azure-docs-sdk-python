@@ -165,6 +165,31 @@ constructor:
     isRequired: true
     types:
     - <xref:service_fabric_managed_clusters_management_client.models.ApplicationTypeVersionsCleanupPolicy>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: sku
+  - name: dns_name
+  - name: client_connection_port
+    defaultValue: '19000'
+  - name: http_gateway_connection_port
+    defaultValue: '19080'
+  - name: admin_user_name
+  - name: admin_password
+  - name: load_balancing_rules
+  - name: allow_rdp_access
+  - name: network_security_rules
+  - name: clients
+  - name: azure_active_directory
+  - name: fabric_settings
+  - name: cluster_code_version
+  - name: cluster_upgrade_mode
+    defaultValue: Automatic
+  - name: cluster_upgrade_cadence
+  - name: addon_features
+  - name: enable_auto_os_upgrade
+  - name: zonal_resiliency
+  - name: application_type_versions_cleanup_policy
 variables:
 - description: Azure resource identifier.
   name: id

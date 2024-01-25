@@ -10,7 +10,7 @@ constructor:
   syntax: 'CustomActivityReferenceObject(*, linked_services: List[_models.LinkedServiceReference]
     | None = None, datasets: List[_models.DatasetReference] | None = None, **kwargs:
     Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: linked_services
     description: Linked service references.
     types:

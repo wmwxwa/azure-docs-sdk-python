@@ -28,3 +28,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: tags
+  - name: deployment_properties
+  - name: arm_template_display_name

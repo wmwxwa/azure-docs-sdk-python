@@ -101,6 +101,15 @@ constructor:
     isRequired: true
     types:
     - <xref:Datetime>, <xref:optional>
+  keywordOnlyArguments:
+  - name: source
+  - name: index_columns
+  - name: features
+  - name: feature_transformation_code
+  - name: feature_transformation
+  - name: source_lookback
+  - name: temporal_join_lookback
+  - name: base_path
 methods:
 - uid: azureml.featurestore.feature_set_spec.FeatureSetSpec.dump
   name: dump

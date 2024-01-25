@@ -54,6 +54,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.PoolSpecification>
+  keywordOnlyArguments:
+  - name: pool_lifetime_option
+  - name: auto_pool_id_prefix
+  - name: keep_alive
+  - name: pool
 methods:
 - uid: azure.batch.models.AutoPoolSpecification.as_dict
   name: as_dict

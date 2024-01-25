@@ -34,3 +34,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: return_reason
+  - name: return_address
+  - name: service_tag
+  - name: shipping_box_required

@@ -30,6 +30,11 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: bottom
+  - name: left
+  - name: right
+  - name: top
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.Face.as_dict
   name: as_dict

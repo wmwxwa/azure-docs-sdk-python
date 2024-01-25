@@ -21,22 +21,7 @@ constructor:
     | None = None, inbound_ip_rules: List[_models.InboundIpRule] | None = None, disable_local_auth:
     bool = False, partner_topic_routing_mode: str | _models.PartnerTopicRoutingMode
     = ''SourceEventAttribute'', **kwargs: Any)'
-  parameters:
-  - name: location
-    description: Location of the resource. Required.
-    types:
-    - <xref:str>
-  - name: tags
-    description: Tags of the resource.
-    types:
-    - <xref:dict>[<xref:str>, <xref:str>]
-  - name: partner_registration_fully_qualified_id
-    description: 'The fully qualified ARM Id of the partner
-
-      registration that should be associated with this partner namespace. This takes
-      the following
-
-      format:'
+  keywordOnlyArguments:
   - name: public_network_access
     description: 'This determines if traffic is allowed over public network. By
 
@@ -77,9 +62,14 @@ constructor:
       Known values are:
 
       "SourceEventAttribute" and "ChannelNameHeader".'
+    defaultValue: SourceEventAttribute
     types:
     - <xref:str>
     - <xref:azure.mgmt.eventgrid.models.PartnerTopicRoutingMode>
+  - name: location
+  - name: tags
+  - name: partner_registration_fully_qualified_id
+  - name: minimum_tls_version_allowed
 variables:
 - description: Fully qualified identifier of the resource.
   name: id

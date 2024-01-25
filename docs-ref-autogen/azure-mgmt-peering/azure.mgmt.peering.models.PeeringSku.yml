@@ -41,3 +41,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.peering.models.Size>
+  keywordOnlyArguments:
+  - name: name
+  - name: tier
+  - name: family
+  - name: size

@@ -88,6 +88,16 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: partition_id
+  - name: replica_id
+  - name: fault_group_id
+  - name: fault_id
+  - name: service_uri
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.ChaosReplicaRemovalScheduledEvent.as_dict
   name: as_dict

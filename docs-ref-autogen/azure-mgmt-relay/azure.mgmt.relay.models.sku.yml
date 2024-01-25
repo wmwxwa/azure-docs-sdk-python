@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: tier
 variables:
 - description: 'Name of this SKU. Has constant value: "Standard".'
   name: name

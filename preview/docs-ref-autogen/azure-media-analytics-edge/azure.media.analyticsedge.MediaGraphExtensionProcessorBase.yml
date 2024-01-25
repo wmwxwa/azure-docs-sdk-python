@@ -61,6 +61,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.media.analyticsedge.models.MediaGraphSamplingOptions>
+  keywordOnlyArguments:
+  - name: name
+  - name: inputs
+  - name: endpoint
+  - name: image
+  - name: sampling_options
 methods:
 - uid: azure.media.analyticsedge.MediaGraphExtensionProcessorBase.as_dict
   name: as_dict

@@ -50,6 +50,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: authorizations
+  - name: managed_by_tenant_id
+  - name: description
+  - name: eligible_authorizations
+  - name: registration_definition_name
 variables:
 - description: 'Current state of the registration definition. Possible values
 

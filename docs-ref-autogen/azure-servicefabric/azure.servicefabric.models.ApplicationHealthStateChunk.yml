@@ -59,6 +59,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.DeployedApplicationHealthStateChunkList>
+  keywordOnlyArguments:
+  - name: health_state
+  - name: application_name
+  - name: application_type_name
+  - name: service_health_state_chunks
+  - name: deployed_application_health_state_chunks
 methods:
 - uid: azure.servicefabric.models.ApplicationHealthStateChunk.as_dict
   name: as_dict

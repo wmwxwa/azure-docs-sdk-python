@@ -41,6 +41,12 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.servicefabric.models.Scheme>
+  keywordOnlyArguments:
+  - name: port
+  - name: path
+  - name: host
+  - name: http_headers
+  - name: scheme
 methods:
 - uid: azure.servicefabric.models.ProbeHttpGet.as_dict
   name: as_dict

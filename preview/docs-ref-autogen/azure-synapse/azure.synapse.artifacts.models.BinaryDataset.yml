@@ -83,6 +83,17 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.DatasetCompression>
+  keywordOnlyArguments:
+  - name: linked_service_name
+  - name: additional_properties
+  - name: description
+  - name: structure
+  - name: schema
+  - name: parameters
+  - name: annotations
+  - name: folder
+  - name: location
+  - name: compression
 methods:
 - uid: azure.synapse.artifacts.models.BinaryDataset.as_dict
   name: as_dict

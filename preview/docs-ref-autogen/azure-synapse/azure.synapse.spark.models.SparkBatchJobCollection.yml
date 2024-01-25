@@ -28,6 +28,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.spark.models.SparkBatchJob>]
+  keywordOnlyArguments:
+  - name: from_property
+  - name: total
+  - name: sessions
 methods:
 - uid: azure.synapse.spark.models.SparkBatchJobCollection.as_dict
   name: as_dict

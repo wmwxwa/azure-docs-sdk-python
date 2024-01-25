@@ -27,6 +27,10 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: bounding_box
+  - name: text
+  - name: confidence
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.Word.as_dict
   name: as_dict

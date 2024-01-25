@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.billing.models.Reseller>]
+  keywordOnlyArguments:
+  - name: display_name
+  - name: enabled_azure_plans
+  - name: resellers
 variables:
 - description: Resource Id.
   name: id

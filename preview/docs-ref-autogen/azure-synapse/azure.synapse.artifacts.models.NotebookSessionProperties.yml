@@ -38,6 +38,12 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: driver_memory
+  - name: driver_cores
+  - name: executor_memory
+  - name: executor_cores
+  - name: num_executors
 methods:
 - uid: azure.synapse.artifacts.models.NotebookSessionProperties.as_dict
   name: as_dict

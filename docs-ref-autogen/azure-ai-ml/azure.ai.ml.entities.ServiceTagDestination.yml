@@ -35,6 +35,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: service_tag
+  - name: protocol
+  - name: port_ranges
 variables:
 - description: Type of the outbound rule. Set to "ServiceTag" for this class.
   name: type

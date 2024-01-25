@@ -56,3 +56,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: source
+  - name: name
+  - name: location
+  - name: tags
+  - name: log_verbose
+  - name: log_progress
+  - name: parameters
+  - name: description

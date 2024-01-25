@@ -41,6 +41,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.deploymentmanager.models.StepGroup>]
+  keywordOnlyArguments:
+  - name: build_version
+  - name: target_service_topology_id
+  - name: step_groups
+  - name: artifact_source_id
 variables:
 - description: The current status of the rollout.
   name: status

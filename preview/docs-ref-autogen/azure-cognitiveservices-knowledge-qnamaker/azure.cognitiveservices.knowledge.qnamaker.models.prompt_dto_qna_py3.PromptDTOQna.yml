@@ -50,6 +50,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: answer
+  - name: questions
+  - name: id
+  - name: source
+  - name: metadata
+  - name: context
+  - name: last_updated_timestamp
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.prompt_dto_qna_py3.PromptDTOQna.as_dict
   name: as_dict

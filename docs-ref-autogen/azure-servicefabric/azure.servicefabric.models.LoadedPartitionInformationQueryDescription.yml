@@ -63,6 +63,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: metric_name
+  - name: service_name
+  - name: ordering
+    defaultValue: Desc
+  - name: max_results
+  - name: continuation_token
 methods:
 - uid: azure.servicefabric.models.LoadedPartitionInformationQueryDescription.as_dict
   name: as_dict

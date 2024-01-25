@@ -20,3 +20,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: cloud_id
+  - name: ingestion_key

@@ -85,3 +85,13 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: tags
+  - name: lab_storage_type
+  - name: mandatory_artifacts_resource_ids_linux
+  - name: mandatory_artifacts_resource_ids_windows
+  - name: premium_data_disks
+  - name: environment_permission
+  - name: announcement
+  - name: support
+  - name: extended_properties

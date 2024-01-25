@@ -38,6 +38,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: retention_duration
+  - name: minimum_number_of_backups
 methods:
 - uid: azure.servicefabric.models.BasicRetentionPolicyDescription.as_dict
   name: as_dict

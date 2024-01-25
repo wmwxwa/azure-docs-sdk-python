@@ -54,6 +54,14 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.devtestlabs.models.Event>]
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: web_hook_url
+  - name: email_recipient
+  - name: notification_locale
+  - name: description
+  - name: events
 variables:
 - description: The identifier of the resource.
   name: id

@@ -72,3 +72,14 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: runbook_type
+  - name: name
+  - name: location
+  - name: tags
+  - name: log_verbose
+  - name: log_progress
+  - name: draft
+  - name: publish_content_link
+  - name: description
+  - name: log_activity_trace

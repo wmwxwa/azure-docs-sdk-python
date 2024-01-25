@@ -13,3 +13,5 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.sql.models.FirewallRule>]
+  keywordOnlyArguments:
+  - name: values

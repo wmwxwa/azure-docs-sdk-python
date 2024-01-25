@@ -29,6 +29,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.search.videosearch.models.VideoObject>]
+  keywordOnlyArguments:
+  - name: value
 variables:
 - description: A String identifier.
   name: id

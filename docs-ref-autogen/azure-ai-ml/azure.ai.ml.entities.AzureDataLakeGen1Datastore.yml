@@ -46,6 +46,13 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>
+  keywordOnlyArguments:
+  - name: name
+  - name: store_name
+  - name: description
+  - name: tags
+  - name: properties
+  - name: credentials
 methods:
 - uid: azure.ai.ml.entities.AzureDataLakeGen1Datastore.dump
   name: dump

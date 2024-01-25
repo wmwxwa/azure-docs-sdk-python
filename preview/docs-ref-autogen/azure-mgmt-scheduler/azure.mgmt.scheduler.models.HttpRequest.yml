@@ -36,3 +36,9 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: authentication
+  - name: uri
+  - name: method
+  - name: body
+  - name: headers

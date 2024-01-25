@@ -31,6 +31,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.computervision.models.OcrLine>]
+  keywordOnlyArguments:
+  - name: bounding_box
+  - name: lines
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.OcrRegion.as_dict
   name: as_dict

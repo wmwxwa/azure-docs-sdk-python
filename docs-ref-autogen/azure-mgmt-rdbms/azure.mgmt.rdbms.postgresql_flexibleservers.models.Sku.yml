@@ -29,3 +29,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.rdbms.postgresql_flexibleservers.models.SkuTier>
+  keywordOnlyArguments:
+  - name: name
+  - name: tier

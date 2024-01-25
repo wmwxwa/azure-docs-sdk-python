@@ -22,3 +22,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.timeseriesinsights.models.PropertyType>
+  keywordOnlyArguments:
+  - name: name
+  - name: type

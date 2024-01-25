@@ -183,6 +183,29 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: host
+  - name: authentication_type
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: port
+  - name: server_type
+  - name: thrift_transport_protocol
+  - name: service_discovery_mode
+  - name: zoo_keeper_name_space
+  - name: use_native_query
+  - name: username
+  - name: password
+  - name: http_path
+  - name: enable_ssl
+  - name: trusted_cert_path
+  - name: use_system_trust_store
+  - name: allow_host_name_cn_mismatch
+  - name: allow_self_signed_server_cert
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.HiveLinkedService.as_dict
   name: as_dict

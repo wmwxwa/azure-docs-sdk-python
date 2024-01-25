@@ -26,3 +26,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: certificate
+  - name: authentication_type

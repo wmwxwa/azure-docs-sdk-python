@@ -26,6 +26,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.OutputFileUploadCondition>
+  keywordOnlyArguments:
+  - name: upload_condition
 methods:
 - uid: azure.batch.models.OutputFileUploadOptions.as_dict
   name: as_dict

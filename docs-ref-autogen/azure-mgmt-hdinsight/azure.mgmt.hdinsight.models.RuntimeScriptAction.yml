@@ -36,6 +36,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: name
+  - name: uri
+  - name: roles
+  - name: parameters
 variables:
 - description: The application name of the script action, if any.
   name: application_name

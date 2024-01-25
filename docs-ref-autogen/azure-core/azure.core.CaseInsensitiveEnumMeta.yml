@@ -19,5 +19,8 @@ constructor:
   - name: cls
   - name: bases
   - name: classdict
+  keywordOnlyArguments:
+  - name: boundary
+  - name: _simple
 inheritances:
 - enum.EnumType

@@ -20,3 +20,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.synapse.models.PrivateEndpointConnectionProperties>
+  keywordOnlyArguments:
+  - name: id
+  - name: properties

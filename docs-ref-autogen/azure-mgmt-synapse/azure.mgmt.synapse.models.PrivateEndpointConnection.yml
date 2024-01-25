@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.synapse.models.PrivateLinkServiceConnectionState>
+  keywordOnlyArguments:
+  - name: private_endpoint
+  - name: private_link_service_connection_state
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

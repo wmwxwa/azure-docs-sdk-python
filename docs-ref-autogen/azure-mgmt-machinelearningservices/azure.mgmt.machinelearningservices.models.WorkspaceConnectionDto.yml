@@ -36,3 +36,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: category
+  - name: target
+  - name: auth_type
+  - name: value

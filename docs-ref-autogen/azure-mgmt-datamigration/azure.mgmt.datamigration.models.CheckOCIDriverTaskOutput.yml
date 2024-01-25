@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datamigration.models.OracleOCIDriverInfo>
+  keywordOnlyArguments:
+  - name: installed_driver
 variables:
 - description: Validation errors.
   name: validation_errors

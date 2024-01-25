@@ -33,6 +33,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: type
+  - name: name
+  - name: additional_properties
 methods:
 - uid: azure.synapse.artifacts.models.SqlConnection.as_dict
   name: as_dict

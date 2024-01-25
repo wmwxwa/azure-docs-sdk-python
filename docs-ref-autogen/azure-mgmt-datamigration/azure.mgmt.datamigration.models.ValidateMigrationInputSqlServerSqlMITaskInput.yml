@@ -59,3 +59,11 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.datamigration.models.BackupMode>
+  keywordOnlyArguments:
+  - name: source_connection_info
+  - name: target_connection_info
+  - name: selected_databases
+  - name: backup_blob_share
+  - name: selected_logins
+  - name: backup_file_share
+  - name: backup_mode

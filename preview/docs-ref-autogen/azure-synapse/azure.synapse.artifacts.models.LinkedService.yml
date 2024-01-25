@@ -78,6 +78,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:object>]
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
 methods:
 - uid: azure.synapse.artifacts.models.LinkedService.as_dict
   name: as_dict

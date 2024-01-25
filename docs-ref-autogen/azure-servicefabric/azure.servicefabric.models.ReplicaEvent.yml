@@ -85,6 +85,13 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: partition_id
+  - name: replica_id
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.ReplicaEvent.as_dict
   name: as_dict

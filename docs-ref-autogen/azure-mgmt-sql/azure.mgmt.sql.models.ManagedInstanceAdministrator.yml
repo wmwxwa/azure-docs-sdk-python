@@ -37,6 +37,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: administrator_type
+  - name: login
+  - name: sid
+  - name: tenant_id
 variables:
 - description: Resource ID.
   name: id

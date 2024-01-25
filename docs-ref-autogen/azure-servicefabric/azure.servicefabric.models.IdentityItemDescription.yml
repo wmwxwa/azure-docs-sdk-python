@@ -24,6 +24,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: principal_id
+  - name: client_id
 methods:
 - uid: azure.servicefabric.models.IdentityItemDescription.as_dict
   name: as_dict

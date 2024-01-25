@@ -23,3 +23,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.rdbms.postgresql_flexibleservers.models.FailoverMode>
+  keywordOnlyArguments:
+  - name: restart_with_failover
+  - name: failover_mode

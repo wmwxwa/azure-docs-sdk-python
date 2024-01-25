@@ -46,6 +46,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.ResourceId>
+  keywordOnlyArguments:
+  - name: name
+  - name: primary
+  - name: private_ip_address
+  - name: private_ip_allocation_method
+  - name: subnet
 variables:
 - description: The private link IP configuration id.
   name: id

@@ -9,7 +9,7 @@ summary: WorkbookTemplate list result.
 constructor:
   syntax: 'WorkbookTemplatesListResult(*, value: List[_models.WorkbookTemplate] |
     None = None, **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: An array of workbook templates.
     types:

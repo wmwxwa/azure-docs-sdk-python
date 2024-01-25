@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: countries
+  - name: next_link
 methods:
 - uid: azure.communication.administration.PhoneNumberCountries.as_dict
   name: as_dict

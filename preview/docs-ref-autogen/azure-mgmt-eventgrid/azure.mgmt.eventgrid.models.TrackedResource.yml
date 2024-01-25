@@ -15,7 +15,7 @@ summary: 'Definition of a Tracked Resource.
 constructor:
   syntax: 'TrackedResource(*, location: str, tags: Dict[str, str] | None = None, **kwargs:
     Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: location
     description: Location of the resource. Required.
     types:

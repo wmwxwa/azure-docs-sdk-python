@@ -18,6 +18,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.datamigration.models.ErrorType>
+  keywordOnlyArguments:
+  - name: type
 variables:
 - description: Error description.
   name: message

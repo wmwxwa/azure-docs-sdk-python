@@ -29,6 +29,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: value
+  - name: is_sensitive
 methods:
 - uid: azure.synapse.artifacts.models.SSISPropertyOverride.as_dict
   name: as_dict

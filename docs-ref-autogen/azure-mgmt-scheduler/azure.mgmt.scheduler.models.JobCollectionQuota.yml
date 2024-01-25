@@ -25,3 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.scheduler.models.JobMaxRecurrence>
+  keywordOnlyArguments:
+  - name: max_job_count
+  - name: max_job_occurrence
+  - name: max_recurrence

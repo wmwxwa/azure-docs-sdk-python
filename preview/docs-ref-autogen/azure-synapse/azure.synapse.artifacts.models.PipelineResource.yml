@@ -67,6 +67,16 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.PipelineFolder>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: description
+  - name: activities
+  - name: parameters
+  - name: variables
+  - name: concurrency
+  - name: annotations
+  - name: run_dimensions
+  - name: folder
 variables:
 - description: The resource identifier.
   name: id

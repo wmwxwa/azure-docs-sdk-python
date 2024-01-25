@@ -42,6 +42,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.customproviders.models.CustomRPValidations>]
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: actions
+  - name: resource_types
+  - name: validations
 variables:
 - description: Resource Id.
   name: id

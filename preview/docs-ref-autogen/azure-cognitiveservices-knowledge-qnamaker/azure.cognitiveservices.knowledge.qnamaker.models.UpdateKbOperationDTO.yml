@@ -45,6 +45,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: add
+  - name: delete
+  - name: update
+  - name: enable_hierarchical_extraction
+  - name: default_answer_used_for_extraction
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.UpdateKbOperationDTO.as_dict
   name: as_dict

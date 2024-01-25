@@ -58,6 +58,18 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.models.LivyRequestBase>
+  keywordOnlyArguments:
+  - name: not_started_at
+  - name: starting_at
+  - name: idle_at
+  - name: dead_at
+  - name: shutting_down_at
+  - name: killed_at
+  - name: recovering_at
+  - name: busy_at
+  - name: error_at
+  - name: current_state
+  - name: job_creation_request
 methods:
 - uid: azure.synapse.models.LivySessionStateInformation.as_dict
   name: as_dict

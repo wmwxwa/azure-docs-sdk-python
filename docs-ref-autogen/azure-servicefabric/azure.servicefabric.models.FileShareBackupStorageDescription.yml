@@ -53,6 +53,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: path
+  - name: friendly_name
+  - name: primary_user_name
+  - name: primary_password
+  - name: secondary_user_name
+  - name: secondary_password
 methods:
 - uid: azure.servicefabric.models.FileShareBackupStorageDescription.as_dict
   name: as_dict

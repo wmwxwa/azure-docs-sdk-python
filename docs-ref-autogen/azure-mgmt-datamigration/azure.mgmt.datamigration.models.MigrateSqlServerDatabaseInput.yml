@@ -31,3 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.datamigration.models.DatabaseFileInput>]
+  keywordOnlyArguments:
+  - name: name
+  - name: restore_database_name
+  - name: backup_and_restore_folder
+  - name: database_files

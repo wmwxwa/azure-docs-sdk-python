@@ -28,6 +28,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.NotebookLanguageInfo>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: kernelspec
+  - name: language_info
 methods:
 - uid: azure.synapse.artifacts.models.NotebookMetadata.as_dict
   name: as_dict

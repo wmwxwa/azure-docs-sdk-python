@@ -9,7 +9,7 @@ summary: Replication eligibility results collection response model.
 constructor:
   syntax: 'ReplicationEligibilityResultsCollection(*, value: List[_models.ReplicationEligibilityResults]
     | None = None, **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: The replication eligibility results details.
     types:

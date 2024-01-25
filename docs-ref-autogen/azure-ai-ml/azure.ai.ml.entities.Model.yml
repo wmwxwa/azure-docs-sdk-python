@@ -78,6 +78,17 @@ constructor:
     isRequired: true
     types:
     - <xref:typing.Optional>[<xref:dict>]
+  keywordOnlyArguments:
+  - name: name
+  - name: version
+  - name: type
+  - name: path
+  - name: utc_time_created
+  - name: flavors
+  - name: description
+  - name: tags
+  - name: properties
+  - name: stage
 examples:
 - "Creating a Model object.<!--[!code-python[Main](les\\ml_samples_misc.py )]-->\n\
   \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
@@ -108,6 +119,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:PathLike>, <xref:str>, <xref:typing.IO>[<xref:typing.AnyStr>]]
+  keywordOnlyArguments:
   - name: kwargs
     description: Additional arguments to pass to the YAML serializer.
     types:

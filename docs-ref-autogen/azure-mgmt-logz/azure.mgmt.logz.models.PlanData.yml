@@ -31,3 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
+  keywordOnlyArguments:
+  - name: usage_type
+  - name: billing_cycle
+  - name: plan_details
+  - name: effective_date

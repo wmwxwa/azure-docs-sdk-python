@@ -39,3 +39,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:storage_pool_management.models.Disk>]
+  keywordOnlyArguments:
+  - name: managed_by
+  - name: managed_by_extended
+  - name: sku
+  - name: tags
+  - name: disks

@@ -22,6 +22,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.peering.models.CheckServiceProviderAvailabilityInput>
+  keywordOnlyArguments:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

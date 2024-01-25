@@ -30,6 +30,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: i_key
+  - name: app_name
+  - name: app_id
+  - name: sdk_version
 methods:
 - uid: azure.applicationinsights.models.events_ai_info_py3.EventsAiInfo.as_dict
   name: as_dict

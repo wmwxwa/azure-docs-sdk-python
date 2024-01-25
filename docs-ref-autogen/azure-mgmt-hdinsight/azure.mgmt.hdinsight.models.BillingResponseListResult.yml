@@ -37,6 +37,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.hdinsight.models.BillingResources>]
+  keywordOnlyArguments:
+  - name: vm_sizes
+  - name: vm_sizes_with_encryption_at_host
+  - name: vm_size_filters
+  - name: billing_resources
 variables:
 - description: The vm size properties.
   name: vm_size_properties

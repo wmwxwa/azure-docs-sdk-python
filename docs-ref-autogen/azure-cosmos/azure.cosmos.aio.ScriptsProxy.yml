@@ -171,6 +171,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:str>, <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]]
+  keywordOnlyArguments:
   - name: partition_key
     description: 'Specifies the partition key to indicate which partition the stored
       procedure should
@@ -253,7 +254,7 @@ methods:
   name: list_stored_procedures
   summary: List all stored procedures in the container.
   signature: 'list_stored_procedures(**kwargs: Any) -> AsyncItemPaged[Dict[str, Any]]'
-  parameters:
+  keywordOnlyArguments:
   - name: max_item_count
     description: Max number of items to be returned in the enumeration operation.
     types:
@@ -266,7 +267,7 @@ methods:
   name: list_triggers
   summary: List all triggers in the container.
   signature: 'list_triggers(**kwargs: Any) -> AsyncItemPaged[Dict[str, Any]]'
-  parameters:
+  keywordOnlyArguments:
   - name: max_item_count
     description: Max number of items to be returned in the enumeration operation.
     types:
@@ -280,7 +281,7 @@ methods:
   summary: List all the user-defined functions in the container.
   signature: 'list_user_defined_functions(**kwargs: Any) -> AsyncItemPaged[Dict[str,
     Any]]'
-  parameters:
+  keywordOnlyArguments:
   - name: max_item_count
     description: Max number of items to be returned in the enumeration operation.
     types:
@@ -300,6 +301,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:str>, <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]]
+  keywordOnlyArguments:
   - name: parameters
     description: Optional array of parameters to the query. Ignored if no query is
       provided.
@@ -324,6 +326,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:str>, <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]]
+  keywordOnlyArguments:
   - name: parameters
     description: Optional array of parameters to the query. Ignored if no query is
       provided.
@@ -348,6 +351,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:str>, <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]]
+  keywordOnlyArguments:
   - name: parameters
     description: Optional array of parameters to the query. Ignored if no query is
       provided.

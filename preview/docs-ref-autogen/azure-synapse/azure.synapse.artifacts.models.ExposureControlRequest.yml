@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: feature_name
+  - name: feature_type
 methods:
 - uid: azure.synapse.artifacts.models.ExposureControlRequest.as_dict
   name: as_dict

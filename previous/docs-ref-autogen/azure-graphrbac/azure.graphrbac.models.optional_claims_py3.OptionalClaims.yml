@@ -28,6 +28,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.graphrbac.models.OptionalClaim>]
+  keywordOnlyArguments:
+  - name: id_token
+  - name: access_token
+  - name: saml_token
 methods:
 - uid: azure.graphrbac.models.optional_claims_py3.OptionalClaims.as_dict
   name: as_dict

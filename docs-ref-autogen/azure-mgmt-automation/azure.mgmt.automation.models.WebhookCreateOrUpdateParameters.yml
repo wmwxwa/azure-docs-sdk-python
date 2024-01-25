@@ -51,3 +51,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: is_enabled
+  - name: uri
+  - name: expiry_time
+  - name: parameters
+  - name: runbook
+  - name: run_on

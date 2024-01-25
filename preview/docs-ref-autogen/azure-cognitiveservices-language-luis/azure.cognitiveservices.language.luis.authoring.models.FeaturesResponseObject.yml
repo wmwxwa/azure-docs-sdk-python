@@ -18,6 +18,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.PatternFeatureInfo>]
+  keywordOnlyArguments:
+  - name: phraselist_features
+  - name: pattern_features
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.FeaturesResponseObject.as_dict
   name: as_dict

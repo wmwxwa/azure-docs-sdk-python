@@ -78,6 +78,18 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.knowledge.qnamaker.models.QueryDTOAnswerSpanRequest>
+  keywordOnlyArguments:
+  - name: qna_id
+  - name: question
+  - name: top
+  - name: user_id
+  - name: is_test
+  - name: score_threshold
+  - name: context
+  - name: ranker_type
+  - name: strict_filters
+  - name: strict_filters_compound_operation_type
+  - name: answer_span_request
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.QueryDTO.as_dict
   name: as_dict

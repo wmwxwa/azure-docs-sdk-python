@@ -30,3 +30,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: serial_number
+  - name: carrier_name
+  - name: tracking_id
+  - name: tracking_url

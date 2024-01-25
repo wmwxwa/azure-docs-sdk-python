@@ -35,3 +35,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: product_family_name
+  - name: product_line_name
+  - name: product_name
+  - name: configuration_name

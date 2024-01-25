@@ -9,7 +9,7 @@ summary: MachinePoolList represents a list of MachinePools.
 constructor:
   syntax: 'MachinePoolList(*, value: List[_models.MachinePool] | None = None, next_link:
     str | None = None, **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: The list of Machine Pools.
     types:

@@ -44,6 +44,11 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: service_type_description
+  - name: service_manifest_name
+  - name: service_manifest_version
+  - name: is_service_group
 methods:
 - uid: azure.servicefabric.models.ServiceTypeInfo.as_dict
   name: as_dict

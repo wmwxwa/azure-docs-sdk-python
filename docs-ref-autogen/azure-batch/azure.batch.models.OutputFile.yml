@@ -72,6 +72,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.OutputFileUploadOptions>
+  keywordOnlyArguments:
+  - name: file_pattern
+  - name: destination
+  - name: upload_options
 methods:
 - uid: azure.batch.models.OutputFile.as_dict
   name: as_dict

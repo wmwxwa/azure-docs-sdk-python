@@ -72,3 +72,8 @@ constructor:
     isRequired: true
     types:
     - <xref:video_analyzer.models.VideoPreviewImageUrls>
+  keywordOnlyArguments:
+  - name: download_url
+  - name: archive_base_url
+  - name: rtsp_tunnel_url
+  - name: preview_image_urls

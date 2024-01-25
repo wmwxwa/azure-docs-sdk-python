@@ -20,3 +20,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: auth_key1
+  - name: auth_key2

@@ -30,3 +30,5 @@ constructor:
     types:
     - <xref:str>
     - <xref:video_analyzer.models.EncoderSystemPresetType>
+  keywordOnlyArguments:
+  - name: name

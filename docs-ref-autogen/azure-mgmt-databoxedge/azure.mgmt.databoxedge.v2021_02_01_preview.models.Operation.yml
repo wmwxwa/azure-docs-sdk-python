@@ -36,3 +36,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.databoxedge.v2021_02_01_preview.models.ServiceSpecification>
+  keywordOnlyArguments:
+  - name: name
+  - name: display
+  - name: origin
+  - name: is_data_action
+  - name: service_specification

@@ -17,6 +17,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: id
+  - name: child_id
 methods:
 - uid: azure.synapse.models.Edge.as_dict
   name: as_dict

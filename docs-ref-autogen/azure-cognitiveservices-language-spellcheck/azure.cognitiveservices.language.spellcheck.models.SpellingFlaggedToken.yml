@@ -36,6 +36,11 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.cognitiveservices.language.spellcheck.models.ErrorType>
+  keywordOnlyArguments:
+  - name: offset
+  - name: token
+  - name: type
+    defaultValue: UnknownToken
 variables:
 - name: suggestions
   types:

@@ -46,6 +46,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: low_key
+  - name: high_key
 methods:
 - uid: azure.servicefabric.models.Int64RangePartitionInformation.as_dict
   name: as_dict

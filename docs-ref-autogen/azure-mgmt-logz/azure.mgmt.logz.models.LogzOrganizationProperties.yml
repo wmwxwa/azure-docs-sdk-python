@@ -28,6 +28,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: company_name
+  - name: enterprise_app_id
+  - name: single_sign_on_url
 variables:
 - description: Id of the Logz organization.
   name: id

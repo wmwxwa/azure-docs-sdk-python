@@ -32,6 +32,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.powerbidedicated.models.SystemData>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: system_data
 variables:
 - description: An identifier that represents the PowerBI Dedicated resource.
   name: id

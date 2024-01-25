@@ -68,6 +68,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: aggregated_health_state
+  - name: description
 methods:
 - uid: azure.servicefabric.models.HealthEvaluation.as_dict
   name: as_dict

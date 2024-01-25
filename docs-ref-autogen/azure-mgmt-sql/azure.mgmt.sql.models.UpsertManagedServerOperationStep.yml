@@ -28,3 +28,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.sql.models.UpsertManagedServerOperationStepStatus>
+  keywordOnlyArguments:
+  - name: order
+  - name: name
+  - name: status

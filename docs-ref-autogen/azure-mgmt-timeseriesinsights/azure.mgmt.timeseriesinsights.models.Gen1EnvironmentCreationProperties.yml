@@ -46,3 +46,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.timeseriesinsights.models.TimeSeriesIdProperty>]
+  keywordOnlyArguments:
+  - name: data_retention_time
+  - name: storage_limit_exceeded_behavior
+  - name: partition_key_properties

@@ -60,6 +60,17 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: original_text
+  - name: normalized_text
+  - name: auto_corrected_text
+  - name: misrepresentation
+  - name: classification
+  - name: status
+  - name: pii
+  - name: language
+  - name: terms
+  - name: tracking_id
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.Screen.as_dict
   name: as_dict

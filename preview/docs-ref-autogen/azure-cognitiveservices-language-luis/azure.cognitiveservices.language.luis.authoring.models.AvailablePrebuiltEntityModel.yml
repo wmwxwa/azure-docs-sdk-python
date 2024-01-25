@@ -25,6 +25,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: description
+  - name: examples
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.AvailablePrebuiltEntityModel.as_dict
   name: as_dict

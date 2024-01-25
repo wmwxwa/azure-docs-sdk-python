@@ -27,6 +27,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.servicefabric.models.BackupSuspensionScope>
+  keywordOnlyArguments:
+  - name: is_suspended
+  - name: suspension_inherited_from
 methods:
 - uid: azure.servicefabric.models.BackupSuspensionInfo.as_dict
   name: as_dict

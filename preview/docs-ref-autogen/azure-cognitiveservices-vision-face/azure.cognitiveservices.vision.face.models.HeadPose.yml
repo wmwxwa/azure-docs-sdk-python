@@ -22,6 +22,10 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: roll
+  - name: yaw
+  - name: pitch
 methods:
 - uid: azure.cognitiveservices.vision.face.models.HeadPose.as_dict
   name: as_dict

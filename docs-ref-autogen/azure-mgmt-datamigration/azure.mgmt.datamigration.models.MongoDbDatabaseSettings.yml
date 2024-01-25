@@ -32,3 +32,6 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: collections
+  - name: target_r_us

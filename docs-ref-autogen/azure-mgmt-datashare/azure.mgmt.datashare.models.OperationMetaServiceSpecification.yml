@@ -21,3 +21,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.datashare.models.OperationMetaMetricSpecification>]
+  keywordOnlyArguments:
+  - name: log_specifications
+  - name: metric_specifications

@@ -21,6 +21,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.billing.models.PaymentMethodFamily>
+  keywordOnlyArguments:
+  - name: payment_method_family
 variables:
 - description: The type of payment.
   name: payment_type

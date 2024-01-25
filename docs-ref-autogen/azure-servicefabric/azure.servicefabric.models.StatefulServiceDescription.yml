@@ -260,6 +260,34 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: service_name
+  - name: service_type_name
+  - name: partition_description
+  - name: target_replica_set_size
+  - name: min_replica_set_size
+  - name: has_persisted_state
+  - name: application_name
+  - name: initialization_data
+  - name: placement_constraints
+  - name: correlation_scheme
+  - name: service_load_metrics
+  - name: service_placement_policies
+  - name: default_move_cost
+  - name: is_default_move_cost_specified
+  - name: service_package_activation_mode
+  - name: service_dns_name
+  - name: scaling_policies
+  - name: tags_required_to_place
+  - name: tags_required_to_run
+  - name: flags
+  - name: replica_restart_wait_duration_seconds
+  - name: quorum_loss_wait_duration_seconds
+  - name: stand_by_replica_keep_duration_seconds
+  - name: service_placement_time_limit_seconds
+  - name: drop_source_replica_on_move
+  - name: replica_lifecycle_description
+  - name: auxiliary_replica_count
 methods:
 - uid: azure.servicefabric.models.StatefulServiceDescription.as_dict
   name: as_dict

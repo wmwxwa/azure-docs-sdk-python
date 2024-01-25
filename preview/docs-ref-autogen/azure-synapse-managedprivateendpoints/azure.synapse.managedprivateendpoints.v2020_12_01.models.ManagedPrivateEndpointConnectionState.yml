@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: description
+  - name: actions_required
 variables:
 - description: The approval status.
   name: status

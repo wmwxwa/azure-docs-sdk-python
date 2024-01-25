@@ -7,6 +7,9 @@ inheritances:
 - abc.ABC
 constructor:
   syntax: 'OfflineStore(*, target: str, connection_name: str)'
+  keywordOnlyArguments:
+  - name: target
+  - name: connection_name
 methods:
 - uid: azureml.featurestore.contracts.offline_store.OfflineStore.read_data
   name: read_data

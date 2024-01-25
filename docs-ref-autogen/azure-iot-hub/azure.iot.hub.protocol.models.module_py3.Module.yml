@@ -81,6 +81,17 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.iot.hub.protocol.models.AuthenticationMechanism>
+  keywordOnlyArguments:
+  - name: module_id
+  - name: managed_by
+  - name: device_id
+  - name: generation_id
+  - name: etag
+  - name: connection_state
+  - name: connection_state_updated_time
+  - name: last_activity_time
+  - name: cloud_to_device_message_count
+  - name: authentication
 methods:
 - uid: azure.iot.hub.protocol.models.module_py3.Module.as_dict
   name: as_dict

@@ -57,6 +57,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: matches
+  - name: wikipedia_language
+  - name: wikipedia_id
+  - name: bing_id
+  - name: type
+  - name: sub_type
 variables:
 - description: URL for the entity's Wikipedia page.
   name: wikipedia_url

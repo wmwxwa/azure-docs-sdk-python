@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: image_id
+  - name: tag_id
 methods:
 - uid: azure.cognitiveservices.vision.customvision.training.models.ImageTagCreateEntry.as_dict
   name: as_dict

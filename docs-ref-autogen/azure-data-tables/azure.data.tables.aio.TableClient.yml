@@ -25,12 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  - name: credential
-    description: 'The credentials with which to authenticate. This is optional if
-      the
-
-      account URL already has a SAS token. The value can be one of AzureNamedKeyCredential
-      (azure-core),'
+  keywordOnlyArguments:
   - name: api_version
     description: 'Specifies the version of the operation to use for this request.
       Default value
@@ -39,6 +34,7 @@ constructor:
       behavior.'
     types:
     - <xref:str>
+  - name: credential
 variables:
 - description: The name of the Tables account.
   name: account_name
@@ -193,6 +189,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
   - name: credential
     description: 'The credentials with which to authenticate. This is optional if
       the
@@ -222,6 +219,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
   - name: select
     description: Specify desired properties of an entity to return.
     types:
@@ -265,7 +263,7 @@ methods:
   summary: Lists entities in a table.
   signature: 'list_entities(*, results_per_page: int | None = None, select: str |
     List[str] | None = None, **kwargs) -> AsyncItemPaged[TableEntity]'
-  parameters:
+  keywordOnlyArguments:
   - name: results_per_page
     description: Number of entities returned per service request.
     types:
@@ -306,6 +304,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
   - name: results_per_page
     description: Number of entities returned per service request.
     types:
@@ -441,6 +440,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.data.tables.UpdateMode>
+  keywordOnlyArguments:
   - name: etag
     description: Etag of the entity
     types:

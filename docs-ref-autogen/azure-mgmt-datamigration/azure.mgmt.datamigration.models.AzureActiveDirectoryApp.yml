@@ -29,3 +29,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: application_id
+  - name: app_key
+  - name: tenant_id

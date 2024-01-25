@@ -101,3 +101,21 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.loganalytics.models.SearchMetadataSchema>
+  keywordOnlyArguments:
+  - name: search_id
+  - name: result_type
+  - name: total
+  - name: top
+  - name: id
+  - name: core_summaries
+  - name: status
+  - name: start_time
+  - name: last_updated
+  - name: e_tag
+  - name: sort
+  - name: request_time
+  - name: aggregated_value_field
+  - name: aggregated_grouping_fields
+  - name: sum
+  - name: max
+  - name: schema

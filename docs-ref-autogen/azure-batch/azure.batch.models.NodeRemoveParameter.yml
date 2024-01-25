@@ -43,6 +43,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.ComputeNodeDeallocationOption>
+  keywordOnlyArguments:
+  - name: node_list
+  - name: resize_timeout
+  - name: node_deallocation_option
 methods:
 - uid: azure.batch.models.NodeRemoveParameter.as_dict
   name: as_dict

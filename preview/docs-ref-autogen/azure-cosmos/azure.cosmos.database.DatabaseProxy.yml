@@ -88,6 +88,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
+  keywordOnlyArguments:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -167,6 +168,7 @@ methods:
   - name: conflict_resolution_policy
     description: The conflict resolution policy to apply to the container.
     isRequired: true
+  keywordOnlyArguments:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -227,6 +229,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
+  keywordOnlyArguments:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -242,7 +245,7 @@ methods:
   - "Create a database user:<!--[!code-python[Main](les\\examples.py )]-->\n\n<!--\
     \ literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [],\
     \ \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\
-    \\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\32\\\\azure-cosmos-4.5.2b3\\\
+    \\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\31\\\\azure-cosmos-4.5.2b3\\\
     \\samples\\\\examples.py\", \"xml:space\": \"preserve\", \"force\": false, \"\
     language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
     : false} -->\n\n````python\n\n   try:\n       database.create_user(dict(id=\"\
@@ -267,6 +270,7 @@ methods:
     types:
     - <xref:typing.Union>[<xref:str>, <xref:azure.cosmos.ContainerProxy>, <xref:typing.Dict>[<xref:str>,
       <xref:typing.Any>]]
+  keywordOnlyArguments:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -311,6 +315,7 @@ methods:
     types:
     - <xref:typing.Union>[<xref:str>, <xref:azure.cosmos.UserProxy>, <xref:typing.Dict>[<xref:str>,
       <xref:typing.Any>]]
+  keywordOnlyArguments:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -347,7 +352,7 @@ methods:
     examples.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\"\
     : [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\
     \\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
-    \\32\\\\azure-cosmos-4.5.2b3\\\\samples\\\\examples.py\", \"xml:space\": \"preserve\"\
+    \\31\\\\azure-cosmos-4.5.2b3\\\\samples\\\\examples.py\", \"xml:space\": \"preserve\"\
     , \"force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\"\
     : 1}, \"linenos\": false} -->\n\n````python\n\n   database = client.get_database_client(database_name)\n\
     \   container = database.get_container_client(container_name)\n\n   ````\n"
@@ -358,7 +363,7 @@ methods:
 
     If no ThroughputProperties already exist for the database, an exception is raised.'
   signature: 'get_throughput(**kwargs: Any) -> ThroughputProperties'
-  parameters:
+  keywordOnlyArguments:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -400,6 +405,7 @@ methods:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -421,7 +427,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    32\\\\azure-cosmos-4.5.2b3\\\\samples\\\\examples.py\", \"xml:space\": \"preserve\"\
+    31\\\\azure-cosmos-4.5.2b3\\\\samples\\\\examples.py\", \"xml:space\": \"preserve\"\
     , \"force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\"\
     : 1}, \"linenos\": false} -->\n\n````python\n\n   database = client.get_database_client(database_name)\n\
     \   for container in database.list_containers():\n       print(\"Container ID:\
@@ -437,6 +443,7 @@ methods:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -468,6 +475,7 @@ methods:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -506,6 +514,7 @@ methods:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -519,7 +528,7 @@ methods:
   summary: Read the database properties.
   signature: 'read(populate_query_metrics: bool | None = None, **kwargs: Any) -> Dict[str,
     Any]'
-  parameters:
+  keywordOnlyArguments:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -545,7 +554,7 @@ methods:
 
     If no ThroughputProperties already exist for the database, an exception is raised.'
   signature: 'read_offer(**kwargs: Any) -> ThroughputProperties'
-  parameters:
+  keywordOnlyArguments:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -606,6 +615,7 @@ methods:
   - name: populate_query_metrics
     description: Enable returning query metrics in response headers.
     isRequired: true
+  keywordOnlyArguments:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -661,6 +671,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:int>, <xref:azure.cosmos.ThroughputProperties>]
+  keywordOnlyArguments:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -692,6 +703,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
+  keywordOnlyArguments:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -719,6 +731,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
+  keywordOnlyArguments:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:

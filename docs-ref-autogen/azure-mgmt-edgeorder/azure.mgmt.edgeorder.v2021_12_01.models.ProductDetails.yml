@@ -28,6 +28,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.edgeorder.v2021_12_01.models.HierarchyInformation>
+  keywordOnlyArguments:
+  - name: hierarchy_information
+  - name: display_info
 variables:
 - description: Quantity of the product.
   name: count

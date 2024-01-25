@@ -378,3 +378,49 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.machinelearningservices.models.LogValidationLoss>
+  keywordOnlyArguments:
+  - name: advanced_settings
+  - name: ams_gradient
+  - name: beta1
+  - name: beta2
+  - name: checkpoint_frequency
+  - name: checkpoint_run_id
+  - name: distributed
+  - name: early_stopping
+  - name: early_stopping_delay
+  - name: early_stopping_patience
+  - name: enable_onnx_normalization
+  - name: evaluation_frequency
+  - name: gradient_accumulation_step
+  - name: layers_to_freeze
+  - name: learning_rate
+  - name: learning_rate_scheduler
+  - name: model_name
+  - name: momentum
+  - name: nesterov
+  - name: number_of_epochs
+  - name: number_of_workers
+  - name: optimizer
+  - name: random_seed
+  - name: step_lr_gamma
+  - name: step_lr_step_size
+  - name: training_batch_size
+  - name: validation_batch_size
+  - name: warmup_cosine_lr_cycles
+  - name: warmup_cosine_lr_warmup_epochs
+  - name: weight_decay
+  - name: box_detections_per_image
+  - name: box_score_threshold
+  - name: image_size
+  - name: max_size
+  - name: min_size
+  - name: model_size
+  - name: multi_scale
+  - name: nms_iou_threshold
+  - name: tile_grid_size
+  - name: tile_overlap_ratio
+  - name: tile_predictions_nms_threshold
+  - name: validation_iou_threshold
+  - name: validation_metric_type
+  - name: log_training_metrics
+  - name: log_validation_loss

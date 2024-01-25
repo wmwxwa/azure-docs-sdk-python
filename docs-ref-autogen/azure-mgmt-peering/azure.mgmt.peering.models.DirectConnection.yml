@@ -58,6 +58,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: bandwidth_in_mbps
+  - name: provisioned_bandwidth_in_mbps
+  - name: session_address_provider
+  - name: use_for_peering_service
+  - name: peering_db_facility_id
+  - name: bgp_session
+  - name: connection_identifier
 variables:
 - description: 'The state of the connection. Possible values include: "None",
 

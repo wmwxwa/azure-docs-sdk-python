@@ -21,6 +21,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.databoxedge.v2021_02_01_preview.models.AuthenticationType>
+  keywordOnlyArguments:
+  - name: auth_type
 variables:
 - description: The resource ID of the Data Box Edge/Gateway device.
   name: resource_id

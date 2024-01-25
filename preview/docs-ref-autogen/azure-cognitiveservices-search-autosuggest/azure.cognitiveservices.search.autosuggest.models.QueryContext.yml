@@ -29,6 +29,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: original_query
 variables:
 - description: 'The query string used by Bing to perform the query.
 

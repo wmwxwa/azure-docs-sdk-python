@@ -33,6 +33,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.TimeRange>]
+  keywordOnlyArguments:
+  - name: chaos_parameters
+  - name: days
+  - name: times
 methods:
 - uid: azure.servicefabric.models.ChaosScheduleJob.as_dict
   name: as_dict

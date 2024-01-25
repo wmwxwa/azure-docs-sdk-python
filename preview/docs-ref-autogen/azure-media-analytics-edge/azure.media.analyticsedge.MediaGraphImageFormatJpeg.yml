@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: quality
 methods:
 - uid: azure.media.analyticsedge.MediaGraphImageFormatJpeg.as_dict
   name: as_dict

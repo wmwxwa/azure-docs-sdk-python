@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: role_name
+  - name: role_instance
 methods:
 - uid: azure.applicationinsights.models.events_cloud_info_py3.EventsCloudInfo.as_dict
   name: as_dict

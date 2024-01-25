@@ -11,6 +11,14 @@ constructor:
     enqueued_time: datetime | None = None, partition_key: str | None = None, sequence_number:
     int | None = None, offset: str | None = None, iothub_metadata: Mapping[str, str]
     | None = None)'
+  keywordOnlyArguments:
+  - name: body
+  - name: trigger_metadata
+  - name: enqueued_time
+  - name: partition_key
+  - name: sequence_number
+  - name: offset
+  - name: iothub_metadata
 methods:
 - uid: azure.functions.EventHubEvent.get_body
   name: get_body

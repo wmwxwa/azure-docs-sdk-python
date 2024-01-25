@@ -63,6 +63,16 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: publisher
+  - name: product
+  - name: plan
+  - name: license_text_link
+  - name: privacy_policy_link
+  - name: marketplace_terms_link
+  - name: retrieve_datetime
+  - name: signature
+  - name: accepted
 variables:
 - description: Resource ID.
   name: id

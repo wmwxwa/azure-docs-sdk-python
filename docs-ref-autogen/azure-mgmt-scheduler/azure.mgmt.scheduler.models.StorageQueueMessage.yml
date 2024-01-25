@@ -30,3 +30,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: storage_account
+  - name: queue_name
+  - name: sas_token
+  - name: message

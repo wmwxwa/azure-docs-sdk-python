@@ -18,6 +18,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.models.LivyStatementResponseBody>]
+  keywordOnlyArguments:
+  - name: total_statements
+  - name: statements
 methods:
 - uid: azure.synapse.models.LivyStatementsResponseBody.as_dict
   name: as_dict

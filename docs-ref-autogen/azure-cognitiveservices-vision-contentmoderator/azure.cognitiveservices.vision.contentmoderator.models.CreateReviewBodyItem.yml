@@ -41,6 +41,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.contentmoderator.models.CreateReviewBodyItemMetadataItem>]
+  keywordOnlyArguments:
+  - name: type
+  - name: content
+  - name: content_id
+  - name: callback_endpoint
+  - name: metadata
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.CreateReviewBodyItem.as_dict
   name: as_dict

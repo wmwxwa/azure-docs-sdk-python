@@ -35,3 +35,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.datamigration.models.UpdateActionType>
+  keywordOnlyArguments:
+  - name: object_name
+  - name: object_type
+  - name: update_action

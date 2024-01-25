@@ -71,6 +71,17 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.devtestlabs.models.EnableStatus>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: display_name
+  - name: uri
+  - name: source_type
+  - name: folder_path
+  - name: arm_template_folder_path
+  - name: branch_ref
+  - name: security_token
+  - name: status
 variables:
 - description: The identifier of the resource.
   name: id

@@ -27,3 +27,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.automation.models.AdvancedScheduleMonthlyOccurrence>]
+  keywordOnlyArguments:
+  - name: week_days
+  - name: month_days
+  - name: monthly_occurrences

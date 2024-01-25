@@ -12,7 +12,7 @@ summary: 'Monitoring Setting resource.
 constructor:
   syntax: 'MonitoringSettingResource(*, properties: _models.MonitoringSettingProperties
     | None = None, **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: properties
     description: Properties of the Monitoring Setting resource.
     types:

@@ -77,6 +77,16 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: linked_service_name
+  - name: additional_properties
+  - name: description
+  - name: structure
+  - name: schema
+  - name: parameters
+  - name: annotations
+  - name: folder
+  - name: table_name
 methods:
 - uid: azure.synapse.artifacts.models.ShopifyObjectDataset.as_dict
   name: as_dict

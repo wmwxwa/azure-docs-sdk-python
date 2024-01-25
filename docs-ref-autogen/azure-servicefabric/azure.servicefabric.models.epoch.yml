@@ -38,6 +38,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: configuration_version
+  - name: data_loss_version
 methods:
 - uid: azure.servicefabric.models.Epoch.as_dict
   name: as_dict

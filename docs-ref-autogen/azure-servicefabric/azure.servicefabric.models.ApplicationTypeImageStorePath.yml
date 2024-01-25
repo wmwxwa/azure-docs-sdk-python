@@ -21,6 +21,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: application_type_build_path
 methods:
 - uid: azure.servicefabric.models.ApplicationTypeImageStorePath.as_dict
   name: as_dict

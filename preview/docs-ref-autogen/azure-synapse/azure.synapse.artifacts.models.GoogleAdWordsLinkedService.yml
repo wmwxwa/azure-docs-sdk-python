@@ -147,6 +147,23 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: client_customer_id
+  - name: developer_token
+  - name: authentication_type
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: refresh_token
+  - name: client_id
+  - name: client_secret
+  - name: email
+  - name: key_file_path
+  - name: trusted_cert_path
+  - name: use_system_trust_store
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.GoogleAdWordsLinkedService.as_dict
   name: as_dict

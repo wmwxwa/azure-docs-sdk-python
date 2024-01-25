@@ -67,6 +67,16 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: disk_type
+  - name: disk_size_gi_b
+  - name: leased_by_lab_vm_id
+  - name: disk_blob_name
+  - name: disk_uri
+  - name: host_caching
+  - name: managed_disk_id
 variables:
 - description: The identifier of the resource.
   name: id

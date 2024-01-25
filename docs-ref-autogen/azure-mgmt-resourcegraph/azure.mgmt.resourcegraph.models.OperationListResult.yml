@@ -18,3 +18,5 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.resourcegraph.models.Operation>]
+  keywordOnlyArguments:
+  - name: value

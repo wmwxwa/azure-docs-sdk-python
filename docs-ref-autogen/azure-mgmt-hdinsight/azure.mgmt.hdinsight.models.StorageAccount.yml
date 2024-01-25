@@ -66,3 +66,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: is_default
+  - name: container
+  - name: file_system
+  - name: key
+  - name: resource_id
+  - name: msi_resource_id
+  - name: saskey
+  - name: fileshare

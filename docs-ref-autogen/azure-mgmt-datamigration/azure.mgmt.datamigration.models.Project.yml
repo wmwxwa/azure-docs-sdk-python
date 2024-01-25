@@ -60,6 +60,14 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.datamigration.models.DatabaseInfo>]
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: source_platform
+  - name: target_platform
+  - name: source_connection_info
+  - name: target_connection_info
+  - name: databases_info
 variables:
 - description: Resource ID.
   name: id

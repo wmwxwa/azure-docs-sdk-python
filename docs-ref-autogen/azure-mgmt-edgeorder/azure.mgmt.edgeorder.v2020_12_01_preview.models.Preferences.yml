@@ -32,3 +32,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.ManagementResourcePreferences>
+  keywordOnlyArguments:
+  - name: notification_preferences
+  - name: transport_preferences
+  - name: encryption_preferences
+  - name: management_resource_preferences

@@ -84,6 +84,20 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.applicationinsights.models.EventsPageViewInfo>
+  keywordOnlyArguments:
+  - name: id
+  - name: count
+  - name: timestamp
+  - name: custom_dimensions
+  - name: custom_measurements
+  - name: operation
+  - name: session
+  - name: user
+  - name: cloud
+  - name: ai
+  - name: application
+  - name: client
+  - name: page_view
 methods:
 - uid: azure.applicationinsights.models.events_page_view_result_py3.EventsPageViewResult.as_dict
   name: as_dict

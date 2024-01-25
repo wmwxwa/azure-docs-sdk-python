@@ -47,3 +47,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.devtestlabs.models.ComputeDataDiskFragment>]
+  keywordOnlyArguments:
+  - name: statuses
+  - name: os_type
+  - name: vm_size
+  - name: network_interface_id
+  - name: os_disk_id
+  - name: data_disk_ids
+  - name: data_disks

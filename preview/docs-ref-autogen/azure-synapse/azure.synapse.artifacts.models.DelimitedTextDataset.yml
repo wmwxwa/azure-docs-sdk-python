@@ -154,6 +154,25 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: linked_service_name
+  - name: additional_properties
+  - name: description
+  - name: structure
+  - name: schema
+  - name: parameters
+  - name: annotations
+  - name: folder
+  - name: location
+  - name: column_delimiter
+  - name: row_delimiter
+  - name: encoding_name
+  - name: compression_codec
+  - name: compression_level
+  - name: quote_char
+  - name: escape_char
+  - name: first_row_as_header
+  - name: null_value
 methods:
 - uid: azure.synapse.artifacts.models.DelimitedTextDataset.as_dict
   name: as_dict

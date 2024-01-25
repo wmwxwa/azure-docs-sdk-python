@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: sku_id
 variables:
 - description: The sku description.
   name: sku_description

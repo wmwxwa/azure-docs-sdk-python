@@ -50,3 +50,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.managementgroups.models.ManagementGroupPathElement>]
+  keywordOnlyArguments:
+  - name: version
+  - name: updated_time
+  - name: updated_by
+  - name: parent
+  - name: path
+  - name: management_group_ancestors
+  - name: management_group_ancestors_chain

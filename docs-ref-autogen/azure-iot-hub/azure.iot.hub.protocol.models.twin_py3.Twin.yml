@@ -167,6 +167,25 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: device_id
+  - name: module_id
+  - name: tags
+  - name: properties
+  - name: etag
+  - name: version
+  - name: device_etag
+  - name: status
+  - name: status_reason
+  - name: status_update_time
+  - name: connection_state
+  - name: last_activity_time
+  - name: cloud_to_device_message_count
+  - name: authentication_type
+  - name: x509_thumbprint
+  - name: capabilities
+  - name: device_scope
+  - name: parent_scopes
 methods:
 - uid: azure.iot.hub.protocol.models.twin_py3.Twin.as_dict
   name: as_dict

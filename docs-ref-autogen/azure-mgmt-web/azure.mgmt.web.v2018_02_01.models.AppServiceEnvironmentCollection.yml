@@ -15,7 +15,7 @@ summary: 'Collection of App Service Environments.
 constructor:
   syntax: 'AppServiceEnvironmentCollection(*, value: List[_models.AppServiceEnvironmentResource],
     **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: Collection of resources. Required.
     types:

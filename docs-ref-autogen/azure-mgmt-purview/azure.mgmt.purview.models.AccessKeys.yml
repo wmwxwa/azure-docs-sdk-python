@@ -20,3 +20,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: atlas_kafka_primary_endpoint
+  - name: atlas_kafka_secondary_endpoint

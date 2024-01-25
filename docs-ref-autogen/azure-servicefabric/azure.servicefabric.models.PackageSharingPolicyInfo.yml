@@ -29,6 +29,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.servicefabric.models.PackageSharingPolicyScope>
+  keywordOnlyArguments:
+  - name: shared_package_name
+  - name: package_sharing_scope
 methods:
 - uid: azure.servicefabric.models.PackageSharingPolicyInfo.as_dict
   name: as_dict

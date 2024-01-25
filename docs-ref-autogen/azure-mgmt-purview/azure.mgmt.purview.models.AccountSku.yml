@@ -21,3 +21,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.purview.models.Name>
+  keywordOnlyArguments:
+  - name: capacity
+  - name: name

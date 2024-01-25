@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: explicit_list_item
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.ExplicitListItem.as_dict
   name: as_dict

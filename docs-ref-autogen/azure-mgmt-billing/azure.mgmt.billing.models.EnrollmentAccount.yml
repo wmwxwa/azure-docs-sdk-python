@@ -58,6 +58,15 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.billing.models.Department>
+  keywordOnlyArguments:
+  - name: account_name
+  - name: cost_center
+  - name: account_owner
+  - name: account_owner_email
+  - name: status
+  - name: start_date
+  - name: end_date
+  - name: department
 variables:
 - description: Resource Id.
   name: id

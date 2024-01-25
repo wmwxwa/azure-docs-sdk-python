@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: state
+  - name: properties
 variables:
 - description: Is Transitioning.
   name: istransitioning

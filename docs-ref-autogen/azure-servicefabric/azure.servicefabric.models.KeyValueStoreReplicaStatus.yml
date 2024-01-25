@@ -59,6 +59,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: database_row_count_estimate
+  - name: database_logical_size_estimate
+  - name: copy_notification_current_key_filter
+  - name: copy_notification_current_progress
+  - name: status_details
 methods:
 - uid: azure.servicefabric.models.KeyValueStoreReplicaStatus.as_dict
   name: as_dict

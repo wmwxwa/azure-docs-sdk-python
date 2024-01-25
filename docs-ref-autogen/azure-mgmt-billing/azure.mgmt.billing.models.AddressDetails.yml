@@ -87,3 +87,18 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: address_line1
+  - name: country
+  - name: first_name
+  - name: middle_name
+  - name: last_name
+  - name: company_name
+  - name: address_line2
+  - name: address_line3
+  - name: city
+  - name: district
+  - name: region
+  - name: postal_code
+  - name: email
+  - name: phone_number

@@ -125,6 +125,22 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.ApplicationHealthPolicyMapObject>
+  keywordOnlyArguments:
+  - name: config_version
+  - name: code_version
+  - name: upgrade_kind
+    defaultValue: Rolling
+  - name: rolling_upgrade_mode
+    defaultValue: UnmonitoredAuto
+  - name: upgrade_replica_set_check_timeout_in_seconds
+  - name: force_restart
+  - name: sort_order
+    defaultValue: Default
+  - name: enable_delta_health_evaluation
+  - name: monitoring_policy
+  - name: cluster_health_policy
+  - name: cluster_upgrade_health_policy
+  - name: application_health_policy_map
 methods:
 - uid: azure.servicefabric.models.ClusterUpgradeDescriptionObject.as_dict
   name: as_dict

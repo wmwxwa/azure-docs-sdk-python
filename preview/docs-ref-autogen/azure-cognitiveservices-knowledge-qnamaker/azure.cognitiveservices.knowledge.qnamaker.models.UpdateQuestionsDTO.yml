@@ -21,6 +21,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: add
+  - name: delete
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.UpdateQuestionsDTO.as_dict
   name: as_dict

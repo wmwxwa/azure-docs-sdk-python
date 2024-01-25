@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.billing.models.AzurePlan>]
+  keywordOnlyArguments:
+  - name: enabled_azure_plans
 variables:
 - description: The ID of the invoice section.
   name: invoice_section_id

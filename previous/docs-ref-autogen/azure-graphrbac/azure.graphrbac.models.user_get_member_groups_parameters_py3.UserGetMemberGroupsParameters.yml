@@ -29,6 +29,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: security_enabled_only
+  - name: additional_properties
 methods:
 - uid: azure.graphrbac.models.user_get_member_groups_parameters_py3.UserGetMemberGroupsParameters.as_dict
   name: as_dict

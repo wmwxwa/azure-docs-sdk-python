@@ -42,3 +42,8 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: location
+  - name: properties
+  - name: sku
+  - name: tags

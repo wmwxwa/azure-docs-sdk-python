@@ -30,6 +30,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: id
+  - name: parent_id
+  - name: synthetic_source
 methods:
 - uid: azure.applicationinsights.models.events_operation_info_py3.EventsOperationInfo.as_dict
   name: as_dict

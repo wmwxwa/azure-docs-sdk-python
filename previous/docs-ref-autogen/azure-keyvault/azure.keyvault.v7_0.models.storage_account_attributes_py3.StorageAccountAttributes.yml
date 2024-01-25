@@ -19,6 +19,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: enabled
 variables:
 - description: Creation time in UTC.
   name: created

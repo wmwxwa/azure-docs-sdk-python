@@ -232,6 +232,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: device_id
+  - name: error_code
+  - name: error_status
+  - name: module_id
+  - name: operation
 methods:
 - uid: azure.iot.hub.protocol.models.DeviceRegistryOperationError.as_dict
   name: as_dict

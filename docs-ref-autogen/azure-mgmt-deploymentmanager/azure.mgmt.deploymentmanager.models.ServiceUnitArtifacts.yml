@@ -35,3 +35,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: template_uri
+  - name: parameters_uri
+  - name: template_artifact_source_relative_path
+  - name: parameters_artifact_source_relative_path

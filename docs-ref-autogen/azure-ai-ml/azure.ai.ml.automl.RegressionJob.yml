@@ -22,6 +22,8 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>
+  keywordOnlyArguments:
+  - name: primary_metric
 methods:
 - uid: azure.ai.ml.automl.RegressionJob.dump
   name: dump
@@ -37,6 +39,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:PathLike>, <xref:str>, <xref:typing.IO>[<xref:typing.AnyStr>]]
+  keywordOnlyArguments:
   - name: kwargs
     description: Additional arguments to pass to the YAML serializer.
     types:
@@ -54,7 +57,7 @@ methods:
     float | None = None, n_cross_validations: str | int | None = None, cv_split_column_names:
     List[str] | None = None, test_data: Input | None = None, test_data_size: float
     | None = None) -> None'
-  parameters:
+  keywordOnlyArguments:
   - name: training_data
     description: Training data.
     types:
@@ -99,7 +102,7 @@ methods:
     str | None = None, transformer_params: Dict[str, List[ColumnTransformer]] | None
     = None, mode: str | None = None, enable_dnn_featurization: bool | None = None)
     -> None'
-  parameters:
+  keywordOnlyArguments:
   - name: blocked_transformers
     description: A list of transformer names to be blocked during featurization, defaults
       to None
@@ -150,7 +153,7 @@ methods:
     int | None = None, max_nodes: int | None = None, max_trials: int | None = None,
     timeout_minutes: int | None = None, trial_timeout_minutes: int | None = None)
     -> None'
-  parameters:
+  keywordOnlyArguments:
   - name: enable_early_termination
     description: "Whether to enable early termination if the score is not improving\
       \ in the\nshort term, defaults to None.\n\nEarly stopping logic:\n\n* No early\
@@ -244,7 +247,7 @@ methods:
     StackEnsembleSettings | None = None, ensemble_model_download_timeout: int | None
     = None, allowed_training_algorithms: List[str] | None = None, blocked_training_algorithms:
     List[str] | None = None, training_mode: str | TrainingMode | None = None) -> None'
-  parameters:
+  keywordOnlyArguments:
   - name: enable_onnx_compatible_models
     description: 'Whether to enable or disable enforcing the ONNX-compatible models.
 

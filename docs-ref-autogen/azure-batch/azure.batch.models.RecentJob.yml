@@ -17,6 +17,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: url
 methods:
 - uid: azure.batch.models.RecentJob.as_dict
   name: as_dict

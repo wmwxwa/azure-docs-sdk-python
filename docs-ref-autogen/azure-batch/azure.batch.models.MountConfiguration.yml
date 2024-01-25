@@ -40,6 +40,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.AzureFileShareConfiguration>
+  keywordOnlyArguments:
+  - name: azure_blob_file_system_configuration
+  - name: nfs_mount_configuration
+  - name: cifs_mount_configuration
+  - name: azure_file_share_configuration
 methods:
 - uid: azure.batch.models.MountConfiguration.as_dict
   name: as_dict

@@ -35,6 +35,9 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:azure.mgmt.hdinsight.models.UserAssignedIdentity>]
+  keywordOnlyArguments:
+  - name: type
+  - name: user_assigned_identities
 variables:
 - description: 'The principal id of cluster identity. This property will only be provided
 

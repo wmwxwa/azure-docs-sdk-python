@@ -26,6 +26,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: target
 methods:
 - uid: azure.synapse.models.ErrorDetail.as_dict
   name: as_dict

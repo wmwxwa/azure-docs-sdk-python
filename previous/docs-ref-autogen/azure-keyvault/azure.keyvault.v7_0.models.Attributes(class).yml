@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime>
+  keywordOnlyArguments:
+  - name: enabled
+  - name: not_before
+  - name: expires
 variables:
 - description: Creation time in UTC.
   name: created

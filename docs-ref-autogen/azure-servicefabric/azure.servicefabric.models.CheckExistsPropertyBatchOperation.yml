@@ -45,6 +45,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: property_name
+  - name: exists
 methods:
 - uid: azure.servicefabric.models.CheckExistsPropertyBatchOperation.as_dict
   name: as_dict

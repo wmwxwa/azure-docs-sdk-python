@@ -94,6 +94,19 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.FabricErrorError>
+  keywordOnlyArguments:
+  - name: backup_id
+  - name: backup_chain_id
+  - name: application_name
+  - name: service_name
+  - name: partition_information
+  - name: backup_location
+  - name: backup_type
+  - name: epoch_of_last_backup_record
+  - name: lsn_of_last_backup_record
+  - name: creation_time_utc
+  - name: service_manifest_version
+  - name: failure_error
 methods:
 - uid: azure.servicefabric.models.BackupInfo.as_dict
   name: as_dict

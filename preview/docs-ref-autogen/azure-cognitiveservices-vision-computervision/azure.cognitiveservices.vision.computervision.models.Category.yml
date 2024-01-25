@@ -24,6 +24,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.CategoryDetail>
+  keywordOnlyArguments:
+  - name: name
+  - name: score
+  - name: detail
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.Category.as_dict
   name: as_dict

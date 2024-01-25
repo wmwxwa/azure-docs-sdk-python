@@ -43,6 +43,12 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:object>]
+  keywordOnlyArguments:
+  - name: source_control_sync_job_stream_id
+  - name: summary
+  - name: stream_type
+  - name: stream_text
+  - name: value
 variables:
 - description: Resource id.
   name: id

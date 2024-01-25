@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.hdinsight.models.Application>]
+  keywordOnlyArguments:
+  - name: value
 variables:
 - description: The URL to get the next set of operation list results if there are
     any.

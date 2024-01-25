@@ -109,6 +109,16 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: service_name
+  - name: service_type_name
+  - name: service_manifest_name
+  - name: code_package_name
+  - name: partition_id
+  - name: replica_status
+  - name: address
+  - name: service_package_activation_id
+  - name: host_process_id
 methods:
 - uid: azure.servicefabric.models.DeployedServiceReplicaInfo.as_dict
   name: as_dict

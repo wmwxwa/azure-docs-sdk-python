@@ -19,3 +19,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.automation.models.DscNodeUpdateParametersProperties>
+  keywordOnlyArguments:
+  - name: node_id
+  - name: properties

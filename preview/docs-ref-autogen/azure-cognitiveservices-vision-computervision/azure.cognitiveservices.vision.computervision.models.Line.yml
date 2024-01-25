@@ -40,6 +40,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.computervision.models.Word>]
+  keywordOnlyArguments:
+  - name: bounding_box
+  - name: text
+  - name: words
+  - name: language
+  - name: appearance
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.Line.as_dict
   name: as_dict

@@ -48,6 +48,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: type
+  - name: object_id
+  - name: apply_scope
+  - name: user_data
 methods:
 - uid: azure.cognitiveservices.vision.face.models.TakeSnapshotRequest.as_dict
   name: as_dict

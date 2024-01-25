@@ -33,3 +33,7 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: transport_protocol
+  - name: frontend_port
+  - name: backend_port

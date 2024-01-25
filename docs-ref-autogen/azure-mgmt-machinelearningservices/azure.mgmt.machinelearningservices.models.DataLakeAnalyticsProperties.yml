@@ -15,3 +15,5 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: data_lake_store_account_name

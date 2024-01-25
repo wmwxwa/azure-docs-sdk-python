@@ -76,6 +76,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: event_source_resource_id
+  - name: service_bus_namespace
+  - name: event_hub_name
+  - name: consumer_group_name
+  - name: key_name
+  - name: shared_access_key
+  - name: timestamp_property_name
 variables:
 - description: 'Provisioning state of the resource. Possible values include:
 

@@ -76,3 +76,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: top
+  - name: filter
+  - name: order_by
+  - name: select
+  - name: from_property
+  - name: to
+  - name: apply
+  - name: skip_token
+  - name: expand

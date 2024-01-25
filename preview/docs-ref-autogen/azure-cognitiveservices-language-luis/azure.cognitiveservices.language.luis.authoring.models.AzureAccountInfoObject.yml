@@ -28,6 +28,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: azure_subscription_id
+  - name: resource_group
+  - name: account_name
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.AzureAccountInfoObject.as_dict
   name: as_dict

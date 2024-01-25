@@ -36,3 +36,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.datamigration.models.SsisMigrationOverwriteOption>
+  keywordOnlyArguments:
+  - name: ssis_store_type
+  - name: project_overwrite_option
+  - name: environment_overwrite_option

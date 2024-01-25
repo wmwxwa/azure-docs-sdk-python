@@ -21,6 +21,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:video_analyzer.models.SkuName>
+  keywordOnlyArguments:
+  - name: name
 variables:
 - description: 'The SKU tier. Possible values include: "Standard".'
   name: tier

@@ -33,6 +33,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.LoadedPartitionInformationResult>]
+  keywordOnlyArguments:
+  - name: continuation_token
+  - name: items
 methods:
 - uid: azure.servicefabric.models.LoadedPartitionInformationResultList.as_dict
   name: as_dict

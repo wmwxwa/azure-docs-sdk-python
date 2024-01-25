@@ -25,3 +25,5 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.alertsmanagement.models.MonitorServiceDetails>]
+  keywordOnlyArguments:
+  - name: data

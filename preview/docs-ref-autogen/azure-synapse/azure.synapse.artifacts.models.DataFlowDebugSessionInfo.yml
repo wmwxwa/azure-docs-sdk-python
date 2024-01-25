@@ -66,6 +66,17 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: data_flow_name
+  - name: compute_type
+  - name: core_count
+  - name: node_count
+  - name: integration_runtime_name
+  - name: session_id
+  - name: start_time
+  - name: time_to_live_in_minutes
+  - name: last_activity_time
 methods:
 - uid: azure.synapse.artifacts.models.DataFlowDebugSessionInfo.as_dict
   name: as_dict

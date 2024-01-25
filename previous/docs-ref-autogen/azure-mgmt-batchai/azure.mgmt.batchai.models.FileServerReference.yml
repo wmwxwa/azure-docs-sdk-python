@@ -44,3 +44,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: file_server
+  - name: relative_mount_path
+  - name: source_directory
+  - name: mount_options

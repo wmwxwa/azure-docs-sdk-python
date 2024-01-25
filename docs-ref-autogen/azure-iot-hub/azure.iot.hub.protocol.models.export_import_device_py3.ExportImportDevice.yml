@@ -107,6 +107,20 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: id
+  - name: module_id
+  - name: e_tag
+  - name: import_mode
+  - name: status
+  - name: status_reason
+  - name: authentication
+  - name: twin_etag
+  - name: tags
+  - name: properties
+  - name: capabilities
+  - name: device_scope
+  - name: parent_scopes
 methods:
 - uid: azure.iot.hub.protocol.models.export_import_device_py3.ExportImportDevice.as_dict
   name: as_dict

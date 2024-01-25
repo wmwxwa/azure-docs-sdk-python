@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.TimeOfDay>
+  keywordOnlyArguments:
+  - name: start_time
+  - name: end_time
 methods:
 - uid: azure.servicefabric.models.TimeRange.as_dict
   name: as_dict

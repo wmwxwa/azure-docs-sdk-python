@@ -41,3 +41,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.datamigration.models.NonSqlDataMigrationTable>]
+  keywordOnlyArguments:
+  - name: target_connection_info
+  - name: target_database_name
+  - name: project_name
+  - name: project_location
+  - name: selected_tables

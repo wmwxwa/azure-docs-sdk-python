@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: next_link
 variables:
 - description: Gets the job collections.
   name: value

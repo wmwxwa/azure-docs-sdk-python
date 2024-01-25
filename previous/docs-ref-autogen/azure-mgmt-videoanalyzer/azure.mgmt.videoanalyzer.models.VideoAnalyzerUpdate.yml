@@ -54,6 +54,14 @@ constructor:
     isRequired: true
     types:
     - <xref:video_analyzer.models.NetworkAccessControl>
+  keywordOnlyArguments:
+  - name: tags
+  - name: identity
+  - name: storage_accounts
+  - name: encryption
+  - name: iot_hubs
+  - name: public_network_access
+  - name: network_access_control
 variables:
 - description: The endpoints associated with this resource.
   name: endpoints

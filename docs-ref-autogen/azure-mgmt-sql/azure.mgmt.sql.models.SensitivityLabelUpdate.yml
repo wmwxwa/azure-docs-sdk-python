@@ -40,6 +40,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.sql.models.SensitivityLabel>
+  keywordOnlyArguments:
+  - name: op
+  - name: schema
+  - name: table
+  - name: column
+  - name: sensitivity_label
 variables:
 - description: Resource ID.
   name: id

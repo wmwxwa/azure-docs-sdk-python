@@ -14,6 +14,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: emails
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.CollaboratorsArray.as_dict
   name: as_dict

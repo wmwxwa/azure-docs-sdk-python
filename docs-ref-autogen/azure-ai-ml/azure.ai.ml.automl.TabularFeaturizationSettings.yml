@@ -44,6 +44,13 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: blocked_transformers
+  - name: column_name_and_types
+  - name: dataset_language
+  - name: transformer_params
+  - name: mode
+  - name: enable_dnn_featurization
 variables:
 - description: Specifies the type of FeaturizationSettings. Set automatically to "Tabular"
     for this class.

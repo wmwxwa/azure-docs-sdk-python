@@ -12,7 +12,7 @@ summary: 'The ip configuration for a container network interface.
 constructor:
   syntax: 'ContainerNetworkInterfaceIpConfiguration(*, name: str | None = None, **kwargs:
     Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: name
     description: The name of the resource. This name can be used to access the resource.
     types:

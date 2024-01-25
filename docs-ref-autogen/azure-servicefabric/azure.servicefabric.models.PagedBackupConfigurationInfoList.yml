@@ -37,6 +37,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.BackupConfigurationInfo>]
+  keywordOnlyArguments:
+  - name: continuation_token
+  - name: items
 methods:
 - uid: azure.servicefabric.models.PagedBackupConfigurationInfoList.as_dict
   name: as_dict

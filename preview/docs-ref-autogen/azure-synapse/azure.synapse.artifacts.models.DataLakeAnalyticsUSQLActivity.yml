@@ -112,6 +112,21 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: name
+  - name: script_path
+  - name: script_linked_service
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: linked_service_name
+  - name: policy
+  - name: degree_of_parallelism
+  - name: priority
+  - name: parameters
+  - name: runtime_version
+  - name: compilation_mode
 methods:
 - uid: azure.synapse.artifacts.models.DataLakeAnalyticsUSQLActivity.as_dict
   name: as_dict

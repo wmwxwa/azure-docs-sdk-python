@@ -68,6 +68,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: entry_point_location
+  - name: process_id
+  - name: run_as_user_name
+  - name: code_package_entry_point_statistics
+  - name: status
+  - name: next_activation_time
+  - name: instance_id
 methods:
 - uid: azure.servicefabric.models.CodePackageEntryPoint.as_dict
   name: as_dict

@@ -14,6 +14,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: content
 methods:
 - uid: azure.servicefabric.models.ContainerLogs.as_dict
   name: as_dict

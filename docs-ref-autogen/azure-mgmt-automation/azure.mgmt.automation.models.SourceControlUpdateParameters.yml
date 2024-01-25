@@ -42,3 +42,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: branch
+  - name: folder_path
+  - name: auto_sync
+  - name: publish_runbook
+  - name: security_token
+  - name: description

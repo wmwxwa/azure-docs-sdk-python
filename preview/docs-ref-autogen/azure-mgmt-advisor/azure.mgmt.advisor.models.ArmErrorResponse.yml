@@ -9,7 +9,7 @@ summary: ArmErrorResponse.
 constructor:
   syntax: 'ArmErrorResponse(*, error: _models.ARMErrorResponseBody | None = None,
     **kwargs)'
-  parameters:
+  keywordOnlyArguments:
   - name: error
     description: ARM error response body.
     types:

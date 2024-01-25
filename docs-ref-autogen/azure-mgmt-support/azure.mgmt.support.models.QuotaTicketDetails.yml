@@ -32,3 +32,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.support.models.QuotaChangeRequest>]
+  keywordOnlyArguments:
+  - name: quota_change_request_sub_type
+  - name: quota_change_request_version
+  - name: quota_change_requests

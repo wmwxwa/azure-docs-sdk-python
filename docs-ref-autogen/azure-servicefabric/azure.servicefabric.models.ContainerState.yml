@@ -35,6 +35,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: state
+  - name: start_time
+  - name: exit_code
+  - name: finish_time
+  - name: detail_status
 methods:
 - uid: azure.servicefabric.models.ContainerState.as_dict
   name: as_dict

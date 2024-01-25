@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.automation.models.JobCollectionItem>]
+  keywordOnlyArguments:
+  - name: value
 variables:
 - description: The  link to the next page.
   name: next_link

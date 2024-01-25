@@ -30,6 +30,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: server_key_type
+  - name: uri
 variables:
 - description: Resource ID.
   name: id

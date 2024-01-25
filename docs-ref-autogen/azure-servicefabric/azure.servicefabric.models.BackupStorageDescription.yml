@@ -31,6 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: friendly_name
 methods:
 - uid: azure.servicefabric.models.BackupStorageDescription.as_dict
   name: as_dict

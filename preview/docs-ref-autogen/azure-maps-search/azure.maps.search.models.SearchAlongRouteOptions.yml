@@ -7,3 +7,5 @@ inheritances:
 - builtins.object
 constructor:
   syntax: 'SearchAlongRouteOptions(*, route: GeoJsonLineString | None = None, **kwargs)'
+  keywordOnlyArguments:
+  - name: route

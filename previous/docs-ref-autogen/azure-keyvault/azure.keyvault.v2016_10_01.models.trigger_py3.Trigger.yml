@@ -28,6 +28,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: lifetime_percentage
+  - name: days_before_expiry
 methods:
 - uid: azure.keyvault.v2016_10_01.models.trigger_py3.Trigger.as_dict
   name: as_dict

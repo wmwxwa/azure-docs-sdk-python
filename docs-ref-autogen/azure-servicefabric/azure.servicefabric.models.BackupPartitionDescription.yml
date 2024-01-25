@@ -16,6 +16,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.BackupStorageDescription>
+  keywordOnlyArguments:
+  - name: backup_storage
 methods:
 - uid: azure.servicefabric.models.BackupPartitionDescription.as_dict
   name: as_dict

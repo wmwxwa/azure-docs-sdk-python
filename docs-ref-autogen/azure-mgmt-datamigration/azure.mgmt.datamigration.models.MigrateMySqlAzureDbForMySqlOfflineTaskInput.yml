@@ -51,3 +51,10 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: source_connection_info
+  - name: target_connection_info
+  - name: selected_databases
+  - name: make_source_server_read_only
+  - name: started_on
+  - name: optional_agent_settings

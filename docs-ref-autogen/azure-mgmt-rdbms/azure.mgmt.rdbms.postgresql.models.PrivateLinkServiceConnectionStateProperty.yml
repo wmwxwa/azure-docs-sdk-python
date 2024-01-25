@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: status
+  - name: description
 variables:
 - description: The actions required for private link service connection.
   name: actions_required

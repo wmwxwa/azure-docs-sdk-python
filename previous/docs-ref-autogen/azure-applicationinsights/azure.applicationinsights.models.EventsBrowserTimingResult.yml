@@ -88,6 +88,21 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.applicationinsights.models.EventsClientPerformanceInfo>
+  keywordOnlyArguments:
+  - name: id
+  - name: count
+  - name: timestamp
+  - name: custom_dimensions
+  - name: custom_measurements
+  - name: operation
+  - name: session
+  - name: user
+  - name: cloud
+  - name: ai
+  - name: application
+  - name: client
+  - name: browser_timing
+  - name: client_performance
 methods:
 - uid: azure.applicationinsights.models.EventsBrowserTimingResult.as_dict
   name: as_dict

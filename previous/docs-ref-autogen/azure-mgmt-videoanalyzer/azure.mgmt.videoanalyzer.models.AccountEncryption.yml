@@ -35,6 +35,10 @@ constructor:
     isRequired: true
     types:
     - <xref:video_analyzer.models.ResourceIdentity>
+  keywordOnlyArguments:
+  - name: type
+  - name: key_vault_properties
+  - name: identity
 variables:
 - description: The current status of the Key Vault mapping.
   name: status

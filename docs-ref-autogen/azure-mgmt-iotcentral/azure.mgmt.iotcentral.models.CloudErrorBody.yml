@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.iotcentral.models.CloudErrorBody>]
+  keywordOnlyArguments:
+  - name: details
 variables:
 - description: The error code.
   name: code

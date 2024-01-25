@@ -99,6 +99,21 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.automation.models.JobProvisioningState>
+  keywordOnlyArguments:
+  - name: runbook
+  - name: started_by
+  - name: run_on
+  - name: job_id
+  - name: creation_time
+  - name: status
+  - name: status_details
+  - name: start_time
+  - name: end_time
+  - name: exception
+  - name: last_modified_time
+  - name: last_status_modified_time
+  - name: parameters
+  - name: provisioning_state
 variables:
 - description: Fully qualified resource Id for the resource.
   name: id

@@ -20,3 +20,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.peering.models.SubResource>
+  keywordOnlyArguments:
+  - name: connections
+  - name: peer_asn

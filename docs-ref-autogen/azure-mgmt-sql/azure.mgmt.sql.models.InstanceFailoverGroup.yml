@@ -35,6 +35,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.sql.models.ManagedInstancePairInfo>]
+  keywordOnlyArguments:
+  - name: read_write_endpoint
+  - name: read_only_endpoint
+  - name: partner_regions
+  - name: managed_instance_pairs
 variables:
 - description: Resource ID.
   name: id

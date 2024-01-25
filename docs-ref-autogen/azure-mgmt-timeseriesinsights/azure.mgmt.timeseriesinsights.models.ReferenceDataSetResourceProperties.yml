@@ -40,6 +40,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.timeseriesinsights.models.DataStringComparisonBehavior>
+  keywordOnlyArguments:
+  - name: key_properties
+  - name: data_string_comparison_behavior
 variables:
 - description: 'Provisioning state of the resource. Possible values include:
 

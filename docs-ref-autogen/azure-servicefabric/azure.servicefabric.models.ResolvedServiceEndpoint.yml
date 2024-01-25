@@ -28,6 +28,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: kind
+  - name: address
 methods:
 - uid: azure.servicefabric.models.ResolvedServiceEndpoint.as_dict
   name: as_dict

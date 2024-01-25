@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.spark.models.SparkStatement>]
+  keywordOnlyArguments:
+  - name: total
+  - name: statements
 methods:
 - uid: azure.synapse.spark.models.SparkStatementCollection.as_dict
   name: as_dict

@@ -21,6 +21,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.databoxedge.v2021_02_01_preview.models.MetricConfiguration>]
+  keywordOnlyArguments:
+  - name: metric_configurations
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

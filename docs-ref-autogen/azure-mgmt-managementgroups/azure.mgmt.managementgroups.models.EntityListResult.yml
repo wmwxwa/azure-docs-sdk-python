@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.managementgroups.models.EntityInfo>]
+  keywordOnlyArguments:
+  - name: value
 variables:
 - description: Total count of records that match the filter.
   name: count

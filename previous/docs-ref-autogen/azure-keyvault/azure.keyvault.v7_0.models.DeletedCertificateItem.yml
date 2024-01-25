@@ -44,6 +44,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: attributes
+  - name: tags
+  - name: x509_thumbprint
+  - name: recovery_id
 variables:
 - description: 'The time when the certificate is scheduled to
 

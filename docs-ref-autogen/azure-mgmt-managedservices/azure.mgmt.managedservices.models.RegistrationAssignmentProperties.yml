@@ -22,6 +22,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: registration_definition_id
 variables:
 - description: 'Current state of the registration assignment. Possible values
 

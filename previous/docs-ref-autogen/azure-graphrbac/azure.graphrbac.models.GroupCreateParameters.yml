@@ -35,6 +35,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: display_name
+  - name: mail_nickname
+  - name: additional_properties
 variables:
 - description: 'Required. Whether the group is mail-enabled. Must be
 

@@ -60,6 +60,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: description
+  - name: account_name
+  - name: namespace
+  - name: ma_config_url
+  - name: fluentd_config_url
+  - name: auto_key_config_url
 methods:
 - uid: azure.servicefabric.models.AzureInternalMonitoringPipelineSinkDescription.as_dict
   name: as_dict

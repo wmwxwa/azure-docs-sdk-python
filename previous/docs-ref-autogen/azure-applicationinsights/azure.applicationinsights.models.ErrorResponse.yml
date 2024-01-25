@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.applicationinsights.models.ErrorInfo>
+  keywordOnlyArguments:
+  - name: error
 methods:
 - uid: azure.applicationinsights.models.ErrorResponse.as_dict
   name: as_dict

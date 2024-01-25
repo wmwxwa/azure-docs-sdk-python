@@ -46,6 +46,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.artifacts.models.UserProperty>]
+  keywordOnlyArguments:
+  - name: name
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
 methods:
 - uid: azure.synapse.artifacts.models.ControlActivity.as_dict
   name: as_dict

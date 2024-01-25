@@ -140,6 +140,23 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: job_id
+  - name: start_time_utc
+  - name: end_time_utc
+  - name: type
+  - name: status
+  - name: progress
+  - name: input_blob_container_uri
+  - name: input_blob_name
+  - name: output_blob_container_uri
+  - name: output_blob_name
+  - name: exclude_keys_in_export
+  - name: storage_authentication_type
+  - name: identity
+  - name: failure_reason
+  - name: include_configurations
+  - name: configurations_blob_name
 methods:
 - uid: azure.iot.hub.protocol.models.JobProperties.as_dict
   name: as_dict

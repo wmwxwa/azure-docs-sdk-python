@@ -25,6 +25,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: sku
+  - name: applied_scopes
 variables:
 - description: The id of the reservation.
   name: id

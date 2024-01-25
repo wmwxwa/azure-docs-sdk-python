@@ -33,6 +33,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: name
 methods:
 - uid: azure.servicefabric.models.ApplicationNameInfo.as_dict
   name: as_dict

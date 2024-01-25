@@ -55,6 +55,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: sku
+  - name: kind
+  - name: location
+  - name: tags
+  - name: direct
+  - name: exchange
+  - name: peering_location
 variables:
 - description: The name of the resource.
   name: name

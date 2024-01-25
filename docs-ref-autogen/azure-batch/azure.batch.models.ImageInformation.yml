@@ -56,6 +56,13 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.VerificationType>
+  keywordOnlyArguments:
+  - name: node_agent_sku_id
+  - name: image_reference
+  - name: os_type
+  - name: verification_type
+  - name: capabilities
+  - name: batch_support_end_of_life
 methods:
 - uid: azure.batch.models.ImageInformation.as_dict
   name: as_dict

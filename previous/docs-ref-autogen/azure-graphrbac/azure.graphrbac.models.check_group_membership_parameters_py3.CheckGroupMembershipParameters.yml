@@ -32,6 +32,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: group_id
+  - name: member_id
+  - name: additional_properties
 methods:
 - uid: azure.graphrbac.models.check_group_membership_parameters_py3.CheckGroupMembershipParameters.as_dict
   name: as_dict

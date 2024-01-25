@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.computervision.models.LandmarksModel>]
+  keywordOnlyArguments:
+  - name: celebrities
+  - name: landmarks
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.CategoryDetail.as_dict
   name: as_dict

@@ -16,6 +16,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: user_data
 methods:
 - uid: azure.cognitiveservices.vision.face.models.UpdateFaceRequest.as_dict
   name: as_dict

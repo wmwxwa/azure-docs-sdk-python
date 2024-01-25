@@ -19,3 +19,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.automation.models.NodeCountProperties>
+  keywordOnlyArguments:
+  - name: name
+  - name: properties

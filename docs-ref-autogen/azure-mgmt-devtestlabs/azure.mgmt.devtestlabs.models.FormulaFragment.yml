@@ -42,3 +42,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.devtestlabs.models.FormulaPropertiesFromVmFragment>
+  keywordOnlyArguments:
+  - name: tags
+  - name: description
+  - name: author
+  - name: os_type
+  - name: formula_content
+  - name: vm

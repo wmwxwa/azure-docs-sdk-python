@@ -30,6 +30,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.PropertyValue>
+  keywordOnlyArguments:
+  - name: property_name
+  - name: value
+  - name: custom_type_id
 methods:
 - uid: azure.servicefabric.models.PropertyDescription.as_dict
   name: as_dict

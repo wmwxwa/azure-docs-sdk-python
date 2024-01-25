@@ -26,6 +26,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.knowledge.qnamaker.models.FileDTO>]
+  keywordOnlyArguments:
+  - name: qna_list
+  - name: urls
+  - name: files
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.CreateKbInputDTO.as_dict
   name: as_dict

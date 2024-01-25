@@ -36,3 +36,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.ClusterIdentity>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: zones
+  - name: properties
+  - name: identity

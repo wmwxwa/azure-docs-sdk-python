@@ -68,3 +68,13 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.datamigration.models.SqlSourcePlatform>
+  keywordOnlyArguments:
+  - name: data_source
+  - name: user_name
+  - name: password
+  - name: authentication
+  - name: encrypt_connection
+    defaultValue: 'True'
+  - name: additional_settings
+  - name: trust_server_certificate
+  - name: platform

@@ -86,6 +86,17 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: linked_service_name
+  - name: additional_properties
+  - name: description
+  - name: structure
+  - name: schema
+  - name: parameters
+  - name: annotations
+  - name: folder
+  - name: schema_type_properties_schema
+  - name: table
 methods:
 - uid: azure.synapse.artifacts.models.SapHanaTableDataset.as_dict
   name: as_dict

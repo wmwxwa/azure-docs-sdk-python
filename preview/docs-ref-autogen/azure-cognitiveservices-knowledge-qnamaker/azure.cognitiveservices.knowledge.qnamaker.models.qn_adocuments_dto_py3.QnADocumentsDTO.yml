@@ -14,6 +14,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.knowledge.qnamaker.models.QnADTO>]
+  keywordOnlyArguments:
+  - name: qna_documents
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.qn_adocuments_dto_py3.QnADocumentsDTO.as_dict
   name: as_dict

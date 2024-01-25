@@ -47,3 +47,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: tags
+  - name: log_verbose
+  - name: log_progress
+  - name: source
+  - name: parameters
+  - name: description

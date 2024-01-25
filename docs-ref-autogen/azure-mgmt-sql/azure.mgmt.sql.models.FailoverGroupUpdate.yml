@@ -31,3 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: tags
+  - name: read_write_endpoint
+  - name: read_only_endpoint
+  - name: databases

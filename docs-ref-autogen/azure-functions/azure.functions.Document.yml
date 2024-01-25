@@ -12,9 +12,8 @@ summary: 'An Azure Document.
   Document objects are `UserDict` subclasses and behave like dicts.'
 constructor:
   syntax: Document(dict=None, /, **kwargs)
-  parameters:
+  positionalOnlyArguments:
   - name: dict
-    defaultValue: None
 methods:
 - uid: azure.functions.Document.clear
   name: clear
@@ -90,9 +89,9 @@ methods:
 
     In either case, this is followed by: for k, v in F.items(): D[k] = v'
   signature: update([E], **F) -> None.  Update D from mapping/iterable E and F.
-  parameters:
+  positionalOnlyArguments:
   - name: other
-    defaultValue: ()
+    isRequired: true
 - uid: azure.functions.Document.values
   name: values
   signature: values() -> an object providing a view on D's values

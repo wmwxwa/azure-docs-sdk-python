@@ -55,6 +55,14 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: is_enabled
+  - name: maintenance_window_cycles
+  - name: min_duration_in_minutes
+  - name: default_duration_in_minutes
+  - name: min_cycles
+  - name: time_granularity_in_minutes
+  - name: allow_multiple_maintenance_windows_per_cycle
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

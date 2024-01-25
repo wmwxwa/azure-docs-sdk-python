@@ -58,6 +58,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: sku
+  - name: tags
+  - name: identity
+  - name: display_name
+  - name: subdomain
+  - name: template
 variables:
 - description: The ARM resource identifier.
   name: id

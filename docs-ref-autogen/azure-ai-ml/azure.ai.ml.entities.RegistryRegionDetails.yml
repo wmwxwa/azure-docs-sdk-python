@@ -36,3 +36,7 @@ constructor:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:typing.List>[<xref:str>], <xref:azure.ai.ml.entities.SystemCreatedStorageAccount>]
+  keywordOnlyArguments:
+  - name: acr_config
+  - name: location
+  - name: storage_config

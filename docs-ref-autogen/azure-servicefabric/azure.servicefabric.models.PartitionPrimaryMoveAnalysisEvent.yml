@@ -87,6 +87,18 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: partition_id
+  - name: metadata
+  - name: when_move_completed
+  - name: previous_node
+  - name: current_node
+  - name: move_reason
+  - name: relevant_traces
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.PartitionPrimaryMoveAnalysisEvent.as_dict
   name: as_dict

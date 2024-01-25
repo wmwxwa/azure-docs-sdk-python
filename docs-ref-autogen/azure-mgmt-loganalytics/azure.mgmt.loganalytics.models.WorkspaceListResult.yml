@@ -14,3 +14,5 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.loganalytics.models.Workspace>]
+  keywordOnlyArguments:
+  - name: value

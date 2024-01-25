@@ -41,3 +41,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.resourcegraph.models.FacetRequest>]
+  keywordOnlyArguments:
+  - name: query
+  - name: subscriptions
+  - name: management_groups
+  - name: options
+  - name: facets

@@ -13,3 +13,13 @@ constructor:
     Dict[str, Any] | None = None, container_registry: Dict[str, Any] | None = None,
     application_insights: Dict[str, Any] | None = None, others: Dict[str, Any] | None
     = None)'
+  keywordOnlyArguments:
+  - name: udr
+  - name: nsg
+  - name: resource_lock
+  - name: dns_resolution
+  - name: storage_account
+  - name: key_vault
+  - name: container_registry
+  - name: application_insights
+  - name: others

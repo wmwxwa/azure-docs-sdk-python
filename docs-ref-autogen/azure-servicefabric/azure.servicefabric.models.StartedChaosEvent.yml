@@ -31,6 +31,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.ChaosParameters>
+  keywordOnlyArguments:
+  - name: time_stamp_utc
+  - name: chaos_parameters
 methods:
 - uid: azure.servicefabric.models.StartedChaosEvent.as_dict
   name: as_dict

@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:service_fabric_managed_clusters_management_client.models.OperationResult>]
+  keywordOnlyArguments:
+  - name: value
 variables:
 - description: URL to get the next set of operation list results if there are any.
   name: next_link

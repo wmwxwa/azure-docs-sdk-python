@@ -21,6 +21,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: entities
+  - name: next_link
 methods:
 - uid: azure.communication.administration.PhoneNumberEntities.as_dict
   name: as_dict

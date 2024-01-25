@@ -152,6 +152,24 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: url
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: authentication_type
+  - name: user_name
+  - name: password
+  - name: tenant
+  - name: service_principal_id
+  - name: aad_resource_id
+  - name: aad_service_principal_credential_type
+  - name: service_principal_key
+  - name: service_principal_embedded_cert
+  - name: service_principal_embedded_cert_password
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.ODataLinkedService.as_dict
   name: as_dict

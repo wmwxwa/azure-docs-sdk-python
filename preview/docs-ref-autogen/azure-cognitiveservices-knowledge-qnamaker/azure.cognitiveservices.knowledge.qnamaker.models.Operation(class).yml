@@ -53,6 +53,14 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.knowledge.qnamaker.models.ErrorResponse>
+  keywordOnlyArguments:
+  - name: operation_state
+  - name: created_timestamp
+  - name: last_action_timestamp
+  - name: resource_location
+  - name: user_id
+  - name: operation_id
+  - name: error_response
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.Operation.as_dict
   name: as_dict

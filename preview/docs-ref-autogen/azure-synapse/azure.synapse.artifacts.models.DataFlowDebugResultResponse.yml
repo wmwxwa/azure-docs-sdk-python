@@ -21,6 +21,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: status
+  - name: data
 methods:
 - uid: azure.synapse.artifacts.models.DataFlowDebugResultResponse.as_dict
   name: as_dict

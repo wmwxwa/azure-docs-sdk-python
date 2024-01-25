@@ -32,6 +32,9 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: x
+  - name: y
 variables:
 - description: A String identifier.
   name: id

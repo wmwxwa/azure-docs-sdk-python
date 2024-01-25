@@ -25,3 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: time
+  - name: min_instance_count
+  - name: max_instance_count

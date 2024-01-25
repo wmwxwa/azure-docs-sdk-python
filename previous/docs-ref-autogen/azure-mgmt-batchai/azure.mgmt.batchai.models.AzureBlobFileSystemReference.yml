@@ -49,3 +49,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: account_name
+  - name: container_name
+  - name: credentials
+  - name: relative_mount_path
+  - name: mount_options

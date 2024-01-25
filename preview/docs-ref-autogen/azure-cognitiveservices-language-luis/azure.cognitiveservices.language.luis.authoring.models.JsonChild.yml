@@ -26,6 +26,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.JsonModelFeatureInformation>]
+  keywordOnlyArguments:
+  - name: name
+  - name: instance_of
+  - name: children
+  - name: features
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.JsonChild.as_dict
   name: as_dict

@@ -55,3 +55,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: exchange_name
+  - name: bandwidth_in_mbps
+  - name: microsoft_i_pv4_address
+  - name: microsoft_i_pv6_address
+  - name: facility_i_pv4_prefix
+  - name: facility_i_pv6_prefix
+  - name: peering_db_facility_id
+  - name: peering_db_facility_link

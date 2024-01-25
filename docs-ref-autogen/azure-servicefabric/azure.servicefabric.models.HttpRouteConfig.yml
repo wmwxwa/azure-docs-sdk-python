@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.GatewayDestination>
+  keywordOnlyArguments:
+  - name: name
+  - name: match
+  - name: destination
 methods:
 - uid: azure.servicefabric.models.HttpRouteConfig.as_dict
   name: as_dict

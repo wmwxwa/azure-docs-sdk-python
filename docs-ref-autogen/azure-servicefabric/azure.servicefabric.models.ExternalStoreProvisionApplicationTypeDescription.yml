@@ -69,6 +69,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: async_property
+  - name: application_package_download_uri
+  - name: application_type_name
+  - name: application_type_version
 methods:
 - uid: azure.servicefabric.models.ExternalStoreProvisionApplicationTypeDescription.as_dict
   name: as_dict

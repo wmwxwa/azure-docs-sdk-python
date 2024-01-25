@@ -39,6 +39,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.JobReleaseTaskExecutionInformation>
+  keywordOnlyArguments:
+  - name: pool_id
+  - name: node_id
+  - name: node_url
+  - name: job_preparation_task_execution_info
+  - name: job_release_task_execution_info
 methods:
 - uid: azure.batch.models.JobPreparationAndReleaseTaskExecutionInformation.as_dict
   name: as_dict

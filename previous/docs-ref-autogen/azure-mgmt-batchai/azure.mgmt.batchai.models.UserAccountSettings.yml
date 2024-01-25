@@ -31,3 +31,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: admin_user_name
+  - name: admin_user_ssh_public_key
+  - name: admin_user_password

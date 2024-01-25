@@ -68,6 +68,16 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.DeleteCertificateError>
+  keywordOnlyArguments:
+  - name: thumbprint
+  - name: thumbprint_algorithm
+  - name: url
+  - name: state
+  - name: state_transition_time
+  - name: previous_state
+  - name: previous_state_transition_time
+  - name: public_data
+  - name: delete_certificate_error
 methods:
 - uid: azure.batch.models.Certificate.as_dict
   name: as_dict

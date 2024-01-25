@@ -9,7 +9,7 @@ summary: A list of private link resources.
 constructor:
   syntax: 'PrivateLinkResourceListResult(*, value: List[PrivateLinkResource] | None
     = None, **kwargs)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: Array of private link resources.
     types:

@@ -45,6 +45,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.personalizer.models.InternalError>
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: target
+  - name: details
+  - name: inner_error
 methods:
 - uid: azure.cognitiveservices.personalizer.models.PersonalizerError.as_dict
   name: as_dict

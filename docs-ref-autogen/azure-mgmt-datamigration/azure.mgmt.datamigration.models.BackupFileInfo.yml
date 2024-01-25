@@ -29,3 +29,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.datamigration.models.BackupFileStatus>
+  keywordOnlyArguments:
+  - name: file_location
+  - name: family_sequence_number
+  - name: status

@@ -35,6 +35,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: time_stamp_utc
+  - name: faults
 methods:
 - uid: azure.servicefabric.models.ExecutingFaultsChaosEvent.as_dict
   name: as_dict

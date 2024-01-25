@@ -22,6 +22,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.synapse.models.TransparentDataEncryptionStatus>
+  keywordOnlyArguments:
+  - name: status
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

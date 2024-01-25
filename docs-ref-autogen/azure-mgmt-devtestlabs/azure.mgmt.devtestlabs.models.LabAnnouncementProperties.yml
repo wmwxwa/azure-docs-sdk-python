@@ -46,6 +46,12 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: title
+  - name: markdown
+  - name: enabled
+  - name: expiration_date
+  - name: expired
 variables:
 - description: The provisioning status of the resource.
   name: provisioning_state

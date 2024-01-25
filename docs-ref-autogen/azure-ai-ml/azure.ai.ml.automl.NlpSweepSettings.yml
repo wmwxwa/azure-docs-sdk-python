@@ -9,3 +9,6 @@ summary: Sweep settings for all AutoML NLP tasks.
 constructor:
   syntax: 'NlpSweepSettings(*, sampling_algorithm: str | SamplingAlgorithmType, early_termination:
     EarlyTerminationPolicy | None = None)'
+  keywordOnlyArguments:
+  - name: sampling_algorithm
+  - name: early_termination

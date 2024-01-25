@@ -26,6 +26,10 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: key_ops
+  - name: key_attributes
+  - name: tags
 methods:
 - uid: azure.keyvault.v7_0.models.key_update_parameters_py3.KeyUpdateParameters.as_dict
   name: as_dict

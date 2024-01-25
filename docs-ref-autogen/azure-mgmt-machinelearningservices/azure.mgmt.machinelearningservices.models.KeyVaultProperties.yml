@@ -33,3 +33,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: key_vault_arm_id
+  - name: key_identifier
+  - name: identity_client_id

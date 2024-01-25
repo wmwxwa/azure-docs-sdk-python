@@ -46,3 +46,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.timeseriesinsights.models.DataStringComparisonBehavior>
+  keywordOnlyArguments:
+  - name: location
+  - name: key_properties
+  - name: tags
+  - name: data_string_comparison_behavior

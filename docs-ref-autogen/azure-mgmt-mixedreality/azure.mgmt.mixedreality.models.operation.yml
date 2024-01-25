@@ -19,3 +19,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.mixedreality.models.OperationDisplay>
+  keywordOnlyArguments:
+  - name: name
+  - name: display

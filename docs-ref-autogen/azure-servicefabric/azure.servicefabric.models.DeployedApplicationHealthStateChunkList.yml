@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.DeployedApplicationHealthStateChunk>]
+  keywordOnlyArguments:
+  - name: items
 methods:
 - uid: azure.servicefabric.models.DeployedApplicationHealthStateChunkList.as_dict
   name: as_dict

@@ -41,3 +41,7 @@ constructor:
     isRequired: true
     types:
     - <xref:video_analyzer.models.EncoderPresetBase>
+  keywordOnlyArguments:
+  - name: name
+  - name: inputs
+  - name: preset

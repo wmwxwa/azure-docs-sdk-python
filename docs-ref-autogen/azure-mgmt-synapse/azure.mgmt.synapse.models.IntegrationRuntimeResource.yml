@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.synapse.models.IntegrationRuntime>
+  keywordOnlyArguments:
+  - name: properties
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

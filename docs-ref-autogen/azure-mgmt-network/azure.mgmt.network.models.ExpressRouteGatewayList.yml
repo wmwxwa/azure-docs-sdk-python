@@ -9,7 +9,7 @@ summary: List of ExpressRoute gateways.
 constructor:
   syntax: 'ExpressRouteGatewayList(*, value: List[_models.ExpressRouteGateway] | None
     = None, **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: List of ExpressRoute gateways.
     types:

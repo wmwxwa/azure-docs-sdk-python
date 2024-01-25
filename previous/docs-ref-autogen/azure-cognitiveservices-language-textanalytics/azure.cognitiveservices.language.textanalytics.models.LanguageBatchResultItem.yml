@@ -27,6 +27,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.language.textanalytics.models.DocumentStatistics>
+  keywordOnlyArguments:
+  - name: id
+  - name: detected_languages
+  - name: statistics
 methods:
 - uid: azure.cognitiveservices.language.textanalytics.models.LanguageBatchResultItem.as_dict
   name: as_dict

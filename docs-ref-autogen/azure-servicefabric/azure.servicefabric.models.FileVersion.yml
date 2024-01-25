@@ -31,6 +31,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: version_number
+  - name: epoch_data_loss_number
+  - name: epoch_configuration_number
 methods:
 - uid: azure.servicefabric.models.FileVersion.as_dict
   name: as_dict

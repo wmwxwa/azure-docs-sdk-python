@@ -35,6 +35,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: tags
+  - name: captions
+  - name: request_id
+  - name: metadata
+  - name: model_version
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.ImageDescription.as_dict
   name: as_dict

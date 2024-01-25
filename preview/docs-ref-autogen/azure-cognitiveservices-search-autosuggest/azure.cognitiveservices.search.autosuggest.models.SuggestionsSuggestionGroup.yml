@@ -32,6 +32,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: search_suggestions
+  - name: name
+    defaultValue: Unknown
 methods:
 - uid: azure.cognitiveservices.search.autosuggest.models.SuggestionsSuggestionGroup.as_dict
   name: as_dict

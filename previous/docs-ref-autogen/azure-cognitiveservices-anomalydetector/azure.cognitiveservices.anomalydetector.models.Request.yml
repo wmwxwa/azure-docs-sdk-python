@@ -66,6 +66,13 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: series
+  - name: granularity
+  - name: custom_interval
+  - name: period
+  - name: max_anomaly_ratio
+  - name: sensitivity
 methods:
 - uid: azure.cognitiveservices.anomalydetector.models.Request.as_dict
   name: as_dict

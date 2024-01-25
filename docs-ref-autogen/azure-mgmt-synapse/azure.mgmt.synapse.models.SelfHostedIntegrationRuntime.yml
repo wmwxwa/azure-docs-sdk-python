@@ -40,3 +40,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.synapse.models.LinkedIntegrationRuntimeType>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: description
+  - name: linked_info

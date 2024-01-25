@@ -36,6 +36,10 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: start_time
+  - name: end_time
+  - name: max_concurrency
 methods:
 - uid: azure.synapse.artifacts.models.RerunTumblingWindowTriggerActionParameters.as_dict
   name: as_dict

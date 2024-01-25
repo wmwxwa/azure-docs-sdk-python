@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: name
+  - name: disk_size_gb
 variables:
 - description: 'Specifies the logical unit number of the data disk. This value is
     used to identify

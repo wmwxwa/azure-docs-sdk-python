@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.media.analyticsedge.models.MediaGraphImageFormat>
+  keywordOnlyArguments:
+  - name: scale
+  - name: format
 methods:
 - uid: azure.media.analyticsedge.MediaGraphImage.as_dict
   name: as_dict

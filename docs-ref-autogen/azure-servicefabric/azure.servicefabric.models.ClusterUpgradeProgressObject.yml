@@ -153,6 +153,26 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: code_version
+  - name: config_version
+  - name: upgrade_domains
+  - name: upgrade_units
+  - name: upgrade_state
+  - name: next_upgrade_domain
+  - name: rolling_upgrade_mode
+    defaultValue: UnmonitoredAuto
+  - name: upgrade_description
+  - name: upgrade_duration_in_milliseconds
+  - name: upgrade_domain_duration_in_milliseconds
+  - name: unhealthy_evaluations
+  - name: current_upgrade_domain_progress
+  - name: current_upgrade_units_progress
+  - name: start_timestamp_utc
+  - name: failure_timestamp_utc
+  - name: failure_reason
+  - name: upgrade_domain_progress_at_failure
+  - name: is_node_by_node
 methods:
 - uid: azure.servicefabric.models.ClusterUpgradeProgressObject.as_dict
   name: as_dict

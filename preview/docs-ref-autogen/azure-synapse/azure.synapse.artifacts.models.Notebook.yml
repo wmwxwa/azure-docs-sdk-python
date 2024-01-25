@@ -61,6 +61,15 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.artifacts.models.NotebookCell>]
+  keywordOnlyArguments:
+  - name: metadata
+  - name: nbformat
+  - name: nbformat_minor
+  - name: cells
+  - name: additional_properties
+  - name: description
+  - name: big_data_pool
+  - name: session_properties
 methods:
 - uid: azure.synapse.artifacts.models.Notebook.as_dict
   name: as_dict

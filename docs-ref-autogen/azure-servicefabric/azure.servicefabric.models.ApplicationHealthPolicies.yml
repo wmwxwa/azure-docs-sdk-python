@@ -21,6 +21,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ApplicationHealthPolicyMapItem>]
+  keywordOnlyArguments:
+  - name: application_health_policy_map
 methods:
 - uid: azure.servicefabric.models.ApplicationHealthPolicies.as_dict
   name: as_dict

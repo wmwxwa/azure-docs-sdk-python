@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: type
 variables:
 - description: Service Principal Id backing the Msi.
   name: principal_id

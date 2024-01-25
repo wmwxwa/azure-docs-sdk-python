@@ -30,3 +30,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:batch_ai.models.DeallocationOption>
+  keywordOnlyArguments:
+  - name: target_node_count
+  - name: node_deallocation_option
+    defaultValue: requeue

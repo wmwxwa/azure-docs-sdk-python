@@ -23,3 +23,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.automation.models.TagOperators>
+  keywordOnlyArguments:
+  - name: tags
+  - name: filter_operator

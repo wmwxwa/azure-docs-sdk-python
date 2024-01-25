@@ -27,6 +27,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.applicationinsights.models.MetricsResult>
+  keywordOnlyArguments:
+  - name: id
+  - name: status
+  - name: body
 methods:
 - uid: azure.applicationinsights.models.metrics_results_item_py3.MetricsResultsItem.as_dict
   name: as_dict

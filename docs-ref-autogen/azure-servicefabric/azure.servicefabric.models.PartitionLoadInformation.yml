@@ -48,6 +48,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.LoadMetricReport>]
+  keywordOnlyArguments:
+  - name: partition_id
+  - name: primary_load_metric_reports
+  - name: secondary_load_metric_reports
+  - name: auxiliary_load_metric_reports
 methods:
 - uid: azure.servicefabric.models.PartitionLoadInformation.as_dict
   name: as_dict

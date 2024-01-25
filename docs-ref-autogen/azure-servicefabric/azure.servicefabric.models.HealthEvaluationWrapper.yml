@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.HealthEvaluation>
+  keywordOnlyArguments:
+  - name: health_evaluation
 methods:
 - uid: azure.servicefabric.models.HealthEvaluationWrapper.as_dict
   name: as_dict

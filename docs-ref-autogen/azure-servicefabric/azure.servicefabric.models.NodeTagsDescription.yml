@@ -24,6 +24,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: count
+  - name: tags
 methods:
 - uid: azure.servicefabric.models.NodeTagsDescription.as_dict
   name: as_dict

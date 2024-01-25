@@ -92,6 +92,14 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:bool>]
+  keywordOnlyArguments:
+  - name: period
+  - name: expected_values
+  - name: upper_margins
+  - name: lower_margins
+  - name: is_anomaly
+  - name: is_negative_anomaly
+  - name: is_positive_anomaly
 methods:
 - uid: azure.cognitiveservices.anomalydetector.models.EntireDetectResponse.as_dict
   name: as_dict

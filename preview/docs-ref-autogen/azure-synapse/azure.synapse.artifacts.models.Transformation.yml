@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: description
 methods:
 - uid: azure.synapse.artifacts.models.Transformation.as_dict
   name: as_dict

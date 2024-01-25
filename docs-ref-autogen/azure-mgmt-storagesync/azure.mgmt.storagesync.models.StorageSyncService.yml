@@ -34,6 +34,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.storagesync.models.IncomingTrafficPolicy>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: incoming_traffic_policy
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

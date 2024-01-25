@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.edgeorder.v2021_12_01.models.ContactDetails>
+  keywordOnlyArguments:
+  - name: contact_details
+  - name: shipping_address
 variables:
 - description: 'Status of address validation. Possible values include:
 

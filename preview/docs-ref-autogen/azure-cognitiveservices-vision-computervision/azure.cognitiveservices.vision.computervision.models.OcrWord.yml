@@ -29,6 +29,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: bounding_box
+  - name: text
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.OcrWord.as_dict
   name: as_dict

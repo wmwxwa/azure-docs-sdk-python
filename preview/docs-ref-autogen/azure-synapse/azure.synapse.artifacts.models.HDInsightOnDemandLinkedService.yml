@@ -307,6 +307,45 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: cluster_size
+  - name: time_to_live
+  - name: version
+  - name: linked_service_name
+  - name: host_subscription_id
+  - name: tenant
+  - name: cluster_resource_group
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: service_principal_id
+  - name: service_principal_key
+  - name: cluster_name_prefix
+  - name: cluster_user_name
+  - name: cluster_password
+  - name: cluster_ssh_user_name
+  - name: cluster_ssh_password
+  - name: additional_linked_service_names
+  - name: hcatalog_linked_service_name
+  - name: cluster_type
+  - name: spark_version
+  - name: core_configuration
+  - name: h_base_configuration
+  - name: hdfs_configuration
+  - name: hive_configuration
+  - name: map_reduce_configuration
+  - name: oozie_configuration
+  - name: storm_configuration
+  - name: yarn_configuration
+  - name: encrypted_credential
+  - name: head_node_size
+  - name: data_node_size
+  - name: zookeeper_node_size
+  - name: script_actions
+  - name: virtual_network_id
+  - name: subnet_name
 methods:
 - uid: azure.synapse.artifacts.models.HDInsightOnDemandLinkedService.as_dict
   name: as_dict

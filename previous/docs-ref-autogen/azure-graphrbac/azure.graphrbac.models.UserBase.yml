@@ -59,6 +59,13 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.graphrbac.models.UserType>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: immutable_id
+  - name: usage_location
+  - name: given_name
+  - name: surname
+  - name: user_type
 methods:
 - uid: azure.graphrbac.models.UserBase.as_dict
   name: as_dict

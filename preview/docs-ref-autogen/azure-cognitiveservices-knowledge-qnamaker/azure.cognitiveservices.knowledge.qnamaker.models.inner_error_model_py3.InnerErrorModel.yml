@@ -27,6 +27,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.knowledge.qnamaker.models.InnerErrorModel>
+  keywordOnlyArguments:
+  - name: code
+  - name: inner_error
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.inner_error_model_py3.InnerErrorModel.as_dict
   name: as_dict

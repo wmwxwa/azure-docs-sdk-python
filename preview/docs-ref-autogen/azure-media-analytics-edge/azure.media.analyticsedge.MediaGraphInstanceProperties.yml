@@ -37,6 +37,11 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.media.analyticsedge.models.MediaGraphInstanceState>
+  keywordOnlyArguments:
+  - name: description
+  - name: topology_name
+  - name: parameters
+  - name: state
 methods:
 - uid: azure.media.analyticsedge.MediaGraphInstanceProperties.as_dict
   name: as_dict

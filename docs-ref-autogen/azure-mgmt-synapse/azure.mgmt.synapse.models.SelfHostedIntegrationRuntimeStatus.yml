@@ -46,6 +46,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.synapse.models.LinkedIntegrationRuntime>]
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: nodes
+  - name: links
 variables:
 - description: The workspace name which the integration runtime belong to.
   name: data_factory_name

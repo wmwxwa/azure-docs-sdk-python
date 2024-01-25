@@ -61,6 +61,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.ComputeNodeIdentityReference>
+  keywordOnlyArguments:
+  - name: container_url
+  - name: start_time
+  - name: end_time
+  - name: identity_reference
 methods:
 - uid: azure.batch.models.UploadBatchServiceLogsConfiguration.as_dict
   name: as_dict

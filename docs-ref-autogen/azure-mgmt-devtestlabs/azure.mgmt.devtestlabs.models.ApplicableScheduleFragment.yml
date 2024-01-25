@@ -31,3 +31,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.devtestlabs.models.ScheduleFragment>
+  keywordOnlyArguments:
+  - name: tags
+  - name: lab_vms_shutdown
+  - name: lab_vms_startup

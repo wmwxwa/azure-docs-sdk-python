@@ -69,3 +69,14 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: backup_set_id
+  - name: first_lsn
+  - name: last_lsn
+  - name: last_modified_time
+  - name: backup_type
+  - name: list_of_backup_files
+  - name: database_name
+  - name: backup_start_date
+  - name: backup_finished_date
+  - name: is_backup_restored

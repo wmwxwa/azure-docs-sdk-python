@@ -38,3 +38,9 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:any>]
+  keywordOnlyArguments:
+  - name: x
+  - name: y
+  - name: row_span
+  - name: col_span
+  - name: metadata

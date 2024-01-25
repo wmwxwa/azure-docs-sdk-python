@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: certificates
 methods:
 - uid: azure.media.analyticsedge.MediaGraphPemCertificateList.as_dict
   name: as_dict

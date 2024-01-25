@@ -47,6 +47,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.policyinsights.models.RemediationFilters>
+  keywordOnlyArguments:
+  - name: policy_assignment_id
+  - name: policy_definition_reference_id
+  - name: resource_discovery_mode
+  - name: filters
 variables:
 - description: The ID of the remediation.
   name: id

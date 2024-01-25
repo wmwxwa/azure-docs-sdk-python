@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.Dataset>
+  keywordOnlyArguments:
+  - name: properties
+  - name: name
 methods:
 - uid: azure.synapse.artifacts.models.DatasetDebugResource.as_dict
   name: as_dict

@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.search.videosearch.models.TrendingVideosTile>]
+  keywordOnlyArguments:
+  - name: title
+  - name: tiles
 methods:
 - uid: azure.cognitiveservices.search.videosearch.models.TrendingVideosSubcategory.as_dict
   name: as_dict

@@ -27,3 +27,7 @@ constructor:
     types:
     - <xref:list>[<xref:str>
     - <xref:azure.mgmt.timeseriesinsights.models.AccessPolicyRole>]
+  keywordOnlyArguments:
+  - name: principal_object_id
+  - name: description
+  - name: roles

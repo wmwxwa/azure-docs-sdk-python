@@ -158,6 +158,27 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: tags
+  - name: is_primary
+  - name: vm_instance_count
+  - name: data_disk_size_gb
+  - name: data_disk_type
+    defaultValue: StandardSSD_LRS
+  - name: placement_properties
+  - name: capacities
+  - name: application_ports
+  - name: ephemeral_ports
+  - name: vm_size
+  - name: vm_image_publisher
+  - name: vm_image_offer
+  - name: vm_image_sku
+  - name: vm_image_version
+  - name: vm_secrets
+  - name: vm_extensions
+  - name: vm_managed_identity
+  - name: is_stateless
+  - name: multiple_placement_groups
 variables:
 - description: Azure resource identifier.
   name: id

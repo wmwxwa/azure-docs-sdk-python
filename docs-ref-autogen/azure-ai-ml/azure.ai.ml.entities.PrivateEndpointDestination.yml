@@ -32,6 +32,11 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: name
+  - name: service_resource_id
+  - name: subresource_target
+  - name: spark_enabled
 variables:
 - description: Type of the outbound rule. Set to "PrivateEndpoint" for this class.
   name: type

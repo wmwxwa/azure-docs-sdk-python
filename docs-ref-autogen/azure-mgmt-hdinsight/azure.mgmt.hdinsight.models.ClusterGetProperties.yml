@@ -150,6 +150,30 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.hdinsight.models.PrivateLinkConfiguration>]
+  keywordOnlyArguments:
+  - name: cluster_definition
+  - name: cluster_version
+  - name: cluster_hdp_version
+  - name: os_type
+  - name: tier
+  - name: cluster_id
+  - name: kafka_rest_properties
+  - name: security_profile
+  - name: compute_profile
+  - name: provisioning_state
+  - name: created_date
+  - name: cluster_state
+  - name: quota_info
+  - name: errors
+  - name: connectivity_endpoints
+  - name: disk_encryption_properties
+  - name: encryption_in_transit_properties
+  - name: storage_profile
+  - name: min_supported_tls_version
+  - name: excluded_services_config
+  - name: network_properties
+  - name: compute_isolation_properties
+  - name: private_link_configurations
 variables:
 - description: The list of private endpoint connections.
   name: private_endpoint_connections

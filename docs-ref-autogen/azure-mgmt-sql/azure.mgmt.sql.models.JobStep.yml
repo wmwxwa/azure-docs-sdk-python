@@ -54,6 +54,13 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.sql.models.JobStepExecutionOptions>
+  keywordOnlyArguments:
+  - name: step_id
+  - name: target_group
+  - name: credential
+  - name: action
+  - name: output
+  - name: execution_options
 variables:
 - description: Resource ID.
   name: id

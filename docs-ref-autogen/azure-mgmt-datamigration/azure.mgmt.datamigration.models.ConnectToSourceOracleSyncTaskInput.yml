@@ -18,3 +18,5 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datamigration.models.OracleConnectionInfo>
+  keywordOnlyArguments:
+  - name: source_connection_info

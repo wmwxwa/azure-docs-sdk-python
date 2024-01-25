@@ -36,3 +36,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: uri
+  - name: parameters
+  - name: roles
+  - name: application_name

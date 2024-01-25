@@ -57,6 +57,14 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: display_name
+  - name: po_number
+  - name: bill_to
+  - name: invoice_email_opt_in
+  - name: enabled_azure_plans
+  - name: invoice_sections
+  - name: tags
 variables:
 - description: Resource Id.
   name: id

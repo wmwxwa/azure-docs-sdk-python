@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
 variables:
 - description: Geo location of the partner server.
   name: location

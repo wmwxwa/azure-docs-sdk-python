@@ -15,3 +15,5 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.powerbiembedded.models.AccessKeyName>
+  keywordOnlyArguments:
+  - name: key_name

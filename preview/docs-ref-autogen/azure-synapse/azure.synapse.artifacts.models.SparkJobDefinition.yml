@@ -47,6 +47,13 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.SparkJobProperties>
+  keywordOnlyArguments:
+  - name: target_big_data_pool
+  - name: job_properties
+  - name: additional_properties
+  - name: description
+  - name: required_spark_version
+  - name: language
 methods:
 - uid: azure.synapse.artifacts.models.SparkJobDefinition.as_dict
   name: as_dict

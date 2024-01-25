@@ -25,6 +25,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: tenant_id
+  - name: display_name
 variables:
 - description: 'The fully qualified ID for the management group.  For example,
 

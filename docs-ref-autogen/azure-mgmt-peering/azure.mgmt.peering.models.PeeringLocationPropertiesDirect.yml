@@ -20,3 +20,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.peering.models.PeeringBandwidthOffer>]
+  keywordOnlyArguments:
+  - name: peering_facilities
+  - name: bandwidth_offers

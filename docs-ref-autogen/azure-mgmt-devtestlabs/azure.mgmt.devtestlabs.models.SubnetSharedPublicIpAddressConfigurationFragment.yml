@@ -16,3 +16,5 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.devtestlabs.models.PortFragment>]
+  keywordOnlyArguments:
+  - name: allowed_ports

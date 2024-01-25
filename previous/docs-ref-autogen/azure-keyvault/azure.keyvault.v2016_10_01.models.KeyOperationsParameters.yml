@@ -25,6 +25,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bytes>
+  keywordOnlyArguments:
+  - name: algorithm
+  - name: value
 methods:
 - uid: azure.keyvault.v2016_10_01.models.KeyOperationsParameters.as_dict
   name: as_dict

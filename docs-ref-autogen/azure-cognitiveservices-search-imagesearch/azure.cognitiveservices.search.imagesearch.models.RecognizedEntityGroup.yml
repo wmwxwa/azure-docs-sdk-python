@@ -32,6 +32,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: recognized_entity_regions
+  - name: name
 methods:
 - uid: azure.cognitiveservices.search.imagesearch.models.RecognizedEntityGroup.as_dict
   name: as_dict

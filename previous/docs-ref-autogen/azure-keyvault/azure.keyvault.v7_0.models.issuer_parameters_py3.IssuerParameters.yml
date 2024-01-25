@@ -31,6 +31,10 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: name
+  - name: certificate_type
+  - name: certificate_transparency
 methods:
 - uid: azure.keyvault.v7_0.models.issuer_parameters_py3.IssuerParameters.as_dict
   name: as_dict

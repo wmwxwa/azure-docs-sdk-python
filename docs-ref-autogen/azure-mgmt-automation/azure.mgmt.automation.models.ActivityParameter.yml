@@ -94,3 +94,14 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.automation.models.ActivityParameterValidationSet>]
+  keywordOnlyArguments:
+  - name: name
+  - name: type
+  - name: is_mandatory
+  - name: is_dynamic
+  - name: position
+  - name: value_from_pipeline
+  - name: value_from_pipeline_by_property_name
+  - name: value_from_remaining_arguments
+  - name: description
+  - name: validation_set

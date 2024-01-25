@@ -29,6 +29,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.synapse.models.ColumnDataType>
+  keywordOnlyArguments:
+  - name: column_type
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

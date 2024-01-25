@@ -26,6 +26,8 @@ constructor:
     isRequired: true
     types:
     - <xref:timedelta>
+  keywordOnlyArguments:
+  - name: interval
 methods:
 - uid: azure.servicefabric.models.FrequencyBasedBackupScheduleDescription.as_dict
   name: as_dict

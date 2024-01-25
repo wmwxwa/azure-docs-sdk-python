@@ -15,7 +15,7 @@ constructor:
     None = None, paging: _models.CodelessConnectorPollingPagingProperties | None =
     None, response: _models.CodelessConnectorPollingResponseProperties | None = None,
     **kwargs)'
-  parameters:
+  keywordOnlyArguments:
   - name: is_active
     description: The poller active status.
     types:

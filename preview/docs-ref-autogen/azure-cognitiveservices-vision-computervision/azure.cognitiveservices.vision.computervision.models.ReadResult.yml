@@ -59,6 +59,14 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.computervision.models.Line>]
+  keywordOnlyArguments:
+  - name: page
+  - name: angle
+  - name: width
+  - name: height
+  - name: unit
+  - name: lines
+  - name: language
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.ReadResult.as_dict
   name: as_dict

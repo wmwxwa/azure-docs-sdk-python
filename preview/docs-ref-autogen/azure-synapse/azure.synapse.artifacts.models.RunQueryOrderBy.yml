@@ -40,6 +40,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.synapse.artifacts.models.RunQueryOrder>
+  keywordOnlyArguments:
+  - name: order_by
+  - name: order
 methods:
 - uid: azure.synapse.artifacts.models.RunQueryOrderBy.as_dict
   name: as_dict

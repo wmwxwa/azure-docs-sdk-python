@@ -48,3 +48,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.storagesync.models.OperationResourceMetricSpecificationDimension>]
+  keywordOnlyArguments:
+  - name: name
+  - name: display_name
+  - name: display_description
+  - name: unit
+  - name: aggregation_type
+  - name: fill_gap_with_zero
+  - name: dimensions

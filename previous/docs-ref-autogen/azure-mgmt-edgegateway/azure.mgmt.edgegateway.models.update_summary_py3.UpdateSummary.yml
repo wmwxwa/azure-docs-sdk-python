@@ -44,6 +44,11 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime>
+  keywordOnlyArguments:
+  - name: device_version_number
+  - name: friendly_device_version_name
+  - name: device_last_scanned_date_time
+  - name: last_completed_scan_job_date_time
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

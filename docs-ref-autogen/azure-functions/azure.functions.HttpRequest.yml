@@ -41,6 +41,11 @@ constructor:
     isRequired: true
     types:
     - <xref:bytes>
+  keywordOnlyArguments:
+  - name: headers
+  - name: params
+  - name: route_params
+  - name: body
 methods:
 - uid: azure.functions.HttpRequest.get_body
   name: get_body

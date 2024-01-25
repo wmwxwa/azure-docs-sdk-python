@@ -25,3 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: value
+  - name: next_link
+  - name: total_count

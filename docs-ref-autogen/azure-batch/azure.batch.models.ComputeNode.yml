@@ -221,6 +221,30 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.VirtualMachineInfo>
+  keywordOnlyArguments:
+  - name: id
+  - name: url
+  - name: state
+  - name: scheduling_state
+  - name: state_transition_time
+  - name: last_boot_time
+  - name: allocation_time
+  - name: ip_address
+  - name: affinity_id
+  - name: vm_size
+  - name: total_tasks_run
+  - name: running_tasks_count
+  - name: running_task_slots_count
+  - name: total_tasks_succeeded
+  - name: recent_tasks
+  - name: start_task
+  - name: start_task_info
+  - name: certificate_references
+  - name: errors
+  - name: is_dedicated
+  - name: endpoint_configuration
+  - name: node_agent_info
+  - name: virtual_machine_info
 methods:
 - uid: azure.batch.models.ComputeNode.as_dict
   name: as_dict

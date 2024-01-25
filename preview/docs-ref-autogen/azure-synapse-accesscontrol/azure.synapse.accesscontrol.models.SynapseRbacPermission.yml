@@ -31,6 +31,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: actions
+  - name: not_actions
+  - name: data_actions
+  - name: not_data_actions
 methods:
 - uid: azure.synapse.accesscontrol.models.SynapseRbacPermission.as_dict
   name: as_dict

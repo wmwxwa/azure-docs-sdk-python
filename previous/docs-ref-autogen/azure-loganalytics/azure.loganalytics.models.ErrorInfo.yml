@@ -37,6 +37,12 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: details
+  - name: innererror
+  - name: additional_properties
 methods:
 - uid: azure.loganalytics.models.ErrorInfo.as_dict
   name: as_dict

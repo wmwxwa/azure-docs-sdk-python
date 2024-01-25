@@ -28,3 +28,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: image_source_registry
+  - name: shm_size

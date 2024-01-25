@@ -86,6 +86,16 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime>
+  keywordOnlyArguments:
+  - name: timeout
+    defaultValue: '30'
+  - name: client_request_id
+  - name: return_client_request_id
+  - name: ocp_date
+  - name: if_match
+  - name: if_none_match
+  - name: if_modified_since
+  - name: if_unmodified_since
 methods:
 - uid: azure.batch.models.JobScheduleDisableOptions.as_dict
   name: as_dict

@@ -9,7 +9,7 @@ summary: List Replications.
 constructor:
   syntax: 'ListReplications(*, value: List[_models.Replication] | None = None, **kwargs:
     Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: A list of replications.
     types:

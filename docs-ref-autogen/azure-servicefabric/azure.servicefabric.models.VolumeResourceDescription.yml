@@ -35,6 +35,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.VolumeProviderParametersAzureFile>
+  keywordOnlyArguments:
+  - name: name
+  - name: description
+  - name: azure_file_parameters
 variables:
 - description: 'Status of the volume. Possible values include: ''Unknown'',
 

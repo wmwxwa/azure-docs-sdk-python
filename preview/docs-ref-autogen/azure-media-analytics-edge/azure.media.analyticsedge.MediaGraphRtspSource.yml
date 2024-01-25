@@ -39,6 +39,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.media.analyticsedge.models.MediaGraphEndpoint>
+  keywordOnlyArguments:
+  - name: name
+  - name: endpoint
+  - name: transport
 methods:
 - uid: azure.media.analyticsedge.MediaGraphRtspSource.as_dict
   name: as_dict

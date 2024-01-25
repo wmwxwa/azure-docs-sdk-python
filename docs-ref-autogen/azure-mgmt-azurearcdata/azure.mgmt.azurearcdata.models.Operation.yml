@@ -35,6 +35,10 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: name
+  - name: display
+  - name: is_data_action
 variables:
 - description: 'The intended executor of the operation. Possible values include: "user",
 

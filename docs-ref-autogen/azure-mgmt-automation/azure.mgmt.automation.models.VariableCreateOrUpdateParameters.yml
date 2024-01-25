@@ -33,3 +33,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: name
+  - name: value
+  - name: description
+  - name: is_encrypted

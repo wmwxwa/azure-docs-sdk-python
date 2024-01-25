@@ -118,6 +118,23 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.synapse.models.WorkspacePublicNetworkAccess>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: identity
+  - name: default_data_lake_storage
+  - name: sql_administrator_login_password
+  - name: managed_resource_group_name
+  - name: sql_administrator_login
+  - name: virtual_network_profile
+  - name: connectivity_endpoints
+  - name: managed_virtual_network
+  - name: private_endpoint_connections
+  - name: encryption
+  - name: managed_virtual_network_settings
+  - name: workspace_repository_configuration
+  - name: purview_configuration
+  - name: public_network_access
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

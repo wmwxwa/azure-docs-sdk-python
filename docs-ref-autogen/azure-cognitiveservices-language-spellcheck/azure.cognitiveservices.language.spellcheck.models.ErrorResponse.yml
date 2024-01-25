@@ -29,6 +29,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.spellcheck.models.Error>]
+  keywordOnlyArguments:
+  - name: errors
 variables:
 - description: A String identifier.
   name: id

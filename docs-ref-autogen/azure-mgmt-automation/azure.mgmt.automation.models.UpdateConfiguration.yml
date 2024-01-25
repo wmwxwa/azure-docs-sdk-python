@@ -60,3 +60,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.automation.models.TargetProperties>
+  keywordOnlyArguments:
+  - name: operating_system
+  - name: windows
+  - name: linux
+  - name: duration
+  - name: azure_virtual_machines
+  - name: non_azure_computer_names
+  - name: targets

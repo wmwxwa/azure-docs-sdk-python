@@ -108,6 +108,21 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: creating
+  - name: idle
+  - name: offline
+  - name: preempted
+  - name: rebooting
+  - name: reimaging
+  - name: running
+  - name: starting
+  - name: start_task_failed
+  - name: leaving_pool
+  - name: unknown
+  - name: unusable
+  - name: waiting_for_start_task
+  - name: total
 methods:
 - uid: azure.batch.models.NodeCounts.as_dict
   name: as_dict

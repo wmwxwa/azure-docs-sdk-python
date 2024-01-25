@@ -36,3 +36,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: connection_string
+  - name: user_name
+  - name: password

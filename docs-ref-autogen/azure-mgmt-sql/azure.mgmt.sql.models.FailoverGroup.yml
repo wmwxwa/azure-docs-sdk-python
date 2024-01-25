@@ -40,6 +40,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: tags
+  - name: read_write_endpoint
+  - name: read_only_endpoint
+  - name: partner_servers
+  - name: databases
 variables:
 - description: Resource ID.
   name: id

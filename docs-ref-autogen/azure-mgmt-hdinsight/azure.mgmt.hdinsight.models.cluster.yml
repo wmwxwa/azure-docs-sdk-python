@@ -47,6 +47,13 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.ClusterIdentity>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: etag
+  - name: zones
+  - name: properties
+  - name: identity
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

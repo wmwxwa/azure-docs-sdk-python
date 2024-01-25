@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: eye_makeup
+  - name: lip_makeup
 methods:
 - uid: azure.cognitiveservices.vision.face.models.Makeup.as_dict
   name: as_dict

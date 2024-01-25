@@ -37,3 +37,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: api_name
+  - name: custom_parameters
+  - name: platform_parameters
+  - name: units_supported
+  - name: api_input_parameters

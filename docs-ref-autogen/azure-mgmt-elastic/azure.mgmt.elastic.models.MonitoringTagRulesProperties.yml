@@ -26,3 +26,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.elastic.models.LogRules>
+  keywordOnlyArguments:
+  - name: provisioning_state
+  - name: log_rules

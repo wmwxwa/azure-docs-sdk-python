@@ -24,6 +24,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: file_name
+  - name: file_uri
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.FileDTO.as_dict
   name: as_dict

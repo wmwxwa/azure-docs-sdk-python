@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.FaceRectangle>
+  keywordOnlyArguments:
+  - name: age
+  - name: gender
+  - name: face_rectangle
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.FaceDescription.as_dict
   name: as_dict

@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.contentmoderator.models.TranscriptModerationBodyItemTermsItem>]
+  keywordOnlyArguments:
+  - name: timestamp
+  - name: terms
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.TranscriptModerationBodyItem.as_dict
   name: as_dict

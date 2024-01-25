@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: reason
 variables:
 - description: 'The storage account type for the database''s backups. Possible
 

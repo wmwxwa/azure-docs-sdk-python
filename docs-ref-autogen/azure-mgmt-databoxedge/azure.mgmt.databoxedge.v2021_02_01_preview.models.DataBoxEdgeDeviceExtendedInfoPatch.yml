@@ -50,3 +50,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.databoxedge.v2021_02_01_preview.models.KeyVaultSyncStatus>
+  keywordOnlyArguments:
+  - name: client_secret_store_id
+  - name: client_secret_store_url
+  - name: channel_integrity_key_name
+  - name: channel_integrity_key_version
+  - name: sync_status

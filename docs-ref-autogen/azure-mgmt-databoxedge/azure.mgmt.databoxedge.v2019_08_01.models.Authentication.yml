@@ -14,3 +14,5 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.databoxedge.v2019_08_01.models.SymmetricKey>
+  keywordOnlyArguments:
+  - name: symmetric_key

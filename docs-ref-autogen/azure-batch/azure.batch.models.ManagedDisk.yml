@@ -17,6 +17,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.StorageAccountType>
+  keywordOnlyArguments:
+  - name: storage_account_type
 methods:
 - uid: azure.batch.models.ManagedDisk.as_dict
   name: as_dict

@@ -25,6 +25,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: additional_properties
 methods:
 - uid: azure.synapse.artifacts.models.DatasetBZip2Compression.as_dict
   name: as_dict

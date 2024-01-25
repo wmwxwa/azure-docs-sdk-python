@@ -50,6 +50,13 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.BatchError>
+  keywordOnlyArguments:
+  - name: status
+  - name: task_id
+  - name: e_tag
+  - name: last_modified
+  - name: location
+  - name: error
 methods:
 - uid: azure.batch.models.TaskAddResult.as_dict
   name: as_dict

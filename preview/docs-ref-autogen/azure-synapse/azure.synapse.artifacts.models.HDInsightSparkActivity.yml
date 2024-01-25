@@ -114,6 +114,22 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:object>]
+  keywordOnlyArguments:
+  - name: name
+  - name: root_path
+  - name: entry_file_path
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: linked_service_name
+  - name: policy
+  - name: arguments
+  - name: get_debug_info
+  - name: spark_job_linked_service
+  - name: class_name
+  - name: proxy_user
+  - name: spark_config
 methods:
 - uid: azure.synapse.artifacts.models.HDInsightSparkActivity.as_dict
   name: as_dict

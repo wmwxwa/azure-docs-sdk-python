@@ -70,6 +70,15 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: connection_string
+  - name: pwd
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.VerticaLinkedService.as_dict
   name: as_dict

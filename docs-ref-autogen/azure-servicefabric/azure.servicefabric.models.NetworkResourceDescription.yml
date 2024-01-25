@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.NetworkResourceProperties>
+  keywordOnlyArguments:
+  - name: name
+  - name: properties
 methods:
 - uid: azure.servicefabric.models.NetworkResourceDescription.as_dict
   name: as_dict

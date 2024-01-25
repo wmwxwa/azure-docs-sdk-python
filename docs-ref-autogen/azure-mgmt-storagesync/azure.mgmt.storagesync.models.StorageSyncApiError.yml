@@ -36,3 +36,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.storagesync.models.StorageSyncInnerErrorDetails>
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: target
+  - name: details
+  - name: inner_error

@@ -49,3 +49,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.sql.models.TargetBackupStorageRedundancy>
+  keywordOnlyArguments:
+  - name: target_subscription_id
+  - name: target_resource_group
+  - name: target_server_resource_id
+  - name: target_server_fully_qualified_domain_name
+  - name: target_database_name
+  - name: target_backup_storage_redundancy

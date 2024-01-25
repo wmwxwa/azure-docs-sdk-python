@@ -47,6 +47,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:datetime>]
+  keywordOnlyArguments:
+  - name: schedule_frequency_type
+  - name: run_times
+  - name: run_days
 methods:
 - uid: azure.servicefabric.models.TimeBasedBackupScheduleDescription.as_dict
   name: as_dict

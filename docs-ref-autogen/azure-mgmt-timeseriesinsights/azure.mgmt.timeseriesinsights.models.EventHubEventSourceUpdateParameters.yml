@@ -55,6 +55,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: tags
+  - name: timestamp_property_name
+  - name: local_timestamp
+  - name: shared_access_key
 variables:
 - description: 'The kind of the event source.Constant filled by server.  Possible
     values include:

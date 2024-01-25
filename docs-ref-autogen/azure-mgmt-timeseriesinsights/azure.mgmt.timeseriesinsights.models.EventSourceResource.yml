@@ -42,6 +42,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.timeseriesinsights.models.EventSourceResourceKind>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
 variables:
 - description: Resource Id.
   name: id

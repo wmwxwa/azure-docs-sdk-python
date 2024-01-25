@@ -22,6 +22,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.sql.models.TransparentDataEncryptionStatus>
+  keywordOnlyArguments:
+  - name: status
 variables:
 - description: Resource ID.
   name: id

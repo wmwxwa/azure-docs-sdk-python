@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: value
 variables:
 - description: The currency for the amount value.
   name: currency

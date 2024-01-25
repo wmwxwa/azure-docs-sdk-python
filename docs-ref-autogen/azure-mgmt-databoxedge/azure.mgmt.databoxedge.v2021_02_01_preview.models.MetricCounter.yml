@@ -34,3 +34,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.databoxedge.v2021_02_01_preview.models.MetricDimension>]
+  keywordOnlyArguments:
+  - name: name
+  - name: instance
+  - name: dimension_filter
+  - name: additional_dimensions

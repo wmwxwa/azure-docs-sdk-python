@@ -25,6 +25,10 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:object>]
+  keywordOnlyArguments:
+  - name: device_content
+  - name: modules_content
+  - name: module_content
 methods:
 - uid: azure.iot.hub.protocol.models.configuration_content_py3.ConfigurationContent.as_dict
   name: as_dict

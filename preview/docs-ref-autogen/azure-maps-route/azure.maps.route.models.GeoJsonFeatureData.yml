@@ -35,6 +35,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: geometry
+  - name: properties
+  - name: feature_type
 methods:
 - uid: azure.maps.route.models.GeoJsonFeatureData.as_dict
   name: as_dict

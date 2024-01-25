@@ -19,7 +19,7 @@ methods:
   name: cancel
   summary: Cancel the operation currently being polled.
   signature: 'async cancel(**kwargs: Any) -> AsyncLROPoller[None]'
-  parameters:
+  keywordOnlyArguments:
   - name: polling_interval
     description: 'The polling interval to use to poll the cancellation status.
 

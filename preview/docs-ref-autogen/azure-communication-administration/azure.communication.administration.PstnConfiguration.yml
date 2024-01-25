@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: callback_url
+  - name: application_id
 methods:
 - uid: azure.communication.administration.PstnConfiguration.as_dict
   name: as_dict

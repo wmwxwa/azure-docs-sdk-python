@@ -36,6 +36,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.loganalytics.models.CapacityReservationLevel>
+  keywordOnlyArguments:
+  - name: name
+  - name: capacity_reservation_level
 variables:
 - description: The last time when the sku was updated.
   name: last_sku_update

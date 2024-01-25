@@ -207,6 +207,24 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.JobNetworkConfiguration>
+  keywordOnlyArguments:
+  - name: id
+  - name: pool_info
+  - name: display_name
+  - name: priority
+  - name: max_parallel_tasks
+    defaultValue: '-1'
+  - name: allow_task_preemption
+  - name: constraints
+  - name: job_manager_task
+  - name: job_preparation_task
+  - name: job_release_task
+  - name: common_environment_settings
+  - name: on_all_tasks_complete
+  - name: on_task_failure
+  - name: metadata
+  - name: uses_task_dependencies
+  - name: network_configuration
 methods:
 - uid: azure.batch.models.JobAddParameter.as_dict
   name: as_dict

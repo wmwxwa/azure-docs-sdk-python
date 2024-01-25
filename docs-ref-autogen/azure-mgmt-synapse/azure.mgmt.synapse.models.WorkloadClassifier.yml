@@ -44,6 +44,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: member_name
+  - name: label
+  - name: context
+  - name: start_time
+  - name: end_time
+  - name: importance
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

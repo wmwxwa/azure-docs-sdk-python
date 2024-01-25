@@ -35,3 +35,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:video_analyzer.models.VideoScaleMode>
+  keywordOnlyArguments:
+  - name: height
+  - name: width
+  - name: mode

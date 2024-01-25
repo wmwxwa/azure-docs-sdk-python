@@ -41,6 +41,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: value
+  - name: name
+  - name: category
+  - name: counter
+  - name: instance_name
+  - name: instance
 methods:
 - uid: azure.applicationinsights.models.events_performance_counter_info_py3.EventsPerformanceCounterInfo.as_dict
   name: as_dict

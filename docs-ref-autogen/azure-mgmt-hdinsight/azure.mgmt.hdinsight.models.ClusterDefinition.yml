@@ -31,3 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:any>
+  keywordOnlyArguments:
+  - name: blueprint
+  - name: kind
+  - name: component_version
+  - name: configurations

@@ -59,6 +59,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: log_analytics_workspace_arm_id
+  - name: enable_customer_analytics
+  - name: log_analytics_workspace_id
+  - name: log_analytics_workspace_shared_key
+  - name: monitor_subnet
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

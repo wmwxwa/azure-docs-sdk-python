@@ -60,3 +60,14 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.databoxedge.v2020_09_01_preview.models.SubscriptionRegisteredFeatures>]
+  keywordOnlyArguments:
+  - name: registration_id
+  - name: id
+  - name: state
+  - name: registration_date
+  - name: subscription_id
+  - name: tenant_id
+  - name: location_placement_id
+  - name: quota_id
+  - name: serialized_details
+  - name: registered_features

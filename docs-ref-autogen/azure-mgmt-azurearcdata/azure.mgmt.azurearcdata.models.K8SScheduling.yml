@@ -25,3 +25,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure_arc_data_management_client.models.K8SSchedulingOptions>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: default

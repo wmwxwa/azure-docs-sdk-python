@@ -70,6 +70,17 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: sku
+  - name: interval
+  - name: conflict_resolution_policy
+  - name: sync_database_id
+  - name: hub_database_user_name
+  - name: hub_database_password
+  - name: schema
+  - name: enable_conflict_logging
+  - name: conflict_logging_retention_in_days
+  - name: use_private_link_connection
 variables:
 - description: Resource ID.
   name: id

@@ -54,6 +54,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.alertsmanagement.models.SuppressionConfig>
+  keywordOnlyArguments:
+  - name: suppression_config
+  - name: scope
+  - name: conditions
+  - name: description
+  - name: status
 variables:
 - description: Creation time of action rule. Date-Time in ISO-8601 format.
   name: created_at

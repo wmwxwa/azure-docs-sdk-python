@@ -26,3 +26,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.hdinsight.models.AzureMonitorTableConfiguration>]
+  keywordOnlyArguments:
+  - name: configuration_version
+  - name: global_configurations
+  - name: table_list

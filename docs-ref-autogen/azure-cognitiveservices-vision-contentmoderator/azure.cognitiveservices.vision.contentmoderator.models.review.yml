@@ -62,6 +62,17 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: review_id
+  - name: sub_team
+  - name: status
+  - name: reviewer_result_tags
+  - name: created_by
+  - name: metadata
+  - name: type
+  - name: content
+  - name: content_id
+  - name: callback_endpoint
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.Review.as_dict
   name: as_dict

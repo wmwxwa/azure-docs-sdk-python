@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.language.textanalytics.models.DocumentStatistics>
+  keywordOnlyArguments:
+  - name: id
+  - name: statistics
 variables:
 - description: 'A list of representative words or phrases. The number
 

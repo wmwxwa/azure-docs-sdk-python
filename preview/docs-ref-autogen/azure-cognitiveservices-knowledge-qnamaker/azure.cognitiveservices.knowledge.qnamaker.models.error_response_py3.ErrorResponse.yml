@@ -16,6 +16,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.knowledge.qnamaker.models.ErrorResponseError>
+  keywordOnlyArguments:
+  - name: error
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.error_response_py3.ErrorResponse.as_dict
   name: as_dict

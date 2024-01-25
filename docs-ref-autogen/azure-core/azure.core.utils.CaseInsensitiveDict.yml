@@ -82,9 +82,9 @@ methods:
 
     In either case, this is followed by: for k, v in F.items(): D[k] = v'
   signature: update([E], **F) -> None.  Update D from mapping/iterable E and F.
-  parameters:
+  positionalOnlyArguments:
   - name: other
-    defaultValue: ()
+    isRequired: true
 - uid: azure.core.utils.CaseInsensitiveDict.values
   name: values
   signature: values() -> an object providing a view on D's values

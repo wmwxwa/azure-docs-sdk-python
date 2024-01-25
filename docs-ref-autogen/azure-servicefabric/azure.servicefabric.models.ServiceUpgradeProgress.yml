@@ -31,6 +31,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: service_name
+  - name: completed_replica_count
+  - name: pending_replica_count
 methods:
 - uid: azure.servicefabric.models.ServiceUpgradeProgress.as_dict
   name: as_dict

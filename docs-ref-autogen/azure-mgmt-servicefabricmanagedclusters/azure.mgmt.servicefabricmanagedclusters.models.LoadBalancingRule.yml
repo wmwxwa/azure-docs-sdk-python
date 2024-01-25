@@ -60,3 +60,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: frontend_port
+  - name: backend_port
+  - name: protocol
+  - name: probe_protocol
+  - name: probe_port
+  - name: probe_request_path

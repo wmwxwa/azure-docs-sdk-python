@@ -13,6 +13,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: is_hive_enabled
 methods:
 - uid: azure.synapse.models.Config.as_dict
   name: as_dict

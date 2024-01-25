@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.PropertyMetadata>
+  keywordOnlyArguments:
+  - name: name
+  - name: metadata
+  - name: value
 methods:
 - uid: azure.servicefabric.models.PropertyInfo.as_dict
   name: as_dict

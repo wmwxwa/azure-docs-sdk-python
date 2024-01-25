@@ -42,6 +42,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure_arc_data_management_client.models.SqlManagedInstanceSku>
+  keywordOnlyArguments:
+  - name: location
+  - name: properties
+  - name: tags
+  - name: extended_location
+  - name: sku
 variables:
 - description: 'Fully qualified resource Id for the resource. Ex -
 

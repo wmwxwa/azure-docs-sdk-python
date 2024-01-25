@@ -31,3 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: friendly_name
+  - name: display_name
+  - name: is_default
+  - name: component_versions

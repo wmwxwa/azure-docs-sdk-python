@@ -124,6 +124,25 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: partition_id
+  - name: node_name
+  - name: node_instance_id
+  - name: service_type
+  - name: cc_epoch_data_loss_version
+  - name: cc_epoch_config_version
+  - name: reconfig_type
+  - name: result
+  - name: phase0_duration_ms
+  - name: phase1_duration_ms
+  - name: phase2_duration_ms
+  - name: phase3_duration_ms
+  - name: phase4_duration_ms
+  - name: total_duration_ms
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.PartitionReconfiguredEvent.as_dict
   name: as_dict

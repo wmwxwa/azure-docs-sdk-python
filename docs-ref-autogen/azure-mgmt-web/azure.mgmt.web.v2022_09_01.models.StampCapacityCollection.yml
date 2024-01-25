@@ -15,7 +15,7 @@ summary: 'Collection of stamp capacities.
 constructor:
   syntax: 'StampCapacityCollection(*, value: List[_models.StampCapacity], **kwargs:
     Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: Collection of resources. Required.
     types:

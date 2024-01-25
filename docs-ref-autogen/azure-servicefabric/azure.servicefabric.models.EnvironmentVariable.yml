@@ -32,6 +32,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: type
+    defaultValue: ClearText
+  - name: name
+  - name: value
 methods:
 - uid: azure.servicefabric.models.EnvironmentVariable.as_dict
   name: as_dict

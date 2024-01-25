@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.billing.models.OperationDisplay>
+  keywordOnlyArguments:
+  - name: display
 variables:
 - description: 'Operation name: {provider}/{resource}/{operation}.'
   name: name

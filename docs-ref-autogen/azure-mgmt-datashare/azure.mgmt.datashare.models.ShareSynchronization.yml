@@ -61,6 +61,16 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: consumer_email
+  - name: consumer_name
+  - name: consumer_tenant_name
+  - name: duration_ms
+  - name: end_time
+  - name: message
+  - name: start_time
+  - name: status
+  - name: synchronization_id
 variables:
 - description: 'Synchronization mode. Possible values include: "Incremental",
 

@@ -39,6 +39,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.automation.models.SoftwareUpdateConfigurationTasks>
+  keywordOnlyArguments:
+  - name: update_configuration
+  - name: schedule_info
+  - name: error
+  - name: tasks
 variables:
 - description: Resource name.
   name: name

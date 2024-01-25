@@ -37,6 +37,11 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.scheduler.models.JobState>
+  keywordOnlyArguments:
+  - name: start_time
+  - name: action
+  - name: recurrence
+  - name: state
 variables:
 - description: Gets the job status.
   name: status

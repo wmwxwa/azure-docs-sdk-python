@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.synapse.models.MaintenanceWindowTimeRange>]
+  keywordOnlyArguments:
+  - name: time_ranges
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

@@ -52,6 +52,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.ChildEntity>]
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: instance_of
+  - name: type_id
+  - name: readable_type
+  - name: children
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.ChildEntity.as_dict
   name: as_dict

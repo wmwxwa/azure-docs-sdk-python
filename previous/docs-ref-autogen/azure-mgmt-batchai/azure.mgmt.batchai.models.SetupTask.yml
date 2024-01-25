@@ -49,6 +49,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: command_line
+  - name: std_out_err_path_prefix
+  - name: environment_variables
+  - name: secrets
 variables:
 - description: 'A path segment appended by Batch AI to stdOutErrPathPrefix to
 

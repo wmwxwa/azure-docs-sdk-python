@@ -40,6 +40,12 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: active_key_name
+  - name: auto_regenerate_key
+  - name: regeneration_period
+  - name: storage_account_attributes
+  - name: tags
 methods:
 - uid: azure.keyvault.v2016_10_01.models.storage_account_update_parameters_py3.StorageAccountUpdateParameters.as_dict
   name: as_dict

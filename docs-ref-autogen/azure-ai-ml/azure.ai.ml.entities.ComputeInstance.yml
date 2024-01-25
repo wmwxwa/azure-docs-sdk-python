@@ -113,6 +113,23 @@ constructor:
     isRequired: true
     types:
     - <xref:typing.Optional>[<xref:typing.List>[<xref:azure.ai.ml.entities.CustomApplications>]]
+  keywordOnlyArguments:
+  - name: name
+  - name: description
+  - name: size
+  - name: tags
+  - name: ssh_public_access_enabled
+  - name: create_on_behalf_of
+  - name: network_settings
+  - name: ssh_settings
+  - name: schedules
+  - name: identity
+  - name: idle_time_before_shutdown
+  - name: idle_time_before_shutdown_minutes
+  - name: setup_scripts
+  - name: enable_node_public_ip
+    defaultValue: 'True'
+  - name: custom_applications
 variables:
 - description: State of the resource.
   name: state

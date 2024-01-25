@@ -74,6 +74,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ApplicationLoadMetricInformation>]
+  keywordOnlyArguments:
+  - name: id
+  - name: minimum_nodes
+  - name: maximum_nodes
+  - name: node_count
+  - name: application_load_metric_information
 methods:
 - uid: azure.servicefabric.models.ApplicationLoadInfo.as_dict
   name: as_dict

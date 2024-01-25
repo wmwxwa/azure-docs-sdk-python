@@ -46,6 +46,11 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: metric
+  - name: lower_load_threshold
+  - name: upper_load_threshold
+  - name: scale_interval_in_seconds
 methods:
 - uid: azure.servicefabric.models.AverageLoadScalingTrigger.as_dict
   name: as_dict

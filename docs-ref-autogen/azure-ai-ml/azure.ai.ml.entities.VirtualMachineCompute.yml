@@ -36,6 +36,12 @@ constructor:
     isRequired: true
     types:
     - <xref:typing.Optional>[<xref:azure.ai.ml.entities.VirtualMachineSshSettings>]
+  keywordOnlyArguments:
+  - name: name
+  - name: description
+  - name: resource_id
+  - name: tags
+  - name: ssh_settings
 examples:
 - "Configuring a VirtualMachineCompute object.<!--[!code-python[Main](les\\ml_samples_compute.py\
   \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\

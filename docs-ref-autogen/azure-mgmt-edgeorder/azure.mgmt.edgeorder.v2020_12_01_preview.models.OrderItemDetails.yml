@@ -40,6 +40,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: product_details
+  - name: order_item_type
+  - name: preferences
+  - name: notification_email_list
 variables:
 - description: Current Order item Status.
   name: current_stage

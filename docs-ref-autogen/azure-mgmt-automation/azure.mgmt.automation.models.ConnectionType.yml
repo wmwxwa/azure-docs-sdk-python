@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: is_global
+  - name: last_modified_time
+  - name: description
 variables:
 - description: Gets the id of the resource.
   name: id

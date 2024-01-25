@@ -147,3 +147,21 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: alg
+  - name: kid
+  - name: kty
+  - name: use
+  - name: crv
+  - name: d
+  - name: dp
+  - name: dq
+  - name: e
+  - name: k
+  - name: n
+  - name: p
+  - name: q
+  - name: qi
+  - name: x
+  - name: x5_c
+  - name: y

@@ -17,3 +17,5 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.scheduler.models.JobState>
+  keywordOnlyArguments:
+  - name: state

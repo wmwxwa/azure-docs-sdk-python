@@ -46,6 +46,13 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: name
+  - name: protocol
+  - name: public_ip_address
+  - name: public_fqdn
+  - name: frontend_port
+  - name: backend_port
 methods:
 - uid: azure.batch.models.InboundEndpoint.as_dict
   name: as_dict

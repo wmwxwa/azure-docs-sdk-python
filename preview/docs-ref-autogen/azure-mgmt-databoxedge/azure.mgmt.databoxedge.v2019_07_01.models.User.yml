@@ -14,7 +14,7 @@ constructor:
   syntax: 'User(*, encrypted_password: _models.AsymmetricEncryptedSecret | None =
     None, share_access_rights: List[_models.ShareAccessRight] | None = None, **kwargs:
     Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: encrypted_password
     description: The password details.
     types:

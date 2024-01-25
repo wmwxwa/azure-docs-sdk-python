@@ -33,6 +33,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.batch.models.NameValuePair>]
+  keywordOnlyArguments:
+  - name: category
+  - name: code
+  - name: message
+  - name: details
 methods:
 - uid: azure.batch.models.JobSchedulingError.as_dict
   name: as_dict

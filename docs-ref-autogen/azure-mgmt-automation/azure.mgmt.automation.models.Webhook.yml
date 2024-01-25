@@ -76,6 +76,18 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: is_enabled
+  - name: uri
+  - name: expiry_time
+  - name: last_invoked_time
+  - name: parameters
+  - name: runbook
+  - name: run_on
+  - name: creation_time
+  - name: last_modified_time
+  - name: last_modified_by
+  - name: description
 variables:
 - description: Fully qualified resource Id for the resource.
   name: id

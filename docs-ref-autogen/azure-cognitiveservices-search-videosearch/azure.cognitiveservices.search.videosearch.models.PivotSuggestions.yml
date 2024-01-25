@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.search.videosearch.models.Query>]
+  keywordOnlyArguments:
+  - name: pivot
+  - name: suggestions
 methods:
 - uid: azure.cognitiveservices.search.videosearch.models.PivotSuggestions.as_dict
   name: as_dict

@@ -32,3 +32,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datamigration.models.PostgreSqlConnectionInfo>
+  keywordOnlyArguments:
+  - name: selected_databases
+  - name: target_connection_info
+  - name: source_connection_info

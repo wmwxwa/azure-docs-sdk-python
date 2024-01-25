@@ -37,6 +37,11 @@ constructor:
     types:
     - <xref:list>[<xref:str>
     - <xref:azure.mgmt.databoxedge.v2020_09_01.models.DayOfWeek>]
+  keywordOnlyArguments:
+  - name: start
+  - name: stop
+  - name: rate_in_mbps
+  - name: days
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

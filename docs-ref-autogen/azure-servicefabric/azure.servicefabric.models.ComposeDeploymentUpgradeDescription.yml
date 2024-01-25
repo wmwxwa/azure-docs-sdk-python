@@ -98,6 +98,18 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.ApplicationHealthPolicy>
+  keywordOnlyArguments:
+  - name: deployment_name
+  - name: compose_file_content
+  - name: registry_credential
+  - name: upgrade_kind
+    defaultValue: Rolling
+  - name: rolling_upgrade_mode
+    defaultValue: UnmonitoredAuto
+  - name: upgrade_replica_set_check_timeout_in_seconds
+  - name: force_restart
+  - name: monitoring_policy
+  - name: application_health_policy
 methods:
 - uid: azure.servicefabric.models.ComposeDeploymentUpgradeDescription.as_dict
   name: as_dict

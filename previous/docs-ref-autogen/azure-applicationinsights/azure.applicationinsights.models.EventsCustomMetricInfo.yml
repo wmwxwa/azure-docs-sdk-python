@@ -46,6 +46,14 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: name
+  - name: value
+  - name: value_sum
+  - name: value_count
+  - name: value_min
+  - name: value_max
+  - name: value_std_dev
 methods:
 - uid: azure.applicationinsights.models.EventsCustomMetricInfo.as_dict
   name: as_dict

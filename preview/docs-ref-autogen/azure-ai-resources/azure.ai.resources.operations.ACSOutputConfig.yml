@@ -30,3 +30,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: acs_index_name
+  - name: acs_connection_id

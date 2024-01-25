@@ -88,6 +88,14 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.DeployedStatelessServiceInstanceInfo>
+  keywordOnlyArguments:
+  - name: service_name
+  - name: partition_id
+  - name: current_service_operation
+  - name: current_service_operation_start_time_utc
+  - name: reported_load
+  - name: instance_id
+  - name: deployed_service_replica_query_result
 methods:
 - uid: azure.servicefabric.models.DeployedStatelessServiceInstanceDetailInfo.as_dict
   name: as_dict

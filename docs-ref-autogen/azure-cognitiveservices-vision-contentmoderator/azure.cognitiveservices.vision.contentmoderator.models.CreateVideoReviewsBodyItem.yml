@@ -58,6 +58,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: content
+  - name: content_id
+  - name: status
+  - name: video_frames
+  - name: metadata
+  - name: timescale
+  - name: callback_endpoint
 variables:
 - description: 'Required. Type of the content. Default value: "Video" .'
   name: type

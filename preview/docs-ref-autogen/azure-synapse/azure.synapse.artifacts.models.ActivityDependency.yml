@@ -32,6 +32,10 @@ constructor:
     types:
     - <xref:list>[<xref:str>
     - <xref:azure.synapse.artifacts.models.DependencyCondition>]
+  keywordOnlyArguments:
+  - name: activity
+  - name: dependency_conditions
+  - name: additional_properties
 methods:
 - uid: azure.synapse.artifacts.models.ActivityDependency.as_dict
   name: as_dict

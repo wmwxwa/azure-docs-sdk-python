@@ -43,3 +43,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: status
+  - name: time_in_minutes
+  - name: webhook_url
+  - name: email_recipient
+  - name: notification_locale

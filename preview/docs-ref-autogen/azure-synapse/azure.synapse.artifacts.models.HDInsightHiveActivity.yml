@@ -106,6 +106,22 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: name
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: linked_service_name
+  - name: policy
+  - name: storage_linked_services
+  - name: arguments
+  - name: get_debug_info
+  - name: script_path
+  - name: script_linked_service
+  - name: defines
+  - name: variables
+  - name: query_timeout
 methods:
 - uid: azure.synapse.artifacts.models.HDInsightHiveActivity.as_dict
   name: as_dict

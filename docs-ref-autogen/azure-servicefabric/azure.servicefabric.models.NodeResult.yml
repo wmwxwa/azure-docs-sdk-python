@@ -21,6 +21,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: node_name
+  - name: node_instance_id
 methods:
 - uid: azure.servicefabric.models.NodeResult.as_dict
   name: as_dict

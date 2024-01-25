@@ -22,3 +22,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: type
+  - name: identity_ids

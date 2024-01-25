@@ -70,6 +70,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: application_id
+  - name: application_type_name
+  - name: application_type_version
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.ApplicationDeletedEvent.as_dict
   name: as_dict

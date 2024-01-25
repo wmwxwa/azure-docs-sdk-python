@@ -19,6 +19,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:bare_metal_infrastructure_client.models.Disk>]
+  keywordOnlyArguments:
+  - name: os_disks
 variables:
 - description: IP Address to connect to storage.
   name: nfs_ip_address

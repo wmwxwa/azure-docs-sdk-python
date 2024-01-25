@@ -38,3 +38,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: is_admin
+  - name: thumbprint
+  - name: common_name
+  - name: issuer_thumbprint

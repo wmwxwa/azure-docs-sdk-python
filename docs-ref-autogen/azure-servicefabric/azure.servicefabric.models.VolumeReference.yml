@@ -32,6 +32,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: destination_path
+  - name: read_only
 methods:
 - uid: azure.servicefabric.models.VolumeReference.as_dict
   name: as_dict

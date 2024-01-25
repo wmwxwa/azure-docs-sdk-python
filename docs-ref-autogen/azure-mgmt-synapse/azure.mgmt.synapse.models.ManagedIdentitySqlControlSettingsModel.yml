@@ -19,6 +19,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.synapse.models.ManagedIdentitySqlControlSettingsModelPropertiesGrantSqlControlToManagedIdentity>
+  keywordOnlyArguments:
+  - name: grant_sql_control_to_managed_identity
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

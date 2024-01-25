@@ -122,6 +122,10 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: service_manifest_name_filter
+  - name: service_package_activation_id_filter
+  - name: health_state_filter
 methods:
 - uid: azure.servicefabric.models.DeployedServicePackageHealthStateFilter.as_dict
   name: as_dict

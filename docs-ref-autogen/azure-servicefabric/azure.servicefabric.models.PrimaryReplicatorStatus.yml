@@ -34,6 +34,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.RemoteReplicatorStatus>]
+  keywordOnlyArguments:
+  - name: replication_queue_status
+  - name: remote_replicators
 methods:
 - uid: azure.servicefabric.models.PrimaryReplicatorStatus.as_dict
   name: as_dict

@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: type
 methods:
 - uid: azure.loganalytics.models.column_py3.Column.as_dict
   name: as_dict

@@ -29,6 +29,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: encryption_key_thumbprint
+  - name: encryption_key
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

@@ -36,3 +36,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: managed_instance_resource_id
+  - name: user_name
+  - name: password

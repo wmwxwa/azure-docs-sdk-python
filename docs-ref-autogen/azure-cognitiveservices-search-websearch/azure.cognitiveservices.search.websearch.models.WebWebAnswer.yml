@@ -27,6 +27,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.search.websearch.models.WebPage>]
+  keywordOnlyArguments:
+  - name: value
 variables:
 - description: A String identifier.
   name: id

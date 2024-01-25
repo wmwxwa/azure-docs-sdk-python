@@ -25,6 +25,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: step_group
 variables:
 - description: Current state of the step.
   name: status

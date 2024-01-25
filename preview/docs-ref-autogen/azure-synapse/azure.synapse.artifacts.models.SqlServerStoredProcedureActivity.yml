@@ -73,6 +73,16 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:azure.synapse.artifacts.models.StoredProcedureParameter>]
+  keywordOnlyArguments:
+  - name: name
+  - name: stored_procedure_name
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: linked_service_name
+  - name: policy
+  - name: stored_procedure_parameters
 methods:
 - uid: azure.synapse.artifacts.models.SqlServerStoredProcedureActivity.as_dict
   name: as_dict

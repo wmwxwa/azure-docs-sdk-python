@@ -94,3 +94,19 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: type
+  - name: subscription_id
+  - name: meter_id
+  - name: usage_start_time
+  - name: usage_end_time
+  - name: quantity
+  - name: unit
+  - name: meter_name
+  - name: meter_category
+  - name: meter_sub_category
+  - name: meter_region
+  - name: info_fields
+  - name: instance_data

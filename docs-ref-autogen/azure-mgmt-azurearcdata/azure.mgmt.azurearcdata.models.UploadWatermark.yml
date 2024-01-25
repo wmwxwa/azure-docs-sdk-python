@@ -34,3 +34,7 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
+  keywordOnlyArguments:
+  - name: metrics
+  - name: logs
+  - name: usages

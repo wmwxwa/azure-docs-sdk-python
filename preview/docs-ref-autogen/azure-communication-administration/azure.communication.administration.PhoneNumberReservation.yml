@@ -83,6 +83,19 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: reservation_id
+  - name: display_name
+  - name: created_at
+  - name: description
+  - name: phone_plan_ids
+  - name: area_code
+  - name: quantity
+  - name: location_options
+  - name: status
+  - name: phone_numbers
+  - name: reservation_expiry_date
+  - name: error_code
 methods:
 - uid: azure.communication.administration.PhoneNumberReservation.as_dict
   name: as_dict

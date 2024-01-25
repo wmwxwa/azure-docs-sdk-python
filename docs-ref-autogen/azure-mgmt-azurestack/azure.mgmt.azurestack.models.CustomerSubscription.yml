@@ -24,6 +24,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: etag
+  - name: tenant_id
 variables:
 - description: ID of the resource.
   name: id

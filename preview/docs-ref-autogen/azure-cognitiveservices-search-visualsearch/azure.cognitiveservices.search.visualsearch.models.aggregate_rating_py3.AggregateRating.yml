@@ -29,6 +29,8 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: rating_value
 variables:
 - description: Text representation of an item.
   name: text

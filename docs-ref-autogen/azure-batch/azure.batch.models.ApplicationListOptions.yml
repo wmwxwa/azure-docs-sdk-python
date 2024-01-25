@@ -49,6 +49,14 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime>
+  keywordOnlyArguments:
+  - name: max_results
+    defaultValue: '1000'
+  - name: timeout
+    defaultValue: '30'
+  - name: client_request_id
+  - name: return_client_request_id
+  - name: ocp_date
 methods:
 - uid: azure.batch.models.ApplicationListOptions.as_dict
   name: as_dict

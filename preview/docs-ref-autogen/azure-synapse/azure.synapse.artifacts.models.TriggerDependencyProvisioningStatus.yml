@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: trigger_name
+  - name: provisioning_status
 methods:
 - uid: azure.synapse.artifacts.models.TriggerDependencyProvisioningStatus.as_dict
   name: as_dict

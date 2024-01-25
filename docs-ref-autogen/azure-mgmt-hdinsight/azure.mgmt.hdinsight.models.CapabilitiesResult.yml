@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: versions
+  - name: regions
+  - name: features
 variables:
 - description: The quota capability.
   name: quota

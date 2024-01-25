@@ -79,6 +79,12 @@ constructor:
     types:
     - <xref:list>[<xref:str>
     - <xref:azure.batch.models.CertificateVisibility>]
+  keywordOnlyArguments:
+  - name: thumbprint
+  - name: thumbprint_algorithm
+  - name: store_location
+  - name: store_name
+  - name: visibility
 methods:
 - uid: azure.batch.models.CertificateReference.as_dict
   name: as_dict

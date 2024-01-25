@@ -43,3 +43,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: source_connection_info
+  - name: target_platform
+  - name: check_permissions_group
+  - name: is_offline_migration

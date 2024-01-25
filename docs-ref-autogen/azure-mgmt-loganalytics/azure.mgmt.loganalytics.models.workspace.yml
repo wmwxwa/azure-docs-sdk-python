@@ -90,6 +90,20 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.loganalytics.models.WorkspaceFeatures>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: e_tag
+  - name: provisioning_state
+  - name: sku
+  - name: retention_in_days
+  - name: workspace_capping
+  - name: public_network_access_for_ingestion
+    defaultValue: Enabled
+  - name: public_network_access_for_query
+    defaultValue: Enabled
+  - name: force_cmk_for_query
+  - name: features
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

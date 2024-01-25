@@ -52,6 +52,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: aggregated_health_state
+  - name: health_events
+  - name: unhealthy_evaluations
+  - name: health_statistics
+  - name: name
 methods:
 - uid: azure.servicefabric.models.NodeHealth.as_dict
   name: as_dict

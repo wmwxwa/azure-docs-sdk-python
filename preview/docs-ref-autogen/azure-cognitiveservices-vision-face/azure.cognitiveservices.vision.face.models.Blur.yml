@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: blur_level
+  - name: value
 methods:
 - uid: azure.cognitiveservices.vision.face.models.Blur.as_dict
   name: as_dict

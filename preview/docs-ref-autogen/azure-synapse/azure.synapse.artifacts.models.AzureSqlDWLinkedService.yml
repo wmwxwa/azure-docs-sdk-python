@@ -94,6 +94,18 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: connection_string
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: password
+  - name: service_principal_id
+  - name: service_principal_key
+  - name: tenant
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.AzureSqlDWLinkedService.as_dict
   name: as_dict

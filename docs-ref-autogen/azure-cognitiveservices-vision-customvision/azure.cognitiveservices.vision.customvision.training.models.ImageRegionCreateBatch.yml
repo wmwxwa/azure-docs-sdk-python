@@ -13,6 +13,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.customvision.training.models.ImageRegionCreateEntry>]
+  keywordOnlyArguments:
+  - name: regions
 methods:
 - uid: azure.cognitiveservices.vision.customvision.training.models.ImageRegionCreateBatch.as_dict
   name: as_dict

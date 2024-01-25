@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: value
+  - name: source
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

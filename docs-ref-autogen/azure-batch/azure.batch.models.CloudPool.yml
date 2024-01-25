@@ -364,6 +364,45 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: id
+  - name: display_name
+  - name: url
+  - name: e_tag
+  - name: last_modified
+  - name: creation_time
+  - name: state
+  - name: state_transition_time
+  - name: allocation_state
+  - name: allocation_state_transition_time
+  - name: vm_size
+  - name: cloud_service_configuration
+  - name: virtual_machine_configuration
+  - name: resize_timeout
+  - name: resize_errors
+  - name: current_dedicated_nodes
+  - name: current_low_priority_nodes
+  - name: target_dedicated_nodes
+  - name: target_low_priority_nodes
+  - name: enable_auto_scale
+  - name: auto_scale_formula
+  - name: auto_scale_evaluation_interval
+  - name: auto_scale_run
+  - name: enable_inter_node_communication
+  - name: network_configuration
+  - name: start_task
+  - name: certificate_references
+  - name: application_package_references
+  - name: application_licenses
+  - name: task_slots_per_node
+  - name: task_scheduling_policy
+  - name: user_accounts
+  - name: metadata
+  - name: stats
+  - name: mount_configuration
+  - name: identity
+  - name: target_node_communication_mode
+  - name: resource_tags
 variables:
 - description: 'The current state of the pool
 

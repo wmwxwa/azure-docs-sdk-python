@@ -28,6 +28,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: target
 variables:
 - description: The list of error details.
   name: details

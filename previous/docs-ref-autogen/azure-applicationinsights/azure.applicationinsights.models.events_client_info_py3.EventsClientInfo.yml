@@ -51,6 +51,15 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: model
+  - name: os
+  - name: type
+  - name: browser
+  - name: ip
+  - name: city
+  - name: state_or_province
+  - name: country_or_region
 methods:
 - uid: azure.applicationinsights.models.events_client_info_py3.EventsClientInfo.as_dict
   name: as_dict

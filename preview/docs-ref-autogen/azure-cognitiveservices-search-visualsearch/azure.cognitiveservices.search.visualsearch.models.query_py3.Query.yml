@@ -24,6 +24,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: text
 variables:
 - description: The display version of the query term.
   name: display_text

@@ -19,3 +19,5 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.ai.resources.constants.IndexInputType>
+  keywordOnlyArguments:
+  - name: input_type

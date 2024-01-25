@@ -12,3 +12,13 @@ constructor:
     | None = None, number_of_epochs: int | None = None, training_batch_size: int |
     None = None, validation_batch_size: int | None = None, warmup_ratio: float | None
     = None, weight_decay: float | None = None)'
+  keywordOnlyArguments:
+  - name: gradient_accumulation_steps
+  - name: learning_rate
+  - name: learning_rate_scheduler
+  - name: model_name
+  - name: number_of_epochs
+  - name: training_batch_size
+  - name: validation_batch_size
+  - name: warmup_ratio
+  - name: weight_decay

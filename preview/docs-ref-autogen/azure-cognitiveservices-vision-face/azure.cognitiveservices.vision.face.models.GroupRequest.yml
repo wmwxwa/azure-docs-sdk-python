@@ -19,6 +19,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: face_ids
 methods:
 - uid: azure.cognitiveservices.vision.face.models.GroupRequest.as_dict
   name: as_dict

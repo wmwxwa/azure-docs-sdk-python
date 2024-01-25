@@ -30,6 +30,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.PrebuiltDomainObject>
+  keywordOnlyArguments:
+  - name: name
+  - name: children
+  - name: features
+  - name: roles
+  - name: inherits
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.HierarchicalModel.as_dict
   name: as_dict

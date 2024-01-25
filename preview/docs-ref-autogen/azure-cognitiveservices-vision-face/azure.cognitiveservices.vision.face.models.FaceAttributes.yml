@@ -109,6 +109,23 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.cognitiveservices.vision.face.models.QualityForRecognition>
+  keywordOnlyArguments:
+  - name: age
+  - name: gender
+  - name: smile
+  - name: facial_hair
+  - name: glasses
+  - name: head_pose
+  - name: emotion
+  - name: hair
+  - name: makeup
+  - name: occlusion
+  - name: accessories
+  - name: blur
+  - name: exposure
+  - name: noise
+  - name: mask
+  - name: quality_for_recognition
 methods:
 - uid: azure.cognitiveservices.vision.face.models.FaceAttributes.as_dict
   name: as_dict

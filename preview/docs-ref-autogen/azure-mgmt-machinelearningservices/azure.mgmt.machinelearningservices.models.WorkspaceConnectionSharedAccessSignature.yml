@@ -9,7 +9,7 @@ summary: WorkspaceConnectionSharedAccessSignature.
 constructor:
   syntax: 'WorkspaceConnectionSharedAccessSignature(*, sas: str | None = None, **kwargs:
     Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: sas
     types:
     - <xref:str>

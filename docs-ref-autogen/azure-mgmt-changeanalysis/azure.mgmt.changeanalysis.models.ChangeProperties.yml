@@ -42,3 +42,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:Microsoft.ChangeAnalysis.models.PropertyChange>]
+  keywordOnlyArguments:
+  - name: resource_id
+  - name: time_stamp
+  - name: initiated_by_list
+  - name: change_type
+  - name: property_changes

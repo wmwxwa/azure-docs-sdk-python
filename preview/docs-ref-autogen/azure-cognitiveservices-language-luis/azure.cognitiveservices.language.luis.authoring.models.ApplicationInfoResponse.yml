@@ -71,6 +71,18 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: description
+  - name: culture
+  - name: usage_scenario
+  - name: domain
+  - name: versions_count
+  - name: created_date_time
+  - name: endpoints
+  - name: endpoint_hits_count
+  - name: active_version
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.ApplicationInfoResponse.as_dict
   name: as_dict

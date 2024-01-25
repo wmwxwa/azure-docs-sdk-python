@@ -32,6 +32,10 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: server_key_name
+  - name: server_key_type
+  - name: auto_rotation_enabled
 variables:
 - description: Resource ID.
   name: id

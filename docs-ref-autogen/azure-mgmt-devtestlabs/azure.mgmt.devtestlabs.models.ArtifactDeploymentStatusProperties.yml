@@ -25,3 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: deployment_status
+  - name: artifacts_applied
+  - name: total_artifacts

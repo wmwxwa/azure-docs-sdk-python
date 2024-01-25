@@ -14,6 +14,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: version
 methods:
 - uid: azure.applicationinsights.models.events_application_info_py3.EventsApplicationInfo.as_dict
   name: as_dict

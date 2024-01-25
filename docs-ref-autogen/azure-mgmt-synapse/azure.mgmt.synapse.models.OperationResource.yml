@@ -56,3 +56,12 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: status
+  - name: properties
+  - name: error
+  - name: start_time
+  - name: end_time
+  - name: percent_complete

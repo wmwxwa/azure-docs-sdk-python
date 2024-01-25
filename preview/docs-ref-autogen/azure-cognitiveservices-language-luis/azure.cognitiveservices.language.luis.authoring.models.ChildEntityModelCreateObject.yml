@@ -25,6 +25,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: children
+  - name: name
+  - name: instance_of
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.ChildEntityModelCreateObject.as_dict
   name: as_dict

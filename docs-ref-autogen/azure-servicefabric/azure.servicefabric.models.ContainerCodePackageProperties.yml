@@ -122,6 +122,23 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.Probe>]
+  keywordOnlyArguments:
+  - name: name
+  - name: image
+  - name: resources
+  - name: image_registry_credential
+  - name: entry_point
+  - name: commands
+  - name: environment_variables
+  - name: settings
+  - name: labels
+  - name: endpoints
+  - name: volume_refs
+  - name: volumes
+  - name: diagnostics
+  - name: reliable_collections_refs
+  - name: liveness_probe
+  - name: readiness_probe
 variables:
 - description: Runtime information of a container instance.
   name: instance_view

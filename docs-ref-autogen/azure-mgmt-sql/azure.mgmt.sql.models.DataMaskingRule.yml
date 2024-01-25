@@ -99,6 +99,18 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: alias_name
+  - name: rule_state
+  - name: schema_name
+  - name: table_name
+  - name: column_name
+  - name: masking_function
+  - name: number_from
+  - name: number_to
+  - name: prefix_size
+  - name: suffix_size
+  - name: replacement_string
 variables:
 - description: Resource ID.
   name: id

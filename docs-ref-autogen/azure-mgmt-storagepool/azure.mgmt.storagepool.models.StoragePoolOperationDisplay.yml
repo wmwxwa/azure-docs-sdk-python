@@ -42,3 +42,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: provider
+  - name: resource
+  - name: operation
+  - name: description

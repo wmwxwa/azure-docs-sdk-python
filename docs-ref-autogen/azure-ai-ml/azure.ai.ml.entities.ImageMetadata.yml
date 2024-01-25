@@ -26,6 +26,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: is_latest_os_image_version
+  - name: current_image_version
+  - name: latest_image_version
 examples:
 - "Creating a ImageMetadata object.<!--[!code-python[Main](les\\ml_samples_compute.py\
   \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\

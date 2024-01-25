@@ -31,6 +31,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.AutoScalingMechanism>
+  keywordOnlyArguments:
+  - name: name
+  - name: trigger
+  - name: mechanism
 methods:
 - uid: azure.servicefabric.models.AutoScalingPolicy.as_dict
   name: as_dict

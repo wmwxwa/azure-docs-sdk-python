@@ -51,6 +51,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: target
+  - name: type
+  - name: credentials
 methods:
 - uid: azure.ai.resources.entities.BaseConnection.set_current_environment
   name: set_current_environment

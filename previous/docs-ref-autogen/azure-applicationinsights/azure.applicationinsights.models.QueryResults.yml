@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.applicationinsights.models.Table>]
+  keywordOnlyArguments:
+  - name: tables
 methods:
 - uid: azure.applicationinsights.models.QueryResults.as_dict
   name: as_dict

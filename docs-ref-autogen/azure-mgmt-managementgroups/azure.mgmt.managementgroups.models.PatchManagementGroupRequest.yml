@@ -22,3 +22,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: display_name
+  - name: parent_group_id

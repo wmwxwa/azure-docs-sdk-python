@@ -47,6 +47,13 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: name
+  - name: private_link_resource_id
+  - name: group_id
+  - name: connection_state
+  - name: fqdns
+  - name: is_compliant
 variables:
 - description: The managed private endpoint provisioning state.
   name: provisioning_state

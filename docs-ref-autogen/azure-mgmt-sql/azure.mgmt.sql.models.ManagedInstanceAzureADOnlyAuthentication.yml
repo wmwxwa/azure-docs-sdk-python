@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: azure_ad_only_authentication
 variables:
 - description: Resource ID.
   name: id

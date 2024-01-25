@@ -9,7 +9,7 @@ summary: Connector Availability Status.
 constructor:
   syntax: 'Availability(*, status: Literal[1] | None = None, is_preview: bool | None
     = None, **kwargs)'
-  parameters:
+  keywordOnlyArguments:
   - name: status
     description: The connector Availability Status. Default value is 1.
     types:

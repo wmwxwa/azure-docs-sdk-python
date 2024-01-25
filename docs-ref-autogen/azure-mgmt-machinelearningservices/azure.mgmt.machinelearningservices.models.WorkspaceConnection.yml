@@ -33,6 +33,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: category
+  - name: target
+  - name: auth_type
+  - name: value
 variables:
 - description: ResourceId of the workspace connection.
   name: id

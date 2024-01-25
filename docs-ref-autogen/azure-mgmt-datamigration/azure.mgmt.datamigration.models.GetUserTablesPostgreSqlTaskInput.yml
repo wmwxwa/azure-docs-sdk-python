@@ -24,3 +24,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: connection_info
+  - name: selected_databases

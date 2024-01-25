@@ -89,6 +89,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: node_name_filter
+  - name: health_state_filter
 methods:
 - uid: azure.servicefabric.models.NodeHealthStateFilter.as_dict
   name: as_dict

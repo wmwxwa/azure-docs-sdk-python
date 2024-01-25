@@ -26,6 +26,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: node_names
 methods:
 - uid: azure.servicefabric.models.NodeRepairTargetDescription.as_dict
   name: as_dict

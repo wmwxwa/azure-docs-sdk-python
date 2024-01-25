@@ -145,6 +145,28 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: name
+  - name: version
+  - name: description
+  - name: tags
+  - name: display_name
+  - name: retry_settings
+  - name: logging_level
+  - name: max_concurrency_per_instance
+  - name: error_threshold
+  - name: mini_batch_error_threshold
+  - name: task
+  - name: mini_batch_size
+  - name: partition_keys
+  - name: input_data
+  - name: resources
+  - name: inputs
+  - name: outputs
+  - name: code
+  - name: instance_count
+  - name: is_deterministic
+    defaultValue: 'True'
 methods:
 - uid: azure.ai.ml.entities.ParallelComponent.dump
   name: dump

@@ -22,6 +22,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.SafetyCheck>
+  keywordOnlyArguments:
+  - name: safety_check
 methods:
 - uid: azure.servicefabric.models.SafetyCheckWrapper.as_dict
   name: as_dict

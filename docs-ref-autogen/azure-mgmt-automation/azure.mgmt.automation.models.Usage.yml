@@ -41,3 +41,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: unit
+  - name: current_value
+  - name: limit
+  - name: throttle_status

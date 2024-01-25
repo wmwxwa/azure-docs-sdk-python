@@ -28,3 +28,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.devtestlabs.models.UsagePermissionType>
+  keywordOnlyArguments:
+  - name: resource_id
+  - name: lab_subnet_name
+  - name: allow_public_ip

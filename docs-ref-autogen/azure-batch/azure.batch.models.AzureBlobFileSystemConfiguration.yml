@@ -63,6 +63,14 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.ComputeNodeIdentityReference>
+  keywordOnlyArguments:
+  - name: account_name
+  - name: container_name
+  - name: relative_mount_path
+  - name: account_key
+  - name: sas_key
+  - name: blobfuse_options
+  - name: identity_reference
 methods:
 - uid: azure.batch.models.AzureBlobFileSystemConfiguration.as_dict
   name: as_dict

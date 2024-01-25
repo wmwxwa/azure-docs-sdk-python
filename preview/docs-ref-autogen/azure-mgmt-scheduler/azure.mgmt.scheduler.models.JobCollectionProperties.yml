@@ -28,3 +28,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.scheduler.models.JobCollectionQuota>
+  keywordOnlyArguments:
+  - name: sku
+  - name: state
+  - name: quota

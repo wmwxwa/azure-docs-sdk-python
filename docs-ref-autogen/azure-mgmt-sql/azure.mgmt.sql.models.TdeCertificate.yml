@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: private_blob
+  - name: cert_password
 variables:
 - description: Resource ID.
   name: id

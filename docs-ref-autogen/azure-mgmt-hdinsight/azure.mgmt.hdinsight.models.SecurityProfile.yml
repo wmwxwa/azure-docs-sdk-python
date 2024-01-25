@@ -63,3 +63,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: directory_type
+  - name: domain
+  - name: organizational_unit_dn
+  - name: ldaps_urls
+  - name: domain_username
+  - name: domain_user_password
+  - name: cluster_users_group_d_ns
+  - name: aadds_resource_id
+  - name: msi_resource_id

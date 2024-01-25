@@ -21,3 +21,6 @@ constructor:
     isRequired: true
     types:
     - <xref:typing.Optional>[<xref:list>[<xref:azure.ai.ml.entities.ManagedIdentityConfiguration>]]
+  keywordOnlyArguments:
+  - name: type
+  - name: user_assigned_identities

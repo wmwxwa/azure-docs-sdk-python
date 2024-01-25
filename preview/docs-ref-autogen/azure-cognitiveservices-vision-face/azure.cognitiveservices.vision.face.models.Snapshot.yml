@@ -75,6 +75,14 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime>
+  keywordOnlyArguments:
+  - name: id
+  - name: account
+  - name: type
+  - name: apply_scope
+  - name: created_time
+  - name: last_update_time
+  - name: user_data
 methods:
 - uid: azure.cognitiveservices.vision.face.models.Snapshot.as_dict
   name: as_dict

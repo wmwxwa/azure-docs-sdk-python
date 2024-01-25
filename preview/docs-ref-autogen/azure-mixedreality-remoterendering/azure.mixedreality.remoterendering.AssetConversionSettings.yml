@@ -28,6 +28,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mixedreality.remoterendering._generated.models.AssetConversionOutputSettings>
+  keywordOnlyArguments:
+  - name: input_settings
+  - name: output_settings
 methods:
 - uid: azure.mixedreality.remoterendering.AssetConversionSettings.as_dict
   name: as_dict

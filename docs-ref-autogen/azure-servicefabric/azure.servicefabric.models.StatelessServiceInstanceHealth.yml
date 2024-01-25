@@ -76,6 +76,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: aggregated_health_state
+  - name: health_events
+  - name: unhealthy_evaluations
+  - name: health_statistics
+  - name: partition_id
+  - name: instance_id
 methods:
 - uid: azure.servicefabric.models.StatelessServiceInstanceHealth.as_dict
   name: as_dict

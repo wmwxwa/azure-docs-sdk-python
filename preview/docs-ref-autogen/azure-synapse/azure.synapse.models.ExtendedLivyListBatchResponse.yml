@@ -22,6 +22,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.models.ExtendedLivyBatchResponse>]
+  keywordOnlyArguments:
+  - name: from_property
+  - name: total
+  - name: sessions
 methods:
 - uid: azure.synapse.models.ExtendedLivyListBatchResponse.as_dict
   name: as_dict

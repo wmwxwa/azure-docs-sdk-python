@@ -25,3 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: name
+  - name: description
+  - name: field_definition_values

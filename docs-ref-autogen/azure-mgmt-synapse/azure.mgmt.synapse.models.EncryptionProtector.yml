@@ -26,6 +26,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.synapse.models.ServerKeyType>
+  keywordOnlyArguments:
+  - name: server_key_name
+  - name: server_key_type
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

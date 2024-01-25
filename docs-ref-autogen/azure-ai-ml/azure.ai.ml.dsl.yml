@@ -18,6 +18,7 @@ functions:
     defaultValue: None
     types:
     - <xref:types.FunctionType>
+  keywordOnlyArguments:
   - name: name
     description: The name of pipeline component, defaults to function name.
     types:

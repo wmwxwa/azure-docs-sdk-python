@@ -27,3 +27,8 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: family
+  - name: tier
+  - name: v_cores
+  - name: storage_size_in_gb

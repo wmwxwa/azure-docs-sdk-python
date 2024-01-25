@@ -73,3 +73,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: sku
+  - name: tags
+  - name: storage_profile
+  - name: administrator_login_password
+  - name: version
+  - name: ssl_enforcement
+  - name: minimal_tls_version
+  - name: public_network_access
+  - name: replication_role

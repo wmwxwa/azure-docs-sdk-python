@@ -59,6 +59,13 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.servicefabric.models.ApplicationTypeDefinitionKind>
+  keywordOnlyArguments:
+  - name: name
+  - name: version
+  - name: default_parameter_list
+  - name: status
+  - name: status_details
+  - name: application_type_definition_kind
 methods:
 - uid: azure.servicefabric.models.ApplicationTypeInfo.as_dict
   name: as_dict

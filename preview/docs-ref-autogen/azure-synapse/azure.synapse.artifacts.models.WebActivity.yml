@@ -118,6 +118,22 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.IntegrationRuntimeReference>
+  keywordOnlyArguments:
+  - name: name
+  - name: method
+  - name: url
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: linked_service_name
+  - name: policy
+  - name: headers
+  - name: body
+  - name: authentication
+  - name: datasets
+  - name: linked_services
+  - name: connect_via
 methods:
 - uid: azure.synapse.artifacts.models.WebActivity.as_dict
   name: as_dict

@@ -12,7 +12,7 @@ summary: 'Run notebook response.
 constructor:
   syntax: 'RunNotebookResponse(*, result: _models.RunNotebookResult | None = None,
     **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: result
     description: Result of run notebook.
     types:

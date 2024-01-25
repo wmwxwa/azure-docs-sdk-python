@@ -68,6 +68,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: service_manifest_name
+  - name: code_package_name
+  - name: code_package_instance_id
+  - name: service_package_activation_id
 methods:
 - uid: azure.servicefabric.models.RestartDeployedCodePackageDescription.as_dict
   name: as_dict

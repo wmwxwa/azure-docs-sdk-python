@@ -36,6 +36,12 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: dominant_color_foreground
+  - name: dominant_color_background
+  - name: dominant_colors
+  - name: accent_color
+  - name: is_bw_img
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.ColorInfo.as_dict
   name: as_dict

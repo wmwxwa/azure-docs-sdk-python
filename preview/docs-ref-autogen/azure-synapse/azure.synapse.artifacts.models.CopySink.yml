@@ -67,6 +67,13 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: write_batch_size
+  - name: write_batch_timeout
+  - name: sink_retry_count
+  - name: sink_retry_wait
+  - name: max_concurrent_connections
 methods:
 - uid: azure.synapse.artifacts.models.CopySink.as_dict
   name: as_dict

@@ -26,3 +26,6 @@ constructor:
     types:
     - <xref:typing.Union>[<xref:azure.mgmt.machinelearningservices.models.BanditPolicy>,
       <xref:azure.mgmt.machinelearningservices.models.MedianStoppingPolicy>, <xref:azure.mgmt.machinelearningservices.models.TruncationSelectionPolicy>]
+  keywordOnlyArguments:
+  - name: sampling_algorithm
+  - name: early_termination

@@ -25,6 +25,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.synapse.models.ManagedIntegrationRuntimeError>]
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: errors
 variables:
 - description: The managed integration runtime node id.
   name: node_id

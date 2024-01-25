@@ -27,3 +27,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.machinelearningservices.models.KeyVaultProperties>
+  keywordOnlyArguments:
+  - name: status
+  - name: key_vault_properties

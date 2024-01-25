@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: model_name
+  - name: feature_name
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.JsonModelFeatureInformation.as_dict
   name: as_dict

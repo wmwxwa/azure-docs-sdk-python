@@ -24,3 +24,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.alertsmanagement.models.ActionRuleStatus>
+  keywordOnlyArguments:
+  - name: tags
+  - name: status

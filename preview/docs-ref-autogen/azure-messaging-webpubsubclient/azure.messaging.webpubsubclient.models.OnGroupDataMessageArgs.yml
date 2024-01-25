@@ -8,3 +8,9 @@ inheritances:
 constructor:
   syntax: 'OnGroupDataMessageArgs(*, data_type: WebPubSubDataType | str, data: Any,
     group: str, from_user_id: str | None = None, sequence_id: int | None = None)'
+  keywordOnlyArguments:
+  - name: data_type
+  - name: data
+  - name: group
+  - name: from_user_id
+  - name: sequence_id

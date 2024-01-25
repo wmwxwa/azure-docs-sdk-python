@@ -30,6 +30,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: content_source
+  - name: content_ids
+  - name: status
+  - name: tracking_id
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.ImageIds.as_dict
   name: as_dict

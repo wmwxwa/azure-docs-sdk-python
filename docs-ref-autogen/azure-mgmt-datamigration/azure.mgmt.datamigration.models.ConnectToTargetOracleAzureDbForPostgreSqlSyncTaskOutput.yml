@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.datamigration.models.ConnectToTargetOracleAzureDbForPostgreSqlSyncTaskOutputDatabaseSchemaMapItem>]
+  keywordOnlyArguments:
+  - name: database_schema_map
 variables:
 - description: Version of the target server.
   name: target_server_version

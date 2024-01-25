@@ -51,3 +51,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.storagesync.models.LocalCacheMode>
+  keywordOnlyArguments:
+  - name: cloud_tiering
+  - name: volume_free_space_percent
+  - name: tier_files_older_than_days
+  - name: offline_data_transfer
+  - name: offline_data_transfer_share_name
+  - name: local_cache_mode

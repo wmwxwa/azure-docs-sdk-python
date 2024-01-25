@@ -61,6 +61,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: app_id
+  - name: account_enabled
+  - name: app_role_assignment_required
+  - name: key_credentials
+  - name: password_credentials
+  - name: service_principal_type
+  - name: tags
 methods:
 - uid: azure.graphrbac.models.ServicePrincipalCreateParameters.as_dict
   name: as_dict

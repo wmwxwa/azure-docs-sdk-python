@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: content
+  - name: filename
 variables:
 - description: The last update time of the library requirements file.
   name: time

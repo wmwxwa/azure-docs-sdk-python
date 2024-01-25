@@ -91,6 +91,19 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.advisor.models.ResourceMetadata>
+  keywordOnlyArguments:
+  - name: category
+  - name: impact
+  - name: impacted_field
+  - name: impacted_value
+  - name: last_updated
+  - name: metadata
+  - name: recommendation_type_id
+  - name: risk
+  - name: short_description
+  - name: suppression_ids
+  - name: extended_properties
+  - name: resource_metadata
 variables:
 - description: The resource ID.
   name: id

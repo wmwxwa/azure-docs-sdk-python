@@ -45,6 +45,13 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: min_resource_percent
+  - name: max_resource_percent
+  - name: min_resource_percent_per_request
+  - name: max_resource_percent_per_request
+  - name: importance
+  - name: query_execution_timeout
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

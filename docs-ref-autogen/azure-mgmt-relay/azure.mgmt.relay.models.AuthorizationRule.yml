@@ -21,6 +21,8 @@ constructor:
     types:
     - <xref:list>[<xref:str>
     - <xref:azure.mgmt.relay.models.AccessRights>]
+  keywordOnlyArguments:
+  - name: rights
 variables:
 - description: Resource ID.
   name: id

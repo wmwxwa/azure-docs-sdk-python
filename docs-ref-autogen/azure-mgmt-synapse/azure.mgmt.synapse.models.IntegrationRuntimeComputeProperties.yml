@@ -57,3 +57,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.synapse.models.IntegrationRuntimeVNetProperties>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: location
+  - name: node_size
+  - name: number_of_nodes
+  - name: max_parallel_executions_per_node
+  - name: data_flow_properties
+  - name: v_net_properties

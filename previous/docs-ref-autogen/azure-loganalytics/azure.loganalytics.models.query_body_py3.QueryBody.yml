@@ -33,6 +33,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: query
+  - name: timespan
+  - name: workspaces
 methods:
 - uid: azure.loganalytics.models.query_body_py3.QueryBody.as_dict
   name: as_dict

@@ -21,6 +21,7 @@ constructor:
     types:
     - <xref:azure.core.credentials.AzureKeyCredential>
     - <xref:azure.core.credentials.TokenCredential>
+  keywordOnlyArguments:
   - name: api_version
     description: The Search API version to use for requests.
     types:
@@ -60,7 +61,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    186\\\\azure-search-documents-11.4.0b11\\\\samples\\\\sample_data_source_operations.py\"\
+    185\\\\azure-search-documents-11.4.0b11\\\\samples\\\\sample_data_source_operations.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   container = SearchIndexerDataContainer(name=\"searchcontainer\")\n   data_source_connection\
@@ -118,6 +119,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.search.documents.indexes.models.SearchIndexer>
+  keywordOnlyArguments:
   - name: match_condition
     description: The match condition to use upon the etag
     types:
@@ -150,6 +152,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.search.documents.indexes.models.SearchIndexerSkillset>
+  keywordOnlyArguments:
   - name: match_condition
     description: The match condition to use upon the etag
     types:
@@ -200,6 +203,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.search.documents.indexes.models.SearchIndexerDataSourceConnection>
+  keywordOnlyArguments:
   - name: match_condition
     description: The match condition to use upon the etag
     types:
@@ -213,7 +217,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    186\\\\azure-search-documents-11.4.0b11\\\\samples\\\\sample_data_source_operations.py\"\
+    185\\\\azure-search-documents-11.4.0b11\\\\samples\\\\sample_data_source_operations.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   client.delete_data_source_connection(\"sample-data-source-connection\")\n\
@@ -235,6 +239,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.search.documents.indexes.models.SearchIndexer>
+  keywordOnlyArguments:
   - name: match_condition
     description: The match condition to use upon the etag
     types:
@@ -261,6 +266,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.search.documents.indexes.models.SearchIndexerSkillset>
+  keywordOnlyArguments:
   - name: match_condition
     description: The match condition to use upon the etag
     types:
@@ -284,7 +290,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    186\\\\azure-search-documents-11.4.0b11\\\\samples\\\\sample_data_source_operations.py\"\
+    185\\\\azure-search-documents-11.4.0b11\\\\samples\\\\sample_data_source_operations.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   result = client.get_data_source_connection(\"sample-data-source-connection\"\
@@ -303,7 +309,7 @@ methods:
   summary: Lists all data source connections available for a search service.
   signature: 'get_data_source_connections(*, select: List[str] | None = None, **kwargs:
     Any) -> Sequence[SearchIndexerDataSourceConnection]'
-  parameters:
+  keywordOnlyArguments:
   - name: select
     description: 'Selects which top-level properties of the skillsets to retrieve.
       Specified as a
@@ -322,7 +328,7 @@ methods:
     sample_data_source_operations.py )]-->\n\n<!-- literal_block {\"ids\": [], \"\
     classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\":\
     \ \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\186\\\\azure-search-documents-11.4.0b11\\\\samples\\\
+    \\py2docfx\\\\dist_temp\\\\185\\\\azure-search-documents-11.4.0b11\\\\samples\\\
     \\sample_data_source_operations.py\", \"xml:space\": \"preserve\", \"force\":\
     \ false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   result = client.get_data_source_connections()\n\
@@ -368,7 +374,7 @@ methods:
   name: get_indexers
   summary: Lists all indexers available for a search service.
   signature: 'get_indexers(*, select: List[str] | None = None, **kwargs: Any) -> Sequence[SearchIndexer]'
-  parameters:
+  keywordOnlyArguments:
   - name: select
     description: 'Selects which top-level properties of the skillsets to retrieve.
       Specified as a
@@ -413,7 +419,7 @@ methods:
   summary: List the SearchIndexerSkillsets in an Azure Search service.
   signature: 'get_skillsets(*, select: List[str] | None = None, **kwargs: Any) ->
     List[SearchIndexerSkillset]'
-  parameters:
+  keywordOnlyArguments:
   - name: select
     description: 'Selects which top-level properties of the skillsets to retrieve.
       Specified as a
@@ -446,6 +452,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.search.documents.indexes.models.DocumentKeysOrIds>
+  keywordOnlyArguments:
   - name: overwrite
     description: 'If false, keys or ids will be appended to existing ones. If true,
       only the

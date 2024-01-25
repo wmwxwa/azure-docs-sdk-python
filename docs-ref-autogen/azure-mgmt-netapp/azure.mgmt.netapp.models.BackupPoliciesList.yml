@@ -9,7 +9,7 @@ summary: List of Backup Policies.
 constructor:
   syntax: 'BackupPoliciesList(*, value: List[_models.BackupPolicy] | None = None,
     **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: A list of backup policies.
     types:

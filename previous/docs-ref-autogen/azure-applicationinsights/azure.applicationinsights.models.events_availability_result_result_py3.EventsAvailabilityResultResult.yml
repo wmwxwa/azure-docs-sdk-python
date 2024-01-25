@@ -84,6 +84,20 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.applicationinsights.models.EventsAvailabilityResultInfo>
+  keywordOnlyArguments:
+  - name: id
+  - name: count
+  - name: timestamp
+  - name: custom_dimensions
+  - name: custom_measurements
+  - name: operation
+  - name: session
+  - name: user
+  - name: cloud
+  - name: ai
+  - name: application
+  - name: client
+  - name: availability_result
 methods:
 - uid: azure.applicationinsights.models.events_availability_result_result_py3.EventsAvailabilityResultResult.as_dict
   name: as_dict

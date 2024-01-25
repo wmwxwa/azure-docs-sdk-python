@@ -65,3 +65,14 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
+  keywordOnlyArguments:
+  - name: resource_id
+  - name: source_info
+  - name: depends_on
+  - name: module_name
+  - name: module_version
+  - name: resource_name
+  - name: error
+  - name: status
+  - name: duration_in_seconds
+  - name: start_date

@@ -12,7 +12,7 @@ summary: 'Binding resource payload.
 constructor:
   syntax: 'BindingResource(*, properties: _models.BindingResourceProperties | None
     = None, **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: properties
     description: Properties of the Binding resource.
     types:

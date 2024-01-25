@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.NodeResult>
+  keywordOnlyArguments:
+  - name: error_code
+  - name: node_result
 methods:
 - uid: azure.servicefabric.models.NodeTransitionResult.as_dict
   name: as_dict

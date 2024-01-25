@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.knowledge.qnamaker.models.MetadataDTO>]
+  keywordOnlyArguments:
+  - name: delete
+  - name: add
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.UpdateMetadataDTO.as_dict
   name: as_dict

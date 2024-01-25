@@ -40,6 +40,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: key
+  - name: value
 methods:
 - uid: azure.servicefabric.models.NodeTypeHealthPolicyMapItem.as_dict
   name: as_dict

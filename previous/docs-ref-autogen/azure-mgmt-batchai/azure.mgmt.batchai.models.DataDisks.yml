@@ -48,3 +48,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:batch_ai.models.StorageAccountType>
+  keywordOnlyArguments:
+  - name: disk_size_in_gb
+  - name: disk_count
+  - name: storage_account_type
+  - name: caching_type
+    defaultValue: none

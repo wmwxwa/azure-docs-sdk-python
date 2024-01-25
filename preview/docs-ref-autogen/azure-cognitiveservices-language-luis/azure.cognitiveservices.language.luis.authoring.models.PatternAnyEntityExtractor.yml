@@ -52,6 +52,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.ExplicitListItem>]
+  keywordOnlyArguments:
+  - name: id
+  - name: readable_type
+  - name: name
+  - name: type_id
+  - name: roles
+  - name: explicit_list
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.PatternAnyEntityExtractor.as_dict
   name: as_dict

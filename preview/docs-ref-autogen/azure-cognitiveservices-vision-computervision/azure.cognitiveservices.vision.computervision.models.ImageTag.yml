@@ -25,6 +25,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: confidence
+  - name: hint
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.ImageTag.as_dict
   name: as_dict

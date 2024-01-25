@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: tenant_id
 variables:
 - description: An identifier that represents the Guest Usages resource.
   name: id

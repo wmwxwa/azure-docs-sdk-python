@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: enable
+  - name: score_threshold
+  - name: top_answers_with_span
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.AnswerSpanRequestDTO.as_dict
   name: as_dict

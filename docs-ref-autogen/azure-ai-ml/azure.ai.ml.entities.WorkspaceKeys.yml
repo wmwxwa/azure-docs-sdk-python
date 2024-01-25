@@ -37,3 +37,9 @@ constructor:
   - name: container_registry_credentials
     description: Key for ACR associated with given workspace
     isRequired: true
+  keywordOnlyArguments:
+  - name: user_storage_key
+  - name: user_storage_resource_id
+  - name: app_insights_instrumentation_key
+  - name: container_registry_credentials
+  - name: notebook_access_keys

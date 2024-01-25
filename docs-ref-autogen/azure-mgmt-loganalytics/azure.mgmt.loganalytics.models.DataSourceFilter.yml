@@ -36,3 +36,5 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.loganalytics.models.DataSourceKind>
+  keywordOnlyArguments:
+  - name: kind

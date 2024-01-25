@@ -73,3 +73,16 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: description
+  - name: data_type
+  - name: required
+  - name: sensitive
+  - name: design_default_value
+  - name: default_value
+  - name: sensitive_default_value
+  - name: value_type
+  - name: value_set
+  - name: variable

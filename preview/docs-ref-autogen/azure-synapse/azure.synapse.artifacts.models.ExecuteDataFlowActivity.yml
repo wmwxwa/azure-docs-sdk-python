@@ -80,6 +80,18 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.ExecuteDataFlowActivityTypePropertiesCompute>
+  keywordOnlyArguments:
+  - name: name
+  - name: data_flow
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: linked_service_name
+  - name: policy
+  - name: staging
+  - name: integration_runtime
+  - name: compute
 methods:
 - uid: azure.synapse.artifacts.models.ExecuteDataFlowActivity.as_dict
   name: as_dict

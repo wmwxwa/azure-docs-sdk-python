@@ -29,6 +29,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
 methods:
 - uid: azure.media.analyticsedge.MediaGraphSource.as_dict
   name: as_dict

@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: timestamp
+  - name: value
 methods:
 - uid: azure.cognitiveservices.anomalydetector.models.Point.as_dict
   name: as_dict

@@ -38,6 +38,11 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: parent_resource_type
+  - name: parameters
+  - name: template
+  - name: application_id
 variables:
 - description: The provisioning state for the ManagementConfiguration.
   name: provisioning_state

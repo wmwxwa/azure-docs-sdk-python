@@ -103,6 +103,20 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: infrastructure
+    defaultValue: other
+  - name: on_premise_property
+  - name: k8_s_raw
+  - name: upload_watermark
+  - name: last_uploaded_date
+  - name: basic_login_information
+  - name: metrics_dashboard_credential
+  - name: logs_dashboard_credential
+  - name: log_analytics_workspace_config
+  - name: upload_service_principal
+  - name: cluster_id
+  - name: extension_id
 variables:
 - name: provisioning_state
   types:

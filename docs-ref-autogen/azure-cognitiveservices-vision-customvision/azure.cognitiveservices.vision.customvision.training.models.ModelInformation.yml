@@ -27,6 +27,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: description
+  - name: estimated_model_size_in_megabytes
 methods:
 - uid: azure.cognitiveservices.vision.customvision.training.models.ModelInformation.as_dict
   name: as_dict

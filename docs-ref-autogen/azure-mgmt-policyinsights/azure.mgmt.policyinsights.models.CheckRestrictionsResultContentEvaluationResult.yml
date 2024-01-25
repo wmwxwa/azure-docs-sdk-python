@@ -17,3 +17,5 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.policyinsights.models.PolicyEvaluationResult>]
+  keywordOnlyArguments:
+  - name: policy_evaluations

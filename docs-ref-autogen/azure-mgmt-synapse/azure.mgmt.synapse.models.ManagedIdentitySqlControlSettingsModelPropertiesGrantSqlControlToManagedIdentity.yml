@@ -20,6 +20,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.synapse.models.ManagedIdentitySqlControlSettingsModelPropertiesGrantSqlControlToManagedIdentityDesiredState>
+  keywordOnlyArguments:
+  - name: desired_state
 variables:
 - description: 'Actual state. Possible values include: "Enabling", "Enabled", "Disabling",
 

@@ -25,3 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: status
+  - name: source
+  - name: job_id

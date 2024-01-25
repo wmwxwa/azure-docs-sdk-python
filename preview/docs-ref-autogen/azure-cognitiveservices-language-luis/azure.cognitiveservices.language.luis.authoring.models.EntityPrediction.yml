@@ -41,6 +41,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.EntityPrediction>]
+  keywordOnlyArguments:
+  - name: entity_name
+  - name: start_token_index
+  - name: end_token_index
+  - name: phrase
+  - name: children
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.EntityPrediction.as_dict
   name: as_dict

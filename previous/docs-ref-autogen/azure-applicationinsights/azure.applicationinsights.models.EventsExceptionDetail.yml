@@ -40,6 +40,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.applicationinsights.models.EventsExceptionDetailsParsedStack>]
+  keywordOnlyArguments:
+  - name: severity_level
+  - name: outer_id
+  - name: message
+  - name: type
+  - name: id
+  - name: parsed_stack
 methods:
 - uid: azure.applicationinsights.models.EventsExceptionDetail.as_dict
   name: as_dict

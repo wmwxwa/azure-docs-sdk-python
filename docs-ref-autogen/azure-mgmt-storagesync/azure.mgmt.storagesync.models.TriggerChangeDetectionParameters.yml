@@ -35,3 +35,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: directory_path
+  - name: change_detection_mode
+  - name: paths

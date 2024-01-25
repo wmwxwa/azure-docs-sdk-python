@@ -141,6 +141,26 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>
+  keywordOnlyArguments:
+  - name: name
+  - name: description
+  - name: tags
+  - name: display_name
+  - name: location
+  - name: resource_group
+  - name: hbi_workspace
+  - name: storage_account
+  - name: container_registry
+  - name: key_vault
+  - name: application_insights
+  - name: customer_managed_key
+  - name: image_build_compute
+  - name: public_network_access
+  - name: identity
+  - name: primary_user_assigned_identity
+  - name: managed_network
+  - name: enable_data_isolation
+  - name: workspace_hub
 methods:
 - uid: azure.ai.ml.entities.Workspace.dump
   name: dump

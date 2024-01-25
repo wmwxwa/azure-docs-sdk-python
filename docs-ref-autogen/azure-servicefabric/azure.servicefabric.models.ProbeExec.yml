@@ -19,6 +19,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: command
 methods:
 - uid: azure.servicefabric.models.ProbeExec.as_dict
   name: as_dict

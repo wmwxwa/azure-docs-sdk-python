@@ -97,6 +97,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
   - name: include_secrets
     description: Include datastore secrets in the returned datastore, defaults to
       False
@@ -119,7 +120,7 @@ methods:
   name: get_default
   summary: Returns the workspace's default datastore.
   signature: 'get_default(*, include_secrets: bool = False) -> Datastore'
-  parameters:
+  keywordOnlyArguments:
   - name: include_secrets
     description: Include datastore secrets in the returned datastore, defaults to
       False
@@ -142,7 +143,7 @@ methods:
   name: list
   summary: Lists all datastores and associated information within a workspace.
   signature: 'list(*, include_secrets: bool = False) -> Iterable[Datastore]'
-  parameters:
+  keywordOnlyArguments:
   - name: include_secrets
     description: Include datastore secrets in returned datastores, defaults to False
     types:

@@ -8,6 +8,8 @@ inheritances:
 - azure.ai.ml.entities._mixins.DictMixin
 constructor:
   syntax: 'SasTokenConfiguration(*, sas_token: str)'
+  keywordOnlyArguments:
+  - name: sas_token
 methods:
 - uid: azure.ai.ml.entities.SasTokenConfiguration.get
   name: get

@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: index
+  - name: term
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.TranscriptModerationBodyItemTermsItem.as_dict
   name: as_dict

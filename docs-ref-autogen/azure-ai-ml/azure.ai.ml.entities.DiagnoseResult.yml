@@ -9,3 +9,7 @@ summary: Result of Diagnose.
 constructor:
   syntax: 'DiagnoseResult(*, code: str | None = None, level: str | None = None, message:
     str | None = None)'
+  keywordOnlyArguments:
+  - name: code
+  - name: level
+  - name: message

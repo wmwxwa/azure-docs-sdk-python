@@ -26,6 +26,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.ai.metricsadvisor.models.Severity>
+  keywordOnlyArguments:
+  - name: min
+  - name: max
 methods:
 - uid: azure.ai.metricsadvisor.models.SeverityFilterCondition.as_dict
   name: as_dict

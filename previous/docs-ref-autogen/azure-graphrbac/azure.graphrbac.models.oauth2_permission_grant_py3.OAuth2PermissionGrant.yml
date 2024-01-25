@@ -74,6 +74,16 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: odatatype
+  - name: client_id
+  - name: object_id
+  - name: consent_type
+  - name: principal_id
+  - name: resource_id
+  - name: scope
+  - name: start_time
+  - name: expiry_time
 methods:
 - uid: azure.graphrbac.models.oauth2_permission_grant_py3.OAuth2PermissionGrant.as_dict
   name: as_dict

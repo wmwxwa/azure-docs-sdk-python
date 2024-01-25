@@ -41,3 +41,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: status_code
+  - name: request_id

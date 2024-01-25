@@ -34,6 +34,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: additional_properties
 variables:
 - description: The object ID.
   name: object_id

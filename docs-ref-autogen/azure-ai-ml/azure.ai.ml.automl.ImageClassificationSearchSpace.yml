@@ -287,3 +287,35 @@ constructor:
     types:
     - <xref:int>
     - <xref:azure.ai.ml.entities._job.sweep.search_space.SweepDistribution>
+  keywordOnlyArguments:
+  - name: ams_gradient
+  - name: beta1
+  - name: beta2
+  - name: distributed
+  - name: early_stopping
+  - name: early_stopping_delay
+  - name: early_stopping_patience
+  - name: enable_onnx_normalization
+  - name: evaluation_frequency
+  - name: gradient_accumulation_step
+  - name: layers_to_freeze
+  - name: learning_rate
+  - name: learning_rate_scheduler
+  - name: model_name
+  - name: momentum
+  - name: nesterov
+  - name: number_of_epochs
+  - name: number_of_workers
+  - name: optimizer
+  - name: random_seed
+  - name: step_lr_gamma
+  - name: step_lr_step_size
+  - name: training_batch_size
+  - name: validation_batch_size
+  - name: warmup_cosine_lr_cycles
+  - name: warmup_cosine_lr_warmup_epochs
+  - name: weight_decay
+  - name: training_crop_size
+  - name: validation_crop_size
+  - name: validation_resize_size
+  - name: weighted_loss

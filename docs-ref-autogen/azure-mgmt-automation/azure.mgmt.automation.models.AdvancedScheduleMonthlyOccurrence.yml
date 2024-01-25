@@ -27,3 +27,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.automation.models.ScheduleDay>
+  keywordOnlyArguments:
+  - name: occurrence
+  - name: day

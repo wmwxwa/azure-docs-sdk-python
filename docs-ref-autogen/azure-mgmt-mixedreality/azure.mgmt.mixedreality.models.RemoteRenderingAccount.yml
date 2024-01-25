@@ -31,6 +31,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.mixedreality.models.RemoteRenderingAccountIdentity>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: identity
 variables:
 - description: 'Fully qualified resource Id for the resource. Ex -
 

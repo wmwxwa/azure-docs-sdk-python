@@ -42,3 +42,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: effective_date
+  - name: tiered_discount
+  - name: excluded_meter_ids

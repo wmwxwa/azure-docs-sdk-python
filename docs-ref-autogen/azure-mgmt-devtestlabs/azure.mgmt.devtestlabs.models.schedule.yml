@@ -77,6 +77,17 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: status
+  - name: task_type
+  - name: weekly_recurrence
+  - name: daily_recurrence
+  - name: hourly_recurrence
+  - name: time_zone_id
+  - name: notification_settings
+  - name: target_resource_id
 variables:
 - description: The identifier of the resource.
   name: id

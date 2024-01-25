@@ -33,3 +33,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: resource_content
+  - name: api_version
+  - name: scope

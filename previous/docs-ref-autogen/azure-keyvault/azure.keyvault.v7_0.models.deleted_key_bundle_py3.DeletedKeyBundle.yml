@@ -39,6 +39,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: key
+  - name: attributes
+  - name: tags
+  - name: recovery_id
 variables:
 - description: 'True if the key''s lifetime is managed by key vault. If this
 

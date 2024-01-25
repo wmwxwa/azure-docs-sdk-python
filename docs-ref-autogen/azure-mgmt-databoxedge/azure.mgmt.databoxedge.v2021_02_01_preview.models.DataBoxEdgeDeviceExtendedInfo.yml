@@ -63,6 +63,14 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.databoxedge.v2021_02_01_preview.models.KeyVaultSyncStatus>
+  keywordOnlyArguments:
+  - name: encryption_key_thumbprint
+  - name: encryption_key
+  - name: client_secret_store_id
+  - name: client_secret_store_url
+  - name: channel_integrity_key_name
+  - name: channel_integrity_key_version
+  - name: key_vault_sync_status
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

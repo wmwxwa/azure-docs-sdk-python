@@ -32,6 +32,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.ComputeNodeIdentityReference>
+  keywordOnlyArguments:
+  - name: user_name
+  - name: password
+  - name: registry_server
+  - name: identity_reference
 methods:
 - uid: azure.batch.models.ContainerRegistry.as_dict
   name: as_dict

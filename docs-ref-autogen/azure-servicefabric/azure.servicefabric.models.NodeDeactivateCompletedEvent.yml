@@ -68,6 +68,16 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: node_name
+  - name: node_instance
+  - name: effective_deactivate_intent
+  - name: batch_ids_with_deactivate_intent
+  - name: start_time
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.NodeDeactivateCompletedEvent.as_dict
   name: as_dict

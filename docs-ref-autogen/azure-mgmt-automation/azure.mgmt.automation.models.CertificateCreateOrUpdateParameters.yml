@@ -39,3 +39,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: name
+  - name: base64_value
+  - name: description
+  - name: thumbprint
+  - name: is_exportable

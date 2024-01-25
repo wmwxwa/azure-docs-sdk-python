@@ -29,3 +29,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: public_key
+  - name: private_key
+  - name: expiry_time_in_utc

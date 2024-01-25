@@ -34,6 +34,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.hdinsight.models.IPConfiguration>]
+  keywordOnlyArguments:
+  - name: name
+  - name: group_id
+  - name: ip_configurations
 variables:
 - description: The private link configuration id.
   name: id

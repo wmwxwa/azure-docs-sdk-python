@@ -54,3 +54,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datamigration.models.AzureActiveDirectoryApp>
+  keywordOnlyArguments:
+  - name: selected_databases
+  - name: storage_resource_id
+  - name: source_connection_info
+  - name: target_connection_info
+  - name: azure_app
+  - name: backup_file_share

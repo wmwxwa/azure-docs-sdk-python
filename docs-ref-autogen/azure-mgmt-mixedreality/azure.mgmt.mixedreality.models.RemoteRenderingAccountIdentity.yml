@@ -20,6 +20,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.mixedreality.models.ResourceIdentityType>
+  keywordOnlyArguments:
+  - name: type
 variables:
 - description: The principal ID of resource identity.
   name: principal_id

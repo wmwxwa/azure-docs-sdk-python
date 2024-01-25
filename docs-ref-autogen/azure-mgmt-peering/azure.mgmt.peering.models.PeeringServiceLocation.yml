@@ -28,6 +28,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: country
+  - name: state
+  - name: azure_region
 variables:
 - description: The name of the resource.
   name: name

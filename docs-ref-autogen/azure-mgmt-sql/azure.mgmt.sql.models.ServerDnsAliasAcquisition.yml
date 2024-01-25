@@ -19,3 +19,5 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: old_server_dns_alias_id

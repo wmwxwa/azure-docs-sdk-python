@@ -21,6 +21,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.computervision.models.ImageCaption>]
+  keywordOnlyArguments:
+  - name: tags
+  - name: captions
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.ImageDescriptionDetails.as_dict
   name: as_dict

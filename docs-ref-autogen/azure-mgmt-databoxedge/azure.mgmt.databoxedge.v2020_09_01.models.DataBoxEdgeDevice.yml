@@ -65,6 +65,13 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.databoxedge.v2020_09_01.models.DataBoxEdgeDeviceStatus>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: sku
+  - name: etag
+  - name: identity
+  - name: data_box_edge_device_status
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

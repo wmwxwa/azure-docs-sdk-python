@@ -94,6 +94,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ApplicationMetricDescription>]
+  keywordOnlyArguments:
+  - name: flags
+  - name: remove_application_capacity
+  - name: minimum_nodes
+  - name: maximum_nodes
+  - name: application_metrics
 methods:
 - uid: azure.servicefabric.models.ApplicationUpdateDescription.as_dict
   name: as_dict

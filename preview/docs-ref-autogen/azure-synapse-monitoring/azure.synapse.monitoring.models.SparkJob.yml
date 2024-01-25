@@ -75,6 +75,22 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: state
+  - name: name
+  - name: submitter
+  - name: compute
+  - name: spark_application_id
+  - name: livy_id
+  - name: timing
+  - name: spark_job_definition
+  - name: pipeline
+  - name: job_type
+  - name: submit_time
+  - name: end_time
+  - name: queued_duration
+  - name: running_duration
+  - name: total_duration
 methods:
 - uid: azure.synapse.monitoring.models.SparkJob.as_dict
   name: as_dict

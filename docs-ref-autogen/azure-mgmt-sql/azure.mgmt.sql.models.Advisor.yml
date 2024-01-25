@@ -25,6 +25,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.sql.models.AutoExecuteStatus>
+  keywordOnlyArguments:
+  - name: auto_execute_status
 variables:
 - description: Resource ID.
   name: id

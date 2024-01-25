@@ -34,6 +34,11 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: left
+  - name: top
+  - name: width
+  - name: height
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.FaceRectangle.as_dict
   name: as_dict

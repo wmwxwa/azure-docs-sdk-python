@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: temporal_type
+  - name: memory_optimized
 variables:
 - description: Resource ID.
   name: id

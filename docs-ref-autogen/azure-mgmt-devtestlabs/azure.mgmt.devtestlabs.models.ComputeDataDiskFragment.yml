@@ -33,3 +33,8 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: name
+  - name: disk_uri
+  - name: managed_disk_id
+  - name: disk_size_gi_b

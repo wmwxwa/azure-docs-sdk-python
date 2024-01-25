@@ -22,3 +22,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.devtestlabs.models.PolicyViolation>]
+  keywordOnlyArguments:
+  - name: has_error
+  - name: policy_violations

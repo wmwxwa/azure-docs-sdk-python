@@ -108,6 +108,14 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.ComputeNodeIdentityReference>
+  keywordOnlyArguments:
+  - name: auto_storage_container_name
+  - name: storage_container_url
+  - name: http_url
+  - name: blob_prefix
+  - name: file_path
+  - name: file_mode
+  - name: identity_reference
 methods:
 - uid: azure.batch.models.ResourceFile.as_dict
   name: as_dict

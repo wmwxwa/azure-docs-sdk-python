@@ -53,3 +53,10 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: skip_token
+  - name: top
+  - name: skip
+  - name: result_format
+    defaultValue: objectArray
+  - name: allow_partial_scopes

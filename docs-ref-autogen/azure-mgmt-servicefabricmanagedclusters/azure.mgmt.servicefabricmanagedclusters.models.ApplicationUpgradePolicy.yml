@@ -81,3 +81,11 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: application_health_policy
+  - name: force_restart
+  - name: rolling_upgrade_monitoring_policy
+  - name: instance_close_delay_duration
+  - name: upgrade_mode
+  - name: upgrade_replica_set_check_timeout
+  - name: recreate_application

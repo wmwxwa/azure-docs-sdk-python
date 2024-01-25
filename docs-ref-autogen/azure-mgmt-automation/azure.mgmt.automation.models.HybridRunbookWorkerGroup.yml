@@ -38,3 +38,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.automation.models.GroupTypeEnum>
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: hybrid_runbook_workers
+  - name: credential
+  - name: group_type

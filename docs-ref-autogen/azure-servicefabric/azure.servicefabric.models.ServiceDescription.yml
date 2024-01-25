@@ -142,6 +142,23 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: service_name
+  - name: service_type_name
+  - name: partition_description
+  - name: application_name
+  - name: initialization_data
+  - name: placement_constraints
+  - name: correlation_scheme
+  - name: service_load_metrics
+  - name: service_placement_policies
+  - name: default_move_cost
+  - name: is_default_move_cost_specified
+  - name: service_package_activation_mode
+  - name: service_dns_name
+  - name: scaling_policies
+  - name: tags_required_to_place
+  - name: tags_required_to_run
 methods:
 - uid: azure.servicefabric.models.ServiceDescription.as_dict
   name: as_dict

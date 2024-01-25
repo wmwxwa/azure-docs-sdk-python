@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: forehead_occluded
+  - name: eye_occluded
+  - name: mouth_occluded
 methods:
 - uid: azure.cognitiveservices.vision.face.models.Occlusion.as_dict
   name: as_dict

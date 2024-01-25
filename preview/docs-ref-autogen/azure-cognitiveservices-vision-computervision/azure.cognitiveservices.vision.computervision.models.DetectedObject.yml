@@ -36,6 +36,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.ObjectHierarchy>
+  keywordOnlyArguments:
+  - name: object_property
+  - name: confidence
+  - name: parent
 variables:
 - description: Approximate location of the detected object.
   name: rectangle

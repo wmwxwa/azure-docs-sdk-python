@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ManagedApplicationIdentity>]
+  keywordOnlyArguments:
+  - name: token_service_endpoint
+  - name: managed_identities
 methods:
 - uid: azure.servicefabric.models.ManagedApplicationIdentityDescription.as_dict
   name: as_dict

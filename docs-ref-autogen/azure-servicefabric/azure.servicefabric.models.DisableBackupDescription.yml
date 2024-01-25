@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: clean_backup
 methods:
 - uid: azure.servicefabric.models.DisableBackupDescription.as_dict
   name: as_dict

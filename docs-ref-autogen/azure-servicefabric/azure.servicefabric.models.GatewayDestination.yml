@@ -30,6 +30,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: application_name
+  - name: service_name
+  - name: endpoint_name
 methods:
 - uid: azure.servicefabric.models.GatewayDestination.as_dict
   name: as_dict

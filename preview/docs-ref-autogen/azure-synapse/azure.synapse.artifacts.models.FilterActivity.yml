@@ -57,6 +57,14 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.Expression>
+  keywordOnlyArguments:
+  - name: name
+  - name: items
+  - name: condition
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
 methods:
 - uid: azure.synapse.artifacts.models.FilterActivity.as_dict
   name: as_dict

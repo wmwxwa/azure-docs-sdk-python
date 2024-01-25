@@ -26,3 +26,6 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
+  keywordOnlyArguments:
+  - name: operation_in_progress
+  - name: operation_in_progress_lock_timeout_in_utc

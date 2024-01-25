@@ -24,6 +24,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: total_messages_purged
+  - name: device_id
+  - name: module_id
 methods:
 - uid: azure.iot.hub.protocol.models.PurgeMessageQueueResult.as_dict
   name: as_dict

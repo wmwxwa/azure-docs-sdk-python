@@ -41,3 +41,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: principal_name
+  - name: principal_id
+  - name: tenant_id
+  - name: object_id
+  - name: app_id

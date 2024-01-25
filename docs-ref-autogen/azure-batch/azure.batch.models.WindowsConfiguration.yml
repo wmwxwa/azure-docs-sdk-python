@@ -16,6 +16,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: enable_automatic_updates
 methods:
 - uid: azure.batch.models.WindowsConfiguration.as_dict
   name: as_dict

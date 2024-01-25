@@ -41,3 +41,7 @@ constructor:
     isRequired: true
     types:
     - <xref:video_analyzer.models.TimeSequenceBase>
+  keywordOnlyArguments:
+  - name: name
+  - name: video_name
+  - name: time_sequences

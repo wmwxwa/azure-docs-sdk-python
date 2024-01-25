@@ -11,6 +11,13 @@ summary: Protocol for methods to provide streamed responses.
 constructor:
   syntax: 'DownloadBlobStream(*, response: PipelineResponse, get_next: GetNext, blob_size:
     int, downloaded: int, digest: str, chunk_size: int)'
+  keywordOnlyArguments:
+  - name: response
+  - name: get_next
+  - name: blob_size
+  - name: downloaded
+  - name: digest
+  - name: chunk_size
 methods:
 - uid: azure.containerregistry.DownloadBlobStream.close
   name: close

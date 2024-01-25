@@ -35,6 +35,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: score
+  - name: match_id
+  - name: source
+  - name: tags
+  - name: label
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.Match.as_dict
   name: as_dict

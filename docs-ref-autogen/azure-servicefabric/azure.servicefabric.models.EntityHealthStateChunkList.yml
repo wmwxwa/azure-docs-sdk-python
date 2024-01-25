@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
+  keywordOnlyArguments:
+  - name: total_count
 methods:
 - uid: azure.servicefabric.models.EntityHealthStateChunkList.as_dict
   name: as_dict

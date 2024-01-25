@@ -38,6 +38,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: display_order
+  - name: qna_id
+  - name: qna
+  - name: display_text
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.PromptDTO.as_dict
   name: as_dict

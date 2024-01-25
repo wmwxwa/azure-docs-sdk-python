@@ -25,3 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.SshProfile>
+  keywordOnlyArguments:
+  - name: username
+  - name: password
+  - name: ssh_profile

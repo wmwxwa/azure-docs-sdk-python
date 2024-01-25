@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: message
+  - name: severity_level
 methods:
 - uid: azure.applicationinsights.models.events_trace_info_py3.EventsTraceInfo.as_dict
   name: as_dict

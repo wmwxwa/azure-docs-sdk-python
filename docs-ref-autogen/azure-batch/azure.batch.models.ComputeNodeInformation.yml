@@ -35,6 +35,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: affinity_id
+  - name: node_url
+  - name: pool_id
+  - name: node_id
+  - name: task_root_directory
+  - name: task_root_directory_url
 methods:
 - uid: azure.batch.models.ComputeNodeInformation.as_dict
   name: as_dict

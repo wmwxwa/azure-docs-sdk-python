@@ -31,6 +31,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: provisioning_state
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

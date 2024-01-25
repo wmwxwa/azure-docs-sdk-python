@@ -32,3 +32,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.hdinsight.models.AaddsResourceDetails>]
+  keywordOnlyArguments:
+  - name: validation_errors
+  - name: validation_warnings
+  - name: estimated_creation_duration
+  - name: aadds_resources_details

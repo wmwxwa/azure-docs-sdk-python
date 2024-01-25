@@ -26,3 +26,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.devtestlabs.models.LinuxOsInfoFragment>
+  keywordOnlyArguments:
+  - name: source_vm_id
+  - name: windows_os_info
+  - name: linux_os_info

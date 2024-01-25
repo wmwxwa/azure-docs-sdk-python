@@ -60,3 +60,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: resource_id
+  - name: aad_authority
+  - name: aad_tenant_id
+  - name: service_principal_client_id
+  - name: service_principal_object_id
+  - name: azure_management_endpoint_audience
+  - name: auth_type

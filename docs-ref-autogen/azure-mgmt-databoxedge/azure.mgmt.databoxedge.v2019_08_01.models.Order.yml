@@ -28,6 +28,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.databoxedge.v2019_08_01.models.OrderStatus>
+  keywordOnlyArguments:
+  - name: contact_information
+  - name: shipping_address
+  - name: current_status
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

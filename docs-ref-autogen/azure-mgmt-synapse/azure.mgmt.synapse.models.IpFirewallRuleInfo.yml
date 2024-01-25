@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: end_ip_address
+  - name: start_ip_address
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

@@ -205,6 +205,25 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: task_id
+  - name: state
+  - name: action
+  - name: version
+  - name: description
+  - name: flags
+  - name: target
+  - name: executor
+  - name: executor_data
+  - name: impact
+  - name: result_status
+  - name: result_code
+  - name: result_details
+  - name: history
+  - name: preparing_health_check_state
+  - name: restoring_health_check_state
+  - name: perform_preparing_health_check
+  - name: perform_restoring_health_check
 methods:
 - uid: azure.servicefabric.models.RepairTask.as_dict
   name: as_dict

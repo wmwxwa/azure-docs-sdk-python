@@ -9,7 +9,7 @@ summary: Availability group configuration.
 constructor:
   syntax: 'AgConfiguration(*, replicas: List[_models.AgReplica] | None = None, **kwargs:
     Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: replicas
     description: Replica configurations.
     types:

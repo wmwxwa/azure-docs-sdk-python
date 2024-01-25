@@ -28,3 +28,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.devtestlabs.models.CostType>
+  keywordOnlyArguments:
+  - name: date
+  - name: cost
+  - name: cost_type

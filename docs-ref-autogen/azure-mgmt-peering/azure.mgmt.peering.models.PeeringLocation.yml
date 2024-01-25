@@ -50,6 +50,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: kind
+  - name: direct
+  - name: exchange
+  - name: peering_location
+  - name: country
+  - name: azure_region
 variables:
 - description: The name of the resource.
   name: name

@@ -41,6 +41,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.billing.models.ViewChargesPolicy>
+  keywordOnlyArguments:
+  - name: marketplace_purchases
+  - name: reservation_purchases
+  - name: view_charges
 variables:
 - description: Resource Id.
   name: id

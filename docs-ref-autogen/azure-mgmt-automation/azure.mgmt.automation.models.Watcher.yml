@@ -61,6 +61,15 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: tags
+  - name: location
+  - name: etag
+  - name: execution_frequency_in_seconds
+  - name: script_name
+  - name: script_parameters
+  - name: script_run_on
+  - name: description
 variables:
 - description: Fully qualified resource Id for the resource.
   name: id

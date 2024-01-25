@@ -33,3 +33,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.databoxedge.v2020_05_01_preview.models.Authentication>
+  keywordOnlyArguments:
+  - name: device_id
+  - name: io_t_host_hub
+  - name: io_t_host_hub_id
+  - name: authentication

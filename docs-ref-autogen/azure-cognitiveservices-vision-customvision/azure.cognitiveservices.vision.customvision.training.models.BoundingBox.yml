@@ -32,6 +32,11 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: left
+  - name: top
+  - name: width
+  - name: height
 methods:
 - uid: azure.cognitiveservices.vision.customvision.training.models.BoundingBox.as_dict
   name: as_dict

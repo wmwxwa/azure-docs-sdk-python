@@ -13,6 +13,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.CompositeChildModelCreateObject.as_dict
   name: as_dict

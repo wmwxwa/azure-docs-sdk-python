@@ -60,6 +60,13 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: timeout
+  - name: retry
+  - name: retry_interval_in_seconds
+  - name: secure_input
+  - name: secure_output
 methods:
 - uid: azure.synapse.artifacts.models.ActivityPolicy.as_dict
   name: as_dict

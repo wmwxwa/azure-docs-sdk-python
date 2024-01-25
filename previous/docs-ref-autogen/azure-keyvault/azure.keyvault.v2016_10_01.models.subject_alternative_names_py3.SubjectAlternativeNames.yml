@@ -24,6 +24,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: emails
+  - name: dns_names
+  - name: upns
 methods:
 - uid: azure.keyvault.v2016_10_01.models.subject_alternative_names_py3.SubjectAlternativeNames.as_dict
   name: as_dict

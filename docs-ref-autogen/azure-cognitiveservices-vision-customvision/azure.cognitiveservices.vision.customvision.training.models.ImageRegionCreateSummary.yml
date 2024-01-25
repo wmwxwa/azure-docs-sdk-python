@@ -22,6 +22,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.customvision.training.models.ImageRegionCreateEntry>]
+  keywordOnlyArguments:
+  - name: created
+  - name: duplicated
+  - name: exceeded
 methods:
 - uid: azure.cognitiveservices.vision.customvision.training.models.ImageRegionCreateSummary.as_dict
   name: as_dict

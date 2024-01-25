@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.ComputerVisionError>
+  keywordOnlyArguments:
+  - name: error
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.ComputerVisionErrorResponse.as_dict
   name: as_dict

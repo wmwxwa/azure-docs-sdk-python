@@ -155,6 +155,26 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: account_enabled
+  - name: alternative_names
+  - name: app_id
+  - name: app_role_assignment_required
+  - name: app_roles
+  - name: display_name
+  - name: error_url
+  - name: homepage
+  - name: key_credentials
+  - name: logout_url
+  - name: password_credentials
+  - name: preferred_token_signing_key_thumbprint
+  - name: publisher_name
+  - name: reply_urls
+  - name: saml_metadata_url
+  - name: service_principal_names
+  - name: service_principal_type
+  - name: tags
 variables:
 - description: The object ID.
   name: object_id

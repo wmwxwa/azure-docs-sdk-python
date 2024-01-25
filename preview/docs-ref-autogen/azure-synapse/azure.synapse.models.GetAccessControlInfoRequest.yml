@@ -16,6 +16,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: artifact_name
 variables:
 - description: 'Default value: "Workspace".'
   name: artifact_type

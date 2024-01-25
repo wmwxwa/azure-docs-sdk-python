@@ -29,3 +29,5 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: bitrate_kbps

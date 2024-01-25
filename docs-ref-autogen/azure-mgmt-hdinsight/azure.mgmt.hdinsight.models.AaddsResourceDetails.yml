@@ -49,3 +49,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: domain_name
+  - name: initial_sync_complete
+  - name: ldaps_enabled
+  - name: ldaps_public_certificate_in_base64
+  - name: resource_id
+  - name: subnet_id
+  - name: tenant_id

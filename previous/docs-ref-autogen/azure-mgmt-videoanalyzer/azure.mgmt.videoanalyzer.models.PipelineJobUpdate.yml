@@ -41,6 +41,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:video_analyzer.models.ParameterDefinition>]
+  keywordOnlyArguments:
+  - name: topology_name
+  - name: description
+  - name: parameters
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

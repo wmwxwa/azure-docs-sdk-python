@@ -50,6 +50,14 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: target_cost
+  - name: currency_code
+  - name: start_date_time
+  - name: end_date_time
+  - name: created_date
 variables:
 - description: The identifier of the resource.
   name: id

@@ -53,6 +53,13 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: activated
+  - name: name
+  - name: words
+  - name: mode
+  - name: enabled_for_all_models
+    defaultValue: 'True'
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.JSONModelFeature.as_dict
   name: as_dict

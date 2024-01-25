@@ -24,6 +24,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: resource_id
 variables:
 - description: The client id of the user assigned identity.
   name: client_id

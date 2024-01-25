@@ -38,6 +38,12 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: active
+  - name: running
+  - name: completed
+  - name: succeeded
+  - name: failed
 methods:
 - uid: azure.batch.models.TaskSlotCounts.as_dict
   name: as_dict

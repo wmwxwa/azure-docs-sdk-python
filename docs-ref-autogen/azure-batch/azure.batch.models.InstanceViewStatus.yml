@@ -33,6 +33,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: code
+  - name: display_status
+  - name: level
+  - name: message
+  - name: time
 methods:
 - uid: azure.batch.models.InstanceViewStatus.as_dict
   name: as_dict

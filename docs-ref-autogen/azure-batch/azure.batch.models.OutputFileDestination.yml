@@ -16,6 +16,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.OutputFileBlobContainerDestination>
+  keywordOnlyArguments:
+  - name: container
 methods:
 - uid: azure.batch.models.OutputFileDestination.as_dict
   name: as_dict

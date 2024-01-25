@@ -32,6 +32,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: time
+  - name: utc_offset
 methods:
 - uid: azure.cognitiveservices.search.websearch.models.TimeZoneTimeZoneInformation.as_dict
   name: as_dict

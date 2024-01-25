@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:storage_pool_management.models.IscsiTarget>]
+  keywordOnlyArguments:
+  - name: value
 variables:
 - description: URI to fetch the next section of the paginated response.
   name: next_link

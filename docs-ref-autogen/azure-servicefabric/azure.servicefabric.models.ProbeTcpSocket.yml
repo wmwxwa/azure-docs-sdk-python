@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: port
 methods:
 - uid: azure.servicefabric.models.ProbeTcpSocket.as_dict
   name: as_dict

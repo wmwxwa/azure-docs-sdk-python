@@ -31,6 +31,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.ExitOptions>
+  keywordOnlyArguments:
+  - name: start
+  - name: end
+  - name: exit_options
 methods:
 - uid: azure.batch.models.ExitCodeRangeMapping.as_dict
   name: as_dict

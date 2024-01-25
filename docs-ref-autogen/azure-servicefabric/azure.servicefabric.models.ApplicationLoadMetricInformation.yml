@@ -51,6 +51,11 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
+  keywordOnlyArguments:
+  - name: name
+  - name: reservation_capacity
+  - name: application_capacity
+  - name: application_load
 methods:
 - uid: azure.servicefabric.models.ApplicationLoadMetricInformation.as_dict
   name: as_dict

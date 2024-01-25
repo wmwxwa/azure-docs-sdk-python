@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:any>
+  keywordOnlyArguments:
+  - name: display
+  - name: properties
 variables:
 - description: This is of the format {provider}/{resource}/{operation}.
   name: name

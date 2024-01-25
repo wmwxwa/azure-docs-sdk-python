@@ -93,6 +93,15 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.HealthEvaluationWrapper>]
+  keywordOnlyArguments:
+  - name: aggregated_health_state
+  - name: description
+  - name: upgrade_domain_name
+  - name: baseline_error_count
+  - name: baseline_total_count
+  - name: max_percent_delta_unhealthy_nodes
+  - name: total_count
+  - name: unhealthy_evaluations
 methods:
 - uid: azure.servicefabric.models.UpgradeDomainDeltaNodesCheckHealthEvaluation.as_dict
   name: as_dict

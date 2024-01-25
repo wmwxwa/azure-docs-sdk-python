@@ -47,6 +47,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.devtestlabs.models.SubnetOverride>]
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: allowed_subnets
+  - name: description
+  - name: external_provider_resource_id
+  - name: subnet_overrides
 variables:
 - description: The identifier of the resource.
   name: id

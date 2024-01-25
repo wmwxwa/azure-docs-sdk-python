@@ -30,3 +30,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: first_name
+  - name: last_name
+  - name: email_address
+  - name: phone_number

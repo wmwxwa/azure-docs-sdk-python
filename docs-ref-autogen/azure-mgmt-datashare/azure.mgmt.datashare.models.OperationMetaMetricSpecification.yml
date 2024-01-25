@@ -77,3 +77,16 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: aggregation_type
+  - name: dimensions
+  - name: display_description
+  - name: display_name
+  - name: enable_regional_mdm_account
+  - name: fill_gap_with_zero
+  - name: internal_metric_name
+  - name: name
+  - name: resource_id_dimension_name_override
+  - name: supported_aggregation_types
+  - name: supported_time_grain_types
+  - name: unit

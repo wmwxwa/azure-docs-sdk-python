@@ -22,3 +22,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.datashare.models.Trigger>]
+  keywordOnlyArguments:
+  - name: value
+  - name: next_link

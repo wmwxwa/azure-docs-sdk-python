@@ -53,6 +53,15 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.knowledge.qnamaker.models.QnASearchResultAnswerSpan>
+  keywordOnlyArguments:
+  - name: questions
+  - name: answer
+  - name: score
+  - name: id
+  - name: source
+  - name: metadata
+  - name: context
+  - name: answer_span
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.qn_asearch_result_py3.QnASearchResult.as_dict
   name: as_dict

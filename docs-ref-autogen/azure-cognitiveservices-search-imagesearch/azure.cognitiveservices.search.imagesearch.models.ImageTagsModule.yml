@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.search.imagesearch.models.InsightsTag>]
+  keywordOnlyArguments:
+  - name: value
 methods:
 - uid: azure.cognitiveservices.search.imagesearch.models.ImageTagsModule.as_dict
   name: as_dict

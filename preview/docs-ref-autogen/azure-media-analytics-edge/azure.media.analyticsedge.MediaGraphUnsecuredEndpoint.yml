@@ -29,6 +29,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: url
+  - name: credentials
 methods:
 - uid: azure.media.analyticsedge.MediaGraphUnsecuredEndpoint.as_dict
   name: as_dict

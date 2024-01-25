@@ -55,6 +55,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: readable_type
+  - name: name
+  - name: type_id
+  - name: custom_prebuilt_domain_name
+  - name: custom_prebuilt_model_name
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.IntentClassifier.as_dict
   name: as_dict

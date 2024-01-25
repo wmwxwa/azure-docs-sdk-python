@@ -162,6 +162,7 @@ methods:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
   - name: action
     description: 'Possible values are: "Keep" or "Delete".'
     types:

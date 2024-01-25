@@ -24,6 +24,7 @@ methods:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

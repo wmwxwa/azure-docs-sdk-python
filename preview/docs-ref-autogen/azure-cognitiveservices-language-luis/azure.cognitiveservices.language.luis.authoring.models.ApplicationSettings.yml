@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: id
+  - name: is_public
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.ApplicationSettings.as_dict
   name: as_dict

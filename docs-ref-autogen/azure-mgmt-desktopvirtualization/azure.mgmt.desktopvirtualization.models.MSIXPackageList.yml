@@ -12,7 +12,7 @@ summary: 'List of MSIX Package definitions.
 constructor:
   syntax: 'MSIXPackageList(*, value: List[_models.MSIXPackage] | None = None, **kwargs:
     Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: List of MSIX Package definitions.
     types:

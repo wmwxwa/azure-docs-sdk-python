@@ -33,6 +33,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: root_cause
+  - name: path
+  - name: score
+  - name: description
 methods:
 - uid: azure.ai.metricsadvisor.models.RootCause.as_dict
   name: as_dict

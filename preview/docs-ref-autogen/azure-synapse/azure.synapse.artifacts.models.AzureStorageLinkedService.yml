@@ -86,6 +86,17 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: connection_string
+  - name: account_key
+  - name: sas_uri
+  - name: sas_token
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.AzureStorageLinkedService.as_dict
   name: as_dict

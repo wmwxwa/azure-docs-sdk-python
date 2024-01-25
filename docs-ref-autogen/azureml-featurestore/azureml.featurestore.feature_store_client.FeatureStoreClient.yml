@@ -57,6 +57,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>, <xref:typing.Required>
+  keywordOnlyArguments:
+  - name: credential
+  - name: subscription_id
+  - name: resource_group_name
+  - name: name
 methods:
 - uid: azureml.featurestore.feature_store_client.FeatureStoreClient.generate_feature_retrieval_spec
   name: generate_feature_retrieval_spec

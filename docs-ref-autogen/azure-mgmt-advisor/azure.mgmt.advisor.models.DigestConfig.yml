@@ -60,3 +60,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.advisor.models.DigestConfigState>
+  keywordOnlyArguments:
+  - name: name
+  - name: action_group_resource_id
+  - name: frequency
+  - name: categories
+  - name: language
+  - name: state

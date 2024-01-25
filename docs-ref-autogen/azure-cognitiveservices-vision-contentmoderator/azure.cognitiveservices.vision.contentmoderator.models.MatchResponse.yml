@@ -35,6 +35,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.Status>
+  keywordOnlyArguments:
+  - name: tracking_id
+  - name: cache_id
+  - name: is_match
+  - name: matches
+  - name: status
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.MatchResponse.as_dict
   name: as_dict

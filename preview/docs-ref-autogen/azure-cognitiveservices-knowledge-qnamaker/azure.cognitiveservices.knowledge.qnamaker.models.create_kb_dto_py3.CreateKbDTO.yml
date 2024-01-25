@@ -81,6 +81,16 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: qna_list
+  - name: urls
+  - name: files
+  - name: enable_hierarchical_extraction
+  - name: default_answer_used_for_extraction
+  - name: language
+  - name: enable_multiple_languages
+  - name: default_answer
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.create_kb_dto_py3.CreateKbDTO.as_dict
   name: as_dict

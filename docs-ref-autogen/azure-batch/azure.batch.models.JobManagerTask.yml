@@ -271,6 +271,22 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: id
+  - name: command_line
+  - name: display_name
+  - name: container_settings
+  - name: resource_files
+  - name: output_files
+  - name: environment_settings
+  - name: constraints
+  - name: required_slots
+  - name: kill_job_on_completion
+  - name: user_identity
+  - name: run_exclusive
+  - name: application_package_references
+  - name: authentication_token_settings
+  - name: allow_low_priority_node
 methods:
 - uid: azure.batch.models.JobManagerTask.as_dict
   name: as_dict

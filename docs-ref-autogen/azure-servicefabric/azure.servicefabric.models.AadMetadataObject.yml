@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.AadMetadata>
+  keywordOnlyArguments:
+  - name: type
+  - name: metadata
 methods:
 - uid: azure.servicefabric.models.AadMetadataObject.as_dict
   name: as_dict

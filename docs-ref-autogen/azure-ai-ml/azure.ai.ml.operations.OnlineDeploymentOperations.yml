@@ -38,6 +38,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.ai.ml.entities.OnlineDeployment>
+  keywordOnlyArguments:
   - name: local
     description: Whether deployment should be created locally, defaults to False
     types:
@@ -116,6 +117,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
   - name: local
     description: Whether deployment should be retrieved from local docker environment,
       defaults to False
@@ -144,6 +146,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
   - name: local
     description: Whether deployment should be retrieved from local docker environment,
       defaults to False
@@ -177,6 +180,7 @@ methods:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
   - name: container_type
     description: 'The type of container to retrieve logs from. Possible values include:
 
@@ -199,6 +203,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
   - name: local
     description: Whether deployment should be retrieved from local docker environment,
       defaults to False

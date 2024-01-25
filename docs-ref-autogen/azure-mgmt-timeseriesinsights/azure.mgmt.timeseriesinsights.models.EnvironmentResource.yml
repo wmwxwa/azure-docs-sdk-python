@@ -52,6 +52,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.timeseriesinsights.models.EnvironmentResourceKind>
+  keywordOnlyArguments:
+  - name: location
+  - name: sku
+  - name: tags
 variables:
 - description: Resource Id.
   name: id

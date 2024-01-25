@@ -103,6 +103,20 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: name
+  - name: command
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: linked_service_name
+  - name: policy
+  - name: resource_linked_service
+  - name: folder_path
+  - name: reference_objects
+  - name: extended_properties
+  - name: retention_time_in_days
 methods:
 - uid: azure.synapse.artifacts.models.CustomActivity.as_dict
   name: as_dict

@@ -21,3 +21,5 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datamigration.models.PostgreSqlConnectionInfo>
+  keywordOnlyArguments:
+  - name: target_connection_info

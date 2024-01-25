@@ -38,6 +38,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: additional_properties
+  - name: type
 methods:
 - uid: azure.graphrbac.models.resource_access_py3.ResourceAccess.as_dict
   name: as_dict

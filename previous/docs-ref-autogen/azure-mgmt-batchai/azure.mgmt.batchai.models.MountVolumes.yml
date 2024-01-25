@@ -41,3 +41,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:batch_ai.models.UnmanagedFileSystemReference>]
+  keywordOnlyArguments:
+  - name: azure_file_shares
+  - name: azure_blob_file_systems
+  - name: file_servers
+  - name: unmanaged_file_systems

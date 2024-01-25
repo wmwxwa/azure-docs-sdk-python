@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: exposure_level
+  - name: value
 methods:
 - uid: azure.cognitiveservices.vision.face.models.Exposure.as_dict
   name: as_dict

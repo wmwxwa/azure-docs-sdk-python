@@ -19,6 +19,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.LoginMode>
+  keywordOnlyArguments:
+  - name: login_mode
 methods:
 - uid: azure.batch.models.WindowsUserConfiguration.as_dict
   name: as_dict

@@ -37,6 +37,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: workspace_resource_id
+  - name: contained_resources
+  - name: referenced_resources
 variables:
 - description: The provisioning state for the solution.
   name: provisioning_state

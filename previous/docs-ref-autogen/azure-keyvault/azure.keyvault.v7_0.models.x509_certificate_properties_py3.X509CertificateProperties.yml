@@ -40,6 +40,12 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: subject
+  - name: ekus
+  - name: subject_alternative_names
+  - name: key_usage
+  - name: validity_in_months
 methods:
 - uid: azure.keyvault.v7_0.models.x509_certificate_properties_py3.X509CertificateProperties.as_dict
   name: as_dict

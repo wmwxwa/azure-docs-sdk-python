@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:microsoft_logz.models.LogRules>
+  keywordOnlyArguments:
+  - name: log_rules
 variables:
 - description: 'Flag specifying if the resource provisioning state as tracked by ARM.
 

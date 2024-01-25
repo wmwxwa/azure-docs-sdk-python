@@ -26,3 +26,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: application_id
+  - name: certificate
+  - name: certificate_password

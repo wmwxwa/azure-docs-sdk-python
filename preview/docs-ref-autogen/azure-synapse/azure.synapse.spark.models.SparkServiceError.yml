@@ -24,6 +24,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.synapse.spark.models.SparkErrorSource>
+  keywordOnlyArguments:
+  - name: message
+  - name: error_code
+  - name: source
 methods:
 - uid: azure.synapse.spark.models.SparkServiceError.as_dict
   name: as_dict

@@ -27,6 +27,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: auto_scale_formula
 methods:
 - uid: azure.batch.models.PoolEvaluateAutoScaleParameter.as_dict
   name: as_dict

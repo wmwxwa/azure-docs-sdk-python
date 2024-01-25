@@ -43,3 +43,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.managedservices.models.JustInTimeAccessPolicy>
+  keywordOnlyArguments:
+  - name: principal_id
+  - name: role_definition_id
+  - name: principal_id_display_name
+  - name: just_in_time_access_policy

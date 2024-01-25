@@ -23,6 +23,8 @@ constructor:
     types:
     - <xref:list>[<xref:str>
     - <xref:azure.batch.models.AccessScope>]
+  keywordOnlyArguments:
+  - name: access
 methods:
 - uid: azure.batch.models.AuthenticationTokenSettings.as_dict
   name: as_dict

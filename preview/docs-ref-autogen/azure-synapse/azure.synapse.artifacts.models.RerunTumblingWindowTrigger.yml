@@ -68,6 +68,14 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: requested_start_time
+  - name: requested_end_time
+  - name: max_concurrency
+  - name: additional_properties
+  - name: description
+  - name: annotations
+  - name: parent_trigger
 variables:
 - description: 'Indicates if trigger is running or not. Updated when Start/Stop APIs
     are

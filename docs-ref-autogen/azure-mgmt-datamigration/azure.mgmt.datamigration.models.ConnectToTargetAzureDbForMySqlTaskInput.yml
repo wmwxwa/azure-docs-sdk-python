@@ -32,3 +32,7 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: source_connection_info
+  - name: target_connection_info
+  - name: is_offline_migration

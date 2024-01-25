@@ -32,3 +32,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.support.models.UpdateContactProfile>
+  keywordOnlyArguments:
+  - name: severity
+  - name: status
+  - name: contact_details

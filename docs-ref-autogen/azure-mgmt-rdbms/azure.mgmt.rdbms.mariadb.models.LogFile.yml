@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: size_in_kb
+  - name: type_properties_type
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

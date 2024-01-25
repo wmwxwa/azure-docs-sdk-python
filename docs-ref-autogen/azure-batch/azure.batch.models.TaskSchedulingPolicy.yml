@@ -20,6 +20,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.ComputeNodeFillType>
+  keywordOnlyArguments:
+  - name: node_fill_type
 methods:
 - uid: azure.batch.models.TaskSchedulingPolicy.as_dict
   name: as_dict

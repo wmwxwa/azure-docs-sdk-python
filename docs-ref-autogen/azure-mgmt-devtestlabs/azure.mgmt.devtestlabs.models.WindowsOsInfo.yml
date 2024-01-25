@@ -20,3 +20,5 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.devtestlabs.models.WindowsOsState>
+  keywordOnlyArguments:
+  - name: windows_os_state

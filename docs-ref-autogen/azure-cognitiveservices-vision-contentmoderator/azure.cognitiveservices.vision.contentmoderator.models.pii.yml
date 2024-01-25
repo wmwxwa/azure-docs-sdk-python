@@ -29,6 +29,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.contentmoderator.models.Address>]
+  keywordOnlyArguments:
+  - name: email
+  - name: ssn
+  - name: ipa
+  - name: phone
+  - name: address
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.PII.as_dict
   name: as_dict

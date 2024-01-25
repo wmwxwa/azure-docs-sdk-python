@@ -37,6 +37,11 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:azure.communication.administration.models.NumberUpdateCapabilities>]
+  keywordOnlyArguments:
+  - name: capabilities_update_id
+  - name: created_at
+  - name: capabilities_update_status
+  - name: phone_number_capabilities_updates
 methods:
 - uid: azure.communication.administration.UpdatePhoneNumberCapabilitiesResponse.as_dict
   name: as_dict

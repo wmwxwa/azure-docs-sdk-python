@@ -28,6 +28,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.NodeImpact>]
+  keywordOnlyArguments:
+  - name: node_impact_list
 methods:
 - uid: azure.servicefabric.models.NodeRepairImpactDescription.as_dict
   name: as_dict

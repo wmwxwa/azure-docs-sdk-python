@@ -62,3 +62,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: server_name
+  - name: database_name
+  - name: table_name
+  - name: credential
+  - name: type
+    defaultValue: SqlDatabase
+  - name: subscription_id
+  - name: resource_group_name
+  - name: schema_name
+    defaultValue: dbo

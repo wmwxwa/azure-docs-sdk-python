@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.managedservices.models.Plan>
+  keywordOnlyArguments:
+  - name: properties
+  - name: plan
 variables:
 - description: Fully qualified path of the registration definition.
   name: id

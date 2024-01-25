@@ -27,6 +27,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.search.newssearch.models.NewsTopic>]
+  keywordOnlyArguments:
+  - name: value
 variables:
 - description: A String identifier.
   name: id

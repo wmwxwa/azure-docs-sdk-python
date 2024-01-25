@@ -51,6 +51,13 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.keyvault.v7_0.models.CertificateAttributes>
+  keywordOnlyArguments:
+  - name: key_properties
+  - name: secret_properties
+  - name: x509_certificate_properties
+  - name: lifetime_actions
+  - name: issuer_parameters
+  - name: attributes
 variables:
 - description: The certificate id.
   name: id

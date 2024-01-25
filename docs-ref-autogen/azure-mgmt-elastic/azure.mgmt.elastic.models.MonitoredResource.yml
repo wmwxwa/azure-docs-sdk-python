@@ -32,3 +32,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: sending_logs
+  - name: reason_for_logs_status

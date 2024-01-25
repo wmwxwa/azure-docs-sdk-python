@@ -41,6 +41,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.JSONEntity>]
+  keywordOnlyArguments:
+  - name: start_pos
+  - name: end_pos
+  - name: entity
+  - name: role
+  - name: children
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.JSONEntity.as_dict
   name: as_dict

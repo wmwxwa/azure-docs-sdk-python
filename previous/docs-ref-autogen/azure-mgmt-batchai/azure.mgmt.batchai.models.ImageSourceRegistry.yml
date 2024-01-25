@@ -28,3 +28,7 @@ constructor:
     isRequired: true
     types:
     - <xref:batch_ai.models.PrivateRegistryCredentials>
+  keywordOnlyArguments:
+  - name: image
+  - name: server_url
+  - name: credentials

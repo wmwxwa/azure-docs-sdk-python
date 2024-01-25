@@ -35,3 +35,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.deploymentmanager.models.RestRequestAuthentication>
+  keywordOnlyArguments:
+  - name: method
+  - name: uri
+  - name: authentication

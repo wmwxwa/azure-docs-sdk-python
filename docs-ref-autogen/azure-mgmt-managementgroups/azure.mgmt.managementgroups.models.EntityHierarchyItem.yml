@@ -32,6 +32,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.managementgroups.models.EntityHierarchyItem>]
+  keywordOnlyArguments:
+  - name: display_name
+  - name: permissions
+  - name: children
 variables:
 - description: 'The fully qualified ID for the management group.  For example,
 

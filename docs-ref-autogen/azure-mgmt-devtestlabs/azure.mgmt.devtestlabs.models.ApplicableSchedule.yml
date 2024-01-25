@@ -39,6 +39,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.devtestlabs.models.Schedule>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: lab_vms_shutdown
+  - name: lab_vms_startup
 variables:
 - description: The identifier of the resource.
   name: id

@@ -20,3 +20,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: type
+    defaultValue: Microsoft.PowerBIDedicated/capacities

@@ -14,3 +14,5 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.alertsmanagement.models.ErrorResponseBody>
+  keywordOnlyArguments:
+  - name: error

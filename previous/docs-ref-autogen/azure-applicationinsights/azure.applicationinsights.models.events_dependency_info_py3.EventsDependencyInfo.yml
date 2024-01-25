@@ -56,6 +56,16 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: target
+  - name: data
+  - name: success
+  - name: duration
+  - name: performance_bucket
+  - name: result_code
+  - name: type
+  - name: name
+  - name: id
 methods:
 - uid: azure.applicationinsights.models.events_dependency_info_py3.EventsDependencyInfo.as_dict
   name: as_dict

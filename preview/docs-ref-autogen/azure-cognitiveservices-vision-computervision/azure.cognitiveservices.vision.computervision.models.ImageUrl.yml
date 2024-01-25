@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: url
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.ImageUrl.as_dict
   name: as_dict

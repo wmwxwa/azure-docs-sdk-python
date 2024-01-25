@@ -14,3 +14,5 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.attestation.models.OperationsDefinition>]
+  keywordOnlyArguments:
+  - name: value

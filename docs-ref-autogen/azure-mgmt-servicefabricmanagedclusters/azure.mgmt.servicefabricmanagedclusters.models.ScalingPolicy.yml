@@ -25,3 +25,6 @@ constructor:
     isRequired: true
     types:
     - <xref:service_fabric_managed_clusters_management_client.models.ScalingTrigger>
+  keywordOnlyArguments:
+  - name: scaling_mechanism
+  - name: scaling_trigger

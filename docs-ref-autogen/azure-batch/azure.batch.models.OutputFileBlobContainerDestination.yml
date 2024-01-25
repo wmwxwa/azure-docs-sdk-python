@@ -59,6 +59,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.batch.models.HttpHeader>]
+  keywordOnlyArguments:
+  - name: container_url
+  - name: path
+  - name: identity_reference
+  - name: upload_headers
 methods:
 - uid: azure.batch.models.OutputFileBlobContainerDestination.as_dict
   name: as_dict

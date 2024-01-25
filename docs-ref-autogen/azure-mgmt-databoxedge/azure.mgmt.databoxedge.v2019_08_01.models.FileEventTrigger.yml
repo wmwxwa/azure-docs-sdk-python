@@ -45,6 +45,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: source_info
+  - name: sink_info
+  - name: custom_context_tag
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

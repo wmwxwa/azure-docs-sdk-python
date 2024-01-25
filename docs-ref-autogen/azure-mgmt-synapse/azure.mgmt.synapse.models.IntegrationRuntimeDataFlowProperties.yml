@@ -42,3 +42,8 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: compute_type
+  - name: core_count
+  - name: time_to_live

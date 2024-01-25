@@ -56,6 +56,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.batch.models.MetadataItem>]
+  keywordOnlyArguments:
+  - name: id
+  - name: schedule
+  - name: job_specification
+  - name: display_name
+  - name: metadata
 methods:
 - uid: azure.batch.models.JobScheduleAddParameter.as_dict
   name: as_dict

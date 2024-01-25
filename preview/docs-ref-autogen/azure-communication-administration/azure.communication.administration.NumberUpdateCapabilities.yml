@@ -22,6 +22,9 @@ constructor:
     types:
     - <xref:list>[<xref:str>
     - <xref:azure.communication.administration.models.Capability>]
+  keywordOnlyArguments:
+  - name: add
+  - name: remove
 methods:
 - uid: azure.communication.administration.NumberUpdateCapabilities.as_dict
   name: as_dict

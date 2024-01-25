@@ -41,3 +41,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: type
+  - name: description
+  - name: default

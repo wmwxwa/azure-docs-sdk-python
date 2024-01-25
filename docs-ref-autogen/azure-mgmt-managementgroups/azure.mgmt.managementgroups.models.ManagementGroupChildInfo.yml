@@ -47,3 +47,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.managementgroups.models.ManagementGroupChildInfo>]
+  keywordOnlyArguments:
+  - name: type
+  - name: id
+  - name: name
+  - name: display_name
+  - name: children

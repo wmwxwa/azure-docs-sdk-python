@@ -22,6 +22,10 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: id
+  - name: min_threshold
+  - name: max_threshold
 methods:
 - uid: azure.cognitiveservices.vision.customvision.training.models.PredictionQueryTag.as_dict
   name: as_dict

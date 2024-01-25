@@ -20,3 +20,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.elastic.models.ElasticCloudDeployment>
+  keywordOnlyArguments:
+  - name: elastic_cloud_user
+  - name: elastic_cloud_deployment

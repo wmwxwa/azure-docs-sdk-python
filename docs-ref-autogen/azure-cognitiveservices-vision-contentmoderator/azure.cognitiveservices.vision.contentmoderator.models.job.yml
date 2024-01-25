@@ -58,6 +58,16 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.contentmoderator.models.JobExecutionReportDetails>]
+  keywordOnlyArguments:
+  - name: id
+  - name: team_name
+  - name: status
+  - name: workflow_id
+  - name: type
+  - name: call_back_endpoint
+  - name: review_id
+  - name: result_meta_data
+  - name: job_execution_report
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.Job.as_dict
   name: as_dict

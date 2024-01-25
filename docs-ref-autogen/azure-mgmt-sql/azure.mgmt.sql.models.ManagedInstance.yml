@@ -225,6 +225,33 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.sql.models.ManagedInstanceExternalAdministrator>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: identity
+  - name: sku
+  - name: managed_instance_create_mode
+  - name: administrator_login
+  - name: administrator_login_password
+  - name: subnet_id
+  - name: license_type
+  - name: v_cores
+  - name: storage_size_in_gb
+  - name: collation
+  - name: dns_zone_partner
+  - name: public_data_endpoint_enabled
+  - name: source_managed_instance_id
+  - name: restore_point_in_time
+  - name: proxy_override
+  - name: timezone_id
+  - name: instance_pool_id
+  - name: maintenance_configuration_id
+  - name: minimal_tls_version
+  - name: storage_account_type
+  - name: zone_redundant
+  - name: primary_user_assigned_identity_id
+  - name: key_id
+  - name: administrators
 variables:
 - description: Resource ID.
   name: id

@@ -49,6 +49,11 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: column_type
+  - name: temporal_type
+  - name: memory_optimized
+  - name: is_computed
 variables:
 - description: Resource ID.
   name: id

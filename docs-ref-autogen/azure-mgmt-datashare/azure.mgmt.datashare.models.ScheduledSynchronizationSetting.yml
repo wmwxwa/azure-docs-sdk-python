@@ -37,6 +37,9 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
+  keywordOnlyArguments:
+  - name: recurrence_interval
+  - name: synchronization_time
 variables:
 - description: The resource id of the azure resource.
   name: id

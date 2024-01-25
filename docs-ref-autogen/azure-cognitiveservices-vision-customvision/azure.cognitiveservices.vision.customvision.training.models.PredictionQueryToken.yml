@@ -49,6 +49,16 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: session
+  - name: continuation
+  - name: max_count
+  - name: order_by
+  - name: tags
+  - name: iteration_id
+  - name: start_time
+  - name: end_time
+  - name: application
 methods:
 - uid: azure.cognitiveservices.vision.customvision.training.models.PredictionQueryToken.as_dict
   name: as_dict

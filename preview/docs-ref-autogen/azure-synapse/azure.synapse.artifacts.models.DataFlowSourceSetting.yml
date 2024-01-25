@@ -27,6 +27,10 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: source_name
+  - name: row_limit
 methods:
 - uid: azure.synapse.artifacts.models.DataFlowSourceSetting.as_dict
   name: as_dict

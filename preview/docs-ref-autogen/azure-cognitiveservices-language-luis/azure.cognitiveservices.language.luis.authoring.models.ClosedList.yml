@@ -23,6 +23,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: name
+  - name: sub_lists
+  - name: roles
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.ClosedList.as_dict
   name: as_dict

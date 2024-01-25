@@ -44,6 +44,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.ImageProcessingSettings>
+  keywordOnlyArguments:
+  - name: domain_id
+  - name: classification_type
+  - name: target_export_platforms
+  - name: image_processing_settings
 variables:
 - description: Indicates if negative set is being used.
   name: use_negative_set

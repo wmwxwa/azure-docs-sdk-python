@@ -14,3 +14,5 @@ constructor:
     isRequired: true
     types:
     - <xref:azure_arc_data_management_client.models.ErrorResponseBody>
+  keywordOnlyArguments:
+  - name: error

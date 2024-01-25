@@ -34,3 +34,6 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: failover_policy
+  - name: failover_with_data_loss_grace_period_minutes

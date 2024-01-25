@@ -112,6 +112,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: node_type_inclusion_list
+  - name: application_inclusion_list
 methods:
 - uid: azure.servicefabric.models.ChaosTargetFilter.as_dict
   name: as_dict

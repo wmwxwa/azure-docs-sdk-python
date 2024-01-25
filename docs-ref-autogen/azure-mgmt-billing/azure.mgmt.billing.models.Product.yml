@@ -38,6 +38,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.billing.models.BillingFrequency>
+  keywordOnlyArguments:
+  - name: auto_renew
+  - name: status
+  - name: billing_frequency
 variables:
 - description: Resource Id.
   name: id

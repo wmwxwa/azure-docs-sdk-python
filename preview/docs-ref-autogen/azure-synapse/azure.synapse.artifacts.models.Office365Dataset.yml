@@ -89,6 +89,17 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: linked_service_name
+  - name: table_name
+  - name: additional_properties
+  - name: description
+  - name: structure
+  - name: schema
+  - name: parameters
+  - name: annotations
+  - name: folder
+  - name: predicate
 methods:
 - uid: azure.synapse.artifacts.models.Office365Dataset.as_dict
   name: as_dict

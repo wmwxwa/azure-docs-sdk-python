@@ -24,6 +24,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: application_name
 methods:
 - uid: azure.servicefabric.models.ApplicationBackupEntity.as_dict
   name: as_dict

@@ -47,6 +47,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.PackageSharingPolicyInfo>]
+  keywordOnlyArguments:
+  - name: service_manifest_name
+  - name: application_type_name
+  - name: application_type_version
+  - name: node_name
+  - name: package_sharing_policy
 methods:
 - uid: azure.servicefabric.models.DeployServicePackageToNodeDescription.as_dict
   name: as_dict

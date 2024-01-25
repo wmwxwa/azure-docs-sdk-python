@@ -27,6 +27,10 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: country_code
+  - name: text
+  - name: index
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.Phone.as_dict
   name: as_dict

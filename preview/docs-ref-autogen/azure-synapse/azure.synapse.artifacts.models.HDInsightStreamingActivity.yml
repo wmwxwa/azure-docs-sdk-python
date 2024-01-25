@@ -132,6 +132,26 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:object>]
+  keywordOnlyArguments:
+  - name: name
+  - name: mapper
+  - name: reducer
+  - name: input
+  - name: output
+  - name: file_paths
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: linked_service_name
+  - name: policy
+  - name: storage_linked_services
+  - name: arguments
+  - name: get_debug_info
+  - name: file_linked_service
+  - name: combiner
+  - name: command_environment
+  - name: defines
 methods:
 - uid: azure.synapse.artifacts.models.HDInsightStreamingActivity.as_dict
   name: as_dict

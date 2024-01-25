@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: code
+  - name: message
 methods:
 - uid: azure.cognitiveservices.anomalydetector.models.APIError.as_dict
   name: as_dict

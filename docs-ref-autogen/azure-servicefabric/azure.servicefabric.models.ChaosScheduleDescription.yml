@@ -21,6 +21,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.ChaosSchedule>
+  keywordOnlyArguments:
+  - name: version
+  - name: schedule
 methods:
 - uid: azure.servicefabric.models.ChaosScheduleDescription.as_dict
   name: as_dict

@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: is_singleton_replica_move_allowed_during_upgrade
+  - name: restore_replica_location_after_upgrade
 methods:
 - uid: azure.servicefabric.models.ReplicaLifecycleDescription.as_dict
   name: as_dict

@@ -24,6 +24,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: type
+  - name: nose_and_mouth_covered
 methods:
 - uid: azure.cognitiveservices.vision.face.models.Mask.as_dict
   name: as_dict

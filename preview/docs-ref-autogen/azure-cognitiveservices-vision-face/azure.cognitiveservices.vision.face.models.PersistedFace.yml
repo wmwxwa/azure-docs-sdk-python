@@ -30,6 +30,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: persisted_face_id
+  - name: user_data
 methods:
 - uid: azure.cognitiveservices.vision.face.models.PersistedFace.as_dict
   name: as_dict

@@ -43,6 +43,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.SecretBase>
+  keywordOnlyArguments:
+  - name: url
+  - name: pfx
+  - name: password
 methods:
 - uid: azure.synapse.artifacts.models.WebClientCertificateAuthentication.as_dict
   name: as_dict

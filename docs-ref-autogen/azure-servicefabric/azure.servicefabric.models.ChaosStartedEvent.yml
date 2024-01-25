@@ -106,6 +106,21 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: max_concurrent_faults
+  - name: time_to_run_in_seconds
+  - name: max_cluster_stabilization_timeout_in_seconds
+  - name: wait_time_between_iterations_in_seconds
+  - name: wait_time_between_faults_in_seconds
+  - name: move_replica_fault_enabled
+  - name: included_node_type_list
+  - name: included_application_list
+  - name: cluster_health_policy
+  - name: chaos_context
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.ChaosStartedEvent.as_dict
   name: as_dict

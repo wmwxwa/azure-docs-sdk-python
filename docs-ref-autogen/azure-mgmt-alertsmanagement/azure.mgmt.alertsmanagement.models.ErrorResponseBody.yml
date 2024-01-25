@@ -30,3 +30,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.alertsmanagement.models.ErrorResponseBody>]
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: target
+  - name: details

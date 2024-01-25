@@ -69,3 +69,15 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: name
+  - name: min_instance_count
+  - name: target_instance_count
+  - name: vm_group_name
+  - name: autoscale_configuration
+  - name: hardware_profile
+  - name: os_profile
+  - name: virtual_network_profile
+  - name: data_disks_groups
+  - name: script_actions
+  - name: encrypt_data_disks

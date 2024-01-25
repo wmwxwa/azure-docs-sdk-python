@@ -35,6 +35,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.SqlScriptMetadata>
+  keywordOnlyArguments:
+  - name: query
+  - name: current_connection
+  - name: additional_properties
+  - name: metadata
 methods:
 - uid: azure.synapse.artifacts.models.SqlScriptContent.as_dict
   name: as_dict

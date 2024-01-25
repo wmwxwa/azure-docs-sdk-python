@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
+  keywordOnlyArguments:
+  - name: start_date
+  - name: end_date
 variables:
 - description: The billing currency for the enrollment.
   name: currency

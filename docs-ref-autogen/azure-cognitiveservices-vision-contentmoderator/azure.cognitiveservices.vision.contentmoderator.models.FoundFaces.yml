@@ -45,6 +45,14 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.contentmoderator.models.Face>]
+  keywordOnlyArguments:
+  - name: status
+  - name: tracking_id
+  - name: cache_id
+  - name: result
+  - name: count
+  - name: advanced_info
+  - name: faces
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.FoundFaces.as_dict
   name: as_dict

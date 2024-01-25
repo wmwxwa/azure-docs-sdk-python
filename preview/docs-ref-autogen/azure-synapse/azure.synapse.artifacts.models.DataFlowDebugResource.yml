@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.DataFlow>
+  keywordOnlyArguments:
+  - name: properties
+  - name: name
 methods:
 - uid: azure.synapse.artifacts.models.DataFlowDebugResource.as_dict
   name: as_dict

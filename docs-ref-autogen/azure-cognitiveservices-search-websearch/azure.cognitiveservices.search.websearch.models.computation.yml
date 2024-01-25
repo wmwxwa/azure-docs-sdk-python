@@ -52,6 +52,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: expression
+  - name: value
 variables:
 - description: A String identifier.
   name: id

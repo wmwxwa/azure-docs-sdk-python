@@ -9,7 +9,7 @@ summary: Storage properties.
 constructor:
   syntax: 'ManagedEnvironmentStorageProperties(*, azure_file: AzureFileProperties
     | None = None, **kwargs)'
-  parameters:
+  keywordOnlyArguments:
   - name: azure_file
     description: Azure file properties.
     types:

@@ -26,3 +26,11 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: max_concurrent_trials
+  - name: max_trials
+    defaultValue: '1'
+  - name: max_nodes
+    defaultValue: '1'
+  - name: timeout_minutes
+  - name: trial_timeout_minutes

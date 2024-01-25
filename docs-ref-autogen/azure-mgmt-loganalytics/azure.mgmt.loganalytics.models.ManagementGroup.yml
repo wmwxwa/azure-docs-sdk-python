@@ -53,3 +53,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: server_count
+  - name: is_gateway
+  - name: name
+  - name: id
+  - name: created
+  - name: data_received
+  - name: version
+  - name: sku

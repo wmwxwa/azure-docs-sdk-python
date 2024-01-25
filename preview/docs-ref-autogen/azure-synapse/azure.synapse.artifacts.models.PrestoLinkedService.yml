@@ -157,6 +157,26 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: host
+  - name: server_version
+  - name: catalog
+  - name: authentication_type
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: port
+  - name: username
+  - name: password
+  - name: enable_ssl
+  - name: trusted_cert_path
+  - name: use_system_trust_store
+  - name: allow_host_name_cn_mismatch
+  - name: allow_self_signed_server_cert
+  - name: time_zone_id
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.PrestoLinkedService.as_dict
   name: as_dict

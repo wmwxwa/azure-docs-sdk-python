@@ -38,6 +38,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.maps.route.models.GeoJsonObjectType>
+  keywordOnlyArguments:
+  - name: features
 methods:
 - uid: azure.maps.route.models.GeoJsonFeatureCollection.as_dict
   name: as_dict

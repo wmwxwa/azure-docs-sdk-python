@@ -83,6 +83,17 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: name
+  - name: trained_model_name
+  - name: trained_model_linked_service_name
+  - name: trained_model_file_path
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: linked_service_name
+  - name: policy
 methods:
 - uid: azure.synapse.artifacts.models.AzureMLUpdateResourceActivity.as_dict
   name: as_dict

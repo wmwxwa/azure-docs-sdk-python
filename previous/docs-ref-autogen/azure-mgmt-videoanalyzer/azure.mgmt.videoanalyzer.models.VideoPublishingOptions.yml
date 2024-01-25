@@ -36,3 +36,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: disable_archive
+  - name: disable_rtsp_publishing

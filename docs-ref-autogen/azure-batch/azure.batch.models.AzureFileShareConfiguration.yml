@@ -46,6 +46,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: account_name
+  - name: azure_file_url
+  - name: account_key
+  - name: relative_mount_path
+  - name: mount_options
 methods:
 - uid: azure.batch.models.AzureFileShareConfiguration.as_dict
   name: as_dict

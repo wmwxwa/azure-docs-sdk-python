@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: value
+  - name: next_link
 methods:
 - uid: azure.synapse.artifacts.models.PipelineListResponse.as_dict
   name: as_dict

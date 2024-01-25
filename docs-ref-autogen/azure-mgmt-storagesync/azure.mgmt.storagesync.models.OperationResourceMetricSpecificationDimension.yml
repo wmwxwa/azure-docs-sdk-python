@@ -26,3 +26,7 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: name
+  - name: display_name
+  - name: to_be_exported_for_shoebox

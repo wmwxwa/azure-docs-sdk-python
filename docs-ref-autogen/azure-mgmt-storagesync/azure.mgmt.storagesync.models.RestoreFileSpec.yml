@@ -20,3 +20,6 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: path
+  - name: isdir

@@ -50,6 +50,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: security_enabled_access
+  - name: proxy_dns_name
+  - name: proxy_port
+  - name: visibility
+  - name: use_server_default
+  - name: redirection_state
+  - name: state
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

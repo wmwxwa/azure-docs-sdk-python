@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.alertsmanagement.models.Essentials>
+  keywordOnlyArguments:
+  - name: essentials
 variables:
 - description: Any object.
   name: context

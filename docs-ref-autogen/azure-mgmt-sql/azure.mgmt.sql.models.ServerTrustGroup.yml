@@ -24,6 +24,9 @@ constructor:
     types:
     - <xref:list>[<xref:str>
     - <xref:azure.mgmt.sql.models.ServerTrustGroupPropertiesTrustScopesItem>]
+  keywordOnlyArguments:
+  - name: group_members
+  - name: trust_scopes
 variables:
 - description: Resource ID.
   name: id

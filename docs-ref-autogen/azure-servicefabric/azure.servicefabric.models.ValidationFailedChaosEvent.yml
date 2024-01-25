@@ -35,6 +35,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: time_stamp_utc
+  - name: reason
 methods:
 - uid: azure.servicefabric.models.ValidationFailedChaosEvent.as_dict
   name: as_dict

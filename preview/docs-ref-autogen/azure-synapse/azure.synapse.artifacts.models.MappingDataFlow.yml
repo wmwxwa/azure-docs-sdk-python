@@ -58,6 +58,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: description
+  - name: annotations
+  - name: folder
+  - name: sources
+  - name: sinks
+  - name: transformations
+  - name: script
 methods:
 - uid: azure.synapse.artifacts.models.MappingDataFlow.as_dict
   name: as_dict

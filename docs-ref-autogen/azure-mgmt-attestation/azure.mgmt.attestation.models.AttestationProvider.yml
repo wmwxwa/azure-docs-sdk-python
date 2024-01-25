@@ -46,6 +46,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: trust_model
+  - name: status
+  - name: attest_uri
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

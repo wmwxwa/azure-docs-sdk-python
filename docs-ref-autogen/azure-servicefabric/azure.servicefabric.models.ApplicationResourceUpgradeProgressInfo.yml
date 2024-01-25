@@ -111,6 +111,21 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: target_application_type_version
+  - name: start_timestamp_utc
+  - name: upgrade_state
+  - name: percent_completed
+  - name: service_upgrade_progress
+  - name: rolling_upgrade_mode
+    defaultValue: Monitored
+  - name: upgrade_duration
+    defaultValue: PT0H2M0S
+  - name: application_upgrade_status_details
+  - name: upgrade_replica_set_check_timeout_in_seconds
+    defaultValue: '42949672925'
+  - name: failure_timestamp_utc
 methods:
 - uid: azure.servicefabric.models.ApplicationResourceUpgradeProgressInfo.as_dict
   name: as_dict

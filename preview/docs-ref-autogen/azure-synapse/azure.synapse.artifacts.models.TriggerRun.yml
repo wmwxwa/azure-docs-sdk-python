@@ -19,6 +19,8 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:object>]
+  keywordOnlyArguments:
+  - name: additional_properties
 variables:
 - description: Trigger run id.
   name: trigger_run_id

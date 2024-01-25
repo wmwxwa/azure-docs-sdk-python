@@ -49,6 +49,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: max_percent_delta_unhealthy_nodes
+  - name: max_percent_upgrade_domain_delta_unhealthy_nodes
 methods:
 - uid: azure.servicefabric.models.ClusterUpgradeHealthPolicyObject.as_dict
   name: as_dict

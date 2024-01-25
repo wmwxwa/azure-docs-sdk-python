@@ -72,3 +72,15 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: source_mdm_namespace
+  - name: display_name
+  - name: name
+  - name: aggregation_type
+  - name: display_description
+  - name: source_mdm_account
+  - name: enable_regional_mdm_account
+  - name: unit
+  - name: dimensions
+  - name: supports_instance_level_aggregation
+  - name: metric_filter_pattern

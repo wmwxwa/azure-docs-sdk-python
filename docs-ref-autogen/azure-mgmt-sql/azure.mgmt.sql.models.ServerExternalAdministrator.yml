@@ -48,3 +48,10 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: administrator_type
+  - name: principal_type
+  - name: login
+  - name: sid
+  - name: tenant_id
+  - name: azure_ad_only_authentication

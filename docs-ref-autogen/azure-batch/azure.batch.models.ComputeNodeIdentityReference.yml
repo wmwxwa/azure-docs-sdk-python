@@ -16,6 +16,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: resource_id
 methods:
 - uid: azure.batch.models.ComputeNodeIdentityReference.as_dict
   name: as_dict

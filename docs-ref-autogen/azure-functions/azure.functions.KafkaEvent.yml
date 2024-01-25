@@ -10,6 +10,14 @@ constructor:
   syntax: 'KafkaEvent(*, body: bytes, trigger_metadata: Mapping[str, Datum] = None,
     key: str | None = None, offset: int | None = None, partition: int | None = None,
     topic: str | None = None, timestamp: str | None = None)'
+  keywordOnlyArguments:
+  - name: body
+  - name: trigger_metadata
+  - name: key
+  - name: offset
+  - name: partition
+  - name: topic
+  - name: timestamp
 methods:
 - uid: azure.functions.KafkaEvent.get_body
   name: get_body

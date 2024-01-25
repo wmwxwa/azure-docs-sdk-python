@@ -94,6 +94,23 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.applicationinsights.models.EventsExceptionDetail>]
+  keywordOnlyArguments:
+  - name: severity_level
+  - name: problem_id
+  - name: handled_at
+  - name: assembly
+  - name: method
+  - name: message
+  - name: type
+  - name: outer_type
+  - name: outer_method
+  - name: outer_assembly
+  - name: outer_message
+  - name: innermost_type
+  - name: innermost_message
+  - name: innermost_method
+  - name: innermost_assembly
+  - name: details
 methods:
 - uid: azure.applicationinsights.models.EventsExceptionInfo.as_dict
   name: as_dict

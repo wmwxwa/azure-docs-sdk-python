@@ -21,6 +21,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: version
 methods:
 - uid: azure.servicefabric.models.RepairTaskUpdateInfo.as_dict
   name: as_dict

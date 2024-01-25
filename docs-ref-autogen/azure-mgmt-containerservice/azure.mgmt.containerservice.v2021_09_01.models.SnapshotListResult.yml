@@ -12,7 +12,7 @@ summary: 'The response from the List Snapshots operation.
 constructor:
   syntax: 'SnapshotListResult(*, value: List[_models.Snapshot] | None = None, **kwargs:
     Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: The list of snapshots.
     types:

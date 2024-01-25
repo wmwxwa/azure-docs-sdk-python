@@ -44,6 +44,11 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.cognitiveservices.language.luis.authoring.models.enum>
+  keywordOnlyArguments:
+  - name: id
+  - name: readable_type
+  - name: name
+  - name: type_id
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.ModelInfo.as_dict
   name: as_dict

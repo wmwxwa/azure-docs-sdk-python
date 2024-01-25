@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: code_version
+  - name: config_version
 methods:
 - uid: azure.servicefabric.models.UnprovisionFabricDescription.as_dict
   name: as_dict

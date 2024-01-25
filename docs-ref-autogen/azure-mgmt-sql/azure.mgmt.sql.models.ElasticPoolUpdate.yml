@@ -57,3 +57,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: sku
+  - name: tags
+  - name: max_size_bytes
+  - name: per_database_settings
+  - name: zone_redundant
+  - name: license_type
+  - name: maintenance_configuration_id

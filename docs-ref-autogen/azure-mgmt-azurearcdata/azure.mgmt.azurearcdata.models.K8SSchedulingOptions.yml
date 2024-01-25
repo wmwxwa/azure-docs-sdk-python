@@ -26,3 +26,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure_arc_data_management_client.models.K8SResourceRequirements>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: resources

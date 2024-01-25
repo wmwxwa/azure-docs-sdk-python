@@ -50,6 +50,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: sku
+  - name: tags
+  - name: system_data
+  - name: capacity_limit
+  - name: capacity_object_id
 variables:
 - description: An identifier that represents the PowerBI Dedicated resource.
   name: id

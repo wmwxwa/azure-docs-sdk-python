@@ -48,6 +48,7 @@ functions:
 
       should be the storage account key.'
     defaultValue: None
+  keywordOnlyArguments:
   - name: overwrite
     description: 'Whether the local file should be overwritten if it already exists.
       The default value is

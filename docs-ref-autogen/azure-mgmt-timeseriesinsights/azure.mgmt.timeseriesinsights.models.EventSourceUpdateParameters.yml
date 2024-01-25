@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: tags
 variables:
 - description: 'The kind of the event source.Constant filled by server.  Possible
     values include:

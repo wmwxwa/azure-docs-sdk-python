@@ -146,6 +146,27 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:object>]
+  keywordOnlyArguments:
+  - name: name
+  - name: source
+  - name: sink
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: linked_service_name
+  - name: policy
+  - name: inputs
+  - name: outputs
+  - name: translator
+  - name: enable_staging
+  - name: staging_settings
+  - name: parallel_copies
+  - name: data_integration_units
+  - name: enable_skip_incompatible_row
+  - name: redirect_incompatible_row_settings
+  - name: preserve_rules
+  - name: preserve
 methods:
 - uid: azure.synapse.artifacts.models.CopyActivity.as_dict
   name: as_dict

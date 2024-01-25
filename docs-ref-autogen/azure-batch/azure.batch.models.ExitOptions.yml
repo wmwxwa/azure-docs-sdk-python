@@ -37,6 +37,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.DependencyAction>
+  keywordOnlyArguments:
+  - name: job_action
+  - name: dependency_action
 methods:
 - uid: azure.batch.models.ExitOptions.as_dict
   name: as_dict

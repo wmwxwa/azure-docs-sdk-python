@@ -24,6 +24,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: store_relative_path
+  - name: file_count
 methods:
 - uid: azure.servicefabric.models.FolderInfo.as_dict
   name: as_dict

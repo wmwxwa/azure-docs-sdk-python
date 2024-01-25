@@ -63,6 +63,16 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: author
+  - name: description
+  - name: image_reference
+  - name: icon
+  - name: enabled
+  - name: plan_id
+  - name: is_plan_authorized
 variables:
 - description: The identifier of the resource.
   name: id

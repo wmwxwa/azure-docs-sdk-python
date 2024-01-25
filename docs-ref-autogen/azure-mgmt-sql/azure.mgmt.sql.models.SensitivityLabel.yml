@@ -40,6 +40,12 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.sql.models.SensitivityLabelRank>
+  keywordOnlyArguments:
+  - name: label_name
+  - name: label_id
+  - name: information_type
+  - name: information_type_id
+  - name: rank
 variables:
 - description: Resource ID.
   name: id

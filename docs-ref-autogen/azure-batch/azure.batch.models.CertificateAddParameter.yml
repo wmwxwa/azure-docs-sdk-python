@@ -41,6 +41,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: thumbprint
+  - name: thumbprint_algorithm
+  - name: data
+  - name: certificate_format
+  - name: password
 methods:
 - uid: azure.batch.models.CertificateAddParameter.as_dict
   name: as_dict

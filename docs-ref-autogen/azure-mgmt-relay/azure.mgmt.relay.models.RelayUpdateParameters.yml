@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.relay.models.Sku>
+  keywordOnlyArguments:
+  - name: tags
+  - name: sku
 variables:
 - description: Resource ID.
   name: id

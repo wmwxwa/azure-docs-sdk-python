@@ -22,3 +22,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.AutoscaleTimeAndCapacity>
+  keywordOnlyArguments:
+  - name: days
+  - name: time_and_capacity

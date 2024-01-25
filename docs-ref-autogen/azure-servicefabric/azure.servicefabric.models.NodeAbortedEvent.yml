@@ -89,6 +89,20 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: node_name
+  - name: node_instance
+  - name: node_id
+  - name: upgrade_domain
+  - name: fault_domain
+  - name: ip_address_or_fqdn
+  - name: hostname
+  - name: is_seed_node
+  - name: node_version
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.NodeAbortedEvent.as_dict
   name: as_dict

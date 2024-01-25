@@ -40,6 +40,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: target_location
+  - name: target_subscription_id
+  - name: tags
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

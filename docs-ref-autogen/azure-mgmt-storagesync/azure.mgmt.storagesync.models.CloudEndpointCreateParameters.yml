@@ -34,6 +34,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: storage_account_resource_id
+  - name: azure_file_share_name
+  - name: storage_account_tenant_id
+  - name: friendly_name
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

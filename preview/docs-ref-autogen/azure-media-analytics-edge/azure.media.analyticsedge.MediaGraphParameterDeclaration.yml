@@ -43,6 +43,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: type
+  - name: description
+  - name: default
 methods:
 - uid: azure.media.analyticsedge.MediaGraphParameterDeclaration.as_dict
   name: as_dict

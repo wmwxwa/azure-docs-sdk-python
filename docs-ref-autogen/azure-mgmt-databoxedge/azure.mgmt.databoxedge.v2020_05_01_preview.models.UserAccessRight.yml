@@ -25,3 +25,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.databoxedge.v2020_05_01_preview.models.ShareAccessType>
+  keywordOnlyArguments:
+  - name: user_id
+  - name: access_type

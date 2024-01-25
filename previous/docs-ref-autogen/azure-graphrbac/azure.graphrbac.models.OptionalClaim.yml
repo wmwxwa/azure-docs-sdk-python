@@ -29,6 +29,11 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: name
+  - name: source
+  - name: essential
+  - name: additional_properties
 methods:
 - uid: azure.graphrbac.models.OptionalClaim.as_dict
   name: as_dict

@@ -17,6 +17,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.keyvault.v7_0.models.ActionType>
+  keywordOnlyArguments:
+  - name: action_type
 methods:
 - uid: azure.keyvault.v7_0.models.action_py3.Action.as_dict
   name: as_dict

@@ -38,6 +38,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.ClusterHealthPolicy>
+  keywordOnlyArguments:
+  - name: application_health_policy_map
+  - name: cluster_health_policy
 methods:
 - uid: azure.servicefabric.models.ClusterHealthPolicies.as_dict
   name: as_dict

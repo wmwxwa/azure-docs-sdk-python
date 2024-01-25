@@ -101,6 +101,12 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.NodeCommunicationMode>
+  keywordOnlyArguments:
+  - name: certificate_references
+  - name: application_package_references
+  - name: metadata
+  - name: start_task
+  - name: target_node_communication_mode
 methods:
 - uid: azure.batch.models.PoolUpdatePropertiesParameter.as_dict
   name: as_dict

@@ -126,6 +126,24 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: application_id
+  - name: service_name
+  - name: service_package_name
+  - name: service_package_activation_id
+  - name: is_exclusive
+  - name: code_package_name
+  - name: entry_point_type
+  - name: image_name
+  - name: container_name
+  - name: host_id
+  - name: exit_code
+  - name: unexpected_termination
+  - name: start_time
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.ApplicationContainerInstanceExitedEvent.as_dict
   name: as_dict

@@ -58,6 +58,11 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: top
+  - name: bottom
+  - name: left
+  - name: right
 methods:
 - uid: azure.cognitiveservices.search.visualsearch.models.crop_area_py3.CropArea.as_dict
   name: as_dict

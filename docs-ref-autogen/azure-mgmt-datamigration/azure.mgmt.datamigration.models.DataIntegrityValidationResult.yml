@@ -22,3 +22,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datamigration.models.ValidationError>
+  keywordOnlyArguments:
+  - name: failed_objects
+  - name: validation_errors

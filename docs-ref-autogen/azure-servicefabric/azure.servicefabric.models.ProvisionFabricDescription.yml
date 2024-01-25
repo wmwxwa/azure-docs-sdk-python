@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: code_file_path
+  - name: cluster_manifest_file_path
 methods:
 - uid: azure.servicefabric.models.ProvisionFabricDescription.as_dict
   name: as_dict

@@ -38,6 +38,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.ReplicaHealthStateChunkList>
+  keywordOnlyArguments:
+  - name: health_state
+  - name: partition_id
+  - name: replica_health_state_chunks
 methods:
 - uid: azure.servicefabric.models.PartitionHealthStateChunk.as_dict
   name: as_dict

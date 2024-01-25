@@ -23,3 +23,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.alertsmanagement.models.Operation>]
+  keywordOnlyArguments:
+  - name: value
+  - name: next_link

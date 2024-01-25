@@ -46,6 +46,12 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: base64_encoded_certificate
+  - name: password
+  - name: certificate_policy
+  - name: certificate_attributes
+  - name: tags
 methods:
 - uid: azure.keyvault.v2016_10_01.models.certificate_import_parameters_py3.CertificateImportParameters.as_dict
   name: as_dict

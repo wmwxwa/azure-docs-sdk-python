@@ -15,6 +15,25 @@ constructor:
     reply_to_session_id: str | None = None, scheduled_enqueue_time: datetime | None
     = None, session_id: str | None = None, time_to_live: timedelta | None = None,
     to: str | None = None, user_properties: Dict[str, object])'
+  keywordOnlyArguments:
+  - name: body
+  - name: trigger_metadata
+  - name: content_type
+  - name: correlation_id
+  - name: delivery_count
+  - name: enqueued_time_utc
+  - name: expiration_time
+  - name: expires_at_utc
+  - name: label
+  - name: message_id
+  - name: partition_key
+  - name: reply_to
+  - name: reply_to_session_id
+  - name: scheduled_enqueue_time
+  - name: session_id
+  - name: time_to_live
+  - name: to
+  - name: user_properties
 methods:
 - uid: azure.functions.servicebus.ServiceBusMessage.get_body
   name: get_body

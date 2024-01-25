@@ -15,7 +15,7 @@ summary: 'Collection of Top-level domains.
 constructor:
   syntax: 'TopLevelDomainCollection(*, value: List[_models.TopLevelDomain], **kwargs:
     Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: Collection of resources. Required.
     types:

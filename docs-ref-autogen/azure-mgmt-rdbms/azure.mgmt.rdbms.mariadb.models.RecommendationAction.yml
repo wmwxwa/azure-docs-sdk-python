@@ -55,6 +55,15 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: advisor_name
+  - name: session_id
+  - name: action_id
+  - name: created_time
+  - name: expiration_time
+  - name: reason
+  - name: recommendation_type
+  - name: details
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

@@ -27,6 +27,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.spellcheck.models.SpellingFlaggedToken>]
+  keywordOnlyArguments:
+  - name: flagged_tokens
 variables:
 - description: A String identifier.
   name: id

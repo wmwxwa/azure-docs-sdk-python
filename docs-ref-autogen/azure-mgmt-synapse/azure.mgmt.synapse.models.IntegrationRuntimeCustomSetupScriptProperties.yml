@@ -22,3 +22,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.synapse.models.SecureString>
+  keywordOnlyArguments:
+  - name: blob_container_uri
+  - name: sas_token

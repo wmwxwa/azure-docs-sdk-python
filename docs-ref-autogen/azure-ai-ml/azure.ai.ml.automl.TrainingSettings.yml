@@ -73,6 +73,17 @@ constructor:
     isRequired: true
     types:
     - <xref:typing.Optional>[<xref:typing.Union>[<xref:str>, <xref:azure.ai.ml.constants.TabularTrainingMode>]]
+  keywordOnlyArguments:
+  - name: enable_onnx_compatible_models
+  - name: enable_dnn_training
+  - name: enable_model_explainability
+  - name: enable_stack_ensemble
+  - name: enable_vote_ensemble
+  - name: stack_ensemble_settings
+  - name: ensemble_model_download_timeout
+  - name: allowed_training_algorithms
+  - name: blocked_training_algorithms
+  - name: training_mode
 attributes:
 - uid: azure.ai.ml.automl.TrainingSettings.allowed_training_algorithms
   name: allowed_training_algorithms

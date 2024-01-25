@@ -18,6 +18,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.models.Executors>
+  keywordOnlyArguments:
+  - name: stages
+  - name: executors
 methods:
 - uid: azure.synapse.models.HistoryServerDiagnosticResponseData.as_dict
   name: as_dict

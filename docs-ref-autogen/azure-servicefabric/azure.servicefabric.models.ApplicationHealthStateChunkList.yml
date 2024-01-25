@@ -29,6 +29,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ApplicationHealthStateChunk>]
+  keywordOnlyArguments:
+  - name: total_count
+  - name: items
 methods:
 - uid: azure.servicefabric.models.ApplicationHealthStateChunkList.as_dict
   name: as_dict

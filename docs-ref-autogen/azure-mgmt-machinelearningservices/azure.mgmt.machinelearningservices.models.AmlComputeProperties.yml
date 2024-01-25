@@ -68,6 +68,14 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.machinelearningservices.models.RemoteLoginPortPublicAccess>
+  keywordOnlyArguments:
+  - name: vm_size
+  - name: vm_priority
+  - name: scale_settings
+  - name: user_account_credentials
+  - name: subnet
+  - name: remote_login_port_public_access
+    defaultValue: NotSpecified
 variables:
 - description: 'Allocation state of the compute. Possible values are: steady -
 

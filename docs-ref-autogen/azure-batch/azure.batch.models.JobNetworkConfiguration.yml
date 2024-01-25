@@ -55,6 +55,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: subnet_id
 methods:
 - uid: azure.batch.models.JobNetworkConfiguration.as_dict
   name: as_dict

@@ -37,6 +37,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.operationsmanagement.models.SolutionProperties>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: plan
+  - name: properties
 variables:
 - description: Resource ID.
   name: id

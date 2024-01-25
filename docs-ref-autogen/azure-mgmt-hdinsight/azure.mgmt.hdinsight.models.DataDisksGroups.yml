@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: disks_per_node
 variables:
 - description: ReadOnly. The storage account type. Do not set this value.
   name: storage_account_type

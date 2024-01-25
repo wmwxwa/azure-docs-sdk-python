@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: type
+  - name: items
+  - name: continuation_token
 methods:
 - uid: azure.iot.hub.protocol.models.query_result_py3.QueryResult.as_dict
   name: as_dict

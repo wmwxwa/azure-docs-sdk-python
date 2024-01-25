@@ -36,6 +36,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.managementgroups.models.ManagementGroupChildInfo>]
+  keywordOnlyArguments:
+  - name: tenant_id
+  - name: display_name
+  - name: details
+  - name: children
 variables:
 - description: 'The fully qualified ID for the management group.  For example,
 

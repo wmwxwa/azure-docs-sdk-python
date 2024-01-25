@@ -44,6 +44,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.DiagnosticsRef>
+  keywordOnlyArguments:
+  - name: os_type
+  - name: code_packages
+  - name: network_refs
+  - name: diagnostics
 methods:
 - uid: azure.servicefabric.models.ServiceReplicaProperties.as_dict
   name: as_dict

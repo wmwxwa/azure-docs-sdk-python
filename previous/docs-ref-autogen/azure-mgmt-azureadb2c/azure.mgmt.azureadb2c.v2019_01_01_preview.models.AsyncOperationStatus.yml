@@ -62,3 +62,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: subscription_id
+  - name: id
+  - name: name
+  - name: status
+  - name: start_time
+  - name: end_time
+  - name: error
+  - name: billing_config
+  - name: tenant_id

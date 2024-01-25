@@ -36,3 +36,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:int>]
+  keywordOnlyArguments:
+  - name: start_date
+  - name: end_date
+  - name: start_time
+  - name: end_time
+  - name: recurrence_values

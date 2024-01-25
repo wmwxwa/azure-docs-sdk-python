@@ -55,6 +55,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.UsageInfo>
+  keywordOnlyArguments:
+  - name: disk_info
+  - name: used_by_metadata
+  - name: used_by_staging
+  - name: used_by_copy
+  - name: used_by_register
 methods:
 - uid: azure.servicefabric.models.ImageStoreInfo.as_dict
   name: as_dict

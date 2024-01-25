@@ -27,6 +27,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: path
+  - name: connection
 methods:
 - uid: azure.ai.ml.data_transfer.FileSystem.get
   name: get

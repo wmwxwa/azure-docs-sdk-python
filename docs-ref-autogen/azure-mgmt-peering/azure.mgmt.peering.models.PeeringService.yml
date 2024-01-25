@@ -36,6 +36,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: peering_service_location
+  - name: peering_service_provider
 variables:
 - description: The name of the resource.
   name: name

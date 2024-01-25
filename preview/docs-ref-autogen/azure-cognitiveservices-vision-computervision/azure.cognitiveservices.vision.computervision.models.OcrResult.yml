@@ -66,6 +66,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: language
+  - name: text_angle
+  - name: orientation
+  - name: regions
+  - name: model_version
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.OcrResult.as_dict
   name: as_dict

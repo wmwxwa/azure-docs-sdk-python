@@ -113,6 +113,19 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: name
+  - name: ml_pipeline_id
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: linked_service_name
+  - name: policy
+  - name: experiment_name
+  - name: ml_pipeline_parameters
+  - name: ml_parent_run_id
+  - name: continue_on_step_failure
 methods:
 - uid: azure.synapse.artifacts.models.AzureMLExecutePipelineActivity.as_dict
   name: as_dict

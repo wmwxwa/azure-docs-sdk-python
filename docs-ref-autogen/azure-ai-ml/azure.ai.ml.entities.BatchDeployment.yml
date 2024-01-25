@@ -135,6 +135,28 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: name
+  - name: endpoint_name
+  - name: description
+  - name: tags
+  - name: properties
+  - name: model
+  - name: code_configuration
+  - name: environment
+  - name: compute
+  - name: resources
+  - name: output_file_name
+  - name: output_action
+  - name: error_threshold
+  - name: retry_settings
+  - name: logging_level
+  - name: mini_batch_size
+  - name: max_concurrency_per_instance
+  - name: environment_variables
+  - name: code_path
+  - name: scoring_script
+  - name: instance_count
 methods:
 - uid: azure.ai.ml.entities.BatchDeployment.dump
   name: dump

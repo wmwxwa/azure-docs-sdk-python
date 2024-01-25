@@ -33,3 +33,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.datamigration.models.SelectedCertificateInput>]
+  keywordOnlyArguments:
+  - name: connection_info
+  - name: backup_file_share
+  - name: selected_certificates

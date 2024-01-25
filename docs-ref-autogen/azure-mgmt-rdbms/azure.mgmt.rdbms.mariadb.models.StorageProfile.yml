@@ -37,3 +37,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.rdbms.mariadb.models.StorageAutogrow>
+  keywordOnlyArguments:
+  - name: backup_retention_days
+  - name: geo_redundant_backup
+  - name: storage_mb
+  - name: storage_autogrow

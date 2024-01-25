@@ -91,6 +91,11 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
+  keywordOnlyArguments:
+  - name: name
+  - name: maximum_capacity
+  - name: reservation_capacity
+  - name: total_application_capacity
 methods:
 - uid: azure.servicefabric.models.ApplicationMetricDescription.as_dict
   name: as_dict

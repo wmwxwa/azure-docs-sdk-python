@@ -46,6 +46,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.machinelearningservices.models.ComputeInstanceSshSettings>
+  keywordOnlyArguments:
+  - name: vm_size
+  - name: subnet
+  - name: application_sharing_policy
+    defaultValue: Shared
+  - name: ssh_settings
 variables:
 - description: 'Describes all connectivity endpoints available for this
 

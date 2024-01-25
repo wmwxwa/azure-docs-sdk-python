@@ -34,3 +34,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.machinelearningservices.models.QuotaUnit>
+  keywordOnlyArguments:
+  - name: id
+  - name: type
+  - name: limit
+  - name: unit

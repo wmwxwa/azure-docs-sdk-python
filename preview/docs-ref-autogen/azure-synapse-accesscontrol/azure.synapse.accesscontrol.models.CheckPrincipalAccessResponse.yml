@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.accesscontrol.models.CheckAccessDecision>]
+  keywordOnlyArguments:
+  - name: access_decisions
 methods:
 - uid: azure.synapse.accesscontrol.models.CheckPrincipalAccessResponse.as_dict
   name: as_dict

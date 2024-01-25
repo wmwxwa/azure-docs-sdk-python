@@ -70,6 +70,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: is_stateful
+  - name: service_type_name
+  - name: placement_constraints
+  - name: load_metrics
+  - name: service_placement_policies
+  - name: extensions
 methods:
 - uid: azure.servicefabric.models.ServiceTypeDescription.as_dict
   name: as_dict

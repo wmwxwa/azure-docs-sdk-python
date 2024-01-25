@@ -62,6 +62,16 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.managementpartner.models.ManagementPartnerState>
+  keywordOnlyArguments:
+  - name: etag
+  - name: partner_id
+  - name: partner_name
+  - name: tenant_id
+  - name: object_id
+  - name: version
+  - name: updated_time
+  - name: created_time
+  - name: state
 variables:
 - description: Identifier of the partner.
   name: id

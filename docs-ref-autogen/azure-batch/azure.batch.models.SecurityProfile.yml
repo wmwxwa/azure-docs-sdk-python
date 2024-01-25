@@ -40,6 +40,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.UefiSettings>
+  keywordOnlyArguments:
+  - name: security_type
+  - name: encryption_at_host
+  - name: uefi_settings
 methods:
 - uid: azure.batch.models.SecurityProfile.as_dict
   name: as_dict

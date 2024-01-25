@@ -26,3 +26,5 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.deploymentmanager.models.HealthCheckStepAttributes>
+  keywordOnlyArguments:
+  - name: attributes

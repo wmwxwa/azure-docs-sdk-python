@@ -38,6 +38,10 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: confidence
+  - name: face_id
+  - name: persisted_face_id
 methods:
 - uid: azure.cognitiveservices.vision.face.models.SimilarFace.as_dict
   name: as_dict

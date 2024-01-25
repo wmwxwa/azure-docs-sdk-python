@@ -21,6 +21,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.keyvault.v2016_10_01.models.Action>
+  keywordOnlyArguments:
+  - name: trigger
+  - name: action
 methods:
 - uid: azure.keyvault.v2016_10_01.models.LifetimeAction.as_dict
   name: as_dict

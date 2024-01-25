@@ -96,6 +96,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.batch.models.NetworkSecurityGroupRule>]
+  keywordOnlyArguments:
+  - name: name
+  - name: protocol
+  - name: backend_port
+  - name: frontend_port_range_start
+  - name: frontend_port_range_end
+  - name: network_security_group_rules
 methods:
 - uid: azure.batch.models.InboundNATPool.as_dict
   name: as_dict

@@ -38,6 +38,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:float>]
+  keywordOnlyArguments:
+  - name: period
+  - name: is_change_point
+  - name: confidence_scores
 methods:
 - uid: azure.cognitiveservices.anomalydetector.models.ChangePointDetectResponse.as_dict
   name: as_dict

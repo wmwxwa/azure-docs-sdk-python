@@ -293,6 +293,34 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.AuthenticationTokenSettings>
+  keywordOnlyArguments:
+  - name: id
+  - name: display_name
+  - name: url
+  - name: e_tag
+  - name: last_modified
+  - name: creation_time
+  - name: exit_conditions
+  - name: state
+  - name: state_transition_time
+  - name: previous_state
+  - name: previous_state_transition_time
+  - name: command_line
+  - name: container_settings
+  - name: resource_files
+  - name: output_files
+  - name: environment_settings
+  - name: affinity_info
+  - name: constraints
+  - name: required_slots
+  - name: user_identity
+  - name: execution_info
+  - name: node_info
+  - name: multi_instance_settings
+  - name: stats
+  - name: depends_on
+  - name: application_package_references
+  - name: authentication_token_settings
 methods:
 - uid: azure.batch.models.CloudTask.as_dict
   name: as_dict

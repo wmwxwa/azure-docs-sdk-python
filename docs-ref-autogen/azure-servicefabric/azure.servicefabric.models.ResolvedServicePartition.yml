@@ -43,6 +43,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: partition_information
+  - name: endpoints
+  - name: version
 methods:
 - uid: azure.servicefabric.models.ResolvedServicePartition.as_dict
   name: as_dict

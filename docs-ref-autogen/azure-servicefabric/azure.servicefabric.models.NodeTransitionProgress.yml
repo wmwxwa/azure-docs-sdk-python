@@ -32,6 +32,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.NodeTransitionResult>
+  keywordOnlyArguments:
+  - name: state
+  - name: node_transition_result
 methods:
 - uid: azure.servicefabric.models.NodeTransitionProgress.as_dict
   name: as_dict

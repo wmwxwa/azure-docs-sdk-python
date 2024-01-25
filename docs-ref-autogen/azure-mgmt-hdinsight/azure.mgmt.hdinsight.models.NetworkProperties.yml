@@ -27,3 +27,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.hdinsight.models.PrivateLink>
+  keywordOnlyArguments:
+  - name: resource_provider_connection
+  - name: private_link

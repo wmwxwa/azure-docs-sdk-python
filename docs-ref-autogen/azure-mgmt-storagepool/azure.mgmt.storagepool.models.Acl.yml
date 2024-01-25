@@ -24,3 +24,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: initiator_iqn
+  - name: mapped_luns

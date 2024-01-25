@@ -12,7 +12,7 @@ summary: 'Registration resource.
 constructor:
   syntax: 'RegistrationParameter(*, location: str | _models.Location, registration_token:
     str, **kwargs)'
-  parameters:
+  keywordOnlyArguments:
   - name: location
     description: Location of the resource. Required. "global"
     types:

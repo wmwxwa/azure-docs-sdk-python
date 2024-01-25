@@ -65,6 +65,14 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.mixedreality.models.ResourceModelWithAllowedPropertySetPlan>
+  keywordOnlyArguments:
+  - name: location
+  - name: managed_by
+  - name: kind
+  - name: tags
+  - name: identity
+  - name: sku
+  - name: plan
 variables:
 - description: 'Fully qualified resource Id for the resource. Ex -
 

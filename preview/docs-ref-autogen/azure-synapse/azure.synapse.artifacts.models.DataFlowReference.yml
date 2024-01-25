@@ -33,6 +33,10 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: reference_name
+  - name: additional_properties
+  - name: dataset_parameters
 variables:
 - description: 'Required. Data flow reference type. Default value: "DataFlowReference".'
   name: type

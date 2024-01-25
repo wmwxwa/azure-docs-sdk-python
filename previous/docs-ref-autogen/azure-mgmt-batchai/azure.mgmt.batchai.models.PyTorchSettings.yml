@@ -44,3 +44,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: python_script_file_path
+  - name: python_interpreter_path
+  - name: command_line_args
+  - name: process_count
+  - name: communication_backend

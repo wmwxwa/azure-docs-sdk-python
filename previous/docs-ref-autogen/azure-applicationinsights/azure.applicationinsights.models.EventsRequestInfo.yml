@@ -51,6 +51,15 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: url
+  - name: success
+  - name: duration
+  - name: performance_bucket
+  - name: result_code
+  - name: source
+  - name: id
 methods:
 - uid: azure.applicationinsights.models.EventsRequestInfo.as_dict
   name: as_dict

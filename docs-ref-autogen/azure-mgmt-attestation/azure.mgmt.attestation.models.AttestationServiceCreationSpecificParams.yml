@@ -23,3 +23,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.attestation.models.JSONWebKeySet>
+  keywordOnlyArguments:
+  - name: attestation_policy
+  - name: policy_signing_certificates

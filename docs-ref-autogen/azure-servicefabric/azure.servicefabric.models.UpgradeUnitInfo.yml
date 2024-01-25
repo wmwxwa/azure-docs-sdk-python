@@ -22,6 +22,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.servicefabric.models.UpgradeUnitState>
+  keywordOnlyArguments:
+  - name: name
+  - name: state
 methods:
 - uid: azure.servicefabric.models.UpgradeUnitInfo.as_dict
   name: as_dict

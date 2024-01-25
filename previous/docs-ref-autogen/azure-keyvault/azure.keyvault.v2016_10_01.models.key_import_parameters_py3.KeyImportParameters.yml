@@ -33,6 +33,11 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: key
+  - name: hsm
+  - name: key_attributes
+  - name: tags
 methods:
 - uid: azure.keyvault.v2016_10_01.models.key_import_parameters_py3.KeyImportParameters.as_dict
   name: as_dict

@@ -127,6 +127,26 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.synapse.models.NodeSizeFamily>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: provisioning_state
+  - name: auto_scale
+  - name: creation_date
+  - name: auto_pause
+  - name: is_compute_isolation_enabled
+  - name: session_level_packages_enabled
+  - name: cache_size
+  - name: dynamic_executor_allocation
+  - name: spark_events_folder
+  - name: node_count
+  - name: library_requirements
+  - name: custom_libraries
+  - name: spark_config_properties
+  - name: spark_version
+  - name: default_spark_log_folder
+  - name: node_size
+  - name: node_size_family
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

@@ -14,3 +14,5 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datamigration.models.FileShare>
+  keywordOnlyArguments:
+  - name: driver_share

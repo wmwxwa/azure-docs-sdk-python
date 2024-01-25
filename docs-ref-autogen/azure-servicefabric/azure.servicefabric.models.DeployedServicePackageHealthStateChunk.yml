@@ -44,6 +44,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: health_state
+  - name: service_manifest_name
+  - name: service_package_activation_id
 methods:
 - uid: azure.servicefabric.models.DeployedServicePackageHealthStateChunk.as_dict
   name: as_dict

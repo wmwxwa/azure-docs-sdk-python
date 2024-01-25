@@ -75,6 +75,17 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.sql.models.SyncDirection>
+  keywordOnlyArguments:
+  - name: database_type
+  - name: sync_agent_id
+  - name: sql_server_database_id
+  - name: sync_member_azure_database_resource_id
+  - name: use_private_link_connection
+  - name: server_name
+  - name: database_name
+  - name: user_name
+  - name: password
+  - name: sync_direction
 variables:
 - description: Resource ID.
   name: id

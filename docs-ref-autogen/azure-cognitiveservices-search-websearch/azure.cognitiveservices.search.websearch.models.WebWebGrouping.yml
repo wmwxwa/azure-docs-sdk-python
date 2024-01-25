@@ -22,6 +22,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: web_pages
 methods:
 - uid: azure.cognitiveservices.search.websearch.models.WebWebGrouping.as_dict
   name: as_dict

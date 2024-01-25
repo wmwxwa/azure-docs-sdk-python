@@ -89,3 +89,7 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: max_percent_unhealthy_services
+  - name: max_percent_unhealthy_partitions_per_service
+  - name: max_percent_unhealthy_replicas_per_partition

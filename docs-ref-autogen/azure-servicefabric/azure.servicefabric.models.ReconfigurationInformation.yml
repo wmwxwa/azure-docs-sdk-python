@@ -55,6 +55,11 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime>
+  keywordOnlyArguments:
+  - name: previous_configuration_role
+  - name: reconfiguration_phase
+  - name: reconfiguration_type
+  - name: reconfiguration_start_time_utc
 methods:
 - uid: azure.servicefabric.models.ReconfigurationInformation.as_dict
   name: as_dict

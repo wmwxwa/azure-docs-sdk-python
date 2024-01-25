@@ -18,6 +18,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.ModelTrainingDetails>
+  keywordOnlyArguments:
+  - name: model_id
+  - name: details
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.ModelTrainingInfo.as_dict
   name: as_dict

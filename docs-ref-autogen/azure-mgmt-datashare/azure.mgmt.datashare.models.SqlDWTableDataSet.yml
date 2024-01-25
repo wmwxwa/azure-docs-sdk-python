@@ -51,6 +51,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: data_warehouse_name
+  - name: schema_name
+  - name: sql_server_resource_id
+  - name: table_name
 variables:
 - description: The resource id of the azure resource.
   name: id

@@ -80,3 +80,17 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: content_type
+  - name: correlation_id
+  - name: force_persistence
+  - name: label
+  - name: message_id
+  - name: partition_key
+  - name: reply_to
+  - name: reply_to_session_id
+  - name: scheduled_enqueue_time_utc
+  - name: session_id
+  - name: time_to_live
+  - name: to
+  - name: via_partition_key

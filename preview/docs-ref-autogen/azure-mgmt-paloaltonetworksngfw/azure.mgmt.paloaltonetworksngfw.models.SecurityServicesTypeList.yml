@@ -12,7 +12,7 @@ summary: 'Security services type list.
 constructor:
   syntax: 'SecurityServicesTypeList(*, entry: List[_models.NameDescriptionObject],
     type: str | None = None, **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: type
     description: security services type.
     types:

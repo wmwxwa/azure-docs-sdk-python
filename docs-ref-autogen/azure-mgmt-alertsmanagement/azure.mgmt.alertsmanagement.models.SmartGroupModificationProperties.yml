@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: modifications
+  - name: next_link
 variables:
 - description: Unique Id of the smartGroup for which the history is being retrieved.
   name: smart_group_id

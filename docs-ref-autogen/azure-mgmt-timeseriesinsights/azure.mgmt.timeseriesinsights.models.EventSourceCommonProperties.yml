@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: timestamp_property_name
 variables:
 - description: 'Provisioning state of the resource. Possible values include:
 

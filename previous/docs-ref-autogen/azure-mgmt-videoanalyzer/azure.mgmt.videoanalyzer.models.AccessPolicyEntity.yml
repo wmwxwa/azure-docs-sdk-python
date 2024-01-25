@@ -28,6 +28,9 @@ constructor:
     isRequired: true
     types:
     - <xref:video_analyzer.models.AuthenticationBase>
+  keywordOnlyArguments:
+  - name: role
+  - name: authentication
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

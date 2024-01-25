@@ -19,6 +19,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: upgrade_domain
 methods:
 - uid: azure.servicefabric.models.ResumeClusterUpgradeDescription.as_dict
   name: as_dict

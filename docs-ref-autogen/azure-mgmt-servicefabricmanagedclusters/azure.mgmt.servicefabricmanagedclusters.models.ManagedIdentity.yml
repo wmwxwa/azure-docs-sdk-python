@@ -27,6 +27,9 @@ constructor:
 
       user identity dictionary key references will be ARM resource ids in the form:'
     isRequired: true
+  keywordOnlyArguments:
+  - name: type
+  - name: user_assigned_identities
 variables:
 - description: 'The principal id of the managed identity. This property will only
     be

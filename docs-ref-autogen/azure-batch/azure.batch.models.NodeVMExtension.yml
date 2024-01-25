@@ -24,6 +24,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.VMExtensionInstanceView>
+  keywordOnlyArguments:
+  - name: provisioning_state
+  - name: vm_extension
+  - name: instance_view
 methods:
 - uid: azure.batch.models.NodeVMExtension.as_dict
   name: as_dict

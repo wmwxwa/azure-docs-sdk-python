@@ -61,6 +61,16 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: start_time
+  - name: end_time
+  - name: event_name
+  - name: event_type_name
+  - name: query_id
+  - name: database_name
+  - name: user_id
+  - name: count
+  - name: total_time_in_ms
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

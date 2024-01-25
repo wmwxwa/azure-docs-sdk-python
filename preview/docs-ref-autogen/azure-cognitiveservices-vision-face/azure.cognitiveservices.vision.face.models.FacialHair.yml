@@ -22,6 +22,10 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: moustache
+  - name: beard
+  - name: sideburns
 methods:
 - uid: azure.cognitiveservices.vision.face.models.FacialHair.as_dict
   name: as_dict

@@ -106,6 +106,20 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: host
+  - name: client_id
+  - name: redirect_uri
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: client_secret
+  - name: use_encrypted_endpoints
+  - name: use_host_verification
+  - name: use_peer_verification
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.SquareLinkedService.as_dict
   name: as_dict

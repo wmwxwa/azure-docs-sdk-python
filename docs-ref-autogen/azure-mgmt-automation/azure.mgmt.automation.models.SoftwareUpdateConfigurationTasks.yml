@@ -20,3 +20,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.automation.models.TaskProperties>
+  keywordOnlyArguments:
+  - name: pre_task
+  - name: post_task

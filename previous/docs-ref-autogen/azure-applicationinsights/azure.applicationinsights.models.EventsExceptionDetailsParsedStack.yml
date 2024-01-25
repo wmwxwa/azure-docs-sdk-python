@@ -30,6 +30,11 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
+  keywordOnlyArguments:
+  - name: assembly
+  - name: method
+  - name: level
+  - name: line
 methods:
 - uid: azure.applicationinsights.models.EventsExceptionDetailsParsedStack.as_dict
   name: as_dict

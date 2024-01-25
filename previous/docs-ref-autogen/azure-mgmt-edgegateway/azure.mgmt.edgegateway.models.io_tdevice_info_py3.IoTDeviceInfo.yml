@@ -30,3 +30,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.edgegateway.models.Authentication>
+  keywordOnlyArguments:
+  - name: device_id
+  - name: io_thost_hub
+  - name: authentication

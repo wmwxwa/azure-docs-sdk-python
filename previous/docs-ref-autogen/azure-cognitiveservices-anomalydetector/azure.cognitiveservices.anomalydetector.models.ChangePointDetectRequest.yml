@@ -69,6 +69,13 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: series
+  - name: granularity
+  - name: custom_interval
+  - name: period
+  - name: stable_trend_window
+  - name: threshold
 methods:
 - uid: azure.cognitiveservices.anomalydetector.models.ChangePointDetectRequest.as_dict
   name: as_dict

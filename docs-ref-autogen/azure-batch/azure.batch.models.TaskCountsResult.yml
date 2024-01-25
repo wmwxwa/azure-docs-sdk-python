@@ -24,6 +24,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.TaskSlotCounts>
+  keywordOnlyArguments:
+  - name: task_counts
+  - name: task_slot_counts
 methods:
 - uid: azure.batch.models.TaskCountsResult.as_dict
   name: as_dict

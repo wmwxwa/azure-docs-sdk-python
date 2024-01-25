@@ -57,3 +57,11 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.databoxedge.v2021_02_01_preview.models.UpdateStatus>
+  keywordOnlyArguments:
+  - name: update_title
+  - name: update_size
+  - name: update_type
+  - name: target_version
+  - name: estimated_install_time_in_mins
+  - name: reboot_behavior
+  - name: status

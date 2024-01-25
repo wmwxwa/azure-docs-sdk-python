@@ -33,6 +33,10 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: linked_service_name
+  - name: additional_properties
+  - name: path
 methods:
 - uid: azure.synapse.artifacts.models.LogStorageSettings.as_dict
   name: as_dict

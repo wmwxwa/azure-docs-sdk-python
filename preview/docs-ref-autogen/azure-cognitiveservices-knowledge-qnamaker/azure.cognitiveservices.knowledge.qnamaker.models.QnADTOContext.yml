@@ -27,6 +27,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.knowledge.qnamaker.models.PromptDTO>]
+  keywordOnlyArguments:
+  - name: is_context_only
+  - name: prompts
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.QnADTOContext.as_dict
   name: as_dict

@@ -30,6 +30,11 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: text
+  - name: score
+  - name: start_index
+  - name: end_index
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.qn_asearch_result_answer_span_py3.QnASearchResultAnswerSpan.as_dict
   name: as_dict

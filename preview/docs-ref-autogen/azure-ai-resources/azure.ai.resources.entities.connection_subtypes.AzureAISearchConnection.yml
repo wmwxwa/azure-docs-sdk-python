@@ -36,6 +36,10 @@ constructor:
     isRequired: true
     types:
     - <xref:typing.Optional>[<xref:str>]
+  keywordOnlyArguments:
+  - name: target
+  - name: credentials
+  - name: api_version
 methods:
 - uid: azure.ai.resources.entities.connection_subtypes.AzureAISearchConnection.set_current_environment
   name: set_current_environment

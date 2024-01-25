@@ -99,6 +99,18 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: linked_service_name
+  - name: open_hub_destination_name
+  - name: additional_properties
+  - name: description
+  - name: structure
+  - name: schema
+  - name: parameters
+  - name: annotations
+  - name: folder
+  - name: exclude_last_request
+  - name: base_request_id
 methods:
 - uid: azure.synapse.artifacts.models.SapOpenHubTableDataset.as_dict
   name: as_dict

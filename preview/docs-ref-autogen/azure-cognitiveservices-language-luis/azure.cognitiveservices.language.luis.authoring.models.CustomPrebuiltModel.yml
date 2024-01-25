@@ -59,6 +59,14 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.EntityRole>]
+  keywordOnlyArguments:
+  - name: id
+  - name: readable_type
+  - name: name
+  - name: type_id
+  - name: custom_prebuilt_domain_name
+  - name: custom_prebuilt_model_name
+  - name: roles
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.CustomPrebuiltModel.as_dict
   name: as_dict

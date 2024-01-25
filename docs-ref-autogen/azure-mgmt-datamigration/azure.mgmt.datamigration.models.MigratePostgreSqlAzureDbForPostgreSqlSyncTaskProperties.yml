@@ -34,6 +34,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datamigration.models.MigratePostgreSqlAzureDbForPostgreSqlSyncTaskInput>
+  keywordOnlyArguments:
+  - name: client_data
+  - name: input
 variables:
 - description: Array of errors. This is ignored if submitted.
   name: errors

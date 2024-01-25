@@ -19,3 +19,5 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.synapse.models.IntegrationRuntimeAuthKeyName>
+  keywordOnlyArguments:
+  - name: key_name

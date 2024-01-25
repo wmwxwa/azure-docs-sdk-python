@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.artifacts.models.RerunTriggerResource>]
+  keywordOnlyArguments:
+  - name: value
 variables:
 - description: 'The continuation token for getting the next page of results, if any
     remaining

@@ -15,3 +15,5 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.databoxedge.v2020_09_01.models.EdgeProfileSubscriptionPatch>
+  keywordOnlyArguments:
+  - name: subscription

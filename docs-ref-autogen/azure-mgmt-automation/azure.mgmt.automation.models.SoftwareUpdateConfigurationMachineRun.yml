@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.automation.models.ErrorResponse>
+  keywordOnlyArguments:
+  - name: software_update_configuration
+  - name: job
+  - name: error
 variables:
 - description: Name of the software update configuration machine run.
   name: name

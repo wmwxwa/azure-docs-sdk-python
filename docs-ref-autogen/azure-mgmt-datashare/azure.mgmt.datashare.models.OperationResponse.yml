@@ -39,3 +39,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.datashare.models.Status>
+  keywordOnlyArguments:
+  - name: status
+  - name: end_time
+  - name: error
+  - name: start_time

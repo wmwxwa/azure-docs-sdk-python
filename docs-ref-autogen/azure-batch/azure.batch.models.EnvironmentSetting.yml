@@ -21,6 +21,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: value
 methods:
 - uid: azure.batch.models.EnvironmentSetting.as_dict
   name: as_dict

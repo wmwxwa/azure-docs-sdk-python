@@ -18,3 +18,5 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.datashare.models.SynchronizationMode>
+  keywordOnlyArguments:
+  - name: synchronization_mode

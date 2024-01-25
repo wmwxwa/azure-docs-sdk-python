@@ -16,3 +16,5 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: leased_by_lab_vm_id

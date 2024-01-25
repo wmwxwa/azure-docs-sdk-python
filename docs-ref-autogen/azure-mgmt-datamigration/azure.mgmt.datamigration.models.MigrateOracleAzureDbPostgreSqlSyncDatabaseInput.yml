@@ -56,3 +56,12 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: case_manipulation
+  - name: name
+  - name: schema_name
+  - name: table_map
+  - name: target_database_name
+  - name: migration_setting
+  - name: source_setting
+  - name: target_setting

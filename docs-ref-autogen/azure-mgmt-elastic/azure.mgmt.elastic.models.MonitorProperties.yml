@@ -43,6 +43,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.elastic.models.UserInfo>
+  keywordOnlyArguments:
+  - name: provisioning_state
+  - name: monitoring_status
+  - name: elastic_properties
+  - name: user_info
 variables:
 - description: 'Possible values include: "Unknown", "MonitorLogs".'
   name: liftr_resource_category

@@ -22,3 +22,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.powerbiembedded.models.Display>
+  keywordOnlyArguments:
+  - name: name
+  - name: display

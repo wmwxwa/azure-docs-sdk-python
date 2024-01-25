@@ -17,3 +17,5 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: is_encryption_in_transit_enabled

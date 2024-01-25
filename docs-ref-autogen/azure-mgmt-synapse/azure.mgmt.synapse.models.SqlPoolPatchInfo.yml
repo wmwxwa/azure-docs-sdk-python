@@ -83,3 +83,17 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.synapse.models.StorageAccountType>
+  keywordOnlyArguments:
+  - name: tags
+  - name: location
+  - name: sku
+  - name: max_size_bytes
+  - name: collation
+  - name: source_database_id
+  - name: recoverable_database_id
+  - name: provisioning_state
+  - name: status
+  - name: restore_point_in_time
+  - name: create_mode
+  - name: creation_date
+  - name: storage_account_type

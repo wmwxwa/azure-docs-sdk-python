@@ -31,6 +31,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.HttpHostConfig>]
+  keywordOnlyArguments:
+  - name: name
+  - name: port
+  - name: hosts
 methods:
 - uid: azure.servicefabric.models.HttpConfig.as_dict
   name: as_dict

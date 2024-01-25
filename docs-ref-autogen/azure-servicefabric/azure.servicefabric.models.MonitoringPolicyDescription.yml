@@ -93,6 +93,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: failure_action
+  - name: health_check_wait_duration_in_milliseconds
+  - name: health_check_stable_duration_in_milliseconds
+  - name: health_check_retry_timeout_in_milliseconds
+  - name: upgrade_timeout_in_milliseconds
+  - name: upgrade_domain_timeout_in_milliseconds
 methods:
 - uid: azure.servicefabric.models.MonitoringPolicyDescription.as_dict
   name: as_dict

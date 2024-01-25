@@ -112,6 +112,19 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: server
+  - name: system_number
+  - name: client_id
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: language
+  - name: user_name
+  - name: password
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.SapOpenHubLinkedService.as_dict
   name: as_dict

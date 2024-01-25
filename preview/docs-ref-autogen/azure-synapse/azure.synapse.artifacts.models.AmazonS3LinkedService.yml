@@ -84,6 +84,16 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: access_key_id
+  - name: secret_access_key
+  - name: service_url
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.AmazonS3LinkedService.as_dict
   name: as_dict

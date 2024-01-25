@@ -15,7 +15,7 @@ summary: 'Collection of static site user provided function apps.
 constructor:
   syntax: 'StaticSiteUserProvidedFunctionAppsCollection(*, value: List[_models.StaticSiteUserProvidedFunctionAppARMResource],
     **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: Collection of resources. Required.
     types:

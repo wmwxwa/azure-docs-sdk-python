@@ -13,6 +13,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.textanalytics.models.LanguageInput>]
+  keywordOnlyArguments:
+  - name: documents
 methods:
 - uid: azure.cognitiveservices.language.textanalytics.models.language_batch_input_py3.LanguageBatchInput.as_dict
   name: as_dict

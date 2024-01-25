@@ -22,6 +22,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.AddressProperties>
+  keywordOnlyArguments:
+  - name: forward_address
 variables:
 - description: Return shipping address.
   name: return_address

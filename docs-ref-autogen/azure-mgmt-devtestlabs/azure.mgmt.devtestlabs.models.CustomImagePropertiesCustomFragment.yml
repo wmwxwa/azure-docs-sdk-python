@@ -29,3 +29,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.devtestlabs.models.CustomImageOsType>
+  keywordOnlyArguments:
+  - name: image_name
+  - name: sys_prep
+  - name: os_type

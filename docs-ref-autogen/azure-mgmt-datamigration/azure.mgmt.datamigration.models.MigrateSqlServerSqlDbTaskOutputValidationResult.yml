@@ -27,6 +27,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: summary_results
 variables:
 - description: Migration Identifier.
   name: migration_id

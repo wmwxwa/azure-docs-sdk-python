@@ -54,3 +54,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.policyinsights.models.ComplianceDetail>]
+  keywordOnlyArguments:
+  - name: query_results_uri
+  - name: non_compliant_resources
+  - name: non_compliant_policies
+  - name: resource_details
+  - name: policy_details
+  - name: policy_group_details

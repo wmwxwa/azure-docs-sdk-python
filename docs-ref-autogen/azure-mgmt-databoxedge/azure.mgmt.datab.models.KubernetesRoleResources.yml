@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.databoxedge.v2020_12_01.models.KubernetesRoleCompute>
+  keywordOnlyArguments:
+  - name: compute
+  - name: storage
 variables:
 - description: Kubernetes role network resource.
   name: network

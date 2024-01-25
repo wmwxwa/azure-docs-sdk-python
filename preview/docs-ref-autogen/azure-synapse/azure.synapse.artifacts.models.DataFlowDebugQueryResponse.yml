@@ -15,6 +15,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: run_id
 methods:
 - uid: azure.synapse.artifacts.models.DataFlowDebugQueryResponse.as_dict
   name: as_dict

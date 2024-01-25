@@ -21,6 +21,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.EndpointRef>]
+  keywordOnlyArguments:
+  - name: name
+  - name: endpoint_refs
 methods:
 - uid: azure.servicefabric.models.NetworkRef.as_dict
   name: as_dict

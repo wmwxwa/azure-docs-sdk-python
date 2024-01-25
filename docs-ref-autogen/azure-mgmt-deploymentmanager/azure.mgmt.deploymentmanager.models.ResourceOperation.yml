@@ -27,6 +27,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: resource_name
+  - name: resource_type
 variables:
 - description: 'Unique identifier of the operation. For ARM resources, this is the
 

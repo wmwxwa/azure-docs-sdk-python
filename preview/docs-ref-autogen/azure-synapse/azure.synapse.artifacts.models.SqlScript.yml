@@ -33,6 +33,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.SqlScriptContent>
+  keywordOnlyArguments:
+  - name: content
+  - name: additional_properties
+  - name: description
 variables:
 - description: 'The type of the SQL script. Default value: "SqlQuery".'
   name: type

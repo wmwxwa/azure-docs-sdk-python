@@ -39,6 +39,12 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: access_modes
+  - name: destination_port
+  - name: private_ip_address
+  - name: sub_domain_suffix
+  - name: disable_gateway_auth
 variables:
 - description: The location of the endpoint.
   name: location

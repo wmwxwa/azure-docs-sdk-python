@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
 methods:
 - uid: azure.batch.models.ServiceArtifactReference.as_dict
   name: as_dict

@@ -67,3 +67,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: title
+  - name: description
+  - name: segment_length
+  - name: retention_period

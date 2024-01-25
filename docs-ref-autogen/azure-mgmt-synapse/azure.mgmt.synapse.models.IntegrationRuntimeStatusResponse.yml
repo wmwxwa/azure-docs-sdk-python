@@ -21,6 +21,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.synapse.models.IntegrationRuntimeStatus>
+  keywordOnlyArguments:
+  - name: properties
 variables:
 - description: The integration runtime name.
   name: name

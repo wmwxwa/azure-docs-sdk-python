@@ -82,6 +82,12 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: actions
+  - name: context_features
+  - name: excluded_actions
+  - name: event_id
+  - name: defer_activation
 methods:
 - uid: azure.cognitiveservices.personalizer.models.rank_request_py3.RankRequest.as_dict
   name: as_dict

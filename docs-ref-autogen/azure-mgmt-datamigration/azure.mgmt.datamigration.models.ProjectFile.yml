@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datamigration.models.ProjectFileProperties>
+  keywordOnlyArguments:
+  - name: etag
+  - name: properties
 variables:
 - description: Resource ID.
   name: id

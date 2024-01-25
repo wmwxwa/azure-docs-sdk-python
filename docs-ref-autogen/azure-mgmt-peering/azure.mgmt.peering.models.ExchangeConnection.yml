@@ -30,6 +30,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: peering_db_facility_id
+  - name: bgp_session
+  - name: connection_identifier
 variables:
 - description: 'The state of the connection. Possible values include: "None",
 

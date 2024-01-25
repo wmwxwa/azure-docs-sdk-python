@@ -38,6 +38,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: aggregated_health_state
+  - name: node_name
+  - name: application_name
 methods:
 - uid: azure.servicefabric.models.DeployedApplicationHealthState.as_dict
   name: as_dict

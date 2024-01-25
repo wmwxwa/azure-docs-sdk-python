@@ -29,6 +29,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.servicefabric.models.ImpactLevel>
+  keywordOnlyArguments:
+  - name: node_name
+  - name: impact_level
 methods:
 - uid: azure.servicefabric.models.NodeImpact.as_dict
   name: as_dict

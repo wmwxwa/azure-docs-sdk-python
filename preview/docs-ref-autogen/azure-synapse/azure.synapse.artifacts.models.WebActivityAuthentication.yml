@@ -42,6 +42,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: type
+  - name: pfx
+  - name: username
+  - name: password
+  - name: resource
 methods:
 - uid: azure.synapse.artifacts.models.WebActivityAuthentication.as_dict
   name: as_dict

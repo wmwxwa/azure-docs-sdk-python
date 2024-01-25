@@ -27,6 +27,10 @@ constructor:
     isRequired: true
     types:
     - <xref:timedelta>
+  keywordOnlyArguments:
+  - name: start_time
+  - name: last_update_time
+  - name: dedicated_core_time
 methods:
 - uid: azure.batch.models.UsageStatistics.as_dict
   name: as_dict

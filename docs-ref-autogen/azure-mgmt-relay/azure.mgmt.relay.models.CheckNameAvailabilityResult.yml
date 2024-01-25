@@ -31,6 +31,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.relay.models.UnavailableReason>
+  keywordOnlyArguments:
+  - name: name_available
+  - name: reason
 variables:
 - description: The detailed info regarding the reason associated with the namespace.
   name: message

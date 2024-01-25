@@ -9,7 +9,7 @@ summary: Workbook list result.
 constructor:
   syntax: 'WorkbooksListResult(*, value: List[_models.Workbook] | None = None, **kwargs:
     Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: An array of workbooks.
     types:

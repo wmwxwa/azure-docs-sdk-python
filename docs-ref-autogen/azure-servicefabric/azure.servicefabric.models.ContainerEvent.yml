@@ -41,6 +41,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: count
+  - name: first_timestamp
+  - name: last_timestamp
+  - name: message
+  - name: type
 methods:
 - uid: azure.servicefabric.models.ContainerEvent.as_dict
   name: as_dict

@@ -25,6 +25,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: retention_in_days
+  - name: is_troubleshoot_enabled
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

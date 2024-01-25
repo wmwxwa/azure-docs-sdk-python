@@ -28,3 +28,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.edgeorder.v2021_12_01.models.CustomerSubscriptionDetails>
+  keywordOnlyArguments:
+  - name: configuration_filters
+  - name: customer_subscription_details

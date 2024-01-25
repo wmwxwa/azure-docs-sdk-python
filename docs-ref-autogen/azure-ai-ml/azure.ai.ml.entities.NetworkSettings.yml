@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: vnet_name
+  - name: subnet
 examples:
 - "Configuring NetworkSettings for an AmlCompute object.<!--[!code-python[Main](les\\\
   ml_samples_compute.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [],\

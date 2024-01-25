@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: value
 methods:
 - uid: azure.synapse.artifacts.models.SecureString.as_dict
   name: as_dict

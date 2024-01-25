@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: ip_address
 variables:
 - description: Port of the Kubernetes node.
   name: port

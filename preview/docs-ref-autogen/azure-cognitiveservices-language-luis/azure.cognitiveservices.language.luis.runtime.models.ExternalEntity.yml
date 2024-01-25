@@ -44,6 +44,12 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: entity_name
+  - name: start_index
+  - name: entity_length
+  - name: resolution
+  - name: score
 methods:
 - uid: azure.cognitiveservices.language.luis.runtime.models.ExternalEntity.as_dict
   name: as_dict

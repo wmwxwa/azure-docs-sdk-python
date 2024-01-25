@@ -28,6 +28,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.databoxedge.v2020_09_01_preview.models.AsymmetricEncryptedSecret>
+  keywordOnlyArguments:
+  - name: device_admin_password
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

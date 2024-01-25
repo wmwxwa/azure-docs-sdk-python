@@ -55,6 +55,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: data_export_id
+  - name: table_names
+  - name: enable
+  - name: created_date
+  - name: last_modified_date
+  - name: resource_id
+  - name: event_hub_name
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

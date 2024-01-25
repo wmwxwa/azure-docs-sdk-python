@@ -34,6 +34,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: kusto_cluster_resource_id
 variables:
 - description: The resource id of the azure resource.
   name: id

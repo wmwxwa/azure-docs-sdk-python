@@ -57,3 +57,12 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: id
+  - name: edition
+  - name: v_core
+  - name: hardware_generation
+  - name: max_backup_retention_days
+  - name: min_backup_retention_days
+  - name: max_storage_mb
+  - name: min_storage_mb

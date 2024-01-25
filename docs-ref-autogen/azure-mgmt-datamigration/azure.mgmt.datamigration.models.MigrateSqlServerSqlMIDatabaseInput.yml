@@ -35,3 +35,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: name
+  - name: restore_database_name
+  - name: backup_file_share
+  - name: backup_file_paths

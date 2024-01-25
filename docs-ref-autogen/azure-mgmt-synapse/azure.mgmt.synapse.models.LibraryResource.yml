@@ -34,6 +34,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name_properties_name
+  - name: path
+  - name: container_name
+  - name: type_properties_type
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

@@ -86,6 +86,23 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: name
+  - name: file
+  - name: tags
+  - name: artifact_id
+  - name: class_name
+  - name: arguments
+  - name: jars
+  - name: python_files
+  - name: files
+  - name: archives
+  - name: configuration
+  - name: driver_memory
+  - name: driver_cores
+  - name: executor_memory
+  - name: executor_cores
+  - name: executor_count
 methods:
 - uid: azure.synapse.spark.models.SparkBatchJobOptions.as_dict
   name: as_dict

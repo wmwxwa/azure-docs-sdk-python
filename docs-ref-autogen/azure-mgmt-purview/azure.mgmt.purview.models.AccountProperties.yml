@@ -34,6 +34,11 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.purview.models.PublicNetworkAccess>
+  keywordOnlyArguments:
+  - name: cloud_connectors
+  - name: managed_resource_group_name
+  - name: public_network_access
+    defaultValue: Enabled
 variables:
 - description: Gets the time at which the entity was created.
   name: created_at

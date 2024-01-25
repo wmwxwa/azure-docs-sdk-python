@@ -81,6 +81,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: status
+  - name: created_time
+  - name: last_action_time
+  - name: resource_location
+  - name: message
 methods:
 - uid: azure.cognitiveservices.vision.face.models.OperationStatus.as_dict
   name: as_dict

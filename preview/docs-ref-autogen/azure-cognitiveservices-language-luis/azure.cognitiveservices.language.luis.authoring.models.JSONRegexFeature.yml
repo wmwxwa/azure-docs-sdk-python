@@ -25,6 +25,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: pattern
+  - name: activated
+  - name: name
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.JSONRegexFeature.as_dict
   name: as_dict

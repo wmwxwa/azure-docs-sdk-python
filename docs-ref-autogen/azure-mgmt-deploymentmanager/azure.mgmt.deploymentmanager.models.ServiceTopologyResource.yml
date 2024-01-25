@@ -33,6 +33,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: artifact_source_id
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

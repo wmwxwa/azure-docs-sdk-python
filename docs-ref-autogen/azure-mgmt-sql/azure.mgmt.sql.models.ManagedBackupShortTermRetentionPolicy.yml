@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: retention_days
 variables:
 - description: Resource ID.
   name: id

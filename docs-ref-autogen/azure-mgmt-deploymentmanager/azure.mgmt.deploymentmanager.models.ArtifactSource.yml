@@ -57,6 +57,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.deploymentmanager.models.Authentication>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: source_type
+  - name: artifact_root
+  - name: authentication
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

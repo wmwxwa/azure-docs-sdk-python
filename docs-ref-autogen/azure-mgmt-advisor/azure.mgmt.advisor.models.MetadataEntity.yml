@@ -48,3 +48,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.advisor.models.MetadataSupportedValueDetail>]
+  keywordOnlyArguments:
+  - name: id
+  - name: type
+  - name: name
+  - name: display_name
+  - name: depends_on
+  - name: applicable_scenarios
+  - name: supported_values

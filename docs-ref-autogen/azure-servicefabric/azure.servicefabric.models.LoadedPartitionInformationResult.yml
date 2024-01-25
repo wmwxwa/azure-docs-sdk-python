@@ -37,6 +37,11 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
+  keywordOnlyArguments:
+  - name: service_name
+  - name: partition_id
+  - name: metric_name
+  - name: load
 methods:
 - uid: azure.servicefabric.models.LoadedPartitionInformationResult.as_dict
   name: as_dict

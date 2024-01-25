@@ -55,6 +55,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: inputs
+  - name: sensitivity
+  - name: output_motion_region
+  - name: event_aggregation_window
 methods:
 - uid: azure.media.analyticsedge.MediaGraphMotionDetectionProcessor.as_dict
   name: as_dict

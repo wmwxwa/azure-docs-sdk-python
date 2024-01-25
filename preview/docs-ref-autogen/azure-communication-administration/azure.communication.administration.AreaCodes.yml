@@ -25,6 +25,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: primary_area_codes
+  - name: secondary_area_codes
+  - name: next_link
 methods:
 - uid: azure.communication.administration.AreaCodes.as_dict
   name: as_dict

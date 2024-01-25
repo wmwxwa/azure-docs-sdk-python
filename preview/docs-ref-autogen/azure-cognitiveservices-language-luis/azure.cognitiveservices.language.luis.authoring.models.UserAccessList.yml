@@ -18,6 +18,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: owner
+  - name: emails
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.UserAccessList.as_dict
   name: as_dict

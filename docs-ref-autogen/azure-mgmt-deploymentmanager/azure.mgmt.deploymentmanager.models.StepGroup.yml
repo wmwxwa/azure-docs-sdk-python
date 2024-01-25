@@ -43,3 +43,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.deploymentmanager.models.PrePostStep>]
+  keywordOnlyArguments:
+  - name: name
+  - name: deployment_target_id
+  - name: depends_on_step_groups
+  - name: pre_deployment_steps
+  - name: post_deployment_steps

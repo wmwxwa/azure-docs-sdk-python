@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: name
+  - name: port
 methods:
 - uid: azure.servicefabric.models.EndpointProperties.as_dict
   name: as_dict

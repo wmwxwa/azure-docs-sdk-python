@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: provider
 methods:
 - uid: azure.keyvault.v2016_10_01.models.CertificateIssuerItem.as_dict
   name: as_dict

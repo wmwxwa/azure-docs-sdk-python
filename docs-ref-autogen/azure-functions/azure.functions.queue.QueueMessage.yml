@@ -9,6 +9,14 @@ summary: An HTTP response object.
 constructor:
   syntax: QueueMessage(*, id=None, body=None, dequeue_count=None, expiration_time=None,
     insertion_time=None, time_next_visible=None, pop_receipt=None)
+  keywordOnlyArguments:
+  - name: id
+  - name: body
+  - name: dequeue_count
+  - name: expiration_time
+  - name: insertion_time
+  - name: time_next_visible
+  - name: pop_receipt
 methods:
 - uid: azure.functions.queue.QueueMessage.get_body
   name: get_body

@@ -36,6 +36,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: provision
+  - name: ip_address_ids
 methods:
 - uid: azure.batch.models.PublicIPAddressConfiguration.as_dict
   name: as_dict

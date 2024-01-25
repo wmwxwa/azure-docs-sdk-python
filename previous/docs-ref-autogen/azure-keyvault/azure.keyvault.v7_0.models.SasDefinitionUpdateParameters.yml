@@ -44,6 +44,12 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: template_uri
+  - name: sas_type
+  - name: validity_period
+  - name: sas_definition_attributes
+  - name: tags
 methods:
 - uid: azure.keyvault.v7_0.models.SasDefinitionUpdateParameters.as_dict
   name: as_dict

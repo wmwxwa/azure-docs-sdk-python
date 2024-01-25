@@ -32,3 +32,6 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: immediate
+  - name: object_name

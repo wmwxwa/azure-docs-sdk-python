@@ -8,7 +8,7 @@ inheritances:
 summary: KqlScriptContentMetadata.
 constructor:
   syntax: 'KqlScriptContentMetadata(*, language: str | None = None, **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: language
     types:
     - <xref:str>

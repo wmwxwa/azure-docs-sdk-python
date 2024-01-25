@@ -26,6 +26,8 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: map
 methods:
 - uid: azure.servicefabric.models.ChaosContext.as_dict
   name: as_dict

@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: face_id1
+  - name: face_id2
 methods:
 - uid: azure.cognitiveservices.vision.face.models.VerifyFaceToFaceRequest.as_dict
   name: as_dict

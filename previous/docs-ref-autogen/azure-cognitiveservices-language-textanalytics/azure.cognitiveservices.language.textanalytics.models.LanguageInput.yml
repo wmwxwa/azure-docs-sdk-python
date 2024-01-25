@@ -23,6 +23,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: country_hint
+  - name: id
+  - name: text
 methods:
 - uid: azure.cognitiveservices.language.textanalytics.models.LanguageInput.as_dict
   name: as_dict

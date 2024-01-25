@@ -56,6 +56,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: aggregated_health_state
+  - name: partition_id
+  - name: replica_id
 methods:
 - uid: azure.servicefabric.models.StatefulServiceReplicaHealthState.as_dict
   name: as_dict

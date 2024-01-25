@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.sql.models.QueryMetricProperties>]
+  keywordOnlyArguments:
+  - name: metrics
 variables:
 - description: The start time for the metric interval (ISO-8601 format).
   name: interval_start_time

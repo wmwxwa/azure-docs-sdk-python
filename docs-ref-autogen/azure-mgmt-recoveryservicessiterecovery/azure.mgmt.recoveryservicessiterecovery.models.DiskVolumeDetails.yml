@@ -9,7 +9,7 @@ summary: Volume details.
 constructor:
   syntax: 'DiskVolumeDetails(*, label: str | None = None, name: str | None = None,
     **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: label
     description: The volume label.
     types:

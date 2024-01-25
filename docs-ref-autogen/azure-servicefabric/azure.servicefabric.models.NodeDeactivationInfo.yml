@@ -44,6 +44,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.SafetyCheckWrapper>]
+  keywordOnlyArguments:
+  - name: node_deactivation_intent
+  - name: node_deactivation_status
+  - name: node_deactivation_task
+  - name: pending_safety_checks
 methods:
 - uid: azure.servicefabric.models.NodeDeactivationInfo.as_dict
   name: as_dict

@@ -47,6 +47,13 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: last_modified_time
+  - name: creation_time
+  - name: configuration
+  - name: source
+  - name: node_count
+  - name: increment_node_configuration_build
 variables:
 - description: Fully qualified resource Id for the resource.
   name: id

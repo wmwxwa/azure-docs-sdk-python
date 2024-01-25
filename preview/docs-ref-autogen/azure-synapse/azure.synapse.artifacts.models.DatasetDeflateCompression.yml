@@ -32,6 +32,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.synapse.artifacts.models.DatasetCompressionLevel>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: level
 methods:
 - uid: azure.synapse.artifacts.models.DatasetDeflateCompression.as_dict
   name: as_dict

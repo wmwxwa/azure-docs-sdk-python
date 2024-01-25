@@ -32,3 +32,6 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: effective_date
+  - name: recurring_charge

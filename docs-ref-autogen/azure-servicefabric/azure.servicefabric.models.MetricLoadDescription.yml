@@ -31,6 +31,10 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
+  keywordOnlyArguments:
+  - name: metric_name
+  - name: current_load
+  - name: predicted_load
 methods:
 - uid: azure.servicefabric.models.MetricLoadDescription.as_dict
   name: as_dict

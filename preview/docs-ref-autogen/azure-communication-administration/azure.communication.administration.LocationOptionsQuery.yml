@@ -24,6 +24,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: label_id
+  - name: options_value
 methods:
 - uid: azure.communication.administration.LocationOptionsQuery.as_dict
   name: as_dict

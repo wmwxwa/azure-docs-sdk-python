@@ -112,6 +112,20 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: data_lake_store_uri
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: service_principal_id
+  - name: service_principal_key
+  - name: tenant
+  - name: account_name
+  - name: subscription_id
+  - name: resource_group_name
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.AzureDataLakeStoreLinkedService.as_dict
   name: as_dict

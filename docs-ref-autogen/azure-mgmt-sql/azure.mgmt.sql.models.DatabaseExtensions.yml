@@ -38,6 +38,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: operation_mode
+  - name: storage_key_type
+  - name: storage_key
+  - name: storage_uri
 variables:
 - description: Resource ID.
   name: id

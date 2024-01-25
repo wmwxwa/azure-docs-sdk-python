@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.knowledge.qnamaker.models.AlterationsDTO>]
+  keywordOnlyArguments:
+  - name: word_alterations
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.word_alterations_dto_py3.WordAlterationsDTO.as_dict
   name: as_dict

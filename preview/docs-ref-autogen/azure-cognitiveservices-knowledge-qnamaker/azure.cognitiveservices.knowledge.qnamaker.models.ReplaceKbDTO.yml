@@ -19,6 +19,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.knowledge.qnamaker.models.QnADTO>]
+  keywordOnlyArguments:
+  - name: qn_alist
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.ReplaceKbDTO.as_dict
   name: as_dict

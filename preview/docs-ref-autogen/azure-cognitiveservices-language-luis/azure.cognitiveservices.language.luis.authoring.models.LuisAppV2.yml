@@ -100,6 +100,24 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.JSONUtterance>]
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: luis_schema_version
+  - name: name
+  - name: version_id
+  - name: desc
+  - name: culture
+  - name: intents
+  - name: entities
+  - name: closed_lists
+  - name: composites
+  - name: pattern_any_entities
+  - name: regex_entities
+  - name: prebuilt_entities
+  - name: regex_features
+  - name: model_features
+  - name: patterns
+  - name: utterances
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.LuisAppV2.as_dict
   name: as_dict

@@ -43,6 +43,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.face.models.PersistedFace>]
+  keywordOnlyArguments:
+  - name: name
+  - name: face_list_id
+  - name: user_data
+  - name: recognition_model
+    defaultValue: recognition_01
+  - name: persisted_faces
 methods:
 - uid: azure.cognitiveservices.vision.face.models.FaceList.as_dict
   name: as_dict

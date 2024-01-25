@@ -45,6 +45,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: continuation_token
+  - name: is_consistent
+  - name: sub_names
 methods:
 - uid: azure.servicefabric.models.PagedSubNameInfoList.as_dict
   name: as_dict

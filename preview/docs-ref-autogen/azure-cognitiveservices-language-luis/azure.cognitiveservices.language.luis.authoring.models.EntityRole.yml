@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: name
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.EntityRole.as_dict
   name: as_dict

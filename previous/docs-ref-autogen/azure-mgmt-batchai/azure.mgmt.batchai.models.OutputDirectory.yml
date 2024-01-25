@@ -45,3 +45,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: path_prefix
+  - name: path_suffix

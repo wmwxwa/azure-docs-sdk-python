@@ -43,6 +43,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: source_control_sync_job_id
+  - name: provisioning_state
+  - name: sync_type
+  - name: exception
 variables:
 - description: The creation time of the job.
   name: creation_time

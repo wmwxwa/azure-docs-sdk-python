@@ -81,3 +81,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: first_name
+  - name: last_name
+  - name: preferred_contact_method
+  - name: primary_email_address
+  - name: additional_email_addresses
+  - name: phone_number
+  - name: preferred_time_zone
+  - name: country
+  - name: preferred_support_language

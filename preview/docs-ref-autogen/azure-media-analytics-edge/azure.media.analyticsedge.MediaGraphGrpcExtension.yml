@@ -67,6 +67,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: inputs
+  - name: endpoint
+  - name: image
+  - name: data_transfer
+  - name: sampling_options
+  - name: extension_configuration
 methods:
 - uid: azure.media.analyticsedge.MediaGraphGrpcExtension.as_dict
   name: as_dict

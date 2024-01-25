@@ -83,6 +83,16 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: url
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: username
+  - name: password
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.SapCloudForCustomerLinkedService.as_dict
   name: as_dict

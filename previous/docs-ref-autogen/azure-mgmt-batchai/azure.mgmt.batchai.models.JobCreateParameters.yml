@@ -152,3 +152,25 @@ constructor:
     isRequired: true
     types:
     - <xref:batch_ai.models.JobBasePropertiesConstraints>
+  keywordOnlyArguments:
+  - name: scheduling_priority
+  - name: cluster
+  - name: mount_volumes
+  - name: node_count
+  - name: container_settings
+  - name: cntk_settings
+  - name: py_torch_settings
+  - name: tensor_flow_settings
+  - name: caffe_settings
+  - name: caffe2_settings
+  - name: chainer_settings
+  - name: custom_toolkit_settings
+  - name: custom_mpi_settings
+  - name: horovod_settings
+  - name: job_preparation
+  - name: std_out_err_path_prefix
+  - name: input_directories
+  - name: output_directories
+  - name: environment_variables
+  - name: secrets
+  - name: constraints

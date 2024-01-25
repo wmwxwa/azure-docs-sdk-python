@@ -51,6 +51,10 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: max_wall_clock_time
+  - name: retention_time
+  - name: max_task_retry_count
 methods:
 - uid: azure.batch.models.TaskConstraints.as_dict
   name: as_dict

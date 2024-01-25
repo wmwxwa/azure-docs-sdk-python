@@ -27,6 +27,10 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: user_id
+  - name: user_question
+  - name: qna_id
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.FeedbackRecordDTO.as_dict
   name: as_dict

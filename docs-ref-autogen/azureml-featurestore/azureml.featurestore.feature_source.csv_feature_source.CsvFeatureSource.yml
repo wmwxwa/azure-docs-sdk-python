@@ -21,6 +21,10 @@ summary: 'A csv feature source
 constructor:
   syntax: 'CsvFeatureSource(*, path: str, timestamp_column: TimestampColumn = None,
     source_delay: DateTimeOffset = None)'
+  keywordOnlyArguments:
+  - name: path
+  - name: timestamp_column
+  - name: source_delay
 methods:
 - uid: azureml.featurestore.feature_source.csv_feature_source.CsvFeatureSource.load
   name: load

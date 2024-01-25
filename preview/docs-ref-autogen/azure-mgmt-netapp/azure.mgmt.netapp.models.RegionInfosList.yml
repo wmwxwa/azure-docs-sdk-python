@@ -9,7 +9,7 @@ summary: List of regionInfo resources.
 constructor:
   syntax: 'RegionInfosList(*, value: List[_models.RegionInfoResource] | None = None,
     next_link: str | None = None, **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: A list of regionInfo resources.
     types:

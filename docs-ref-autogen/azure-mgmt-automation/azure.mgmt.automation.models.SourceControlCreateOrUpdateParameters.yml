@@ -59,3 +59,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: repo_url
+  - name: branch
+  - name: folder_path
+  - name: auto_sync
+  - name: publish_runbook
+  - name: source_type
+  - name: security_token
+  - name: description

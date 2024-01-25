@@ -36,3 +36,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.elastic.models.CompanyInfo>
+  keywordOnlyArguments:
+  - name: first_name
+  - name: last_name
+  - name: company_name
+  - name: email_address
+  - name: company_info

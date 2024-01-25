@@ -37,6 +37,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.keyvault.v7_0.models.IssuerAttributes>
+  keywordOnlyArguments:
+  - name: provider
+  - name: credentials
+  - name: organization_details
+  - name: attributes
 variables:
 - description: Identifier for the issuer object.
   name: id

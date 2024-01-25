@@ -20,3 +20,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.storagesync.models.StorageSyncApiError>
+  keywordOnlyArguments:
+  - name: error
+  - name: innererror

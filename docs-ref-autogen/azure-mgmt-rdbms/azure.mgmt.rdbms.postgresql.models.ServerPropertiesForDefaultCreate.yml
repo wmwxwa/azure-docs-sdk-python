@@ -87,3 +87,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: administrator_login
+  - name: administrator_login_password
+  - name: version
+  - name: ssl_enforcement
+  - name: minimal_tls_version
+  - name: infrastructure_encryption
+  - name: public_network_access
+  - name: storage_profile

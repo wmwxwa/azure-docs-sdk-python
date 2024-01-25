@@ -84,6 +84,20 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.applicationinsights.models.EventsCustomMetricInfo>
+  keywordOnlyArguments:
+  - name: id
+  - name: count
+  - name: timestamp
+  - name: custom_dimensions
+  - name: custom_measurements
+  - name: operation
+  - name: session
+  - name: user
+  - name: cloud
+  - name: ai
+  - name: application
+  - name: client
+  - name: custom_metric
 methods:
 - uid: azure.applicationinsights.models.events_custom_metric_result_py3.EventsCustomMetricResult.as_dict
   name: as_dict

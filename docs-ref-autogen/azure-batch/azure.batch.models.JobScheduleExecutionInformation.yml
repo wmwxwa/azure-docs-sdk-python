@@ -39,6 +39,10 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime>
+  keywordOnlyArguments:
+  - name: next_run_time
+  - name: recent_job
+  - name: end_time
 methods:
 - uid: azure.batch.models.JobScheduleExecutionInformation.as_dict
   name: as_dict

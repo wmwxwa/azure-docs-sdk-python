@@ -68,6 +68,17 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>
+  keywordOnlyArguments:
+  - name: name
+  - name: location
+  - name: identity
+  - name: tags
+  - name: public_network_access
+  - name: discovery_url
+  - name: intellectual_property
+  - name: managed_resource_group
+  - name: mlflow_registry_uri
+  - name: replication_locations
 methods:
 - uid: azure.ai.ml.entities.Registry.dump
   name: dump

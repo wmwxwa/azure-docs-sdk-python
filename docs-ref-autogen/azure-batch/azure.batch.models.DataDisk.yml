@@ -55,6 +55,11 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.StorageAccountType>
+  keywordOnlyArguments:
+  - name: lun
+  - name: disk_size_gb
+  - name: caching
+  - name: storage_account_type
 methods:
 - uid: azure.batch.models.DataDisk.as_dict
   name: as_dict

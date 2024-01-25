@@ -87,6 +87,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: replica_status
+  - name: health_state
+  - name: node_name
+  - name: address
+  - name: last_in_build_duration_in_seconds
+  - name: replica_role
+  - name: replica_id
 methods:
 - uid: azure.servicefabric.models.StatefulServiceReplicaInfo.as_dict
   name: as_dict

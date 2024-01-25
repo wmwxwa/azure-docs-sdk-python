@@ -14,3 +14,5 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.edgegateway.models.MetricSpecificationV1>]
+  keywordOnlyArguments:
+  - name: metric_specifications

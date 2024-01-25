@@ -15,7 +15,7 @@ summary: 'Azure Resource Manager resource envelope.
 constructor:
   syntax: 'EnvironmentVersion(*, properties: _models.EnvironmentVersionProperties,
     **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: properties
     description: '[Required] Additional attributes of the entity. Required.'
     types:

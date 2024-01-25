@@ -48,6 +48,13 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: target
+  - name: value
+  - name: resources
+  - name: additional_properties
 methods:
 - uid: azure.applicationinsights.models.error_detail_py3.ErrorDetail.as_dict
   name: as_dict

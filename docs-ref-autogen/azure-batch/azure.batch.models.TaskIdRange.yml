@@ -31,6 +31,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: start
+  - name: end
 methods:
 - uid: azure.batch.models.TaskIdRange.as_dict
   name: as_dict

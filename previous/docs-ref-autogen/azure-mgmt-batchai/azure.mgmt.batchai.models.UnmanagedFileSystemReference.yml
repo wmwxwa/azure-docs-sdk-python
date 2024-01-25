@@ -34,3 +34,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: mount_command
+  - name: relative_mount_path

@@ -186,6 +186,28 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: server
+  - name: system_number
+  - name: client_id
+  - name: language
+  - name: system_id
+  - name: user_name
+  - name: password
+  - name: message_server
+  - name: message_server_service
+  - name: snc_mode
+  - name: snc_my_name
+  - name: snc_partner_name
+  - name: snc_library_path
+  - name: snc_qop
+  - name: logon_group
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.SapTableLinkedService.as_dict
   name: as_dict

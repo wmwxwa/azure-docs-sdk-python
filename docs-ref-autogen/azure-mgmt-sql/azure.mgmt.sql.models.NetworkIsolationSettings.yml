@@ -30,3 +30,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: storage_account_resource_id
+  - name: sql_server_resource_id

@@ -71,6 +71,14 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.databoxedge.v2020_12_01.models.RoleStatus>
+  keywordOnlyArguments:
+  - name: host_platform
+  - name: io_t_device_details
+  - name: io_t_edge_device_details
+  - name: share_mappings
+  - name: io_t_edge_agent_info
+  - name: compute_resource
+  - name: role_status
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

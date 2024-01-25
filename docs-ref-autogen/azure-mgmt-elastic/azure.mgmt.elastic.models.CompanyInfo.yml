@@ -36,3 +36,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: domain
+  - name: business
+  - name: employees_number
+  - name: state
+  - name: country

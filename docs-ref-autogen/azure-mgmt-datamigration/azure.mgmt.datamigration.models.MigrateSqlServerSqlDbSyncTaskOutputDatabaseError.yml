@@ -31,6 +31,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.datamigration.models.SyncMigrationDatabaseErrorEvent>]
+  keywordOnlyArguments:
+  - name: error_message
+  - name: events
 variables:
 - description: Result identifier.
   name: id

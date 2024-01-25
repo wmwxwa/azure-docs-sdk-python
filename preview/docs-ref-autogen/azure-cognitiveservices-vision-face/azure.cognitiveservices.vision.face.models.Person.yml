@@ -37,6 +37,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: person_id
+  - name: name
+  - name: user_data
+  - name: persisted_face_ids
 methods:
 - uid: azure.cognitiveservices.vision.face.models.Person.as_dict
   name: as_dict

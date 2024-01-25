@@ -39,6 +39,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: expiration_date
+  - name: target_active_directory_id
+  - name: target_email
+  - name: target_object_id
 variables:
 - description: The resource id of the azure resource.
   name: id

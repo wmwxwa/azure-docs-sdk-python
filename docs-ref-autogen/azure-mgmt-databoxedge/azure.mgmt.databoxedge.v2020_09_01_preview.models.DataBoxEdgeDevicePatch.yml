@@ -26,3 +26,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.databoxedge.v2020_09_01_preview.models.EdgeProfilePatch>
+  keywordOnlyArguments:
+  - name: tags
+  - name: identity
+  - name: edge_profile

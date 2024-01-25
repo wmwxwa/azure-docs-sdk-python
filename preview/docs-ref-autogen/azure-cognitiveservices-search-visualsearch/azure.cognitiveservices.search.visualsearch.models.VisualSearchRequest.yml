@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.search.visualsearch.models.KnowledgeRequest>
+  keywordOnlyArguments:
+  - name: image_info
+  - name: knowledge_request
 methods:
 - uid: azure.cognitiveservices.search.visualsearch.models.VisualSearchRequest.as_dict
   name: as_dict

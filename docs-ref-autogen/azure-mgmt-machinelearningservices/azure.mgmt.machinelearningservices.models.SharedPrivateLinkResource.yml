@@ -43,3 +43,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.machinelearningservices.models.PrivateEndpointServiceConnectionStatus>
+  keywordOnlyArguments:
+  - name: name
+  - name: private_link_resource_id
+  - name: group_id
+  - name: request_message
+  - name: status

@@ -60,3 +60,8 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:service_fabric_managed_clusters_management_client.models.ServiceTypeHealthPolicy>]
+  keywordOnlyArguments:
+  - name: consider_warning_as_error
+  - name: max_percent_unhealthy_deployed_applications
+  - name: default_service_type_health_policy
+  - name: service_type_health_policy_map

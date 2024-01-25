@@ -57,6 +57,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: hardware_profile
+  - name: storage_profile
+  - name: os_profile
+  - name: network_profile
+  - name: partner_node_id
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

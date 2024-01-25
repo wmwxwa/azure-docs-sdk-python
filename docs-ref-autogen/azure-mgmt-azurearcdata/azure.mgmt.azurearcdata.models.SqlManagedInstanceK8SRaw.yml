@@ -22,3 +22,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure_arc_data_management_client.models.SqlManagedInstanceK8SSpec>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: spec

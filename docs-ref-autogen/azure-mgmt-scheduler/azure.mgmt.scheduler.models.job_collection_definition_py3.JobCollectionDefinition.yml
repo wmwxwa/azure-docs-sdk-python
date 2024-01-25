@@ -35,6 +35,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.scheduler.models.JobCollectionProperties>
+  keywordOnlyArguments:
+  - name: name
+  - name: location
+  - name: tags
+  - name: properties
 variables:
 - description: Gets the job collection resource identifier.
   name: id

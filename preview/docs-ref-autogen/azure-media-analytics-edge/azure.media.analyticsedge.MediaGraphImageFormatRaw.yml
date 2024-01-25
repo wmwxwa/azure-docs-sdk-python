@@ -30,6 +30,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.media.analyticsedge.models.MediaGraphImageFormatRawPixelFormat>
+  keywordOnlyArguments:
+  - name: pixel_format
 methods:
 - uid: azure.media.analyticsedge.MediaGraphImageFormatRaw.as_dict
   name: as_dict

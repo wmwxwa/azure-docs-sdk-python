@@ -27,3 +27,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.databoxedge.v2020_09_01.models.ClientPermissionType>
+  keywordOnlyArguments:
+  - name: client
+  - name: access_permission

@@ -55,3 +55,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:video_analyzer.models.TokenKey>]
+  keywordOnlyArguments:
+  - name: issuers
+  - name: audiences
+  - name: claims
+  - name: keys

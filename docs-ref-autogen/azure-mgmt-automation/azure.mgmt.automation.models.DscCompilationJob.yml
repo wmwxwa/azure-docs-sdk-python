@@ -56,6 +56,13 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: configuration
+  - name: provisioning_state
+  - name: run_on
+  - name: status
+  - name: status_details
+  - name: parameters
 variables:
 - description: Fully qualified resource Id for the resource.
   name: id

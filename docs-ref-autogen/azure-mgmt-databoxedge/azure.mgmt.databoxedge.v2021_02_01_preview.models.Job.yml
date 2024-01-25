@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: folder
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

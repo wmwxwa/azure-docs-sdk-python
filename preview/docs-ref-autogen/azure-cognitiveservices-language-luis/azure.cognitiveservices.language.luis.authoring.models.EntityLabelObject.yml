@@ -44,6 +44,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.EntityLabelObject>]
+  keywordOnlyArguments:
+  - name: entity_name
+  - name: start_char_index
+  - name: end_char_index
+  - name: role
+  - name: children
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.EntityLabelObject.as_dict
   name: as_dict

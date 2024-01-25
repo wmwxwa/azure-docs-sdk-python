@@ -14,7 +14,7 @@ summary: 'An azure managed resource object.
   All required parameters must be populated in order to send to Azure.'
 constructor:
   syntax: 'ManagedResource(*, location: str, tags: Dict[str, str] | None = None, **kwargs)'
-  parameters:
+  keywordOnlyArguments:
   - name: location
     description: Resource location. Required.
     types:

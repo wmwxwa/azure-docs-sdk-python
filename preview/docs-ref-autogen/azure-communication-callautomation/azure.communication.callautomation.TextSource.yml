@@ -16,6 +16,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
   - name: source_locale
     description: 'Source language locale to be played. Refer to available locales
       here:

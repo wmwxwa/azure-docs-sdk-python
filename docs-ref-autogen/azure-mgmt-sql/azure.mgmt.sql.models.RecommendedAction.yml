@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.sql.models.RecommendedActionStateInfo>
+  keywordOnlyArguments:
+  - name: state
 variables:
 - description: Resource ID.
   name: id

@@ -30,3 +30,8 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: type
+  - name: properties

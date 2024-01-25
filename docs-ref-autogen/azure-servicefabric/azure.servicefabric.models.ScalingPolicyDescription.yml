@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.ScalingMechanismDescription>
+  keywordOnlyArguments:
+  - name: scaling_trigger
+  - name: scaling_mechanism
 methods:
 - uid: azure.servicefabric.models.ScalingPolicyDescription.as_dict
   name: as_dict

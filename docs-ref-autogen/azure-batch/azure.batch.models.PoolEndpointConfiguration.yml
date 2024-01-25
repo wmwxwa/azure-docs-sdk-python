@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.batch.models.InboundNATPool>]
+  keywordOnlyArguments:
+  - name: inbound_nat_pools
 methods:
 - uid: azure.batch.models.PoolEndpointConfiguration.as_dict
   name: as_dict

@@ -79,6 +79,19 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: categories
+  - name: adult
+  - name: color
+  - name: image_type
+  - name: tags
+  - name: description
+  - name: faces
+  - name: objects
+  - name: brands
+  - name: request_id
+  - name: metadata
+  - name: model_version
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.ImageAnalysis.as_dict
   name: as_dict

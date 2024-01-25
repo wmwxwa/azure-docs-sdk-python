@@ -47,3 +47,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: kid
+  - name: alg
+  - name: x
+  - name: y

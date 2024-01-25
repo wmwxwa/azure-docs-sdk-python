@@ -44,6 +44,12 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: section_name
+  - name: parameter_name
+  - name: parameter_value
+  - name: timeout
+  - name: persist_across_upgrade
 methods:
 - uid: azure.servicefabric.models.ConfigParameterOverride.as_dict
   name: as_dict

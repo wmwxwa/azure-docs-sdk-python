@@ -40,6 +40,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: authority
+  - name: client
+  - name: cluster
+  - name: login
+  - name: redirect
+  - name: tenant
 methods:
 - uid: azure.servicefabric.models.AadMetadata.as_dict
   name: as_dict

@@ -54,6 +54,13 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.sql.models.InstancePoolLicenseType>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: sku
+  - name: subnet_id
+  - name: v_cores
+  - name: license_type
 variables:
 - description: Resource ID.
   name: id

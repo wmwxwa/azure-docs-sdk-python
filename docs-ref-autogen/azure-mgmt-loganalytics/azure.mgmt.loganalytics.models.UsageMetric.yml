@@ -42,3 +42,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: unit
+  - name: current_value
+  - name: limit
+  - name: next_reset_time
+  - name: quota_period

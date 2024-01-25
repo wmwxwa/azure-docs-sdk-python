@@ -113,6 +113,19 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.TaskExecutionResult>
+  keywordOnlyArguments:
+  - name: id
+  - name: node_info
+  - name: start_time
+  - name: end_time
+  - name: exit_code
+  - name: container_info
+  - name: failure_info
+  - name: state
+  - name: state_transition_time
+  - name: previous_state
+  - name: previous_state_transition_time
+  - name: result
 methods:
 - uid: azure.batch.models.SubtaskInformation.as_dict
   name: as_dict

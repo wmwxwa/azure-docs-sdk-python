@@ -15,3 +15,5 @@ constructor:
     isRequired: true
     types:
     - <xref:batch_ai.models.ImageReference>
+  keywordOnlyArguments:
+  - name: image_reference

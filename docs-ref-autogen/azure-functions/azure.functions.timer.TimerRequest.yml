@@ -7,6 +7,8 @@ inheritances:
 - azure.functions._abc.TimerRequest
 constructor:
   syntax: 'TimerRequest(*, past_due: bool)'
+  keywordOnlyArguments:
+  - name: past_due
 attributes:
 - uid: azure.functions.timer.TimerRequest.past_due
   name: past_due

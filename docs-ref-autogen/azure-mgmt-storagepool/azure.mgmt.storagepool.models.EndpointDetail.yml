@@ -36,3 +36,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: ip_address
+  - name: port
+  - name: latency
+  - name: is_accessible

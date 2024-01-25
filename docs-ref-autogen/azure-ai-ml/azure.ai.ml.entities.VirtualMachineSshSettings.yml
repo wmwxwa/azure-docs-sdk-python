@@ -36,6 +36,12 @@ constructor:
     isRequired: true
     types:
     - <xref:typing.Optional>[<xref:str>]
+  keywordOnlyArguments:
+  - name: admin_username
+  - name: admin_password
+  - name: ssh_port
+    defaultValue: '22'
+  - name: ssh_private_key_file
 examples:
 - "Configuring a VirtualMachineSshSettings object.<!--[!code-python[Main](les\\ml_samples_compute.py\
   \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\

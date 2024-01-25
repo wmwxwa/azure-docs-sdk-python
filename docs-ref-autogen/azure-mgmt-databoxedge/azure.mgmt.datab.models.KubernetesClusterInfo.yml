@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: version
 variables:
 - description: Etcd configuration.
   name: etcd_info

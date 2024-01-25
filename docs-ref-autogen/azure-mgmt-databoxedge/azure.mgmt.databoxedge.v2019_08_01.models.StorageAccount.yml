@@ -40,6 +40,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: description
+  - name: storage_account_status
+  - name: data_policy
+  - name: storage_account_credential_id
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

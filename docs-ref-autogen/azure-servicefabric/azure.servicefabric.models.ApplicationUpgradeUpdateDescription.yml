@@ -44,6 +44,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.RollingUpgradeUpdateDescription>
+  keywordOnlyArguments:
+  - name: name
+  - name: upgrade_kind
+    defaultValue: Rolling
+  - name: application_health_policy
+  - name: update_description
 methods:
 - uid: azure.servicefabric.models.ApplicationUpgradeUpdateDescription.as_dict
   name: as_dict

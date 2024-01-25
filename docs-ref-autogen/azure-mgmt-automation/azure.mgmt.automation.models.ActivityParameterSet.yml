@@ -20,3 +20,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.automation.models.ActivityParameter>]
+  keywordOnlyArguments:
+  - name: name
+  - name: parameters

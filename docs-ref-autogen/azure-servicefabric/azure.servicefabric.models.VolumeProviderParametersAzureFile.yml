@@ -34,6 +34,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: account_name
+  - name: share_name
+  - name: account_key
 methods:
 - uid: azure.servicefabric.models.VolumeProviderParametersAzureFile.as_dict
   name: as_dict

@@ -54,6 +54,13 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.keyvault.v2016_10_01.models.JsonWebKeyCurveName>
+  keywordOnlyArguments:
+  - name: kty
+  - name: key_size
+  - name: key_ops
+  - name: key_attributes
+  - name: tags
+  - name: curve
 methods:
 - uid: azure.keyvault.v2016_10_01.models.key_create_parameters_py3.KeyCreateParameters.as_dict
   name: as_dict

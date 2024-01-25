@@ -44,6 +44,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.language.luis.runtime.models.Sentiment>
+  keywordOnlyArguments:
+  - name: top_intent
+  - name: intents
+  - name: entities
+  - name: altered_query
+  - name: sentiment
 methods:
 - uid: azure.cognitiveservices.language.luis.runtime.models.Prediction.as_dict
   name: as_dict

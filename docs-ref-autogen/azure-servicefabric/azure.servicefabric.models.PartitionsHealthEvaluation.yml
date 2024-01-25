@@ -69,6 +69,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.HealthEvaluationWrapper>]
+  keywordOnlyArguments:
+  - name: aggregated_health_state
+  - name: description
+  - name: max_percent_unhealthy_partitions_per_service
+  - name: total_count
+  - name: unhealthy_evaluations
 methods:
 - uid: azure.servicefabric.models.PartitionsHealthEvaluation.as_dict
   name: as_dict

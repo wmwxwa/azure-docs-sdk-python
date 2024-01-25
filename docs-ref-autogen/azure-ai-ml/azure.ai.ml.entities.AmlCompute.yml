@@ -102,6 +102,21 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: name
+  - name: description
+  - name: size
+  - name: tags
+  - name: ssh_public_access_enabled
+  - name: ssh_settings
+  - name: min_instances
+  - name: max_instances
+  - name: network_settings
+  - name: idle_time_before_scale_down
+  - name: identity
+  - name: tier
+  - name: enable_node_public_ip
+    defaultValue: 'True'
 examples:
 - "Creating an AmlCompute object.<!--[!code-python[Main](les\\ml_samples_compute.py\
   \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\

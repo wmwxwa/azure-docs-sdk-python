@@ -119,6 +119,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ReplicaHealthStateFilter>]
+  keywordOnlyArguments:
+  - name: partition_id_filter
+  - name: health_state_filter
+  - name: replica_filters
 methods:
 - uid: azure.servicefabric.models.PartitionHealthStateFilter.as_dict
   name: as_dict

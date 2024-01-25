@@ -34,6 +34,11 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
+  keywordOnlyArguments:
+  - name: amount
+  - name: start_date
+  - name: end_date
+  - name: creation_date
 variables:
 - description: Resource Id.
   name: id

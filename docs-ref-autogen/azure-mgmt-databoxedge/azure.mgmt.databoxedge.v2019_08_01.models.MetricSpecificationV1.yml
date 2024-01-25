@@ -81,3 +81,15 @@ constructor:
     types:
     - <xref:list>[<xref:str>
     - <xref:azure.mgmt.databoxedge.v2019_08_01.models.MetricAggregationType>]
+  keywordOnlyArguments:
+  - name: name
+  - name: display_name
+  - name: display_description
+  - name: unit
+  - name: aggregation_type
+  - name: dimensions
+  - name: fill_gap_with_zero
+  - name: category
+  - name: resource_id_dimension_name_override
+  - name: supported_time_grain_types
+  - name: supported_aggregation_types

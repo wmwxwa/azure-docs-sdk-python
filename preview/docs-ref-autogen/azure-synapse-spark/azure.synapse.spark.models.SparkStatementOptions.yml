@@ -20,6 +20,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.synapse.spark.models.SparkStatementLanguageType>
+  keywordOnlyArguments:
+  - name: code
+  - name: kind
 methods:
 - uid: azure.synapse.spark.models.SparkStatementOptions.as_dict
   name: as_dict

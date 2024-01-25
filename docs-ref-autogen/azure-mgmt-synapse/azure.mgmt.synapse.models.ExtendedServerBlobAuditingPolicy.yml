@@ -248,6 +248,17 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: predicate_expression
+  - name: state
+  - name: storage_endpoint
+  - name: storage_account_access_key
+  - name: retention_days
+  - name: audit_actions_and_groups
+  - name: storage_account_subscription_id
+  - name: is_storage_secondary_key_in_use
+  - name: is_azure_monitor_target_enabled
+  - name: queue_delay_ms
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

@@ -116,6 +116,26 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.azurestack.models.Compatibility>
+  keywordOnlyArguments:
+  - name: etag
+  - name: display_name
+  - name: description
+  - name: publisher_display_name
+  - name: publisher_identifier
+  - name: offer
+  - name: offer_version
+  - name: sku
+  - name: billing_part_number
+  - name: vm_extension_type
+  - name: gallery_item_identity
+  - name: icon_uris
+  - name: links
+  - name: legal_terms
+  - name: privacy_policy
+  - name: payload_length
+  - name: product_kind
+  - name: product_properties
+  - name: compatibility
 variables:
 - description: ID of the resource.
   name: id

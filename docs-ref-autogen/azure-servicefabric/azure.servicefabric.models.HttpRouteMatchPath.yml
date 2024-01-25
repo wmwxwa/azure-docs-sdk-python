@@ -27,6 +27,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: value
+  - name: rewrite
 variables:
 - description: 'Required. how to match value in the Uri. Default value:
 

@@ -31,6 +31,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: virtual_directory_name
+  - name: number_of_files_uploaded
 methods:
 - uid: azure.batch.models.UploadBatchServiceLogsResult.as_dict
   name: as_dict

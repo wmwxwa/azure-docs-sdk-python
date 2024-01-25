@@ -34,6 +34,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: terms_of_service
+  - name: marketing
+  - name: privacy
+  - name: support
 methods:
 - uid: azure.graphrbac.models.InformationalUrl.as_dict
   name: as_dict

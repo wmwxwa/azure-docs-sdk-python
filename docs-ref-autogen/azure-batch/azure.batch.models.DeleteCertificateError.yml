@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.batch.models.NameValuePair>]
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: values
 methods:
 - uid: azure.batch.models.DeleteCertificateError.as_dict
   name: as_dict

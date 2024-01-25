@@ -64,6 +64,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.BackupEntity>
+  keywordOnlyArguments:
+  - name: storage
+  - name: backup_entity
+  - name: start_date_time_filter
+  - name: end_date_time_filter
+  - name: latest
 methods:
 - uid: azure.servicefabric.models.GetBackupByStorageQueryDescription.as_dict
   name: as_dict

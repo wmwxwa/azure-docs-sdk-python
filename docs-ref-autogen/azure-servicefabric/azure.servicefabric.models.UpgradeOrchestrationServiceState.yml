@@ -16,6 +16,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: service_state
 methods:
 - uid: azure.servicefabric.models.UpgradeOrchestrationServiceState.as_dict
   name: as_dict

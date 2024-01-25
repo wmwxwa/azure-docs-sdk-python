@@ -32,6 +32,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: url
+  - name: additional_properties
 methods:
 - uid: azure.graphrbac.models.AddOwnerParameters.as_dict
   name: as_dict

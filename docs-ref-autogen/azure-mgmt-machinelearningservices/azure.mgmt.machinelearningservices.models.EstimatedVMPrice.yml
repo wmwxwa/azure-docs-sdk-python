@@ -35,3 +35,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.machinelearningservices.models.VMTier>
+  keywordOnlyArguments:
+  - name: retail_price
+  - name: os_type
+  - name: vm_tier

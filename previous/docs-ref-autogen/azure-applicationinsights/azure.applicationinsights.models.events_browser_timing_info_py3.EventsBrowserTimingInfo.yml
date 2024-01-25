@@ -62,6 +62,17 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
+  keywordOnlyArguments:
+  - name: url_path
+  - name: url_host
+  - name: name
+  - name: url
+  - name: total_duration
+  - name: performance_bucket
+  - name: network_duration
+  - name: send_duration
+  - name: receive_duration
+  - name: processing_duration
 methods:
 - uid: azure.applicationinsights.models.events_browser_timing_info_py3.EventsBrowserTimingInfo.as_dict
   name: as_dict

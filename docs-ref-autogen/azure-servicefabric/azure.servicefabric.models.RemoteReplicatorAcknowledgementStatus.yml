@@ -28,6 +28,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.RemoteReplicatorAcknowledgementDetail>
+  keywordOnlyArguments:
+  - name: replication_stream_acknowledgement_detail
+  - name: copy_stream_acknowledgement_detail
 methods:
 - uid: azure.servicefabric.models.RemoteReplicatorAcknowledgementStatus.as_dict
   name: as_dict

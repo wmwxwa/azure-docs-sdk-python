@@ -15,3 +15,5 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: destination_invoice_section_id

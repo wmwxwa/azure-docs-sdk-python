@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: daily_quota_gb
 variables:
 - description: The time when the quota will be rest.
   name: quota_next_reset_time

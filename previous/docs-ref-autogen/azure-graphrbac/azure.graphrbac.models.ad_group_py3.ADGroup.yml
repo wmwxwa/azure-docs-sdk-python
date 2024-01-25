@@ -60,6 +60,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: display_name
+  - name: mail_enabled
+  - name: mail_nickname
+  - name: security_enabled
+  - name: mail
 variables:
 - description: The object ID.
   name: object_id

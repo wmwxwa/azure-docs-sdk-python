@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: access_key_id
+  - name: secret_access_key
 methods:
 - uid: azure.ai.ml.entities.AccessKeyConfiguration.get
   name: get

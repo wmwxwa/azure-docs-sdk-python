@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:microsoft_logz.models.MonitoringTagRulesProperties>
+  keywordOnlyArguments:
+  - name: properties
 variables:
 - description: Name of the rule set.
   name: name

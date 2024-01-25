@@ -39,6 +39,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: message
+  - name: code
+    defaultValue: None
 variables:
 - description: 'A description that provides additional information
 

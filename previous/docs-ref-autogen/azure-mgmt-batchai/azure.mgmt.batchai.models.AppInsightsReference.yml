@@ -33,3 +33,7 @@ constructor:
     isRequired: true
     types:
     - <xref:batch_ai.models.KeyVaultSecretReference>
+  keywordOnlyArguments:
+  - name: component
+  - name: instrumentation_key
+  - name: instrumentation_key_secret_reference

@@ -61,6 +61,19 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.ProbeTcpSocket>
+  keywordOnlyArguments:
+  - name: initial_delay_seconds
+  - name: period_seconds
+    defaultValue: '10'
+  - name: timeout_seconds
+    defaultValue: '1'
+  - name: success_threshold
+    defaultValue: '1'
+  - name: failure_threshold
+    defaultValue: '3'
+  - name: exec_property
+  - name: http_get
+  - name: tcp_socket
 methods:
 - uid: azure.servicefabric.models.Probe.as_dict
   name: as_dict

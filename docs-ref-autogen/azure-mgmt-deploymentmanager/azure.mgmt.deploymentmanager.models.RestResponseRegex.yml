@@ -24,3 +24,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.deploymentmanager.models.RestMatchQuantifier>
+  keywordOnlyArguments:
+  - name: matches
+  - name: match_quantifier

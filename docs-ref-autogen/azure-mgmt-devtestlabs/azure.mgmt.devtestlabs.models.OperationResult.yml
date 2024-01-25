@@ -48,3 +48,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.devtestlabs.models.OperationError>
+  keywordOnlyArguments:
+  - name: status
+  - name: status_code
+  - name: error

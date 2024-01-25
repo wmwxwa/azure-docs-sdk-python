@@ -56,3 +56,11 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: configuration_mode_frequency_mins
+  - name: reboot_node_if_needed
+  - name: configuration_mode
+  - name: action_after_reboot
+  - name: certificate_id
+  - name: refresh_frequency_mins
+  - name: allow_module_overwrite

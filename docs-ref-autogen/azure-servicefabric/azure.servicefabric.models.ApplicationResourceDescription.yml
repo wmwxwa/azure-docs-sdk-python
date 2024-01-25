@@ -58,6 +58,13 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.IdentityDescription>
+  keywordOnlyArguments:
+  - name: name
+  - name: description
+  - name: services
+  - name: diagnostics
+  - name: debug_params
+  - name: identity
 variables:
 - description: Names of the services in the application.
   name: service_names

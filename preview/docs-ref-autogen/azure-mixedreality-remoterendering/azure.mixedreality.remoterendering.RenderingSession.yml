@@ -45,6 +45,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mixedreality.remoterendering._generated.models.RenderingSessionStatus>
+  keywordOnlyArguments:
+  - name: id
+  - name: size
+  - name: status
 variables:
 - description: 'The TCP port at which the Azure Remote Rendering Inspector tool is
 

@@ -27,3 +27,6 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: day
+  - name: occurrence

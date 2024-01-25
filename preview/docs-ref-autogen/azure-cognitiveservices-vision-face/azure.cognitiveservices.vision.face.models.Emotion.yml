@@ -46,6 +46,15 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: anger
+  - name: contempt
+  - name: disgust
+  - name: fear
+  - name: happiness
+  - name: neutral
+  - name: sadness
+  - name: surprise
 methods:
 - uid: azure.cognitiveservices.vision.face.models.Emotion.as_dict
   name: as_dict

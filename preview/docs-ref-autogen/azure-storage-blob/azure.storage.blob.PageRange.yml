@@ -19,6 +19,8 @@ constructor:
     defaultValue: None
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: cleared
 variables:
 - description: Whether the range has been cleared.
   name: cleared

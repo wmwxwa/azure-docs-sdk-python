@@ -20,6 +20,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.DisableJobOption>
+  keywordOnlyArguments:
+  - name: disable_tasks
 methods:
 - uid: azure.batch.models.JobDisableParameter.as_dict
   name: as_dict

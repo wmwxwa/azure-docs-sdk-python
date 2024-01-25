@@ -40,6 +40,13 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.vision.face.models.FaceAttributes>
+  keywordOnlyArguments:
+  - name: face_rectangle
+  - name: face_id
+  - name: recognition_model
+    defaultValue: recognition_01
+  - name: face_landmarks
+  - name: face_attributes
 methods:
 - uid: azure.cognitiveservices.vision.face.models.DetectedFace.as_dict
   name: as_dict

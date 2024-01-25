@@ -50,6 +50,14 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.DataFlowDebugPackageDebugSettings>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: session_id
+  - name: data_flow
+  - name: datasets
+  - name: linked_services
+  - name: staging
+  - name: debug_settings
 methods:
 - uid: azure.synapse.artifacts.models.DataFlowDebugPackage.as_dict
   name: as_dict

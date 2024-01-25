@@ -16,6 +16,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: iot_edge
 methods:
 - uid: azure.iot.hub.protocol.models.device_capabilities_py3.DeviceCapabilities.as_dict
   name: as_dict

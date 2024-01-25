@@ -44,6 +44,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: cer
+  - name: content_type
+  - name: attributes
+  - name: tags
+  - name: recovery_id
 variables:
 - description: The certificate id.
   name: id

@@ -38,3 +38,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: secret
+  - name: tenant
+  - name: audience
+  - name: client_id

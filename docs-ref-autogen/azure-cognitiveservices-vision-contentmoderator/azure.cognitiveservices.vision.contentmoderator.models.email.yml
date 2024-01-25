@@ -32,6 +32,11 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: detected
+  - name: sub_type
+  - name: text
+  - name: index
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.Email.as_dict
   name: as_dict

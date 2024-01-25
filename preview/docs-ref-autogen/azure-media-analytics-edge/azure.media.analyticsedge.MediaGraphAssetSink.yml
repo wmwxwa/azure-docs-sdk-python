@@ -71,6 +71,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: inputs
+  - name: asset_name_pattern
+  - name: local_media_cache_path
+  - name: local_media_cache_maximum_size_mi_b
+  - name: segment_length
 methods:
 - uid: azure.media.analyticsedge.MediaGraphAssetSink.as_dict
   name: as_dict

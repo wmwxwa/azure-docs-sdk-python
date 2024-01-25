@@ -73,3 +73,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: filter_mode
+  - name: regions
+  - name: cluster_flavors
+  - name: node_types
+  - name: cluster_versions
+  - name: os_type
+  - name: vm_sizes
+  - name: esp_applied
+  - name: compute_isolation_supported

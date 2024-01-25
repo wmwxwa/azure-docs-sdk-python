@@ -218,3 +218,39 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: location
+  - name: tags
+  - name: bulk_creation_parameters
+  - name: notes
+  - name: owner_object_id
+  - name: owner_user_principal_name
+  - name: created_by_user_id
+  - name: created_by_user
+  - name: created_date
+  - name: compute_id
+  - name: custom_image_id
+  - name: os_type
+  - name: size
+  - name: user_name
+  - name: password
+  - name: ssh_key
+  - name: is_authentication_with_ssh_key
+  - name: fqdn
+  - name: lab_subnet_name
+  - name: lab_virtual_network_id
+  - name: disallow_public_ip_address
+  - name: artifacts
+  - name: artifact_deployment_status
+  - name: gallery_image_reference
+  - name: plan_id
+  - name: network_interface
+  - name: expiration_date
+  - name: allow_claim
+  - name: storage_type
+  - name: virtual_machine_creation_source
+  - name: environment_id
+  - name: data_disk_parameters
+  - name: schedule_parameters
+  - name: last_known_power_state

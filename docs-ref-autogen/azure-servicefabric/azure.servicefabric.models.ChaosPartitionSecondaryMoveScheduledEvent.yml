@@ -87,6 +87,18 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: partition_id
+  - name: fault_group_id
+  - name: fault_id
+  - name: service_name
+  - name: source_node
+  - name: destination_node
+  - name: forced_move
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.ChaosPartitionSecondaryMoveScheduledEvent.as_dict
   name: as_dict

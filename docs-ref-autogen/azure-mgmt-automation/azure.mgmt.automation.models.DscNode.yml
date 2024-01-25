@@ -68,6 +68,17 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: last_seen
+  - name: registration_time
+  - name: ip
+  - name: account_id
+  - name: status
+  - name: node_id
+  - name: etag
+  - name: total_count
+  - name: extension_handler
+  - name: name_properties_node_configuration_name
 variables:
 - description: Fully qualified resource Id for the resource.
   name: id

@@ -55,3 +55,7 @@ constructor:
     isRequired: true
     types:
     - <xref:video_analyzer.models.VideoScale>
+  keywordOnlyArguments:
+  - name: bitrate_kbps
+  - name: frame_rate
+  - name: scale

@@ -25,3 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.devtestlabs.models.UserSecretStoreFragment>
+  keywordOnlyArguments:
+  - name: tags
+  - name: identity
+  - name: secret_store

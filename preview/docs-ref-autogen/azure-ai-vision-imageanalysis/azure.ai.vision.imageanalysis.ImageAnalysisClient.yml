@@ -22,6 +22,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.core.credentials.AzureKeyCredential>
+  keywordOnlyArguments:
   - name: api_version
     description: 'The API version to use for this operation. Default value is "2023-10-01".
 
@@ -36,7 +37,7 @@ methods:
     language: str | None = None, gender_neutral_caption: bool | None = None, smart_crops_aspect_ratios:
     List[float] | None = None, model_version: str | None = None, **kwargs: Any) ->
     _models.ImageAnalysisResult'
-  parameters:
+  keywordOnlyArguments:
   - name: image_url
     description: The publicly accessible URL of the image to analyze.
     types:
@@ -144,6 +145,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.core.rest.HttpRequest>
+  keywordOnlyArguments:
   - name: stream
     description: Whether the response payload will be streamed. Defaults to False.
     types:

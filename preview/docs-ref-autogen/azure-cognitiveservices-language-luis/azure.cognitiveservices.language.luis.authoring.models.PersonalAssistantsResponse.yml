@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: endpoint_keys
+  - name: endpoint_urls
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.PersonalAssistantsResponse.as_dict
   name: as_dict

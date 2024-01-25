@@ -27,3 +27,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: is_credential_enabled
+    defaultValue: 'True'
+  - name: user_name
+  - name: password

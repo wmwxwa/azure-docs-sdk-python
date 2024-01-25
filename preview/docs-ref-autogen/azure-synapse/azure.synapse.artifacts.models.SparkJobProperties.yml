@@ -89,6 +89,21 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: file
+  - name: driver_memory
+  - name: driver_cores
+  - name: executor_memory
+  - name: executor_cores
+  - name: num_executors
+  - name: additional_properties
+  - name: name
+  - name: class_name
+  - name: conf
+  - name: args
+  - name: jars
+  - name: files
+  - name: archives
 methods:
 - uid: azure.synapse.artifacts.models.SparkJobProperties.as_dict
   name: as_dict

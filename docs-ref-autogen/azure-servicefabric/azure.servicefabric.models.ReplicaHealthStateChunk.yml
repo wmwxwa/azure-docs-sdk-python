@@ -49,6 +49,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: health_state
+  - name: replica_or_instance_id
 methods:
 - uid: azure.servicefabric.models.ReplicaHealthStateChunk.as_dict
   name: as_dict

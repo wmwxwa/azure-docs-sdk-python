@@ -50,6 +50,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: tags
+  - name: sku
+  - name: identity
+  - name: display_name
+  - name: subdomain
+  - name: template
 variables:
 - description: The ID of the application.
   name: application_id

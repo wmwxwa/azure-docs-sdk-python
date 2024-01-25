@@ -20,3 +20,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.automation.models.NonAzureQueryProperties>]
+  keywordOnlyArguments:
+  - name: azure_queries
+  - name: non_azure_queries

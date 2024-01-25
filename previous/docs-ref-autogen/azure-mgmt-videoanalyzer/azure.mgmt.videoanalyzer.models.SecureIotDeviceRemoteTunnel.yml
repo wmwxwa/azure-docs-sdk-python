@@ -31,3 +31,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: iot_hub_name
+  - name: device_id

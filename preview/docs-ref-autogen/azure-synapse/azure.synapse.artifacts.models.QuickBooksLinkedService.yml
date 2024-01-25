@@ -99,6 +99,20 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: endpoint
+  - name: company_id
+  - name: consumer_key
+  - name: consumer_secret
+  - name: access_token
+  - name: access_token_secret
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: use_encrypted_endpoints
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.QuickBooksLinkedService.as_dict
   name: as_dict

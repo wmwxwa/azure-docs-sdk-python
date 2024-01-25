@@ -86,3 +86,12 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
+  keywordOnlyArguments:
+  - name: source_server_id
+  - name: restore_point_in_time
+  - name: version
+  - name: ssl_enforcement
+  - name: minimal_tls_version
+  - name: infrastructure_encryption
+  - name: public_network_access
+  - name: storage_profile

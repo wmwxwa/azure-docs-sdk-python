@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: tags
 variables:
 - description: Resource ID.
   name: id

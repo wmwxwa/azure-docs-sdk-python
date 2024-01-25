@@ -47,6 +47,14 @@ constructor:
     isRequired: true
     types:
     - <xref:microsoft_logz.models.PlanData>
+  keywordOnlyArguments:
+  - name: monitoring_status
+    defaultValue: Enabled
+  - name: marketplace_subscription_status
+    defaultValue: Active
+  - name: logz_organization_properties
+  - name: user_info
+  - name: plan_data
 variables:
 - description: 'Flag specifying if the resource provisioning state as tracked by ARM.
 

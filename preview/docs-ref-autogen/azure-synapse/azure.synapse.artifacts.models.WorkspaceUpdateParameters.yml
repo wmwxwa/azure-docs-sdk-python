@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.WorkspaceIdentity>
+  keywordOnlyArguments:
+  - name: tags
+  - name: identity
 methods:
 - uid: azure.synapse.artifacts.models.WorkspaceUpdateParameters.as_dict
   name: as_dict

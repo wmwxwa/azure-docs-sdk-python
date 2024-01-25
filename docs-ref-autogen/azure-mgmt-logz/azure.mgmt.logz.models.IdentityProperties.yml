@@ -18,6 +18,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:microsoft_logz.models.ManagedIdentityTypes>
+  keywordOnlyArguments:
+  - name: type
 variables:
 - description: The identity ID.
   name: principal_id

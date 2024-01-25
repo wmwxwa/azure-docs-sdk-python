@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: computer_name
+  - name: ssh_public_key
 variables:
 - description: This property allows you to specify the type of the OS.
   name: os_type

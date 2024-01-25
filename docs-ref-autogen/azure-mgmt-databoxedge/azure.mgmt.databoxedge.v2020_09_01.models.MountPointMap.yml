@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: share_id
 variables:
 - description: ID of the role to which share is mounted.
   name: role_id

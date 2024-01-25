@@ -22,6 +22,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.batch.models.NameValuePair>]
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: error_details
 methods:
 - uid: azure.batch.models.ComputeNodeError.as_dict
   name: as_dict

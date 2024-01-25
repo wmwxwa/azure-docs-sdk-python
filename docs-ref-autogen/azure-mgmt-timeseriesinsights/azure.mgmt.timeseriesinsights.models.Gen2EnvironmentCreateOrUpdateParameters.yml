@@ -71,3 +71,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.timeseriesinsights.models.WarmStoreConfigurationProperties>
+  keywordOnlyArguments:
+  - name: location
+  - name: sku
+  - name: time_series_id_properties
+  - name: storage_configuration
+  - name: tags
+  - name: warm_store_configuration

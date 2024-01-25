@@ -73,6 +73,15 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.loganalytics.models.Tag>]
+  keywordOnlyArguments:
+  - name: category
+  - name: display_name
+  - name: query
+  - name: etag
+  - name: function_alias
+  - name: function_parameters
+  - name: version
+  - name: tags
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

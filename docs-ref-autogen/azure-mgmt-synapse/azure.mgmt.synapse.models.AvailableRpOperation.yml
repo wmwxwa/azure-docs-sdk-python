@@ -37,3 +37,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.synapse.models.OperationMetaServiceSpecification>
+  keywordOnlyArguments:
+  - name: display
+  - name: is_data_action
+  - name: name
+  - name: origin
+  - name: service_specification

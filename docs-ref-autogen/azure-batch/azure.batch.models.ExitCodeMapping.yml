@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.ExitOptions>
+  keywordOnlyArguments:
+  - name: code
+  - name: exit_options
 methods:
 - uid: azure.batch.models.ExitCodeMapping.as_dict
   name: as_dict

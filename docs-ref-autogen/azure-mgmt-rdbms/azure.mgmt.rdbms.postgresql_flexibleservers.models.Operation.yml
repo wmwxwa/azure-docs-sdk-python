@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: is_data_action
 variables:
 - description: The name of the operation being performed on this particular object.
   name: name

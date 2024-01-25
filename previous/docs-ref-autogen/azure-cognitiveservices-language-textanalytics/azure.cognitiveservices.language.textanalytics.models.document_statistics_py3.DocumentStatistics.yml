@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: characters_count
+  - name: transactions_count
 methods:
 - uid: azure.cognitiveservices.language.textanalytics.models.document_statistics_py3.DocumentStatistics.as_dict
   name: as_dict

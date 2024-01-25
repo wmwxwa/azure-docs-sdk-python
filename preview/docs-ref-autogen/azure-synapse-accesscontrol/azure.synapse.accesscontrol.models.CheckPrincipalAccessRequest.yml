@@ -28,6 +28,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: subject
+  - name: actions
+  - name: scope
 methods:
 - uid: azure.synapse.accesscontrol.models.CheckPrincipalAccessRequest.as_dict
   name: as_dict

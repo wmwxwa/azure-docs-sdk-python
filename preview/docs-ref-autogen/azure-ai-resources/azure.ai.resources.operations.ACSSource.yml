@@ -16,3 +16,12 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: acs_index_name
+  - name: acs_content_key
+  - name: acs_embedding_key
+  - name: acs_title_key
+  - name: acs_metadata_key
+  - name: acs_connection_id
+  - name: num_docs_to_import
+    defaultValue: '50'

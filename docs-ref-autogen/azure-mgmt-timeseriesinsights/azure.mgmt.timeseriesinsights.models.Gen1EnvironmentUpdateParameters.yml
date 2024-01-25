@@ -49,6 +49,11 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.timeseriesinsights.models.StorageLimitExceededBehavior>
+  keywordOnlyArguments:
+  - name: tags
+  - name: sku
+  - name: data_retention_time
+  - name: storage_limit_exceeded_behavior
 variables:
 - description: 'The kind of the environment.Constant filled by server.  Possible values
     include:

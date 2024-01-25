@@ -35,3 +35,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: included_package_classifications
+  - name: excluded_package_name_masks
+  - name: included_package_name_masks
+  - name: reboot_setting

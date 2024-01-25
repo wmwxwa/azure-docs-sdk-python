@@ -234,6 +234,34 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.JobStatistics>
+  keywordOnlyArguments:
+  - name: id
+  - name: display_name
+  - name: uses_task_dependencies
+  - name: url
+  - name: e_tag
+  - name: last_modified
+  - name: creation_time
+  - name: state
+  - name: state_transition_time
+  - name: previous_state
+  - name: previous_state_transition_time
+  - name: priority
+  - name: allow_task_preemption
+  - name: max_parallel_tasks
+    defaultValue: '-1'
+  - name: constraints
+  - name: job_manager_task
+  - name: job_preparation_task
+  - name: job_release_task
+  - name: common_environment_settings
+  - name: pool_info
+  - name: on_all_tasks_complete
+  - name: on_task_failure
+  - name: network_configuration
+  - name: metadata
+  - name: execution_info
+  - name: stats
 methods:
 - uid: azure.batch.models.CloudJob.as_dict
   name: as_dict

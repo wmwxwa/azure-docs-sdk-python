@@ -57,6 +57,15 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.hdinsight.models.PrivateLinkConfiguration>]
+  keywordOnlyArguments:
+  - name: compute_profile
+  - name: install_script_actions
+  - name: uninstall_script_actions
+  - name: https_endpoints
+  - name: ssh_endpoints
+  - name: application_type
+  - name: errors
+  - name: private_link_configurations
 variables:
 - description: The provisioning state of the application.
   name: provisioning_state

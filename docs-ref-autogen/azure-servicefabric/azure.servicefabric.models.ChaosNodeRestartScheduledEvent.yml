@@ -63,6 +63,15 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: node_name
+  - name: node_instance_id
+  - name: fault_group_id
+  - name: fault_id
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.ChaosNodeRestartScheduledEvent.as_dict
   name: as_dict

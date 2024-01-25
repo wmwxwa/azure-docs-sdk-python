@@ -97,6 +97,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Optional>[<xref:str>]
+  keywordOnlyArguments:
   - name: list_view_type
     description: View type for including/excluding (for example) archived FeatureStoreEntity
       assets.

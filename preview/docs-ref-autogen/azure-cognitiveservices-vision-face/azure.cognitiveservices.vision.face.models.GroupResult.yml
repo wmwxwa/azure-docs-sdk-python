@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: groups
+  - name: messy_group
 methods:
 - uid: azure.cognitiveservices.vision.face.models.GroupResult.as_dict
   name: as_dict

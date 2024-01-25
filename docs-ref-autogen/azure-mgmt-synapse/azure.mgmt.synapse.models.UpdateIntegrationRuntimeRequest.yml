@@ -28,3 +28,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: auto_update
+  - name: update_delay_offset

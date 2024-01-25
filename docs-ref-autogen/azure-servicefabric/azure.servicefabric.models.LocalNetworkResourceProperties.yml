@@ -37,6 +37,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: description
+  - name: network_address_prefix
 variables:
 - description: 'Status of the network. Possible values include: ''Unknown'',
 

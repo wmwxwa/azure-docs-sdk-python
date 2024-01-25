@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: skip_samples_without_annotation
+  - name: maximum_samples_per_second
 methods:
 - uid: azure.media.analyticsedge.MediaGraphSamplingOptions.as_dict
   name: as_dict

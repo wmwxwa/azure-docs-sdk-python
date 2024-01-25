@@ -18,6 +18,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: data_representation
+    defaultValue: URL
+  - name: value
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.BodyModel.as_dict
   name: as_dict

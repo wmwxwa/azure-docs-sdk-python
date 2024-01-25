@@ -35,6 +35,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
+  keywordOnlyArguments:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -64,6 +65,7 @@ methods:
     types:
     - <xref:typing.Union>[<xref:str>, <xref:typing.Dict>[<xref:str>, <xref:typing.Any>],
       <xref:azure.cosmos.Permission>]
+  keywordOnlyArguments:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -91,6 +93,7 @@ methods:
     types:
     - <xref:typing.Union>[<xref:str>, <xref:typing.Dict>[<xref:str>, <xref:typing.Any>],
       <xref:azure.cosmos.Permission>]
+  keywordOnlyArguments:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -107,7 +110,7 @@ methods:
   name: list_permissions
   summary: List all permission for the user.
   signature: 'list_permissions(**kwargs: Any) -> AsyncItemPaged[Dict[str, Any]]'
-  parameters:
+  keywordOnlyArguments:
   - name: max_item_count
     description: Max number of permissions to be returned in the enumeration operation.
     types:
@@ -132,6 +135,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:str>, <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]]
+  keywordOnlyArguments:
   - name: parameters
     description: Optional array of parameters to the query. Ignored if no query is
       provided.
@@ -154,7 +158,7 @@ methods:
   name: read
   summary: Read user properties.
   signature: 'async read(**kwargs: Any) -> Dict[str, Any]'
-  parameters:
+  keywordOnlyArguments:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -189,6 +193,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
+  keywordOnlyArguments:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -219,6 +224,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
+  keywordOnlyArguments:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:

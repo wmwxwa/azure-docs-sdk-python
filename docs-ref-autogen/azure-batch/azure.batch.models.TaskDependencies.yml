@@ -30,6 +30,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.batch.models.TaskIdRange>]
+  keywordOnlyArguments:
+  - name: task_ids
+  - name: task_id_ranges
 methods:
 - uid: azure.batch.models.TaskDependencies.as_dict
   name: as_dict

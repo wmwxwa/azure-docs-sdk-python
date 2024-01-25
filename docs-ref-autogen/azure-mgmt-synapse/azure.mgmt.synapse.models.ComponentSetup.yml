@@ -28,3 +28,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.synapse.models.SecretBase>
+  keywordOnlyArguments:
+  - name: component_name
+  - name: license_key

@@ -30,6 +30,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: display_name
+  - name: additional_properties
 methods:
 - uid: azure.synapse.artifacts.models.NotebookKernelSpec.as_dict
   name: as_dict

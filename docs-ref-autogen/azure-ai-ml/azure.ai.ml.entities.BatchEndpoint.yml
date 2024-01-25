@@ -66,6 +66,18 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: tags
+  - name: properties
+  - name: auth_mode
+    defaultValue: aad_token
+  - name: description
+  - name: location
+  - name: defaults
+  - name: default_deployment_name
+  - name: scoring_uri
+  - name: openapi_uri
 methods:
 - uid: azure.ai.ml.entities.BatchEndpoint.dump
   name: dump

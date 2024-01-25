@@ -30,6 +30,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: result
+  - name: request_id
+  - name: metadata
+  - name: model_version
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.DomainModelResults.as_dict
   name: as_dict

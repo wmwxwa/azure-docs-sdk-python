@@ -28,3 +28,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.resourcegraph.models.ErrorDetails>]
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: details

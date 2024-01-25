@@ -80,6 +80,16 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: linked_service_name
+  - name: path
+  - name: additional_properties
+  - name: description
+  - name: structure
+  - name: schema
+  - name: parameters
+  - name: annotations
+  - name: folder
 methods:
 - uid: azure.synapse.artifacts.models.SapEccResourceDataset.as_dict
   name: as_dict

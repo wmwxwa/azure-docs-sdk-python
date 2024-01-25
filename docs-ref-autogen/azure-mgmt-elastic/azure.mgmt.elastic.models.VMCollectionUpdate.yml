@@ -24,3 +24,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.elastic.models.OperationName>
+  keywordOnlyArguments:
+  - name: vm_resource_id
+  - name: operation_name

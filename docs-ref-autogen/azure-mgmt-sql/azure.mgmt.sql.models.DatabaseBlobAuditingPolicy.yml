@@ -241,6 +241,16 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: retention_days
+  - name: audit_actions_and_groups
+  - name: is_storage_secondary_key_in_use
+  - name: is_azure_monitor_target_enabled
+  - name: queue_delay_ms
+  - name: state
+  - name: storage_endpoint
+  - name: storage_account_access_key
+  - name: storage_account_subscription_id
 variables:
 - description: Resource ID.
   name: id

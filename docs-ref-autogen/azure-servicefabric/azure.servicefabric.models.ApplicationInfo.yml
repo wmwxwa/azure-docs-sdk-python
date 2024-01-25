@@ -91,6 +91,16 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.ManagedApplicationIdentityDescription>
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: type_name
+  - name: type_version
+  - name: status
+  - name: parameters
+  - name: health_state
+  - name: application_definition_kind
+  - name: managed_application_identity
 methods:
 - uid: azure.servicefabric.models.ApplicationInfo.as_dict
   name: as_dict

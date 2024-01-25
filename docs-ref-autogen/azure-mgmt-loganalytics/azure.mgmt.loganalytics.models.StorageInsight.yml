@@ -39,6 +39,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.loganalytics.models.StorageAccount>
+  keywordOnlyArguments:
+  - name: e_tag
+  - name: tags
+  - name: containers
+  - name: tables
+  - name: storage_account
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

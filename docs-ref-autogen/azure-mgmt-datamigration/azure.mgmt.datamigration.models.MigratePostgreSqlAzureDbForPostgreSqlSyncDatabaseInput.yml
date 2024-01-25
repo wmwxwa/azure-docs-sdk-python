@@ -46,3 +46,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.datamigration.models.MigratePostgreSqlAzureDbForPostgreSqlSyncDatabaseTableInput>]
+  keywordOnlyArguments:
+  - name: name
+  - name: target_database_name
+  - name: migration_setting
+  - name: source_setting
+  - name: target_setting
+  - name: selected_tables

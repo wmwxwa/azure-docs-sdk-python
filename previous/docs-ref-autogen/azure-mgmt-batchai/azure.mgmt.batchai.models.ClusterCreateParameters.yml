@@ -74,3 +74,11 @@ constructor:
     isRequired: true
     types:
     - <xref:batch_ai.models.ResourceId>
+  keywordOnlyArguments:
+  - name: vm_size
+  - name: vm_priority
+  - name: scale_settings
+  - name: virtual_machine_configuration
+  - name: node_setup
+  - name: user_account_settings
+  - name: subnet

@@ -31,3 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
+  keywordOnlyArguments:
+  - name: name
+  - name: ip
+  - name: registration_time
+  - name: last_seen_date_time

@@ -39,6 +39,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: identity
+  - name: location
+  - name: tags
+  - name: sku
+  - name: required_zone_names
 variables:
 - description: Specifies the resource ID.
   name: id

@@ -31,6 +31,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: name
+  - name: do_not_persist_state
 methods:
 - uid: azure.servicefabric.models.ReliableCollectionsRef.as_dict
   name: as_dict

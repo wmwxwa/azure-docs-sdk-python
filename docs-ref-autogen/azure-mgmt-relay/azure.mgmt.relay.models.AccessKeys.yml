@@ -46,3 +46,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: primary_connection_string
+  - name: secondary_connection_string
+  - name: primary_key
+  - name: secondary_key
+  - name: key_name

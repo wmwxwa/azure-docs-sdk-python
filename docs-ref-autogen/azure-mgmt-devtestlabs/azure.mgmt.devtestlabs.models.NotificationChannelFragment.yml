@@ -46,3 +46,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.devtestlabs.models.EventFragment>]
+  keywordOnlyArguments:
+  - name: tags
+  - name: web_hook_url
+  - name: email_recipient
+  - name: notification_locale
+  - name: description
+  - name: events

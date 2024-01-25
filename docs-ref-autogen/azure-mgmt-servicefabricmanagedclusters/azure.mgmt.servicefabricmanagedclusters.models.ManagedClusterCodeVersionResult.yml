@@ -39,6 +39,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: type
+  - name: cluster_code_version
+  - name: support_expiry_utc
 variables:
 - description: 'Cluster operating system, the default will be Windows. Default value:
     "Windows".'

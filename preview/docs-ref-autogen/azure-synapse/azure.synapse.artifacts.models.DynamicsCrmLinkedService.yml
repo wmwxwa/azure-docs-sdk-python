@@ -184,6 +184,24 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: deployment_type
+  - name: authentication_type
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: host_name
+  - name: port
+  - name: service_uri
+  - name: organization_name
+  - name: username
+  - name: password
+  - name: service_principal_id
+  - name: service_principal_credential_type
+  - name: service_principal_credential
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.DynamicsCrmLinkedService.as_dict
   name: as_dict

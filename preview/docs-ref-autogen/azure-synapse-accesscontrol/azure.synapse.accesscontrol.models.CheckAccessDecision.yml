@@ -25,6 +25,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.accesscontrol.models.RoleAssignmentDetails>
+  keywordOnlyArguments:
+  - name: access_decision
+  - name: action_id
+  - name: role_assignment
 methods:
 - uid: azure.synapse.accesscontrol.models.CheckAccessDecision.as_dict
   name: as_dict

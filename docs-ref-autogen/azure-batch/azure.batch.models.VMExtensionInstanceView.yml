@@ -24,6 +24,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.batch.models.InstanceViewStatus>]
+  keywordOnlyArguments:
+  - name: name
+  - name: statuses
+  - name: sub_statuses
 methods:
 - uid: azure.batch.models.VMExtensionInstanceView.as_dict
   name: as_dict

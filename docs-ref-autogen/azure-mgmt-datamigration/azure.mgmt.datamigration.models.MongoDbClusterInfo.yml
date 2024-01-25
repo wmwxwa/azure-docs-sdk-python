@@ -39,3 +39,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: databases
+  - name: supports_sharding
+  - name: type
+  - name: version

@@ -50,3 +50,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: certificate_url
+  - name: certificate_store

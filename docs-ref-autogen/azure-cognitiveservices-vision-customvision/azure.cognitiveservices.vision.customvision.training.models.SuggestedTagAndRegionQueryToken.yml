@@ -56,6 +56,13 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.cognitiveservices.vision.customvision.training.models.SortBy>
+  keywordOnlyArguments:
+  - name: tag_ids
+  - name: threshold
+  - name: session
+  - name: continuation
+  - name: max_count
+  - name: sort_by
 methods:
 - uid: azure.cognitiveservices.vision.customvision.training.models.SuggestedTagAndRegionQueryToken.as_dict
   name: as_dict

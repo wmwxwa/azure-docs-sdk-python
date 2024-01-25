@@ -40,6 +40,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: execution_count
+  - name: status
+  - name: data
+  - name: error_name
+  - name: error_value
+  - name: traceback
 methods:
 - uid: azure.synapse.spark.models.SparkStatementOutput.as_dict
   name: as_dict

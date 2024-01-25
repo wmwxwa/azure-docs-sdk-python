@@ -30,6 +30,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: first_name
+  - name: last_name
+  - name: email_address
+  - name: phone
 methods:
 - uid: azure.keyvault.v2016_10_01.models.administrator_details_py3.AdministratorDetails.as_dict
   name: as_dict

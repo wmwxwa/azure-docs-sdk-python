@@ -39,3 +39,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.scheduler.models.JobRecurrenceSchedule>
+  keywordOnlyArguments:
+  - name: frequency
+  - name: interval
+  - name: count
+  - name: end_time
+  - name: schedule

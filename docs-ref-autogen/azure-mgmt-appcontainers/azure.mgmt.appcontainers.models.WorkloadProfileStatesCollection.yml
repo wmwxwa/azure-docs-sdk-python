@@ -15,7 +15,7 @@ summary: 'Collection of workloadProfileStates.
 constructor:
   syntax: 'WorkloadProfileStatesCollection(*, value: List[_models.WorkloadProfileStates],
     **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: Collection of resources. Required.
     types:

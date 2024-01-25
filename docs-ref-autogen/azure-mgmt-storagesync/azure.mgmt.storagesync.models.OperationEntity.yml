@@ -31,3 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.storagesync.models.OperationProperties>
+  keywordOnlyArguments:
+  - name: name
+  - name: display
+  - name: origin
+  - name: properties

@@ -27,6 +27,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datamigration.models.MigrateMISyncCompleteCommandInput>
+  keywordOnlyArguments:
+  - name: input
 variables:
 - description: Array of errors. This is ignored if submitted.
   name: errors

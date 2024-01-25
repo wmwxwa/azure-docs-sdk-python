@@ -69,6 +69,14 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: state
+  - name: disabled_alerts
+  - name: email_addresses
+  - name: email_account_admins
+  - name: storage_endpoint
+  - name: storage_account_access_key
+  - name: retention_days
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

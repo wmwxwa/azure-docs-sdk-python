@@ -15,7 +15,7 @@ summary: 'Collection of metric responses.
 constructor:
   syntax: 'ResourceMetricCollection(*, value: List[_models.ResourceMetric], **kwargs:
     Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: Collection of resources. Required.
     types:

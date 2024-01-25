@@ -43,6 +43,14 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: target
+  - name: instance_count
+  - name: is_local
+  - name: instance_type
+  - name: location
+  - name: properties
+  - name: deserialize_properties
 methods:
 - uid: azure.ai.ml.entities.ComputeConfiguration.get
   name: get

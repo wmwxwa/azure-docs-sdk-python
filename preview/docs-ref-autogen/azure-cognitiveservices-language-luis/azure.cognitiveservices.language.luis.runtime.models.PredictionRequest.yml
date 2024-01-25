@@ -37,6 +37,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.runtime.models.DynamicList>]
+  keywordOnlyArguments:
+  - name: query
+  - name: options
+  - name: external_entities
+  - name: dynamic_lists
 methods:
 - uid: azure.cognitiveservices.language.luis.runtime.models.PredictionRequest.as_dict
   name: as_dict

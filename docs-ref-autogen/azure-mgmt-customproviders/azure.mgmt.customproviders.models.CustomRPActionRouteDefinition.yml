@@ -43,3 +43,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.customproviders.models.ActionRouting>
+  keywordOnlyArguments:
+  - name: name
+  - name: endpoint
+  - name: routing_type

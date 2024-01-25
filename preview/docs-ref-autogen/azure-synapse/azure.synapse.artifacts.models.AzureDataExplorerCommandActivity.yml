@@ -73,6 +73,16 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: name
+  - name: command
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: linked_service_name
+  - name: policy
+  - name: command_timeout
 methods:
 - uid: azure.synapse.artifacts.models.AzureDataExplorerCommandActivity.as_dict
   name: as_dict

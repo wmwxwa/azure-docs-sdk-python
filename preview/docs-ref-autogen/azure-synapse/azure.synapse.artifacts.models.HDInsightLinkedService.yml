@@ -107,6 +107,20 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: cluster_uri
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: user_name
+  - name: password
+  - name: linked_service_name
+  - name: hcatalog_linked_service_name
+  - name: encrypted_credential
+  - name: is_esp_enabled
+  - name: file_system
 methods:
 - uid: azure.synapse.artifacts.models.HDInsightLinkedService.as_dict
   name: as_dict

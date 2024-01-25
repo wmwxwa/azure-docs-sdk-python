@@ -27,3 +27,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.powerbidedicated.models.CapacitySkuTier>
+  keywordOnlyArguments:
+  - name: name
+  - name: tier

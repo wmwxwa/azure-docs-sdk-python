@@ -16,3 +16,5 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:video_analyzer.models.PrivateEndpointConnection>]
+  keywordOnlyArguments:
+  - name: value

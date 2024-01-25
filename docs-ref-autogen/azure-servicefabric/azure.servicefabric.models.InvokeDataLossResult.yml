@@ -27,6 +27,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.SelectedPartition>
+  keywordOnlyArguments:
+  - name: error_code
+  - name: selected_partition
 methods:
 - uid: azure.servicefabric.models.InvokeDataLossResult.as_dict
   name: as_dict

@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: next_link
 variables:
 - description: A list of operations supported by the Microsoft.IoTCentral resource
     provider.

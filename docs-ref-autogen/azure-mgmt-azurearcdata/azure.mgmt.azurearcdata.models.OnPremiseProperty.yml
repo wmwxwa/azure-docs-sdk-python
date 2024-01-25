@@ -33,3 +33,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: public_signing_key
+  - name: signing_certificate_thumbprint

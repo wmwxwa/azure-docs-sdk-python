@@ -148,6 +148,23 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: host
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: port
+  - name: authentication_type
+  - name: user_name
+  - name: password
+  - name: encrypted_credential
+  - name: private_key_path
+  - name: private_key_content
+  - name: pass_phrase
+  - name: skip_host_key_validation
+  - name: host_key_fingerprint
 methods:
 - uid: azure.synapse.artifacts.models.SftpServerLinkedService.as_dict
   name: as_dict

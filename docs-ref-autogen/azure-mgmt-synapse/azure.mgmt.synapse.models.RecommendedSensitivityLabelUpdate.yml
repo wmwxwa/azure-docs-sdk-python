@@ -35,6 +35,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: op
+  - name: schema
+  - name: table
+  - name: column
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

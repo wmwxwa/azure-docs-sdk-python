@@ -43,6 +43,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: average_receive_duration
+  - name: average_apply_duration
+  - name: not_received_count
+  - name: received_and_not_applied_count
 methods:
 - uid: azure.servicefabric.models.RemoteReplicatorAcknowledgementDetail.as_dict
   name: as_dict

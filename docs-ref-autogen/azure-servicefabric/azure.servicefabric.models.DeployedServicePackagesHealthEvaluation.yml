@@ -64,6 +64,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.HealthEvaluationWrapper>]
+  keywordOnlyArguments:
+  - name: aggregated_health_state
+  - name: description
+  - name: total_count
+  - name: unhealthy_evaluations
 methods:
 - uid: azure.servicefabric.models.DeployedServicePackagesHealthEvaluation.as_dict
   name: as_dict

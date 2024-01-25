@@ -51,6 +51,13 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: output_type
+  - name: name
+  - name: execution_count
+  - name: text
+  - name: data
+  - name: metadata
 methods:
 - uid: azure.synapse.artifacts.models.NotebookCellOutputItem.as_dict
   name: as_dict

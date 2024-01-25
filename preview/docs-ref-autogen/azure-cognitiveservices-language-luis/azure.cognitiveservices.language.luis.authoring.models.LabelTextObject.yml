@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: text
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.LabelTextObject.as_dict
   name: as_dict

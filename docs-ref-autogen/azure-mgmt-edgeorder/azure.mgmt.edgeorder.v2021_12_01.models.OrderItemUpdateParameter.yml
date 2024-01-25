@@ -34,3 +34,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: tags
+  - name: forward_address
+  - name: preferences
+  - name: notification_email_list

@@ -35,6 +35,10 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: prompts_to_delete
+  - name: prompts_to_add
+  - name: is_context_only
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.update_context_dto_py3.UpdateContextDTO.as_dict
   name: as_dict

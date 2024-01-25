@@ -31,6 +31,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: invitation_id
+  - name: source_share_location
+  - name: expiration_date
 variables:
 - description: The resource id of the azure resource.
   name: id

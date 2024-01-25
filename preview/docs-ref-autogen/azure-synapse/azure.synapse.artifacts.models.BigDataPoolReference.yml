@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: reference_name
 variables:
 - description: 'Required. Big data pool reference type. Default value: "BigDataPoolReference".'
   name: type

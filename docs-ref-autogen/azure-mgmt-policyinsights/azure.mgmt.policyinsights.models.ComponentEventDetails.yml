@@ -56,3 +56,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: id
+  - name: type
+  - name: name
+  - name: timestamp
+  - name: tenant_id
+  - name: principal_oid
+  - name: policy_definition_action

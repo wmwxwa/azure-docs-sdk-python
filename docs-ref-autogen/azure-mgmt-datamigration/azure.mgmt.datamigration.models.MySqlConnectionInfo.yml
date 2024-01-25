@@ -43,3 +43,10 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: server_name
+  - name: port
+  - name: user_name
+  - name: password
+  - name: encrypt_connection
+    defaultValue: 'True'

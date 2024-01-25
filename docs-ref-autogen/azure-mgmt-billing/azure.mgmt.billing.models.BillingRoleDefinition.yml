@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.billing.models.BillingPermissionsProperties>]
+  keywordOnlyArguments:
+  - name: permissions
 variables:
 - description: Resource Id.
   name: id

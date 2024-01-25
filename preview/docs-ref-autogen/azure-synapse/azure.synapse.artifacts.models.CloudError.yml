@@ -33,6 +33,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.artifacts.models.CloudError>]
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: target
+  - name: details
 methods:
 - uid: azure.synapse.artifacts.models.CloudError.as_dict
   name: as_dict

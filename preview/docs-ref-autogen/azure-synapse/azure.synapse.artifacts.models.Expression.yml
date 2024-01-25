@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: value
 variables:
 - description: 'Required. Expression type. Default value: "Expression".'
   name: type

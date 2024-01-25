@@ -34,3 +34,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: address
+  - name: direct_peering_type
+  - name: peering_db_facility_id
+  - name: peering_db_facility_link

@@ -28,6 +28,10 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: identity
+  - name: location
+  - name: tags
 variables:
 - description: Gets or sets the identifier.
   name: id

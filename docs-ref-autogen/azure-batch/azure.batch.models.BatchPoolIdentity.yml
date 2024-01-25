@@ -38,6 +38,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.batch.models.UserAssignedIdentity>]
+  keywordOnlyArguments:
+  - name: type
+  - name: user_assigned_identities
 methods:
 - uid: azure.batch.models.BatchPoolIdentity.as_dict
   name: as_dict

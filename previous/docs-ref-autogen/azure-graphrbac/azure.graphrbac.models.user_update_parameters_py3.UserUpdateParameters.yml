@@ -91,6 +91,18 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: immutable_id
+  - name: usage_location
+  - name: given_name
+  - name: surname
+  - name: user_type
+  - name: account_enabled
+  - name: display_name
+  - name: password_profile
+  - name: user_principal_name
+  - name: mail_nickname
 methods:
 - uid: azure.graphrbac.models.user_update_parameters_py3.UserUpdateParameters.as_dict
   name: as_dict

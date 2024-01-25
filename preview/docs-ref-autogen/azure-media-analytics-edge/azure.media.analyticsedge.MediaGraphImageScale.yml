@@ -30,6 +30,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: mode
+  - name: width
+  - name: height
 methods:
 - uid: azure.media.analyticsedge.MediaGraphImageScale.as_dict
   name: as_dict

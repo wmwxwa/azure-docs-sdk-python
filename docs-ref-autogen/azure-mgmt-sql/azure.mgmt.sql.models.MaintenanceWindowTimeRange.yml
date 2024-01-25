@@ -28,3 +28,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: day_of_week
+  - name: start_time
+  - name: duration

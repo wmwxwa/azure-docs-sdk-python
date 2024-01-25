@@ -26,6 +26,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.core.credentials.AzureKeyCredential>
+  keywordOnlyArguments:
   - name: api_version
     description: 'Azure Communication Job Router API version. Default value is "2022-07-18-preview".
 
@@ -63,7 +64,7 @@ methods:
     classification_policy_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"\
     classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\":\
     \ \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
+    \\py2docfx\\\\dist_temp\\\\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
     \\classification_policy_crud_ops.py\", \"xml:space\": \"preserve\", \"force\"\
     : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   from azure.communication.jobrouter import\
@@ -130,7 +131,7 @@ methods:
     distribution_policy_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
+    \\py2docfx\\\\dist_temp\\\\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
     \\distribution_policy_crud_ops.py\", \"xml:space\": \"preserve\", \"force\": false,\
     \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
     : false} -->\n\n````python\n\n   from azure.communication.jobrouter import (\n\
@@ -171,7 +172,7 @@ methods:
     exception_policy_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
+    \\py2docfx\\\\dist_temp\\\\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
     \\exception_policy_crud_ops.py\", \"xml:space\": \"preserve\", \"force\": false,\
     \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
     : false} -->\n\n````python\n\n   from azure.communication.jobrouter import (\n\
@@ -238,7 +239,7 @@ methods:
     job_queue_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [],\
     \ \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\
     \\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
-    \\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\\job_queue_crud_ops.py\"\
+    \\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\\job_queue_crud_ops.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   from azure.communication.jobrouter import (\n       JobRouterAdministrationClient,\n\
@@ -272,7 +273,7 @@ methods:
     classification_policy_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"\
     classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\":\
     \ \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
+    \\py2docfx\\\\dist_temp\\\\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
     \\classification_policy_crud_ops.py\", \"xml:space\": \"preserve\", \"force\"\
     : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   from azure.communication.jobrouter import\
@@ -301,7 +302,7 @@ methods:
     distribution_policy_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
+    \\py2docfx\\\\dist_temp\\\\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
     \\distribution_policy_crud_ops.py\", \"xml:space\": \"preserve\", \"force\": false,\
     \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
     : false} -->\n\n````python\n\n   from azure.communication.jobrouter import JobRouterAdministrationClient\n\
@@ -330,7 +331,7 @@ methods:
     exception_policy_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
+    \\py2docfx\\\\dist_temp\\\\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
     \\exception_policy_crud_ops.py\", \"xml:space\": \"preserve\", \"force\": false,\
     \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
     : false} -->\n\n````python\n\n   from azure.communication.jobrouter import JobRouterAdministrationClient\n\
@@ -358,7 +359,7 @@ methods:
     job_queue_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [],\
     \ \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\
     \\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
-    \\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\\job_queue_crud_ops.py\"\
+    \\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\\job_queue_crud_ops.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   from azure.communication.jobrouter import JobRouterAdministrationClient\n\
@@ -384,7 +385,7 @@ methods:
     sample_authentication.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
+    \\py2docfx\\\\dist_temp\\\\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
     \\sample_authentication.py\", \"xml:space\": \"preserve\", \"force\": false, \"\
     language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
     : false} -->\n\n````python\n\n   from azure.communication.jobrouter import JobRouterAdministrationClient\n\
@@ -413,7 +414,7 @@ methods:
     classification_policy_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"\
     classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\":\
     \ \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
+    \\py2docfx\\\\dist_temp\\\\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
     \\classification_policy_crud_ops.py\", \"xml:space\": \"preserve\", \"force\"\
     : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   from azure.communication.jobrouter import\
@@ -443,7 +444,7 @@ methods:
     distribution_policy_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
+    \\py2docfx\\\\dist_temp\\\\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
     \\distribution_policy_crud_ops.py\", \"xml:space\": \"preserve\", \"force\": false,\
     \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
     : false} -->\n\n````python\n\n   from azure.communication.jobrouter import JobRouterAdministrationClient\n\
@@ -472,7 +473,7 @@ methods:
     exception_policy_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
+    \\py2docfx\\\\dist_temp\\\\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
     \\exception_policy_crud_ops.py\", \"xml:space\": \"preserve\", \"force\": false,\
     \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
     : false} -->\n\n````python\n\n   from azure.communication.jobrouter import JobRouterAdministrationClient\n\
@@ -501,7 +502,7 @@ methods:
     job_queue_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [],\
     \ \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\
     \\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
-    \\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\\job_queue_crud_ops.py\"\
+    \\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\\job_queue_crud_ops.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   from azure.communication.jobrouter import JobRouterAdministrationClient\n\
@@ -514,7 +515,7 @@ methods:
   summary: Retrieves existing classification policies.
   signature: 'list_classification_policies(*, results_per_page: int | None = None,
     **kwargs: Any) -> ItemPaged[ClassificationPolicyItem]'
-  parameters:
+  keywordOnlyArguments:
   - name: results_per_page
     description: The maximum number of results to be returned per page.
     types:
@@ -530,7 +531,7 @@ methods:
     classification_policy_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"\
     classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\":\
     \ \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
+    \\py2docfx\\\\dist_temp\\\\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
     \\classification_policy_crud_ops.py\", \"xml:space\": \"preserve\", \"force\"\
     : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   from azure.communication.jobrouter import\
@@ -547,7 +548,7 @@ methods:
   summary: Retrieves existing distribution policies.
   signature: 'list_distribution_policies(*, results_per_page: int | None = None, **kwargs:
     Any) -> ItemPaged[DistributionPolicyItem]'
-  parameters:
+  keywordOnlyArguments:
   - name: results_per_page
     description: The maximum number of results to be returned per page.
     types:
@@ -563,7 +564,7 @@ methods:
     distribution_policy_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
+    \\py2docfx\\\\dist_temp\\\\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
     \\distribution_policy_crud_ops.py\", \"xml:space\": \"preserve\", \"force\": false,\
     \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
     : false} -->\n\n````python\n\n   from azure.communication.jobrouter import JobRouterAdministrationClient\n\
@@ -580,7 +581,7 @@ methods:
   summary: Retrieves existing exception policies.
   signature: 'list_exception_policies(*, results_per_page: int | None = None, **kwargs:
     Any) -> ItemPaged[ExceptionPolicyItem]'
-  parameters:
+  keywordOnlyArguments:
   - name: results_per_page
     description: The maximum number of results to be returned per page.
     types:
@@ -596,7 +597,7 @@ methods:
     exception_policy_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
+    \\py2docfx\\\\dist_temp\\\\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
     \\exception_policy_crud_ops.py\", \"xml:space\": \"preserve\", \"force\": false,\
     \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
     : false} -->\n\n````python\n\n   from azure.communication.jobrouter import JobRouterAdministrationClient\n\
@@ -612,7 +613,7 @@ methods:
   summary: Retrieves existing queues.
   signature: 'list_queues(*, results_per_page: int | None = None, **kwargs: Any) ->
     ItemPaged[RouterQueueItem]'
-  parameters:
+  keywordOnlyArguments:
   - name: results_per_page
     description: The maximum number of results to be returned per page.
     types:
@@ -628,7 +629,7 @@ methods:
     job_queue_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [],\
     \ \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\
     \\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
-    \\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\\job_queue_crud_ops.py\"\
+    \\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\\job_queue_crud_ops.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   from azure.communication.jobrouter import JobRouterAdministrationClient\n\
@@ -657,6 +658,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.communication.jobrouter.ClassificationPolicy>
+  keywordOnlyArguments:
   - name: name
     description: Friendly name of this policy.
     types:
@@ -695,7 +697,7 @@ methods:
     classification_policy_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"\
     classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\":\
     \ \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
+    \\py2docfx\\\\dist_temp\\\\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
     \\classification_policy_crud_ops.py\", \"xml:space\": \"preserve\", \"force\"\
     : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   from azure.communication.jobrouter import\
@@ -726,6 +728,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.communication.jobrouter.DistributionPolicy>
+  keywordOnlyArguments:
   - name: offer_expires_after_seconds
     description: 'The expiry time of any offers created under this policy
 
@@ -752,7 +755,7 @@ methods:
     distribution_policy_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
+    \\py2docfx\\\\dist_temp\\\\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
     \\distribution_policy_crud_ops.py\", \"xml:space\": \"preserve\", \"force\": false,\
     \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
     : false} -->\n\n````python\n\n   from azure.communication.jobrouter import (\n\
@@ -783,6 +786,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.communication.jobrouter.ExceptionPolicy>
+  keywordOnlyArguments:
   - name: exception_rules
     description: '(Optional) A dictionary collection of exception rules on the exception
 
@@ -804,7 +808,7 @@ methods:
     exception_policy_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
+    \\py2docfx\\\\dist_temp\\\\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\
     \\exception_policy_crud_ops.py\", \"xml:space\": \"preserve\", \"force\": false,\
     \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
     : false} -->\n\n````python\n\n   from azure.communication.jobrouter import (\n\
@@ -859,6 +863,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.communication.jobrouter.RouterQueue>
+  keywordOnlyArguments:
   - name: distribution_policy_id
     description: 'The ID of the distribution policy that will determine
 
@@ -893,7 +898,7 @@ methods:
     job_queue_crud_ops.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [],\
     \ \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\
     \\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
-    \\25\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\\job_queue_crud_ops.py\"\
+    \\24\\\\azure-communication-jobrouter-1.0.0b1\\\\samples\\\\job_queue_crud_ops.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   from azure.communication.jobrouter import (\n       JobRouterAdministrationClient,\n\

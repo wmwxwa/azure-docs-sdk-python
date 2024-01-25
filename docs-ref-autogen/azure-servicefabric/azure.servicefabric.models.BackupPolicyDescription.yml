@@ -63,6 +63,13 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.RetentionPolicyDescription>
+  keywordOnlyArguments:
+  - name: name
+  - name: auto_restore_on_data_loss
+  - name: max_incremental_backups
+  - name: schedule
+  - name: storage
+  - name: retention_policy
 methods:
 - uid: azure.servicefabric.models.BackupPolicyDescription.as_dict
   name: as_dict

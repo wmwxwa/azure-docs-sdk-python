@@ -118,6 +118,23 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.machinelearningservices.models.SharedPrivateLinkResource>]
+  keywordOnlyArguments:
+  - name: identity
+  - name: location
+  - name: tags
+  - name: sku
+  - name: description
+  - name: friendly_name
+  - name: key_vault
+  - name: application_insights
+  - name: container_registry
+  - name: storage_account
+  - name: discovery_url
+  - name: encryption
+  - name: hbi_workspace
+  - name: image_build_compute
+  - name: allow_public_access_when_behind_vnet
+  - name: shared_private_link_resources
 variables:
 - description: Specifies the resource ID.
   name: id

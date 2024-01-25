@@ -27,6 +27,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.spark.models.SparkSession>]
+  keywordOnlyArguments:
+  - name: from_property
+  - name: total
+  - name: sessions
 methods:
 - uid: azure.synapse.spark.models.SparkSessionCollection.as_dict
   name: as_dict

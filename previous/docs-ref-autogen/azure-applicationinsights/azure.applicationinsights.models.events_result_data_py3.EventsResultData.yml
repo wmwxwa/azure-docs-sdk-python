@@ -92,6 +92,19 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: count
+  - name: timestamp
+  - name: custom_dimensions
+  - name: custom_measurements
+  - name: operation
+  - name: session
+  - name: user
+  - name: cloud
+  - name: ai
+  - name: application
+  - name: client
 methods:
 - uid: azure.applicationinsights.models.events_result_data_py3.EventsResultData.as_dict
   name: as_dict

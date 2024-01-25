@@ -31,3 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.machinelearningservices.models.VirtualMachineSshCredentials>
+  keywordOnlyArguments:
+  - name: virtual_machine_size
+  - name: ssh_port
+  - name: address
+  - name: administrator_account

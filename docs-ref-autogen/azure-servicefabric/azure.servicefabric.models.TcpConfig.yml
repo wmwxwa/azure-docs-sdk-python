@@ -31,6 +31,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.GatewayDestination>
+  keywordOnlyArguments:
+  - name: name
+  - name: port
+  - name: destination
 methods:
 - uid: azure.servicefabric.models.TcpConfig.as_dict
   name: as_dict

@@ -36,3 +36,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: failure_threshold
+  - name: success_threshold
+  - name: timeout
+  - name: period
+  - name: initial_delay

@@ -47,3 +47,10 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: configuration
+  - name: name
+  - name: location
+  - name: tags
+  - name: parameters
+  - name: increment_node_configuration_build

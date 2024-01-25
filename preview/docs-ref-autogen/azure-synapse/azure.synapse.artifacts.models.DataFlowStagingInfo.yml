@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: linked_service
+  - name: folder_path
 methods:
 - uid: azure.synapse.artifacts.models.DataFlowStagingInfo.as_dict
   name: as_dict

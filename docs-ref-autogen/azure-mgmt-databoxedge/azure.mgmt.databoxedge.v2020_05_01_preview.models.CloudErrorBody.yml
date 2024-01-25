@@ -31,3 +31,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.databoxedge.v2020_05_01_preview.models.CloudErrorBody>]
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: details

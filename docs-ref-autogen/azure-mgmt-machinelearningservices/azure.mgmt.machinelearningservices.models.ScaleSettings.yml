@@ -28,3 +28,7 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.timedelta>
+  keywordOnlyArguments:
+  - name: max_node_count
+  - name: min_node_count
+  - name: node_idle_time_before_scale_down

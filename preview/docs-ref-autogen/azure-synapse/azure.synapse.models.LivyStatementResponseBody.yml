@@ -26,6 +26,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.models.LivyStatementOutput>
+  keywordOnlyArguments:
+  - name: id
+  - name: code
+  - name: state
+  - name: output
 methods:
 - uid: azure.synapse.models.LivyStatementResponseBody.as_dict
   name: as_dict

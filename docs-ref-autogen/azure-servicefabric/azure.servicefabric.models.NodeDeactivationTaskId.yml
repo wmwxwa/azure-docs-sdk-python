@@ -25,6 +25,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.servicefabric.models.NodeDeactivationTaskType>
+  keywordOnlyArguments:
+  - name: id
+  - name: node_deactivation_task_type
 methods:
 - uid: azure.servicefabric.models.NodeDeactivationTaskId.as_dict
   name: as_dict

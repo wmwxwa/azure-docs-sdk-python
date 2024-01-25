@@ -25,6 +25,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: value
+  - name: continuation_token
 methods:
 - uid: azure.media.analyticsedge.MediaGraphTopologyCollection.as_dict
   name: as_dict

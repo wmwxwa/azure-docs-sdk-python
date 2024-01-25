@@ -47,3 +47,10 @@ constructor:
     isRequired: true
     types:
     - <xref:typing.List>[<xref:str>]
+  keywordOnlyArguments:
+  - name: storage_account_hns
+  - name: storage_account_type
+  - name: arm_resource_id
+  - name: replicated_ids
+  - name: replication_count
+    defaultValue: '1'

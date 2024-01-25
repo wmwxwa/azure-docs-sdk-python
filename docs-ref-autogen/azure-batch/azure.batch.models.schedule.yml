@@ -84,6 +84,11 @@ constructor:
     isRequired: true
     types:
     - <xref:timedelta>
+  keywordOnlyArguments:
+  - name: do_not_run_until
+  - name: do_not_run_after
+  - name: start_window
+  - name: recurrence_interval
 methods:
 - uid: azure.batch.models.Schedule.as_dict
   name: as_dict

@@ -21,6 +21,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: name
+  - name: explicit_list
+  - name: roles
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.PatternAny.as_dict
   name: as_dict

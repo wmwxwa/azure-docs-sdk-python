@@ -23,6 +23,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.models.ExtendedLivySessionResponse>]
+  keywordOnlyArguments:
+  - name: from_property
+  - name: total
+  - name: sessions
 methods:
 - uid: azure.synapse.models.ExtendedLivyListSessionResponse.as_dict
   name: as_dict

@@ -57,6 +57,14 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: name
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
+  - name: variable_name
+  - name: value
 methods:
 - uid: azure.synapse.artifacts.models.AppendVariableActivity.as_dict
   name: as_dict

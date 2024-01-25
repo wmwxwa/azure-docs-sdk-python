@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: principal_id
+  - name: group_ids
 methods:
 - uid: azure.synapse.accesscontrol.models.SubjectInfo.as_dict
   name: as_dict

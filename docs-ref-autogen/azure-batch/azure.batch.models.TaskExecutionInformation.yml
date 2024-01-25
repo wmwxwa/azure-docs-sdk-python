@@ -135,6 +135,17 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.TaskExecutionResult>
+  keywordOnlyArguments:
+  - name: retry_count
+  - name: requeue_count
+  - name: start_time
+  - name: end_time
+  - name: exit_code
+  - name: container_info
+  - name: failure_info
+  - name: last_retry_time
+  - name: last_requeue_time
+  - name: result
 methods:
 - uid: azure.batch.models.TaskExecutionInformation.as_dict
   name: as_dict

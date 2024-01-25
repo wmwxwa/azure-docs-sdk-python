@@ -97,6 +97,21 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: tags
+  - name: location
+  - name: etag
+  - name: is_global
+  - name: version
+  - name: size_in_bytes
+  - name: activity_count
+  - name: provisioning_state
+  - name: content_link
+  - name: error
+  - name: creation_time
+  - name: last_modified_time
+  - name: description
+  - name: is_composite
 variables:
 - description: Fully qualified resource Id for the resource.
   name: id

@@ -26,3 +26,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.alertsmanagement.models.SuppressionSchedule>
+  keywordOnlyArguments:
+  - name: recurrence_type
+  - name: schedule

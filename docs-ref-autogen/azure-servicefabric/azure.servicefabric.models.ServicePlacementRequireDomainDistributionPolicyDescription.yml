@@ -45,6 +45,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: domain_name
 methods:
 - uid: azure.servicefabric.models.ServicePlacementRequireDomainDistributionPolicyDescription.as_dict
   name: as_dict

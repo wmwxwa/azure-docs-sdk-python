@@ -31,6 +31,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.databoxedge.v2020_12_01.models.ShipmentType>
+  keywordOnlyArguments:
+  - name: contact_information
+  - name: shipping_address
+  - name: shipment_type
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

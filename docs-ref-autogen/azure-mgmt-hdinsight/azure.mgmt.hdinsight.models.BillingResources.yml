@@ -25,3 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.hdinsight.models.DiskBillingMeters>]
+  keywordOnlyArguments:
+  - name: region
+  - name: billing_meters
+  - name: disk_billing_meters

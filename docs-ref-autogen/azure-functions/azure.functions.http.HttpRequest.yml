@@ -13,6 +13,12 @@ constructor:
   parameters:
   - name: method
   - name: url
+  keywordOnlyArguments:
+  - name: headers
+  - name: params
+  - name: route_params
+  - name: body_type
+  - name: body
 methods:
 - uid: azure.functions.http.HttpRequest.get_body
   name: get_body

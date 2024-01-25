@@ -50,3 +50,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.storagesync.models.IncomingTrafficPolicy>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: incoming_traffic_policy

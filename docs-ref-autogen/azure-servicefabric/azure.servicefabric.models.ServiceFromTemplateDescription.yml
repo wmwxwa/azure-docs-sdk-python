@@ -61,6 +61,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: application_name
+  - name: service_name
+  - name: service_type_name
+  - name: initialization_data
+  - name: service_package_activation_mode
+  - name: service_dns_name
 methods:
 - uid: azure.servicefabric.models.ServiceFromTemplateDescription.as_dict
   name: as_dict

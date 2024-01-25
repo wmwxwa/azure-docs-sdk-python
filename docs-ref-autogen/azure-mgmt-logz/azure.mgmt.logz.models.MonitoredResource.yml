@@ -44,6 +44,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: sending_metrics
+  - name: reason_for_metrics_status
+  - name: sending_logs
+  - name: reason_for_logs_status
 variables:
 - description: Metadata pertaining to creation and last modification of the resource.
   name: system_data

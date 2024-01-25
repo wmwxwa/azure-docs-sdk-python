@@ -38,6 +38,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.timeseriesinsights.models.WarmStoreConfigurationProperties>
+  keywordOnlyArguments:
+  - name: tags
+  - name: storage_configuration
+  - name: warm_store_configuration
 variables:
 - description: 'The kind of the environment.Constant filled by server.  Possible values
     include:

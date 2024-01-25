@@ -60,3 +60,12 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: enable_early_termination
+  - name: exit_score
+  - name: max_concurrent_trials
+  - name: max_cores_per_trial
+  - name: max_nodes
+  - name: max_trials
+  - name: timeout_minutes
+  - name: trial_timeout_minutes

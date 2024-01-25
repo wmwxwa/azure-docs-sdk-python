@@ -13,6 +13,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.models.Data>
+  keywordOnlyArguments:
+  - name: data
 methods:
 - uid: azure.synapse.models.HistoryServerDataResponse.as_dict
   name: as_dict

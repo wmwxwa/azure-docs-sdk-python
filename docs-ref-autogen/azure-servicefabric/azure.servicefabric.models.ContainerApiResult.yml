@@ -35,6 +35,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: status
+  - name: content_type
+  - name: content_encoding
+  - name: body
 methods:
 - uid: azure.servicefabric.models.ContainerApiResult.as_dict
   name: as_dict

@@ -79,6 +79,18 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: data_controller_id
+  - name: admin
+  - name: start_time
+  - name: end_time
+  - name: k8_s_raw
+  - name: basic_login_information
+  - name: last_uploaded_date
+  - name: license_type
+    defaultValue: BasePrice
+  - name: cluster_id
+  - name: extension_id
 variables:
 - name: provisioning_state
   types:

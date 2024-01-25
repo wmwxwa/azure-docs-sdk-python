@@ -141,6 +141,19 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: service_type_name
+  - name: partition_description
+  - name: instance_count
+  - name: placement_constraints
+  - name: correlation_scheme
+  - name: service_load_metrics
+  - name: service_placement_policies
+  - name: default_move_cost
+  - name: scaling_policies
+  - name: service_package_activation_mode
+  - name: min_instance_count
+  - name: min_instance_percentage
 variables:
 - description: 'The current deployment or provisioning state, which only appears in
 

@@ -40,6 +40,13 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.synapse.artifacts.models.PluginCurrentState>
+  keywordOnlyArguments:
+  - name: preparation_started_at
+  - name: resource_acquisition_started_at
+  - name: submission_started_at
+  - name: monitoring_started_at
+  - name: cleanup_started_at
+  - name: current_state
 methods:
 - uid: azure.synapse.artifacts.models.SparkServicePlugin.as_dict
   name: as_dict

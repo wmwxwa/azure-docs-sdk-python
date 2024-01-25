@@ -46,6 +46,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.artifacts.models.RunQueryOrderBy>]
+  keywordOnlyArguments:
+  - name: last_updated_after
+  - name: last_updated_before
+  - name: continuation_token
+  - name: filters
+  - name: order_by
 methods:
 - uid: azure.synapse.artifacts.models.RunFilterParameters.as_dict
   name: as_dict

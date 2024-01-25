@@ -114,6 +114,25 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: id
+  - name: livy_info
+  - name: name
+  - name: workspace_name
+  - name: spark_pool_name
+  - name: submitter_name
+  - name: submitter_id
+  - name: artifact_id
+  - name: job_type
+  - name: result
+  - name: scheduler
+  - name: plugin
+  - name: errors
+  - name: tags
+  - name: app_id
+  - name: app_info
+  - name: state
+  - name: log_lines
 methods:
 - uid: azure.synapse.artifacts.models.SparkBatchJob.as_dict
   name: as_dict

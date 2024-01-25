@@ -24,7 +24,7 @@ methods:
   signature: 'begin_create(*, ai_resource: AIResource, update_dependent_resources:
     bool = False, endpoint_resource_id: str = None, endpoint_kind: str = ''AIServices'',
     **kwargs) -> LROPoller[AIResource]'
-  parameters:
+  keywordOnlyArguments:
   - name: ai_resource
     description: 'Resource definition
 
@@ -67,7 +67,7 @@ methods:
   summary: Delete an AI resource.
   signature: 'begin_delete(*, name: str, delete_dependent_resources: bool, permanently_delete:
     bool = False, **kwargs) -> LROPoller[None]'
-  parameters:
+  keywordOnlyArguments:
   - name: name
     description: Name of the Resource
     types:
@@ -93,7 +93,7 @@ methods:
     of a Resource
   signature: 'begin_update(*, ai_resource: AIResource, update_dependent_resources:
     bool = False, **kwargs) -> LROPoller[AIResource]'
-  parameters:
+  keywordOnlyArguments:
   - name: ai_resource
     description: AI resource definition.
     types:
@@ -110,7 +110,7 @@ methods:
   name: get
   summary: Get an AI resource by name.
   signature: 'get(*, name: str, **kwargs) -> AIResource'
-  parameters:
+  keywordOnlyArguments:
   - name: name
     description: Name of the AI resource.
     types:
@@ -123,7 +123,7 @@ methods:
   name: list
   summary: List all AI resource assets in a project.
   signature: 'list(*, scope: str = ''resource_group'') -> Iterable[AIResource]'
-  parameters:
+  keywordOnlyArguments:
   - name: scope
     description: The scope of the listing. Can be either "resource_group" or "subscription",
       and defaults to "resource_group".

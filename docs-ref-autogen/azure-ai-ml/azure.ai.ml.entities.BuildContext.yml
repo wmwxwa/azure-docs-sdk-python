@@ -21,6 +21,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: dockerfile_path
+  - name: path
 examples:
 - "Create a Build Context object.<!--[!code-python[Main](les\\ml_samples_misc.py )]-->\n\
   \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\

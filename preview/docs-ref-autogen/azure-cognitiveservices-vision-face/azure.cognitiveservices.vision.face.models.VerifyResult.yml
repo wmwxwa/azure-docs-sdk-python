@@ -34,6 +34,9 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: is_identical
+  - name: confidence
 methods:
 - uid: azure.cognitiveservices.vision.face.models.VerifyResult.as_dict
   name: as_dict

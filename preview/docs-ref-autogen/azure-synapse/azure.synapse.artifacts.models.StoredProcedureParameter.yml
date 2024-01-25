@@ -27,6 +27,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.synapse.artifacts.models.StoredProcedureParameterType>
+  keywordOnlyArguments:
+  - name: value
+  - name: type
 methods:
 - uid: azure.synapse.artifacts.models.StoredProcedureParameter.as_dict
   name: as_dict

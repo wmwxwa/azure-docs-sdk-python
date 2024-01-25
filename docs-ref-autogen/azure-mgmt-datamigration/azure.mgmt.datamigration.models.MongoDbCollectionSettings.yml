@@ -31,3 +31,7 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: can_delete
+  - name: shard_key
+  - name: target_r_us

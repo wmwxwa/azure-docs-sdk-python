@@ -37,6 +37,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.synapse.models.IntegrationRuntimeType>
+  keywordOnlyArguments:
+  - name: additional_properties
 variables:
 - description: The workspace name which the integration runtime belong to.
   name: data_factory_name

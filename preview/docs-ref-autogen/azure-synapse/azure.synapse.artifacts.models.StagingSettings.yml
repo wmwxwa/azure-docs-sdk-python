@@ -42,6 +42,11 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: linked_service_name
+  - name: additional_properties
+  - name: path
+  - name: enable_compression
 methods:
 - uid: azure.synapse.artifacts.models.StagingSettings.as_dict
   name: as_dict

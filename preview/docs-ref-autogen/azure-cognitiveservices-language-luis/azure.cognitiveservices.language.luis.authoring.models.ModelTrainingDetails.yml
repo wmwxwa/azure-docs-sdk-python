@@ -38,6 +38,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: status_id
+  - name: status
+  - name: example_count
+  - name: training_date_time
+  - name: failure_reason
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.ModelTrainingDetails.as_dict
   name: as_dict

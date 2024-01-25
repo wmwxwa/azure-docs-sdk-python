@@ -39,6 +39,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.databoxedge.v2020_09_01_preview.models.IoTDeviceInfo>
+  keywordOnlyArguments:
+  - name: io_t_device_details
+  - name: io_t_edge_device_details
 variables:
 - description: The path ID that uniquely identifies the object.
   name: id

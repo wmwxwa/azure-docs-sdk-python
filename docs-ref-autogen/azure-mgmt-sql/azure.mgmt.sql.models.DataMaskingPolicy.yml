@@ -31,6 +31,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: data_masking_state
+  - name: exempt_principals
 variables:
 - description: Resource ID.
   name: id

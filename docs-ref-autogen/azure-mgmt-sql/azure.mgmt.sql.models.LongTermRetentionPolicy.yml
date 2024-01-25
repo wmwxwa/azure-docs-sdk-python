@@ -34,6 +34,11 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: weekly_retention
+  - name: monthly_retention
+  - name: yearly_retention
+  - name: week_of_year
 variables:
 - description: Resource ID.
   name: id

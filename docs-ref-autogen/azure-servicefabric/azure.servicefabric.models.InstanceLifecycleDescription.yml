@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: restore_replica_location_after_upgrade
 methods:
 - uid: azure.servicefabric.models.InstanceLifecycleDescription.as_dict
   name: as_dict

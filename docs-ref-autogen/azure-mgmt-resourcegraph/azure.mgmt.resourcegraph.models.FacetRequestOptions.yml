@@ -40,3 +40,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: sort_by
+  - name: sort_order
+    defaultValue: desc
+  - name: filter
+  - name: top

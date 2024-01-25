@@ -36,3 +36,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.devtestlabs.models.FileUploadOptions>
+  keywordOnlyArguments:
+  - name: virtual_machine_name
+  - name: parameters
+  - name: location
+  - name: file_upload_options

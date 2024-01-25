@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: results
+  - name: queries
 methods:
 - uid: azure.iot.hub.protocol.models.configuration_metrics_py3.ConfigurationMetrics.as_dict
   name: as_dict

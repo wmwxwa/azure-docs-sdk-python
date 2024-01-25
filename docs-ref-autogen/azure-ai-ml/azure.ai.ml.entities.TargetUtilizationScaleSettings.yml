@@ -33,6 +33,11 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: min_instances
+  - name: max_instances
+  - name: polling_interval
+  - name: target_utilization_percentage
 variables:
 - description: Target utilization scale settings type. Set automatically to "target_utilization"
     for this class.

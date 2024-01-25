@@ -58,6 +58,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.sql.models.RecommendedActionCurrentState>
+  keywordOnlyArguments:
+  - name: current_value
 variables:
 - description: 'Gets who initiated the execution of this recommended action.
 

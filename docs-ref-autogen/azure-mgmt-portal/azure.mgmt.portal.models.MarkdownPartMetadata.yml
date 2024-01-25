@@ -36,3 +36,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.portal.models.MarkdownPartMetadataSettings>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: inputs
+  - name: settings

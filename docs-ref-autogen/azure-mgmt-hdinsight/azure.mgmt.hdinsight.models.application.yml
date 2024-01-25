@@ -28,6 +28,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.ApplicationProperties>
+  keywordOnlyArguments:
+  - name: etag
+  - name: tags
+  - name: properties
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

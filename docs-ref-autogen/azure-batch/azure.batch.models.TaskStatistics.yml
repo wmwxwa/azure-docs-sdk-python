@@ -85,6 +85,18 @@ constructor:
     isRequired: true
     types:
     - <xref:timedelta>
+  keywordOnlyArguments:
+  - name: url
+  - name: start_time
+  - name: last_update_time
+  - name: user_cpu_time
+  - name: kernel_cpu_time
+  - name: wall_clock_time
+  - name: read_iops
+  - name: write_iops
+  - name: read_io_gi_b
+  - name: write_io_gi_b
+  - name: wait_time
 methods:
 - uid: azure.batch.models.TaskStatistics.as_dict
   name: as_dict

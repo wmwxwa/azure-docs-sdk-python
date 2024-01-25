@@ -23,6 +23,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.deploymentmanager.models.CloudErrorBody>]
+  keywordOnlyArguments:
+  - name: target
+  - name: details
 variables:
 - description: Error code string.
   name: code

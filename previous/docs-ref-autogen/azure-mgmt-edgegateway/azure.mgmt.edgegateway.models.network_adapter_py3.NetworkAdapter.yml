@@ -30,6 +30,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.edgegateway.models.NetworkAdapterDHCPStatus>
+  keywordOnlyArguments:
+  - name: rdma_status
+  - name: dhcp_status
 variables:
 - description: Instance ID of network adapter.
   name: adapter_id

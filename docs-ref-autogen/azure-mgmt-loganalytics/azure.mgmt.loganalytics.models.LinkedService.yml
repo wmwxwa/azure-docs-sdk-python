@@ -42,6 +42,11 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.loganalytics.models.LinkedServiceEntityStatus>
+  keywordOnlyArguments:
+  - name: tags
+  - name: resource_id
+  - name: write_access_resource_id
+  - name: provisioning_state
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

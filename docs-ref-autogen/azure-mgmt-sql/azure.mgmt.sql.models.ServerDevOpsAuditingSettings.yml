@@ -82,6 +82,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: is_azure_monitor_target_enabled
+  - name: state
+  - name: storage_endpoint
+  - name: storage_account_access_key
+  - name: storage_account_subscription_id
 variables:
 - description: Resource ID.
   name: id

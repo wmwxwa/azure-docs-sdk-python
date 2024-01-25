@@ -24,3 +24,6 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
+  keywordOnlyArguments:
+  - name: blob_storage_absolute_sas_uri
+  - name: usage_start_date

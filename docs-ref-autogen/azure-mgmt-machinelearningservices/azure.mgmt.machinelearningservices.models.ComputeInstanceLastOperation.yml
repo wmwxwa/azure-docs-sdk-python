@@ -33,3 +33,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.machinelearningservices.models.OperationStatus>
+  keywordOnlyArguments:
+  - name: operation_name
+  - name: operation_time
+  - name: operation_status

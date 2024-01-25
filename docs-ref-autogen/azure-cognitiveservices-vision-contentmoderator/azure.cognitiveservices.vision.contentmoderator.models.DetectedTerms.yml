@@ -34,6 +34,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: index
+  - name: original_index
+  - name: list_id
+  - name: term
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.DetectedTerms.as_dict
   name: as_dict

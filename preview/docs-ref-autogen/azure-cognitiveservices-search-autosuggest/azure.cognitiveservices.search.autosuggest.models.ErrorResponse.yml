@@ -29,6 +29,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.search.autosuggest.models.Error>]
+  keywordOnlyArguments:
+  - name: errors
 variables:
 - description: A String identifier.
   name: id

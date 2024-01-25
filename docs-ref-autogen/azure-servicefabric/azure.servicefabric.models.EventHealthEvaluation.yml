@@ -61,6 +61,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.HealthEvent>
+  keywordOnlyArguments:
+  - name: aggregated_health_state
+  - name: description
+  - name: consider_warning_as_error
+  - name: unhealthy_event
 methods:
 - uid: azure.servicefabric.models.EventHealthEvaluation.as_dict
   name: as_dict

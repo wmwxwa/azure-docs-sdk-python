@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: direct_access_grant
+  - name: access_grants
 methods:
 - uid: azure.graphrbac.models.PreAuthorizedApplicationPermission.as_dict
   name: as_dict

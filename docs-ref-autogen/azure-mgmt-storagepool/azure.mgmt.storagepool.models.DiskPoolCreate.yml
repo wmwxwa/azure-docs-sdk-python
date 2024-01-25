@@ -66,6 +66,16 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: sku
+  - name: location
+  - name: subnet_id
+  - name: tags
+  - name: managed_by
+  - name: managed_by_extended
+  - name: availability_zones
+  - name: disks
+  - name: additional_capabilities
 variables:
 - description: 'Fully qualified resource Id for the resource. Ex -
 

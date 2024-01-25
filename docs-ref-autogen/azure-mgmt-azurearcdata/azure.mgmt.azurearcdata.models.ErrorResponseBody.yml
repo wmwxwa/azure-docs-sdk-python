@@ -39,3 +39,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure_arc_data_management_client.models.ErrorResponseBody>]
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: target
+  - name: details

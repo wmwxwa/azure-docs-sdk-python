@@ -117,6 +117,22 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure_arc_data_management_client.models.DefenderStatus>
+  keywordOnlyArguments:
+  - name: container_resource_id
+  - name: status
+  - name: version
+  - name: edition
+  - name: v_core
+  - name: patch_level
+  - name: collation
+  - name: current_version
+  - name: instance_name
+  - name: tcp_dynamic_ports
+  - name: tcp_static_ports
+  - name: product_id
+  - name: license_type
+  - name: azure_defender_status_last_updated
+  - name: azure_defender_status
 variables:
 - description: The time when the resource was created.
   name: create_time

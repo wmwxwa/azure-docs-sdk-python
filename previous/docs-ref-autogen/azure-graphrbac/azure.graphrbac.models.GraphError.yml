@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: code
+  - name: message
 methods:
 - uid: azure.graphrbac.models.GraphError.as_dict
   name: as_dict

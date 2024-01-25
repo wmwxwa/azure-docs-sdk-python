@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: status
+  - name: payload
 methods:
 - uid: azure.iot.hub.protocol.models.cloud_to_device_method_result_py3.CloudToDeviceMethodResult.as_dict
   name: as_dict

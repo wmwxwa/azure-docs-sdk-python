@@ -34,3 +34,8 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:long>]
+  keywordOnlyArguments:
+  - name: schema_differences
+  - name: validation_errors
+  - name: source_database_object_count
+  - name: target_database_object_count

@@ -59,3 +59,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.synapse.models.SsisParameter>]
+  keywordOnlyArguments:
+  - name: id
+  - name: name
+  - name: description
+  - name: folder_id
+  - name: version
+  - name: environment_refs
+  - name: parameters

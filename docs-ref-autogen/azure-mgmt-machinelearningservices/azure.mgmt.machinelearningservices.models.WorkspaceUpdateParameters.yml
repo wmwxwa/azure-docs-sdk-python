@@ -31,3 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: tags
+  - name: sku
+  - name: description
+  - name: friendly_name

@@ -36,3 +36,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: protocol
+  - name: location
+  - name: port
+  - name: private_ip_address

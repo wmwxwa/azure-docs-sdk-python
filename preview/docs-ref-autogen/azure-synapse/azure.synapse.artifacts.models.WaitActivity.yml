@@ -51,6 +51,13 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: name
+  - name: wait_time_in_seconds
+  - name: additional_properties
+  - name: description
+  - name: depends_on
+  - name: user_properties
 methods:
 - uid: azure.synapse.artifacts.models.WaitActivity.as_dict
   name: as_dict

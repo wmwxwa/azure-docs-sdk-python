@@ -38,3 +38,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: source_connection_info
+  - name: target_connection_info
+  - name: selected_source_databases
+  - name: selected_target_databases

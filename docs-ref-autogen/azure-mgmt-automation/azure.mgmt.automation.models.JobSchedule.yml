@@ -40,6 +40,12 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: job_schedule_id
+  - name: schedule
+  - name: runbook
+  - name: run_on
+  - name: parameters
 variables:
 - description: Gets the id of the resource.
   name: id

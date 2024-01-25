@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: pattern
+  - name: intent
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.PatternRule.as_dict
   name: as_dict

@@ -33,3 +33,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: data_source
+  - name: user_name
+  - name: password

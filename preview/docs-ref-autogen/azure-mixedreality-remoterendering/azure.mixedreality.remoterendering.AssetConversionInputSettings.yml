@@ -60,6 +60,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: storage_container_uri
+  - name: relative_input_asset_path
+  - name: storage_container_read_list_sas
+  - name: blob_prefix
 methods:
 - uid: azure.mixedreality.remoterendering.AssetConversionInputSettings.as_dict
   name: as_dict

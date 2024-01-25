@@ -44,6 +44,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.ResourceStatistics>
+  keywordOnlyArguments:
+  - name: url
+  - name: start_time
+  - name: last_update_time
+  - name: usage_stats
+  - name: resource_stats
 methods:
 - uid: azure.batch.models.PoolStatistics.as_dict
   name: as_dict

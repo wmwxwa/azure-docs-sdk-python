@@ -52,3 +52,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: target
+  - name: request_uri
+  - name: exception_type
+  - name: http_method
+  - name: hashed_message
+  - name: http_error_code

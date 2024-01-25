@@ -35,6 +35,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: application_id
+  - name: version
 methods:
 - uid: azure.batch.models.ApplicationPackageReference.as_dict
   name: as_dict

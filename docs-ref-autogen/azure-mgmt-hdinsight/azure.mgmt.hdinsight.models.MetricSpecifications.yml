@@ -106,3 +106,21 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.hdinsight.models.Dimension>]
+  keywordOnlyArguments:
+  - name: name
+  - name: display_name
+  - name: display_description
+  - name: unit
+  - name: aggregation_type
+  - name: supported_aggregation_types
+  - name: supported_time_grain_types
+  - name: enable_regional_mdm_account
+  - name: source_mdm_account
+  - name: source_mdm_namespace
+  - name: metric_filter_pattern
+  - name: fill_gap_with_zero
+  - name: category
+  - name: resource_id_dimension_name_override
+  - name: is_internal
+  - name: delegate_metric_name_override
+  - name: dimensions

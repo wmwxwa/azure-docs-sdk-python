@@ -62,3 +62,11 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: average_document_size
+  - name: data_size
+  - name: document_count
+  - name: name
+  - name: qualified_name
+  - name: collections
+  - name: supports_sharding

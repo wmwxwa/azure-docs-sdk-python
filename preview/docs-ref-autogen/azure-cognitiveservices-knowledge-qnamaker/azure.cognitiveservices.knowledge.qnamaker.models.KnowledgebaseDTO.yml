@@ -66,6 +66,16 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: id
+  - name: host_name
+  - name: last_accessed_timestamp
+  - name: last_changed_timestamp
+  - name: last_published_timestamp
+  - name: name
+  - name: user_id
+  - name: urls
+  - name: sources
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.KnowledgebaseDTO.as_dict
   name: as_dict

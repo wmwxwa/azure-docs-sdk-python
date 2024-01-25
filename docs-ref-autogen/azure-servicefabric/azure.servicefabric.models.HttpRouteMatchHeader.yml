@@ -28,6 +28,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.servicefabric.models.HeaderMatchType>
+  keywordOnlyArguments:
+  - name: name
+  - name: value
+  - name: type
 methods:
 - uid: azure.servicefabric.models.HttpRouteMatchHeader.as_dict
   name: as_dict

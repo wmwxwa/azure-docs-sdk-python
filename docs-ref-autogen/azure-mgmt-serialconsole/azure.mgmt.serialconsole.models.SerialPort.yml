@@ -21,6 +21,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.serialconsole.models.SerialPortState>
+  keywordOnlyArguments:
+  - name: state
 variables:
 - description: Resource Id.
   name: id

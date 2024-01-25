@@ -63,3 +63,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: metric_name
+  - name: lower_load_threshold
+  - name: upper_load_threshold
+  - name: scale_interval
+  - name: use_only_primary_load

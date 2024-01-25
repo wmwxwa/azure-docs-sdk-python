@@ -66,6 +66,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: data_set_id
+  - name: file_path
+  - name: file_system
+  - name: resource_group
+  - name: storage_account_name
+  - name: subscription_id
+  - name: output_type
 variables:
 - description: The resource id of the azure resource.
   name: id

@@ -96,6 +96,25 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: livy_info
+  - name: name
+  - name: workspace_name
+  - name: spark_pool_name
+  - name: submitter_name
+  - name: submitter_id
+  - name: artifact_id
+  - name: job_type
+  - name: result
+  - name: scheduler_info
+  - name: plugin_info
+  - name: error_info
+  - name: tags
+  - name: id
+  - name: app_id
+  - name: app_info
+  - name: state
+  - name: log
 methods:
 - uid: azure.synapse.models.ExtendedLivyBatchResponse.as_dict
   name: as_dict

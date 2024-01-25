@@ -55,6 +55,15 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.purview.models.PublicNetworkAccess>
+  keywordOnlyArguments:
+  - name: identity
+  - name: location
+  - name: tags
+  - name: sku
+  - name: cloud_connectors
+  - name: managed_resource_group_name
+  - name: public_network_access
+    defaultValue: Enabled
 variables:
 - description: Gets or sets the identifier.
   name: id

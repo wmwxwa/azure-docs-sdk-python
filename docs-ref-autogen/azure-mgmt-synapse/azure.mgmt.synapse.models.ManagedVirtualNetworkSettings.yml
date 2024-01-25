@@ -26,3 +26,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: prevent_data_exfiltration
+  - name: linked_access_check_on_target_resource
+  - name: allowed_aad_tenant_ids_for_linking

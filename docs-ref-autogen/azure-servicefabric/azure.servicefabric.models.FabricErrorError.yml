@@ -333,6 +333,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: code
+  - name: message
 methods:
 - uid: azure.servicefabric.models.FabricErrorError.as_dict
   name: as_dict

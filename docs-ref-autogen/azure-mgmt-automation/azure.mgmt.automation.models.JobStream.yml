@@ -50,3 +50,11 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:object>]
+  keywordOnlyArguments:
+  - name: id
+  - name: job_stream_id
+  - name: time
+  - name: stream_type
+  - name: stream_text
+  - name: summary
+  - name: value

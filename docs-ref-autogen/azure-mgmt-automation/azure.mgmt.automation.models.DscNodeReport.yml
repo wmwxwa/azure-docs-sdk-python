@@ -115,3 +115,23 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: end_time
+  - name: last_modified_time
+  - name: start_time
+  - name: type
+  - name: report_id
+  - name: status
+  - name: refresh_mode
+  - name: reboot_requested
+  - name: report_format_version
+  - name: configuration_version
+  - name: id
+  - name: errors
+  - name: resources
+  - name: meta_configuration
+  - name: host_name
+  - name: i_pv4_addresses
+  - name: i_pv6_addresses
+  - name: number_of_resources
+  - name: raw_errors

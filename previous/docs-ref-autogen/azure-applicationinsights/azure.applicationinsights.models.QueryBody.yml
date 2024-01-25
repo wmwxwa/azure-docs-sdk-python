@@ -35,6 +35,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: query
+  - name: timespan
+  - name: applications
 methods:
 - uid: azure.applicationinsights.models.QueryBody.as_dict
   name: as_dict

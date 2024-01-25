@@ -66,6 +66,14 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: acl_mode
+  - name: target_iqn
+  - name: status
+  - name: static_acls
+  - name: luns
+  - name: endpoints
+  - name: port
 variables:
 - description: 'Fully qualified resource Id for the resource. Ex -
 

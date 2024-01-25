@@ -38,3 +38,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.machinelearningservices.models.EstimatedVMPrice>]
+  keywordOnlyArguments:
+  - name: billing_currency
+  - name: unit_of_measure
+  - name: values

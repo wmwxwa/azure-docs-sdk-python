@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.machinelearningservices.models.NotebookListCredentialsResult>
+  keywordOnlyArguments:
+  - name: notebook_access_keys
 variables:
 - name: user_storage_key
   types:

@@ -46,6 +46,9 @@ constructor:
     isRequired: true
     types:
     - <xref:timedelta>
+  keywordOnlyArguments:
+  - name: auto_scale_formula
+  - name: auto_scale_evaluation_interval
 methods:
 - uid: azure.batch.models.PoolEnableAutoScaleParameter.as_dict
   name: as_dict

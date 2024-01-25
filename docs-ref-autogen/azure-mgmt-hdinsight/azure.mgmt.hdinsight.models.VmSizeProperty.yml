@@ -71,3 +71,14 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
+  keywordOnlyArguments:
+  - name: name
+  - name: cores
+  - name: data_disk_storage_tier
+  - name: label
+  - name: max_data_disk_count
+  - name: memory_in_mb
+  - name: supported_by_virtual_machines
+  - name: supported_by_web_worker_roles
+  - name: virtual_machine_resource_disk_size_in_mb
+  - name: web_worker_resource_disk_size_in_mb

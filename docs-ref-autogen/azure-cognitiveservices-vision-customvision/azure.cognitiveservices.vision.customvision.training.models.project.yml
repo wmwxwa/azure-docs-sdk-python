@@ -40,6 +40,11 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.cognitiveservices.vision.customvision.training.models.ProjectStatus>
+  keywordOnlyArguments:
+  - name: name
+  - name: description
+  - name: settings
+  - name: status
 variables:
 - description: Gets the project id.
   name: id

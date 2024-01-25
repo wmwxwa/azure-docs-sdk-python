@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.TermsPaging>
+  keywordOnlyArguments:
+  - name: data
+  - name: paging
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.Terms.as_dict
   name: as_dict

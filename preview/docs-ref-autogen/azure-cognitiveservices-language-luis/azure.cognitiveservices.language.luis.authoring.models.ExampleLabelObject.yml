@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: text
+  - name: entity_labels
+  - name: intent_name
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.ExampleLabelObject.as_dict
   name: as_dict

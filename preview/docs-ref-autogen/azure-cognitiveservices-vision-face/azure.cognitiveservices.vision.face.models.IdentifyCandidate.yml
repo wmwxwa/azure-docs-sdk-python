@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: person_id
+  - name: confidence
 methods:
 - uid: azure.cognitiveservices.vision.face.models.IdentifyCandidate.as_dict
   name: as_dict

@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.artifacts.models.DatasetReference>]
+  keywordOnlyArguments:
+  - name: linked_services
+  - name: datasets
 methods:
 - uid: azure.synapse.artifacts.models.CustomActivityReferenceObject.as_dict
   name: as_dict

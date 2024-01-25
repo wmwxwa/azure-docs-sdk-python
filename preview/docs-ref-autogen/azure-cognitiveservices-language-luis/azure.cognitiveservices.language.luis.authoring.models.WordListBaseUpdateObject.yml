@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: canonical_form
+  - name: list
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.WordListBaseUpdateObject.as_dict
   name: as_dict

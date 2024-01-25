@@ -23,3 +23,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:service_fabric_managed_clusters_management_client.models.SettingsParameterDescription>]
+  keywordOnlyArguments:
+  - name: name
+  - name: parameters

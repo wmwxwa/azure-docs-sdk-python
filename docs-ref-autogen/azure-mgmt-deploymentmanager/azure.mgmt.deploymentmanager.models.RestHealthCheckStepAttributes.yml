@@ -52,3 +52,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.deploymentmanager.models.RestHealthCheck>]
+  keywordOnlyArguments:
+  - name: healthy_state_duration
+  - name: wait_duration
+  - name: max_elastic_duration
+  - name: health_checks

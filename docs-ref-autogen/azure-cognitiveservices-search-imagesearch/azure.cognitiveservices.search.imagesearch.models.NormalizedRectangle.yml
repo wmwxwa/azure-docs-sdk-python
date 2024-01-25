@@ -49,6 +49,11 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: left
+  - name: top
+  - name: right
+  - name: bottom
 variables:
 - description: A String identifier.
   name: id

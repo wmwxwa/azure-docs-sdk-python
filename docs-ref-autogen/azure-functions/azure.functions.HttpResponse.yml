@@ -39,6 +39,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: status_code
+  - name: headers
+  - name: mimetype
+  - name: charset
 methods:
 - uid: azure.functions.HttpResponse.get_body
   name: get_body

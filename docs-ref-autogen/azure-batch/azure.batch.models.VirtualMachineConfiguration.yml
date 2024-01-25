@@ -157,6 +157,19 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.ServiceArtifactReference>
+  keywordOnlyArguments:
+  - name: image_reference
+  - name: node_agent_sku_id
+  - name: windows_configuration
+  - name: data_disks
+  - name: license_type
+  - name: container_configuration
+  - name: disk_encryption_configuration
+  - name: node_placement_configuration
+  - name: extensions
+  - name: os_disk
+  - name: security_profile
+  - name: service_artifact_reference
 methods:
 - uid: azure.batch.models.VirtualMachineConfiguration.as_dict
   name: as_dict

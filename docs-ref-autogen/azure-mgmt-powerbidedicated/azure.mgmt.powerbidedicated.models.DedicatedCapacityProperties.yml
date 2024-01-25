@@ -24,6 +24,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.powerbidedicated.models.Mode>
+  keywordOnlyArguments:
+  - name: administration
+  - name: mode
 variables:
 - description: 'The current state of PowerBI Dedicated resource. The state is to indicate
     more

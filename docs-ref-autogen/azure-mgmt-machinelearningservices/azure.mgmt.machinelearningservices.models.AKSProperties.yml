@@ -40,6 +40,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.machinelearningservices.models.AksNetworkingConfiguration>
+  keywordOnlyArguments:
+  - name: cluster_fqdn
+  - name: agent_count
+  - name: agent_vm_size
+  - name: ssl_configuration
+  - name: aks_networking_configuration
 variables:
 - description: System services.
   name: system_services

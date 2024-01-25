@@ -45,3 +45,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.deploymentmanager.models.RolloutStep>]
+  keywordOnlyArguments:
+  - name: target_resource_group
+  - name: deployment_mode
+  - name: artifacts
+  - name: name
+  - name: steps

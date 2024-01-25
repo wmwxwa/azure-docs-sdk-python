@@ -60,3 +60,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datamigration.models.MongoDbThrottlingSettings>
+  keywordOnlyArguments:
+  - name: databases
+  - name: source
+  - name: target
+  - name: boost_r_us
+  - name: replication
+  - name: throttling

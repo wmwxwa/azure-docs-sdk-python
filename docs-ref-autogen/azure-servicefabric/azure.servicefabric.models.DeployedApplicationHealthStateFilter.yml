@@ -131,6 +131,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.DeployedServicePackageHealthStateFilter>]
+  keywordOnlyArguments:
+  - name: node_name_filter
+  - name: health_state_filter
+  - name: deployed_service_package_filters
 methods:
 - uid: azure.servicefabric.models.DeployedApplicationHealthStateFilter.as_dict
   name: as_dict

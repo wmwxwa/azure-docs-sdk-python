@@ -44,3 +44,10 @@ constructor:
     isRequired: true
     types:
     - <xref:video_analyzer.models.ErrorDetail>
+  keywordOnlyArguments:
+  - name: name
+  - name: id
+  - name: start_time
+  - name: end_time
+  - name: status
+  - name: error

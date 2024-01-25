@@ -123,6 +123,22 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: endpoint
+  - name: marketplace_id
+  - name: seller_id
+  - name: access_key_id
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: mws_auth_token
+  - name: secret_key
+  - name: use_encrypted_endpoints
+  - name: use_host_verification
+  - name: use_peer_verification
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.AmazonMWSLinkedService.as_dict
   name: as_dict

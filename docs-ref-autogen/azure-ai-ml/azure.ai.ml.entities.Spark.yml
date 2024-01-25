@@ -145,6 +145,28 @@ constructor:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Union>[ <xref:azure.ai.ml.entities._job.pipeline._io.NodeOutput>,
       <xref:azure.ai.ml.Input>, <xref:str>, <xref:bool>, <xref:int>, <xref:float>,
       <xref:Enum>, ]
+  keywordOnlyArguments:
+  - name: component
+  - name: identity
+  - name: driver_cores
+  - name: driver_memory
+  - name: executor_cores
+  - name: executor_memory
+  - name: executor_instances
+  - name: dynamic_allocation_enabled
+  - name: dynamic_allocation_min_executors
+  - name: dynamic_allocation_max_executors
+  - name: conf
+  - name: inputs
+  - name: outputs
+  - name: compute
+  - name: resources
+  - name: entry
+  - name: py_files
+  - name: jars
+  - name: files
+  - name: archives
+  - name: args
 methods:
 - uid: azure.ai.ml.entities.Spark.clear
   name: clear
@@ -166,6 +188,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:PathLike>, <xref:str>, <xref:typing.IO>[<xref:typing.AnyStr>]]
+  keywordOnlyArguments:
   - name: kwargs
     description: Additional arguments to pass to the YAML serializer.
     types:
@@ -179,22 +202,23 @@ methods:
   name: fromkeys
   summary: Create a new dictionary with keys from iterable and values set to value.
   signature: fromkeys(value=None, /)
-  parameters:
-  - name: type
-    isRequired: true
+  positionalOnlyArguments:
   - name: iterable
     isRequired: true
   - name: value
-    defaultValue: None
+    isRequired: true
+  parameters:
+  - name: type
+    isRequired: true
 - uid: azure.ai.ml.entities.Spark.get
   name: get
   summary: Return the value for key if key is in the dictionary, else default.
   signature: get(key, default=None, /)
-  parameters:
+  positionalOnlyArguments:
   - name: key
     isRequired: true
   - name: default
-    defaultValue: None
+    isRequired: true
 - uid: azure.ai.ml.entities.Spark.items
   name: items
   signature: items() -> a set-like object providing a view on D's items
@@ -223,11 +247,11 @@ methods:
 
     Return the value for key if key is in the dictionary, else default.'
   signature: setdefault(key, default=None, /)
-  parameters:
+  positionalOnlyArguments:
   - name: key
     isRequired: true
   - name: default
-    defaultValue: None
+    isRequired: true
 - uid: azure.ai.ml.entities.Spark.update
   name: update
   summary: 'If E is present and has a .keys() method, then does:  for k in E: D[k]

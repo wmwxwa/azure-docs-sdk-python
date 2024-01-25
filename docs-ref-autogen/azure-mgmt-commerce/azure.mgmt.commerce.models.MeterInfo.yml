@@ -75,3 +75,14 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: meter_id
+  - name: meter_name
+  - name: meter_category
+  - name: meter_sub_category
+  - name: unit
+  - name: meter_tags
+  - name: meter_region
+  - name: meter_rates
+  - name: effective_date
+  - name: included_quantity

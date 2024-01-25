@@ -27,6 +27,9 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: type
+  - name: default_value
 methods:
 - uid: azure.synapse.artifacts.models.ParameterSpecification.as_dict
   name: as_dict

@@ -33,6 +33,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: tags
+  - name: family
+  - name: maintenance_configuration_id
 variables:
 - description: Subnet resource ID for the virtual cluster.
   name: subnet_id

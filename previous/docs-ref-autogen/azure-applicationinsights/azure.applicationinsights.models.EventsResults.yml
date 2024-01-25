@@ -25,6 +25,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.applicationinsights.models.EventsResultData>]
+  keywordOnlyArguments:
+  - name: odatacontext
+  - name: aimessages
+  - name: value
 methods:
 - uid: azure.applicationinsights.models.EventsResults.as_dict
   name: as_dict

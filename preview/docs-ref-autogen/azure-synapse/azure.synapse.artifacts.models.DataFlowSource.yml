@@ -28,6 +28,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.DatasetReference>
+  keywordOnlyArguments:
+  - name: name
+  - name: description
+  - name: dataset
 methods:
 - uid: azure.synapse.artifacts.models.DataFlowSource.as_dict
   name: as_dict

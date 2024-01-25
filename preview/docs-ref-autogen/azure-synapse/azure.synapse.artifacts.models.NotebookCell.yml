@@ -46,6 +46,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.artifacts.models.NotebookCellOutputItem>]
+  keywordOnlyArguments:
+  - name: cell_type
+  - name: metadata
+  - name: source
+  - name: additional_properties
+  - name: attachments
+  - name: outputs
 methods:
 - uid: azure.synapse.artifacts.models.NotebookCell.as_dict
   name: as_dict

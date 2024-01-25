@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.managementgroups.models.CreateParentGroupInfo>
+  keywordOnlyArguments:
+  - name: parent
 variables:
 - description: The version number of the object.
   name: version

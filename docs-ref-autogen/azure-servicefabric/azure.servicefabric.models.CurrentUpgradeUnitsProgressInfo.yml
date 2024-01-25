@@ -24,6 +24,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.NodeUpgradeProgressInfo>]
+  keywordOnlyArguments:
+  - name: domain_name
+  - name: node_upgrade_progress_list
 methods:
 - uid: azure.servicefabric.models.CurrentUpgradeUnitsProgressInfo.as_dict
   name: as_dict

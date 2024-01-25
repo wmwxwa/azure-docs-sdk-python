@@ -25,3 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
+  keywordOnlyArguments:
+  - name: region_name
+  - name: cores_used
+  - name: cores_available

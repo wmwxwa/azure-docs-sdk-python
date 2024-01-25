@@ -12,7 +12,7 @@ summary: 'DigitalTwinsInstance endpoint resource.
 constructor:
   syntax: 'DigitalTwinsEndpointResource(*, properties: _models.DigitalTwinsEndpointResourceProperties
     | None = None, **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: properties
     description: DigitalTwinsInstance endpoint resource properties.
     types:

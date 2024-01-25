@@ -26,3 +26,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: connect_via
+  - name: staging_linked_service
+  - name: path

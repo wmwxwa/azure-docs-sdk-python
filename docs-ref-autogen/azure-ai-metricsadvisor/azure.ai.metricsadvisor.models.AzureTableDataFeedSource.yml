@@ -9,14 +9,6 @@ summary: AzureTableDataFeedSource.
 constructor:
   syntax: 'AzureTableDataFeedSource(query: str, table: str, **kwargs: Any)'
   parameters:
-  - name: credential_id
-    description: The datasource credential id.
-    types:
-    - <xref:str>
-  - name: connection_string
-    description: Azure Table connection string.
-    types:
-    - <xref:str>
   - name: query
     description: Required. Query script.
     isRequired: true
@@ -25,6 +17,15 @@ constructor:
   - name: table
     description: Required. Table name.
     isRequired: true
+    types:
+    - <xref:str>
+  keywordOnlyArguments:
+  - name: credential_id
+    description: The datasource credential id.
+    types:
+    - <xref:str>
+  - name: connection_string
+    description: Azure Table connection string.
     types:
     - <xref:str>
 variables:
@@ -60,22 +61,23 @@ methods:
   name: fromkeys
   summary: Create a new dictionary with keys from iterable and values set to value.
   signature: fromkeys(value=None, /)
-  parameters:
-  - name: type
-    isRequired: true
+  positionalOnlyArguments:
   - name: iterable
     isRequired: true
   - name: value
-    defaultValue: None
+    isRequired: true
+  parameters:
+  - name: type
+    isRequired: true
 - uid: azure.ai.metricsadvisor.models.AzureTableDataFeedSource.get
   name: get
   summary: Return the value for key if key is in the dictionary, else default.
   signature: get(key, default=None, /)
-  parameters:
+  positionalOnlyArguments:
   - name: key
     isRequired: true
   - name: default
-    defaultValue: None
+    isRequired: true
 - uid: azure.ai.metricsadvisor.models.AzureTableDataFeedSource.items
   name: items
   signature: items() -> a set-like object providing a view on D's items
@@ -104,11 +106,11 @@ methods:
 
     Return the value for key if key is in the dictionary, else default.'
   signature: setdefault(key, default=None, /)
-  parameters:
+  positionalOnlyArguments:
   - name: key
     isRequired: true
   - name: default
-    defaultValue: None
+    isRequired: true
 - uid: azure.ai.metricsadvisor.models.AzureTableDataFeedSource.update
   name: update
   summary: 'If E is present and has a .keys() method, then does:  for k in E: D[k]

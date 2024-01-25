@@ -34,6 +34,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>, <xref:optional>
+  keywordOnlyArguments:
+  - name: name
+  - name: type
+  - name: output_name
+  - name: tags
+  - name: description
 methods:
 - uid: azureml.featurestore.contracts.feature.Feature.from_uri
   name: from_uri

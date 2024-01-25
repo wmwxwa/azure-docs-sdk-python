@@ -30,6 +30,11 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: total
+  - name: limit
+  - name: offset
+  - name: returned
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.TermsPaging.as_dict
   name: as_dict

@@ -43,6 +43,12 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: tag_id
+  - name: left
+  - name: top
+  - name: width
+  - name: height
 variables:
 - name: image_id
   types:

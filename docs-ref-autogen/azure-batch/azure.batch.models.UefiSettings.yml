@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: secure_boot_enabled
+  - name: v_tpm_enabled
 methods:
 - uid: azure.batch.models.UefiSettings.as_dict
   name: as_dict

@@ -93,6 +93,22 @@ constructor:
   - name: kwargs
     description: Additional parameters for the component.
     isRequired: true
+  keywordOnlyArguments:
+  - name: name
+  - name: version
+  - name: id
+  - name: type
+  - name: description
+  - name: tags
+  - name: properties
+  - name: display_name
+  - name: is_deterministic
+    defaultValue: 'True'
+  - name: inputs
+  - name: outputs
+  - name: yaml_str
+  - name: _schema
+  - name: creation_context
 methods:
 - uid: azure.ai.ml.entities.Component.dump
   name: dump

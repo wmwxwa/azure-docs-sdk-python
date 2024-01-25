@@ -41,3 +41,11 @@ constructor:
     isRequired: true
     types:
     - <xref:typing.Optional>[<xref:typing.List>[<xref:azure.ai.ml.entities.VolumeSettings>]]
+  keywordOnlyArguments:
+  - name: name
+  - name: image
+  - name: type
+    defaultValue: docker
+  - name: endpoints
+  - name: environment_variables
+  - name: bind_mounts

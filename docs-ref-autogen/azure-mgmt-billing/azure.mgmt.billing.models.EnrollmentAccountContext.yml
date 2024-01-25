@@ -31,3 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: cost_center
+  - name: start_date
+  - name: end_date
+  - name: enrollment_account_name

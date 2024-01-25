@@ -32,6 +32,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.servicefabric.models.ChaosScheduleStatus>
+  keywordOnlyArguments:
+  - name: chaos_parameters
+  - name: status
+  - name: schedule_status
 methods:
 - uid: azure.servicefabric.models.Chaos.as_dict
   name: as_dict

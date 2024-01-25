@@ -19,6 +19,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datamigration.models.DatabaseBackupInfo>
+  keywordOnlyArguments:
+  - name: database_backup_info
 variables:
 - description: Result identifier.
   name: id

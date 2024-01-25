@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.managementgroups.models.DescendantInfo>]
+  keywordOnlyArguments:
+  - name: value
 variables:
 - description: The URL to use for getting the next set of results.
   name: next_link

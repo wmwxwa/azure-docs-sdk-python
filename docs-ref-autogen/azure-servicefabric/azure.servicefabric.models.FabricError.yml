@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.FabricErrorError>
+  keywordOnlyArguments:
+  - name: error
 methods:
 - uid: azure.servicefabric.models.FabricError.as_dict
   name: as_dict

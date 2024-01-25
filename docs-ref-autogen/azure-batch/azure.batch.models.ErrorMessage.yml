@@ -17,6 +17,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: lang
+  - name: value
 methods:
 - uid: azure.batch.models.ErrorMessage.as_dict
   name: as_dict

@@ -111,6 +111,20 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: account_name
+  - name: tenant
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: service_principal_id
+  - name: service_principal_key
+  - name: subscription_id
+  - name: resource_group_name
+  - name: data_lake_analytics_uri
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.AzureDataLakeAnalyticsLinkedService.as_dict
   name: as_dict

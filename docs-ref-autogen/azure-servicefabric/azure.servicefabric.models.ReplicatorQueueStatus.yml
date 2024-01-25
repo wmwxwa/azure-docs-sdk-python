@@ -86,6 +86,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: queue_utilization_percentage
+  - name: queue_memory_size
+  - name: first_sequence_number
+  - name: completed_sequence_number
+  - name: committed_sequence_number
+  - name: last_sequence_number
 methods:
 - uid: azure.servicefabric.models.ReplicatorQueueStatus.as_dict
   name: as_dict

@@ -198,6 +198,32 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: is_balanced_before
+  - name: is_balanced_after
+  - name: deviation_before
+  - name: deviation_after
+  - name: balancing_threshold
+  - name: action
+  - name: activity_threshold
+  - name: cluster_capacity
+  - name: cluster_load
+  - name: current_cluster_load
+  - name: cluster_remaining_capacity
+  - name: cluster_capacity_remaining
+  - name: is_cluster_capacity_violation
+  - name: node_buffer_percentage
+  - name: cluster_buffered_capacity
+  - name: buffered_cluster_capacity_remaining
+  - name: cluster_remaining_buffered_capacity
+  - name: min_node_load_value
+  - name: minimum_node_load
+  - name: min_node_load_node_id
+  - name: max_node_load_value
+  - name: maximum_node_load
+  - name: max_node_load_node_id
+  - name: planned_load_removal
 methods:
 - uid: azure.servicefabric.models.LoadMetricInformation.as_dict
   name: as_dict

@@ -33,6 +33,9 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:azure.mgmt.loganalytics.models.UserIdentityProperties>]
+  keywordOnlyArguments:
+  - name: type
+  - name: user_assigned_identities
 variables:
 - description: The principal ID of resource identity.
   name: principal_id

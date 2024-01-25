@@ -57,6 +57,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: inputs
+  - name: base_directory_path
+  - name: file_name_pattern
+  - name: maximum_size_mi_b
 methods:
 - uid: azure.media.analyticsedge.MediaGraphFileSink.as_dict
   name: as_dict

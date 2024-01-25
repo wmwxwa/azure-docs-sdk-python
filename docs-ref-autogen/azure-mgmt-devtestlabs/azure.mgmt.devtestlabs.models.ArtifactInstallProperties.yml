@@ -47,3 +47,11 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
+  keywordOnlyArguments:
+  - name: artifact_id
+  - name: artifact_title
+  - name: parameters
+  - name: status
+  - name: deployment_status_message
+  - name: vm_extension_status_message
+  - name: install_time

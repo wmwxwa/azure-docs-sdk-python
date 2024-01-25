@@ -19,6 +19,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: digest_storage_endpoint
 variables:
 - description: Resource ID.
   name: id

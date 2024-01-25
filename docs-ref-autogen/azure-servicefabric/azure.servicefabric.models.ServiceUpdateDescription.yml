@@ -188,6 +188,17 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: flags
+  - name: placement_constraints
+  - name: correlation_scheme
+  - name: load_metrics
+  - name: service_placement_policies
+  - name: default_move_cost
+  - name: scaling_policies
+  - name: service_dns_name
+  - name: tags_for_placement
+  - name: tags_for_running
 methods:
 - uid: azure.servicefabric.models.ServiceUpdateDescription.as_dict
   name: as_dict

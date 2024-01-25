@@ -54,6 +54,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: action_group_id
+  - name: scope
+  - name: conditions
+  - name: description
+  - name: status
 variables:
 - description: Creation time of action rule. Date-Time in ISO-8601 format.
   name: created_at

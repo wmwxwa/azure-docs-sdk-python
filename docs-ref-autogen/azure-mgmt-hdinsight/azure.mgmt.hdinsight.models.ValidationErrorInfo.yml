@@ -31,3 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: error_resource
+  - name: message_arguments

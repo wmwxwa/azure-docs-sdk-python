@@ -116,6 +116,23 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: sku
+  - name: administrator_login
+  - name: administrator_login_password
+  - name: version
+  - name: storage
+  - name: backup
+  - name: network
+  - name: high_availability
+  - name: maintenance_window
+  - name: source_server_resource_id
+  - name: point_in_time_utc
+  - name: availability_zone
+  - name: create_mode
+  - name: tags_properties_tags
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

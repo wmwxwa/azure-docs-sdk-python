@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.billing.models.Participants>]
+  keywordOnlyArguments:
+  - name: participants
 variables:
 - description: Resource Id.
   name: id

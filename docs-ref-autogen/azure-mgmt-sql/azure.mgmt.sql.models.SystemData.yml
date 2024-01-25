@@ -48,3 +48,10 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
+  keywordOnlyArguments:
+  - name: created_by
+  - name: created_by_type
+  - name: created_at
+  - name: last_modified_by
+  - name: last_modified_by_type
+  - name: last_modified_at

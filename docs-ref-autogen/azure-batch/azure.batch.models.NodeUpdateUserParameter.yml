@@ -45,6 +45,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: password
+  - name: expiry_time
+  - name: ssh_public_key
 methods:
 - uid: azure.batch.models.NodeUpdateUserParameter.as_dict
   name: as_dict

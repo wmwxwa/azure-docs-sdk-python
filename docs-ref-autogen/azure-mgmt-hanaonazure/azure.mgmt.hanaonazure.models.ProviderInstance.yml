@@ -28,6 +28,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: type_properties_type
+  - name: properties
+  - name: metadata
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

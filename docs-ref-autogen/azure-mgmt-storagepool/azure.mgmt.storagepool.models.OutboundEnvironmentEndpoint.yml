@@ -25,3 +25,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:storage_pool_management.models.EndpointDependency>]
+  keywordOnlyArguments:
+  - name: category
+  - name: endpoints

@@ -36,3 +36,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: v_net_id
+  - name: subnet
+  - name: public_i_ps

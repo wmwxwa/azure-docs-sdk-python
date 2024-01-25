@@ -15,7 +15,7 @@ summary: 'List of compliance results response.
 constructor:
   syntax: 'ComplianceResultList(*, value: List[_models.ComplianceResult], **kwargs:
     Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: List of compliance results. Required.
     types:

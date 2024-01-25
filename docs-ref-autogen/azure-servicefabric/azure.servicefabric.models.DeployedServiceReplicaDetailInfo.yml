@@ -70,6 +70,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: service_name
+  - name: partition_id
+  - name: current_service_operation
+  - name: current_service_operation_start_time_utc
+  - name: reported_load
 methods:
 - uid: azure.servicefabric.models.DeployedServiceReplicaDetailInfo.as_dict
   name: as_dict

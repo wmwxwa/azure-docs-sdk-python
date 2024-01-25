@@ -54,3 +54,7 @@ constructor:
     isRequired: true
     types:
     - <xref:video_analyzer.models.EndpointBase>
+  keywordOnlyArguments:
+  - name: name
+  - name: endpoint
+  - name: transport

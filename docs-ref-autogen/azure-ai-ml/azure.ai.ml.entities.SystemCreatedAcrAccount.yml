@@ -22,3 +22,6 @@ constructor:
     isRequired: true
     types:
     - <xref:<xref:str. Default value is None.>>
+  keywordOnlyArguments:
+  - name: acr_account_sku
+  - name: arm_resource_id

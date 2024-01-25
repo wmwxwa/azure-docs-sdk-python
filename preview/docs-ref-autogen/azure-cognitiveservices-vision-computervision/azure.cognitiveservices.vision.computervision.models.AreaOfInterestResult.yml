@@ -28,6 +28,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: request_id
+  - name: metadata
+  - name: model_version
 variables:
 - description: 'A bounding box for an area of interest inside an
 

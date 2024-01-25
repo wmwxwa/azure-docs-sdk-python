@@ -41,3 +41,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: message
+  - name: actionable_message
+  - name: file_path
+  - name: line_number
+  - name: h_result
+  - name: stack_trace

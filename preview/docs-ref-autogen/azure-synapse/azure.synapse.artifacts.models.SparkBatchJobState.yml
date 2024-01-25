@@ -57,6 +57,16 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.SparkRequest>
+  keywordOnlyArguments:
+  - name: not_started_at
+  - name: starting_at
+  - name: running_at
+  - name: dead_at
+  - name: success_at
+  - name: terminated_at
+  - name: recovering_at
+  - name: current_state
+  - name: job_creation_request
 methods:
 - uid: azure.synapse.artifacts.models.SparkBatchJobState.as_dict
   name: as_dict

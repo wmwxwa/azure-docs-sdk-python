@@ -60,3 +60,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:service_fabric_managed_clusters_management_client.models.ScalingPolicy>]
+  keywordOnlyArguments:
+  - name: placement_constraints
+  - name: correlation_scheme
+  - name: service_load_metrics
+  - name: service_placement_policies
+  - name: default_move_cost
+  - name: scaling_policies

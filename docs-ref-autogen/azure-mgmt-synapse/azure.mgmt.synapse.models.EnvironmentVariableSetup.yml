@@ -27,3 +27,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: variable_name
+  - name: variable_value

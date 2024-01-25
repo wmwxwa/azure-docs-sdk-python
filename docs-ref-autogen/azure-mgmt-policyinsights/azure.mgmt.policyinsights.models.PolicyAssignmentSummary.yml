@@ -39,3 +39,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.policyinsights.models.PolicyGroupSummary>]
+  keywordOnlyArguments:
+  - name: policy_assignment_id
+  - name: policy_set_definition_id
+  - name: results
+  - name: policy_definitions
+  - name: policy_groups

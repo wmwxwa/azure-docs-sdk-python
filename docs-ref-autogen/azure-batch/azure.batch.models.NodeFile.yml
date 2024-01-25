@@ -28,6 +28,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.FileProperties>
+  keywordOnlyArguments:
+  - name: name
+  - name: url
+  - name: is_directory
+  - name: properties
 methods:
 - uid: azure.batch.models.NodeFile.as_dict
   name: as_dict

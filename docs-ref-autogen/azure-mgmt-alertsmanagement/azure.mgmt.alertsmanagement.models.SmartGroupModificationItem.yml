@@ -50,3 +50,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: modification_event
+  - name: old_value
+  - name: new_value
+  - name: modified_at
+  - name: modified_by
+  - name: comments
+  - name: description

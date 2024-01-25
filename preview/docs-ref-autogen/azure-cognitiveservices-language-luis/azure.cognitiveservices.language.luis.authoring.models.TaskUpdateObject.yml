@@ -14,6 +14,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: version
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.TaskUpdateObject.as_dict
   name: as_dict

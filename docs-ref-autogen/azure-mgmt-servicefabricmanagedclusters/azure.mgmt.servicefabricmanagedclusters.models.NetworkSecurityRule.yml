@@ -88,3 +88,14 @@ constructor:
     types:
     - <xref:str>
     - <xref:service_fabric_managed_clusters_management_client.models.Direction>
+  keywordOnlyArguments:
+  - name: name
+  - name: protocol
+  - name: access
+  - name: priority
+  - name: direction
+  - name: description
+  - name: source_address_prefixes
+  - name: destination_address_prefixes
+  - name: source_port_ranges
+  - name: destination_port_ranges

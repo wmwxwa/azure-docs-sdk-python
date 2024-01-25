@@ -25,3 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: min_node_count
+  - name: enabled
+  - name: max_node_count

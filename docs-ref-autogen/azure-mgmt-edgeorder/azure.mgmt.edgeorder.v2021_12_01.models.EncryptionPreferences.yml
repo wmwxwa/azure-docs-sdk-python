@@ -21,3 +21,5 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.edgeorder.v2021_12_01.models.DoubleEncryptionStatus>
+  keywordOnlyArguments:
+  - name: double_encryption_status

@@ -38,6 +38,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.ai.ml.entities.OnlineEndpoint>
+  keywordOnlyArguments:
   - name: local
     description: Whether to interact with the endpoint in local Docker environment.
       Defaults to False.
@@ -77,6 +78,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
   - name: local
     description: Whether to interact with the endpoint in local Docker environment.
       Defaults to False.
@@ -101,6 +103,7 @@ methods:
     isRequired: true
     types:
     - <xref:<xref:The endpoint type. Defaults to ONLINE_ENDPOINT_TYPE.>>
+  keywordOnlyArguments:
   - name: key_type
     description: One of "primary", "secondary". Defaults to "primary".
     types:
@@ -119,6 +122,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
   - name: local
     description: Indicates whether to interact with endpoints in local Docker environment.
       Defaults to False.
@@ -158,6 +162,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
   - name: request_file
     description: File containing the request payload. This is only valid for online
       endpoint.
@@ -196,7 +201,7 @@ methods:
   name: list
   summary: List endpoints of the workspace.
   signature: 'list(*, local: bool = False) -> ItemPaged[OnlineEndpoint]'
-  parameters:
+  keywordOnlyArguments:
   - name: local
     description: '(Optional) Flag to indicate whether to interact with endpoints in
       local Docker environment.

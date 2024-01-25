@@ -28,6 +28,9 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: noise_level
+  - name: value
 methods:
 - uid: azure.cognitiveservices.vision.face.models.Noise.as_dict
   name: as_dict

@@ -50,6 +50,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.synapse.models.IntegrationRuntimeSsisProperties>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: description
+  - name: compute_properties
+  - name: ssis_properties
 variables:
 - description: 'Integration runtime state, only valid for managed dedicated integration
     runtime.

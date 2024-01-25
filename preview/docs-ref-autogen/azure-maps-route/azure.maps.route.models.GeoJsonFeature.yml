@@ -48,6 +48,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.maps.route.models.GeoJsonObjectType>
+  keywordOnlyArguments:
   - name: feature_type
     description: 'The type of the feature. The value depends on the data model the
       current
@@ -55,6 +56,8 @@ constructor:
       feature is part of. Some data models may have an empty value.'
     types:
     - <xref:str>
+  - name: geometry
+  - name: properties
 methods:
 - uid: azure.maps.route.models.GeoJsonFeature.as_dict
   name: as_dict

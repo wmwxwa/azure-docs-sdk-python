@@ -36,6 +36,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: deployment_properties
+  - name: arm_template_display_name
 variables:
 - description: The identifier of the resource.
   name: id

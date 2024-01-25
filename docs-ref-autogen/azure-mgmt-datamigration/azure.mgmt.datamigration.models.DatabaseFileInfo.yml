@@ -50,3 +50,11 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: database_name
+  - name: id
+  - name: logical_name
+  - name: physical_full_name
+  - name: restore_full_name
+  - name: file_type
+  - name: size_mb

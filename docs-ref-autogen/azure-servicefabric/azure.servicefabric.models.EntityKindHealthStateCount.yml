@@ -29,6 +29,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.HealthStateCount>
+  keywordOnlyArguments:
+  - name: entity_kind
+  - name: health_state_count
 methods:
 - uid: azure.servicefabric.models.EntityKindHealthStateCount.as_dict
   name: as_dict

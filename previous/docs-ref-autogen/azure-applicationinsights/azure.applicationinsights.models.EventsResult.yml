@@ -18,6 +18,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.applicationinsights.models.EventsResultData>
+  keywordOnlyArguments:
+  - name: aimessages
+  - name: value
 methods:
 - uid: azure.applicationinsights.models.EventsResult.as_dict
   name: as_dict

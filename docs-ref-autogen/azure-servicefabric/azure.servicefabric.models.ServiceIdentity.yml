@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: identity_ref
 methods:
 - uid: azure.servicefabric.models.ServiceIdentity.as_dict
   name: as_dict

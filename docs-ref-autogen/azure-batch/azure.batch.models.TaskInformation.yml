@@ -45,6 +45,13 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.TaskExecutionInformation>
+  keywordOnlyArguments:
+  - name: task_state
+  - name: task_url
+  - name: job_id
+  - name: task_id
+  - name: subtask_id
+  - name: execution_info
 methods:
 - uid: azure.batch.models.TaskInformation.as_dict
   name: as_dict

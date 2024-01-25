@@ -37,3 +37,7 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: scheduling
+  - name: replicas

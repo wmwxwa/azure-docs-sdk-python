@@ -36,6 +36,12 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: device_count
+  - name: failed_count
+  - name: succeeded_count
+  - name: running_count
+  - name: pending_count
 methods:
 - uid: azure.iot.hub.protocol.models.device_job_statistics_py3.DeviceJobStatistics.as_dict
   name: as_dict

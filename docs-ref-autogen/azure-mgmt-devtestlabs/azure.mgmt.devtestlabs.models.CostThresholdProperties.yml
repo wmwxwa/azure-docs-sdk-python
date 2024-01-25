@@ -45,3 +45,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: threshold_id
+  - name: percentage_threshold
+  - name: display_on_chart
+  - name: send_notification_when_exceeded
+  - name: notification_sent

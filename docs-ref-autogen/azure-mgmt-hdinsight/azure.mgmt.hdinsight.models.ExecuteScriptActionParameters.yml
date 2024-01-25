@@ -23,3 +23,6 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: persist_on_success
+  - name: script_actions

@@ -29,3 +29,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.devtestlabs.models.StorageType>
+  keywordOnlyArguments:
+  - name: disk_size_gi_b
+  - name: disk_name
+  - name: disk_type

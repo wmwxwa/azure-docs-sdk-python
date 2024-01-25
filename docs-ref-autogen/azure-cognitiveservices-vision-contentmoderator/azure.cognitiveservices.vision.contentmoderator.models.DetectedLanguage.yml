@@ -25,6 +25,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: detected_language
+  - name: status
+  - name: tracking_id
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.DetectedLanguage.as_dict
   name: as_dict

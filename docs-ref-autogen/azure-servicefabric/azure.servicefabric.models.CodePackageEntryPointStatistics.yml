@@ -87,6 +87,18 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: last_exit_code
+  - name: last_activation_time
+  - name: last_exit_time
+  - name: last_successful_activation_time
+  - name: last_successful_exit_time
+  - name: activation_count
+  - name: activation_failure_count
+  - name: continuous_activation_failure_count
+  - name: exit_count
+  - name: exit_failure_count
+  - name: continuous_exit_failure_count
 methods:
 - uid: azure.servicefabric.models.CodePackageEntryPointStatistics.as_dict
   name: as_dict

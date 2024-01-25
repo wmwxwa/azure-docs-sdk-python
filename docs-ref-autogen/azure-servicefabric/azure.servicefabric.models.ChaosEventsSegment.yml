@@ -31,6 +31,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ChaosEventWrapper>]
+  keywordOnlyArguments:
+  - name: continuation_token
+  - name: history
 methods:
 - uid: azure.servicefabric.models.ChaosEventsSegment.as_dict
   name: as_dict

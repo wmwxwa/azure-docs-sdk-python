@@ -113,6 +113,20 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: linked_service_name
+  - name: additional_properties
+  - name: description
+  - name: structure
+  - name: schema
+  - name: parameters
+  - name: annotations
+  - name: folder
+  - name: relative_url
+  - name: request_method
+  - name: request_body
+  - name: additional_headers
+  - name: pagination_rules
 methods:
 - uid: azure.synapse.artifacts.models.RestResourceDataset.as_dict
   name: as_dict

@@ -61,3 +61,12 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: source_connection_info
+  - name: check_permissions_group
+  - name: collect_databases
+    defaultValue: 'True'
+  - name: collect_logins
+  - name: collect_agent_jobs
+  - name: collect_tde_certificate_info
+  - name: validate_ssis_catalog_only

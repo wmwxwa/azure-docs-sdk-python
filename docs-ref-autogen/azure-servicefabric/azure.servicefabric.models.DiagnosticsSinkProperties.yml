@@ -35,6 +35,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: description
 methods:
 - uid: azure.servicefabric.models.DiagnosticsSinkProperties.as_dict
   name: as_dict

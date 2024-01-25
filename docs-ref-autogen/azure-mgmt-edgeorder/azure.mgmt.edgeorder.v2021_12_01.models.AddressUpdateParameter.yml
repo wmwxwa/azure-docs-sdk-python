@@ -29,3 +29,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.edgeorder.v2021_12_01.models.ContactDetails>
+  keywordOnlyArguments:
+  - name: tags
+  - name: shipping_address
+  - name: contact_details

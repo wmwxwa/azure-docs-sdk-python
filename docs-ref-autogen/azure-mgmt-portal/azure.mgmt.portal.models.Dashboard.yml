@@ -36,6 +36,11 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:any>]
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: lenses
+  - name: metadata
 variables:
 - description: Resource Id.
   name: id

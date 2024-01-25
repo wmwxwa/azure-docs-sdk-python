@@ -203,6 +203,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.NodeTypeHealthPolicyMapItem>]
+  keywordOnlyArguments:
+  - name: consider_warning_as_error
+  - name: max_percent_unhealthy_nodes
+  - name: max_percent_unhealthy_applications
+  - name: application_type_health_policy_map
+  - name: node_type_health_policy_map
 methods:
 - uid: azure.servicefabric.models.ClusterHealthPolicy.as_dict
   name: as_dict

@@ -39,6 +39,11 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
+  keywordOnlyArguments:
+  - name: update_configuration
+  - name: frequency
+  - name: start_time
+  - name: next_run
 variables:
 - description: Name of the software update configuration.
   name: name

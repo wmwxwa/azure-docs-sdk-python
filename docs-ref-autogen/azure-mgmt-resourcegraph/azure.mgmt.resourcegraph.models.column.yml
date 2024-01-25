@@ -25,3 +25,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.resourcegraph.models.ColumnDataType>
+  keywordOnlyArguments:
+  - name: name
+  - name: type

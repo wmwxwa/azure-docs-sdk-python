@@ -93,6 +93,18 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: account_name
+  - name: batch_uri
+  - name: pool_name
+  - name: linked_service_name
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: access_key
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.AzureBatchLinkedService.as_dict
   name: as_dict

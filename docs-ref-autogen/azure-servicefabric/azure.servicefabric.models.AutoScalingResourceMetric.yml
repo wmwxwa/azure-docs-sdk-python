@@ -25,6 +25,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.servicefabric.models.AutoScalingResourceMetricName>
+  keywordOnlyArguments:
+  - name: name
 methods:
 - uid: azure.servicefabric.models.AutoScalingResourceMetric.as_dict
   name: as_dict

@@ -212,3 +212,36 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.policyinsights.models.ComponentEventDetails>]
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: odata_id
+  - name: odata_context
+  - name: timestamp
+  - name: resource_id
+  - name: policy_assignment_id
+  - name: policy_definition_id
+  - name: effective_parameters
+  - name: is_compliant
+  - name: subscription_id
+  - name: resource_type
+  - name: resource_location
+  - name: resource_group
+  - name: resource_tags
+  - name: policy_assignment_name
+  - name: policy_assignment_owner
+  - name: policy_assignment_parameters
+  - name: policy_assignment_scope
+  - name: policy_definition_name
+  - name: policy_definition_action
+  - name: policy_definition_category
+  - name: policy_set_definition_id
+  - name: policy_set_definition_name
+  - name: policy_set_definition_owner
+  - name: policy_set_definition_category
+  - name: policy_set_definition_parameters
+  - name: management_group_ids
+  - name: policy_definition_reference_id
+  - name: compliance_state
+  - name: tenant_id
+  - name: principal_oid
+  - name: components

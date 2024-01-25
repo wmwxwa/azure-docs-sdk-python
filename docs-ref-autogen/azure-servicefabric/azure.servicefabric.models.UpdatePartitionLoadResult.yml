@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: partition_id
+  - name: partition_error_code
 methods:
 - uid: azure.servicefabric.models.UpdatePartitionLoadResult.as_dict
   name: as_dict

@@ -38,3 +38,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: start_time
+  - name: schedule
+  - name: topic

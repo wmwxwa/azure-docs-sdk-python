@@ -60,6 +60,15 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.synapse.models.WorkspacePublicNetworkAccess>
+  keywordOnlyArguments:
+  - name: tags
+  - name: identity
+  - name: sql_administrator_login_password
+  - name: managed_virtual_network_settings
+  - name: workspace_repository_configuration
+  - name: purview_configuration
+  - name: encryption
+  - name: public_network_access
 variables:
 - description: Resource provisioning state.
   name: provisioning_state

@@ -34,6 +34,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:protocol.models.enum>
+  keywordOnlyArguments:
+  - name: symmetric_key
+  - name: x509_thumbprint
+  - name: type
 methods:
 - uid: azure.iot.hub.protocol.models.AuthenticationMechanism.as_dict
   name: as_dict

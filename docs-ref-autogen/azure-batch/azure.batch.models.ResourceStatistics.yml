@@ -103,6 +103,20 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: start_time
+  - name: last_update_time
+  - name: avg_cpu_percentage
+  - name: avg_memory_gi_b
+  - name: peak_memory_gi_b
+  - name: avg_disk_gi_b
+  - name: peak_disk_gi_b
+  - name: disk_read_iops
+  - name: disk_write_iops
+  - name: disk_read_gi_b
+  - name: disk_write_gi_b
+  - name: network_read_gi_b
+  - name: network_write_gi_b
 methods:
 - uid: azure.batch.models.ResourceStatistics.as_dict
   name: as_dict

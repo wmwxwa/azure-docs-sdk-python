@@ -37,3 +37,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.deploymentmanager.models.ServiceUnit>]
+  keywordOnlyArguments:
+  - name: target_location
+  - name: target_subscription_id
+  - name: name
+  - name: service_units

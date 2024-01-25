@@ -49,3 +49,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: average_document_size
+  - name: data_size
+  - name: document_count
+  - name: name
+  - name: qualified_name

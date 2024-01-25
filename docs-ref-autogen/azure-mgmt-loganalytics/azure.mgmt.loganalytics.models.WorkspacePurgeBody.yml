@@ -26,3 +26,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.loganalytics.models.WorkspacePurgeBodyFilters>]
+  keywordOnlyArguments:
+  - name: table
+  - name: filters

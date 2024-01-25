@@ -63,3 +63,9 @@ constructor:
     isRequired: true
     types:
     - <xref:video_analyzer.models.VideoPublishingOptions>
+  keywordOnlyArguments:
+  - name: name
+  - name: inputs
+  - name: video_name
+  - name: video_creation_properties
+  - name: video_publishing_options

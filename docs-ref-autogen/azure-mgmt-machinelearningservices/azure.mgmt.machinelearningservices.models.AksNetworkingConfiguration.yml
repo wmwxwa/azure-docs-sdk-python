@@ -41,3 +41,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: subnet_id
+  - name: service_cidr
+  - name: dns_service_ip
+  - name: docker_bridge_cidr

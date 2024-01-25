@@ -25,6 +25,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: account_id
+  - name: authenticated_id
 methods:
 - uid: azure.applicationinsights.models.EventsUserInfo.as_dict
   name: as_dict

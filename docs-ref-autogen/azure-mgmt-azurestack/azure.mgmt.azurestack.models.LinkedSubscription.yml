@@ -44,6 +44,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: etag
+  - name: linked_subscription_id
+  - name: registration_resource_id
 variables:
 - description: ID of the resource.
   name: id

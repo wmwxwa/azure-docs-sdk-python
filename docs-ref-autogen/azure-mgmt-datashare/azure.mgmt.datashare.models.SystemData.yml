@@ -48,3 +48,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.datashare.models.LastModifiedByType>
+  keywordOnlyArguments:
+  - name: created_at
+  - name: created_by
+  - name: created_by_type
+  - name: last_modified_at
+  - name: last_modified_by
+  - name: last_modified_by_type

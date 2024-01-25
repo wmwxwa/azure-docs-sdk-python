@@ -25,6 +25,10 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: canonical_form
+  - name: list
+  - name: id
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.SubClosedListResponse.as_dict
   name: as_dict

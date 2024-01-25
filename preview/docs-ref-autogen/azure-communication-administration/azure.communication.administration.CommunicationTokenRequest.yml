@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: scopes
 methods:
 - uid: azure.communication.administration.CommunicationTokenRequest.as_dict
   name: as_dict

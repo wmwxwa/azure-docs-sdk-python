@@ -33,6 +33,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: path
+  - name: container_name
+  - name: type
 variables:
 - description: The last update time of the library.
   name: uploaded_timestamp

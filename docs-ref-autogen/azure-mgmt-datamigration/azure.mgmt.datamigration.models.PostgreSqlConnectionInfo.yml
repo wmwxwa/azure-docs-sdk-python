@@ -55,3 +55,12 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: server_name
+  - name: port
+  - name: user_name
+  - name: password
+  - name: database_name
+  - name: encrypt_connection
+    defaultValue: 'True'
+  - name: trust_server_certificate

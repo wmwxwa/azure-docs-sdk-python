@@ -92,3 +92,16 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: average_document_size
+  - name: data_size
+  - name: document_count
+  - name: name
+  - name: qualified_name
+  - name: database_name
+  - name: is_capped
+  - name: is_system_collection
+  - name: is_view
+  - name: supports_sharding
+  - name: shard_key
+  - name: view_of

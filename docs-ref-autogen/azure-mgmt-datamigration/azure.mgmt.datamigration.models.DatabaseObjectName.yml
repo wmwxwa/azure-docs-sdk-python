@@ -20,6 +20,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.datamigration.models.ObjectType>
+  keywordOnlyArguments:
+  - name: object_type
 variables:
 - description: The unescaped name of the database containing the object.
   name: database_name

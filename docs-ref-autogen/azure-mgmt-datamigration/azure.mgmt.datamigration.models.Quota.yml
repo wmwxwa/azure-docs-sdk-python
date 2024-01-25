@@ -41,3 +41,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: current_value
+  - name: id
+  - name: limit
+  - name: name
+  - name: unit

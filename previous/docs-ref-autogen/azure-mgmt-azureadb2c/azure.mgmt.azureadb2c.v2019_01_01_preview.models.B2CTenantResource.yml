@@ -50,6 +50,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: sku
+  - name: location
+  - name: tags
+  - name: billing_config
+  - name: tenant_id
 variables:
 - description: 'The type of the B2C tenant resource. Default value:
 

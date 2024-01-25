@@ -115,6 +115,21 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: device_id
+  - name: generation_id
+  - name: etag
+  - name: connection_state
+  - name: status
+  - name: status_reason
+  - name: connection_state_updated_time
+  - name: status_updated_time
+  - name: last_activity_time
+  - name: cloud_to_device_message_count
+  - name: authentication
+  - name: capabilities
+  - name: device_scope
+  - name: parent_scopes
 methods:
 - uid: azure.iot.hub.protocol.models.device_py3.Device.as_dict
   name: as_dict

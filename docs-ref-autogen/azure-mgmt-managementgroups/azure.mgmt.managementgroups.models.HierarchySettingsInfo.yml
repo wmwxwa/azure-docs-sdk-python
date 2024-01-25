@@ -44,6 +44,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: tenant_id
+  - name: require_authorization_for_group_creation
+  - name: default_management_group
 variables:
 - description: 'The fully qualified ID for the settings object.  For example,
 

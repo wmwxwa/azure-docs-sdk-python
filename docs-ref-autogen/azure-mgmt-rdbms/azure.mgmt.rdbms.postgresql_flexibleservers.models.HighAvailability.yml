@@ -25,6 +25,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: mode
+  - name: standby_availability_zone
 variables:
 - description: 'A state of a HA server that is visible to user. Possible values include:
 

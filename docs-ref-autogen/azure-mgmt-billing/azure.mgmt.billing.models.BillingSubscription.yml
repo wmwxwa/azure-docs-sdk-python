@@ -31,6 +31,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: subscription_billing_status
+  - name: cost_center
+  - name: sku_id
 variables:
 - description: Resource Id.
   name: id

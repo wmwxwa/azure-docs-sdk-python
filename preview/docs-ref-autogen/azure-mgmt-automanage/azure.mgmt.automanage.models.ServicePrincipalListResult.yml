@@ -9,7 +9,7 @@ summary: The list of ServicePrincipals.
 constructor:
   syntax: 'ServicePrincipalListResult(*, value: List[_models.ServicePrincipal] | None
     = None, **kwargs)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: The list of servicePrincipals.
     types:

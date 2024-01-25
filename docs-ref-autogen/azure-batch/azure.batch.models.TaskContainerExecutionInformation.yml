@@ -32,6 +32,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: container_id
+  - name: state
+  - name: error
 methods:
 - uid: azure.batch.models.TaskContainerExecutionInformation.as_dict
   name: as_dict

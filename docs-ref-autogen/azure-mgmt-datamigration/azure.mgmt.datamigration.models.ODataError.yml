@@ -28,3 +28,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.datamigration.models.ODataError>]
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: details

@@ -28,3 +28,7 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: tier
+  - name: name
+  - name: capacity

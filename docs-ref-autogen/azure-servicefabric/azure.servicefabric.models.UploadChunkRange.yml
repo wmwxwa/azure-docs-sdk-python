@@ -24,6 +24,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: start_position
+  - name: end_position
 methods:
 - uid: azure.servicefabric.models.UploadChunkRange.as_dict
   name: as_dict

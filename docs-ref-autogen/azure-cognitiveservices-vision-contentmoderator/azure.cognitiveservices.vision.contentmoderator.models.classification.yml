@@ -45,6 +45,11 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: category1
+  - name: category2
+  - name: category3
+  - name: review_recommended
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.Classification.as_dict
   name: as_dict

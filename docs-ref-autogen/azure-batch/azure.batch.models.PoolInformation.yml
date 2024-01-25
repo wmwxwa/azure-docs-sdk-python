@@ -45,6 +45,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.AutoPoolSpecification>
+  keywordOnlyArguments:
+  - name: pool_id
+  - name: auto_pool_specification
 methods:
 - uid: azure.batch.models.PoolInformation.as_dict
   name: as_dict

@@ -47,6 +47,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: uid
+  - name: gid
+  - name: ssh_private_key
 methods:
 - uid: azure.batch.models.LinuxUserConfiguration.as_dict
   name: as_dict

@@ -19,6 +19,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bytes>
+  keywordOnlyArguments:
+  - name: storage_bundle_backup
 methods:
 - uid: azure.keyvault.v7_0.models.StorageRestoreParameters.as_dict
   name: as_dict

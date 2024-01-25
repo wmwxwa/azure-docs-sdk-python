@@ -37,6 +37,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.AnalyzeResults>
+  keywordOnlyArguments:
+  - name: status
+  - name: created_date_time
+  - name: last_updated_date_time
+  - name: analyze_result
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.ReadOperationResult.as_dict
   name: as_dict

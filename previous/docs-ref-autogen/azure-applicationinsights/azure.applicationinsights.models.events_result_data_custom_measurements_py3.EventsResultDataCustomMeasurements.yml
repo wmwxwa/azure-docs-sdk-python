@@ -13,6 +13,8 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: additional_properties
 methods:
 - uid: azure.applicationinsights.models.events_result_data_custom_measurements_py3.EventsResultDataCustomMeasurements.as_dict
   name: as_dict

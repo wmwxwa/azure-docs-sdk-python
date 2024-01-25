@@ -25,3 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datamigration.models.SchemaMigrationSetting>
+  keywordOnlyArguments:
+  - name: name
+  - name: target_database_name
+  - name: schema_setting

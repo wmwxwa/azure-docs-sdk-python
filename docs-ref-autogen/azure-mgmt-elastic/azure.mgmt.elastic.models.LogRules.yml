@@ -46,3 +46,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.elastic.models.FilteringTag>]
+  keywordOnlyArguments:
+  - name: send_aad_logs
+  - name: send_subscription_logs
+  - name: send_activity_logs
+  - name: filtering_tags

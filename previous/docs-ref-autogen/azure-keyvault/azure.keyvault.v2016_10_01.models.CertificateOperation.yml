@@ -64,6 +64,15 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: issuer_parameters
+  - name: csr
+  - name: cancellation_requested
+  - name: status
+  - name: status_details
+  - name: error
+  - name: target
+  - name: request_id
 variables:
 - description: The certificate id.
   name: id

@@ -29,3 +29,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: mount_point
+  - name: file_server_public_ip
+  - name: file_server_internal_ip

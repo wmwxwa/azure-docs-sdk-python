@@ -25,6 +25,9 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: name
+  - name: value
 methods:
 - uid: azure.synapse.artifacts.models.UserProperty.as_dict
   name: as_dict

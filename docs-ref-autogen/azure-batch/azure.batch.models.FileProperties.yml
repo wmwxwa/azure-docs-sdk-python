@@ -41,6 +41,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: last_modified
+  - name: content_length
+  - name: creation_time
+  - name: content_type
+  - name: file_mode
 methods:
 - uid: azure.batch.models.FileProperties.as_dict
   name: as_dict

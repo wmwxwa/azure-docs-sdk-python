@@ -33,3 +33,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: linked_subscription_id
+  - name: registration_resource_id

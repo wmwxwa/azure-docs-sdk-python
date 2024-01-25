@@ -50,6 +50,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: id
+  - name: definition
+  - name: parameter_sets
+  - name: output_types
+  - name: creation_time
+  - name: last_modified_time
+  - name: description
 variables:
 - description: Gets the name of the activity.
   name: name

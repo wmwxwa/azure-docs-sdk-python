@@ -88,6 +88,17 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: endpoint
+  - name: service_principal_id
+  - name: service_principal_key
+  - name: database
+  - name: tenant
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
 methods:
 - uid: azure.synapse.artifacts.models.AzureDataExplorerLinkedService.as_dict
   name: as_dict

@@ -22,6 +22,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.cognitiveservices.language.luis.authoring.models.enum>
+  keywordOnlyArguments:
+  - name: status_id
+  - name: status
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.EnqueueTrainingResponse.as_dict
   name: as_dict

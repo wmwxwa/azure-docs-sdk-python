@@ -28,3 +28,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.purview.models.Operation>]
+  keywordOnlyArguments:
+  - name: value
+  - name: count
+  - name: next_link

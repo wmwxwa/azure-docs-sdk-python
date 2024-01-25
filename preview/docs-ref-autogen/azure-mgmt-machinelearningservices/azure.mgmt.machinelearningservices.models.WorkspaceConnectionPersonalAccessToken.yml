@@ -9,7 +9,7 @@ summary: WorkspaceConnectionPersonalAccessToken.
 constructor:
   syntax: 'WorkspaceConnectionPersonalAccessToken(*, pat: str | None = None, **kwargs:
     Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: pat
     types:
     - <xref:str>

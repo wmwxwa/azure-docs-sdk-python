@@ -32,6 +32,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bytes>
+  keywordOnlyArguments:
+  - name: algorithm
+  - name: value
 methods:
 - uid: azure.keyvault.v7_0.models.key_sign_parameters_py3.KeySignParameters.as_dict
   name: as_dict

@@ -26,3 +26,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.powerbiembedded.models.ErrorDetail>]
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: target
+  - name: details

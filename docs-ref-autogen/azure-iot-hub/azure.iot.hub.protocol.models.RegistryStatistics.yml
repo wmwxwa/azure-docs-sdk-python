@@ -27,6 +27,10 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
+  keywordOnlyArguments:
+  - name: total_device_count
+  - name: enabled_device_count
+  - name: disabled_device_count
 methods:
 - uid: azure.iot.hub.protocol.models.RegistryStatistics.as_dict
   name: as_dict

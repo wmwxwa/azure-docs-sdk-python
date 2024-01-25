@@ -268,6 +268,32 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: sku
+  - name: tags
+  - name: create_mode
+  - name: collation
+  - name: max_size_bytes
+  - name: sample_name
+  - name: elastic_pool_id
+  - name: source_database_id
+  - name: restore_point_in_time
+  - name: source_database_deletion_date
+  - name: recovery_services_recovery_point_id
+  - name: long_term_retention_backup_resource_id
+  - name: recoverable_database_id
+  - name: restorable_dropped_database_id
+  - name: catalog_collation
+  - name: zone_redundant
+  - name: license_type
+  - name: read_scale
+  - name: high_availability_replica_count
+  - name: secondary_type
+  - name: auto_pause_delay
+  - name: requested_backup_storage_redundancy
+  - name: min_capacity
+  - name: maintenance_configuration_id
+  - name: is_ledger_on
 variables:
 - description: 'The status of the database. Possible values include: "Online", "Restoring",
 

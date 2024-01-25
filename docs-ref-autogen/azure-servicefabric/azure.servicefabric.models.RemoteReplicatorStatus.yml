@@ -85,6 +85,15 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.RemoteReplicatorAcknowledgementStatus>
+  keywordOnlyArguments:
+  - name: replica_id
+  - name: last_acknowledgement_processed_time_utc
+  - name: last_received_replication_sequence_number
+  - name: last_applied_replication_sequence_number
+  - name: is_in_build
+  - name: last_received_copy_sequence_number
+  - name: last_applied_copy_sequence_number
+  - name: remote_replicator_acknowledgement_status
 methods:
 - uid: azure.servicefabric.models.RemoteReplicatorStatus.as_dict
   name: as_dict

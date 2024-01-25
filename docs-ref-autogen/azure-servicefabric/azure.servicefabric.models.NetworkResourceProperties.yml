@@ -32,6 +32,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: description
 variables:
 - description: 'Status of the network. Possible values include: ''Unknown'',
 

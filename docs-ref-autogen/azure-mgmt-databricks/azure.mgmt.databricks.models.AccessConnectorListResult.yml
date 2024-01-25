@@ -9,7 +9,7 @@ summary: List of azure databricks accessConnector.
 constructor:
   syntax: 'AccessConnectorListResult(*, value: List[_models.AccessConnector] | None
     = None, next_link: str | None = None, **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: The array of azure databricks accessConnector.
     types:

@@ -48,6 +48,14 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.EntityPrediction>]
+  keywordOnlyArguments:
+  - name: id
+  - name: text
+  - name: tokenized_text
+  - name: intent_label
+  - name: entity_labels
+  - name: intent_predictions
+  - name: entity_predictions
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.LabeledUtterance.as_dict
   name: as_dict

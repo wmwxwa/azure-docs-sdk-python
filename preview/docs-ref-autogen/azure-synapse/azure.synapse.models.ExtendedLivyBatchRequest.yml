@@ -77,6 +77,22 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: tags
+  - name: artifact_id
+  - name: name
+  - name: file
+  - name: class_name
+  - name: args
+  - name: jars
+  - name: files
+  - name: archives
+  - name: conf
+  - name: driver_memory
+  - name: driver_cores
+  - name: executor_memory
+  - name: executor_cores
+  - name: num_executors
 methods:
 - uid: azure.synapse.models.ExtendedLivyBatchRequest.as_dict
   name: as_dict

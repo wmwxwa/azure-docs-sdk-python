@@ -8,3 +8,8 @@ inheritances:
 constructor:
   syntax: 'ManagedNetwork(*, isolation_mode: str = ''Disabled'', outbound_rules: List[OutboundRule]
     | None = None, network_id: str | None = None, **kwargs)'
+  keywordOnlyArguments:
+  - name: isolation_mode
+    defaultValue: Disabled
+  - name: outbound_rules
+  - name: network_id

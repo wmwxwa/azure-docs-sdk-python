@@ -15,6 +15,14 @@ constructor:
     = None, knowledge_store: SearchIndexerKnowledgeStore | None = None, e_tag: str
     | None = None, encryption_key: SearchResourceEncryptionKey | None = None, **kwargs:
     Any)'
+  keywordOnlyArguments:
+  - name: name
+  - name: skills
+  - name: description
+  - name: cognitive_services_account
+  - name: knowledge_store
+  - name: e_tag
+  - name: encryption_key
 variables:
 - description: Required. The name of the skillset.
   name: name

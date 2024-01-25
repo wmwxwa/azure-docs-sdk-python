@@ -26,3 +26,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.policyinsights.models.PendingField>]
+  keywordOnlyArguments:
+  - name: resource_details
+  - name: pending_fields

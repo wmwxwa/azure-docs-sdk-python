@@ -22,6 +22,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: name
+  - name: regex_pattern
+  - name: roles
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.RegexEntity.as_dict
   name: as_dict

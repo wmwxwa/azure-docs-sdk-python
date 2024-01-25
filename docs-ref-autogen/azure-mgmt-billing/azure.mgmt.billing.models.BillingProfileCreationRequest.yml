@@ -44,3 +44,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.billing.models.AzurePlan>]
+  keywordOnlyArguments:
+  - name: display_name
+  - name: po_number
+  - name: bill_to
+  - name: invoice_email_opt_in
+  - name: enabled_azure_plans

@@ -37,6 +37,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: uri
+  - name: roles
+  - name: parameters
 methods:
 - uid: azure.synapse.artifacts.models.ScriptAction.as_dict
   name: as_dict

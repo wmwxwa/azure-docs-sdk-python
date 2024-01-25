@@ -28,6 +28,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.NodePlacementPolicyType>
+  keywordOnlyArguments:
+  - name: policy
 methods:
 - uid: azure.batch.models.NodePlacementConfiguration.as_dict
   name: as_dict

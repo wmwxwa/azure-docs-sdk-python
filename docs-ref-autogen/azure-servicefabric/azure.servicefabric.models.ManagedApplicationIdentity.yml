@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: principal_id
 methods:
 - uid: azure.servicefabric.models.ManagedApplicationIdentity.as_dict
   name: as_dict

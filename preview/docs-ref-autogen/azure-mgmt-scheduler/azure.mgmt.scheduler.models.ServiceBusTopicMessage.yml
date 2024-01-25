@@ -51,3 +51,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: authentication
+  - name: brokered_message_properties
+  - name: custom_message_properties
+  - name: message
+  - name: namespace
+  - name: transport_type
+  - name: topic_path

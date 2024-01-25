@@ -34,6 +34,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.devtestlabs.models.UserSecretStore>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: identity
+  - name: secret_store
 variables:
 - description: The identifier of the resource.
   name: id

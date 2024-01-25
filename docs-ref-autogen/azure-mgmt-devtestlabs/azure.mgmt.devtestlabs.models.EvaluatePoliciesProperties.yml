@@ -31,3 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: fact_name
+  - name: fact_data
+  - name: value_offset
+  - name: user_object_id

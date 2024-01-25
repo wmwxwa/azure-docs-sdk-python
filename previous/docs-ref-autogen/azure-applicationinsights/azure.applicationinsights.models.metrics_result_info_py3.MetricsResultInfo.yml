@@ -37,6 +37,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.applicationinsights.models.MetricsSegmentInfo>]
+  keywordOnlyArguments:
+  - name: additional_properties
+  - name: start
+  - name: end
+  - name: interval
+  - name: segments
 methods:
 - uid: azure.applicationinsights.models.metrics_result_info_py3.MetricsResultInfo.as_dict
   name: as_dict

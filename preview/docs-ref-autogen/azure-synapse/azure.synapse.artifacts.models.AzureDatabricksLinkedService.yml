@@ -188,6 +188,26 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: domain
+  - name: access_token
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: existing_cluster_id
+  - name: instance_pool_id
+  - name: new_cluster_version
+  - name: new_cluster_num_of_worker
+  - name: new_cluster_node_type
+  - name: new_cluster_spark_conf
+  - name: new_cluster_spark_env_vars
+  - name: new_cluster_custom_tags
+  - name: new_cluster_driver_node_type
+  - name: new_cluster_init_scripts
+  - name: new_cluster_enable_elastic_disk
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.AzureDatabricksLinkedService.as_dict
   name: as_dict

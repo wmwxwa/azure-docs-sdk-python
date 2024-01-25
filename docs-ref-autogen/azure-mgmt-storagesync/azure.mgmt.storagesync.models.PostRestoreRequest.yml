@@ -53,3 +53,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.storagesync.models.RestoreFileSpec>]
+  keywordOnlyArguments:
+  - name: partition
+  - name: replica_group
+  - name: request_id
+  - name: azure_file_share_uri
+  - name: status
+  - name: source_azure_file_share_uri
+  - name: failed_file_list
+  - name: restore_file_spec

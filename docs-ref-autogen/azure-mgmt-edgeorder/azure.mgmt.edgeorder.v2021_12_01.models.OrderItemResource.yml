@@ -42,6 +42,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: order_item_details
+  - name: address_details
+  - name: order_id
+  - name: tags
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

@@ -37,6 +37,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.PropertyValue>
+  keywordOnlyArguments:
+  - name: property_name
+  - name: value
 methods:
 - uid: azure.servicefabric.models.CheckValuePropertyBatchOperation.as_dict
   name: as_dict

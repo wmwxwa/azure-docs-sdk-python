@@ -25,6 +25,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: virtual_network_subnet_id
+  - name: ignore_missing_vnet_service_endpoint
 variables:
 - description: Resource ID.
   name: id

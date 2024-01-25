@@ -82,6 +82,13 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime>
+  keywordOnlyArguments:
+  - name: replication_queue_status
+  - name: last_replication_operation_received_time_utc
+  - name: is_in_build
+  - name: copy_queue_status
+  - name: last_copy_operation_received_time_utc
+  - name: last_acknowledgement_sent_time_utc
 methods:
 - uid: azure.servicefabric.models.SecondaryReplicatorStatus.as_dict
   name: as_dict

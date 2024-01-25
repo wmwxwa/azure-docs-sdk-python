@@ -35,6 +35,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.peering.models.LearnedType>
+  keywordOnlyArguments:
+  - name: prefix
+  - name: prefix_validation_state
+  - name: learned_type
 variables:
 - description: The name of the resource.
   name: name

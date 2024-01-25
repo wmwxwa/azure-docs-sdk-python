@@ -21,6 +21,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.SuggestedTagAndRegionQueryToken>
+  keywordOnlyArguments:
+  - name: token
 variables:
 - description: 'Result of a suggested tags and regions request of the
 

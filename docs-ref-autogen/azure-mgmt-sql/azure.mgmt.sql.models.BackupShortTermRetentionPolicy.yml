@@ -31,6 +31,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.sql.models.DiffBackupIntervalInHours>
+  keywordOnlyArguments:
+  - name: retention_days
+  - name: diff_backup_interval_in_hours
 variables:
 - description: Resource ID.
   name: id

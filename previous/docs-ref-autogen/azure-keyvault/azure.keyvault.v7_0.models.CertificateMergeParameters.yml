@@ -32,6 +32,10 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: x509_certificates
+  - name: certificate_attributes
+  - name: tags
 methods:
 - uid: azure.keyvault.v7_0.models.CertificateMergeParameters.as_dict
   name: as_dict

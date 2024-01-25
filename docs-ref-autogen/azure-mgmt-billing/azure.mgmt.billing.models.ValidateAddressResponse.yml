@@ -28,3 +28,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: status
+  - name: suggested_addresses
+  - name: validation_message

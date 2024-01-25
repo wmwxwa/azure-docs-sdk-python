@@ -15,7 +15,7 @@ summary: 'Collection of certificate orders.
 constructor:
   syntax: 'AppServiceCertificateOrderCollection(*, value: List[_models.AppServiceCertificateOrder],
     **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: Collection of resources. Required.
     types:

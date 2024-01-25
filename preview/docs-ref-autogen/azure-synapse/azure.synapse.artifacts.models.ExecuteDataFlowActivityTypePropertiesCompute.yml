@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: compute_type
+  - name: core_count
 methods:
 - uid: azure.synapse.artifacts.models.ExecuteDataFlowActivityTypePropertiesCompute.as_dict
   name: as_dict

@@ -21,6 +21,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: user_data
 methods:
 - uid: azure.cognitiveservices.vision.face.models.NameAndUserDataContract.as_dict
   name: as_dict

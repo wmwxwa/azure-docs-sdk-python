@@ -58,3 +58,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: name
+  - name: weight
+  - name: primary_default_load
+  - name: secondary_default_load
+  - name: default_load

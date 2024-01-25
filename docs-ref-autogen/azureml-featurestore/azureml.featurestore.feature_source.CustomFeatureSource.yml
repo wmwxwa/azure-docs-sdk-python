@@ -26,6 +26,11 @@ constructor:
   syntax: 'CustomFeatureSource(*, timestamp_column: TimestampColumn, kwargs: Dict,
     source_process_code: SourceProcessCode = None, source_delay: DateTimeOffset =
     None)'
+  keywordOnlyArguments:
+  - name: timestamp_column
+  - name: kwargs
+  - name: source_process_code
+  - name: source_delay
 methods:
 - uid: azureml.featurestore.feature_source.CustomFeatureSource.load
   name: load

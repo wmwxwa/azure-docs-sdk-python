@@ -26,6 +26,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.language.textanalytics.models.InternalError>
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: target
+  - name: inner_error
 methods:
 - uid: azure.cognitiveservices.language.textanalytics.models.error_response_py3.ErrorResponse.as_dict
   name: as_dict

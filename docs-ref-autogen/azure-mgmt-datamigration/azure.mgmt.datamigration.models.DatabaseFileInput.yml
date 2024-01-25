@@ -39,3 +39,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.datamigration.models.DatabaseFileType>
+  keywordOnlyArguments:
+  - name: id
+  - name: logical_name
+  - name: physical_full_name
+  - name: restore_full_name
+  - name: file_type

@@ -38,3 +38,11 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: outputdirectoryid
+  - name: directory
+    defaultValue: .
+  - name: linkexpiryinminutes
+    defaultValue: '60'
+  - name: max_results
+    defaultValue: '1000'

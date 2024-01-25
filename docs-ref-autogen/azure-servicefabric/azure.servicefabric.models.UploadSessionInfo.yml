@@ -45,6 +45,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.UploadChunkRange>]
+  keywordOnlyArguments:
+  - name: store_relative_path
+  - name: session_id
+  - name: modified_date
+  - name: file_size
+  - name: expected_ranges
 methods:
 - uid: azure.servicefabric.models.UploadSessionInfo.as_dict
   name: as_dict

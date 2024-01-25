@@ -33,6 +33,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.managementgroups.models.CreateManagementGroupDetails>
+  keywordOnlyArguments:
+  - name: name
+  - name: display_name
+  - name: details
 variables:
 - description: 'The fully qualified ID for the management group.  For example,
 

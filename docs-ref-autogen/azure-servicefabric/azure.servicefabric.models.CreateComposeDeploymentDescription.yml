@@ -32,6 +32,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.RegistryCredential>
+  keywordOnlyArguments:
+  - name: deployment_name
+  - name: compose_file_content
+  - name: registry_credential
 methods:
 - uid: azure.servicefabric.models.CreateComposeDeploymentDescription.as_dict
   name: as_dict

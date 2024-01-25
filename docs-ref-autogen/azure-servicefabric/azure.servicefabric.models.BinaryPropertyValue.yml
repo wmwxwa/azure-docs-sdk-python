@@ -24,6 +24,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:int>]
+  keywordOnlyArguments:
+  - name: data
 methods:
 - uid: azure.servicefabric.models.BinaryPropertyValue.as_dict
   name: as_dict

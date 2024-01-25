@@ -66,6 +66,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ApplicationHealthState>]
+  keywordOnlyArguments:
+  - name: aggregated_health_state
+  - name: health_events
+  - name: unhealthy_evaluations
+  - name: health_statistics
+  - name: node_health_states
+  - name: application_health_states
 methods:
 - uid: azure.servicefabric.models.ClusterHealth.as_dict
   name: as_dict

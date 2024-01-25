@@ -30,6 +30,11 @@ constructor:
     isRequired: true
     types:
     - <xref:bytes>
+  keywordOnlyArguments:
+  - name: id
+  - name: attributes
+  - name: tags
+  - name: x509_thumbprint
 methods:
 - uid: azure.keyvault.v7_0.models.certificate_item_py3.CertificateItem.as_dict
   name: as_dict

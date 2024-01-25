@@ -19,3 +19,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:microsoft_logz.models.MonitoringStatus>
+  keywordOnlyArguments:
+  - name: monitoring_status
+    defaultValue: Enabled

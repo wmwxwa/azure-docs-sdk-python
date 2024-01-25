@@ -22,3 +22,6 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: resource_id
+  - name: total_resources

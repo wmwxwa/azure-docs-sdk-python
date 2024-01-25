@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: storage_account_ids
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

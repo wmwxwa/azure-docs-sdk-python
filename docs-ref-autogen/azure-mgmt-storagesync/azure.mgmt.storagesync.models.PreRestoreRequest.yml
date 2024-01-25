@@ -61,3 +61,13 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: partition
+  - name: replica_group
+  - name: request_id
+  - name: azure_file_share_uri
+  - name: status
+  - name: source_azure_file_share_uri
+  - name: backup_metadata_property_bag
+  - name: restore_file_spec
+  - name: pause_wait_for_sync_drain_time_period_in_seconds

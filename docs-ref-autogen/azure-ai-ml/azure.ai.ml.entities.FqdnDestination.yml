@@ -21,6 +21,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: destination
 variables:
 - description: Type of the outbound rule. Set to "FQDN" for this class.
   name: type

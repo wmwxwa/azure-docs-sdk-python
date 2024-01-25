@@ -33,6 +33,12 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.synapse.spark.models.SchedulerCurrentState>
+  keywordOnlyArguments:
+  - name: submitted_at
+  - name: scheduled_at
+  - name: ended_at
+  - name: cancellation_requested_at
+  - name: current_state
 methods:
 - uid: azure.synapse.spark.models.SparkScheduler.as_dict
   name: as_dict

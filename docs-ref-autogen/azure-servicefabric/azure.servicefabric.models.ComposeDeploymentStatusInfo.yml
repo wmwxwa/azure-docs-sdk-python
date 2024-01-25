@@ -39,6 +39,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: application_name
+  - name: status
+  - name: status_details
 methods:
 - uid: azure.servicefabric.models.ComposeDeploymentStatusInfo.as_dict
   name: as_dict

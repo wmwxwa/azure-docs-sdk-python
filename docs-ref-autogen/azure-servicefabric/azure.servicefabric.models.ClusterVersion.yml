@@ -14,6 +14,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: version
 methods:
 - uid: azure.servicefabric.models.ClusterVersion.as_dict
   name: as_dict

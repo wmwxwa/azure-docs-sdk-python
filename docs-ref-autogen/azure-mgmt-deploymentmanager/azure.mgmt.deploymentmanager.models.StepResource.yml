@@ -31,6 +31,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.deploymentmanager.models.StepProperties>
+  keywordOnlyArguments:
+  - name: location
+  - name: properties
+  - name: tags
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

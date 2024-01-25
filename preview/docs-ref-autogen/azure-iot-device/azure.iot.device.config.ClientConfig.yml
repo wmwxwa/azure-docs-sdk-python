@@ -57,3 +57,13 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: ssl_context
+  - name: hostname
+  - name: sastoken_provider
+  - name: proxy_options
+  - name: keep_alive
+    defaultValue: '60'
+  - name: auto_reconnect
+    defaultValue: 'True'
+  - name: websockets

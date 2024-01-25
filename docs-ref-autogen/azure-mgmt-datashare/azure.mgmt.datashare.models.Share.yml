@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: description
+  - name: share_kind
+  - name: terms
 variables:
 - description: The resource id of the azure resource.
   name: id

@@ -9,7 +9,7 @@ summary: UploadCertificateRequest.
 constructor:
   syntax: 'UploadCertificateRequest(*, properties: RawCertificateData | None = None,
     **kwargs)'
-  parameters:
+  keywordOnlyArguments:
   - name: properties
     types:
     - <xref:azure.mgmt.azurestackhci.models.RawCertificateData>

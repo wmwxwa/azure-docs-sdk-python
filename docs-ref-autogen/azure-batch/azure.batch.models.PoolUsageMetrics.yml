@@ -44,6 +44,12 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: pool_id
+  - name: start_time
+  - name: end_time
+  - name: vm_size
+  - name: total_core_hours
 methods:
 - uid: azure.batch.models.PoolUsageMetrics.as_dict
   name: as_dict

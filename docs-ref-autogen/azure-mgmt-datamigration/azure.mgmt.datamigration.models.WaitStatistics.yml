@@ -25,3 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
+  keywordOnlyArguments:
+  - name: wait_type
+  - name: wait_time_ms
+  - name: wait_count

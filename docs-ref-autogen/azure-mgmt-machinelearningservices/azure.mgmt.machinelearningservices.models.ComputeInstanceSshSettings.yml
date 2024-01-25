@@ -35,6 +35,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: ssh_public_access
+    defaultValue: Disabled
+  - name: admin_public_key
 variables:
 - description: Describes the admin user name.
   name: admin_user_name

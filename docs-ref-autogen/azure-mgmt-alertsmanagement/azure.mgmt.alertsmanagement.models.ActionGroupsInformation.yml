@@ -30,3 +30,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: group_ids
+  - name: custom_email_subject
+  - name: custom_webhook_payload

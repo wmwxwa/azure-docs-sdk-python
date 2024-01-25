@@ -720,3 +720,18 @@ constructor:
     isRequired: true
     types:
     - <xref:typing.Optional>[<xref:typing.Union>[<xref:str>, <xref:typing.List>[<xref:str>]]]
+  keywordOnlyArguments:
+  - name: country_or_region_for_holidays
+  - name: cv_step_size
+  - name: forecast_horizon
+  - name: target_lags
+  - name: target_rolling_window_size
+  - name: frequency
+  - name: feature_lags
+  - name: seasonality
+  - name: use_stl
+  - name: short_series_handling_config
+  - name: target_aggregate_function
+  - name: time_column_name
+  - name: time_series_id_column_names
+  - name: features_unknown_at_forecast_time

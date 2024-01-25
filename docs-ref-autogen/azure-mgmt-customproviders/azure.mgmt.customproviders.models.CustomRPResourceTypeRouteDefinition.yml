@@ -42,3 +42,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.customproviders.models.ResourceTypeRouting>
+  keywordOnlyArguments:
+  - name: name
+  - name: endpoint
+  - name: routing_type

@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.computervision.models.ReadResult>]
+  keywordOnlyArguments:
+  - name: version
+  - name: model_version
+  - name: read_results
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.AnalyzeResults.as_dict
   name: as_dict

@@ -28,6 +28,10 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
+  keywordOnlyArguments:
+  - name: id
+  - name: token
+  - name: expires_on
 methods:
 - uid: azure.communication.administration.CommunicationIdentityToken.as_dict
   name: as_dict

@@ -9,7 +9,7 @@ summary: VirtualNetworkGatewayAutoScaleBounds.
 constructor:
   syntax: 'VirtualNetworkGatewayAutoScaleBounds(*, min: int | None = None, max: int
     | None = None, **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: min
     description: Minimum scale Units for Autoscale configuration.
     types:

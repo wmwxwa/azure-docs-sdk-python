@@ -25,6 +25,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: capacity_limit
+  - name: capacity_object_id
 variables:
 - description: 'The current deployment state of an auto scale v-core resource. The
 

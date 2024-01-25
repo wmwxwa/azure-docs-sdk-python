@@ -68,6 +68,15 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
+  keywordOnlyArguments:
+  - name: connection_string
+  - name: additional_properties
+  - name: connect_via
+  - name: description
+  - name: parameters
+  - name: annotations
+  - name: password
+  - name: encrypted_credential
 methods:
 - uid: azure.synapse.artifacts.models.PostgreSqlLinkedService.as_dict
   name: as_dict

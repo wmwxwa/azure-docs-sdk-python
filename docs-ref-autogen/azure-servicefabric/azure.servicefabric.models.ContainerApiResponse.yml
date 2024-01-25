@@ -17,6 +17,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.ContainerApiResult>
+  keywordOnlyArguments:
+  - name: container_api_result
 methods:
 - uid: azure.servicefabric.models.ContainerApiResponse.as_dict
   name: as_dict

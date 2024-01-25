@@ -39,3 +39,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: included_update_classifications
+  - name: excluded_kb_numbers
+  - name: included_kb_numbers
+  - name: reboot_setting

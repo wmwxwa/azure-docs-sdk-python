@@ -98,6 +98,18 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: application_id
+  - name: application_type_name
+  - name: current_application_type_version
+  - name: application_type_version
+  - name: upgrade_state
+  - name: upgrade_domains
+  - name: upgrade_domain_elapsed_time_in_ms
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.ApplicationUpgradeDomainCompletedEvent.as_dict
   name: as_dict

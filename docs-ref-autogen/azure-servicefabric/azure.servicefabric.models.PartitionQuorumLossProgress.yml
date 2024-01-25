@@ -27,6 +27,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.InvokeQuorumLossResult>
+  keywordOnlyArguments:
+  - name: state
+  - name: invoke_quorum_loss_result
 methods:
 - uid: azure.servicefabric.models.PartitionQuorumLossProgress.as_dict
   name: as_dict

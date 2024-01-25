@@ -31,3 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.automation.models.Sku>
+  keywordOnlyArguments:
+  - name: name
+  - name: location
+  - name: tags
+  - name: sku

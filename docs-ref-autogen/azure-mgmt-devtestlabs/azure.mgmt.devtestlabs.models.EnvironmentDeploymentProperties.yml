@@ -20,3 +20,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.devtestlabs.models.ArmTemplateParameterProperties>]
+  keywordOnlyArguments:
+  - name: arm_template_id
+  - name: parameters

@@ -36,6 +36,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: sku
+  - name: database_id
 variables:
 - description: Resource ID.
   name: id

@@ -27,6 +27,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.graphrbac.models.PreAuthorizedApplicationExtension>]
+  keywordOnlyArguments:
+  - name: app_id
+  - name: permissions
+  - name: extensions
 methods:
 - uid: azure.graphrbac.models.pre_authorized_application_py3.PreAuthorizedApplication.as_dict
   name: as_dict

@@ -305,6 +305,31 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: id
+  - name: vm_size
+  - name: display_name
+  - name: cloud_service_configuration
+  - name: virtual_machine_configuration
+  - name: resize_timeout
+  - name: target_dedicated_nodes
+  - name: target_low_priority_nodes
+  - name: enable_auto_scale
+  - name: auto_scale_formula
+  - name: auto_scale_evaluation_interval
+  - name: enable_inter_node_communication
+  - name: network_configuration
+  - name: start_task
+  - name: certificate_references
+  - name: application_package_references
+  - name: application_licenses
+  - name: task_slots_per_node
+  - name: task_scheduling_policy
+  - name: user_accounts
+  - name: metadata
+  - name: mount_configuration
+  - name: target_node_communication_mode
+  - name: resource_tags
 methods:
 - uid: azure.batch.models.PoolAddParameter.as_dict
   name: as_dict

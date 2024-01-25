@@ -47,6 +47,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: target
+  - name: credentials
+  - name: api_version
+  - name: api_type
+    defaultValue: Azure
 methods:
 - uid: azure.ai.resources.entities.AzureOpenAIConnection.set_current_environment
   name: set_current_environment

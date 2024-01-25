@@ -26,3 +26,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.datamigration.models.MongoDbShardKeyOrder>
+  keywordOnlyArguments:
+  - name: name
+  - name: order

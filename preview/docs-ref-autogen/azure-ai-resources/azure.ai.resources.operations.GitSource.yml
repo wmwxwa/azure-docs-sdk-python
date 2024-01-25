@@ -27,3 +27,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: git_url
+  - name: git_branch_name
+  - name: git_connection_id

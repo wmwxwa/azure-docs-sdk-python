@@ -26,6 +26,10 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
+  keywordOnlyArguments:
+  - name: images
+  - name: tag_ids
+  - name: metadata
 methods:
 - uid: azure.cognitiveservices.vision.customvision.training.models.ImageFileCreateBatch.as_dict
   name: as_dict

@@ -36,3 +36,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.policyinsights.models.SummaryResults>
+  keywordOnlyArguments:
+  - name: policy_definition_id
+  - name: policy_definition_reference_id
+  - name: policy_definition_group_names
+  - name: effect
+  - name: results

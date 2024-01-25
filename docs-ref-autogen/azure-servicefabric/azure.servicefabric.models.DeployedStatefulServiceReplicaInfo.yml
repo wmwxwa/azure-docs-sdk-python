@@ -139,6 +139,19 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.ReconfigurationInformation>
+  keywordOnlyArguments:
+  - name: service_name
+  - name: service_type_name
+  - name: service_manifest_name
+  - name: code_package_name
+  - name: partition_id
+  - name: replica_status
+  - name: address
+  - name: service_package_activation_id
+  - name: host_process_id
+  - name: replica_id
+  - name: replica_role
+  - name: reconfiguration_information
 methods:
 - uid: azure.servicefabric.models.DeployedStatefulServiceReplicaInfo.as_dict
   name: as_dict

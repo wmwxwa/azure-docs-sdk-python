@@ -16,6 +16,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: cluster_configuration
 methods:
 - uid: azure.servicefabric.models.ClusterConfiguration.as_dict
   name: as_dict

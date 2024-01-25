@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: domain_name
+  - name: culture
 methods:
 - uid: azure.cognitiveservices.language.luis.authoring.models.PrebuiltDomainCreateObject.as_dict
   name: as_dict

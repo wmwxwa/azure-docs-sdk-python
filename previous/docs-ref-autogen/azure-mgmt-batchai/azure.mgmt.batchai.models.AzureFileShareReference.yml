@@ -54,3 +54,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: account_name
+  - name: azure_file_url
+  - name: credentials
+  - name: relative_mount_path
+  - name: file_mode
+    defaultValue: '0777'
+  - name: directory_mode
+    defaultValue: '0777'

@@ -30,6 +30,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: service_name
+  - name: partition_id
 methods:
 - uid: azure.servicefabric.models.PartitionBackupEntity.as_dict
   name: as_dict

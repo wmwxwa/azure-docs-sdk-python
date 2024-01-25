@@ -29,6 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: code
+  - name: message
+  - name: request_id
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.ComputerVisionOcrError.as_dict
   name: as_dict

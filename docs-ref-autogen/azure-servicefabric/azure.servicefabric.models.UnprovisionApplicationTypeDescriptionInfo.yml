@@ -37,6 +37,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: application_type_version
+  - name: async_property
 methods:
 - uid: azure.servicefabric.models.UnprovisionApplicationTypeDescriptionInfo.as_dict
   name: as_dict

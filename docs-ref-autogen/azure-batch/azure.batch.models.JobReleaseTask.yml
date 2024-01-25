@@ -141,6 +141,15 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.UserIdentity>
+  keywordOnlyArguments:
+  - name: command_line
+  - name: id
+  - name: container_settings
+  - name: resource_files
+  - name: environment_settings
+  - name: max_wall_clock_time
+  - name: retention_time
+  - name: user_identity
 methods:
 - uid: azure.batch.models.JobReleaseTask.as_dict
   name: as_dict

@@ -101,6 +101,12 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: subnet_id
+  - name: dynamic_vnet_assignment_scope
+  - name: endpoint_configuration
+  - name: public_ip_address_configuration
+  - name: enable_accelerated_networking
 methods:
 - uid: azure.batch.models.NetworkConfiguration.as_dict
   name: as_dict

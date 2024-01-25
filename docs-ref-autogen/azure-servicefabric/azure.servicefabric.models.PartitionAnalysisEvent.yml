@@ -65,6 +65,13 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.AnalysisEventMetadata>
+  keywordOnlyArguments:
+  - name: event_instance_id
+  - name: time_stamp
+  - name: partition_id
+  - name: metadata
+  - name: category
+  - name: has_correlated_events
 methods:
 - uid: azure.servicefabric.models.PartitionAnalysisEvent.as_dict
   name: as_dict

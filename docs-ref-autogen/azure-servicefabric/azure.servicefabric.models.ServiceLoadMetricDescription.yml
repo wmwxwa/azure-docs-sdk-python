@@ -69,6 +69,13 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: name
+  - name: weight
+  - name: primary_default_load
+  - name: secondary_default_load
+  - name: auxiliary_default_load
+  - name: default_load
 methods:
 - uid: azure.servicefabric.models.ServiceLoadMetricDescription.as_dict
   name: as_dict

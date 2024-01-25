@@ -26,3 +26,7 @@ constructor:
     isRequired: true
     types:
     - <xref:video_analyzer.models.GroupLevelAccessControl>
+  keywordOnlyArguments:
+  - name: integration
+  - name: ingestion
+  - name: consumption

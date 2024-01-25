@@ -61,6 +61,16 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.Status>
+  keywordOnlyArguments:
+  - name: cache_id
+  - name: result
+  - name: tracking_id
+  - name: adult_classification_score
+  - name: is_image_adult_classified
+  - name: racy_classification_score
+  - name: is_image_racy_classified
+  - name: advanced_info
+  - name: status
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.Evaluate.as_dict
   name: as_dict

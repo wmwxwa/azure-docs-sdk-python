@@ -20,6 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.synapse.artifacts.models.Activity>]
+  keywordOnlyArguments:
+  - name: value
+  - name: activities
 methods:
 - uid: azure.synapse.artifacts.models.SwitchCase.as_dict
   name: as_dict

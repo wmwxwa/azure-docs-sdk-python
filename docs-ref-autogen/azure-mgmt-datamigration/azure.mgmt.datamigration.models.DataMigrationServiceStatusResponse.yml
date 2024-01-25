@@ -37,3 +37,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: agent_version
+  - name: status
+  - name: vm_size
+  - name: supported_task_types

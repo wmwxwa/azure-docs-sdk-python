@@ -48,3 +48,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.alertsmanagement.models.Condition>
+  keywordOnlyArguments:
+  - name: severity
+  - name: monitor_service
+  - name: monitor_condition
+  - name: target_resource_type
+  - name: alert_rule_id
+  - name: description
+  - name: alert_context

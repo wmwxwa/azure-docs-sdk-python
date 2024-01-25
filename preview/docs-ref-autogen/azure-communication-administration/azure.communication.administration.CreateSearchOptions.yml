@@ -44,6 +44,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.communication.administration.models.LocationOptionsDetails>]
+  keywordOnlyArguments:
+  - name: display_name
+  - name: description
+  - name: phone_plan_ids
+  - name: area_code
+  - name: quantity
+  - name: location_options
 methods:
 - uid: azure.communication.administration.CreateSearchOptions.as_dict
   name: as_dict

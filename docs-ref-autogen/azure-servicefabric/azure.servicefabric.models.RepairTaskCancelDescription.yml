@@ -42,6 +42,10 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: task_id
+  - name: version
+  - name: request_abort
 methods:
 - uid: azure.servicefabric.models.RepairTaskCancelDescription.as_dict
   name: as_dict

@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:object>]
+  keywordOnlyArguments:
+  - name: id
+  - name: features
 methods:
 - uid: azure.cognitiveservices.personalizer.models.RankableAction.as_dict
   name: as_dict

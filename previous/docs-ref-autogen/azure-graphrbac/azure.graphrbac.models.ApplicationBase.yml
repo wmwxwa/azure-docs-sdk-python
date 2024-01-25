@@ -229,6 +229,36 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: allow_guests_sign_in
+  - name: allow_passthrough_users
+  - name: app_logo_url
+  - name: app_roles
+  - name: app_permissions
+  - name: available_to_other_tenants
+  - name: error_url
+  - name: group_membership_claims
+  - name: homepage
+  - name: informational_urls
+  - name: is_device_only_auth_supported
+  - name: key_credentials
+  - name: known_client_applications
+  - name: logout_url
+  - name: oauth2_allow_implicit_flow
+  - name: oauth2_allow_url_path_matching
+  - name: oauth2_permissions
+  - name: oauth2_require_post_response
+  - name: org_restrictions
+  - name: optional_claims
+  - name: password_credentials
+  - name: pre_authorized_applications
+  - name: public_client
+  - name: publisher_domain
+  - name: reply_urls
+  - name: required_resource_access
+  - name: saml_metadata_url
+  - name: sign_in_audience
+  - name: www_homepage
 methods:
 - uid: azure.graphrbac.models.ApplicationBase.as_dict
   name: as_dict

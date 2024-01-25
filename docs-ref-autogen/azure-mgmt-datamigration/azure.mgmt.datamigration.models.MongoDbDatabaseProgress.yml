@@ -129,3 +129,18 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:azure.mgmt.datamigration.models.MongoDbCollectionProgress>]
+  keywordOnlyArguments:
+  - name: bytes_copied
+  - name: documents_copied
+  - name: elapsed_time
+  - name: errors
+  - name: events_pending
+  - name: events_replayed
+  - name: state
+  - name: total_bytes
+  - name: total_documents
+  - name: last_event_time
+  - name: last_replay_time
+  - name: name
+  - name: qualified_name
+  - name: collections

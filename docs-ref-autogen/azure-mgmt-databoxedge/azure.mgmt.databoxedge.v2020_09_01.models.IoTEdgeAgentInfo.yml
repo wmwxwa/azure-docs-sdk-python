@@ -29,3 +29,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.databoxedge.v2020_09_01.models.ImageRepositoryCredential>
+  keywordOnlyArguments:
+  - name: image_name
+  - name: tag
+  - name: image_repository

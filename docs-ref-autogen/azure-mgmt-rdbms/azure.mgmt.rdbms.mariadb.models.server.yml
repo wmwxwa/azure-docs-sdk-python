@@ -116,6 +116,22 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.rdbms.mariadb.models.PublicNetworkAccessEnum>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: sku
+  - name: administrator_login
+  - name: version
+  - name: ssl_enforcement
+  - name: minimal_tls_version
+  - name: user_visible_state
+  - name: fully_qualified_domain_name
+  - name: earliest_restore_date
+  - name: storage_profile
+  - name: replication_role
+  - name: master_server_id
+  - name: replica_capacity
+  - name: public_network_access
 variables:
 - description: 'Fully qualified resource ID for the resource. Ex -
 

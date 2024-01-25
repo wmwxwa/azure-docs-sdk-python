@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:object>]
+  keywordOnlyArguments:
+  - name: reference_name
+  - name: parameters
 variables:
 - description: 'Required. Type of integration runtime. Default value:
 

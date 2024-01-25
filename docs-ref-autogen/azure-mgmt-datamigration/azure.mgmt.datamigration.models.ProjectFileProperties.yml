@@ -37,6 +37,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: extension
+  - name: file_path
+  - name: media_type
 variables:
 - description: Modification DateTime.
   name: last_modified

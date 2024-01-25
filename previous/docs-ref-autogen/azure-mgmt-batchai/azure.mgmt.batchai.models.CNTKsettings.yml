@@ -58,3 +58,10 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
+  keywordOnlyArguments:
+  - name: language_type
+  - name: config_file_path
+  - name: python_script_file_path
+  - name: python_interpreter_path
+  - name: command_line_args
+  - name: process_count

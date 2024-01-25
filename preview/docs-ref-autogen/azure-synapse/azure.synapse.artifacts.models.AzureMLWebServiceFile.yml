@@ -29,6 +29,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.LinkedServiceReference>
+  keywordOnlyArguments:
+  - name: file_path
+  - name: linked_service_name
 methods:
 - uid: azure.synapse.artifacts.models.AzureMLWebServiceFile.as_dict
   name: as_dict

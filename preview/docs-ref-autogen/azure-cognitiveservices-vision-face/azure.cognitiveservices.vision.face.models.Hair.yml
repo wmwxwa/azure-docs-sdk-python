@@ -30,6 +30,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.face.models.HairColor>]
+  keywordOnlyArguments:
+  - name: bald
+  - name: invisible
+  - name: hair_color
 methods:
 - uid: azure.cognitiveservices.vision.face.models.Hair.as_dict
   name: as_dict

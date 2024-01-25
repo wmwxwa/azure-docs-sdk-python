@@ -22,6 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: store_relative_path
+  - name: folder_size
 methods:
 - uid: azure.servicefabric.models.FolderSizeInfo.as_dict
   name: as_dict

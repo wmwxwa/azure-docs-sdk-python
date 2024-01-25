@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: primary_key
+  - name: secondary_key
 methods:
 - uid: azure.iot.hub.protocol.models.SymmetricKey.as_dict
   name: as_dict

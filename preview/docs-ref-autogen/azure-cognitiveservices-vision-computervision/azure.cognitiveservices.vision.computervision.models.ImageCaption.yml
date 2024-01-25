@@ -19,6 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
+  keywordOnlyArguments:
+  - name: text
+  - name: confidence
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.ImageCaption.as_dict
   name: as_dict

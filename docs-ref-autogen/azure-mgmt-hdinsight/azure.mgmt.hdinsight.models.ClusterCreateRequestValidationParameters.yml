@@ -58,3 +58,13 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
+  keywordOnlyArguments:
+  - name: location
+  - name: tags
+  - name: zones
+  - name: properties
+  - name: identity
+  - name: name
+  - name: type
+  - name: tenant_id
+  - name: fetch_aadds_resource

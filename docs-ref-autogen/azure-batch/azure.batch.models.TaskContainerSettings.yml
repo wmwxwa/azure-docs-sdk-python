@@ -46,6 +46,11 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.ContainerWorkingDirectory>
+  keywordOnlyArguments:
+  - name: image_name
+  - name: container_run_options
+  - name: registry
+  - name: working_directory
 methods:
 - uid: azure.batch.models.TaskContainerSettings.as_dict
   name: as_dict

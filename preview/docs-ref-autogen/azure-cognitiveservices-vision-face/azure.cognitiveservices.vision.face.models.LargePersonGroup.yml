@@ -40,6 +40,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: large_person_group_id
+  - name: user_data
+  - name: recognition_model
+    defaultValue: recognition_01
 methods:
 - uid: azure.cognitiveservices.vision.face.models.LargePersonGroup.as_dict
   name: as_dict

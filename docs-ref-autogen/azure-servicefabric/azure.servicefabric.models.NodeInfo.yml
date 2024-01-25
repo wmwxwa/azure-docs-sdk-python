@@ -166,6 +166,28 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: name
+  - name: ip_address_or_fqdn
+  - name: type
+  - name: code_version
+  - name: config_version
+  - name: node_status
+  - name: node_up_time_in_seconds
+  - name: health_state
+  - name: is_seed_node
+  - name: upgrade_domain
+  - name: fault_domain
+  - name: id
+  - name: instance_id
+  - name: node_deactivation_info
+  - name: is_stopped
+  - name: node_down_time_in_seconds
+  - name: node_up_at
+  - name: node_down_at
+  - name: node_tags
+  - name: is_node_by_node_upgrade_in_progress
+  - name: infrastructure_placement_id
 methods:
 - uid: azure.servicefabric.models.NodeInfo.as_dict
   name: as_dict

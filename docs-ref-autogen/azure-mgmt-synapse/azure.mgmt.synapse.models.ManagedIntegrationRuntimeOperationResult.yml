@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:object>]
+  keywordOnlyArguments:
+  - name: additional_properties
 variables:
 - description: The operation type. Could be start or stop.
   name: type

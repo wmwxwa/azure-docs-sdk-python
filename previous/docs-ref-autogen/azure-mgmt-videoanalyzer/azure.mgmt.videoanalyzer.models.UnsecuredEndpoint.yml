@@ -39,3 +39,7 @@ constructor:
     isRequired: true
     types:
     - <xref:video_analyzer.models.TunnelBase>
+  keywordOnlyArguments:
+  - name: credentials
+  - name: url
+  - name: tunnel

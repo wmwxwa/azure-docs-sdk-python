@@ -26,6 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.ResourceLimits>
+  keywordOnlyArguments:
+  - name: requests
+  - name: limits
 methods:
 - uid: azure.servicefabric.models.ResourceRequirements.as_dict
   name: as_dict

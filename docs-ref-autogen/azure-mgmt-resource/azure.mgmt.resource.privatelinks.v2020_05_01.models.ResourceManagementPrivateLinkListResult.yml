@@ -9,7 +9,7 @@ summary: ResourceManagementPrivateLinkListResult.
 constructor:
   syntax: 'ResourceManagementPrivateLinkListResult(*, value: List[_models.ResourceManagementPrivateLink]
     | None = None, **kwargs: Any)'
-  parameters:
+  keywordOnlyArguments:
   - name: value
     description: An array of resource management private links.
     types:

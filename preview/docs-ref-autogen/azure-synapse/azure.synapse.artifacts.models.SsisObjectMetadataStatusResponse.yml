@@ -30,6 +30,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyArguments:
+  - name: status
+  - name: name
+  - name: properties
+  - name: error
 methods:
 - uid: azure.synapse.artifacts.models.SsisObjectMetadataStatusResponse.as_dict
   name: as_dict

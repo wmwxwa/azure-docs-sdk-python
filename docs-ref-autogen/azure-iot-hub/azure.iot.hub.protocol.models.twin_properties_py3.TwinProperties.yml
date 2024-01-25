@@ -37,6 +37,9 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:object>]
+  keywordOnlyArguments:
+  - name: desired
+  - name: reported
 methods:
 - uid: azure.iot.hub.protocol.models.twin_properties_py3.TwinProperties.as_dict
   name: as_dict

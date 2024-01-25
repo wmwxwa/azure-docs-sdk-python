@@ -62,6 +62,11 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
+  keywordOnlyArguments:
+  - name: priority
+  - name: access
+  - name: source_address_prefix
+  - name: source_port_ranges
 methods:
 - uid: azure.batch.models.NetworkSecurityGroupRule.as_dict
   name: as_dict

@@ -58,3 +58,9 @@ constructor:
     isRequired: true
     types:
     - <xref:video_analyzer.models.TlsValidationOptions>
+  keywordOnlyArguments:
+  - name: credentials
+  - name: url
+  - name: tunnel
+  - name: trusted_certificates
+  - name: validation_options
