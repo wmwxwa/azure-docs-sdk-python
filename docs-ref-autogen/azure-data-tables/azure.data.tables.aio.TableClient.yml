@@ -26,6 +26,12 @@ constructor:
     types:
     - <xref:str>
   keywordOnlyArguments:
+  - name: credential
+    description: 'The credentials with which to authenticate. This is optional if
+      the
+
+      account URL already has a SAS token. The value can be one of AzureNamedKeyCredential
+      (azure-core),'
   - name: api_version
     description: 'Specifies the version of the operation to use for this request.
       Default value
@@ -34,7 +40,6 @@ constructor:
       behavior.'
     types:
     - <xref:str>
-  - name: credential
 variables:
 - description: The name of the Tables account.
   name: account_name

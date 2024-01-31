@@ -26,6 +26,21 @@ constructor:
     | None = None, disable_local_auth: bool | None = False, partner_topic_routing_mode:
     str | PartnerTopicRoutingMode | None = ''SourceEventAttribute'', **kwargs)'
   keywordOnlyArguments:
+  - name: location
+    description: Required. Location of the resource.
+    types:
+    - <xref:str>
+  - name: tags
+    description: A set of tags. Tags of the resource.
+    types:
+    - <xref:dict>[<xref:str>, <xref:str>]
+  - name: partner_registration_fully_qualified_id
+    description: 'The fully qualified ARM Id of the partner
+
+      registration that should be associated with this partner namespace. This takes
+      the following
+
+      format:'
   - name: inbound_ip_rules
     description: 'This can be used to restrict traffic from specific IPs instead of
 
@@ -57,9 +72,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.eventgrid.models.PartnerTopicRoutingMode>
-  - name: location
-  - name: tags
-  - name: partner_registration_fully_qualified_id
   - name: public_network_access
 variables:
 - description: Fully qualified identifier of the resource.

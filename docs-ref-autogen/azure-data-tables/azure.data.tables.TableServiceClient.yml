@@ -49,6 +49,25 @@ constructor:
     - <xref:azure.core.credentials.TokenCredential>
     - <xref:None>
   - name: api_version
+    description: 'The Storage API version to use for requests. Default value is ''2019-02-02''.
+
+      Setting to an older version may result in reduced feature compatibility.'
+    types:
+    - <xref:str>
+  - name: credential
+    description: 'The credentials with which to authenticate. This is optional if
+      the
+
+      account URL already has a SAS token. The value can be one of AzureNamedKeyCredential
+      (azure-core),
+
+      AzureSasCredential (azure-core), or a TokenCredential implementation from azure-identity.'
+    types:
+    - <xref:azure.core.credentials.AzureNamedKeyCredential>
+    - <xref:azure.core.credentials.AzureSasCredential>
+    - <xref:azure.core.credentials.TokenCredential>
+    - <xref:None>
+  - name: api_version
     description: 'Specifies the version of the operation to use for this request.
       Default value
 

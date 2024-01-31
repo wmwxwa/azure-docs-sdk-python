@@ -22,6 +22,26 @@ constructor:
     types:
     - <xref:typing.Optional>[<xref:str>]
   - name: featurization
+    description: Featurization settings. Defaults to None.
+    types:
+    - <xref:typing.Optional>[<xref:azure.ai.ml.automl.TabularFeaturizationSettings>]
+  - name: limits
+    description: Limits settings. Defaults to None.
+    types:
+    - <xref:typing.Optional>[<xref:azure.ai.ml.automl.TabularLimitSettings>]
+  - name: training
+    description: Training settings. Defaults to None.
+    types:
+    - <xref:typing.Optional>[<xref:azure.ai.ml.automl.TrainingSettings>]
+  - name: primary_metric
+    description: The primary metric to use for optimization, defaults to None
+    types:
+    - <xref:typing.Optional>[<xref:str>]
+  - name: positive_label
+    description: Positive label for binary metrics calculation, defaults to None
+    types:
+    - <xref:typing.Optional>[<xref:str>]
+  - name: featurization
     description: featurization settings. Defaults to None.
     types:
     - <xref:typing.Optional>[<xref:azure.ai.ml.automl.TabularFeaturizationSettings>]

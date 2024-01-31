@@ -16,7 +16,13 @@ constructor:
     None, **kwargs: Any)'
   keywordOnlyArguments:
   - name: location
+    description: 'Geographical location of the source web app, e.g. SouthEastAsia,
+
+      SouthCentralUS.'
+    types:
+    - <xref:str>
   - name: id
+    description: ARM resource ID of the source app.
 variables:
 - description: 'Geographical location of the source web app, e.g. SouthEastAsia,
 

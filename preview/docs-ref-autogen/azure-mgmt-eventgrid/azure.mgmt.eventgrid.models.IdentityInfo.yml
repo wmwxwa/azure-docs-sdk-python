@@ -14,9 +14,31 @@ constructor:
     _models.UserIdentityProperties] | None = None, **kwargs: Any)'
   keywordOnlyArguments:
   - name: type
+    description: 'The type of managed identity used. The type ''SystemAssigned, UserAssigned''
+
+      includes both an implicitly created identity and a set of user-assigned identities.
+      The type
+
+      ''None'' will remove any identity. Known values are: "None", "SystemAssigned",
+      "UserAssigned",
+
+      and "SystemAssigned, UserAssigned".'
+    types:
+    - <xref:str>
+    - <xref:azure.mgmt.eventgrid.models.IdentityType>
   - name: principal_id
+    description: The principal ID of resource identity.
+    types:
+    - <xref:str>
   - name: tenant_id
+    description: The tenant ID of resource.
+    types:
+    - <xref:str>
   - name: user_assigned_identities
+    description: 'The list of user identities associated with the resource.
+
+      The user identity dictionary key references will be ARM resource ids in the
+      form:'
 variables:
 - description: 'The type of managed identity used. The type ''SystemAssigned, UserAssigned''
     includes

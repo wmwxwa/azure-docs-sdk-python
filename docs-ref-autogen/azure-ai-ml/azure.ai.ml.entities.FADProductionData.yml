@@ -20,3 +20,18 @@ constructor:
     isRequired: true
     types:
     - <xref:string>
+  keywordOnlyArguments:
+  - name: input_data
+    description: Input data used by the monitor.
+    types:
+    - <xref:azure.ai.ml.Input>
+  - name: data_context
+    description: 'The context of the input dataset. Accepted values are "model_inputs",
+
+      "model_outputs", "training", "test", "validation", and "ground_truth".'
+    types:
+    - <xref:azure.ai.ml.constants._monitoring>
+  - name: data_column_names
+    description: The names of the columns in the input data.
+    types:
+    - <xref:typing.Dict>[<xref:str>, <xref:str>]

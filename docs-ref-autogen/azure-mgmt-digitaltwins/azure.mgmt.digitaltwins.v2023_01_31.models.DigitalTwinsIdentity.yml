@@ -15,7 +15,18 @@ constructor:
     | None = None, **kwargs: Any)'
   keywordOnlyArguments:
   - name: type
+    description: 'The type of Managed Identity used by the DigitalTwinsInstance. Known
+      values are:
+
+      "None", "SystemAssigned", "UserAssigned", and "SystemAssigned,UserAssigned".'
+    types:
+    - <xref:str>
+    - <xref:azure.mgmt.digitaltwins.v2023_01_31.models.DigitalTwinsIdentityType>
   - name: user_assigned_identities
+    description: 'The list of user identities associated with the resource.
+
+      The user identity dictionary key references will be ARM resource ids in the
+      form:'
 variables:
 - description: 'The type of Managed Identity used by the DigitalTwinsInstance. Known
     values are:
