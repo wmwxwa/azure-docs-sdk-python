@@ -1,6 +1,6 @@
 ---
 title: 
-keywords: Azure, python, SDK, API, azure-cognitiveservices-search-websearch, cognitiveservices
+keywords: Azure, python, SDK, API, azure-cognitiveservices-anomalydetector, cognitiveservices
 ms.date: 02/09/2024
 ms.topic: reference
 ms.devlang: python
@@ -8,7 +8,7 @@ ms.service: cognitiveservices
 ---
 # Microsoft Azure SDK for Python
 
-This is the Microsoft Azure Cognitive Services Web Search Client Library.
+This is the Microsoft Azure Cognitive Services Anomaly Detector Client Library.
 This package has been tested with Python 2.7, 3.6+.
 For a more complete view of Azure libraries, see the [azure sdk python release](https://aka.ms/azsdk/python/all).
 
@@ -18,7 +18,7 @@ For a more complete view of Azure libraries, see the [azure sdk python release](
 
 
 
-For code examples, see [Cognitive Services Web Search](/python/api/overview/azure/cognitive-services) on docs.microsoft.com.
+For code examples, see [Cognitive Services Anomaly Detector](/python/api/overview/azure/cognitive-services) on docs.microsoft.com.
 
 
 # Provide Feedback
@@ -28,5 +28,5 @@ If you encounter any bugs or have suggestions, please file an issue in the
 section of the project. 
 
 
-![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-python%2Fazure-cognitiveservices-search-websearch%2FREADME.png)
+![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-python%2Fazure-cognitiveservices-anomalydetector%2FREADME.png)
 
