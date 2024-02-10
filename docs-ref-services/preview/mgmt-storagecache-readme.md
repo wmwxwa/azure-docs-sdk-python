@@ -1,6 +1,6 @@
 ---
 title: 
-keywords: Azure, python, SDK, API, azure-mgmt-storagesync, storage
+keywords: Azure, python, SDK, API, azure-mgmt-storagecache, storage
 ms.date: 02/10/2024
 ms.topic: reference
 ms.devlang: python
@@ -8,7 +8,7 @@ ms.service: storage
 ---
 # Microsoft Azure SDK for Python
 
-This is the Microsoft Azure Storage Sync Client Library.
+This is the Microsoft Azure Storage Cache Management Client Library.
 This package has been tested with Python 3.7+.
 For a more complete view of Azure libraries, see the [azure sdk python release](https://aka.ms/azsdk/python/all).
 
@@ -26,7 +26,7 @@ _Azure SDK Python packages support for Python 2.7 has ended 01 January 2022. For
 ### Install the package
 
 ```bash
-pip install azure-mgmt-storagesync
+pip install azure-mgmt-storagecache
 pip install azure-identity
 ```
 
@@ -44,17 +44,17 @@ With above configuration, client can be authenticated by following code:
 
 ```python
 from azure.identity import DefaultAzureCredential
-from azure.mgmt.storagesync import MicrosoftStorageSync
+from azure.mgmt.storagecache import StorageCacheManagementClient
 import os
 
 sub_id = os.getenv("AZURE_SUBSCRIPTION_ID")
-client = MicrosoftStorageSync(credential=DefaultAzureCredential(), subscription_id=sub_id)
+client = StorageCacheManagementClient(credential=DefaultAzureCredential(), subscription_id=sub_id)
 ```
 
 ## Examples
 
 Code samples for this package can be found at:
-- [Search Storage Sync](/samples/browse/?languages=python&term=Getting%20started%20-%20Managing&terms=Getting%20started%20-%20Managing) on docs.microsoft.com
+- [Search Storage Cache Management](/samples/browse/?languages=python&term=Getting%20started%20-%20Managing&terms=Getting%20started%20-%20Managing) on docs.microsoft.com
 - [Azure Python Mgmt SDK Samples Repo](https://aka.ms/azsdk/python/mgmt/samples)
 
 
@@ -69,5 +69,5 @@ If you encounter any bugs or have suggestions, please file an issue in the
 section of the project. 
 
 
-![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-python%2Fazure-mgmt-storagesync%2FREADME.png)
+![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-python%2Fazure-mgmt-storagecache%2FREADME.png)
 
