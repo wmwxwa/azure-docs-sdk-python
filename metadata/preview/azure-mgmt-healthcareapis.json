@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-healthcareapis",
-  "Version": "1.2.0b1",
-  "DevVersion": null,
+  "Version": "2.0.0a20240210001",
+  "DevVersion": "2.0.0a20240210001",
   "DirectoryPath": "sdk/healthcareapis/azure-mgmt-healthcareapis",
   "ServiceDirectory": "healthcareapis",
   "ReadMePath": "sdk/healthcareapis/azure-mgmt-healthcareapis/README.md",
@@ -10,5 +10,5 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-mgmt-healthcareapis",
-  "ReleaseStatus": "2022-11-22"
+  "ReleaseStatus": "2023-12-18"
 }
