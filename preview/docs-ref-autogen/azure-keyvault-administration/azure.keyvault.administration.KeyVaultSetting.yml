@@ -37,4 +37,6 @@ methods:
     types:
     - <xref:bool>
   exceptions:
-  - type: is not boolean or the value cannot be represented as a boolean.
+  - type: ValueError
+    description: if the `setting_type` is not boolean or the value cannot be represented
+      as a boolean.

@@ -7030,6 +7030,182 @@
   name: azure-mgmt-powerbiembedded
 - items:
   - name: Overview
+    uid: project-azure-mgmt-regionmove
+  - items:
+    - name: Overview
+      uid: azure.mgmt.regionmove
+    - items:
+      - name: Overview
+        uid: azure.mgmt.regionmove.aio
+      - items:
+        - name: Overview
+          uid: azure.mgmt.regionmove.aio.operations_async
+        - name: azure.mgmt.regionmove.aio.operations_async.MoveCollectionsOperations
+          uid: azure.mgmt.regionmove.aio.operations_async.MoveCollectionsOperations
+        - name: azure.mgmt.regionmove.aio.operations_async.MoveResourcesOperations
+          uid: azure.mgmt.regionmove.aio.operations_async.MoveResourcesOperations
+        - name: azure.mgmt.regionmove.aio.operations_async.OperationsDiscoveryOperations
+          uid: azure.mgmt.regionmove.aio.operations_async.OperationsDiscoveryOperations
+        - name: azure.mgmt.regionmove.aio.operations_async.UnresolvedDependenciesOperations
+          uid: azure.mgmt.regionmove.aio.operations_async.UnresolvedDependenciesOperations
+        name: azure.mgmt.regionmove.aio.operations_async
+      - name: azure.mgmt.regionmove.aio.RegionMoveServiceAPI
+        uid: azure.mgmt.regionmove.aio.RegionMoveServiceAPI
+      name: azure.mgmt.regionmove.aio
+    - items:
+      - name: Overview
+        uid: azure.mgmt.regionmove.models
+      - name: azure.mgmt.regionmove.models.AffectedMoveResource
+        uid: azure.mgmt.regionmove.models.AffectedMoveResource
+      - name: azure.mgmt.regionmove.models.AutomaticResolutionProperties
+        uid: azure.mgmt.regionmove.models.AutomaticResolutionProperties
+      - name: azure.mgmt.regionmove.models.AvailabilitySetResourceSettings
+        uid: azure.mgmt.regionmove.models.AvailabilitySetResourceSettings
+      - name: azure.mgmt.regionmove.models.AzureResourceReference
+        uid: azure.mgmt.regionmove.models.AzureResourceReference
+      - name: azure.mgmt.regionmove.models.CloudErrorBody
+        uid: azure.mgmt.regionmove.models.CloudErrorBody
+      - name: azure.mgmt.regionmove.models.CommitRequest
+        uid: azure.mgmt.regionmove.models.CommitRequest
+      - name: azure.mgmt.regionmove.models.DependencyType
+        uid: azure.mgmt.regionmove.models.DependencyType
+      - name: azure.mgmt.regionmove.models.DiscardRequest
+        uid: azure.mgmt.regionmove.models.DiscardRequest
+      - name: azure.mgmt.regionmove.models.Display
+        uid: azure.mgmt.regionmove.models.Display
+      - name: azure.mgmt.regionmove.models.Identity
+        uid: azure.mgmt.regionmove.models.Identity
+      - name: azure.mgmt.regionmove.models.JobStatus
+        uid: azure.mgmt.regionmove.models.JobStatus
+      - name: azure.mgmt.regionmove.models.LBBackendAddressPoolResourceSettings
+        uid: azure.mgmt.regionmove.models.LBBackendAddressPoolResourceSettings
+      - name: azure.mgmt.regionmove.models.LBFrontendIPConfigurationResourceSettings
+        uid: azure.mgmt.regionmove.models.LBFrontendIPConfigurationResourceSettings
+      - name: azure.mgmt.regionmove.models.LoadBalancerBackendAddressPoolReference
+        uid: azure.mgmt.regionmove.models.LoadBalancerBackendAddressPoolReference
+      - name: azure.mgmt.regionmove.models.LoadBalancerNatRuleReference
+        uid: azure.mgmt.regionmove.models.LoadBalancerNatRuleReference
+      - name: azure.mgmt.regionmove.models.LoadBalancerResourceSettings
+        uid: azure.mgmt.regionmove.models.LoadBalancerResourceSettings
+      - name: azure.mgmt.regionmove.models.ManualResolutionProperties
+        uid: azure.mgmt.regionmove.models.ManualResolutionProperties
+      - name: azure.mgmt.regionmove.models.MoveCollection
+        uid: azure.mgmt.regionmove.models.MoveCollection
+      - name: azure.mgmt.regionmove.models.MoveCollectionProperties
+        uid: azure.mgmt.regionmove.models.MoveCollectionProperties
+      - name: azure.mgmt.regionmove.models.MoveCollectionResultList
+        uid: azure.mgmt.regionmove.models.MoveCollectionResultList
+      - name: azure.mgmt.regionmove.models.MoveErrorInfo
+        uid: azure.mgmt.regionmove.models.MoveErrorInfo
+      - name: azure.mgmt.regionmove.models.MoveResource
+        uid: azure.mgmt.regionmove.models.MoveResource
+      - name: azure.mgmt.regionmove.models.MoveResourceCollection
+        uid: azure.mgmt.regionmove.models.MoveResourceCollection
+      - name: azure.mgmt.regionmove.models.MoveResourceDependency
+        uid: azure.mgmt.regionmove.models.MoveResourceDependency
+      - name: azure.mgmt.regionmove.models.MoveResourceDependencyOverride
+        uid: azure.mgmt.regionmove.models.MoveResourceDependencyOverride
+      - name: azure.mgmt.regionmove.models.MoveResourceError
+        uid: azure.mgmt.regionmove.models.MoveResourceError
+      - name: azure.mgmt.regionmove.models.MoveResourceErrorBody
+        uid: azure.mgmt.regionmove.models.MoveResourceErrorBody
+      - name: azure.mgmt.regionmove.models.MoveResourceFilter
+        uid: azure.mgmt.regionmove.models.MoveResourceFilter
+      - name: azure.mgmt.regionmove.models.MoveResourceFilterProperties
+        uid: azure.mgmt.regionmove.models.MoveResourceFilterProperties
+      - name: azure.mgmt.regionmove.models.MoveResourceInputType
+        uid: azure.mgmt.regionmove.models.MoveResourceInputType
+      - name: azure.mgmt.regionmove.models.MoveResourceProperties
+        uid: azure.mgmt.regionmove.models.MoveResourceProperties
+      - name: azure.mgmt.regionmove.models.MoveResourcePropertiesErrors
+        uid: azure.mgmt.regionmove.models.MoveResourcePropertiesErrors
+      - name: azure.mgmt.regionmove.models.MoveResourcePropertiesMoveStatus
+        uid: azure.mgmt.regionmove.models.MoveResourcePropertiesMoveStatus
+      - name: azure.mgmt.regionmove.models.MoveResourcePropertiesSourceResourceSettings
+        uid: azure.mgmt.regionmove.models.MoveResourcePropertiesSourceResourceSettings
+      - name: azure.mgmt.regionmove.models.MoveResourceStatus
+        uid: azure.mgmt.regionmove.models.MoveResourceStatus
+      - name: azure.mgmt.regionmove.models.MoveState
+        uid: azure.mgmt.regionmove.models.MoveState
+      - name: azure.mgmt.regionmove.models.NetworkInterfaceResourceSettings
+        uid: azure.mgmt.regionmove.models.NetworkInterfaceResourceSettings
+      - name: azure.mgmt.regionmove.models.NetworkSecurityGroupResourceSettings
+        uid: azure.mgmt.regionmove.models.NetworkSecurityGroupResourceSettings
+      - name: azure.mgmt.regionmove.models.NicIpConfigurationResourceSettings
+        uid: azure.mgmt.regionmove.models.NicIpConfigurationResourceSettings
+      - name: azure.mgmt.regionmove.models.NsgSecurityRule
+        uid: azure.mgmt.regionmove.models.NsgSecurityRule
+      - name: azure.mgmt.regionmove.models.OperationErrorAdditionalInfo
+        uid: azure.mgmt.regionmove.models.OperationErrorAdditionalInfo
+      - name: azure.mgmt.regionmove.models.OperationStatus
+        uid: azure.mgmt.regionmove.models.OperationStatus
+      - name: azure.mgmt.regionmove.models.OperationStatusError
+        uid: azure.mgmt.regionmove.models.OperationStatusError
+      - name: azure.mgmt.regionmove.models.OperationsDiscovery
+        uid: azure.mgmt.regionmove.models.OperationsDiscovery
+      - name: azure.mgmt.regionmove.models.OperationsDiscoveryCollection
+        uid: azure.mgmt.regionmove.models.OperationsDiscoveryCollection
+      - name: azure.mgmt.regionmove.models.PrepareRequest
+        uid: azure.mgmt.regionmove.models.PrepareRequest
+      - name: azure.mgmt.regionmove.models.ProvisioningState
+        uid: azure.mgmt.regionmove.models.ProvisioningState
+      - name: azure.mgmt.regionmove.models.ProxyResourceReference
+        uid: azure.mgmt.regionmove.models.ProxyResourceReference
+      - name: azure.mgmt.regionmove.models.PublicIPAddressResourceSettings
+        uid: azure.mgmt.regionmove.models.PublicIPAddressResourceSettings
+      - name: azure.mgmt.regionmove.models.ResolutionType
+        uid: azure.mgmt.regionmove.models.ResolutionType
+      - name: azure.mgmt.regionmove.models.ResourceGroupResourceSettings
+        uid: azure.mgmt.regionmove.models.ResourceGroupResourceSettings
+      - name: azure.mgmt.regionmove.models.ResourceIdentityType
+        uid: azure.mgmt.regionmove.models.ResourceIdentityType
+      - name: azure.mgmt.regionmove.models.ResourceMoveRequest
+        uid: azure.mgmt.regionmove.models.ResourceMoveRequest
+      - name: azure.mgmt.regionmove.models.ResourceSettings
+        uid: azure.mgmt.regionmove.models.ResourceSettings
+      - name: azure.mgmt.regionmove.models.SqlDatabaseResourceSettings
+        uid: azure.mgmt.regionmove.models.SqlDatabaseResourceSettings
+      - name: azure.mgmt.regionmove.models.SqlElasticPoolResourceSettings
+        uid: azure.mgmt.regionmove.models.SqlElasticPoolResourceSettings
+      - name: azure.mgmt.regionmove.models.SqlServerResourceSettings
+        uid: azure.mgmt.regionmove.models.SqlServerResourceSettings
+      - name: azure.mgmt.regionmove.models.SubnetReference
+        uid: azure.mgmt.regionmove.models.SubnetReference
+      - name: azure.mgmt.regionmove.models.SubnetResourceSettings
+        uid: azure.mgmt.regionmove.models.SubnetResourceSettings
+      - name: azure.mgmt.regionmove.models.TargetAvailabilityZone
+        uid: azure.mgmt.regionmove.models.TargetAvailabilityZone
+      - name: azure.mgmt.regionmove.models.UnresolvedDependency
+        uid: azure.mgmt.regionmove.models.UnresolvedDependency
+      - name: azure.mgmt.regionmove.models.UnresolvedDependencyCollection
+        uid: azure.mgmt.regionmove.models.UnresolvedDependencyCollection
+      - name: azure.mgmt.regionmove.models.UpdateMoveCollectionRequest
+        uid: azure.mgmt.regionmove.models.UpdateMoveCollectionRequest
+      - name: azure.mgmt.regionmove.models.VirtualMachineResourceSettings
+        uid: azure.mgmt.regionmove.models.VirtualMachineResourceSettings
+      - name: azure.mgmt.regionmove.models.VirtualNetworkResourceSettings
+        uid: azure.mgmt.regionmove.models.VirtualNetworkResourceSettings
+      - name: azure.mgmt.regionmove.models.ZoneRedundant
+        uid: azure.mgmt.regionmove.models.ZoneRedundant
+      name: azure.mgmt.regionmove.models
+    - items:
+      - name: Overview
+        uid: azure.mgmt.regionmove.operations
+      - name: azure.mgmt.regionmove.operations.MoveCollectionsOperations
+        uid: azure.mgmt.regionmove.operations.MoveCollectionsOperations
+      - name: azure.mgmt.regionmove.operations.MoveResourcesOperations
+        uid: azure.mgmt.regionmove.operations.MoveResourcesOperations
+      - name: azure.mgmt.regionmove.operations.OperationsDiscoveryOperations
+        uid: azure.mgmt.regionmove.operations.OperationsDiscoveryOperations
+      - name: azure.mgmt.regionmove.operations.UnresolvedDependenciesOperations
+        uid: azure.mgmt.regionmove.operations.UnresolvedDependenciesOperations
+      name: azure.mgmt.regionmove.operations
+    - name: azure.mgmt.regionmove.RegionMoveServiceAPI
+      uid: azure.mgmt.regionmove.RegionMoveServiceAPI
+    name: azure.mgmt.regionmove
+  name: azure-mgmt-regionmove
+- items:
+  - name: Overview
     uid: project-azure-mgmt-storageimportexport
   - items:
     - name: Overview

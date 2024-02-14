@@ -11,7 +11,7 @@ summary: 'Rules defining user''s geo access within a CDN endpoint.
   All required parameters must be populated in order to send to Azure.'
 constructor:
   syntax: 'GeoFilter(*, relative_path: str, action: str | _models.GeoFilterActions,
-    country_codes: List[str], **kwargs)'
+    country_codes: List[str], **kwargs: Any)'
   parameters:
   - name: relative_path
     description: 'Relative path applicable to geo filter. (e.g. ''/mypictures'',

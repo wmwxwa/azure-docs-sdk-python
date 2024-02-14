@@ -13,7 +13,7 @@ constructor:
   syntax: 'MatchCondition(*, match_variable: str | _models.WafMatchVariable, operator:
     str | _models.Operator, match_value: List[str], selector: str | None = None, negate_condition:
     bool | None = None, transforms: List[str | _models.TransformType] | None = None,
-    **kwargs)'
+    **kwargs: Any)'
   parameters:
   - name: match_variable
     description: 'Match variable to compare against. Required. Known values are:

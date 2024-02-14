@@ -88,7 +88,7 @@ examples:
   datalake_samples_service.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
   : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\
   \\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
-  \\191\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\\datalake_samples_service.py\"\
+  \\191\\\\azure-storage-file-datalake-12.15.0a20240212003\\\\samples\\\\datalake_samples_service.py\"\
   , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
   : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.storage.filedatalake\
   \ import DataLakeServiceClient\n   datalake_service_client = DataLakeServiceClient.from_connection_string(self.connection_string)\n\
@@ -96,7 +96,7 @@ examples:
   datalake_samples_service.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
   : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\
   \\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
-  \\191\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\\datalake_samples_service.py\"\
+  \\191\\\\azure-storage-file-datalake-12.15.0a20240212003\\\\samples\\\\datalake_samples_service.py\"\
   , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
   : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.identity\
   \ import ClientSecretCredential\n   token_credential = ClientSecretCredential(\n\
@@ -174,10 +174,10 @@ methods:
     datalake_samples_service.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\191\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\
-    \\datalake_samples_service.py\", \"xml:space\": \"preserve\", \"force\": false,\
-    \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
-    : false} -->\n\n````python\n\n   datalake_service_client.create_file_system(\"\
+    \\py2docfx\\\\dist_temp\\\\191\\\\azure-storage-file-datalake-12.15.0a20240212003\\\
+    \\samples\\\\datalake_samples_service.py\", \"xml:space\": \"preserve\", \"force\"\
+    : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
+    linenos\": false} -->\n\n````python\n\n   datalake_service_client.create_file_system(\"\
     filesystem\")\n\n   ````\n"
 - uid: azure.storage.filedatalake.DataLakeServiceClient.delete_file_system
   name: delete_file_system
@@ -264,10 +264,10 @@ methods:
     datalake_samples_service.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\191\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\
-    \\datalake_samples_service.py\", \"xml:space\": \"preserve\", \"force\": false,\
-    \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
-    : false} -->\n\n````python\n\n   datalake_service_client.delete_file_system(\"\
+    \\py2docfx\\\\dist_temp\\\\191\\\\azure-storage-file-datalake-12.15.0a20240212003\\\
+    \\samples\\\\datalake_samples_service.py\", \"xml:space\": \"preserve\", \"force\"\
+    : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
+    linenos\": false} -->\n\n````python\n\n   datalake_service_client.delete_file_system(\"\
     filesystem\")\n\n   ````\n"
 - uid: azure.storage.filedatalake.DataLakeServiceClient.from_connection_string
   name: from_connection_string
@@ -316,11 +316,11 @@ methods:
     datalake_samples_file_system.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\191\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\
-    \\datalake_samples_file_system.py\", \"xml:space\": \"preserve\", \"force\": false,\
-    \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
-    : false} -->\n\n````python\n\n   from azure.storage.filedatalake import DataLakeServiceClient\n\
-    \   datalake_service_client = DataLakeServiceClient.from_connection_string(self.connection_string)\n\
+    \\py2docfx\\\\dist_temp\\\\191\\\\azure-storage-file-datalake-12.15.0a20240212003\\\
+    \\samples\\\\datalake_samples_file_system.py\", \"xml:space\": \"preserve\", \"\
+    force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\"\
+    : 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.storage.filedatalake\
+    \ import DataLakeServiceClient\n   datalake_service_client = DataLakeServiceClient.from_connection_string(self.connection_string)\n\
     \n   ````\n"
 - uid: azure.storage.filedatalake.DataLakeServiceClient.get_directory_client
   name: get_directory_client
@@ -358,10 +358,10 @@ methods:
     datalake_samples_service.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\191\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\
-    \\datalake_samples_service.py\", \"xml:space\": \"preserve\", \"force\": false,\
-    \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
-    : false} -->\n\n````python\n\n   directory_client = datalake_service_client.get_directory_client(file_system_client.file_system_name,\n\
+    \\py2docfx\\\\dist_temp\\\\191\\\\azure-storage-file-datalake-12.15.0a20240212003\\\
+    \\samples\\\\datalake_samples_service.py\", \"xml:space\": \"preserve\", \"force\"\
+    : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
+    linenos\": false} -->\n\n````python\n\n   directory_client = datalake_service_client.get_directory_client(file_system_client.file_system_name,\n\
     \                                                                   \"mydirectory\"\
     )\n\n   ````\n"
 - uid: azure.storage.filedatalake.DataLakeServiceClient.get_file_client
@@ -400,10 +400,10 @@ methods:
     datalake_samples_service.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\191\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\
-    \\datalake_samples_service.py\", \"xml:space\": \"preserve\", \"force\": false,\
-    \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
-    : false} -->\n\n````python\n\n   file_client = datalake_service_client.get_file_client(file_system_client.file_system_name,\
+    \\py2docfx\\\\dist_temp\\\\191\\\\azure-storage-file-datalake-12.15.0a20240212003\\\
+    \\samples\\\\datalake_samples_service.py\", \"xml:space\": \"preserve\", \"force\"\
+    : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
+    linenos\": false} -->\n\n````python\n\n   file_client = datalake_service_client.get_file_client(file_system_client.file_system_name,\
     \ \"myfile\")\n\n   ````\n"
 - uid: azure.storage.filedatalake.DataLakeServiceClient.get_file_system_client
   name: get_file_system_client
@@ -430,11 +430,11 @@ methods:
     datalake_samples_file_system.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\191\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\
-    \\datalake_samples_file_system.py\", \"xml:space\": \"preserve\", \"force\": false,\
-    \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
-    : false} -->\n\n````python\n\n   # Instantiate a DataLakeServiceClient using a\
-    \ connection string\n   from azure.storage.filedatalake import DataLakeServiceClient\n\
+    \\py2docfx\\\\dist_temp\\\\191\\\\azure-storage-file-datalake-12.15.0a20240212003\\\
+    \\samples\\\\datalake_samples_file_system.py\", \"xml:space\": \"preserve\", \"\
+    force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\"\
+    : 1}, \"linenos\": false} -->\n\n````python\n\n   # Instantiate a DataLakeServiceClient\
+    \ using a connection string\n   from azure.storage.filedatalake import DataLakeServiceClient\n\
     \   datalake_service_client = DataLakeServiceClient.from_connection_string(self.connection_string)\n\
     \n   # Instantiate a FileSystemClient\n   file_system_client = datalake_service_client.get_file_system_client(\"\
     mynewfilesystem\")\n\n   ````\n"
@@ -505,11 +505,11 @@ methods:
     datalake_samples_service.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\191\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\
-    \\datalake_samples_service.py\", \"xml:space\": \"preserve\", \"force\": false,\
-    \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
-    : false} -->\n\n````python\n\n   from datetime import datetime, timedelta\n  \
-    \ user_delegation_key = datalake_service_client.get_user_delegation_key(datetime.utcnow(),\n\
+    \\py2docfx\\\\dist_temp\\\\191\\\\azure-storage-file-datalake-12.15.0a20240212003\\\
+    \\samples\\\\datalake_samples_service.py\", \"xml:space\": \"preserve\", \"force\"\
+    : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
+    linenos\": false} -->\n\n````python\n\n   from datetime import datetime, timedelta\n\
+    \   user_delegation_key = datalake_service_client.get_user_delegation_key(datetime.utcnow(),\n\
     \                                                                         datetime.utcnow()\
     \ + timedelta(hours=1))\n\n   ````\n"
 - uid: azure.storage.filedatalake.DataLakeServiceClient.list_file_systems
@@ -580,10 +580,10 @@ methods:
     datalake_samples_service.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\191\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\
-    \\datalake_samples_service.py\", \"xml:space\": \"preserve\", \"force\": false,\
-    \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
-    : false} -->\n\n````python\n\n   file_systems = datalake_service_client.list_file_systems()\n\
+    \\py2docfx\\\\dist_temp\\\\191\\\\azure-storage-file-datalake-12.15.0a20240212003\\\
+    \\samples\\\\datalake_samples_service.py\", \"xml:space\": \"preserve\", \"force\"\
+    : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
+    linenos\": false} -->\n\n````python\n\n   file_systems = datalake_service_client.list_file_systems()\n\
     \   for file_system in file_systems:\n       print(file_system.name)\n\n   ````\n"
 - uid: azure.storage.filedatalake.DataLakeServiceClient.set_service_properties
   name: set_service_properties
@@ -690,18 +690,30 @@ attributes:
 - uid: azure.storage.filedatalake.DataLakeServiceClient.api_version
   name: api_version
   summary: The version of the Storage API used for requests.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.filedatalake.DataLakeServiceClient.location_mode
   name: location_mode
   summary: 'The location mode that the client is currently using.
 
 
     By default this will be "primary". Options include "primary" and "secondary".'
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.filedatalake.DataLakeServiceClient.primary_endpoint
   name: primary_endpoint
   summary: The full primary endpoint URL.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.filedatalake.DataLakeServiceClient.primary_hostname
   name: primary_hostname
   summary: The hostname of the primary endpoint.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.filedatalake.DataLakeServiceClient.secondary_endpoint
   name: secondary_endpoint
   summary: 'The full secondary endpoint URL if configured.
@@ -711,6 +723,9 @@ attributes:
     hostname, use the optional
 
     *secondary_hostname* keyword argument on instantiation.'
+  return:
+    types:
+    - <xref:str>
   exceptions:
   - type: ValueError
 - uid: azure.storage.filedatalake.DataLakeServiceClient.secondary_hostname
@@ -722,6 +737,9 @@ attributes:
     use the optional
 
     *secondary_hostname* keyword argument on instantiation.'
+  return:
+    types:
+    - <xref:typing.Optional>[<xref:str>]
 - uid: azure.storage.filedatalake.DataLakeServiceClient.url
   name: url
   summary: 'The full endpoint URL to this entity, including SAS token if used.

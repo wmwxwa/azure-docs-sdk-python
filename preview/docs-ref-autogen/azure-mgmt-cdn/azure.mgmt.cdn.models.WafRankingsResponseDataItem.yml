@@ -9,7 +9,7 @@ summary: WafRankingsResponseDataItem.
 constructor:
   syntax: 'WafRankingsResponseDataItem(*, group_values: List[str] | None = None, metrics:
     List[_models.ComponentsKpo1PjSchemasWafrankingsresponsePropertiesDataItemsPropertiesMetricsItems]
-    | None = None, **kwargs)'
+    | None = None, **kwargs: Any)'
   parameters:
   - name: group_values
     types:

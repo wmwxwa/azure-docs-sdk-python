@@ -12,7 +12,7 @@ summary: 'A rule that specifies a set of actions and conditions.
 constructor:
   syntax: 'DeliveryRule(*, order: int, actions: List[_models.DeliveryRuleAction],
     name: str | None = None, conditions: List[_models.DeliveryRuleCondition] | None
-    = None, **kwargs)'
+    = None, **kwargs: Any)'
   parameters:
   - name: name
     description: Name of the rule.

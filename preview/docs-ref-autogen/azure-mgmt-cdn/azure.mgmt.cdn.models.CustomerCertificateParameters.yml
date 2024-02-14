@@ -15,7 +15,7 @@ summary: 'Customer Certificate used for https.
 constructor:
   syntax: 'CustomerCertificateParameters(*, secret_source: _models.ResourceReference,
     secret_version: str | None = None, use_latest_version: bool | None = None, subject_alternative_names:
-    List[str] | None = None, **kwargs)'
+    List[str] | None = None, **kwargs: Any)'
   parameters:
   - name: secret_source
     description: "Resource reference to the Azure Key Vault certificate. Expected\
