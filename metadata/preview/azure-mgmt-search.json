@@ -1,0 +1,14 @@
+{
+  "Name": "azure-mgmt-search",
+  "Version": "9.1.0a20240215001",
+  "DevVersion": "9.1.0a20240215001",
+  "DirectoryPath": "sdk/search/azure-mgmt-search",
+  "ServiceDirectory": "search",
+  "ReadMePath": "sdk/search/azure-mgmt-search/README.md",
+  "ChangeLogPath": "sdk/search/azure-mgmt-search/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-mgmt-search",
+  "ReleaseStatus": "2023-10-23"
+}
