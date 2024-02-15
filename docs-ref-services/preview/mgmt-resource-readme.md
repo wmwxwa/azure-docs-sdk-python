@@ -1,7 +1,7 @@
 ---
 title: 
 keywords: Azure, python, SDK, API, azure-mgmt-resource, resources
-ms.date: 06/21/2023
+ms.date: 02/15/2024
 ms.topic: reference
 ms.devlang: python
 ms.service: resources
