@@ -12,8 +12,8 @@ summary: 'Defines the parameters for Cookies match conditions.
 constructor:
   syntax: 'CookiesMatchConditionParameters(*, type_name: str | _models.CookiesMatchConditionParametersTypeName,
     operator: str | _models.CookiesOperator, selector: str | None = None, negate_condition:
-    bool | None = None, match_values: List[str] | None = None, transforms: List[str
-    | _models.Transform] | None = None, **kwargs)'
+    bool = False, match_values: List[str] | None = None, transforms: List[str | _models.Transform]
+    | None = None, **kwargs: Any)'
   parameters:
   - name: type_name
     description: Required. "DeliveryRuleCookiesConditionParameters"

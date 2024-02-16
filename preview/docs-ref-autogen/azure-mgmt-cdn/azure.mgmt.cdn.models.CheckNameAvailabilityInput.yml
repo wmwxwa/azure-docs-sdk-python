@@ -11,7 +11,7 @@ summary: 'Input of CheckNameAvailability API.
   All required parameters must be populated in order to send to Azure.'
 constructor:
   syntax: 'CheckNameAvailabilityInput(*, name: str, type: str | _models.ResourceType,
-    **kwargs)'
+    **kwargs: Any)'
   parameters:
   - name: name
     description: The resource name to validate. Required.

@@ -12,7 +12,7 @@ summary: 'The json object containing security policy waf parameters.
 constructor:
   syntax: 'SecurityPolicyWebApplicationFirewallParameters(*, waf_policy: _models.ResourceReference
     | None = None, associations: List[_models.SecurityPolicyWebApplicationFirewallAssociation]
-    | None = None, **kwargs)'
+    | None = None, **kwargs: Any)'
   parameters:
   - name: waf_policy
     description: Resource ID.

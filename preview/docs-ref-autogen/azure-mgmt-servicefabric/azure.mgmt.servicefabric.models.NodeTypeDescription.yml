@@ -6,7 +6,9 @@ module: azure.mgmt.servicefabric.models
 inheritances:
 - azure.mgmt.servicefabric._serialization.Model
 summary: 'Describes a node type in the cluster, each node type represents sub set
-  of nodes in the cluster.
+  of nodes in the
+
+  cluster.
 
 
   All required parameters must be populated in order to send to Azure.'
@@ -17,7 +19,7 @@ constructor:
     str | _models.DurabilityLevel | None = None, application_ports: _models.EndpointRangeDescription
     | None = None, ephemeral_ports: _models.EndpointRangeDescription | None = None,
     reverse_proxy_endpoint_port: int | None = None, is_stateless: bool | None = None,
-    multiple_availability_zones: bool | None = None, **kwargs)'
+    multiple_availability_zones: bool | None = None, **kwargs: Any)'
   parameters:
   - name: name
     description: The name of the node type. Required.

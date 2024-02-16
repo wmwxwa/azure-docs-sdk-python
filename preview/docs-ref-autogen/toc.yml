@@ -459,45 +459,51 @@
     - items:
       - name: Overview
         uid: azure.ai.contentsafety.aio
+      - name: azure.ai.contentsafety.aio.BlocklistClient
+        uid: azure.ai.contentsafety.aio.BlocklistClient
       - name: azure.ai.contentsafety.aio.ContentSafetyClient
         uid: azure.ai.contentsafety.aio.ContentSafetyClient
       name: azure.ai.contentsafety.aio
     - items:
       - name: Overview
         uid: azure.ai.contentsafety.models
-      - name: azure.ai.contentsafety.models.AddBlockItemsOptions
-        uid: azure.ai.contentsafety.models.AddBlockItemsOptions
-      - name: azure.ai.contentsafety.models.AddBlockItemsResult
-        uid: azure.ai.contentsafety.models.AddBlockItemsResult
+      - name: azure.ai.contentsafety.models.AddOrUpdateTextBlocklistItemsOptions
+        uid: azure.ai.contentsafety.models.AddOrUpdateTextBlocklistItemsOptions
+      - name: azure.ai.contentsafety.models.AddOrUpdateTextBlocklistItemsResult
+        uid: azure.ai.contentsafety.models.AddOrUpdateTextBlocklistItemsResult
       - name: azure.ai.contentsafety.models.AnalyzeImageOptions
         uid: azure.ai.contentsafety.models.AnalyzeImageOptions
+      - name: azure.ai.contentsafety.models.AnalyzeImageOutputType
+        uid: azure.ai.contentsafety.models.AnalyzeImageOutputType
       - name: azure.ai.contentsafety.models.AnalyzeImageResult
         uid: azure.ai.contentsafety.models.AnalyzeImageResult
       - name: azure.ai.contentsafety.models.AnalyzeTextOptions
         uid: azure.ai.contentsafety.models.AnalyzeTextOptions
+      - name: azure.ai.contentsafety.models.AnalyzeTextOutputType
+        uid: azure.ai.contentsafety.models.AnalyzeTextOutputType
       - name: azure.ai.contentsafety.models.AnalyzeTextResult
         uid: azure.ai.contentsafety.models.AnalyzeTextResult
-      - name: azure.ai.contentsafety.models.ImageAnalyzeSeverityResult
-        uid: azure.ai.contentsafety.models.ImageAnalyzeSeverityResult
+      - name: azure.ai.contentsafety.models.ImageCategoriesAnalysis
+        uid: azure.ai.contentsafety.models.ImageCategoriesAnalysis
       - name: azure.ai.contentsafety.models.ImageCategory
         uid: azure.ai.contentsafety.models.ImageCategory
       - name: azure.ai.contentsafety.models.ImageData
         uid: azure.ai.contentsafety.models.ImageData
-      - name: azure.ai.contentsafety.models.RemoveBlockItemsOptions
-        uid: azure.ai.contentsafety.models.RemoveBlockItemsOptions
-      - name: azure.ai.contentsafety.models.TextAnalyzeSeverityResult
-        uid: azure.ai.contentsafety.models.TextAnalyzeSeverityResult
-      - name: azure.ai.contentsafety.models.TextBlockItem
-        uid: azure.ai.contentsafety.models.TextBlockItem
-      - name: azure.ai.contentsafety.models.TextBlockItemInfo
-        uid: azure.ai.contentsafety.models.TextBlockItemInfo
+      - name: azure.ai.contentsafety.models.RemoveTextBlocklistItemsOptions
+        uid: azure.ai.contentsafety.models.RemoveTextBlocklistItemsOptions
       - name: azure.ai.contentsafety.models.TextBlocklist
         uid: azure.ai.contentsafety.models.TextBlocklist
-      - name: azure.ai.contentsafety.models.TextBlocklistMatchResult
-        uid: azure.ai.contentsafety.models.TextBlocklistMatchResult
+      - name: azure.ai.contentsafety.models.TextBlocklistItem
+        uid: azure.ai.contentsafety.models.TextBlocklistItem
+      - name: azure.ai.contentsafety.models.TextBlocklistMatch
+        uid: azure.ai.contentsafety.models.TextBlocklistMatch
+      - name: azure.ai.contentsafety.models.TextCategoriesAnalysis
+        uid: azure.ai.contentsafety.models.TextCategoriesAnalysis
       - name: azure.ai.contentsafety.models.TextCategory
         uid: azure.ai.contentsafety.models.TextCategory
       name: azure.ai.contentsafety.models
+    - name: azure.ai.contentsafety.BlocklistClient
+      uid: azure.ai.contentsafety.BlocklistClient
     - name: azure.ai.contentsafety.ContentSafetyClient
       uid: azure.ai.contentsafety.ContentSafetyClient
     name: azure.ai.contentsafety
@@ -748,6 +754,8 @@
       uid: azure.ai.resources.entities.connection_subtypes.AzureAISearchConnection
     - name: azure.ai.resources.entities.connection_subtypes.AzureAIServiceConnection
       uid: azure.ai.resources.entities.connection_subtypes.AzureAIServiceConnection
+    - name: azure.ai.resources.entities.connection_subtypes.AzureBlobStoreConnection
+      uid: azure.ai.resources.entities.connection_subtypes.AzureBlobStoreConnection
     - name: azure.ai.resources.entities.connection_subtypes.AzureOpenAIConnection
       uid: azure.ai.resources.entities.connection_subtypes.AzureOpenAIConnection
     - name: azure.ai.resources.entities.connection_subtypes.CustomConnection
@@ -819,10 +827,14 @@
         uid: azure.ai.resources.entities
       - name: azure.ai.resources.entities.AIResource
         uid: azure.ai.resources.entities.AIResource
+      - name: azure.ai.resources.entities.ApiKeyConfiguration
+        uid: azure.ai.resources.entities.ApiKeyConfiguration
       - name: azure.ai.resources.entities.AzureAISearchConnection
         uid: azure.ai.resources.entities.AzureAISearchConnection
       - name: azure.ai.resources.entities.AzureAIServiceConnection
         uid: azure.ai.resources.entities.AzureAIServiceConnection
+      - name: azure.ai.resources.entities.AzureBlobStoreConnection
+        uid: azure.ai.resources.entities.AzureBlobStoreConnection
       - name: azure.ai.resources.entities.AzureOpenAIConnection
         uid: azure.ai.resources.entities.AzureOpenAIConnection
       - name: azure.ai.resources.entities.AzureOpenAIModelConfiguration
@@ -939,8 +951,6 @@
         uid: azure.ai.translation.text.models.TransliterableScript
       - name: azure.ai.translation.text.models.TransliteratedText
         uid: azure.ai.translation.text.models.TransliteratedText
-      - name: azure.ai.translation.text.models.Transliteration
-        uid: azure.ai.translation.text.models.Transliteration
       - name: azure.ai.translation.text.models.TransliterationLanguage
         uid: azure.ai.translation.text.models.TransliterationLanguage
       name: azure.ai.translation.text.models
@@ -3400,6 +3410,8 @@
       uid: azure.communication.callautomation.CallParticipant
     - name: azure.communication.callautomation.CallRejectReason
       uid: azure.communication.callautomation.CallRejectReason
+    - name: azure.communication.callautomation.CancelAddParticipantOperationResult
+      uid: azure.communication.callautomation.CancelAddParticipantOperationResult
     - name: azure.communication.callautomation.ChannelAffinity
       uid: azure.communication.callautomation.ChannelAffinity
     - name: azure.communication.callautomation.CommunicationCloudEnvironment
@@ -3414,8 +3426,16 @@
       uid: azure.communication.callautomation.DtmfTone
     - name: azure.communication.callautomation.FileSource
       uid: azure.communication.callautomation.FileSource
-    - name: azure.communication.callautomation.MicrosoftBotIdentifier
-      uid: azure.communication.callautomation.MicrosoftBotIdentifier
+    - name: azure.communication.callautomation.MediaStreamingAudioChannelType
+      uid: azure.communication.callautomation.MediaStreamingAudioChannelType
+    - name: azure.communication.callautomation.MediaStreamingConfiguration
+      uid: azure.communication.callautomation.MediaStreamingConfiguration
+    - name: azure.communication.callautomation.MediaStreamingContentType
+      uid: azure.communication.callautomation.MediaStreamingContentType
+    - name: azure.communication.callautomation.MediaStreamingTransportType
+      uid: azure.communication.callautomation.MediaStreamingTransportType
+    - name: azure.communication.callautomation.MicrosoftTeamsAppIdentifier
+      uid: azure.communication.callautomation.MicrosoftTeamsAppIdentifier
     - name: azure.communication.callautomation.MicrosoftTeamsUserIdentifier
       uid: azure.communication.callautomation.MicrosoftTeamsUserIdentifier
     - name: azure.communication.callautomation.MuteParticipantResult
@@ -3436,6 +3456,8 @@
       uid: azure.communication.callautomation.RecordingProperties
     - name: azure.communication.callautomation.RecordingState
       uid: azure.communication.callautomation.RecordingState
+    - name: azure.communication.callautomation.RecordingStorage
+      uid: azure.communication.callautomation.RecordingStorage
     - name: azure.communication.callautomation.RemoveParticipantResult
       uid: azure.communication.callautomation.RemoveParticipantResult
     - name: azure.communication.callautomation.SendDtmfTonesResult
@@ -3444,6 +3466,10 @@
       uid: azure.communication.callautomation.SsmlSource
     - name: azure.communication.callautomation.TextSource
       uid: azure.communication.callautomation.TextSource
+    - name: azure.communication.callautomation.TranscriptionConfiguration
+      uid: azure.communication.callautomation.TranscriptionConfiguration
+    - name: azure.communication.callautomation.TranscriptionTransportType
+      uid: azure.communication.callautomation.TranscriptionTransportType
     - name: azure.communication.callautomation.TransferCallResult
       uid: azure.communication.callautomation.TransferCallResult
     - name: azure.communication.callautomation.UnknownIdentifier
@@ -3478,10 +3504,10 @@
       uid: azure.communication.identity.CommunicationUserIdentifier
     - name: azure.communication.identity.CommunicationUserProperties
       uid: azure.communication.identity.CommunicationUserProperties
-    - name: azure.communication.identity.MicrosoftBotIdentifier
-      uid: azure.communication.identity.MicrosoftBotIdentifier
-    - name: azure.communication.identity.MicrosoftBotProperties
-      uid: azure.communication.identity.MicrosoftBotProperties
+    - name: azure.communication.identity.MicrosoftTeamsAppIdentifier
+      uid: azure.communication.identity.MicrosoftTeamsAppIdentifier
+    - name: azure.communication.identity.MicrosoftTeamsAppProperties
+      uid: azure.communication.identity.MicrosoftTeamsAppProperties
     - name: azure.communication.identity.MicrosoftTeamsUserIdentifier
       uid: azure.communication.identity.MicrosoftTeamsUserIdentifier
     - name: azure.communication.identity.MicrosoftTeamsUserProperties
@@ -3508,138 +3534,166 @@
       - name: azure.communication.jobrouter.aio.JobRouterClient
         uid: azure.communication.jobrouter.aio.JobRouterClient
       name: azure.communication.jobrouter.aio
-    - name: azure.communication.jobrouter.AcceptJobOfferResult
-      uid: azure.communication.jobrouter.AcceptJobOfferResult
-    - name: azure.communication.jobrouter.BestWorkerMode
-      uid: azure.communication.jobrouter.BestWorkerMode
-    - name: azure.communication.jobrouter.CancelExceptionAction
-      uid: azure.communication.jobrouter.CancelExceptionAction
-    - name: azure.communication.jobrouter.ChannelConfiguration
-      uid: azure.communication.jobrouter.ChannelConfiguration
-    - name: azure.communication.jobrouter.ClassificationPolicy
-      uid: azure.communication.jobrouter.ClassificationPolicy
-    - name: azure.communication.jobrouter.ClassificationPolicyItem
-      uid: azure.communication.jobrouter.ClassificationPolicyItem
-    - name: azure.communication.jobrouter.ConditionalQueueSelectorAttachment
-      uid: azure.communication.jobrouter.ConditionalQueueSelectorAttachment
-    - name: azure.communication.jobrouter.ConditionalWorkerSelectorAttachment
-      uid: azure.communication.jobrouter.ConditionalWorkerSelectorAttachment
-    - name: azure.communication.jobrouter.DirectMapRouterRule
-      uid: azure.communication.jobrouter.DirectMapRouterRule
-    - name: azure.communication.jobrouter.DistributionMode
-      uid: azure.communication.jobrouter.DistributionMode
-    - name: azure.communication.jobrouter.DistributionPolicy
-      uid: azure.communication.jobrouter.DistributionPolicy
-    - name: azure.communication.jobrouter.DistributionPolicyItem
-      uid: azure.communication.jobrouter.DistributionPolicyItem
-    - name: azure.communication.jobrouter.ExceptionAction
-      uid: azure.communication.jobrouter.ExceptionAction
-    - name: azure.communication.jobrouter.ExceptionPolicy
-      uid: azure.communication.jobrouter.ExceptionPolicy
-    - name: azure.communication.jobrouter.ExceptionPolicyItem
-      uid: azure.communication.jobrouter.ExceptionPolicyItem
-    - name: azure.communication.jobrouter.ExceptionRule
-      uid: azure.communication.jobrouter.ExceptionRule
-    - name: azure.communication.jobrouter.ExceptionTrigger
-      uid: azure.communication.jobrouter.ExceptionTrigger
-    - name: azure.communication.jobrouter.ExpressionRouterRule
-      uid: azure.communication.jobrouter.ExpressionRouterRule
-    - name: azure.communication.jobrouter.ExpressionRouterRuleLanguage
-      uid: azure.communication.jobrouter.ExpressionRouterRuleLanguage
-    - name: azure.communication.jobrouter.FunctionRouterRule
-      uid: azure.communication.jobrouter.FunctionRouterRule
-    - name: azure.communication.jobrouter.FunctionRouterRuleCredential
-      uid: azure.communication.jobrouter.FunctionRouterRuleCredential
-    - name: azure.communication.jobrouter.JobMatchModeType
-      uid: azure.communication.jobrouter.JobMatchModeType
-    - name: azure.communication.jobrouter.JobMatchingMode
-      uid: azure.communication.jobrouter.JobMatchingMode
+    - items:
+      - name: Overview
+        uid: azure.communication.jobrouter.models
+      - name: azure.communication.jobrouter.models.AcceptJobOfferResult
+        uid: azure.communication.jobrouter.models.AcceptJobOfferResult
+      - name: azure.communication.jobrouter.models.BestWorkerMode
+        uid: azure.communication.jobrouter.models.BestWorkerMode
+      - name: azure.communication.jobrouter.models.CancelExceptionAction
+        uid: azure.communication.jobrouter.models.CancelExceptionAction
+      - name: azure.communication.jobrouter.models.CancelJobOptions
+        uid: azure.communication.jobrouter.models.CancelJobOptions
+      - name: azure.communication.jobrouter.models.ClassificationPolicy
+        uid: azure.communication.jobrouter.models.ClassificationPolicy
+      - name: azure.communication.jobrouter.models.CloseJobOptions
+        uid: azure.communication.jobrouter.models.CloseJobOptions
+      - name: azure.communication.jobrouter.models.CompleteJobOptions
+        uid: azure.communication.jobrouter.models.CompleteJobOptions
+      - name: azure.communication.jobrouter.models.ConditionalQueueSelectorAttachment
+        uid: azure.communication.jobrouter.models.ConditionalQueueSelectorAttachment
+      - name: azure.communication.jobrouter.models.ConditionalWorkerSelectorAttachment
+        uid: azure.communication.jobrouter.models.ConditionalWorkerSelectorAttachment
+      - name: azure.communication.jobrouter.models.DeclineJobOfferOptions
+        uid: azure.communication.jobrouter.models.DeclineJobOfferOptions
+      - name: azure.communication.jobrouter.models.DirectMapRouterRule
+        uid: azure.communication.jobrouter.models.DirectMapRouterRule
+      - name: azure.communication.jobrouter.models.DistributionMode
+        uid: azure.communication.jobrouter.models.DistributionMode
+      - name: azure.communication.jobrouter.models.DistributionModeKind
+        uid: azure.communication.jobrouter.models.DistributionModeKind
+      - name: azure.communication.jobrouter.models.DistributionPolicy
+        uid: azure.communication.jobrouter.models.DistributionPolicy
+      - name: azure.communication.jobrouter.models.ExceptionAction
+        uid: azure.communication.jobrouter.models.ExceptionAction
+      - name: azure.communication.jobrouter.models.ExceptionActionKind
+        uid: azure.communication.jobrouter.models.ExceptionActionKind
+      - name: azure.communication.jobrouter.models.ExceptionPolicy
+        uid: azure.communication.jobrouter.models.ExceptionPolicy
+      - name: azure.communication.jobrouter.models.ExceptionRule
+        uid: azure.communication.jobrouter.models.ExceptionRule
+      - name: azure.communication.jobrouter.models.ExceptionTrigger
+        uid: azure.communication.jobrouter.models.ExceptionTrigger
+      - name: azure.communication.jobrouter.models.ExceptionTriggerKind
+        uid: azure.communication.jobrouter.models.ExceptionTriggerKind
+      - name: azure.communication.jobrouter.models.ExpressionRouterRule
+        uid: azure.communication.jobrouter.models.ExpressionRouterRule
+      - name: azure.communication.jobrouter.models.ExpressionRouterRuleLanguage
+        uid: azure.communication.jobrouter.models.ExpressionRouterRuleLanguage
+      - name: azure.communication.jobrouter.models.FunctionRouterRule
+        uid: azure.communication.jobrouter.models.FunctionRouterRule
+      - name: azure.communication.jobrouter.models.FunctionRouterRuleCredential
+        uid: azure.communication.jobrouter.models.FunctionRouterRuleCredential
+      - name: azure.communication.jobrouter.models.JobMatchingMode
+        uid: azure.communication.jobrouter.models.JobMatchingMode
+      - name: azure.communication.jobrouter.models.JobMatchingModeKind
+        uid: azure.communication.jobrouter.models.JobMatchingModeKind
+      - name: azure.communication.jobrouter.models.LabelOperator
+        uid: azure.communication.jobrouter.models.LabelOperator
+      - name: azure.communication.jobrouter.models.LongestIdleMode
+        uid: azure.communication.jobrouter.models.LongestIdleMode
+      - name: azure.communication.jobrouter.models.ManualReclassifyExceptionAction
+        uid: azure.communication.jobrouter.models.ManualReclassifyExceptionAction
+      - name: azure.communication.jobrouter.models.OAuth2WebhookClientCredential
+        uid: azure.communication.jobrouter.models.OAuth2WebhookClientCredential
+      - name: azure.communication.jobrouter.models.PassThroughQueueSelectorAttachment
+        uid: azure.communication.jobrouter.models.PassThroughQueueSelectorAttachment
+      - name: azure.communication.jobrouter.models.PassThroughWorkerSelectorAttachment
+        uid: azure.communication.jobrouter.models.PassThroughWorkerSelectorAttachment
+      - name: azure.communication.jobrouter.models.QueueAndMatchMode
+        uid: azure.communication.jobrouter.models.QueueAndMatchMode
+      - name: azure.communication.jobrouter.models.QueueLengthExceptionTrigger
+        uid: azure.communication.jobrouter.models.QueueLengthExceptionTrigger
+      - name: azure.communication.jobrouter.models.QueueSelectorAttachment
+        uid: azure.communication.jobrouter.models.QueueSelectorAttachment
+      - name: azure.communication.jobrouter.models.QueueSelectorAttachmentKind
+        uid: azure.communication.jobrouter.models.QueueSelectorAttachmentKind
+      - name: azure.communication.jobrouter.models.QueueWeightedAllocation
+        uid: azure.communication.jobrouter.models.QueueWeightedAllocation
+      - name: azure.communication.jobrouter.models.ReclassifyExceptionAction
+        uid: azure.communication.jobrouter.models.ReclassifyExceptionAction
+      - name: azure.communication.jobrouter.models.RoundRobinMode
+        uid: azure.communication.jobrouter.models.RoundRobinMode
+      - name: azure.communication.jobrouter.models.RouterChannel
+        uid: azure.communication.jobrouter.models.RouterChannel
+      - name: azure.communication.jobrouter.models.RouterJob
+        uid: azure.communication.jobrouter.models.RouterJob
+      - name: azure.communication.jobrouter.models.RouterJobAssignment
+        uid: azure.communication.jobrouter.models.RouterJobAssignment
+      - name: azure.communication.jobrouter.models.RouterJobNote
+        uid: azure.communication.jobrouter.models.RouterJobNote
+      - name: azure.communication.jobrouter.models.RouterJobOffer
+        uid: azure.communication.jobrouter.models.RouterJobOffer
+      - name: azure.communication.jobrouter.models.RouterJobPositionDetails
+        uid: azure.communication.jobrouter.models.RouterJobPositionDetails
+      - name: azure.communication.jobrouter.models.RouterJobStatus
+        uid: azure.communication.jobrouter.models.RouterJobStatus
+      - name: azure.communication.jobrouter.models.RouterJobStatusSelector
+        uid: azure.communication.jobrouter.models.RouterJobStatusSelector
+      - name: azure.communication.jobrouter.models.RouterQueue
+        uid: azure.communication.jobrouter.models.RouterQueue
+      - name: azure.communication.jobrouter.models.RouterQueueSelector
+        uid: azure.communication.jobrouter.models.RouterQueueSelector
+      - name: azure.communication.jobrouter.models.RouterQueueStatistics
+        uid: azure.communication.jobrouter.models.RouterQueueStatistics
+      - name: azure.communication.jobrouter.models.RouterRule
+        uid: azure.communication.jobrouter.models.RouterRule
+      - name: azure.communication.jobrouter.models.RouterRuleKind
+        uid: azure.communication.jobrouter.models.RouterRuleKind
+      - name: azure.communication.jobrouter.models.RouterWorker
+        uid: azure.communication.jobrouter.models.RouterWorker
+      - name: azure.communication.jobrouter.models.RouterWorkerAssignment
+        uid: azure.communication.jobrouter.models.RouterWorkerAssignment
+      - name: azure.communication.jobrouter.models.RouterWorkerSelector
+        uid: azure.communication.jobrouter.models.RouterWorkerSelector
+      - name: azure.communication.jobrouter.models.RouterWorkerSelectorStatus
+        uid: azure.communication.jobrouter.models.RouterWorkerSelectorStatus
+      - name: azure.communication.jobrouter.models.RouterWorkerState
+        uid: azure.communication.jobrouter.models.RouterWorkerState
+      - name: azure.communication.jobrouter.models.RouterWorkerStateSelector
+        uid: azure.communication.jobrouter.models.RouterWorkerStateSelector
+      - name: azure.communication.jobrouter.models.RuleEngineQueueSelectorAttachment
+        uid: azure.communication.jobrouter.models.RuleEngineQueueSelectorAttachment
+      - name: azure.communication.jobrouter.models.RuleEngineWorkerSelectorAttachment
+        uid: azure.communication.jobrouter.models.RuleEngineWorkerSelectorAttachment
+      - name: azure.communication.jobrouter.models.ScheduleAndSuspendMode
+        uid: azure.communication.jobrouter.models.ScheduleAndSuspendMode
+      - name: azure.communication.jobrouter.models.ScoringRuleOptions
+        uid: azure.communication.jobrouter.models.ScoringRuleOptions
+      - name: azure.communication.jobrouter.models.ScoringRuleParameterSelector
+        uid: azure.communication.jobrouter.models.ScoringRuleParameterSelector
+      - name: azure.communication.jobrouter.models.StaticQueueSelectorAttachment
+        uid: azure.communication.jobrouter.models.StaticQueueSelectorAttachment
+      - name: azure.communication.jobrouter.models.StaticRouterRule
+        uid: azure.communication.jobrouter.models.StaticRouterRule
+      - name: azure.communication.jobrouter.models.StaticWorkerSelectorAttachment
+        uid: azure.communication.jobrouter.models.StaticWorkerSelectorAttachment
+      - name: azure.communication.jobrouter.models.SuspendMode
+        uid: azure.communication.jobrouter.models.SuspendMode
+      - name: azure.communication.jobrouter.models.UnassignJobOptions
+        uid: azure.communication.jobrouter.models.UnassignJobOptions
+      - name: azure.communication.jobrouter.models.UnassignJobResult
+        uid: azure.communication.jobrouter.models.UnassignJobResult
+      - name: azure.communication.jobrouter.models.WaitTimeExceptionTrigger
+        uid: azure.communication.jobrouter.models.WaitTimeExceptionTrigger
+      - name: azure.communication.jobrouter.models.WebhookRouterRule
+        uid: azure.communication.jobrouter.models.WebhookRouterRule
+      - name: azure.communication.jobrouter.models.WeightedAllocationQueueSelectorAttachment
+        uid: azure.communication.jobrouter.models.WeightedAllocationQueueSelectorAttachment
+      - name: azure.communication.jobrouter.models.WeightedAllocationWorkerSelectorAttachment
+        uid: azure.communication.jobrouter.models.WeightedAllocationWorkerSelectorAttachment
+      - name: azure.communication.jobrouter.models.WorkerSelectorAttachment
+        uid: azure.communication.jobrouter.models.WorkerSelectorAttachment
+      - name: azure.communication.jobrouter.models.WorkerSelectorAttachmentKind
+        uid: azure.communication.jobrouter.models.WorkerSelectorAttachmentKind
+      - name: azure.communication.jobrouter.models.WorkerWeightedAllocation
+        uid: azure.communication.jobrouter.models.WorkerWeightedAllocation
+      name: azure.communication.jobrouter.models
     - name: azure.communication.jobrouter.JobRouterAdministrationClient
       uid: azure.communication.jobrouter.JobRouterAdministrationClient
     - name: azure.communication.jobrouter.JobRouterClient
       uid: azure.communication.jobrouter.JobRouterClient
-    - name: azure.communication.jobrouter.LabelOperator
-      uid: azure.communication.jobrouter.LabelOperator
-    - name: azure.communication.jobrouter.LongestIdleMode
-      uid: azure.communication.jobrouter.LongestIdleMode
-    - name: azure.communication.jobrouter.ManualReclassifyExceptionAction
-      uid: azure.communication.jobrouter.ManualReclassifyExceptionAction
-    - name: azure.communication.jobrouter.PassThroughQueueSelectorAttachment
-      uid: azure.communication.jobrouter.PassThroughQueueSelectorAttachment
-    - name: azure.communication.jobrouter.PassThroughWorkerSelectorAttachment
-      uid: azure.communication.jobrouter.PassThroughWorkerSelectorAttachment
-    - name: azure.communication.jobrouter.QueueLengthExceptionTrigger
-      uid: azure.communication.jobrouter.QueueLengthExceptionTrigger
-    - name: azure.communication.jobrouter.QueueSelectorAttachment
-      uid: azure.communication.jobrouter.QueueSelectorAttachment
-    - name: azure.communication.jobrouter.QueueWeightedAllocation
-      uid: azure.communication.jobrouter.QueueWeightedAllocation
-    - name: azure.communication.jobrouter.ReclassifyExceptionAction
-      uid: azure.communication.jobrouter.ReclassifyExceptionAction
-    - name: azure.communication.jobrouter.RoundRobinMode
-      uid: azure.communication.jobrouter.RoundRobinMode
-    - name: azure.communication.jobrouter.RouterJob
-      uid: azure.communication.jobrouter.RouterJob
-    - name: azure.communication.jobrouter.RouterJobAssignment
-      uid: azure.communication.jobrouter.RouterJobAssignment
-    - name: azure.communication.jobrouter.RouterJobItem
-      uid: azure.communication.jobrouter.RouterJobItem
-    - name: azure.communication.jobrouter.RouterJobOffer
-      uid: azure.communication.jobrouter.RouterJobOffer
-    - name: azure.communication.jobrouter.RouterJobPositionDetails
-      uid: azure.communication.jobrouter.RouterJobPositionDetails
-    - name: azure.communication.jobrouter.RouterJobStatus
-      uid: azure.communication.jobrouter.RouterJobStatus
-    - name: azure.communication.jobrouter.RouterQueue
-      uid: azure.communication.jobrouter.RouterQueue
-    - name: azure.communication.jobrouter.RouterQueueItem
-      uid: azure.communication.jobrouter.RouterQueueItem
-    - name: azure.communication.jobrouter.RouterQueueSelector
-      uid: azure.communication.jobrouter.RouterQueueSelector
-    - name: azure.communication.jobrouter.RouterQueueStatistics
-      uid: azure.communication.jobrouter.RouterQueueStatistics
-    - name: azure.communication.jobrouter.RouterRule
-      uid: azure.communication.jobrouter.RouterRule
-    - name: azure.communication.jobrouter.RouterWorker
-      uid: azure.communication.jobrouter.RouterWorker
-    - name: azure.communication.jobrouter.RouterWorkerAssignment
-      uid: azure.communication.jobrouter.RouterWorkerAssignment
-    - name: azure.communication.jobrouter.RouterWorkerItem
-      uid: azure.communication.jobrouter.RouterWorkerItem
-    - name: azure.communication.jobrouter.RouterWorkerSelector
-      uid: azure.communication.jobrouter.RouterWorkerSelector
-    - name: azure.communication.jobrouter.RouterWorkerSelectorStatus
-      uid: azure.communication.jobrouter.RouterWorkerSelectorStatus
-    - name: azure.communication.jobrouter.RouterWorkerState
-      uid: azure.communication.jobrouter.RouterWorkerState
-    - name: azure.communication.jobrouter.RuleEngineQueueSelectorAttachment
-      uid: azure.communication.jobrouter.RuleEngineQueueSelectorAttachment
-    - name: azure.communication.jobrouter.RuleEngineWorkerSelectorAttachment
-      uid: azure.communication.jobrouter.RuleEngineWorkerSelectorAttachment
-    - name: azure.communication.jobrouter.ScheduleAndSuspendMode
-      uid: azure.communication.jobrouter.ScheduleAndSuspendMode
-    - name: azure.communication.jobrouter.ScoringRuleOptions
-      uid: azure.communication.jobrouter.ScoringRuleOptions
-    - name: azure.communication.jobrouter.ScoringRuleParameterSelector
-      uid: azure.communication.jobrouter.ScoringRuleParameterSelector
-    - name: azure.communication.jobrouter.StaticQueueSelectorAttachment
-      uid: azure.communication.jobrouter.StaticQueueSelectorAttachment
-    - name: azure.communication.jobrouter.StaticRouterRule
-      uid: azure.communication.jobrouter.StaticRouterRule
-    - name: azure.communication.jobrouter.StaticWorkerSelectorAttachment
-      uid: azure.communication.jobrouter.StaticWorkerSelectorAttachment
-    - name: azure.communication.jobrouter.UnassignJobResult
-      uid: azure.communication.jobrouter.UnassignJobResult
-    - name: azure.communication.jobrouter.WaitTimeExceptionTrigger
-      uid: azure.communication.jobrouter.WaitTimeExceptionTrigger
-    - name: azure.communication.jobrouter.WeightedAllocationQueueSelectorAttachment
-      uid: azure.communication.jobrouter.WeightedAllocationQueueSelectorAttachment
-    - name: azure.communication.jobrouter.WeightedAllocationWorkerSelectorAttachment
-      uid: azure.communication.jobrouter.WeightedAllocationWorkerSelectorAttachment
-    - name: azure.communication.jobrouter.WorkerSelectorAttachment
-      uid: azure.communication.jobrouter.WorkerSelectorAttachment
-    - name: azure.communication.jobrouter.WorkerWeightedAllocation
-      uid: azure.communication.jobrouter.WorkerWeightedAllocation
     name: azure.communication.jobrouter
   name: azure-communication-jobrouter
 - items:
@@ -3738,10 +3792,10 @@
       uid: azure.communication.rooms.CommunicationUserIdentifier
     - name: azure.communication.rooms.CommunicationUserProperties
       uid: azure.communication.rooms.CommunicationUserProperties
-    - name: azure.communication.rooms.MicrosoftBotIdentifier
-      uid: azure.communication.rooms.MicrosoftBotIdentifier
-    - name: azure.communication.rooms.MicrosoftBotProperties
-      uid: azure.communication.rooms.MicrosoftBotProperties
+    - name: azure.communication.rooms.MicrosoftTeamsAppIdentifier
+      uid: azure.communication.rooms.MicrosoftTeamsAppIdentifier
+    - name: azure.communication.rooms.MicrosoftTeamsAppProperties
+      uid: azure.communication.rooms.MicrosoftTeamsAppProperties
     - name: azure.communication.rooms.MicrosoftTeamsUserIdentifier
       uid: azure.communication.rooms.MicrosoftTeamsUserIdentifier
     - name: azure.communication.rooms.MicrosoftTeamsUserProperties
@@ -4077,47 +4131,9 @@
     - items:
       - name: Overview
         uid: azure.eventgrid.aio
-      - name: azure.eventgrid.aio.EventGridClient
-        uid: azure.eventgrid.aio.EventGridClient
       - name: azure.eventgrid.aio.EventGridPublisherClient
         uid: azure.eventgrid.aio.EventGridPublisherClient
       name: azure.eventgrid.aio
-    - items:
-      - name: Overview
-        uid: azure.eventgrid.models
-      - name: azure.eventgrid.models.AcknowledgeOptions
-        uid: azure.eventgrid.models.AcknowledgeOptions
-      - name: azure.eventgrid.models.AcknowledgeResult
-        uid: azure.eventgrid.models.AcknowledgeResult
-      - name: azure.eventgrid.models.BrokerProperties
-        uid: azure.eventgrid.models.BrokerProperties
-      - name: azure.eventgrid.models.Error
-        uid: azure.eventgrid.models.Error
-      - name: azure.eventgrid.models.FailedLockToken
-        uid: azure.eventgrid.models.FailedLockToken
-      - name: azure.eventgrid.models.InnerError
-        uid: azure.eventgrid.models.InnerError
-      - name: azure.eventgrid.models.ReceiveDetails
-        uid: azure.eventgrid.models.ReceiveDetails
-      - name: azure.eventgrid.models.ReceiveResult
-        uid: azure.eventgrid.models.ReceiveResult
-      - name: azure.eventgrid.models.RejectOptions
-        uid: azure.eventgrid.models.RejectOptions
-      - name: azure.eventgrid.models.RejectResult
-        uid: azure.eventgrid.models.RejectResult
-      - name: azure.eventgrid.models.ReleaseDelay
-        uid: azure.eventgrid.models.ReleaseDelay
-      - name: azure.eventgrid.models.ReleaseOptions
-        uid: azure.eventgrid.models.ReleaseOptions
-      - name: azure.eventgrid.models.ReleaseResult
-        uid: azure.eventgrid.models.ReleaseResult
-      - name: azure.eventgrid.models.RenewCloudEventLocksResult
-        uid: azure.eventgrid.models.RenewCloudEventLocksResult
-      - name: azure.eventgrid.models.RenewLockOptions
-        uid: azure.eventgrid.models.RenewLockOptions
-      name: azure.eventgrid.models
-    - name: azure.eventgrid.EventGridClient
-      uid: azure.eventgrid.EventGridClient
     - name: azure.eventgrid.EventGridEvent
       uid: azure.eventgrid.EventGridEvent
     - name: azure.eventgrid.EventGridPublisherClient
@@ -4400,8 +4416,6 @@
       uid: azure.identity.broker
     - name: azure.identity.broker.InteractiveBrowserBrokerCredential
       uid: azure.identity.broker.InteractiveBrowserBrokerCredential
-    - name: azure.identity.broker.UsernamePasswordBrokerCredential
-      uid: azure.identity.broker.UsernamePasswordBrokerCredential
     name: azure.identity.broker
   name: azure-identity-broker
 - items:
@@ -4714,18 +4728,6 @@
           uid: azure.keyvault.keys.crypto.aio
         - name: azure.keyvault.keys.crypto.aio.CryptographyClient
           uid: azure.keyvault.keys.crypto.aio.CryptographyClient
-        - name: azure.keyvault.keys.crypto.aio.EncryptResult
-          uid: azure.keyvault.keys.crypto.aio.EncryptResult
-        - name: azure.keyvault.keys.crypto.aio.EncryptionAlgorithm
-          uid: azure.keyvault.keys.crypto.aio.EncryptionAlgorithm
-        - name: azure.keyvault.keys.crypto.aio.KeyWrapAlgorithm
-          uid: azure.keyvault.keys.crypto.aio.KeyWrapAlgorithm
-        - name: azure.keyvault.keys.crypto.aio.SignResult
-          uid: azure.keyvault.keys.crypto.aio.SignResult
-        - name: azure.keyvault.keys.crypto.aio.SignatureAlgorithm
-          uid: azure.keyvault.keys.crypto.aio.SignatureAlgorithm
-        - name: azure.keyvault.keys.crypto.aio.WrapResult
-          uid: azure.keyvault.keys.crypto.aio.WrapResult
         name: azure.keyvault.keys.crypto.aio
       - name: azure.keyvault.keys.crypto.CryptographyClient
         uid: azure.keyvault.keys.crypto.CryptographyClient
@@ -5485,10 +5487,10 @@
     - items:
       - name: Overview
         uid: azure.messaging.webpubsubclient.models
+      - name: azure.messaging.webpubsubclient.models.AckMessageError
+        uid: azure.messaging.webpubsubclient.models.AckMessageError
       - name: azure.messaging.webpubsubclient.models.CallbackType
         uid: azure.messaging.webpubsubclient.models.CallbackType
-      - name: azure.messaging.webpubsubclient.models.DisconnectedError
-        uid: azure.messaging.webpubsubclient.models.DisconnectedError
       - name: azure.messaging.webpubsubclient.models.OnConnectedArgs
         uid: azure.messaging.webpubsubclient.models.OnConnectedArgs
       - name: azure.messaging.webpubsubclient.models.OnDisconnectedArgs
@@ -5499,16 +5501,10 @@
         uid: azure.messaging.webpubsubclient.models.OnRejoinGroupFailedArgs
       - name: azure.messaging.webpubsubclient.models.OnServerDataMessageArgs
         uid: azure.messaging.webpubsubclient.models.OnServerDataMessageArgs
-      - name: azure.messaging.webpubsubclient.models.OpenWebSocketError
-        uid: azure.messaging.webpubsubclient.models.OpenWebSocketError
+      - name: azure.messaging.webpubsubclient.models.OpenClientError
+        uid: azure.messaging.webpubsubclient.models.OpenClientError
       - name: azure.messaging.webpubsubclient.models.SendMessageError
         uid: azure.messaging.webpubsubclient.models.SendMessageError
-      - name: azure.messaging.webpubsubclient.models.StartClientError
-        uid: azure.messaging.webpubsubclient.models.StartClientError
-      - name: azure.messaging.webpubsubclient.models.StartNotStoppedClientError
-        uid: azure.messaging.webpubsubclient.models.StartNotStoppedClientError
-      - name: azure.messaging.webpubsubclient.models.StartStoppingClientError
-        uid: azure.messaging.webpubsubclient.models.StartStoppingClientError
       - name: azure.messaging.webpubsubclient.models.WebPubSubDataType
         uid: azure.messaging.webpubsubclient.models.WebPubSubDataType
       - name: azure.messaging.webpubsubclient.models.WebPubSubProtocolType
@@ -8372,8 +8368,6 @@
           uid: azure.mgmt.cdn.aio.operations.SecretsOperations
         - name: azure.mgmt.cdn.aio.operations.SecurityPoliciesOperations
           uid: azure.mgmt.cdn.aio.operations.SecurityPoliciesOperations
-        - name: azure.mgmt.cdn.aio.operations.ValidateOperations
-          uid: azure.mgmt.cdn.aio.operations.ValidateOperations
         name: azure.mgmt.cdn.aio.operations
       - name: azure.mgmt.cdn.aio.CdnManagementClient
         uid: azure.mgmt.cdn.aio.CdnManagementClient
@@ -8467,6 +8461,12 @@
         uid: azure.mgmt.cdn.models.CacheKeyQueryStringActionParametersTypeName
       - name: azure.mgmt.cdn.models.CacheType
         uid: azure.mgmt.cdn.models.CacheType
+      - name: azure.mgmt.cdn.models.CanMigrateDefaultSku
+        uid: azure.mgmt.cdn.models.CanMigrateDefaultSku
+      - name: azure.mgmt.cdn.models.CanMigrateParameters
+        uid: azure.mgmt.cdn.models.CanMigrateParameters
+      - name: azure.mgmt.cdn.models.CanMigrateResult
+        uid: azure.mgmt.cdn.models.CanMigrateResult
       - name: azure.mgmt.cdn.models.CdnCertificateSourceParameters
         uid: azure.mgmt.cdn.models.CdnCertificateSourceParameters
       - name: azure.mgmt.cdn.models.CdnCertificateSourceParametersTypeName
@@ -8745,6 +8745,10 @@
         uid: azure.mgmt.cdn.models.ManagedRuleSetDefinitionList
       - name: azure.mgmt.cdn.models.ManagedRuleSetList
         uid: azure.mgmt.cdn.models.ManagedRuleSetList
+      - name: azure.mgmt.cdn.models.ManagedServiceIdentity
+        uid: azure.mgmt.cdn.models.ManagedServiceIdentity
+      - name: azure.mgmt.cdn.models.ManagedServiceIdentityType
+        uid: azure.mgmt.cdn.models.ManagedServiceIdentityType
       - name: azure.mgmt.cdn.models.MatchCondition
         uid: azure.mgmt.cdn.models.MatchCondition
       - name: azure.mgmt.cdn.models.MatchProcessingBehavior
@@ -8755,16 +8759,24 @@
         uid: azure.mgmt.cdn.models.MetricAvailability
       - name: azure.mgmt.cdn.models.MetricSpecification
         uid: azure.mgmt.cdn.models.MetricSpecification
+      - name: azure.mgmt.cdn.models.MetricsGranularity
+        uid: azure.mgmt.cdn.models.MetricsGranularity
       - name: azure.mgmt.cdn.models.MetricsResponse
         uid: azure.mgmt.cdn.models.MetricsResponse
-      - name: azure.mgmt.cdn.models.MetricsResponseGranularity
-        uid: azure.mgmt.cdn.models.MetricsResponseGranularity
       - name: azure.mgmt.cdn.models.MetricsResponseSeriesItem
         uid: azure.mgmt.cdn.models.MetricsResponseSeriesItem
-      - name: azure.mgmt.cdn.models.MetricsResponseSeriesItemUnit
-        uid: azure.mgmt.cdn.models.MetricsResponseSeriesItemUnit
       - name: azure.mgmt.cdn.models.MetricsResponseSeriesPropertiesItemsItem
         uid: azure.mgmt.cdn.models.MetricsResponseSeriesPropertiesItemsItem
+      - name: azure.mgmt.cdn.models.MetricsSeriesUnit
+        uid: azure.mgmt.cdn.models.MetricsSeriesUnit
+      - name: azure.mgmt.cdn.models.MigrateResult
+        uid: azure.mgmt.cdn.models.MigrateResult
+      - name: azure.mgmt.cdn.models.MigrationErrorType
+        uid: azure.mgmt.cdn.models.MigrationErrorType
+      - name: azure.mgmt.cdn.models.MigrationParameters
+        uid: azure.mgmt.cdn.models.MigrationParameters
+      - name: azure.mgmt.cdn.models.MigrationWebApplicationFirewallMapping
+        uid: azure.mgmt.cdn.models.MigrationWebApplicationFirewallMapping
       - name: azure.mgmt.cdn.models.MinimumTlsVersion
         uid: azure.mgmt.cdn.models.MinimumTlsVersion
       - name: azure.mgmt.cdn.models.Operation
@@ -8837,6 +8849,8 @@
         uid: azure.mgmt.cdn.models.ProbeProtocol
       - name: azure.mgmt.cdn.models.Profile
         uid: azure.mgmt.cdn.models.Profile
+      - name: azure.mgmt.cdn.models.ProfileChangeSkuWafMapping
+        uid: azure.mgmt.cdn.models.ProfileChangeSkuWafMapping
       - name: azure.mgmt.cdn.models.ProfileListResult
         uid: azure.mgmt.cdn.models.ProfileListResult
       - name: azure.mgmt.cdn.models.ProfileProvisioningState
@@ -8845,6 +8859,8 @@
         uid: azure.mgmt.cdn.models.ProfileResourceState
       - name: azure.mgmt.cdn.models.ProfileUpdateParameters
         uid: azure.mgmt.cdn.models.ProfileUpdateParameters
+      - name: azure.mgmt.cdn.models.ProfileUpgradeParameters
+        uid: azure.mgmt.cdn.models.ProfileUpgradeParameters
       - name: azure.mgmt.cdn.models.ProtocolType
         uid: azure.mgmt.cdn.models.ProtocolType
       - name: azure.mgmt.cdn.models.ProvisioningState
@@ -9099,6 +9115,8 @@
         uid: azure.mgmt.cdn.models.UsageUnit
       - name: azure.mgmt.cdn.models.UsagesListResult
         uid: azure.mgmt.cdn.models.UsagesListResult
+      - name: azure.mgmt.cdn.models.UserAssignedIdentity
+        uid: azure.mgmt.cdn.models.UserAssignedIdentity
       - name: azure.mgmt.cdn.models.UserManagedHttpsParameters
         uid: azure.mgmt.cdn.models.UserManagedHttpsParameters
       - name: azure.mgmt.cdn.models.ValidateCustomDomainInput
@@ -9123,16 +9141,16 @@
         uid: azure.mgmt.cdn.models.WafMatchVariable
       - name: azure.mgmt.cdn.models.WafMetric
         uid: azure.mgmt.cdn.models.WafMetric
+      - name: azure.mgmt.cdn.models.WafMetricsGranularity
+        uid: azure.mgmt.cdn.models.WafMetricsGranularity
       - name: azure.mgmt.cdn.models.WafMetricsResponse
         uid: azure.mgmt.cdn.models.WafMetricsResponse
-      - name: azure.mgmt.cdn.models.WafMetricsResponseGranularity
-        uid: azure.mgmt.cdn.models.WafMetricsResponseGranularity
       - name: azure.mgmt.cdn.models.WafMetricsResponseSeriesItem
         uid: azure.mgmt.cdn.models.WafMetricsResponseSeriesItem
-      - name: azure.mgmt.cdn.models.WafMetricsResponseSeriesItemUnit
-        uid: azure.mgmt.cdn.models.WafMetricsResponseSeriesItemUnit
       - name: azure.mgmt.cdn.models.WafMetricsResponseSeriesPropertiesItemsItem
         uid: azure.mgmt.cdn.models.WafMetricsResponseSeriesPropertiesItemsItem
+      - name: azure.mgmt.cdn.models.WafMetricsSeriesUnit
+        uid: azure.mgmt.cdn.models.WafMetricsSeriesUnit
       - name: azure.mgmt.cdn.models.WafRankingGroupBy
         uid: azure.mgmt.cdn.models.WafRankingGroupBy
       - name: azure.mgmt.cdn.models.WafRankingType
@@ -9191,8 +9209,6 @@
         uid: azure.mgmt.cdn.operations.SecretsOperations
       - name: azure.mgmt.cdn.operations.SecurityPoliciesOperations
         uid: azure.mgmt.cdn.operations.SecurityPoliciesOperations
-      - name: azure.mgmt.cdn.operations.ValidateOperations
-        uid: azure.mgmt.cdn.operations.ValidateOperations
       name: azure.mgmt.cdn.operations
     - name: azure.mgmt.cdn.CdnManagementClient
       uid: azure.mgmt.cdn.CdnManagementClient
@@ -9216,6 +9232,8 @@
           uid: azure.mgmt.chaos.aio.operations.CapabilityTypesOperations
         - name: azure.mgmt.chaos.aio.operations.ExperimentsOperations
           uid: azure.mgmt.chaos.aio.operations.ExperimentsOperations
+        - name: azure.mgmt.chaos.aio.operations.OperationStatusesOperations
+          uid: azure.mgmt.chaos.aio.operations.OperationStatusesOperations
         - name: azure.mgmt.chaos.aio.operations.Operations
           uid: azure.mgmt.chaos.aio.operations.Operations
         - name: azure.mgmt.chaos.aio.operations.TargetTypesOperations
@@ -9229,14 +9247,10 @@
     - items:
       - name: Overview
         uid: azure.mgmt.chaos.models
-      - name: azure.mgmt.chaos.models.Action
-        uid: azure.mgmt.chaos.models.Action
       - name: azure.mgmt.chaos.models.ActionStatus
         uid: azure.mgmt.chaos.models.ActionStatus
       - name: azure.mgmt.chaos.models.ActionType
         uid: azure.mgmt.chaos.models.ActionType
-      - name: azure.mgmt.chaos.models.Branch
-        uid: azure.mgmt.chaos.models.Branch
       - name: azure.mgmt.chaos.models.BranchStatus
         uid: azure.mgmt.chaos.models.BranchStatus
       - name: azure.mgmt.chaos.models.Capability
@@ -9249,6 +9263,24 @@
         uid: azure.mgmt.chaos.models.CapabilityTypeListResult
       - name: azure.mgmt.chaos.models.CapabilityTypePropertiesRuntimeProperties
         uid: azure.mgmt.chaos.models.CapabilityTypePropertiesRuntimeProperties
+      - name: azure.mgmt.chaos.models.ChaosExperimentAction
+        uid: azure.mgmt.chaos.models.ChaosExperimentAction
+      - name: azure.mgmt.chaos.models.ChaosExperimentBranch
+        uid: azure.mgmt.chaos.models.ChaosExperimentBranch
+      - name: azure.mgmt.chaos.models.ChaosExperimentStep
+        uid: azure.mgmt.chaos.models.ChaosExperimentStep
+      - name: azure.mgmt.chaos.models.ChaosTargetFilter
+        uid: azure.mgmt.chaos.models.ChaosTargetFilter
+      - name: azure.mgmt.chaos.models.ChaosTargetListSelector
+        uid: azure.mgmt.chaos.models.ChaosTargetListSelector
+      - name: azure.mgmt.chaos.models.ChaosTargetQuerySelector
+        uid: azure.mgmt.chaos.models.ChaosTargetQuerySelector
+      - name: azure.mgmt.chaos.models.ChaosTargetSelector
+        uid: azure.mgmt.chaos.models.ChaosTargetSelector
+      - name: azure.mgmt.chaos.models.ChaosTargetSimpleFilter
+        uid: azure.mgmt.chaos.models.ChaosTargetSimpleFilter
+      - name: azure.mgmt.chaos.models.ChaosTargetSimpleFilterParameters
+        uid: azure.mgmt.chaos.models.ChaosTargetSimpleFilterParameters
       - name: azure.mgmt.chaos.models.ContinuousAction
         uid: azure.mgmt.chaos.models.ContinuousAction
       - name: azure.mgmt.chaos.models.CreatedByType
@@ -9265,62 +9297,50 @@
         uid: azure.mgmt.chaos.models.ErrorResponse
       - name: azure.mgmt.chaos.models.Experiment
         uid: azure.mgmt.chaos.models.Experiment
-      - name: azure.mgmt.chaos.models.ExperimentCancelOperationResult
-        uid: azure.mgmt.chaos.models.ExperimentCancelOperationResult
+      - name: azure.mgmt.chaos.models.ExperimentExecution
+        uid: azure.mgmt.chaos.models.ExperimentExecution
       - name: azure.mgmt.chaos.models.ExperimentExecutionActionTargetDetailsError
         uid: azure.mgmt.chaos.models.ExperimentExecutionActionTargetDetailsError
       - name: azure.mgmt.chaos.models.ExperimentExecutionActionTargetDetailsProperties
         uid: azure.mgmt.chaos.models.ExperimentExecutionActionTargetDetailsProperties
       - name: azure.mgmt.chaos.models.ExperimentExecutionDetails
         uid: azure.mgmt.chaos.models.ExperimentExecutionDetails
-      - name: azure.mgmt.chaos.models.ExperimentExecutionDetailsListResult
-        uid: azure.mgmt.chaos.models.ExperimentExecutionDetailsListResult
+      - name: azure.mgmt.chaos.models.ExperimentExecutionDetailsProperties
+        uid: azure.mgmt.chaos.models.ExperimentExecutionDetailsProperties
       - name: azure.mgmt.chaos.models.ExperimentExecutionDetailsPropertiesRunInformation
         uid: azure.mgmt.chaos.models.ExperimentExecutionDetailsPropertiesRunInformation
+      - name: azure.mgmt.chaos.models.ExperimentExecutionListResult
+        uid: azure.mgmt.chaos.models.ExperimentExecutionListResult
+      - name: azure.mgmt.chaos.models.ExperimentExecutionProperties
+        uid: azure.mgmt.chaos.models.ExperimentExecutionProperties
       - name: azure.mgmt.chaos.models.ExperimentListResult
         uid: azure.mgmt.chaos.models.ExperimentListResult
-      - name: azure.mgmt.chaos.models.ExperimentStartOperationResult
-        uid: azure.mgmt.chaos.models.ExperimentStartOperationResult
-      - name: azure.mgmt.chaos.models.ExperimentStatus
-        uid: azure.mgmt.chaos.models.ExperimentStatus
-      - name: azure.mgmt.chaos.models.ExperimentStatusListResult
-        uid: azure.mgmt.chaos.models.ExperimentStatusListResult
       - name: azure.mgmt.chaos.models.ExperimentUpdate
         uid: azure.mgmt.chaos.models.ExperimentUpdate
-      - name: azure.mgmt.chaos.models.Filter
-        uid: azure.mgmt.chaos.models.Filter
       - name: azure.mgmt.chaos.models.FilterType
         uid: azure.mgmt.chaos.models.FilterType
       - name: azure.mgmt.chaos.models.KeyValuePair
         uid: azure.mgmt.chaos.models.KeyValuePair
-      - name: azure.mgmt.chaos.models.ListSelector
-        uid: azure.mgmt.chaos.models.ListSelector
       - name: azure.mgmt.chaos.models.Operation
         uid: azure.mgmt.chaos.models.Operation
       - name: azure.mgmt.chaos.models.OperationDisplay
         uid: azure.mgmt.chaos.models.OperationDisplay
       - name: azure.mgmt.chaos.models.OperationListResult
         uid: azure.mgmt.chaos.models.OperationListResult
+      - name: azure.mgmt.chaos.models.OperationStatus
+        uid: azure.mgmt.chaos.models.OperationStatus
       - name: azure.mgmt.chaos.models.Origin
         uid: azure.mgmt.chaos.models.Origin
-      - name: azure.mgmt.chaos.models.QuerySelector
-        uid: azure.mgmt.chaos.models.QuerySelector
+      - name: azure.mgmt.chaos.models.ProvisioningState
+        uid: azure.mgmt.chaos.models.ProvisioningState
       - name: azure.mgmt.chaos.models.Resource
         uid: azure.mgmt.chaos.models.Resource
       - name: azure.mgmt.chaos.models.ResourceIdentity
         uid: azure.mgmt.chaos.models.ResourceIdentity
       - name: azure.mgmt.chaos.models.ResourceIdentityType
         uid: azure.mgmt.chaos.models.ResourceIdentityType
-      - name: azure.mgmt.chaos.models.Selector
-        uid: azure.mgmt.chaos.models.Selector
       - name: azure.mgmt.chaos.models.SelectorType
         uid: azure.mgmt.chaos.models.SelectorType
-      - name: azure.mgmt.chaos.models.SimpleFilter
-        uid: azure.mgmt.chaos.models.SimpleFilter
-      - name: azure.mgmt.chaos.models.SimpleFilterParameters
-        uid: azure.mgmt.chaos.models.SimpleFilterParameters
-      - name: azure.mgmt.chaos.models.Step
-        uid: azure.mgmt.chaos.models.Step
       - name: azure.mgmt.chaos.models.StepStatus
         uid: azure.mgmt.chaos.models.StepStatus
       - name: azure.mgmt.chaos.models.SystemData
@@ -9351,6 +9371,8 @@
         uid: azure.mgmt.chaos.operations.CapabilityTypesOperations
       - name: azure.mgmt.chaos.operations.ExperimentsOperations
         uid: azure.mgmt.chaos.operations.ExperimentsOperations
+      - name: azure.mgmt.chaos.operations.OperationStatusesOperations
+        uid: azure.mgmt.chaos.operations.OperationStatusesOperations
       - name: azure.mgmt.chaos.operations.Operations
         uid: azure.mgmt.chaos.operations.Operations
       - name: azure.mgmt.chaos.operations.TargetTypesOperations
@@ -9702,6 +9724,8 @@
       - items:
         - name: Overview
           uid: azure.mgmt.confluent.aio.operations
+        - name: azure.mgmt.confluent.aio.operations.AccessOperations
+          uid: azure.mgmt.confluent.aio.operations.AccessOperations
         - name: azure.mgmt.confluent.aio.operations.MarketplaceAgreementsOperations
           uid: azure.mgmt.confluent.aio.operations.MarketplaceAgreementsOperations
         - name: azure.mgmt.confluent.aio.operations.OrganizationOperations
@@ -9717,14 +9741,56 @@
     - items:
       - name: Overview
         uid: azure.mgmt.confluent.models
+      - name: azure.mgmt.confluent.models.AccessInviteUserAccountModel
+        uid: azure.mgmt.confluent.models.AccessInviteUserAccountModel
+      - name: azure.mgmt.confluent.models.AccessInvitedUserDetails
+        uid: azure.mgmt.confluent.models.AccessInvitedUserDetails
+      - name: azure.mgmt.confluent.models.AccessListClusterSuccessResponse
+        uid: azure.mgmt.confluent.models.AccessListClusterSuccessResponse
+      - name: azure.mgmt.confluent.models.AccessListEnvironmentsSuccessResponse
+        uid: azure.mgmt.confluent.models.AccessListEnvironmentsSuccessResponse
+      - name: azure.mgmt.confluent.models.AccessListInvitationsSuccessResponse
+        uid: azure.mgmt.confluent.models.AccessListInvitationsSuccessResponse
+      - name: azure.mgmt.confluent.models.AccessListRoleBindingsSuccessResponse
+        uid: azure.mgmt.confluent.models.AccessListRoleBindingsSuccessResponse
+      - name: azure.mgmt.confluent.models.AccessListServiceAccountsSuccessResponse
+        uid: azure.mgmt.confluent.models.AccessListServiceAccountsSuccessResponse
+      - name: azure.mgmt.confluent.models.AccessListUsersSuccessResponse
+        uid: azure.mgmt.confluent.models.AccessListUsersSuccessResponse
+      - name: azure.mgmt.confluent.models.ClusterByokEntity
+        uid: azure.mgmt.confluent.models.ClusterByokEntity
+      - name: azure.mgmt.confluent.models.ClusterConfigEntity
+        uid: azure.mgmt.confluent.models.ClusterConfigEntity
+      - name: azure.mgmt.confluent.models.ClusterEnvironmentEntity
+        uid: azure.mgmt.confluent.models.ClusterEnvironmentEntity
+      - name: azure.mgmt.confluent.models.ClusterNetworkEntity
+        uid: azure.mgmt.confluent.models.ClusterNetworkEntity
+      - name: azure.mgmt.confluent.models.ClusterRecord
+        uid: azure.mgmt.confluent.models.ClusterRecord
+      - name: azure.mgmt.confluent.models.ClusterSpecEntity
+        uid: azure.mgmt.confluent.models.ClusterSpecEntity
+      - name: azure.mgmt.confluent.models.ClusterStatusEntity
+        uid: azure.mgmt.confluent.models.ClusterStatusEntity
       - name: azure.mgmt.confluent.models.ConfluentAgreementResource
         uid: azure.mgmt.confluent.models.ConfluentAgreementResource
       - name: azure.mgmt.confluent.models.ConfluentAgreementResourceListResponse
         uid: azure.mgmt.confluent.models.ConfluentAgreementResourceListResponse
+      - name: azure.mgmt.confluent.models.ConfluentListMetadata
+        uid: azure.mgmt.confluent.models.ConfluentListMetadata
       - name: azure.mgmt.confluent.models.CreatedByType
         uid: azure.mgmt.confluent.models.CreatedByType
+      - name: azure.mgmt.confluent.models.EnvironmentRecord
+        uid: azure.mgmt.confluent.models.EnvironmentRecord
       - name: azure.mgmt.confluent.models.ErrorResponseBody
         uid: azure.mgmt.confluent.models.ErrorResponseBody
+      - name: azure.mgmt.confluent.models.InvitationRecord
+        uid: azure.mgmt.confluent.models.InvitationRecord
+      - name: azure.mgmt.confluent.models.LinkOrganization
+        uid: azure.mgmt.confluent.models.LinkOrganization
+      - name: azure.mgmt.confluent.models.ListAccessRequestModel
+        uid: azure.mgmt.confluent.models.ListAccessRequestModel
+      - name: azure.mgmt.confluent.models.MetadataEntity
+        uid: azure.mgmt.confluent.models.MetadataEntity
       - name: azure.mgmt.confluent.models.OfferDetail
         uid: azure.mgmt.confluent.models.OfferDetail
       - name: azure.mgmt.confluent.models.OperationDisplay
@@ -9743,16 +9809,26 @@
         uid: azure.mgmt.confluent.models.ProvisionState
       - name: azure.mgmt.confluent.models.ResourceProviderDefaultErrorResponse
         uid: azure.mgmt.confluent.models.ResourceProviderDefaultErrorResponse
+      - name: azure.mgmt.confluent.models.RoleBindingRecord
+        uid: azure.mgmt.confluent.models.RoleBindingRecord
       - name: azure.mgmt.confluent.models.SaaSOfferStatus
         uid: azure.mgmt.confluent.models.SaaSOfferStatus
+      - name: azure.mgmt.confluent.models.ServiceAccountRecord
+        uid: azure.mgmt.confluent.models.ServiceAccountRecord
       - name: azure.mgmt.confluent.models.SystemData
         uid: azure.mgmt.confluent.models.SystemData
       - name: azure.mgmt.confluent.models.UserDetail
         uid: azure.mgmt.confluent.models.UserDetail
+      - name: azure.mgmt.confluent.models.UserRecord
+        uid: azure.mgmt.confluent.models.UserRecord
+      - name: azure.mgmt.confluent.models.ValidationResponse
+        uid: azure.mgmt.confluent.models.ValidationResponse
       name: azure.mgmt.confluent.models
     - items:
       - name: Overview
         uid: azure.mgmt.confluent.operations
+      - name: azure.mgmt.confluent.operations.AccessOperations
+        uid: azure.mgmt.confluent.operations.AccessOperations
       - name: azure.mgmt.confluent.operations.MarketplaceAgreementsOperations
         uid: azure.mgmt.confluent.operations.MarketplaceAgreementsOperations
       - name: azure.mgmt.confluent.operations.OrganizationOperations
@@ -10994,6 +11070,148 @@
       - name: azure.mgmt.containerservicefleet.v2023_08_15_preview.ContainerServiceFleetMgmtClient
         uid: azure.mgmt.containerservicefleet.v2023_08_15_preview.ContainerServiceFleetMgmtClient
       name: azure.mgmt.containerservicefleet.v2023_08_15_preview
+    - items:
+      - name: Overview
+        uid: azure.mgmt.containerservicefleet.v2023_10_15
+      - items:
+        - name: Overview
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.aio
+        - items:
+          - name: Overview
+            uid: azure.mgmt.containerservicefleet.v2023_10_15.aio.operations
+          - name: azure.mgmt.containerservicefleet.v2023_10_15.aio.operations.FleetMembersOperations
+            uid: azure.mgmt.containerservicefleet.v2023_10_15.aio.operations.FleetMembersOperations
+          - name: azure.mgmt.containerservicefleet.v2023_10_15.aio.operations.FleetUpdateStrategiesOperations
+            uid: azure.mgmt.containerservicefleet.v2023_10_15.aio.operations.FleetUpdateStrategiesOperations
+          - name: azure.mgmt.containerservicefleet.v2023_10_15.aio.operations.FleetsOperations
+            uid: azure.mgmt.containerservicefleet.v2023_10_15.aio.operations.FleetsOperations
+          - name: azure.mgmt.containerservicefleet.v2023_10_15.aio.operations.Operations
+            uid: azure.mgmt.containerservicefleet.v2023_10_15.aio.operations.Operations
+          - name: azure.mgmt.containerservicefleet.v2023_10_15.aio.operations.UpdateRunsOperations
+            uid: azure.mgmt.containerservicefleet.v2023_10_15.aio.operations.UpdateRunsOperations
+          name: azure.mgmt.containerservicefleet.v2023_10_15.aio.operations
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.aio.ContainerServiceFleetMgmtClient
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.aio.ContainerServiceFleetMgmtClient
+        name: azure.mgmt.containerservicefleet.v2023_10_15.aio
+      - items:
+        - name: Overview
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.ActionType
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.ActionType
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.CreatedByType
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.CreatedByType
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.ErrorAdditionalInfo
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.ErrorAdditionalInfo
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.ErrorDetail
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.ErrorDetail
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.ErrorResponse
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.ErrorResponse
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.Fleet
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.Fleet
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetCredentialResult
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetCredentialResult
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetCredentialResults
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetCredentialResults
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetListResult
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetListResult
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetMember
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetMember
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetMemberListResult
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetMemberListResult
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetMemberProvisioningState
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetMemberProvisioningState
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetMemberUpdate
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetMemberUpdate
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetPatch
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetPatch
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetProvisioningState
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetProvisioningState
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetUpdateStrategy
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetUpdateStrategy
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetUpdateStrategyListResult
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetUpdateStrategyListResult
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetUpdateStrategyProvisioningState
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.FleetUpdateStrategyProvisioningState
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.ManagedClusterUpdate
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.ManagedClusterUpdate
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.ManagedClusterUpgradeSpec
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.ManagedClusterUpgradeSpec
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.ManagedClusterUpgradeType
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.ManagedClusterUpgradeType
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.ManagedServiceIdentity
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.ManagedServiceIdentity
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.ManagedServiceIdentityType
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.ManagedServiceIdentityType
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.MemberUpdateStatus
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.MemberUpdateStatus
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.NodeImageSelection
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.NodeImageSelection
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.NodeImageSelectionStatus
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.NodeImageSelectionStatus
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.NodeImageSelectionType
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.NodeImageSelectionType
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.NodeImageVersion
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.NodeImageVersion
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.Operation
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.Operation
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.OperationDisplay
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.OperationDisplay
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.OperationListResult
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.OperationListResult
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.Origin
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.Origin
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.ProxyResource
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.ProxyResource
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.Resource
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.Resource
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.SystemData
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.SystemData
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.TrackedResource
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.TrackedResource
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateGroup
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateGroup
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateGroupStatus
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateGroupStatus
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateRun
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateRun
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateRunListResult
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateRunListResult
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateRunProvisioningState
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateRunProvisioningState
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateRunStatus
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateRunStatus
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateRunStrategy
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateRunStrategy
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateStage
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateStage
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateStageStatus
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateStageStatus
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateState
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateState
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateStatus
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.UpdateStatus
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.UserAssignedIdentity
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.UserAssignedIdentity
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.models.WaitStatus
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.models.WaitStatus
+        name: azure.mgmt.containerservicefleet.v2023_10_15.models
+      - items:
+        - name: Overview
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.operations
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.operations.FleetMembersOperations
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.operations.FleetMembersOperations
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.operations.FleetUpdateStrategiesOperations
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.operations.FleetUpdateStrategiesOperations
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.operations.FleetsOperations
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.operations.FleetsOperations
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.operations.Operations
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.operations.Operations
+        - name: azure.mgmt.containerservicefleet.v2023_10_15.operations.UpdateRunsOperations
+          uid: azure.mgmt.containerservicefleet.v2023_10_15.operations.UpdateRunsOperations
+        name: azure.mgmt.containerservicefleet.v2023_10_15.operations
+      - name: azure.mgmt.containerservicefleet.v2023_10_15.ContainerServiceFleetMgmtClient
+        uid: azure.mgmt.containerservicefleet.v2023_10_15.ContainerServiceFleetMgmtClient
+      name: azure.mgmt.containerservicefleet.v2023_10_15
     - name: azure.mgmt.containerservicefleet.ContainerServiceFleetMgmtClient
       uid: azure.mgmt.containerservicefleet.ContainerServiceFleetMgmtClient
     name: azure.mgmt.containerservicefleet
@@ -12082,6 +12300,8 @@
           uid: azure.mgmt.dashboard.aio.operations
         - name: azure.mgmt.dashboard.aio.operations.GrafanaOperations
           uid: azure.mgmt.dashboard.aio.operations.GrafanaOperations
+        - name: azure.mgmt.dashboard.aio.operations.ManagedPrivateEndpointsOperations
+          uid: azure.mgmt.dashboard.aio.operations.ManagedPrivateEndpointsOperations
         - name: azure.mgmt.dashboard.aio.operations.Operations
           uid: azure.mgmt.dashboard.aio.operations.Operations
         - name: azure.mgmt.dashboard.aio.operations.PrivateEndpointConnectionsOperations
@@ -12101,20 +12321,34 @@
         uid: azure.mgmt.dashboard.models.ApiKey
       - name: azure.mgmt.dashboard.models.AutoGeneratedDomainNameLabelScope
         uid: azure.mgmt.dashboard.models.AutoGeneratedDomainNameLabelScope
+      - name: azure.mgmt.dashboard.models.AvailablePromotion
+        uid: azure.mgmt.dashboard.models.AvailablePromotion
       - name: azure.mgmt.dashboard.models.AzureMonitorWorkspaceIntegration
         uid: azure.mgmt.dashboard.models.AzureMonitorWorkspaceIntegration
       - name: azure.mgmt.dashboard.models.CreatedByType
         uid: azure.mgmt.dashboard.models.CreatedByType
       - name: azure.mgmt.dashboard.models.DeterministicOutboundIP
         uid: azure.mgmt.dashboard.models.DeterministicOutboundIP
+      - name: azure.mgmt.dashboard.models.EnterpriseConfigurations
+        uid: azure.mgmt.dashboard.models.EnterpriseConfigurations
+      - name: azure.mgmt.dashboard.models.EnterpriseDetails
+        uid: azure.mgmt.dashboard.models.EnterpriseDetails
       - name: azure.mgmt.dashboard.models.ErrorAdditionalInfo
         uid: azure.mgmt.dashboard.models.ErrorAdditionalInfo
       - name: azure.mgmt.dashboard.models.ErrorDetail
         uid: azure.mgmt.dashboard.models.ErrorDetail
       - name: azure.mgmt.dashboard.models.ErrorResponse
         uid: azure.mgmt.dashboard.models.ErrorResponse
+      - name: azure.mgmt.dashboard.models.GrafanaAvailablePlugin
+        uid: azure.mgmt.dashboard.models.GrafanaAvailablePlugin
+      - name: azure.mgmt.dashboard.models.GrafanaAvailablePluginListResponse
+        uid: azure.mgmt.dashboard.models.GrafanaAvailablePluginListResponse
+      - name: azure.mgmt.dashboard.models.GrafanaConfigurations
+        uid: azure.mgmt.dashboard.models.GrafanaConfigurations
       - name: azure.mgmt.dashboard.models.GrafanaIntegrations
         uid: azure.mgmt.dashboard.models.GrafanaIntegrations
+      - name: azure.mgmt.dashboard.models.GrafanaPlugin
+        uid: azure.mgmt.dashboard.models.GrafanaPlugin
       - name: azure.mgmt.dashboard.models.ManagedGrafana
         uid: azure.mgmt.dashboard.models.ManagedGrafana
       - name: azure.mgmt.dashboard.models.ManagedGrafanaListResponse
@@ -12125,10 +12359,24 @@
         uid: azure.mgmt.dashboard.models.ManagedGrafanaPropertiesUpdateParameters
       - name: azure.mgmt.dashboard.models.ManagedGrafanaUpdateParameters
         uid: azure.mgmt.dashboard.models.ManagedGrafanaUpdateParameters
+      - name: azure.mgmt.dashboard.models.ManagedPrivateEndpointConnectionState
+        uid: azure.mgmt.dashboard.models.ManagedPrivateEndpointConnectionState
+      - name: azure.mgmt.dashboard.models.ManagedPrivateEndpointConnectionStatus
+        uid: azure.mgmt.dashboard.models.ManagedPrivateEndpointConnectionStatus
+      - name: azure.mgmt.dashboard.models.ManagedPrivateEndpointModel
+        uid: azure.mgmt.dashboard.models.ManagedPrivateEndpointModel
+      - name: azure.mgmt.dashboard.models.ManagedPrivateEndpointModelListResponse
+        uid: azure.mgmt.dashboard.models.ManagedPrivateEndpointModelListResponse
+      - name: azure.mgmt.dashboard.models.ManagedPrivateEndpointUpdateParameters
+        uid: azure.mgmt.dashboard.models.ManagedPrivateEndpointUpdateParameters
       - name: azure.mgmt.dashboard.models.ManagedServiceIdentity
         uid: azure.mgmt.dashboard.models.ManagedServiceIdentity
       - name: azure.mgmt.dashboard.models.ManagedServiceIdentityType
         uid: azure.mgmt.dashboard.models.ManagedServiceIdentityType
+      - name: azure.mgmt.dashboard.models.MarketplaceAutoRenew
+        uid: azure.mgmt.dashboard.models.MarketplaceAutoRenew
+      - name: azure.mgmt.dashboard.models.MarketplaceTrialQuota
+        uid: azure.mgmt.dashboard.models.MarketplaceTrialQuota
       - name: azure.mgmt.dashboard.models.Operation
         uid: azure.mgmt.dashboard.models.Operation
       - name: azure.mgmt.dashboard.models.OperationDisplay
@@ -12161,8 +12409,18 @@
         uid: azure.mgmt.dashboard.models.Resource
       - name: azure.mgmt.dashboard.models.ResourceSku
         uid: azure.mgmt.dashboard.models.ResourceSku
+      - name: azure.mgmt.dashboard.models.SaasSubscriptionDetails
+        uid: azure.mgmt.dashboard.models.SaasSubscriptionDetails
+      - name: azure.mgmt.dashboard.models.Smtp
+        uid: azure.mgmt.dashboard.models.Smtp
+      - name: azure.mgmt.dashboard.models.StartTLSPolicy
+        uid: azure.mgmt.dashboard.models.StartTLSPolicy
+      - name: azure.mgmt.dashboard.models.SubscriptionTerm
+        uid: azure.mgmt.dashboard.models.SubscriptionTerm
       - name: azure.mgmt.dashboard.models.SystemData
         uid: azure.mgmt.dashboard.models.SystemData
+      - name: azure.mgmt.dashboard.models.TrackedResource
+        uid: azure.mgmt.dashboard.models.TrackedResource
       - name: azure.mgmt.dashboard.models.UserAssignedIdentity
         uid: azure.mgmt.dashboard.models.UserAssignedIdentity
       - name: azure.mgmt.dashboard.models.ZoneRedundancy
@@ -12173,6 +12431,8 @@
         uid: azure.mgmt.dashboard.operations
       - name: azure.mgmt.dashboard.operations.GrafanaOperations
         uid: azure.mgmt.dashboard.operations.GrafanaOperations
+      - name: azure.mgmt.dashboard.operations.ManagedPrivateEndpointsOperations
+        uid: azure.mgmt.dashboard.operations.ManagedPrivateEndpointsOperations
       - name: azure.mgmt.dashboard.operations.Operations
         uid: azure.mgmt.dashboard.operations.Operations
       - name: azure.mgmt.dashboard.operations.PrivateEndpointConnectionsOperations
@@ -16202,8 +16462,12 @@
       - items:
         - name: Overview
           uid: azure.mgmt.datadog.aio.operations
+        - name: azure.mgmt.datadog.aio.operations.CreationSupportedOperations
+          uid: azure.mgmt.datadog.aio.operations.CreationSupportedOperations
         - name: azure.mgmt.datadog.aio.operations.MarketplaceAgreementsOperations
           uid: azure.mgmt.datadog.aio.operations.MarketplaceAgreementsOperations
+        - name: azure.mgmt.datadog.aio.operations.MonitoredSubscriptionsOperations
+          uid: azure.mgmt.datadog.aio.operations.MonitoredSubscriptionsOperations
         - name: azure.mgmt.datadog.aio.operations.MonitorsOperations
           uid: azure.mgmt.datadog.aio.operations.MonitorsOperations
         - name: azure.mgmt.datadog.aio.operations.Operations
@@ -16219,6 +16483,12 @@
     - items:
       - name: Overview
         uid: azure.mgmt.datadog.models
+      - name: azure.mgmt.datadog.models.CreateResourceSupportedProperties
+        uid: azure.mgmt.datadog.models.CreateResourceSupportedProperties
+      - name: azure.mgmt.datadog.models.CreateResourceSupportedResponse
+        uid: azure.mgmt.datadog.models.CreateResourceSupportedResponse
+      - name: azure.mgmt.datadog.models.CreateResourceSupportedResponseList
+        uid: azure.mgmt.datadog.models.CreateResourceSupportedResponseList
       - name: azure.mgmt.datadog.models.CreatedByType
         uid: azure.mgmt.datadog.models.CreatedByType
       - name: azure.mgmt.datadog.models.DatadogAgreementProperties
@@ -16289,6 +16559,12 @@
         uid: azure.mgmt.datadog.models.MonitoredResource
       - name: azure.mgmt.datadog.models.MonitoredResourceListResponse
         uid: azure.mgmt.datadog.models.MonitoredResourceListResponse
+      - name: azure.mgmt.datadog.models.MonitoredSubscription
+        uid: azure.mgmt.datadog.models.MonitoredSubscription
+      - name: azure.mgmt.datadog.models.MonitoredSubscriptionProperties
+        uid: azure.mgmt.datadog.models.MonitoredSubscriptionProperties
+      - name: azure.mgmt.datadog.models.MonitoredSubscriptionPropertiesList
+        uid: azure.mgmt.datadog.models.MonitoredSubscriptionPropertiesList
       - name: azure.mgmt.datadog.models.MonitoringStatus
         uid: azure.mgmt.datadog.models.MonitoringStatus
       - name: azure.mgmt.datadog.models.MonitoringTagRules
@@ -16297,6 +16573,8 @@
         uid: azure.mgmt.datadog.models.MonitoringTagRulesListResponse
       - name: azure.mgmt.datadog.models.MonitoringTagRulesProperties
         uid: azure.mgmt.datadog.models.MonitoringTagRulesProperties
+      - name: azure.mgmt.datadog.models.Operation
+        uid: azure.mgmt.datadog.models.Operation
       - name: azure.mgmt.datadog.models.OperationDisplay
         uid: azure.mgmt.datadog.models.OperationDisplay
       - name: azure.mgmt.datadog.models.OperationListResult
@@ -16309,6 +16587,10 @@
         uid: azure.mgmt.datadog.models.ResourceSku
       - name: azure.mgmt.datadog.models.SingleSignOnStates
         uid: azure.mgmt.datadog.models.SingleSignOnStates
+      - name: azure.mgmt.datadog.models.Status
+        uid: azure.mgmt.datadog.models.Status
+      - name: azure.mgmt.datadog.models.SubscriptionList
+        uid: azure.mgmt.datadog.models.SubscriptionList
       - name: azure.mgmt.datadog.models.SystemData
         uid: azure.mgmt.datadog.models.SystemData
       - name: azure.mgmt.datadog.models.TagAction
@@ -16319,8 +16601,12 @@
     - items:
       - name: Overview
         uid: azure.mgmt.datadog.operations
+      - name: azure.mgmt.datadog.operations.CreationSupportedOperations
+        uid: azure.mgmt.datadog.operations.CreationSupportedOperations
       - name: azure.mgmt.datadog.operations.MarketplaceAgreementsOperations
         uid: azure.mgmt.datadog.operations.MarketplaceAgreementsOperations
+      - name: azure.mgmt.datadog.operations.MonitoredSubscriptionsOperations
+        uid: azure.mgmt.datadog.operations.MonitoredSubscriptionsOperations
       - name: azure.mgmt.datadog.operations.MonitorsOperations
         uid: azure.mgmt.datadog.operations.MonitorsOperations
       - name: azure.mgmt.datadog.operations.Operations
@@ -18585,6 +18871,8 @@
         uid: azure.mgmt.deviceupdate.models.CreatedByType
       - name: azure.mgmt.deviceupdate.models.DiagnosticStorageProperties
         uid: azure.mgmt.deviceupdate.models.DiagnosticStorageProperties
+      - name: azure.mgmt.deviceupdate.models.Encryption
+        uid: azure.mgmt.deviceupdate.models.Encryption
       - name: azure.mgmt.deviceupdate.models.ErrorAdditionalInfo
         uid: azure.mgmt.deviceupdate.models.ErrorAdditionalInfo
       - name: azure.mgmt.deviceupdate.models.ErrorDetail
@@ -20421,8 +20709,12 @@
         uid: azure.mgmt.elasticsan.models.ElasticSan
       - name: azure.mgmt.elasticsan.models.ElasticSanList
         uid: azure.mgmt.elasticsan.models.ElasticSanList
+      - name: azure.mgmt.elasticsan.models.ElasticSanProperties
+        uid: azure.mgmt.elasticsan.models.ElasticSanProperties
       - name: azure.mgmt.elasticsan.models.ElasticSanUpdate
         uid: azure.mgmt.elasticsan.models.ElasticSanUpdate
+      - name: azure.mgmt.elasticsan.models.ElasticSanUpdateProperties
+        uid: azure.mgmt.elasticsan.models.ElasticSanUpdateProperties
       - name: azure.mgmt.elasticsan.models.EncryptionIdentity
         uid: azure.mgmt.elasticsan.models.EncryptionIdentity
       - name: azure.mgmt.elasticsan.models.EncryptionProperties
@@ -20463,12 +20755,16 @@
         uid: azure.mgmt.elasticsan.models.PrivateEndpointConnection
       - name: azure.mgmt.elasticsan.models.PrivateEndpointConnectionListResult
         uid: azure.mgmt.elasticsan.models.PrivateEndpointConnectionListResult
+      - name: azure.mgmt.elasticsan.models.PrivateEndpointConnectionProperties
+        uid: azure.mgmt.elasticsan.models.PrivateEndpointConnectionProperties
       - name: azure.mgmt.elasticsan.models.PrivateEndpointServiceConnectionStatus
         uid: azure.mgmt.elasticsan.models.PrivateEndpointServiceConnectionStatus
       - name: azure.mgmt.elasticsan.models.PrivateLinkResource
         uid: azure.mgmt.elasticsan.models.PrivateLinkResource
       - name: azure.mgmt.elasticsan.models.PrivateLinkResourceListResult
         uid: azure.mgmt.elasticsan.models.PrivateLinkResourceListResult
+      - name: azure.mgmt.elasticsan.models.PrivateLinkResourceProperties
+        uid: azure.mgmt.elasticsan.models.PrivateLinkResourceProperties
       - name: azure.mgmt.elasticsan.models.PrivateLinkServiceConnectionState
         uid: azure.mgmt.elasticsan.models.PrivateLinkServiceConnectionState
       - name: azure.mgmt.elasticsan.models.ProvisioningStates
@@ -20499,6 +20795,8 @@
         uid: azure.mgmt.elasticsan.models.SnapshotCreationData
       - name: azure.mgmt.elasticsan.models.SnapshotList
         uid: azure.mgmt.elasticsan.models.SnapshotList
+      - name: azure.mgmt.elasticsan.models.SnapshotProperties
+        uid: azure.mgmt.elasticsan.models.SnapshotProperties
       - name: azure.mgmt.elasticsan.models.SourceCreationData
         uid: azure.mgmt.elasticsan.models.SourceCreationData
       - name: azure.mgmt.elasticsan.models.StorageTargetType
@@ -20519,12 +20817,20 @@
         uid: azure.mgmt.elasticsan.models.VolumeGroup
       - name: azure.mgmt.elasticsan.models.VolumeGroupList
         uid: azure.mgmt.elasticsan.models.VolumeGroupList
+      - name: azure.mgmt.elasticsan.models.VolumeGroupProperties
+        uid: azure.mgmt.elasticsan.models.VolumeGroupProperties
       - name: azure.mgmt.elasticsan.models.VolumeGroupUpdate
         uid: azure.mgmt.elasticsan.models.VolumeGroupUpdate
+      - name: azure.mgmt.elasticsan.models.VolumeGroupUpdateProperties
+        uid: azure.mgmt.elasticsan.models.VolumeGroupUpdateProperties
       - name: azure.mgmt.elasticsan.models.VolumeList
         uid: azure.mgmt.elasticsan.models.VolumeList
+      - name: azure.mgmt.elasticsan.models.VolumeProperties
+        uid: azure.mgmt.elasticsan.models.VolumeProperties
       - name: azure.mgmt.elasticsan.models.VolumeUpdate
         uid: azure.mgmt.elasticsan.models.VolumeUpdate
+      - name: azure.mgmt.elasticsan.models.VolumeUpdateProperties
+        uid: azure.mgmt.elasticsan.models.VolumeUpdateProperties
       - name: azure.mgmt.elasticsan.models.XMsDeleteSnapshots
         uid: azure.mgmt.elasticsan.models.XMsDeleteSnapshots
       - name: azure.mgmt.elasticsan.models.XMsForceDelete
@@ -22327,6 +22633,10 @@
         uid: azure.mgmt.healthcareapis.models.DicomServiceCollection
       - name: azure.mgmt.healthcareapis.models.DicomServicePatchResource
         uid: azure.mgmt.healthcareapis.models.DicomServicePatchResource
+      - name: azure.mgmt.healthcareapis.models.Encryption
+        uid: azure.mgmt.healthcareapis.models.Encryption
+      - name: azure.mgmt.healthcareapis.models.EncryptionCustomerManagedKeyEncryption
+        uid: azure.mgmt.healthcareapis.models.EncryptionCustomerManagedKeyEncryption
       - name: azure.mgmt.healthcareapis.models.Error
         uid: azure.mgmt.healthcareapis.models.Error
       - name: azure.mgmt.healthcareapis.models.ErrorDetails
@@ -22337,8 +22647,6 @@
         uid: azure.mgmt.healthcareapis.models.FhirResourceVersionPolicy
       - name: azure.mgmt.healthcareapis.models.FhirService
         uid: azure.mgmt.healthcareapis.models.FhirService
-      - name: azure.mgmt.healthcareapis.models.FhirServiceAccessPolicyEntry
-        uid: azure.mgmt.healthcareapis.models.FhirServiceAccessPolicyEntry
       - name: azure.mgmt.healthcareapis.models.FhirServiceAcrConfiguration
         uid: azure.mgmt.healthcareapis.models.FhirServiceAcrConfiguration
       - name: azure.mgmt.healthcareapis.models.FhirServiceAuthenticationConfiguration
@@ -22355,6 +22663,8 @@
         uid: azure.mgmt.healthcareapis.models.FhirServiceKind
       - name: azure.mgmt.healthcareapis.models.FhirServicePatchResource
         uid: azure.mgmt.healthcareapis.models.FhirServicePatchResource
+      - name: azure.mgmt.healthcareapis.models.ImplementationGuidesConfiguration
+        uid: azure.mgmt.healthcareapis.models.ImplementationGuidesConfiguration
       - name: azure.mgmt.healthcareapis.models.IotConnector
         uid: azure.mgmt.healthcareapis.models.IotConnector
       - name: azure.mgmt.healthcareapis.models.IotConnectorCollection
@@ -22867,18 +23177,12 @@
         uid: azure.mgmt.hybridcontainerservice.models.AgentPoolListResult
       - name: azure.mgmt.hybridcontainerservice.models.AgentPoolName
         uid: azure.mgmt.hybridcontainerservice.models.AgentPoolName
-      - name: azure.mgmt.hybridcontainerservice.models.AgentPoolPatch
-        uid: azure.mgmt.hybridcontainerservice.models.AgentPoolPatch
       - name: azure.mgmt.hybridcontainerservice.models.AgentPoolProfile
         uid: azure.mgmt.hybridcontainerservice.models.AgentPoolProfile
       - name: azure.mgmt.hybridcontainerservice.models.AgentPoolProperties
         uid: azure.mgmt.hybridcontainerservice.models.AgentPoolProperties
       - name: azure.mgmt.hybridcontainerservice.models.AgentPoolProvisioningStatus
         uid: azure.mgmt.hybridcontainerservice.models.AgentPoolProvisioningStatus
-      - name: azure.mgmt.hybridcontainerservice.models.AgentPoolProvisioningStatusOperationStatus
-        uid: azure.mgmt.hybridcontainerservice.models.AgentPoolProvisioningStatusOperationStatus
-      - name: azure.mgmt.hybridcontainerservice.models.AgentPoolProvisioningStatusOperationStatusError
-        uid: azure.mgmt.hybridcontainerservice.models.AgentPoolProvisioningStatusOperationStatusError
       - name: azure.mgmt.hybridcontainerservice.models.AgentPoolProvisioningStatusStatus
         uid: azure.mgmt.hybridcontainerservice.models.AgentPoolProvisioningStatusStatus
       - name: azure.mgmt.hybridcontainerservice.models.AgentPoolUpdateProfile
@@ -22889,12 +23193,12 @@
         uid: azure.mgmt.hybridcontainerservice.models.CloudProviderProfile
       - name: azure.mgmt.hybridcontainerservice.models.CloudProviderProfileInfraNetworkProfile
         uid: azure.mgmt.hybridcontainerservice.models.CloudProviderProfileInfraNetworkProfile
-      - name: azure.mgmt.hybridcontainerservice.models.ControlPlaneEndpointProfile
-        uid: azure.mgmt.hybridcontainerservice.models.ControlPlaneEndpointProfile
-      - name: azure.mgmt.hybridcontainerservice.models.ControlPlaneEndpointProfileControlPlaneEndpoint
-        uid: azure.mgmt.hybridcontainerservice.models.ControlPlaneEndpointProfileControlPlaneEndpoint
+      - name: azure.mgmt.hybridcontainerservice.models.ClusterVMAccessProfile
+        uid: azure.mgmt.hybridcontainerservice.models.ClusterVMAccessProfile
       - name: azure.mgmt.hybridcontainerservice.models.ControlPlaneProfile
         uid: azure.mgmt.hybridcontainerservice.models.ControlPlaneProfile
+      - name: azure.mgmt.hybridcontainerservice.models.ControlPlaneProfileControlPlaneEndpoint
+        uid: azure.mgmt.hybridcontainerservice.models.ControlPlaneProfileControlPlaneEndpoint
       - name: azure.mgmt.hybridcontainerservice.models.CreatedByType
         uid: azure.mgmt.hybridcontainerservice.models.CreatedByType
       - name: azure.mgmt.hybridcontainerservice.models.CredentialResult
@@ -22905,6 +23209,8 @@
         uid: azure.mgmt.hybridcontainerservice.models.ErrorDetail
       - name: azure.mgmt.hybridcontainerservice.models.ErrorResponse
         uid: azure.mgmt.hybridcontainerservice.models.ErrorResponse
+      - name: azure.mgmt.hybridcontainerservice.models.Expander
+        uid: azure.mgmt.hybridcontainerservice.models.Expander
       - name: azure.mgmt.hybridcontainerservice.models.ExtendedLocation
         uid: azure.mgmt.hybridcontainerservice.models.ExtendedLocation
       - name: azure.mgmt.hybridcontainerservice.models.ExtendedLocationTypes
@@ -22913,10 +23219,10 @@
         uid: azure.mgmt.hybridcontainerservice.models.HybridIdentityMetadata
       - name: azure.mgmt.hybridcontainerservice.models.HybridIdentityMetadataList
         uid: azure.mgmt.hybridcontainerservice.models.HybridIdentityMetadataList
+      - name: azure.mgmt.hybridcontainerservice.models.HybridIdentityMetadataProperties
+        uid: azure.mgmt.hybridcontainerservice.models.HybridIdentityMetadataProperties
       - name: azure.mgmt.hybridcontainerservice.models.KubernetesPatchVersions
         uid: azure.mgmt.hybridcontainerservice.models.KubernetesPatchVersions
-      - name: azure.mgmt.hybridcontainerservice.models.KubernetesVersionCapabilities
-        uid: azure.mgmt.hybridcontainerservice.models.KubernetesVersionCapabilities
       - name: azure.mgmt.hybridcontainerservice.models.KubernetesVersionProfile
         uid: azure.mgmt.hybridcontainerservice.models.KubernetesVersionProfile
       - name: azure.mgmt.hybridcontainerservice.models.KubernetesVersionProfileList
@@ -22961,26 +23267,26 @@
         uid: azure.mgmt.hybridcontainerservice.models.Origin
       - name: azure.mgmt.hybridcontainerservice.models.OsType
         uid: azure.mgmt.hybridcontainerservice.models.OsType
+      - name: azure.mgmt.hybridcontainerservice.models.ProvisionedCluster
+        uid: azure.mgmt.hybridcontainerservice.models.ProvisionedCluster
       - name: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterLicenseProfile
         uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterLicenseProfile
+      - name: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterListResult
+        uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterListResult
       - name: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPoolUpgradeProfile
         uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPoolUpgradeProfile
       - name: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPoolUpgradeProfileProperties
         uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPoolUpgradeProfileProperties
       - name: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterProperties
         uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterProperties
+      - name: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPropertiesAutoScalerProfile
+        uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPropertiesAutoScalerProfile
       - name: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPropertiesStatus
         uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPropertiesStatus
-      - name: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPropertiesStatusOperationStatus
-        uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPropertiesStatusOperationStatus
-      - name: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPropertiesStatusOperationStatusError
-        uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPropertiesStatusOperationStatusError
       - name: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterUpgradeProfile
         uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterUpgradeProfile
-      - name: azure.mgmt.hybridcontainerservice.models.ProvisionedClusters
-        uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusters
-      - name: azure.mgmt.hybridcontainerservice.models.ProvisionedClustersListResult
-        uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClustersListResult
+      - name: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterUpgradeProfileProperties
+        uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterUpgradeProfileProperties
       - name: azure.mgmt.hybridcontainerservice.models.ProvisioningState
         uid: azure.mgmt.hybridcontainerservice.models.ProvisioningState
       - name: azure.mgmt.hybridcontainerservice.models.ProxyResource
@@ -22989,6 +23295,12 @@
         uid: azure.mgmt.hybridcontainerservice.models.Resource
       - name: azure.mgmt.hybridcontainerservice.models.ResourceProvisioningState
         uid: azure.mgmt.hybridcontainerservice.models.ResourceProvisioningState
+      - name: azure.mgmt.hybridcontainerservice.models.StorageProfile
+        uid: azure.mgmt.hybridcontainerservice.models.StorageProfile
+      - name: azure.mgmt.hybridcontainerservice.models.StorageProfileNfsCSIDriver
+        uid: azure.mgmt.hybridcontainerservice.models.StorageProfileNfsCSIDriver
+      - name: azure.mgmt.hybridcontainerservice.models.StorageProfileSmbCSIDriver
+        uid: azure.mgmt.hybridcontainerservice.models.StorageProfileSmbCSIDriver
       - name: azure.mgmt.hybridcontainerservice.models.SystemData
         uid: azure.mgmt.hybridcontainerservice.models.SystemData
       - name: azure.mgmt.hybridcontainerservice.models.TrackedResource
@@ -23003,8 +23315,6 @@
         uid: azure.mgmt.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile
       - name: azure.mgmt.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfileHci
         uid: azure.mgmt.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfileHci
-      - name: azure.mgmt.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfileVmware
-        uid: azure.mgmt.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfileVmware
       - name: azure.mgmt.hybridcontainerservice.models.VirtualNetworkPropertiesStatus
         uid: azure.mgmt.hybridcontainerservice.models.VirtualNetworkPropertiesStatus
       - name: azure.mgmt.hybridcontainerservice.models.VirtualNetworkPropertiesStatusOperationStatus
@@ -23148,26 +23458,36 @@
       - items:
         - name: Overview
           uid: azure.mgmt.hybridnetwork.aio.operations
-        - name: azure.mgmt.hybridnetwork.aio.operations.DevicesOperations
-          uid: azure.mgmt.hybridnetwork.aio.operations.DevicesOperations
-        - name: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionVendorSkusOperations
-          uid: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionVendorSkusOperations
-        - name: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionVendorsOperations
-          uid: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionVendorsOperations
+        - name: azure.mgmt.hybridnetwork.aio.operations.ArtifactManifestsOperations
+          uid: azure.mgmt.hybridnetwork.aio.operations.ArtifactManifestsOperations
+        - name: azure.mgmt.hybridnetwork.aio.operations.ArtifactStoresOperations
+          uid: azure.mgmt.hybridnetwork.aio.operations.ArtifactStoresOperations
+        - name: azure.mgmt.hybridnetwork.aio.operations.ComponentsOperations
+          uid: azure.mgmt.hybridnetwork.aio.operations.ComponentsOperations
+        - name: azure.mgmt.hybridnetwork.aio.operations.ConfigurationGroupSchemasOperations
+          uid: azure.mgmt.hybridnetwork.aio.operations.ConfigurationGroupSchemasOperations
+        - name: azure.mgmt.hybridnetwork.aio.operations.ConfigurationGroupValuesOperations
+          uid: azure.mgmt.hybridnetwork.aio.operations.ConfigurationGroupValuesOperations
+        - name: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionDefinitionGroupsOperations
+          uid: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionDefinitionGroupsOperations
+        - name: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionDefinitionVersionsOperations
+          uid: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionDefinitionVersionsOperations
         - name: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionsOperations
           uid: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionsOperations
+        - name: azure.mgmt.hybridnetwork.aio.operations.NetworkServiceDesignGroupsOperations
+          uid: azure.mgmt.hybridnetwork.aio.operations.NetworkServiceDesignGroupsOperations
+        - name: azure.mgmt.hybridnetwork.aio.operations.NetworkServiceDesignVersionsOperations
+          uid: azure.mgmt.hybridnetwork.aio.operations.NetworkServiceDesignVersionsOperations
         - name: azure.mgmt.hybridnetwork.aio.operations.Operations
           uid: azure.mgmt.hybridnetwork.aio.operations.Operations
-        - name: azure.mgmt.hybridnetwork.aio.operations.RoleInstancesOperations
-          uid: azure.mgmt.hybridnetwork.aio.operations.RoleInstancesOperations
-        - name: azure.mgmt.hybridnetwork.aio.operations.VendorNetworkFunctionsOperations
-          uid: azure.mgmt.hybridnetwork.aio.operations.VendorNetworkFunctionsOperations
-        - name: azure.mgmt.hybridnetwork.aio.operations.VendorSkuPreviewOperations
-          uid: azure.mgmt.hybridnetwork.aio.operations.VendorSkuPreviewOperations
-        - name: azure.mgmt.hybridnetwork.aio.operations.VendorSkusOperations
-          uid: azure.mgmt.hybridnetwork.aio.operations.VendorSkusOperations
-        - name: azure.mgmt.hybridnetwork.aio.operations.VendorsOperations
-          uid: azure.mgmt.hybridnetwork.aio.operations.VendorsOperations
+        - name: azure.mgmt.hybridnetwork.aio.operations.ProxyArtifactOperations
+          uid: azure.mgmt.hybridnetwork.aio.operations.ProxyArtifactOperations
+        - name: azure.mgmt.hybridnetwork.aio.operations.PublishersOperations
+          uid: azure.mgmt.hybridnetwork.aio.operations.PublishersOperations
+        - name: azure.mgmt.hybridnetwork.aio.operations.SiteNetworkServicesOperations
+          uid: azure.mgmt.hybridnetwork.aio.operations.SiteNetworkServicesOperations
+        - name: azure.mgmt.hybridnetwork.aio.operations.SitesOperations
+          uid: azure.mgmt.hybridnetwork.aio.operations.SitesOperations
         name: azure.mgmt.hybridnetwork.aio.operations
       - name: azure.mgmt.hybridnetwork.aio.HybridNetworkManagementClient
         uid: azure.mgmt.hybridnetwork.aio.HybridNetworkManagementClient
@@ -23177,26 +23497,160 @@
         uid: azure.mgmt.hybridnetwork.models
       - name: azure.mgmt.hybridnetwork.models.ActionType
         uid: azure.mgmt.hybridnetwork.models.ActionType
-      - name: azure.mgmt.hybridnetwork.models.AzureStackEdgeFormat
-        uid: azure.mgmt.hybridnetwork.models.AzureStackEdgeFormat
+      - name: azure.mgmt.hybridnetwork.models.ApplicationEnablement
+        uid: azure.mgmt.hybridnetwork.models.ApplicationEnablement
+      - name: azure.mgmt.hybridnetwork.models.ArmResourceDefinitionResourceElementTemplate
+        uid: azure.mgmt.hybridnetwork.models.ArmResourceDefinitionResourceElementTemplate
+      - name: azure.mgmt.hybridnetwork.models.ArmResourceDefinitionResourceElementTemplateDetails
+        uid: azure.mgmt.hybridnetwork.models.ArmResourceDefinitionResourceElementTemplateDetails
+      - name: azure.mgmt.hybridnetwork.models.ArmTemplateArtifactProfile
+        uid: azure.mgmt.hybridnetwork.models.ArmTemplateArtifactProfile
+      - name: azure.mgmt.hybridnetwork.models.ArmTemplateMappingRuleProfile
+        uid: azure.mgmt.hybridnetwork.models.ArmTemplateMappingRuleProfile
+      - name: azure.mgmt.hybridnetwork.models.ArtifactAccessCredential
+        uid: azure.mgmt.hybridnetwork.models.ArtifactAccessCredential
+      - name: azure.mgmt.hybridnetwork.models.ArtifactChangeState
+        uid: azure.mgmt.hybridnetwork.models.ArtifactChangeState
+      - name: azure.mgmt.hybridnetwork.models.ArtifactChangeStateProperties
+        uid: azure.mgmt.hybridnetwork.models.ArtifactChangeStateProperties
+      - name: azure.mgmt.hybridnetwork.models.ArtifactManifest
+        uid: azure.mgmt.hybridnetwork.models.ArtifactManifest
+      - name: azure.mgmt.hybridnetwork.models.ArtifactManifestListResult
+        uid: azure.mgmt.hybridnetwork.models.ArtifactManifestListResult
+      - name: azure.mgmt.hybridnetwork.models.ArtifactManifestPropertiesFormat
+        uid: azure.mgmt.hybridnetwork.models.ArtifactManifestPropertiesFormat
+      - name: azure.mgmt.hybridnetwork.models.ArtifactManifestState
+        uid: azure.mgmt.hybridnetwork.models.ArtifactManifestState
+      - name: azure.mgmt.hybridnetwork.models.ArtifactManifestUpdateState
+        uid: azure.mgmt.hybridnetwork.models.ArtifactManifestUpdateState
+      - name: azure.mgmt.hybridnetwork.models.ArtifactProfile
+        uid: azure.mgmt.hybridnetwork.models.ArtifactProfile
+      - name: azure.mgmt.hybridnetwork.models.ArtifactReplicationStrategy
+        uid: azure.mgmt.hybridnetwork.models.ArtifactReplicationStrategy
+      - name: azure.mgmt.hybridnetwork.models.ArtifactState
+        uid: azure.mgmt.hybridnetwork.models.ArtifactState
+      - name: azure.mgmt.hybridnetwork.models.ArtifactStore
+        uid: azure.mgmt.hybridnetwork.models.ArtifactStore
+      - name: azure.mgmt.hybridnetwork.models.ArtifactStoreListResult
+        uid: azure.mgmt.hybridnetwork.models.ArtifactStoreListResult
+      - name: azure.mgmt.hybridnetwork.models.ArtifactStorePropertiesFormat
+        uid: azure.mgmt.hybridnetwork.models.ArtifactStorePropertiesFormat
+      - name: azure.mgmt.hybridnetwork.models.ArtifactStorePropertiesFormatManagedResourceGroupConfiguration
+        uid: azure.mgmt.hybridnetwork.models.ArtifactStorePropertiesFormatManagedResourceGroupConfiguration
+      - name: azure.mgmt.hybridnetwork.models.ArtifactStoreType
+        uid: azure.mgmt.hybridnetwork.models.ArtifactStoreType
+      - name: azure.mgmt.hybridnetwork.models.ArtifactType
+        uid: azure.mgmt.hybridnetwork.models.ArtifactType
+      - name: azure.mgmt.hybridnetwork.models.AzureArcK8SClusterNFVIDetails
+        uid: azure.mgmt.hybridnetwork.models.AzureArcK8SClusterNFVIDetails
+      - name: azure.mgmt.hybridnetwork.models.AzureArcKubernetesArtifactProfile
+        uid: azure.mgmt.hybridnetwork.models.AzureArcKubernetesArtifactProfile
+      - name: azure.mgmt.hybridnetwork.models.AzureArcKubernetesArtifactType
+        uid: azure.mgmt.hybridnetwork.models.AzureArcKubernetesArtifactType
+      - name: azure.mgmt.hybridnetwork.models.AzureArcKubernetesDeployMappingRuleProfile
+        uid: azure.mgmt.hybridnetwork.models.AzureArcKubernetesDeployMappingRuleProfile
+      - name: azure.mgmt.hybridnetwork.models.AzureArcKubernetesHelmApplication
+        uid: azure.mgmt.hybridnetwork.models.AzureArcKubernetesHelmApplication
+      - name: azure.mgmt.hybridnetwork.models.AzureArcKubernetesNetworkFunctionApplication
+        uid: azure.mgmt.hybridnetwork.models.AzureArcKubernetesNetworkFunctionApplication
+      - name: azure.mgmt.hybridnetwork.models.AzureArcKubernetesNetworkFunctionTemplate
+        uid: azure.mgmt.hybridnetwork.models.AzureArcKubernetesNetworkFunctionTemplate
+      - name: azure.mgmt.hybridnetwork.models.AzureContainerRegistryScopedTokenCredential
+        uid: azure.mgmt.hybridnetwork.models.AzureContainerRegistryScopedTokenCredential
+      - name: azure.mgmt.hybridnetwork.models.AzureCoreArmTemplateArtifactProfile
+        uid: azure.mgmt.hybridnetwork.models.AzureCoreArmTemplateArtifactProfile
+      - name: azure.mgmt.hybridnetwork.models.AzureCoreArmTemplateDeployMappingRuleProfile
+        uid: azure.mgmt.hybridnetwork.models.AzureCoreArmTemplateDeployMappingRuleProfile
+      - name: azure.mgmt.hybridnetwork.models.AzureCoreArtifactType
+        uid: azure.mgmt.hybridnetwork.models.AzureCoreArtifactType
+      - name: azure.mgmt.hybridnetwork.models.AzureCoreNFVIDetails
+        uid: azure.mgmt.hybridnetwork.models.AzureCoreNFVIDetails
+      - name: azure.mgmt.hybridnetwork.models.AzureCoreNetworkFunctionApplication
+        uid: azure.mgmt.hybridnetwork.models.AzureCoreNetworkFunctionApplication
+      - name: azure.mgmt.hybridnetwork.models.AzureCoreNetworkFunctionArmTemplateApplication
+        uid: azure.mgmt.hybridnetwork.models.AzureCoreNetworkFunctionArmTemplateApplication
+      - name: azure.mgmt.hybridnetwork.models.AzureCoreNetworkFunctionTemplate
+        uid: azure.mgmt.hybridnetwork.models.AzureCoreNetworkFunctionTemplate
+      - name: azure.mgmt.hybridnetwork.models.AzureCoreNetworkFunctionVhdApplication
+        uid: azure.mgmt.hybridnetwork.models.AzureCoreNetworkFunctionVhdApplication
+      - name: azure.mgmt.hybridnetwork.models.AzureCoreVhdImageArtifactProfile
+        uid: azure.mgmt.hybridnetwork.models.AzureCoreVhdImageArtifactProfile
+      - name: azure.mgmt.hybridnetwork.models.AzureCoreVhdImageDeployMappingRuleProfile
+        uid: azure.mgmt.hybridnetwork.models.AzureCoreVhdImageDeployMappingRuleProfile
+      - name: azure.mgmt.hybridnetwork.models.AzureOperatorNexusArmTemplateArtifactProfile
+        uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusArmTemplateArtifactProfile
+      - name: azure.mgmt.hybridnetwork.models.AzureOperatorNexusArmTemplateDeployMappingRuleProfile
+        uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusArmTemplateDeployMappingRuleProfile
+      - name: azure.mgmt.hybridnetwork.models.AzureOperatorNexusArtifactType
+        uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusArtifactType
+      - name: azure.mgmt.hybridnetwork.models.AzureOperatorNexusClusterNFVIDetails
+        uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusClusterNFVIDetails
+      - name: azure.mgmt.hybridnetwork.models.AzureOperatorNexusImageArtifactProfile
+        uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusImageArtifactProfile
+      - name: azure.mgmt.hybridnetwork.models.AzureOperatorNexusImageDeployMappingRuleProfile
+        uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusImageDeployMappingRuleProfile
+      - name: azure.mgmt.hybridnetwork.models.AzureOperatorNexusNetworkFunctionApplication
+        uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusNetworkFunctionApplication
+      - name: azure.mgmt.hybridnetwork.models.AzureOperatorNexusNetworkFunctionArmTemplateApplication
+        uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusNetworkFunctionArmTemplateApplication
+      - name: azure.mgmt.hybridnetwork.models.AzureOperatorNexusNetworkFunctionImageApplication
+        uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusNetworkFunctionImageApplication
+      - name: azure.mgmt.hybridnetwork.models.AzureOperatorNexusNetworkFunctionTemplate
+        uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusNetworkFunctionTemplate
+      - name: azure.mgmt.hybridnetwork.models.AzureStorageAccountContainerCredential
+        uid: azure.mgmt.hybridnetwork.models.AzureStorageAccountContainerCredential
+      - name: azure.mgmt.hybridnetwork.models.AzureStorageAccountCredential
+        uid: azure.mgmt.hybridnetwork.models.AzureStorageAccountCredential
+      - name: azure.mgmt.hybridnetwork.models.Component
+        uid: azure.mgmt.hybridnetwork.models.Component
+      - name: azure.mgmt.hybridnetwork.models.ComponentListResult
+        uid: azure.mgmt.hybridnetwork.models.ComponentListResult
+      - name: azure.mgmt.hybridnetwork.models.ComponentProperties
+        uid: azure.mgmt.hybridnetwork.models.ComponentProperties
+      - name: azure.mgmt.hybridnetwork.models.ConfigurationGenerationType
+        uid: azure.mgmt.hybridnetwork.models.ConfigurationGenerationType
+      - name: azure.mgmt.hybridnetwork.models.ConfigurationGroupSchema
+        uid: azure.mgmt.hybridnetwork.models.ConfigurationGroupSchema
+      - name: azure.mgmt.hybridnetwork.models.ConfigurationGroupSchemaListResult
+        uid: azure.mgmt.hybridnetwork.models.ConfigurationGroupSchemaListResult
+      - name: azure.mgmt.hybridnetwork.models.ConfigurationGroupSchemaPropertiesFormat
+        uid: azure.mgmt.hybridnetwork.models.ConfigurationGroupSchemaPropertiesFormat
+      - name: azure.mgmt.hybridnetwork.models.ConfigurationGroupSchemaVersionUpdateState
+        uid: azure.mgmt.hybridnetwork.models.ConfigurationGroupSchemaVersionUpdateState
+      - name: azure.mgmt.hybridnetwork.models.ConfigurationGroupValue
+        uid: azure.mgmt.hybridnetwork.models.ConfigurationGroupValue
+      - name: azure.mgmt.hybridnetwork.models.ConfigurationGroupValueConfigurationType
+        uid: azure.mgmt.hybridnetwork.models.ConfigurationGroupValueConfigurationType
+      - name: azure.mgmt.hybridnetwork.models.ConfigurationGroupValueListResult
+        uid: azure.mgmt.hybridnetwork.models.ConfigurationGroupValueListResult
+      - name: azure.mgmt.hybridnetwork.models.ConfigurationGroupValuePropertiesFormat
+        uid: azure.mgmt.hybridnetwork.models.ConfigurationGroupValuePropertiesFormat
+      - name: azure.mgmt.hybridnetwork.models.ConfigurationValueWithSecrets
+        uid: azure.mgmt.hybridnetwork.models.ConfigurationValueWithSecrets
+      - name: azure.mgmt.hybridnetwork.models.ConfigurationValueWithoutSecrets
+        uid: azure.mgmt.hybridnetwork.models.ConfigurationValueWithoutSecrets
+      - name: azure.mgmt.hybridnetwork.models.ContainerizedNetworkFunctionDefinitionVersion
+        uid: azure.mgmt.hybridnetwork.models.ContainerizedNetworkFunctionDefinitionVersion
+      - name: azure.mgmt.hybridnetwork.models.ContainerizedNetworkFunctionNFVIType
+        uid: azure.mgmt.hybridnetwork.models.ContainerizedNetworkFunctionNFVIType
+      - name: azure.mgmt.hybridnetwork.models.ContainerizedNetworkFunctionTemplate
+        uid: azure.mgmt.hybridnetwork.models.ContainerizedNetworkFunctionTemplate
       - name: azure.mgmt.hybridnetwork.models.CreatedByType
         uid: azure.mgmt.hybridnetwork.models.CreatedByType
-      - name: azure.mgmt.hybridnetwork.models.CustomProfile
-        uid: azure.mgmt.hybridnetwork.models.CustomProfile
-      - name: azure.mgmt.hybridnetwork.models.DataDisk
-        uid: azure.mgmt.hybridnetwork.models.DataDisk
-      - name: azure.mgmt.hybridnetwork.models.Device
-        uid: azure.mgmt.hybridnetwork.models.Device
-      - name: azure.mgmt.hybridnetwork.models.DeviceListResult
-        uid: azure.mgmt.hybridnetwork.models.DeviceListResult
-      - name: azure.mgmt.hybridnetwork.models.DevicePropertiesFormat
-        uid: azure.mgmt.hybridnetwork.models.DevicePropertiesFormat
-      - name: azure.mgmt.hybridnetwork.models.DeviceRegistrationKey
-        uid: azure.mgmt.hybridnetwork.models.DeviceRegistrationKey
-      - name: azure.mgmt.hybridnetwork.models.DeviceType
-        uid: azure.mgmt.hybridnetwork.models.DeviceType
-      - name: azure.mgmt.hybridnetwork.models.DiskCreateOptionTypes
-        uid: azure.mgmt.hybridnetwork.models.DiskCreateOptionTypes
+      - name: azure.mgmt.hybridnetwork.models.CredentialType
+        uid: azure.mgmt.hybridnetwork.models.CredentialType
+      - name: azure.mgmt.hybridnetwork.models.CustomLocationResourceId
+        uid: azure.mgmt.hybridnetwork.models.CustomLocationResourceId
+      - name: azure.mgmt.hybridnetwork.models.DaemonSet
+        uid: azure.mgmt.hybridnetwork.models.DaemonSet
+      - name: azure.mgmt.hybridnetwork.models.DependsOnProfile
+        uid: azure.mgmt.hybridnetwork.models.DependsOnProfile
+      - name: azure.mgmt.hybridnetwork.models.Deployment
+        uid: azure.mgmt.hybridnetwork.models.Deployment
+      - name: azure.mgmt.hybridnetwork.models.DeploymentResourceIdReference
+        uid: azure.mgmt.hybridnetwork.models.DeploymentResourceIdReference
+      - name: azure.mgmt.hybridnetwork.models.DeploymentStatusProperties
+        uid: azure.mgmt.hybridnetwork.models.DeploymentStatusProperties
       - name: azure.mgmt.hybridnetwork.models.ErrorAdditionalInfo
         uid: azure.mgmt.hybridnetwork.models.ErrorAdditionalInfo
       - name: azure.mgmt.hybridnetwork.models.ErrorDetail
@@ -23205,148 +23659,226 @@
         uid: azure.mgmt.hybridnetwork.models.ErrorResponse
       - name: azure.mgmt.hybridnetwork.models.ExecuteRequestParameters
         uid: azure.mgmt.hybridnetwork.models.ExecuteRequestParameters
+      - name: azure.mgmt.hybridnetwork.models.HelmArtifactProfile
+        uid: azure.mgmt.hybridnetwork.models.HelmArtifactProfile
+      - name: azure.mgmt.hybridnetwork.models.HelmInstallOptions
+        uid: azure.mgmt.hybridnetwork.models.HelmInstallOptions
+      - name: azure.mgmt.hybridnetwork.models.HelmMappingRuleProfile
+        uid: azure.mgmt.hybridnetwork.models.HelmMappingRuleProfile
+      - name: azure.mgmt.hybridnetwork.models.HelmMappingRuleProfileOptions
+        uid: azure.mgmt.hybridnetwork.models.HelmMappingRuleProfileOptions
+      - name: azure.mgmt.hybridnetwork.models.HelmUpgradeOptions
+        uid: azure.mgmt.hybridnetwork.models.HelmUpgradeOptions
       - name: azure.mgmt.hybridnetwork.models.HttpMethod
         uid: azure.mgmt.hybridnetwork.models.HttpMethod
-      - name: azure.mgmt.hybridnetwork.models.IPAllocationMethod
-        uid: azure.mgmt.hybridnetwork.models.IPAllocationMethod
-      - name: azure.mgmt.hybridnetwork.models.IPVersion
-        uid: azure.mgmt.hybridnetwork.models.IPVersion
-      - name: azure.mgmt.hybridnetwork.models.ImageReference
-        uid: azure.mgmt.hybridnetwork.models.ImageReference
-      - name: azure.mgmt.hybridnetwork.models.LinuxConfiguration
-        uid: azure.mgmt.hybridnetwork.models.LinuxConfiguration
+      - name: azure.mgmt.hybridnetwork.models.IdType
+        uid: azure.mgmt.hybridnetwork.models.IdType
+      - name: azure.mgmt.hybridnetwork.models.ImageArtifactProfile
+        uid: azure.mgmt.hybridnetwork.models.ImageArtifactProfile
+      - name: azure.mgmt.hybridnetwork.models.ImageMappingRuleProfile
+        uid: azure.mgmt.hybridnetwork.models.ImageMappingRuleProfile
+      - name: azure.mgmt.hybridnetwork.models.ManagedResourceGroupConfiguration
+        uid: azure.mgmt.hybridnetwork.models.ManagedResourceGroupConfiguration
+      - name: azure.mgmt.hybridnetwork.models.ManagedServiceIdentity
+        uid: azure.mgmt.hybridnetwork.models.ManagedServiceIdentity
+      - name: azure.mgmt.hybridnetwork.models.ManagedServiceIdentityType
+        uid: azure.mgmt.hybridnetwork.models.ManagedServiceIdentityType
+      - name: azure.mgmt.hybridnetwork.models.ManifestArtifactFormat
+        uid: azure.mgmt.hybridnetwork.models.ManifestArtifactFormat
+      - name: azure.mgmt.hybridnetwork.models.MappingRuleProfile
+        uid: azure.mgmt.hybridnetwork.models.MappingRuleProfile
+      - name: azure.mgmt.hybridnetwork.models.NFVIType
+        uid: azure.mgmt.hybridnetwork.models.NFVIType
+      - name: azure.mgmt.hybridnetwork.models.NFVIs
+        uid: azure.mgmt.hybridnetwork.models.NFVIs
+      - name: azure.mgmt.hybridnetwork.models.NSDArtifactProfile
+        uid: azure.mgmt.hybridnetwork.models.NSDArtifactProfile
       - name: azure.mgmt.hybridnetwork.models.NetworkFunction
         uid: azure.mgmt.hybridnetwork.models.NetworkFunction
+      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionApplication
+        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionApplication
+      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionConfigurationType
+        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionConfigurationType
+      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionGroup
+        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionGroup
+      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionGroupListResult
+        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionGroupListResult
+      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionGroupPropertiesFormat
+        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionGroupPropertiesFormat
+      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionResourceElementTemplateDetails
+        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionResourceElementTemplateDetails
+      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionVersion
+        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionVersion
+      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionVersionListResult
+        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionVersionListResult
+      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionVersionPropertiesFormat
+        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionVersionPropertiesFormat
+      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionVersionUpdateState
+        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionVersionUpdateState
       - name: azure.mgmt.hybridnetwork.models.NetworkFunctionListResult
         uid: azure.mgmt.hybridnetwork.models.NetworkFunctionListResult
-      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionRoleConfiguration
-        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionRoleConfiguration
-      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionRoleConfigurationType
-        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionRoleConfigurationType
-      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionRoleInstanceListResult
-        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionRoleInstanceListResult
-      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionSkuDetails
-        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionSkuDetails
-      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionSkuListResult
-        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionSkuListResult
-      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionSkuRoleDetails
-        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionSkuRoleDetails
-      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionTemplate
-        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionTemplate
+      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionPropertiesFormat
+        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionPropertiesFormat
       - name: azure.mgmt.hybridnetwork.models.NetworkFunctionType
         uid: azure.mgmt.hybridnetwork.models.NetworkFunctionType
-      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionUserConfiguration
-        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionUserConfiguration
-      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionUserConfigurationOsProfile
-        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionUserConfigurationOsProfile
-      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionVendor
-        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionVendor
-      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionVendorConfiguration
-        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionVendorConfiguration
-      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionVendorListResult
-        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionVendorListResult
-      - name: azure.mgmt.hybridnetwork.models.NetworkInterface
-        uid: azure.mgmt.hybridnetwork.models.NetworkInterface
-      - name: azure.mgmt.hybridnetwork.models.NetworkInterfaceIPConfiguration
-        uid: azure.mgmt.hybridnetwork.models.NetworkInterfaceIPConfiguration
-      - name: azure.mgmt.hybridnetwork.models.OperatingSystemTypes
-        uid: azure.mgmt.hybridnetwork.models.OperatingSystemTypes
+      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionValueWithSecrets
+        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionValueWithSecrets
+      - name: azure.mgmt.hybridnetwork.models.NetworkFunctionValueWithoutSecrets
+        uid: azure.mgmt.hybridnetwork.models.NetworkFunctionValueWithoutSecrets
+      - name: azure.mgmt.hybridnetwork.models.NetworkServiceDesignGroup
+        uid: azure.mgmt.hybridnetwork.models.NetworkServiceDesignGroup
+      - name: azure.mgmt.hybridnetwork.models.NetworkServiceDesignGroupListResult
+        uid: azure.mgmt.hybridnetwork.models.NetworkServiceDesignGroupListResult
+      - name: azure.mgmt.hybridnetwork.models.NetworkServiceDesignGroupPropertiesFormat
+        uid: azure.mgmt.hybridnetwork.models.NetworkServiceDesignGroupPropertiesFormat
+      - name: azure.mgmt.hybridnetwork.models.NetworkServiceDesignVersion
+        uid: azure.mgmt.hybridnetwork.models.NetworkServiceDesignVersion
+      - name: azure.mgmt.hybridnetwork.models.NetworkServiceDesignVersionListResult
+        uid: azure.mgmt.hybridnetwork.models.NetworkServiceDesignVersionListResult
+      - name: azure.mgmt.hybridnetwork.models.NetworkServiceDesignVersionPropertiesFormat
+        uid: azure.mgmt.hybridnetwork.models.NetworkServiceDesignVersionPropertiesFormat
+      - name: azure.mgmt.hybridnetwork.models.NetworkServiceDesignVersionUpdateState
+        uid: azure.mgmt.hybridnetwork.models.NetworkServiceDesignVersionUpdateState
+      - name: azure.mgmt.hybridnetwork.models.NfviDetails
+        uid: azure.mgmt.hybridnetwork.models.NfviDetails
+      - name: azure.mgmt.hybridnetwork.models.OpenDeploymentResourceReference
+        uid: azure.mgmt.hybridnetwork.models.OpenDeploymentResourceReference
       - name: azure.mgmt.hybridnetwork.models.Operation
         uid: azure.mgmt.hybridnetwork.models.Operation
       - name: azure.mgmt.hybridnetwork.models.OperationDisplay
         uid: azure.mgmt.hybridnetwork.models.OperationDisplay
       - name: azure.mgmt.hybridnetwork.models.OperationListResult
         uid: azure.mgmt.hybridnetwork.models.OperationListResult
-      - name: azure.mgmt.hybridnetwork.models.OperationalState
-        uid: azure.mgmt.hybridnetwork.models.OperationalState
       - name: azure.mgmt.hybridnetwork.models.Origin
         uid: azure.mgmt.hybridnetwork.models.Origin
-      - name: azure.mgmt.hybridnetwork.models.OsDisk
-        uid: azure.mgmt.hybridnetwork.models.OsDisk
-      - name: azure.mgmt.hybridnetwork.models.OsProfile
-        uid: azure.mgmt.hybridnetwork.models.OsProfile
-      - name: azure.mgmt.hybridnetwork.models.PreviewSubscription
-        uid: azure.mgmt.hybridnetwork.models.PreviewSubscription
-      - name: azure.mgmt.hybridnetwork.models.PreviewSubscriptionsList
-        uid: azure.mgmt.hybridnetwork.models.PreviewSubscriptionsList
+      - name: azure.mgmt.hybridnetwork.models.Pod
+        uid: azure.mgmt.hybridnetwork.models.Pod
+      - name: azure.mgmt.hybridnetwork.models.PodEvent
+        uid: azure.mgmt.hybridnetwork.models.PodEvent
+      - name: azure.mgmt.hybridnetwork.models.PodEventType
+        uid: azure.mgmt.hybridnetwork.models.PodEventType
+      - name: azure.mgmt.hybridnetwork.models.PodStatus
+        uid: azure.mgmt.hybridnetwork.models.PodStatus
       - name: azure.mgmt.hybridnetwork.models.ProvisioningState
         uid: azure.mgmt.hybridnetwork.models.ProvisioningState
+      - name: azure.mgmt.hybridnetwork.models.ProxyArtifactListOverview
+        uid: azure.mgmt.hybridnetwork.models.ProxyArtifactListOverview
+      - name: azure.mgmt.hybridnetwork.models.ProxyArtifactOverview
+        uid: azure.mgmt.hybridnetwork.models.ProxyArtifactOverview
+      - name: azure.mgmt.hybridnetwork.models.ProxyArtifactOverviewListResult
+        uid: azure.mgmt.hybridnetwork.models.ProxyArtifactOverviewListResult
+      - name: azure.mgmt.hybridnetwork.models.ProxyArtifactOverviewPropertiesFormat
+        uid: azure.mgmt.hybridnetwork.models.ProxyArtifactOverviewPropertiesFormat
+      - name: azure.mgmt.hybridnetwork.models.ProxyArtifactOverviewPropertiesValue
+        uid: azure.mgmt.hybridnetwork.models.ProxyArtifactOverviewPropertiesValue
+      - name: azure.mgmt.hybridnetwork.models.ProxyArtifactVersionsListOverview
+        uid: azure.mgmt.hybridnetwork.models.ProxyArtifactVersionsListOverview
+      - name: azure.mgmt.hybridnetwork.models.ProxyArtifactVersionsOverviewListResult
+        uid: azure.mgmt.hybridnetwork.models.ProxyArtifactVersionsOverviewListResult
       - name: azure.mgmt.hybridnetwork.models.ProxyResource
         uid: azure.mgmt.hybridnetwork.models.ProxyResource
+      - name: azure.mgmt.hybridnetwork.models.Publisher
+        uid: azure.mgmt.hybridnetwork.models.Publisher
+      - name: azure.mgmt.hybridnetwork.models.PublisherListResult
+        uid: azure.mgmt.hybridnetwork.models.PublisherListResult
+      - name: azure.mgmt.hybridnetwork.models.PublisherPropertiesFormat
+        uid: azure.mgmt.hybridnetwork.models.PublisherPropertiesFormat
+      - name: azure.mgmt.hybridnetwork.models.PublisherScope
+        uid: azure.mgmt.hybridnetwork.models.PublisherScope
+      - name: azure.mgmt.hybridnetwork.models.ReferencedResource
+        uid: azure.mgmt.hybridnetwork.models.ReferencedResource
+      - name: azure.mgmt.hybridnetwork.models.ReplicaSet
+        uid: azure.mgmt.hybridnetwork.models.ReplicaSet
       - name: azure.mgmt.hybridnetwork.models.RequestMetadata
         uid: azure.mgmt.hybridnetwork.models.RequestMetadata
       - name: azure.mgmt.hybridnetwork.models.Resource
         uid: azure.mgmt.hybridnetwork.models.Resource
-      - name: azure.mgmt.hybridnetwork.models.RoleInstance
-        uid: azure.mgmt.hybridnetwork.models.RoleInstance
-      - name: azure.mgmt.hybridnetwork.models.SkuCredential
-        uid: azure.mgmt.hybridnetwork.models.SkuCredential
-      - name: azure.mgmt.hybridnetwork.models.SkuDeploymentMode
-        uid: azure.mgmt.hybridnetwork.models.SkuDeploymentMode
-      - name: azure.mgmt.hybridnetwork.models.SkuOverview
-        uid: azure.mgmt.hybridnetwork.models.SkuOverview
-      - name: azure.mgmt.hybridnetwork.models.SkuType
-        uid: azure.mgmt.hybridnetwork.models.SkuType
-      - name: azure.mgmt.hybridnetwork.models.SshConfiguration
-        uid: azure.mgmt.hybridnetwork.models.SshConfiguration
-      - name: azure.mgmt.hybridnetwork.models.SshPublicKey
-        uid: azure.mgmt.hybridnetwork.models.SshPublicKey
+      - name: azure.mgmt.hybridnetwork.models.ResourceElementTemplate
+        uid: azure.mgmt.hybridnetwork.models.ResourceElementTemplate
+      - name: azure.mgmt.hybridnetwork.models.Resources
+        uid: azure.mgmt.hybridnetwork.models.Resources
+      - name: azure.mgmt.hybridnetwork.models.SecretDeploymentResourceReference
+        uid: azure.mgmt.hybridnetwork.models.SecretDeploymentResourceReference
+      - name: azure.mgmt.hybridnetwork.models.Site
+        uid: azure.mgmt.hybridnetwork.models.Site
+      - name: azure.mgmt.hybridnetwork.models.SiteListResult
+        uid: azure.mgmt.hybridnetwork.models.SiteListResult
+      - name: azure.mgmt.hybridnetwork.models.SiteNetworkService
+        uid: azure.mgmt.hybridnetwork.models.SiteNetworkService
+      - name: azure.mgmt.hybridnetwork.models.SiteNetworkServiceListResult
+        uid: azure.mgmt.hybridnetwork.models.SiteNetworkServiceListResult
+      - name: azure.mgmt.hybridnetwork.models.SiteNetworkServicePropertiesFormat
+        uid: azure.mgmt.hybridnetwork.models.SiteNetworkServicePropertiesFormat
+      - name: azure.mgmt.hybridnetwork.models.SitePropertiesFormat
+        uid: azure.mgmt.hybridnetwork.models.SitePropertiesFormat
+      - name: azure.mgmt.hybridnetwork.models.Sku
+        uid: azure.mgmt.hybridnetwork.models.Sku
+      - name: azure.mgmt.hybridnetwork.models.SkuName
+        uid: azure.mgmt.hybridnetwork.models.SkuName
+      - name: azure.mgmt.hybridnetwork.models.SkuTier
+        uid: azure.mgmt.hybridnetwork.models.SkuTier
+      - name: azure.mgmt.hybridnetwork.models.StatefulSet
+        uid: azure.mgmt.hybridnetwork.models.StatefulSet
       - name: azure.mgmt.hybridnetwork.models.Status
         uid: azure.mgmt.hybridnetwork.models.Status
-      - name: azure.mgmt.hybridnetwork.models.StorageProfile
-        uid: azure.mgmt.hybridnetwork.models.StorageProfile
-      - name: azure.mgmt.hybridnetwork.models.SubResource
-        uid: azure.mgmt.hybridnetwork.models.SubResource
       - name: azure.mgmt.hybridnetwork.models.SystemData
         uid: azure.mgmt.hybridnetwork.models.SystemData
       - name: azure.mgmt.hybridnetwork.models.TagsObject
         uid: azure.mgmt.hybridnetwork.models.TagsObject
+      - name: azure.mgmt.hybridnetwork.models.TemplateType
+        uid: azure.mgmt.hybridnetwork.models.TemplateType
       - name: azure.mgmt.hybridnetwork.models.TrackedResource
         uid: azure.mgmt.hybridnetwork.models.TrackedResource
-      - name: azure.mgmt.hybridnetwork.models.VMSwitchType
-        uid: azure.mgmt.hybridnetwork.models.VMSwitchType
-      - name: azure.mgmt.hybridnetwork.models.Vendor
-        uid: azure.mgmt.hybridnetwork.models.Vendor
-      - name: azure.mgmt.hybridnetwork.models.VendorListResult
-        uid: azure.mgmt.hybridnetwork.models.VendorListResult
-      - name: azure.mgmt.hybridnetwork.models.VendorNetworkFunction
-        uid: azure.mgmt.hybridnetwork.models.VendorNetworkFunction
-      - name: azure.mgmt.hybridnetwork.models.VendorNetworkFunctionListResult
-        uid: azure.mgmt.hybridnetwork.models.VendorNetworkFunctionListResult
-      - name: azure.mgmt.hybridnetwork.models.VendorProvisioningState
-        uid: azure.mgmt.hybridnetwork.models.VendorProvisioningState
-      - name: azure.mgmt.hybridnetwork.models.VendorSku
-        uid: azure.mgmt.hybridnetwork.models.VendorSku
-      - name: azure.mgmt.hybridnetwork.models.VendorSkuListResult
-        uid: azure.mgmt.hybridnetwork.models.VendorSkuListResult
-      - name: azure.mgmt.hybridnetwork.models.VirtualHardDisk
-        uid: azure.mgmt.hybridnetwork.models.VirtualHardDisk
-      - name: azure.mgmt.hybridnetwork.models.VirtualMachineSizeTypes
-        uid: azure.mgmt.hybridnetwork.models.VirtualMachineSizeTypes
+      - name: azure.mgmt.hybridnetwork.models.Type
+        uid: azure.mgmt.hybridnetwork.models.Type
+      - name: azure.mgmt.hybridnetwork.models.UserAssignedIdentity
+        uid: azure.mgmt.hybridnetwork.models.UserAssignedIdentity
+      - name: azure.mgmt.hybridnetwork.models.VersionState
+        uid: azure.mgmt.hybridnetwork.models.VersionState
+      - name: azure.mgmt.hybridnetwork.models.VhdImageArtifactProfile
+        uid: azure.mgmt.hybridnetwork.models.VhdImageArtifactProfile
+      - name: azure.mgmt.hybridnetwork.models.VhdImageMappingRuleProfile
+        uid: azure.mgmt.hybridnetwork.models.VhdImageMappingRuleProfile
+      - name: azure.mgmt.hybridnetwork.models.VirtualNetworkFunctionDefinitionVersion
+        uid: azure.mgmt.hybridnetwork.models.VirtualNetworkFunctionDefinitionVersion
+      - name: azure.mgmt.hybridnetwork.models.VirtualNetworkFunctionNFVIType
+        uid: azure.mgmt.hybridnetwork.models.VirtualNetworkFunctionNFVIType
+      - name: azure.mgmt.hybridnetwork.models.VirtualNetworkFunctionTemplate
+        uid: azure.mgmt.hybridnetwork.models.VirtualNetworkFunctionTemplate
       name: azure.mgmt.hybridnetwork.models
     - items:
       - name: Overview
         uid: azure.mgmt.hybridnetwork.operations
-      - name: azure.mgmt.hybridnetwork.operations.DevicesOperations
-        uid: azure.mgmt.hybridnetwork.operations.DevicesOperations
-      - name: azure.mgmt.hybridnetwork.operations.NetworkFunctionVendorSkusOperations
-        uid: azure.mgmt.hybridnetwork.operations.NetworkFunctionVendorSkusOperations
-      - name: azure.mgmt.hybridnetwork.operations.NetworkFunctionVendorsOperations
-        uid: azure.mgmt.hybridnetwork.operations.NetworkFunctionVendorsOperations
+      - name: azure.mgmt.hybridnetwork.operations.ArtifactManifestsOperations
+        uid: azure.mgmt.hybridnetwork.operations.ArtifactManifestsOperations
+      - name: azure.mgmt.hybridnetwork.operations.ArtifactStoresOperations
+        uid: azure.mgmt.hybridnetwork.operations.ArtifactStoresOperations
+      - name: azure.mgmt.hybridnetwork.operations.ComponentsOperations
+        uid: azure.mgmt.hybridnetwork.operations.ComponentsOperations
+      - name: azure.mgmt.hybridnetwork.operations.ConfigurationGroupSchemasOperations
+        uid: azure.mgmt.hybridnetwork.operations.ConfigurationGroupSchemasOperations
+      - name: azure.mgmt.hybridnetwork.operations.ConfigurationGroupValuesOperations
+        uid: azure.mgmt.hybridnetwork.operations.ConfigurationGroupValuesOperations
+      - name: azure.mgmt.hybridnetwork.operations.NetworkFunctionDefinitionGroupsOperations
+        uid: azure.mgmt.hybridnetwork.operations.NetworkFunctionDefinitionGroupsOperations
+      - name: azure.mgmt.hybridnetwork.operations.NetworkFunctionDefinitionVersionsOperations
+        uid: azure.mgmt.hybridnetwork.operations.NetworkFunctionDefinitionVersionsOperations
       - name: azure.mgmt.hybridnetwork.operations.NetworkFunctionsOperations
         uid: azure.mgmt.hybridnetwork.operations.NetworkFunctionsOperations
+      - name: azure.mgmt.hybridnetwork.operations.NetworkServiceDesignGroupsOperations
+        uid: azure.mgmt.hybridnetwork.operations.NetworkServiceDesignGroupsOperations
+      - name: azure.mgmt.hybridnetwork.operations.NetworkServiceDesignVersionsOperations
+        uid: azure.mgmt.hybridnetwork.operations.NetworkServiceDesignVersionsOperations
       - name: azure.mgmt.hybridnetwork.operations.Operations
         uid: azure.mgmt.hybridnetwork.operations.Operations
-      - name: azure.mgmt.hybridnetwork.operations.RoleInstancesOperations
-        uid: azure.mgmt.hybridnetwork.operations.RoleInstancesOperations
-      - name: azure.mgmt.hybridnetwork.operations.VendorNetworkFunctionsOperations
-        uid: azure.mgmt.hybridnetwork.operations.VendorNetworkFunctionsOperations
-      - name: azure.mgmt.hybridnetwork.operations.VendorSkuPreviewOperations
-        uid: azure.mgmt.hybridnetwork.operations.VendorSkuPreviewOperations
-      - name: azure.mgmt.hybridnetwork.operations.VendorSkusOperations
-        uid: azure.mgmt.hybridnetwork.operations.VendorSkusOperations
-      - name: azure.mgmt.hybridnetwork.operations.VendorsOperations
-        uid: azure.mgmt.hybridnetwork.operations.VendorsOperations
+      - name: azure.mgmt.hybridnetwork.operations.ProxyArtifactOperations
+        uid: azure.mgmt.hybridnetwork.operations.ProxyArtifactOperations
+      - name: azure.mgmt.hybridnetwork.operations.PublishersOperations
+        uid: azure.mgmt.hybridnetwork.operations.PublishersOperations
+      - name: azure.mgmt.hybridnetwork.operations.SiteNetworkServicesOperations
+        uid: azure.mgmt.hybridnetwork.operations.SiteNetworkServicesOperations
+      - name: azure.mgmt.hybridnetwork.operations.SitesOperations
+        uid: azure.mgmt.hybridnetwork.operations.SitesOperations
       name: azure.mgmt.hybridnetwork.operations
     - name: azure.mgmt.hybridnetwork.HybridNetworkManagementClient
       uid: azure.mgmt.hybridnetwork.HybridNetworkManagementClient
@@ -27865,8 +28397,12 @@
         uid: azure.mgmt.networkanalytics.models.DataProductListResult
       - name: azure.mgmt.networkanalytics.models.DataProductNetworkAcls
         uid: azure.mgmt.networkanalytics.models.DataProductNetworkAcls
+      - name: azure.mgmt.networkanalytics.models.DataProductProperties
+        uid: azure.mgmt.networkanalytics.models.DataProductProperties
       - name: azure.mgmt.networkanalytics.models.DataProductUpdate
         uid: azure.mgmt.networkanalytics.models.DataProductUpdate
+      - name: azure.mgmt.networkanalytics.models.DataProductUpdateProperties
+        uid: azure.mgmt.networkanalytics.models.DataProductUpdateProperties
       - name: azure.mgmt.networkanalytics.models.DataProductUserRole
         uid: azure.mgmt.networkanalytics.models.DataProductUserRole
       - name: azure.mgmt.networkanalytics.models.DataProductVersion
@@ -27875,14 +28411,20 @@
         uid: azure.mgmt.networkanalytics.models.DataProductsCatalog
       - name: azure.mgmt.networkanalytics.models.DataProductsCatalogListResult
         uid: azure.mgmt.networkanalytics.models.DataProductsCatalogListResult
+      - name: azure.mgmt.networkanalytics.models.DataProductsCatalogProperties
+        uid: azure.mgmt.networkanalytics.models.DataProductsCatalogProperties
       - name: azure.mgmt.networkanalytics.models.DataType
         uid: azure.mgmt.networkanalytics.models.DataType
       - name: azure.mgmt.networkanalytics.models.DataTypeListResult
         uid: azure.mgmt.networkanalytics.models.DataTypeListResult
+      - name: azure.mgmt.networkanalytics.models.DataTypeProperties
+        uid: azure.mgmt.networkanalytics.models.DataTypeProperties
       - name: azure.mgmt.networkanalytics.models.DataTypeState
         uid: azure.mgmt.networkanalytics.models.DataTypeState
       - name: azure.mgmt.networkanalytics.models.DataTypeUpdate
         uid: azure.mgmt.networkanalytics.models.DataTypeUpdate
+      - name: azure.mgmt.networkanalytics.models.DataTypeUpdateProperties
+        uid: azure.mgmt.networkanalytics.models.DataTypeUpdateProperties
       - name: azure.mgmt.networkanalytics.models.DefaultAction
         uid: azure.mgmt.networkanalytics.models.DefaultAction
       - name: azure.mgmt.networkanalytics.models.EncryptionKeyDetails
@@ -38361,6 +38903,8 @@
         uid: azure.mgmt.resourcemover.models.MoveResourceStatus
       - name: azure.mgmt.resourcemover.models.MoveState
         uid: azure.mgmt.resourcemover.models.MoveState
+      - name: azure.mgmt.resourcemover.models.MoveType
+        uid: azure.mgmt.resourcemover.models.MoveType
       - name: azure.mgmt.resourcemover.models.NetworkInterfaceResourceSettings
         uid: azure.mgmt.resourcemover.models.NetworkInterfaceResourceSettings
       - name: azure.mgmt.resourcemover.models.NetworkSecurityGroupResourceSettings
@@ -47085,8 +47629,8 @@
         uid: azure.monitor.query.aio
       - name: azure.monitor.query.aio.LogsQueryClient
         uid: azure.monitor.query.aio.LogsQueryClient
-      - name: azure.monitor.query.aio.MetricsBatchQueryClient
-        uid: azure.monitor.query.aio.MetricsBatchQueryClient
+      - name: azure.monitor.query.aio.MetricsClient
+        uid: azure.monitor.query.aio.MetricsClient
       - name: azure.monitor.query.aio.MetricsQueryClient
         uid: azure.monitor.query.aio.MetricsQueryClient
       name: azure.monitor.query.aio
@@ -47124,8 +47668,8 @@
       uid: azure.monitor.query.MetricUnit
     - name: azure.monitor.query.MetricValue
       uid: azure.monitor.query.MetricValue
-    - name: azure.monitor.query.MetricsBatchQueryClient
-      uid: azure.monitor.query.MetricsBatchQueryClient
+    - name: azure.monitor.query.MetricsClient
+      uid: azure.monitor.query.MetricsClient
     - name: azure.monitor.query.MetricsQueryClient
       uid: azure.monitor.query.MetricsQueryClient
     - name: azure.monitor.query.MetricsQueryResult

@@ -100,15 +100,15 @@ methods:
 
 
     Find Sentence Boundaries.'
-  signature: 'async find_sentence_boundaries(content: List[InputTextItem] | IO, *,
-    client_trace_id: str | None = None, language: str | None = None, script: str |
-    None = None, **kwargs: Any) -> List[BreakSentenceItem]'
+  signature: 'async find_sentence_boundaries(request_body: List[InputTextItem] | IO,
+    *, client_trace_id: str | None = None, language: str | None = None, script: str
+    | None = None, **kwargs: Any) -> List[BreakSentenceItem]'
   parameters:
-  - name: content
-    description: 'Array of the text for which values the sentence boundaries will
-      be calculated.
+  - name: request_body
+    description: 'Defines the content of the request. Is either a [InputTextItem]
+      type or a
 
-      Is either a [InputTextItem] type or a IO type. Required.'
+      IO type. Required.'
     isRequired: true
     types:
     - <xref:list>[<xref:azure.ai.translation.text.models.InputTextItem>]
@@ -144,6 +144,13 @@ methods:
       value is None.'
     types:
     - <xref:str>
+  - name: stream
+    description: 'Whether to stream the response of this operation. Defaults to False.
+      You
+
+      will have to context manage the returned stream.'
+    types:
+    - <xref:bool>
   return:
     description: list of BreakSentenceItem
     types:
@@ -158,8 +165,8 @@ methods:
 
     Gets the set of languages currently supported by other operations of the Translator.'
   signature: 'async get_languages(*, client_trace_id: str | None = None, scope: str
-    | None = None, accept_language: str | None = None, if_none_match: str | None =
-    None, **kwargs: Any) -> GetLanguagesResult'
+    | None = None, accept_language: str | None = None, etag: str | None = None, match_condition:
+    MatchConditions | None = None, **kwargs: Any) -> GetLanguagesResult'
   parameters:
   - name: client_trace_id
     description: 'A client-generated GUID to uniquely identify the request. Default
@@ -208,18 +215,24 @@ methods:
       is not available. Default value is None.'
     types:
     - <xref:str>
-  - name: if_none_match
-    description: 'Passing the value of the ETag response header in an If-None-Match
-      field
+  - name: etag
+    description: 'check if resource is changed. Set None to skip checking etag. Default
+      value is
 
-      will allow the service to optimize the response.
-
-      If the resource has not been modified, the service will return status code 304
-      and an empty
-
-      response body. Default value is None.'
+      None.'
     types:
     - <xref:str>
+  - name: match_condition
+    description: The match condition to use upon the etag. Default value is None.
+    types:
+    - <xref:azure.core.MatchConditions>
+  - name: stream
+    description: 'Whether to stream the response of this operation. Defaults to False.
+      You
+
+      will have to context manage the returned stream.'
+    types:
+    - <xref:bool>
   return:
     description: GetLanguagesResult. The GetLanguagesResult is compatible with MutableMapping
     types:
@@ -232,15 +245,15 @@ methods:
 
 
     Lookup Dictionary Entries.'
-  signature: 'async lookup_dictionary_entries(content: List[InputTextItem] | IO, *,
-    from_parameter: str, to: str, client_trace_id: str | None = None, **kwargs: Any)
-    -> List[DictionaryLookupItem]'
+  signature: 'async lookup_dictionary_entries(request_body: List[InputTextItem] |
+    IO, *, from_parameter: str, to: str, client_trace_id: str | None = None, **kwargs:
+    Any) -> List[DictionaryLookupItem]'
   parameters:
-  - name: content
-    description: 'Array of the text to be sent to dictionary. Is either a [InputTextItem]
-      type or
+  - name: request_body
+    description: 'Defines the content of the request. Is either a [InputTextItem]
+      type or a
 
-      a IO type. Required.'
+      IO type. Required.'
     isRequired: true
     types:
     - <xref:list>[<xref:azure.ai.translation.text.models.InputTextItem>]
@@ -276,6 +289,13 @@ methods:
       value is None.'
     types:
     - <xref:str>
+  - name: stream
+    description: 'Whether to stream the response of this operation. Defaults to False.
+      You
+
+      will have to context manage the returned stream.'
+    types:
+    - <xref:bool>
   return:
     description: list of DictionaryLookupItem
     types:
@@ -288,12 +308,12 @@ methods:
 
 
     Lookup Dictionary Examples.'
-  signature: 'async lookup_dictionary_examples(content: List[DictionaryExampleTextItem]
+  signature: 'async lookup_dictionary_examples(request_body: List[DictionaryExampleTextItem]
     | IO, *, from_parameter: str, to: str, client_trace_id: str | None = None, **kwargs:
     Any) -> List[DictionaryExampleItem]'
   parameters:
-  - name: content
-    description: 'Array of the text to be sent to dictionary. Is either a
+  - name: request_body
+    description: 'Defines the content of the request. Is either a
 
       [DictionaryExampleTextItem] type or a IO type. Required.'
     isRequired: true
@@ -331,6 +351,13 @@ methods:
       value is None.'
     types:
     - <xref:str>
+  - name: stream
+    description: 'Whether to stream the response of this operation. Defaults to False.
+      You
+
+      will have to context manage the returned stream.'
+    types:
+    - <xref:bool>
   return:
     description: list of DictionaryExampleItem
     types:
@@ -381,7 +408,7 @@ methods:
 
 
     Translate Text.'
-  signature: 'async translate(content: List[InputTextItem] | IO, *, to: List[str],
+  signature: 'async translate(request_body: List[InputTextItem] | IO, *, to: List[str],
     client_trace_id: str | None = None, from_parameter: str | None = None, text_type:
     str | TextType | None = None, category: str | None = None, profanity_action: str
     | ProfanityAction | None = None, profanity_marker: str | ProfanityMarker | None
@@ -390,11 +417,11 @@ methods:
     to_script: str | None = None, allow_fallback: bool | None = None, **kwargs: Any)
     -> List[TranslatedTextItem]'
   parameters:
-  - name: content
-    description: 'Array of the text to be translated. Is either a [InputTextItem]
-      type or a IO
+  - name: request_body
+    description: 'Defines the content of the request. Is either a [InputTextItem]
+      type or a
 
-      type. Required.'
+      IO type. Required.'
     isRequired: true
     types:
     - <xref:list>[<xref:azure.ai.translation.text.models.InputTextItem>]
@@ -449,9 +476,9 @@ methods:
       HTML needs to be a well-formed,
 
       complete element. Possible values are: plain (default) or html. Known values
-      are: "plain" and
+      are: "Plain" and
 
-      "html". Default value is None.'
+      "Html". Default value is None.'
     types:
     - <xref:str>
     - <xref:azure.ai.translation.text.models.TextType>
@@ -548,6 +575,13 @@ methods:
       value is None.'
     types:
     - <xref:str>
+  - name: stream
+    description: 'Whether to stream the response of this operation. Defaults to False.
+      You
+
+      will have to context manage the returned stream.'
+    types:
+    - <xref:bool>
   return:
     description: list of TranslatedTextItem
     types:
@@ -560,12 +594,12 @@ methods:
 
 
     Transliterate Text.'
-  signature: 'async transliterate(content: List[InputTextItem] | IO, *, language:
+  signature: 'async transliterate(request_body: List[InputTextItem] | IO, *, language:
     str, from_script: str, to_script: str, client_trace_id: str | None = None, **kwargs:
     Any) -> List[TransliteratedText]'
   parameters:
-  - name: content
-    description: 'Array of the text to be transliterated. Is either a [InputTextItem]
+  - name: request_body
+    description: 'Defines the content of the request. Is either a [InputTextItem]
       type or a
 
       IO type. Required.'
@@ -613,6 +647,13 @@ methods:
       value is None.'
     types:
     - <xref:str>
+  - name: stream
+    description: 'Whether to stream the response of this operation. Defaults to False.
+      You
+
+      will have to context manage the returned stream.'
+    types:
+    - <xref:bool>
   return:
     description: list of TransliteratedText
     types:
