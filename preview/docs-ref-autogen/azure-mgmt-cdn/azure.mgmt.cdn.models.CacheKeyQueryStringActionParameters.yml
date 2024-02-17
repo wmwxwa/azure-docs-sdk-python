@@ -12,7 +12,7 @@ summary: 'Defines the parameters for the cache-key query string action.
 constructor:
   syntax: 'CacheKeyQueryStringActionParameters(*, type_name: str | _models.CacheKeyQueryStringActionParametersTypeName,
     query_string_behavior: str | _models.QueryStringBehavior, query_parameters: str
-    | None = None, **kwargs)'
+    | None = None, **kwargs: Any)'
   parameters:
   - name: type_name
     description: Required. "DeliveryRuleCacheKeyQueryStringBehaviorActionParameters"

@@ -12,7 +12,7 @@
         href: ~/docs-ref-services/preview/mgmt-advisor-readme.md
         children:
         - azure-mgmt-advisor
-  - name: Agrifood
+  - name: AgriFood
     href: ~/docs-ref-services/preview/agrifood.md
     landingPageType: Service
     items:
@@ -215,9 +215,9 @@
       children:
       - azure-ai-contentsafety
     - name: Personalizer
+      href: ~/docs-ref-services/preview/ai-personalizer-readme.md
       children:
       - azure-ai-personalizer
-      landingPageType: Service
     - name: Text Translation
       href: ~/docs-ref-services/preview/ai-translation-text-readme.md
       children:

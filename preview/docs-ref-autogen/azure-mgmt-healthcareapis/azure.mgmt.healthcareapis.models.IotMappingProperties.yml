@@ -8,7 +8,7 @@ inheritances:
 summary: The mapping content.
 constructor:
   syntax: 'IotMappingProperties(*, content: MutableMapping[str, Any] | None = None,
-    **kwargs)'
+    **kwargs: Any)'
   parameters:
   - name: content
     description: The mapping.

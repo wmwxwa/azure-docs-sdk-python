@@ -107,9 +107,10 @@ methods:
     types:
     - <xref:azure.core.MatchConditions>
   - name: computed_properties
-    description: 'Sets The computed properties for this container in the Azure
+    description: '**provisional** Sets The computed properties for this
 
-      Cosmos DB Service. For more Information on how to use computed properties visit
+      container in the Azure Cosmos DB Service. For more Information on how to use
+      computed properties visit
 
       *here: https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/query/computed-properties?tabs=dotnet*'
     types:
@@ -141,9 +142,9 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    31\\\\azure-cosmos-4.5.2b4\\\\samples\\\\examples_async.py\", \"xml:space\": \"\
-    preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\": {\"\
-    linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n           container_name\
+    31\\\\azure-cosmos-4.5.2a20240215001\\\\samples\\\\examples_async.py\", \"xml:space\"\
+    : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
+    : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n           container_name\
     \ = \"products\"\n           try:\n               container = await database.create_container(\n\
     \                   id=container_name, partition_key=PartitionKey(path=\"/productName\"\
     )\n               )\n           except exceptions.CosmosResourceExistsError:\n\
@@ -152,7 +153,7 @@ methods:
     \ partition key:<!--[!code-python[Main](les\\examples_async.py )]-->\n\n<!-- literal_block\
     \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\
     : [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\
-    \\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\31\\\\azure-cosmos-4.5.2b4\\\
+    \\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\31\\\\azure-cosmos-4.5.2a20240215001\\\
     \\samples\\\\examples_async.py\", \"xml:space\": \"preserve\", \"force\": false,\
     \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
     : false} -->\n\n````python\n\n           customer_container_name = \"customers\"\
@@ -227,9 +228,10 @@ methods:
     types:
     - <xref:azure.core.MatchConditions>
   - name: computed_properties
-    description: 'Sets The computed properties for this container in the Azure
+    description: '**provisional** Sets The computed properties for this
 
-      Cosmos DB Service. For more Information on how to use computed properties visit
+      container in the Azure Cosmos DB Service. For more Information on how to use
+      computed properties visit
 
       *here: https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/query/computed-properties?tabs=dotnet*'
     types:
@@ -291,7 +293,7 @@ methods:
   - "Create a database user:<!--[!code-python[Main](les\\examples_async.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
     : [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\
-    \\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\31\\\\azure-cosmos-4.5.2b4\\\
+    \\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\31\\\\azure-cosmos-4.5.2a20240215001\\\
     \\samples\\\\examples_async.py\", \"xml:space\": \"preserve\", \"force\": false,\
     \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
     : false} -->\n\n````python\n\n           try:\n               await database.create_user(dict(id=\"\
@@ -401,7 +403,7 @@ methods:
     examples_async.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"\
     names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\
     \\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
-    \\31\\\\azure-cosmos-4.5.2b4\\\\samples\\\\examples_async.py\", \"xml:space\"\
+    \\31\\\\azure-cosmos-4.5.2a20240215001\\\\samples\\\\examples_async.py\", \"xml:space\"\
     : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n           database\
     \ = client.get_database_client(database_name)\n           container = database.get_container_client(container_name)\n\
@@ -478,9 +480,9 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    31\\\\azure-cosmos-4.5.2b4\\\\samples\\\\examples_async.py\", \"xml:space\": \"\
-    preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\": {\"\
-    linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n           database\
+    31\\\\azure-cosmos-4.5.2a20240215001\\\\samples\\\\examples_async.py\", \"xml:space\"\
+    : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
+    : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n           database\
     \ = client.get_database_client(database_name)\n           async for container\
     \ in database.list_containers():\n               print(\"Container ID: {}\".format(container['id']))\n\
     \n   ````\n"
@@ -662,11 +664,6 @@ methods:
     description: Initial headers to be sent as part of the request.
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
-  - name: response_hook
-    description: A callable invoked with the response metadata.
-    types:
-    - <xref:typing.Callable>[[<xref:typing.Dict>[<xref:str>, <xref:str>], <xref:typing.Dict>[<xref:str>,
-      <xref:typing.Any>]], <xref:None>]
   - name: analytical_storage_ttl
     description: 'Analytical store time to live (TTL) for items in the container.  A
       value of
@@ -677,6 +674,11 @@ methods:
       note that analytical storage can only be enabled on Synapse Link enabled accounts.'
     types:
     - <xref:int>
+  - name: response_hook
+    description: A callable invoked with the response metadata.
+    types:
+    - <xref:typing.Callable>[[<xref:typing.Dict>[<xref:str>, <xref:str>], <xref:typing.Dict>[<xref:str>,
+      <xref:typing.Any>]], <xref:None>]
   return:
     description: A *ContainerProxy* instance representing the container after replace
       completed.
@@ -692,7 +694,7 @@ methods:
     examples_async.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"\
     names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\
     \\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
-    \\31\\\\azure-cosmos-4.5.2b4\\\\samples\\\\examples_async.py\", \"xml:space\"\
+    \\31\\\\azure-cosmos-4.5.2a20240215001\\\\samples\\\\examples_async.py\", \"xml:space\"\
     : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n           #\
     \ Set the TTL on the container to 3600 seconds (one hour)\n           await database.replace_container(container,\

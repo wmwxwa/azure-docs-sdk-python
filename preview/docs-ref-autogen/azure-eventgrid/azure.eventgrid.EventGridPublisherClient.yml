@@ -31,22 +31,23 @@ examples:
   sync_samples\\sample_authentication.py )]-->\n\n<!-- literal_block {\"ids\": [],\
   \ \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
   : \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-  \\py2docfx\\\\dist_temp\\\\34\\\\azure-eventgrid-4.17.0b1\\\\samples\\\\sync_samples\\\
-  \\sample_authentication.py\", \"xml:space\": \"preserve\", \"force\": false, \"\
-  language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\": false}\
-  \ -->\n\n````python\n\n   import os\n   from azure.eventgrid import EventGridPublisherClient\n\
-  \   from azure.core.credentials import AzureKeyCredential\n\n   topic_key = os.environ[\"\
-  EVENTGRID_TOPIC_KEY\"]\n   endpoint = os.environ[\"EVENTGRID_TOPIC_ENDPOINT\"]\n\
-  \n   credential_key = AzureKeyCredential(topic_key)\n   client = EventGridPublisherClient(endpoint,\
-  \ credential_key)\n\n   ````\n\nCreating the EventGridPublisherClient with an endpoint\
-  \ and AzureSasCredential.<!--[!code-python[Main](les\\sync_samples\\sample_authentication.py\
-  \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
-  : [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\
-  \\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\34\\\\azure-eventgrid-4.17.0b1\\\
-  \\samples\\\\sync_samples\\\\sample_authentication.py\", \"xml:space\": \"preserve\"\
-  , \"force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\"\
-  : 1}, \"linenos\": false} -->\n\n````python\n\n   import os\n   from azure.eventgrid\
-  \ import EventGridPublisherClient\n   from azure.core.credentials import AzureSasCredential\n\
+  \\py2docfx\\\\dist_temp\\\\34\\\\azure-eventgrid-4.17.0a20240216001\\\\samples\\\
+  \\sync_samples\\\\sample_authentication.py\", \"xml:space\": \"preserve\", \"force\"\
+  : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
+  linenos\": false} -->\n\n````python\n\n   import os\n   from azure.eventgrid import\
+  \ EventGridPublisherClient\n   from azure.core.credentials import AzureKeyCredential\n\
+  \n   topic_key = os.environ[\"EVENTGRID_TOPIC_KEY\"]\n   endpoint = os.environ[\"\
+  EVENTGRID_TOPIC_ENDPOINT\"]\n\n   credential_key = AzureKeyCredential(topic_key)\n\
+  \   client = EventGridPublisherClient(endpoint, credential_key)\n\n   ````\n\nCreating\
+  \ the EventGridPublisherClient with an endpoint and AzureSasCredential.<!--[!code-python[Main](les\\\
+  sync_samples\\sample_authentication.py )]-->\n\n<!-- literal_block {\"ids\": [],\
+  \ \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
+  : \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
+  \\py2docfx\\\\dist_temp\\\\34\\\\azure-eventgrid-4.17.0a20240216001\\\\samples\\\
+  \\sync_samples\\\\sample_authentication.py\", \"xml:space\": \"preserve\", \"force\"\
+  : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
+  linenos\": false} -->\n\n````python\n\n   import os\n   from azure.eventgrid import\
+  \ EventGridPublisherClient\n   from azure.core.credentials import AzureSasCredential\n\
   \n   signature = os.environ[\"EVENTGRID_SAS\"]\n   endpoint = os.environ[\"EVENTGRID_TOPIC_ENDPOINT\"\
   ]\n\n   credential_sas = AzureSasCredential(signature)\n   client = EventGridPublisherClient(endpoint,\
   \ credential_sas)\n\n   ````\n"
@@ -118,11 +119,11 @@ methods:
     sample_publish_custom_schema_to_a_topic.py )]-->\n\n<!-- literal_block {\"ids\"\
     : [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
     : \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\34\\\\azure-eventgrid-4.17.0b1\\\\samples\\\\sync_samples\\\
-    \\sample_publish_custom_schema_to_a_topic.py\", \"xml:space\": \"preserve\", \"\
-    force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\"\
-    : 1}, \"linenos\": false} -->\n\n````python\n\n   custom_schema_event = {\n  \
-    \     \"customSubject\": \"sample\",\n       \"customEventType\": \"sample.event\"\
+    \\py2docfx\\\\dist_temp\\\\34\\\\azure-eventgrid-4.17.0a20240216001\\\\samples\\\
+    \\sync_samples\\\\sample_publish_custom_schema_to_a_topic.py\", \"xml:space\"\
+    : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
+    : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   custom_schema_event\
+    \ = {\n       \"customSubject\": \"sample\",\n       \"customEventType\": \"sample.event\"\
     ,\n       \"customDataVersion\": \"2.0\",\n       \"customId\": uuid.uuid4(),\n\
     \       \"customEventTime\": dt.datetime.now(UTC()).isoformat(),\n       \"customData\"\
-    : \"sample data\",\n   }\n\n   client.send(custom_schema_event)\n\n   ````\n"
+    : \"sample data\"\n   }\n\n   client.send(custom_schema_event)\n\n   ````\n"

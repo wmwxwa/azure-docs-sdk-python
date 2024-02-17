@@ -14,7 +14,7 @@ summary: 'Describes resource usage.
   All required parameters must be populated in order to send to Azure.'
 constructor:
   syntax: 'Usage(*, unit: str | _models.UsageUnit, current_value: int, limit: int,
-    name: _models.UsageName, **kwargs)'
+    name: _models.UsageName, **kwargs: Any)'
   parameters:
   - name: unit
     description: An enum describing the unit of measurement. Required. "Count"

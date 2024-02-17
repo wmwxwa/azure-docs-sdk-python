@@ -27,7 +27,6 @@ classes:
 - azure.ai.translation.text.models.TranslationLanguage
 - azure.ai.translation.text.models.TransliterableScript
 - azure.ai.translation.text.models.TransliteratedText
-- azure.ai.translation.text.models.Transliteration
 - azure.ai.translation.text.models.TransliterationLanguage
 enums:
 - azure.ai.translation.text.models.ProfanityAction

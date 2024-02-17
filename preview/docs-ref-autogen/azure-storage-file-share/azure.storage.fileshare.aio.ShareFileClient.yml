@@ -424,7 +424,7 @@ methods:
   - "Create a file.<!--[!code-python[Main](les\\file_samples_client_async.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
     : [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\
-    \\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\192\\\\azure-storage-file-share-12.15.0b1\\\
+    \\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\192\\\\azure-storage-file-share-12.16.0a20240215001\\\
     \\samples\\\\file_samples_client_async.py\", \"xml:space\": \"preserve\", \"force\"\
     : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   # Create and allocate bytes for the\
@@ -467,7 +467,7 @@ methods:
   - "Delete a file.<!--[!code-python[Main](les\\file_samples_client_async.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
     : [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\
-    \\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\192\\\\azure-storage-file-share-12.15.0b1\\\
+    \\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\192\\\\azure-storage-file-share-12.16.0a20240215001\\\
     \\samples\\\\file_samples_client_async.py\", \"xml:space\": \"preserve\", \"force\"\
     : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   await my_file.delete_file()\n\n   ````\n"
@@ -561,12 +561,33 @@ methods:
   - "Download a file.<!--[!code-python[Main](les\\file_samples_client_async.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
     : [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\
-    \\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\192\\\\azure-storage-file-share-12.15.0b1\\\
+    \\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\192\\\\azure-storage-file-share-12.16.0a20240215001\\\
     \\samples\\\\file_samples_client_async.py\", \"xml:space\": \"preserve\", \"force\"\
     : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   with open(DEST_FILE, \"wb\") as data:\n\
     \       stream = await my_file.download_file()\n       data.write(await stream.readall())\n\
     \n   ````\n"
+- uid: azure.storage.fileshare.aio.ShareFileClient.exists
+  name: exists
+  summary: Returns True if the file exists and returns False otherwise.
+  signature: 'async exists(**kwargs: Any) -> bool'
+  parameters:
+  - name: timeout
+    description: 'Sets the server-side timeout for the operation in seconds. For more
+      details see
+
+      [https://learn.microsoft.com/rest/api/storageservices/setting-timeouts-for-file-service-operations](https://learn.microsoft.com/rest/api/storageservices/setting-timeouts-for-file-service-operations).
+
+      This value is not tracked or validated on the client. To configure client-side
+      network timesouts
+
+      see [here](https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/storage/azure-storage-file-share#other-client--per-operation-configuration).'
+    types:
+    - <xref:int>
+  return:
+    description: True if the file exists, False otherwise.
+    types:
+    - <xref:bool>
 - uid: azure.storage.fileshare.aio.ShareFileClient.from_connection_string
   name: from_connection_string
   summary: Create ShareFileClient from a Connection String.
@@ -638,11 +659,11 @@ methods:
     file_samples_hello_world.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\192\\\\azure-storage-file-share-12.15.0b1\\\\samples\\\
-    \\file_samples_hello_world.py\", \"xml:space\": \"preserve\", \"force\": false,\
-    \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
-    : false} -->\n\n````python\n\n   from azure.storage.fileshare import ShareFileClient\n\
-    \   file = ShareFileClient.from_connection_string(\n       self.connection_string,\n\
+    \\py2docfx\\\\dist_temp\\\\192\\\\azure-storage-file-share-12.16.0a20240215001\\\
+    \\samples\\\\file_samples_hello_world.py\", \"xml:space\": \"preserve\", \"force\"\
+    : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
+    linenos\": false} -->\n\n````python\n\n   from azure.storage.fileshare import\
+    \ ShareFileClient\n   file = ShareFileClient.from_connection_string(\n       self.connection_string,\n\
     \       share_name=\"helloworld2\",\n       file_path=\"myfile\")\n\n   ````\n"
 - uid: azure.storage.fileshare.aio.ShareFileClient.from_file_url
   name: from_file_url
@@ -1252,7 +1273,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    192\\\\azure-storage-file-share-12.15.0b1\\\\samples\\\\file_samples_client_async.py\"\
+    192\\\\azure-storage-file-share-12.16.0a20240215001\\\\samples\\\\file_samples_client_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   await destination_file.start_copy_from_url(source_url=source_url)\n\n   ````\n"
@@ -1410,7 +1431,7 @@ methods:
   - "Upload a file.<!--[!code-python[Main](les\\file_samples_client_async.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
     : [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\
-    \\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\192\\\\azure-storage-file-share-12.15.0b1\\\
+    \\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\192\\\\azure-storage-file-share-12.16.0a20240215001\\\
     \\samples\\\\file_samples_client_async.py\", \"xml:space\": \"preserve\", \"force\"\
     : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   with open(SOURCE_FILE, \"rb\") as source:\n\
@@ -1628,18 +1649,30 @@ attributes:
 - uid: azure.storage.fileshare.aio.ShareFileClient.api_version
   name: api_version
   summary: The version of the Storage API used for requests.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.fileshare.aio.ShareFileClient.location_mode
   name: location_mode
   summary: 'The location mode that the client is currently using.
 
 
     By default this will be "primary". Options include "primary" and "secondary".'
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.fileshare.aio.ShareFileClient.primary_endpoint
   name: primary_endpoint
   summary: The full primary endpoint URL.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.fileshare.aio.ShareFileClient.primary_hostname
   name: primary_hostname
   summary: The hostname of the primary endpoint.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.fileshare.aio.ShareFileClient.secondary_endpoint
   name: secondary_endpoint
   summary: 'The full secondary endpoint URL if configured.
@@ -1649,6 +1682,9 @@ attributes:
     hostname, use the optional
 
     *secondary_hostname* keyword argument on instantiation.'
+  return:
+    types:
+    - <xref:str>
   exceptions:
   - type: ValueError
 - uid: azure.storage.fileshare.aio.ShareFileClient.secondary_hostname
@@ -1660,6 +1696,9 @@ attributes:
     use the optional
 
     *secondary_hostname* keyword argument on instantiation.'
+  return:
+    types:
+    - <xref:typing.Optional>[<xref:str>]
 - uid: azure.storage.fileshare.aio.ShareFileClient.url
   name: url
   summary: 'The full endpoint URL to this entity, including SAS token if used.

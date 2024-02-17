@@ -13,5 +13,6 @@ packages:
 - azure.mgmt.containerservicefleet.v2023_03_15_preview
 - azure.mgmt.containerservicefleet.v2023_06_15_preview
 - azure.mgmt.containerservicefleet.v2023_08_15_preview
+- azure.mgmt.containerservicefleet.v2023_10_15
 modules:
 - azure.mgmt.containerservicefleet.models

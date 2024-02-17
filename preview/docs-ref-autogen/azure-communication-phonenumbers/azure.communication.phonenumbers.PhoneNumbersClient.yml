@@ -30,17 +30,13 @@ methods:
 - uid: azure.communication.phonenumbers.PhoneNumbersClient.begin_purchase_phone_numbers
   name: begin_purchase_phone_numbers
   summary: Purchases phone numbers.
-  signature: 'begin_purchase_phone_numbers(search_id: str, consent_dnr: bool = False,
-    **kwargs: Any) -> LROPoller[None]'
+  signature: 'begin_purchase_phone_numbers(search_id: str, **kwargs: Any) -> LROPoller[None]'
   parameters:
   - name: search_id
     description: The search id.
     isRequired: true
     types:
     - <xref:str>
-  - name: consent_to_not_resell_numbers/consent_dnr
-    description: The consent provided to not resell phone numbers.
-    isRequired: true
   - name: continuation_token
     description: A continuation token to restart a poller from a saved state.
     types:
