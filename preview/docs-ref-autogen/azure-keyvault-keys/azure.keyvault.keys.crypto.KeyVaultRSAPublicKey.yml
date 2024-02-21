@@ -101,10 +101,10 @@ methods:
     \ non-standard signatures, any data can be returned,\nincluding zero-length data.\n\
     \nNormally you should use the *verify()* function to validate the signature. But\
     \ for some non-standard signature\nformats you may need to explicitly recover\
-    \ and validate the signed data. The following are some examples:\n\n   * Some\
-    \ old Thawte and Verisign timestamp certificates without *DigestInfo*. \n\n  \
-    \ * Signed MD5/SHA1 hashes in TLS 1.1 or earlier ([RFC 4346](https://datatracker.ietf.org/doc/html/rfc4346.html),\
-    \ section 4.7). \n\n   * IKE version 1 signatures without *DigestInfo* ([RFC 2409](https://datatracker.ietf.org/doc/html/rfc2409.html),\
+    \ and validate the signed data. The following are some examples:\n\n* Some old\
+    \ Thawte and Verisign timestamp certificates without *DigestInfo*. \n\n* Signed\
+    \ MD5/SHA1 hashes in TLS 1.1 or earlier ([RFC 4346](https://datatracker.ietf.org/doc/html/rfc4346.html),\
+    \ section 4.7). \n\n* IKE version 1 signatures without *DigestInfo* ([RFC 2409](https://datatracker.ietf.org/doc/html/rfc2409.html),\
     \ section 5.1)."
   signature: 'recover_data_from_signature(signature: bytes, padding: AsymmetricPadding,
     algorithm: HashAlgorithm | None) -> bytes'
@@ -134,8 +134,9 @@ methods:
   - type: cryptography.exceptions.InvalidSignature
     description: if the signature is invalid.
   - type: cryptography.exceptions.UnsupportedAlgorithm
-    description: if the signature data recovery is not supported with the provided
-      *padding* type.
+    description: 'if the signature data recovery is not supported with
+
+      the provided *padding* type.'
 - uid: azure.keyvault.keys.crypto.KeyVaultRSAPublicKey.verifier
   name: verifier
   summary: Not implemented. This method was deprecated in *cryptography* 2.0 and removed
