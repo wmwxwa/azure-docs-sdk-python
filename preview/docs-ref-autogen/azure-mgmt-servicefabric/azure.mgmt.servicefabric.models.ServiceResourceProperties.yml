@@ -26,7 +26,7 @@ constructor:
     None = None, default_move_cost: str | _models.MoveCost | None = None, service_type_name:
     str | None = None, partition_description: _models.PartitionSchemeDescription |
     None = None, service_package_activation_mode: str | _models.ArmServicePackageActivationMode
-    | None = None, service_dns_name: str | None = None, **kwargs)'
+    | None = None, service_dns_name: str | None = None, **kwargs: Any)'
   parameters:
   - name: placement_constraints
     description: 'The placement constraints as a string. Placement constraints

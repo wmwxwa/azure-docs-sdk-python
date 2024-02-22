@@ -8,7 +8,7 @@ inheritances:
 summary: A key's ID and attributes.
 constructor:
   syntax: 'KeyProperties(key_id: str, attributes: _models.KeyAttributes | None = None,
-    **kwargs)'
+    **kwargs: Any)'
   parameters:
   - name: key_id
     description: The key ID.
@@ -29,8 +29,8 @@ constructor:
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
   - name: release_policy
-    description: 'The <xref:azure.keyvault.keys.KeyReleasePolicy> specifying the rules
-      under which the key
+    description: 'The azure.keyvault.keys.KeyReleasePolicy specifying the rules under
+      which the key
 
       can be exported.'
     types:
