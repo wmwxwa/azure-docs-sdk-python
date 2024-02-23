@@ -1,0 +1,32 @@
+### YamlMime:PythonClass
+uid: azure.ai.resources.operations.SingleDeploymentOperations
+name: SingleDeploymentOperations
+fullName: azure.ai.resources.operations.SingleDeploymentOperations
+module: azure.ai.resources.operations
+inheritances:
+- builtins.object
+constructor:
+  syntax: 'SingleDeploymentOperations(ml_client: MLClient, connections, **kwargs)'
+  parameters:
+  - name: ml_client
+  - name: connections
+methods:
+- uid: azure.ai.resources.operations.SingleDeploymentOperations.begin_create_or_update
+  name: begin_create_or_update
+  signature: 'begin_create_or_update(deployment: SingleDeployment) -> LROPoller[SingleDeployment]'
+- uid: azure.ai.resources.operations.SingleDeploymentOperations.delete
+  name: delete
+  signature: 'delete(name: str, endpoint_name: str | None = None) -> None'
+- uid: azure.ai.resources.operations.SingleDeploymentOperations.get
+  name: get
+  signature: 'get(name: str, endpoint_name: str | None = None) -> SingleDeployment'
+- uid: azure.ai.resources.operations.SingleDeploymentOperations.get_keys
+  name: get_keys
+  signature: 'get_keys(name: str, endpoint_name: str | None = None) -> DeploymentKeys'
+- uid: azure.ai.resources.operations.SingleDeploymentOperations.invoke
+  name: invoke
+  signature: 'invoke(name: str, request_file: str | PathLike, endpoint_name: str |
+    None = None) -> Any'
+- uid: azure.ai.resources.operations.SingleDeploymentOperations.list
+  name: list
+  signature: list() -> Iterable[SingleDeployment]

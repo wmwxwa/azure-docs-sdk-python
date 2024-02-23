@@ -11,7 +11,7 @@ summary: 'Defines the IsDevice condition for the delivery rule.
   All required parameters must be populated in order to send to Azure.'
 constructor:
   syntax: 'DeliveryRuleIsDeviceCondition(*, parameters: _models.IsDeviceMatchConditionParameters,
-    **kwargs)'
+    **kwargs: Any)'
   parameters:
   - name: parameters
     description: Defines the parameters for the condition. Required.

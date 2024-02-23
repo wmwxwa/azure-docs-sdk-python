@@ -45,7 +45,9 @@ methods:
     types:
     - <xref:str>
   - name: origin_group
-    description: Origin group properties. Is either a model type or a IO type. Required.
+    description: 'Origin group properties. Is either a OriginGroup type or a IO type.
+
+      Required.'
     isRequired: true
     types:
     - <xref:azure.mgmt.cdn.models.OriginGroup>
@@ -188,9 +190,9 @@ methods:
     types:
     - <xref:str>
   - name: origin_group_update_properties
-    description: 'Origin group properties. Is either a model type or a IO
+    description: 'Origin group properties. Is either a
 
-      type. Required.'
+      OriginGroupUpdateParameters type or a IO type. Required.'
     isRequired: true
     types:
     - <xref:azure.mgmt.cdn.models.OriginGroupUpdateParameters>

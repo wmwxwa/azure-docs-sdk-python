@@ -35,7 +35,8 @@ methods:
     types:
     - <xref:str>
   - name: body
-    description: Is either a model type or a IO type. Default value is None.
+    description: Is either a BulkRemoveRequest type or a IO type. Default value is
+      None.
     isRequired: true
     types:
     - <xref:azure.mgmt.resourcemover.models.BulkRemoveRequest>
@@ -110,7 +111,7 @@ methods:
     types:
     - <xref:str>
   - name: body
-    description: Is either a model type or a IO type. Default value is None.
+    description: Is either a CommitRequest type or a IO type. Default value is None.
     isRequired: true
     types:
     - <xref:azure.mgmt.resourcemover.models.CommitRequest>
@@ -235,7 +236,7 @@ methods:
     types:
     - <xref:str>
   - name: body
-    description: Is either a model type or a IO type. Default value is None.
+    description: Is either a DiscardRequest type or a IO type. Default value is None.
     isRequired: true
     types:
     - <xref:azure.mgmt.resourcemover.models.DiscardRequest>
@@ -310,7 +311,8 @@ methods:
     types:
     - <xref:str>
   - name: body
-    description: Is either a model type or a IO type. Default value is None.
+    description: Is either a ResourceMoveRequest type or a IO type. Default value
+      is None.
     isRequired: true
     types:
     - <xref:azure.mgmt.resourcemover.models.ResourceMoveRequest>
@@ -385,7 +387,7 @@ methods:
     types:
     - <xref:str>
   - name: body
-    description: Is either a model type or a IO type. Default value is None.
+    description: Is either a PrepareRequest type or a IO type. Default value is None.
     isRequired: true
     types:
     - <xref:azure.mgmt.resourcemover.models.PrepareRequest>
@@ -499,7 +501,7 @@ methods:
     types:
     - <xref:str>
   - name: body
-    description: Is either a model type or a IO type. Default value is None.
+    description: Is either a MoveCollection type or a IO type. Default value is None.
     isRequired: true
     types:
     - <xref:azure.mgmt.resourcemover.models.MoveCollection>
@@ -639,7 +641,8 @@ methods:
     types:
     - <xref:str>
   - name: body
-    description: Is either a model type or a IO type. Default value is None.
+    description: Is either a UpdateMoveCollectionRequest type or a IO type. Default
+      value is None.
     isRequired: true
     types:
     - <xref:azure.mgmt.resourcemover.models.UpdateMoveCollectionRequest>

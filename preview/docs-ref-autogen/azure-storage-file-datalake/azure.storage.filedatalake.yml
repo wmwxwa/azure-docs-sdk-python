@@ -14,7 +14,7 @@ functions:
     FileSystemClient, DataLakeDirectoryClient or DataLakeFileClient.'
   signature: 'generate_account_sas(account_name: str, account_key: str, resource_types:
     ResourceTypes | str, permission: AccountSasPermissions | str, expiry: datetime
-    | str | None, **kwargs: Any) -> str'
+    | str, **kwargs: Any) -> str'
   parameters:
   - name: account_name
     description: The storage account name used to generate the shared access signature.
@@ -36,13 +36,7 @@ functions:
   - name: permission
     description: 'The permissions associated with the shared access signature. The
 
-      user is restricted to operations allowed by the permissions.
-
-      Required unless an id is given referencing a stored access policy
-
-      which contains this field. This field must be omitted if it has been
-
-      specified in an associated stored access policy.'
+      user is restricted to operations allowed by the permissions.'
     isRequired: true
     types:
     - <xref:str>
@@ -50,15 +44,9 @@ functions:
   - name: expiry
     description: 'The time at which the shared access signature becomes invalid.
 
-      Required unless an id is given referencing a stored access policy
+      Azure will always convert values to UTC. If a date is passed in
 
-      which contains this field. This field must be omitted if it has
-
-      been specified in an associated stored access policy. Azure will always
-
-      convert values to UTC. If a date is passed in without timezone info, it
-
-      is assumed to be UTC.'
+      without timezone info, it is assumed to be UTC.'
     isRequired: true
     types:
     - <xref:datetime.datetime>
@@ -194,6 +182,15 @@ functions:
       be UTC.'
     types:
     - <xref:datetime.datetime>
+    - <xref:str>
+  - name: policy_id
+    description: 'A unique value up to 64 characters in length that correlates to
+      a
+
+      stored access policy. To create a stored access policy, use
+
+      <xref:azure.storage.filedatalake.FileSystemClient.set_file_system_access_policy>.'
+    types:
     - <xref:str>
   - name: ip
     description: 'Specifies an IP address or a range of IP addresses from which to
@@ -383,6 +380,15 @@ functions:
     types:
     - <xref:datetime.datetime>
     - <xref:str>
+  - name: policy_id
+    description: 'A unique value up to 64 characters in length that correlates to
+      a
+
+      stored access policy. To create a stored access policy, use
+
+      <xref:azure.storage.filedatalake.FileSystemClient.set_file_system_access_policy>.'
+    types:
+    - <xref:str>
   - name: ip
     description: 'Specifies an IP address or a range of IP addresses from which to
       accept requests.
@@ -561,6 +567,15 @@ functions:
       be UTC.'
     types:
     - <xref:datetime>
+    - <xref:str>
+  - name: policy_id
+    description: 'A unique value up to 64 characters in length that correlates to
+      a
+
+      stored access policy. To create a stored access policy, use
+
+      <xref:azure.storage.filedatalake.FileSystemClient.set_file_system_access_policy>.'
+    types:
     - <xref:str>
   - name: ip
     description: 'Specifies an IP address or a range of IP addresses from which to

@@ -146,6 +146,13 @@ attributes:
     description: AI Resource operations
     types:
     - <xref:azure.ai.resources.operations.AIResourceOperations>
+- uid: azure.ai.resources.client.AIClient.azure_open_ai_deployments
+  name: azure_open_ai_deployments
+  summary: A collection of Azure OpenAI deployment-related operations.
+  return:
+    description: Azure OpenAI deployment operations
+    types:
+    - <xref:azure.ai.resources.operations.AzureOpenAIDeploymentOperations>
 - uid: azure.ai.resources.client.AIClient.connections
   name: connections
   summary: 'A collection of connection-related operations.
@@ -166,13 +173,6 @@ attributes:
     description: Data operations
     types:
     - <xref:azure.ai.resources.operations.DataOperations>
-- uid: azure.ai.resources.client.AIClient.deployments
-  name: deployments
-  summary: A collection of deployment-related operations.
-  return:
-    description: Deployment operations
-    types:
-    - <xref:azure.ai.resources.operations.DeploymentOperations>
 - uid: azure.ai.resources.client.AIClient.indexes
   name: indexes
   summary: A collection of ML index-related operations.
@@ -208,6 +208,13 @@ attributes:
     description: An Azure resource group name.
     types:
     - <xref:str>
+- uid: azure.ai.resources.client.AIClient.single_deployments
+  name: single_deployments
+  summary: A collection of single deployment-related operations.
+  return:
+    description: Single deployment operations
+    types:
+    - <xref:azure.ai.resources.operations.SingleDeploymentOperations>
 - uid: azure.ai.resources.client.AIClient.subscription_id
   name: subscription_id
   summary: Get the subscription Id of a MLClient object.

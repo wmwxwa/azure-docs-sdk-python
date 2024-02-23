@@ -1,0 +1,69 @@
+### YamlMime:PythonClass
+uid: azure.ai.resources.entities.single_deployment.SingleDeployment
+name: SingleDeployment
+fullName: azure.ai.resources.entities.single_deployment.SingleDeployment
+module: azure.ai.resources.entities.single_deployment
+inheritances:
+- builtins.object
+constructor:
+  syntax: 'SingleDeployment(name: str, model: str | azure.ai.resources.entities.models.Model
+    | azure.ai.resources.entities.models.PromptflowModel, app_insights_enabled: bool
+    = True, data_collector_enabled: bool = True, endpoint_name: str | None = None,
+    environment_variables: Dict[str, str] | None = None, instance_type: str | None
+    = None, instance_count: str = ''1'', scoring_uri: str | None = None, properties:
+    Dict[str, str] | None = None, tags: Dict[str, str] | None = None)'
+  parameters:
+  - name: name
+  - name: model
+  - name: app_insights_enabled
+    defaultValue: 'True'
+  - name: data_collector_enabled
+    defaultValue: 'True'
+  - name: endpoint_name
+    defaultValue: None
+  - name: environment_variables
+    defaultValue: None
+  - name: instance_type
+    defaultValue: None
+  - name: instance_count
+    defaultValue: '1'
+  - name: scoring_uri
+    defaultValue: None
+  - name: properties
+    defaultValue: None
+  - name: tags
+    defaultValue: None
+attributes:
+- uid: azure.ai.resources.entities.single_deployment.SingleDeployment.app_insights_enabled
+  name: app_insights_enabled
+  signature: 'app_insights_enabled: bool = True'
+- uid: azure.ai.resources.entities.single_deployment.SingleDeployment.data_collector_enabled
+  name: data_collector_enabled
+  signature: 'data_collector_enabled: bool = True'
+- uid: azure.ai.resources.entities.single_deployment.SingleDeployment.endpoint_name
+  name: endpoint_name
+  signature: 'endpoint_name: str | None = None'
+- uid: azure.ai.resources.entities.single_deployment.SingleDeployment.environment_variables
+  name: environment_variables
+  signature: 'environment_variables: Dict[str, str] | None = None'
+- uid: azure.ai.resources.entities.single_deployment.SingleDeployment.instance_count
+  name: instance_count
+  signature: 'instance_count: str = ''1'''
+- uid: azure.ai.resources.entities.single_deployment.SingleDeployment.instance_type
+  name: instance_type
+  signature: 'instance_type: str | None = None'
+- uid: azure.ai.resources.entities.single_deployment.SingleDeployment.model
+  name: model
+  signature: 'model: str | Model | PromptflowModel'
+- uid: azure.ai.resources.entities.single_deployment.SingleDeployment.name
+  name: name
+  signature: 'name: str'
+- uid: azure.ai.resources.entities.single_deployment.SingleDeployment.properties
+  name: properties
+  signature: 'properties: Dict[str, str] | None = None'
+- uid: azure.ai.resources.entities.single_deployment.SingleDeployment.scoring_uri
+  name: scoring_uri
+  signature: 'scoring_uri: str | None = None'
+- uid: azure.ai.resources.entities.single_deployment.SingleDeployment.tags
+  name: tags
+  signature: 'tags: Dict[str, str] | None = None'
