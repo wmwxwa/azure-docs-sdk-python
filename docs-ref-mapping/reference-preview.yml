@@ -215,9 +215,9 @@
       children:
       - azure-ai-contentsafety
     - name: Personalizer
+      href: ~/docs-ref-services/preview/ai-personalizer-readme.md
       children:
       - azure-ai-personalizer
-      landingPageType: Service
     - name: Text Translation
       href: ~/docs-ref-services/preview/ai-translation-text-readme.md
       children:
@@ -782,6 +782,16 @@
         href: ~/docs-ref-services/preview/mgmt-labservices-readme.md
         children:
         - azure-mgmt-labservices
+  - name: Liftr-Astronomer
+    href: ~/docs-ref-services/preview/liftr-astronomer.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Apache Airflow on Astro - An Azure Native ISV Service
+        href: ~/docs-ref-services/preview/mgmt-astro-readme.md
+        children:
+        - azure-mgmt-astro
   - name: Log Analytics
     href: ~/docs-ref-services/preview/log-analytics.md
     landingPageType: Service
@@ -1392,6 +1402,10 @@
         href: ~/docs-ref-services/preview/mgmt-datalake-store-readme.md
         children:
         - azure-mgmt-datalake-store
+      - name: Resource Management - Storage Cache
+        href: ~/docs-ref-services/preview/mgmt-storagecache-readme.md
+        children:
+        - azure-mgmt-storagecache
       - name: Resource Management - Storage Mover
         href: ~/docs-ref-services/preview/mgmt-storagemover-readme.md
         children:
