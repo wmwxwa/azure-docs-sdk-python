@@ -32,7 +32,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: force
     description: 'Deletes the resource even if it is part of a deployed configuration.
       If the
@@ -106,7 +106,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.NetworkGroup>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: if_match
     description: 'The ETag of the transformation. Omit this value to always overwrite
       the
@@ -153,7 +153,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -185,7 +185,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -212,7 +212,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: 'An optional query parameter which specifies the maximum number of
       records to be

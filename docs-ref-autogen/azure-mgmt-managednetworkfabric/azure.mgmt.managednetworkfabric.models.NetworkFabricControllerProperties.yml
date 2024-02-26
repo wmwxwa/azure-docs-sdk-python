@@ -18,7 +18,7 @@ constructor:
     | None = None, is_workload_management_network_enabled: str | _models.IsWorkloadManagementNetworkEnabled
     = ''True'', ipv4_address_space: str = ''10.0.0.0/19'', ipv6_address_space: str
     = ''FC00::/59'', nfc_sku: str | _models.NfcSku = ''Standard'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: infrastructure_express_route_connections
     description: 'As part of an update, the Infrastructure
 

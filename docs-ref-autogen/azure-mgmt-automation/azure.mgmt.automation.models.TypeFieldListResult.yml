@@ -14,5 +14,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.automation.models.TypeField>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: value
+    isRequired: true

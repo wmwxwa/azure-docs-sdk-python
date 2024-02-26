@@ -36,7 +36,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.VirtualNetwork>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -93,7 +93,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -143,7 +143,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: The max number of ip addresses to return. Default value is None.
     types:
@@ -211,7 +211,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.TagsObject>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -268,7 +268,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: ip_address
     description: The private IP address to be verified. Required.
     types:
@@ -299,7 +299,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: expand
     description: Expands referenced resources. Default value is None.
     types:
@@ -330,7 +330,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -351,7 +351,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -367,7 +367,7 @@ methods:
   name: list_all
   summary: Gets all virtual networks in a subscription.
   signature: 'list_all(**kwargs: Any) -> Iterable[VirtualNetwork]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -395,7 +395,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -432,7 +432,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.TagsObject>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

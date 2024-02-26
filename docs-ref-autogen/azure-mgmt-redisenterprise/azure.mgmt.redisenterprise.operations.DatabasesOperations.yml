@@ -57,7 +57,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.redisenterprise.models.Database>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -111,7 +111,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -170,7 +170,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.redisenterprise.models.ExportClusterParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -229,7 +229,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.redisenterprise.models.ForceUnlinkParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -288,7 +288,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.redisenterprise.models.ImportClusterParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -347,7 +347,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.redisenterprise.models.RegenerateKeyParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -406,7 +406,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.redisenterprise.models.DatabaseUpdate>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -460,7 +460,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -487,7 +487,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -520,7 +520,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

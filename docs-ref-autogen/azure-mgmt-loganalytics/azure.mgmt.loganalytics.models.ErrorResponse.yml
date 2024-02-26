@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.loganalytics.models.ErrorDetail>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: error
+    isRequired: true

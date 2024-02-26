@@ -24,7 +24,7 @@ constructor:
     Dict[str, str] | None = None, configure_load_balancing: bool | None = None, traffic_manager_profile_id:
     str | None = None, traffic_manager_profile_name: str | None = None, ignore_quotas:
     bool | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: correlation_id
     description: 'Correlation ID of cloning operation. This ID ties multiple cloning
 
@@ -82,6 +82,7 @@ constructor:
     types:
     - <xref:bool>
   - name: traffic_manager_profile_name
+    isRequired: true
 variables:
 - description: 'Correlation ID of cloning operation. This ID ties multiple cloning
 

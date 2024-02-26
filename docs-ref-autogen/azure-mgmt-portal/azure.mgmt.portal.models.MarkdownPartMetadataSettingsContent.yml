@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.portal.models.MarkdownPartMetadataSettingsContentSettings>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: settings
+    isRequired: true

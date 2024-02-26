@@ -31,7 +31,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -114,7 +114,7 @@ methods:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -179,7 +179,7 @@ methods:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -210,7 +210,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -284,7 +284,7 @@ methods:
     types:
     - <xref:list>[<xref:str>
     - <xref:azure.mgmt.cdn.models.WafRuleType>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -357,7 +357,7 @@ methods:
     types:
     - <xref:list>[<xref:str>
     - <xref:azure.mgmt.cdn.models.WafRuleType>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

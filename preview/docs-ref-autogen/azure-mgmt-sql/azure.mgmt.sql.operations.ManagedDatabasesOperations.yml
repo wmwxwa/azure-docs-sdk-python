@@ -44,7 +44,7 @@ methods:
     types:
     - <xref:azure.mgmt.sql.models.ManagedDatabaseMoveDefinition>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -116,7 +116,7 @@ methods:
     types:
     - <xref:azure.mgmt.sql.models.ManagedDatabaseMoveDefinition>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -188,7 +188,7 @@ methods:
     types:
     - <xref:azure.mgmt.sql.models.CompleteDatabaseRestoreDefinition>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -260,7 +260,7 @@ methods:
     types:
     - <xref:azure.mgmt.sql.models.ManagedDatabase>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -324,7 +324,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -390,7 +390,7 @@ methods:
     types:
     - <xref:azure.mgmt.sql.models.ManagedDatabaseStartMoveDefinition>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -461,7 +461,7 @@ methods:
     types:
     - <xref:azure.mgmt.sql.models.ManagedDatabaseUpdate>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -525,7 +525,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -554,7 +554,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -584,7 +584,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

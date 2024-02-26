@@ -22,7 +22,7 @@ constructor:
     | None = None, disable_local_auth: bool = False, soft_delete_retention_in_days:
     int = 7, enable_purge_protection: bool = False, create_mode: str | _models.CreateMode
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

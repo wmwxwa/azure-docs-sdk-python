@@ -11,15 +11,23 @@ constructor:
     = None, load_only: Sequence[str] | AbstractSet[str] = (), dump_only: Sequence[str]
     | AbstractSet[str] = (), partial: bool | Sequence[str] | AbstractSet[str] | None
     = None, unknown: str | None = None)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: only
+    isRequired: true
   - name: exclude
+    isRequired: true
   - name: many
+    isRequired: true
   - name: context
+    isRequired: true
   - name: load_only
+    isRequired: true
   - name: dump_only
+    isRequired: true
   - name: partial
+    isRequired: true
   - name: unknown
+    isRequired: true
 methods:
 - uid: azureml.featurestore.schema.feature_retrieval_spec_schema.Feature.dump
   name: dump
@@ -50,7 +58,7 @@ methods:
 
       for *self.many* is used.'
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: many
     isRequired: true
   return:
@@ -80,7 +88,7 @@ methods:
 
       for *self.many* is used.'
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: many
     isRequired: true
   return:
@@ -110,7 +118,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
     defaultValue: GeneratedSchema
 - uid: azureml.featurestore.schema.feature_retrieval_spec_schema.Feature.get_attribute
@@ -154,7 +162,7 @@ methods:
   - name: partial
     description: Value of `partial` on load.
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: many
     isRequired: true
 - uid: azureml.featurestore.schema.feature_retrieval_spec_schema.Feature.load
@@ -199,7 +207,7 @@ methods:
 
       If *None*, the value for *self.unknown* is used.'
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: many
     isRequired: true
   - name: partial
@@ -250,7 +258,7 @@ methods:
 
       If *None*, the value for *self.unknown* is used.'
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: many
     isRequired: true
   - name: partial
@@ -314,7 +322,7 @@ methods:
 
       will be ignored. Use dot delimiters to specify nested fields.'
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: many
     isRequired: true
   - name: partial

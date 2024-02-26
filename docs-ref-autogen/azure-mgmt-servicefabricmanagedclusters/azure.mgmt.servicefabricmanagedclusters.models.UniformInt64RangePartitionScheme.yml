@@ -42,7 +42,10 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: count
+    isRequired: true
   - name: low_key
+    isRequired: true
   - name: high_key
+    isRequired: true

@@ -12,7 +12,7 @@ summary: 'Msi identity details of the resource.
 constructor:
   syntax: 'ResourceIdentity(*, type: str = ''None'', user_assigned_identities: Dict[str,
     _models.UserAssignedIdentity] | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: type
     description: Identity type.
     defaultValue: None

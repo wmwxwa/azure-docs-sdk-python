@@ -59,7 +59,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.automation.models.DscConfigurationCreateOrUpdateParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Media type of the body sent to the API. Default value is "text/plain;
       charset=utf-8".
@@ -98,7 +98,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -130,7 +130,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -162,7 +162,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -210,7 +210,7 @@ methods:
     defaultValue: None
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -250,7 +250,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.automation.models.DscConfigurationUpdateParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Media type of the body sent to the API. Default value is "text/plain;
       charset=utf-8".

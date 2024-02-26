@@ -22,7 +22,7 @@ constructor:
     = ''Enabled'', public_network_access_for_query: str | _models.PublicNetworkAccessType
     = ''Enabled'', ingestion_mode: str | _models.IngestionMode = ''ApplicationInsights'',
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: Resource location. Required.
     types:

@@ -10,7 +10,7 @@ constructor:
   syntax: 'AdditionalWorkspacesProperties(*, workspace: str | None = None, type: str
     | _models.AdditionalWorkspaceType = ''Sentinel'', data_types: List[str | _models.AdditionalWorkspaceDataType]
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: workspace
     description: Workspace resource id.
     types:

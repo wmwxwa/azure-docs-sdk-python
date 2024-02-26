@@ -52,7 +52,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.portal.models.Dashboard>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -79,7 +79,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -106,7 +106,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -128,7 +128,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -144,7 +144,7 @@ methods:
   name: list_by_subscription
   summary: Gets all the dashboards within a subscription.
   signature: 'list_by_subscription(**kwargs: Any) -> Iterable[''_models.DashboardListResult'']'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -177,7 +177,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.portal.models.PatchableDashboard>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

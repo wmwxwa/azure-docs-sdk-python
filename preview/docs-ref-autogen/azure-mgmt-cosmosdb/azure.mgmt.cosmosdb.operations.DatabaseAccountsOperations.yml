@@ -41,7 +41,7 @@ methods:
     types:
     - <xref:azure.mgmt.cosmosdb.models.DatabaseAccountCreateUpdateParameters>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -100,7 +100,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -169,7 +169,7 @@ methods:
     types:
     - <xref:azure.mgmt.cosmosdb.models.FailoverPolicies>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -236,7 +236,7 @@ methods:
     types:
     - <xref:azure.mgmt.cosmosdb.models.RegionForOnlineOffline>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -303,7 +303,7 @@ methods:
     types:
     - <xref:azure.mgmt.cosmosdb.models.RegionForOnlineOffline>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -369,7 +369,7 @@ methods:
     types:
     - <xref:azure.mgmt.cosmosdb.models.DatabaseAccountRegenerateKeyParameters>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -435,7 +435,7 @@ methods:
     types:
     - <xref:azure.mgmt.cosmosdb.models.DatabaseAccountUpdateParameters>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -492,7 +492,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -520,7 +520,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -550,7 +550,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -565,7 +565,7 @@ methods:
   name: list
   summary: Lists all the Azure Cosmos DB database accounts available under the subscription.
   signature: 'list(**kwargs: Any) -> Iterable[DatabaseAccountGetResults]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -592,7 +592,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -625,7 +625,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -654,7 +654,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -683,7 +683,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -725,7 +725,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -755,7 +755,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -795,7 +795,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

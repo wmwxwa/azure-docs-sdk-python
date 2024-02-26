@@ -41,7 +41,7 @@ methods:
     types:
     - <xref:azure.mgmt.containerservice.v2022_03_02_preview.models.ManagedClusterSnapshot>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -79,7 +79,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -111,7 +111,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -129,7 +129,7 @@ methods:
 
     Gets a list of managed cluster snapshots in the specified subscription.'
   signature: 'list(**kwargs: Any) -> Iterable[ManagedClusterSnapshot]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -159,7 +159,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -204,7 +204,7 @@ methods:
     types:
     - <xref:azure.mgmt.containerservice.v2022_03_02_preview.models.TagsObject>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

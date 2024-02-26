@@ -14,5 +14,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: purview_resource_id
+    isRequired: true

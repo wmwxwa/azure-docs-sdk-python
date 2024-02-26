@@ -21,7 +21,7 @@ constructor:
     bool | None = None, encrypt_dc_connections: bool | None = None, ldap_search_scope:
     _models.LdapSearchScopeOpt | None = None, preferred_servers_for_ldap_client: str
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: active_directory_id
     description: Id of the Active Directory.
     types:

@@ -27,7 +27,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: continuation_token
     description: A continuation token to restart a poller from a saved state.
     types:
@@ -77,7 +77,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -942,7 +942,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: if_none_match
     description: 'Defines the If-None-Match condition. The operation will be performed
 
@@ -1085,7 +1085,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: order_by
     description: 'Orders the set of deployments returned. You can order by start date.
       Default
@@ -1147,7 +1147,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: order_by
     description: 'Orders the set of deployments returned. You can order by start date.
       Default
@@ -1215,7 +1215,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: filter
     description: 'Restricts the set of device class subgroups returned. You can filter
       on compat
@@ -1257,7 +1257,7 @@ methods:
     all devices connected to Device Update for IoT Hub.'
   signature: 'list_device_classes(*, filter: str | None = None, **kwargs: Any) ->
     Iterable[MutableMapping[str, Any]]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: filter
     description: 'Restricts the set of device classes returned. You can filter on
       friendly name.
@@ -1324,7 +1324,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: filter
     description: 'Restricts the set of deployment device states returned. You can
       filter on
@@ -1356,7 +1356,7 @@ methods:
   summary: Gets a list of devices connected to Device Update for IoT Hub.
   signature: 'list_devices(*, filter: str | None = None, **kwargs: Any) -> Iterable[MutableMapping[str,
     Any]]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: filter
     description: 'Restricts the set of devices returned. You can filter on GroupId,
 
@@ -1424,7 +1424,7 @@ methods:
     first.
   signature: 'list_groups(*, order_by: str | None = None, **kwargs: Any) -> Iterable[MutableMapping[str,
     Any]]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: order_by
     description: 'Orders the set of groups returned. You can order by groupId, deviceCount,
 
@@ -1463,7 +1463,7 @@ methods:
   summary: Get list of device health.
   signature: 'list_health_of_devices(*, filter: str, **kwargs: Any) -> Iterable[MutableMapping[str,
     Any]]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: filter
     description: 'Restricts the set of devices for which device health is returned.
       You can
@@ -1550,7 +1550,7 @@ methods:
     auto-deleted.'
   signature: 'list_operation_statuses(*, filter: str | None = None, top: int | None
     = None, **kwargs: Any) -> Iterable[MutableMapping[str, Any]]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: filter
     description: 'Restricts the set of operations returned. Only one specific filter
       is
@@ -1683,7 +1683,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -1793,7 +1793,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are:
 

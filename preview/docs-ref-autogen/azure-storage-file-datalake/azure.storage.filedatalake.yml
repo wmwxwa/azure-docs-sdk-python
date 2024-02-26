@@ -63,7 +63,7 @@ functions:
     types:
     - <xref:datetime.datetime>
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: start
     description: 'The time at which the shared access signature becomes valid. If
 
@@ -183,7 +183,7 @@ functions:
     types:
     - <xref:datetime.datetime>
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: start
     description: 'The time at which the shared access signature becomes valid. If
 
@@ -372,7 +372,7 @@ functions:
     types:
     - <xref:datetime.datetime>
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: start
     description: 'The time at which the shared access signature becomes valid. If
 
@@ -552,7 +552,7 @@ functions:
     types:
     - <xref:datetime>
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: start
     description: 'The time at which the shared access signature becomes valid. If
 

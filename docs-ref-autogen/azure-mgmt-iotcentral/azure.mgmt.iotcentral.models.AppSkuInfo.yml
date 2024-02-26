@@ -19,5 +19,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.iotcentral.models.AppSku>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true

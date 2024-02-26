@@ -22,7 +22,7 @@ constructor:
     | None = None, network_block: str | None = None, vcenter_password: str | None
     = None, nsxt_password: str | None = None, secondary_circuit: _models.Circuit |
     None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: Resource location.
     types:

@@ -14,5 +14,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: blob_name
+    isRequired: true

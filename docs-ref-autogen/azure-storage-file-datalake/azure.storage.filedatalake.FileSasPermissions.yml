@@ -34,7 +34,7 @@ constructor:
     defaultValue: 'False'
     types:
     - <xref:bool>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: add
     description: Append data to the file.
     types:

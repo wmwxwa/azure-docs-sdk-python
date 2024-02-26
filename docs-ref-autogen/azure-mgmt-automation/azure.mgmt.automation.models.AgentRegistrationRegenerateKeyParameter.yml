@@ -22,5 +22,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.automation.models.AgentRegistrationKeyName>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: key_name
+    isRequired: true

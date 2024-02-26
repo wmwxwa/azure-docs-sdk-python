@@ -21,7 +21,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.messaging.webpubsubclient.WebPubSubClientCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: auto_rejoin_groups
     description: Whether to enable restoring group after reconnecting
     defaultValue: 'True'
@@ -135,7 +135,7 @@ methods:
     isRequired: true
     types:
     - <xref:str.>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: ack_id
     description: The optional ackId. If not specified, client will generate one.
     types:
@@ -202,7 +202,7 @@ methods:
     types:
     - <xref:typing.Union>[<xref:azure.messaging.webpubsubclient.models.WebPubSubDataType>,
       <xref:str>]<xref:./>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: ack_id
     description: The optional ackId. If not specified, client will generate one.
     types:
@@ -229,7 +229,7 @@ methods:
     isRequired: true
   - name: data_type
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: no_echo
     description: Whether the message needs to echo to sender. Default is False.
     types:

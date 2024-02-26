@@ -16,7 +16,7 @@ constructor:
   syntax: 'L3NetworkAttachmentConfiguration(*, network_id: str, ipam_enabled: str
     | _models.L3NetworkConfigurationIpamEnabled = ''False'', plugin_type: str | _models.KubernetesPluginType
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: ipam_enabled
     description: 'The indication of whether this network will or will not perform
       IP

@@ -21,8 +21,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.PredictionQueryToken>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: token
+    isRequired: true
 variables:
 - description: Result of an image prediction request.
   name: results

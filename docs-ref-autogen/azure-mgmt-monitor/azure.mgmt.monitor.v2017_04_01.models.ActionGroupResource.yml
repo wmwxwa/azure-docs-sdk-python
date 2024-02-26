@@ -20,7 +20,7 @@ constructor:
     | None = None, azure_app_push_receivers: List[_models.AzureAppPushReceiver] |
     None = None, automation_runbook_receivers: List[_models.AutomationRunbookReceiver]
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: Resource location. Required.
     types:

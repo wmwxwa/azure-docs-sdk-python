@@ -17,7 +17,7 @@ constructor:
     | None = None, ipv6_listen_range_prefixes: List[str] | None = None, ipv4_neighbor_address:
     List[_models.NeighborAddress] | None = None, ipv6_neighbor_address: List[_models.NeighborAddress]
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: annotation
     description: Switch configuration description.
     types:

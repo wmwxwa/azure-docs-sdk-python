@@ -12,7 +12,7 @@ summary: 'Azure Monitor Trace exporter for OpenTelemetry.
   Azure Monitor base exporter for OpenTelemetry.'
 constructor:
   syntax: 'AzureMonitorTraceExporter(**kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: The service API version used. Defaults to latest.
     types:
@@ -81,7 +81,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'The service API version used. Defaults to
 

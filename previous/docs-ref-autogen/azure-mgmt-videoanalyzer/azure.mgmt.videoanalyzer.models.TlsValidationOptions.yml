@@ -26,6 +26,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: ignore_hostname
+    isRequired: true
   - name: ignore_signature
+    isRequired: true

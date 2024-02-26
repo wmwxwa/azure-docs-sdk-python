@@ -9,7 +9,7 @@ summary: Represents the OpenShift networking configuration.
 constructor:
   syntax: 'NetworkProfile(*, vnet_cidr: str = ''10.0.0.0/8'', peer_vnet_id: str |
     None = None, vnet_id: str | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: vnet_cidr
     description: CIDR for the OpenShift Vnet.
     defaultValue: 10.0.0.0/8

@@ -14,7 +14,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: display_name
     description: metric display name.
     types:

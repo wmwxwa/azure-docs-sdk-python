@@ -10,7 +10,7 @@ constructor:
   syntax: 'HnswParameters(*, m: int = 4, ef_construction: int = 400, ef_search: int
     = 500, metric: str | _models.VectorSearchAlgorithmMetric | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: m
     description: 'The number of bi-directional links created for every new element
       during

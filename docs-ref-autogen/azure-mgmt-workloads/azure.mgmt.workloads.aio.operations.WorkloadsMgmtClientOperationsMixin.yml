@@ -28,7 +28,7 @@ methods:
     types:
     - <xref:azure.mgmt.workloads.models.SAPAvailabilityZoneDetailsRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -65,7 +65,7 @@ methods:
     types:
     - <xref:azure.mgmt.workloads.models.SAPDiskConfigurationsRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -105,7 +105,7 @@ methods:
     types:
     - <xref:azure.mgmt.workloads.models.SAPSizingRecommendationRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -142,7 +142,7 @@ methods:
     types:
     - <xref:azure.mgmt.workloads.models.SAPSupportedSkusRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

@@ -28,10 +28,13 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.devtestlabs.models.IdentityProperties>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
+    isRequired: true
   - name: tags
+    isRequired: true
   - name: identity
+    isRequired: true
 variables:
 - description: The identifier of the resource.
   name: id

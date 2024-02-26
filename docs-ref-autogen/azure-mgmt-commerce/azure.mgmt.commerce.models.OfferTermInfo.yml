@@ -31,5 +31,6 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: effective_date
+    isRequired: true

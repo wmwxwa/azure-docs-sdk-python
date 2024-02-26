@@ -15,7 +15,7 @@ summary: 'Telephony channel definition.
 constructor:
   syntax: 'TelephonyChannel(*, etag: str | None = None, location: str = ''global'',
     properties: _models.TelephonyChannelProperties | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: etag
     description: Entity Tag of the resource.
     types:

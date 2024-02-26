@@ -37,7 +37,7 @@ constructor:
   syntax: 'PipelineTopologySetRequestBody(*, name: str, api_version: str | None =
     ''1.1'', system_data: SystemData | None = None, properties: PipelineTopologyProperties
     | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'Video Analyzer API version. The only acceptable values to pass in
       are

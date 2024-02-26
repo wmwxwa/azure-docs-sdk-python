@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: enable_compute_isolation
+    isRequired: true
   - name: host_sku
+    isRequired: true

@@ -29,7 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:azure.mgmt.automation.models.FieldDefinition>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true
   - name: field_definitions
+    isRequired: true
   - name: is_global
+    isRequired: true

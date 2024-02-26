@@ -21,8 +21,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.billing.models.ViewCharges>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: view_charges
+    isRequired: true
 variables:
 - description: Resource Id.
   name: id

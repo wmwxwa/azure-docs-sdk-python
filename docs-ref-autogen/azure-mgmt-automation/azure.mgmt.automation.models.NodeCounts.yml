@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: value
+    isRequired: true
   - name: total_count
+    isRequired: true

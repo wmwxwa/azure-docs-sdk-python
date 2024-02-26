@@ -12,7 +12,7 @@ summary: 'PipelineSourceTriggerProperties.
 constructor:
   syntax: 'PipelineSourceTriggerProperties(*, status: str | _models.TriggerStatus
     = ''Enabled'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: status
     description: 'The current status of the source trigger. Known values are: "Enabled"
       and

@@ -27,8 +27,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: partition_id
+    isRequired: true
 methods:
 - uid: azure.servicefabric.models.WaitForReconfigurationSafetyCheck.as_dict
   name: as_dict

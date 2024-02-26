@@ -41,7 +41,10 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: min_partition_count
+    isRequired: true
   - name: max_partition_count
+    isRequired: true
   - name: scale_increment
+    isRequired: true

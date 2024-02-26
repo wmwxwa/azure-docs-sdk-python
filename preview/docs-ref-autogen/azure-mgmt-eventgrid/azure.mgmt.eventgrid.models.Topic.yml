@@ -22,7 +22,7 @@ constructor:
     | None = None, inbound_ip_rules: List[_models.InboundIpRule] | None = None, disable_local_auth:
     bool = False, data_residency_boundary: str | _models.DataResidencyBoundary | None
     = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: Location of the resource. Required.
     types:

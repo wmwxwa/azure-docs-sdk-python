@@ -23,7 +23,8 @@ functions:
     types:
     - <xref:datetime.datetime>
   - name: endpoint
-  keywordOnlyArguments:
+    isRequired: true
+  keywordOnlyParameters:
   - name: api_version
     description: 'The API Version to include in the signature.
 

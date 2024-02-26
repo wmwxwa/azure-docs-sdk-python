@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:any>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
+    isRequired: true
   - name: properties
+    isRequired: true

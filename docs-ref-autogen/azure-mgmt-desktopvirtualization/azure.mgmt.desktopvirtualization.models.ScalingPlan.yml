@@ -21,7 +21,7 @@ constructor:
     host_pool_type: str | _models.ScalingHostPoolType = ''Pooled'', exclusion_tag:
     str | None = None, schedules: List[_models.ScalingSchedule] | None = None, host_pool_references:
     List[_models.ScalingHostPoolReference] | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: The geo-location where the resource lives.
     types:

@@ -91,18 +91,29 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.ai.ml.entities.QueueSettings>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: trial
+    isRequired: true
   - name: compute
+    isRequired: true
   - name: limits
+    isRequired: true
   - name: sampling_algorithm
+    isRequired: true
   - name: objective
+    isRequired: true
   - name: early_termination
+    isRequired: true
   - name: search_space
+    isRequired: true
   - name: inputs
+    isRequired: true
   - name: outputs
+    isRequired: true
   - name: identity
+    isRequired: true
   - name: queue_settings
+    isRequired: true
 methods:
 - uid: azure.ai.ml.entities.Sweep.clear
   name: clear
@@ -124,7 +135,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:PathLike>, <xref:str>, <xref:typing.IO>[<xref:typing.AnyStr>]]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: kwargs
     description: Additional arguments to pass to the YAML serializer.
     types:
@@ -138,11 +149,11 @@ methods:
   name: fromkeys
   summary: Create a new dictionary with keys from iterable and values set to value.
   signature: fromkeys(value=None, /)
-  positionalOnlyArguments:
+  positionalOnlyParameters:
   - name: iterable
     isRequired: true
   - name: value
-    isRequired: true
+    defaultValue: None
   parameters:
   - name: type
     isRequired: true
@@ -150,11 +161,11 @@ methods:
   name: get
   summary: Return the value for key if key is in the dictionary, else default.
   signature: get(key, default=None, /)
-  positionalOnlyArguments:
+  positionalOnlyParameters:
   - name: key
     isRequired: true
   - name: default
-    isRequired: true
+    defaultValue: None
 - uid: azure.ai.ml.entities.Sweep.items
   name: items
   signature: items() -> a set-like object providing a view on D's items
@@ -183,7 +194,7 @@ methods:
   signature: 'set_limits(*, max_concurrent_trials: int | None = None, max_total_trials:
     int | None = None, timeout: int | None = None, trial_timeout: int | None = None)
     -> None'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: max_concurrent_trials
     description: maximum concurrent trial number.
     types:
@@ -215,7 +226,7 @@ methods:
     :paramtype primary_metric: str'
   signature: 'set_objective(*, goal: str | None = None, primary_metric: str | None
     = None) -> None'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: goal
     description: 'Defines supported metric goals for hyperparameter tuning. Acceptable
       values are:'
@@ -228,11 +239,11 @@ methods:
 
     Return the value for key if key is in the dictionary, else default.'
   signature: setdefault(key, default=None, /)
-  positionalOnlyArguments:
+  positionalOnlyParameters:
   - name: key
     isRequired: true
   - name: default
-    isRequired: true
+    defaultValue: None
 - uid: azure.ai.ml.entities.Sweep.update
   name: update
   summary: 'If E is present and has a .keys() method, then does:  for k in E: D[k]

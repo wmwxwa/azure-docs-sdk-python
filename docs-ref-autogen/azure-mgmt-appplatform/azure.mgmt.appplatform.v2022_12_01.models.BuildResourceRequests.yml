@@ -9,7 +9,7 @@ summary: Resource request payload of Build Resource.
 constructor:
   syntax: 'BuildResourceRequests(*, cpu: str = ''1'', memory: str = ''2Gi'', **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cpu
     description: 'Optional Cpu allocated to the build resource. 1 core can be represented
       by 1 or

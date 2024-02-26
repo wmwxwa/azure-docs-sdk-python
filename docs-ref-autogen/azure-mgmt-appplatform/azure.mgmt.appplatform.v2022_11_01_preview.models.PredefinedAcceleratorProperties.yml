@@ -12,7 +12,7 @@ summary: 'Predefined accelerator properties payload.
 constructor:
   syntax: 'PredefinedAcceleratorProperties(*, state: str | _models.PredefinedAcceleratorState
     = ''Enabled'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: state
     description: 'State of the predefined accelerator. Known values are: "Enabled"
       and

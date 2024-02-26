@@ -25,7 +25,7 @@ constructor:
     isRequired: true
     types:
     - <xref:bytes>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: iv
     description: Initialization vector for symmetric algorithms
     types:

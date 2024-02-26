@@ -14,5 +14,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.alertsmanagement.models.AlertsMetaDataProperties>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: properties
+    isRequired: true

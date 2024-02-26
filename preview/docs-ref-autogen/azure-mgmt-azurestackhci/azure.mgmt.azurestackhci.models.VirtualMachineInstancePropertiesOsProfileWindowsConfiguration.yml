@@ -11,7 +11,7 @@ constructor:
     bool | None = None, ssh: _models.SshConfiguration | None = None, time_zone: str
     | None = None, provision_vm_agent: bool = True, provision_vm_config_agent: bool
     = True, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: enable_automatic_updates
     description: Whether to EnableAutomaticUpdates on the machine.
     types:

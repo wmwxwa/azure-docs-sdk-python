@@ -18,7 +18,7 @@ constructor:
     non_compliance_messages: List[_models.NonComplianceMessage] | None = None, resource_selectors:
     List[_models.ResourceSelector] | None = None, overrides: List[_models.Override]
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: 'The location of the policy assignment. Only required when utilizing
       managed

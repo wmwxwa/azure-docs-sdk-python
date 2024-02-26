@@ -21,5 +21,6 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: max_unused_versions_to_keep
+    isRequired: true

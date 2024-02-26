@@ -51,7 +51,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.eventgrid.models.Partner>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -81,7 +81,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.eventgrid.models.PartnerConfiguration>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -129,7 +129,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -181,7 +181,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.eventgrid.models.PartnerConfigurationUpdateParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -229,7 +229,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -253,7 +253,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -310,7 +310,7 @@ methods:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -344,7 +344,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.eventgrid.models.Partner>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

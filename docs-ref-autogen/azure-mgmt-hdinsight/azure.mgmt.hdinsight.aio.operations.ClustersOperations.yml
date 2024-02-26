@@ -52,7 +52,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.ClusterCreateParametersExtended>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -97,7 +97,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -147,7 +147,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.ExecuteScriptActionParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -203,7 +203,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.ClusterResizeParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -253,7 +253,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.ClusterDiskEncryptionParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -310,7 +310,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.AutoscaleConfigurationUpdateParameter>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -360,7 +360,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.UpdateGatewaySettingsParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -411,7 +411,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.UpdateClusterIdentityCertificateParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -456,7 +456,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -488,7 +488,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -515,7 +515,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -530,7 +530,7 @@ methods:
   name: list
   summary: Lists all the HDInsight clusters under the subscription.
   signature: 'list(**kwargs: Any) -> AsyncIterable[ClusterListResult]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -552,7 +552,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -585,7 +585,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.ClusterPatchParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

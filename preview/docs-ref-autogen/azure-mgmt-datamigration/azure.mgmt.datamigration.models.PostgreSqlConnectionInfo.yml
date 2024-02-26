@@ -16,7 +16,7 @@ constructor:
     = True, trust_server_certificate: bool = False, additional_settings: str | None
     = None, server_brand_version: str | None = None, authentication: str | _models.AuthenticationType
     | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: user_name
     description: User name.
     types:

@@ -12,7 +12,7 @@ constructor:
     List[_models.IdentitySource] | None = None, availability: _models.AvailabilityProperties
     | None = None, encryption: _models.Encryption | None = None, extended_network_blocks:
     List[str] | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: management_cluster
     description: The default cluster used for management.
     types:

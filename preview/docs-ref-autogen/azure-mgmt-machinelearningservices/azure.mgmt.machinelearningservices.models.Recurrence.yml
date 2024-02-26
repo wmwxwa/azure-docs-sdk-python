@@ -10,7 +10,7 @@ constructor:
   syntax: 'Recurrence(*, frequency: str | _models.RecurrenceFrequency | None = None,
     interval: int | None = None, start_time: str | None = None, time_zone: str = ''UTC'',
     schedule: _models.RecurrenceSchedule | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: frequency
     description: '[Required] The frequency to trigger schedule. Known values are:
       "Minute",

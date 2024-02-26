@@ -15,7 +15,7 @@ constructor:
     = None, grafana_configurations: _models.GrafanaConfigurations | None = None, grafana_plugins:
     Dict[str, _models.GrafanaPlugin] | None = None, grafana_major_version: str | None
     = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: zone_redundancy
     description: 'The zone redundancy setting of the Grafana instance. Known values
 

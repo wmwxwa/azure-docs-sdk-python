@@ -22,6 +22,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: delay_in_minutes
+    isRequired: true
   - name: enabled
+    isRequired: true

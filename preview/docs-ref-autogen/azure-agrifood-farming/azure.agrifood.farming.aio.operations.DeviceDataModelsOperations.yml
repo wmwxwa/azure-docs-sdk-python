@@ -36,7 +36,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are:
 
@@ -164,7 +164,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: ids
     description: Ids of the resource. Default value is None.
     types:

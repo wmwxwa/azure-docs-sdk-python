@@ -17,7 +17,7 @@ constructor:
     orchestrator_properties: _models.KubernetesClusterProperties | None = None, system_services:
     List[_models.SystemService] | None = None, master_count: int = 1, agent_count:
     int = 2, agent_vm_size: str | _models.AgentVMSizeTypes = ''Standard_D3_v2'', **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: orchestrator_type
     description: 'Type of orchestrator. It cannot be changed once the cluster is
 

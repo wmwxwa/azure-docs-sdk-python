@@ -12,7 +12,7 @@ constructor:
     str | None = None, vc_name: str | None = None, namespace: str = ''default'', default_instance_type:
     str | None = None, instance_types: Dict[str, _models.InstanceTypeSchema] | None
     = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: relay_connection_string
     description: Relay connection string.
     types:

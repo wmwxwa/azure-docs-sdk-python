@@ -17,8 +17,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.synapse.models.WorkspaceKeyDetails>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: key
+    isRequired: true
 variables:
 - description: The customer managed key status on the workspace.
   name: status

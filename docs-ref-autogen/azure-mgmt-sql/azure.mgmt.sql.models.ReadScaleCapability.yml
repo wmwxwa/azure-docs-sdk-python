@@ -17,8 +17,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: reason
+    isRequired: true
 variables:
 - description: The maximum number of read scale replicas.
   name: max_number_of_replicas

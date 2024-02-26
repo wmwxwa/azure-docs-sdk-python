@@ -22,7 +22,7 @@ constructor:
     str = ''labStorageType'', environment_id: str | None = None, data_disk_parameters:
     List[_models.DataDiskProperties] | None = None, schedule_parameters: List[_models.ScheduleCreationParameter]
     | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
     description: The name of the virtual machine or environment.
     types:

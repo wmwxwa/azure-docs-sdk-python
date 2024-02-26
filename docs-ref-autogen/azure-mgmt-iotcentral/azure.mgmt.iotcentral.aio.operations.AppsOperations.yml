@@ -61,7 +61,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.iotcentral.models.App>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -108,7 +108,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -160,7 +160,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.iotcentral.models.AppPatch>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -203,7 +203,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.iotcentral.models.OperationInputs>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -227,7 +227,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.iotcentral.models.OperationInputs>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -256,7 +256,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -279,7 +279,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -295,7 +295,7 @@ methods:
   name: list_by_subscription
   summary: Get all IoT Central Applications in a subscription.
   signature: 'list_by_subscription(**kwargs: Any) -> AsyncIterable[AppListResult]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -311,7 +311,7 @@ methods:
   name: list_templates
   summary: Get all available application templates.
   signature: 'list_templates(**kwargs: Any) -> AsyncIterable[AppTemplatesResult]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

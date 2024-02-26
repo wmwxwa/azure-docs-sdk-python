@@ -15,7 +15,7 @@ summary: 'Sms channel definition.
 constructor:
   syntax: 'SmsChannel(*, etag: str | None = None, location: str = ''global'', properties:
     _models.SmsChannelProperties | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: etag
     description: Entity Tag of the resource.
     types:

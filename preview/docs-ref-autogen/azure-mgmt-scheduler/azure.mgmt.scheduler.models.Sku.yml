@@ -18,5 +18,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.scheduler.models.SkuDefinition>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true

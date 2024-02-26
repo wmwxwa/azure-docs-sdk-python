@@ -19,8 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: id
+    isRequired: true
 variables:
 - description: The name of the parent management group.
   name: name

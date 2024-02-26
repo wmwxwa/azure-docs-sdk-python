@@ -36,9 +36,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: domain
+    isRequired: true
   - name: business
+    isRequired: true
   - name: employees_number
+    isRequired: true
   - name: state
+    isRequired: true
   - name: country
+    isRequired: true

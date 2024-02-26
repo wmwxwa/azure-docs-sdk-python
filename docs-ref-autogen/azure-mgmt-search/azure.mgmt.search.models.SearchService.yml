@@ -21,7 +21,7 @@ constructor:
     | None = None, disable_local_auth: bool | None = None, auth_options: _models.DataPlaneAuthOptions
     | None = None, semantic_search: str | _models.SearchSemanticSearch | None = None,
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

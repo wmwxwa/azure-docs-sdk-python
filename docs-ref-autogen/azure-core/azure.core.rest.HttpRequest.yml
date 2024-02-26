@@ -44,7 +44,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: params
     description: 'Query parameters to be mapped into your URL. Your input
 

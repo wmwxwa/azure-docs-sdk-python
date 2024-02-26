@@ -36,6 +36,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:video_analyzer.models.NodeInput>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true
   - name: inputs
+    isRequired: true

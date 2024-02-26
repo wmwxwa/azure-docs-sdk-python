@@ -72,7 +72,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.storage.v2021_02_01.models.PutSharesExpand>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -132,7 +132,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -198,7 +198,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -259,7 +259,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.storage.v2021_02_01.models.ListSharesExpand>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -317,7 +317,7 @@ methods:
     types:
     - <xref:azure.mgmt.storage.v2021_02_01.models.DeletedShare>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -385,7 +385,7 @@ methods:
     types:
     - <xref:azure.mgmt.storage.v2021_02_01.models.FileShare>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

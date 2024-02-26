@@ -20,8 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.media.analyticsedge.models.MediaGraphTopology>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: graph
+    isRequired: true
 variables:
 - description: Required. method name.Constant filled by server.
   name: method_name

@@ -28,10 +28,13 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: unit
+    isRequired: true
   - name: current_value
+    isRequired: true
   - name: limit
+    isRequired: true
 variables:
 - description: The details about the localizable name of the used resource.
   name: name

@@ -18,7 +18,7 @@ constructor:
     = ''cluster'', ssh_known_hosts_contents: str | None = None, enable_helm_operator:
     bool | None = None, helm_operator_properties: _models.HelmOperatorProperties |
     None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: system_data
     description: 'Top level metadata
 

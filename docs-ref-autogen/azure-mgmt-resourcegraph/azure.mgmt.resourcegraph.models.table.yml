@@ -22,6 +22,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:list>[<xref:object>]]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: columns
+    isRequired: true
   - name: rows
+    isRequired: true

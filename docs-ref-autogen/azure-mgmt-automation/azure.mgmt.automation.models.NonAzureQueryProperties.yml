@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: function_alias
+    isRequired: true
   - name: workspace_id
+    isRequired: true

@@ -15,7 +15,7 @@ summary: 'Slack channel definition.
 constructor:
   syntax: 'SlackChannel(*, etag: str | None = None, location: str = ''global'', properties:
     _models.SlackChannelProperties | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: etag
     description: Entity Tag of the resource.
     types:

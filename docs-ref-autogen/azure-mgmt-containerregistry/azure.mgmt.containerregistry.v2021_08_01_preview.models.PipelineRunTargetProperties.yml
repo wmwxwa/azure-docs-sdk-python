@@ -9,7 +9,7 @@ summary: PipelineRunTargetProperties.
 constructor:
   syntax: 'PipelineRunTargetProperties(*, type: str | _models.PipelineRunTargetType
     = ''AzureStorageBlob'', name: str | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: type
     description: The type of the target. "AzureStorageBlob"
     defaultValue: AzureStorageBlob

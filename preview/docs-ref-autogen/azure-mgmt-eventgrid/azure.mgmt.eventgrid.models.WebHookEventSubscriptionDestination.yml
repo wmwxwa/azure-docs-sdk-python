@@ -19,7 +19,7 @@ constructor:
     None, delivery_attribute_mappings: List[_models.DeliveryAttributeMapping] | None
     = None, minimum_tls_version_allowed: str | _models.TlsVersion | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: endpoint_url
     description: 'The URL that represents the endpoint of the destination of an event
 

@@ -31,8 +31,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true
   - name: family
+    isRequired: true
   - name: size
+    isRequired: true
   - name: tier
+    isRequired: true

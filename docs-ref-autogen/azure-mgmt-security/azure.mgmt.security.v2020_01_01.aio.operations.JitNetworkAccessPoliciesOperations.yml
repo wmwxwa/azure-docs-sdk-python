@@ -47,7 +47,7 @@ methods:
     types:
     - <xref:azure.mgmt.security.v2020_01_01.models.JitNetworkAccessPolicy>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -93,7 +93,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -136,7 +136,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -184,7 +184,7 @@ methods:
     types:
     - <xref:azure.mgmt.security.v2020_01_01.models.JitNetworkAccessPolicyInitiateRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: jit_network_access_policy_initiate_type
     description: 'Type of the action to do on the Just-in-Time
 
@@ -214,7 +214,7 @@ methods:
   name: list
   summary: Policies for protecting resources using Just-in-Time access control.
   signature: 'list(**kwargs: Any) -> AsyncIterable[JitNetworkAccessPolicy]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -244,7 +244,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -274,7 +274,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -313,7 +313,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

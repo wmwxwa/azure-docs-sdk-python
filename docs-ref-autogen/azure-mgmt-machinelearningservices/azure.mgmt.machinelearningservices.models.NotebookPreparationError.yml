@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: error_message
+    isRequired: true
   - name: status_code
+    isRequired: true

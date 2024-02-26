@@ -20,8 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.media.analyticsedge.models.MediaGraphInstance>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: instance
+    isRequired: true
 variables:
 - description: Required. method name.Constant filled by server.
   name: method_name

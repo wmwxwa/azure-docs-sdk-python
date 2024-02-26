@@ -57,7 +57,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.operationsmanagement.models.ManagementAssociation>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -89,7 +89,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -121,7 +121,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -139,7 +139,7 @@ methods:
 
     Retrieves the ManagementAssociations list.'
   signature: 'list_by_subscription(**kwargs: Any) -> _models.ManagementAssociationPropertiesList'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

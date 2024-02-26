@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.powerbidedicated.models.SkuDetailsForExistingResource>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: value
+    isRequired: true

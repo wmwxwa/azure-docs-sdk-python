@@ -25,7 +25,7 @@ constructor:
     defaultValue: None
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: decompress
     description: 'If True which is default, will attempt to decode the body based
 
@@ -75,7 +75,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.core.pipeline.AsyncPipeline>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: decompress
     description: 'If True which is default, will attempt to decode the body based
 

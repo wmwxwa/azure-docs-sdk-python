@@ -20,7 +20,7 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tone
     description: 'Known values are: "zero", "one", "two", "three", "four", "five",
       "six", "seven",

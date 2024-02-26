@@ -25,7 +25,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: blob_name
     isRequired: true
   return:
@@ -58,7 +58,7 @@ methods:
     isRequired: true
     types:
     - <xref:dict>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: device_id
     isRequired: true
   - name: module_id
@@ -103,7 +103,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: correlation_id
     isRequired: true
   - name: is_success

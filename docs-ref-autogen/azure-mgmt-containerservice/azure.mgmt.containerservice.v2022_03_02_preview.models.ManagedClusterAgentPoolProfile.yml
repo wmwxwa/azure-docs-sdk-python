@@ -37,7 +37,7 @@ constructor:
     | _models.GPUInstanceProfile | None = None, creation_data: _models.CreationData
     | None = None, capacity_reservation_group_id: str | None = None, host_group_id:
     str | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: count
     description: 'Number of agents (VMs) to host docker containers. Allowed values
       must be in the

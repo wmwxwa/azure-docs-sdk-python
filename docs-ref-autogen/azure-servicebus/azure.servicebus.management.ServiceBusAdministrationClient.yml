@@ -22,7 +22,7 @@ constructor:
     isRequired: true
     types:
     - <xref:TokenCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'The Service Bus API version to use for requests. Default value is
       the most
@@ -59,7 +59,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: authorization_rules
     description: Authorization rules for resource.
     types:
@@ -220,10 +220,10 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: filter
     description: The filter of the rule. The default value is ~azure.servicebus.management.TrueRuleFilter
-    defaultValue: <azure.servicebus.management._models.TrueRuleFilter object at 0x000002041531DE90>
+    defaultValue: <azure.servicebus.management._models.TrueRuleFilter object at 0x0000022AE1D11090>
     types:
     - <xref:typing.Union>[<xref:azure.servicebus.management.CorrelationRuleFilter>,
       <xref:azure.servicebus.management.SqlRuleFilter>]
@@ -258,7 +258,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: lock_duration
     description: 'ISO 8601 timespan duration of a peek-lock; that is, the amount of
       time
@@ -364,7 +364,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: default_message_time_to_live
     description: 'ISO 8601 default message timespan to live value. This is
 
@@ -549,7 +549,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'The Service Bus API version to use for requests. Default value is
       the most

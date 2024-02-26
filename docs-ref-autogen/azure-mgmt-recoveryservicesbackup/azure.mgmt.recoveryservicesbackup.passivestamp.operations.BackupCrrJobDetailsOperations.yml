@@ -31,7 +31,7 @@ methods:
     types:
     - <xref:azure.mgmt.recoveryservicesbackup.passivestamp.models.CrrJobRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

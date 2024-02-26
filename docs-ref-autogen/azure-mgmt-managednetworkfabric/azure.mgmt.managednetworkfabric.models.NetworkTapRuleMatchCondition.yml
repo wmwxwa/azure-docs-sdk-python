@@ -11,7 +11,7 @@ constructor:
     vlan_match_condition: _models.VlanMatchCondition | None = None, ip_condition:
     _models.IpMatchCondition | None = None, encapsulation_type: str | _models.EncapsulationType
     = ''None'', port_condition: _models.PortCondition | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: protocol_types
     description: List of the protocols that need to be matched.
     types:

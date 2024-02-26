@@ -17,7 +17,7 @@ constructor:
     | None = None, annotation: str | None = None, statements: List[_models.RoutePolicyStatementProperties]
     | None = None, address_family_type: str | _models.AddressFamilyType = ''IPv4'',
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

@@ -14,7 +14,7 @@ constructor:
     str | _models.OutboundType = ''loadBalancer'', load_balancer_sku: str | _models.LoadBalancerSku
     | None = None, load_balancer_profile: _models.ManagedClusterLoadBalancerProfile
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: network_plugin
     description: 'Network plugin used for building Kubernetes network. Known values
       are:

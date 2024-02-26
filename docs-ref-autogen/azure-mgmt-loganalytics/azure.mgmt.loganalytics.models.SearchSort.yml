@@ -21,6 +21,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.loganalytics.models.SearchSortEnum>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true
   - name: order
+    isRequired: true

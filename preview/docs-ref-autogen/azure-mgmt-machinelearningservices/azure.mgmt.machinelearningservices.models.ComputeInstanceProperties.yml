@@ -18,7 +18,7 @@ constructor:
     _models.PersonalComputeInstanceSettings | None = None, setup_scripts: _models.SetupScripts
     | None = None, schedules: _models.ComputeSchedules | None = None, enable_node_public_ip:
     bool | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: vm_size
     description: Virtual Machine Size.
     types:

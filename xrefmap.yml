@@ -2227,6 +2227,18 @@ references:
   href: https://docs.python.org/3/library/enum.html#enum.Enum._ignore_
   name: _ignore_
   uid: enum.Enum._ignore_
+- fullName: enum.Enum._name_
+  href: https://docs.python.org/3/library/enum.html#enum.Enum._name_
+  name: _name_
+  uid: enum.Enum._name_
+- fullName: enum.Enum._order_
+  href: https://docs.python.org/3/library/enum.html#enum.Enum._order_
+  name: _order_
+  uid: enum.Enum._order_
+- fullName: enum.Enum._value_
+  href: https://docs.python.org/3/library/enum.html#enum.Enum._value_
+  name: _value_
+  uid: enum.Enum._value_
 - fullName: enum.Enum.name
   href: https://docs.python.org/3/library/enum.html#enum.Enum.name
   name: name
@@ -2247,6 +2259,10 @@ references:
   href: https://docs.python.org/3/library/enum.html#enum.EnumCheck.UNIQUE
   name: UNIQUE
   uid: enum.EnumCheck.UNIQUE
+- fullName: enum.EnumType.__members__
+  href: https://docs.python.org/3/library/enum.html#enum.EnumType.__members__
+  name: __members__
+  uid: enum.EnumType.__members__
 - fullName: enum.FlagBoundary.CONFORM
   href: https://docs.python.org/3/library/enum.html#enum.FlagBoundary.CONFORM
   name: CONFORM
@@ -2523,6 +2539,10 @@ references:
   href: https://docs.python.org/3/library/http.cookiejar.html#http.cookiejar.Cookie.discard
   name: discard
   uid: http.cookiejar.Cookie.discard
+- fullName: http.cookiejar.Cookie.domain
+  href: https://docs.python.org/3/library/http.cookiejar.html#http.cookiejar.Cookie.domain
+  name: domain
+  uid: http.cookiejar.Cookie.domain
 - fullName: http.cookiejar.Cookie.domain_initial_dot
   href: https://docs.python.org/3/library/http.cookiejar.html#http.cookiejar.Cookie.domain_initial_dot
   name: domain_initial_dot
@@ -3467,6 +3487,10 @@ references:
   href: https://docs.python.org/3/library/logging.html#logging.lastResort
   name: lastResort
   uid: logging.lastResort
+- fullName: logging.raiseExceptions
+  href: https://docs.python.org/3/library/logging.html#logging.raiseExceptions
+  name: raiseExceptions
+  uid: logging.raiseExceptions
 - fullName: lzma.LZMADecompressor.check
   href: https://docs.python.org/3/library/lzma.html#lzma.LZMADecompressor.check
   name: check
@@ -8067,6 +8091,10 @@ references:
   href: https://docs.python.org/3/reference/datamodel.html#codeobject.co_positions
   name: co_positions
   uid: codeobject.co_positions
+- fullName: codeobject.replace
+  href: https://docs.python.org/3/reference/datamodel.html#codeobject.replace
+  name: replace
+  uid: codeobject.replace
 - fullName: collections.ChainMap.new_child
   href: https://docs.python.org/3/library/collections.html#collections.ChainMap.new_child
   name: new_child
@@ -10327,10 +10355,18 @@ references:
   href: https://docs.python.org/3/library/enum.html#enum.Enum.__format__
   name: __format__
   uid: enum.Enum.__format__
+- fullName: enum.Enum.__init__
+  href: https://docs.python.org/3/library/enum.html#enum.Enum.__init__
+  name: __init__
+  uid: enum.Enum.__init__
 - fullName: enum.Enum.__init_subclass__
   href: https://docs.python.org/3/library/enum.html#enum.Enum.__init_subclass__
   name: __init_subclass__
   uid: enum.Enum.__init_subclass__
+- fullName: enum.Enum.__new__
+  href: https://docs.python.org/3/library/enum.html#enum.Enum.__new__
+  name: __new__
+  uid: enum.Enum.__new__
 - fullName: enum.Enum.__repr__
   href: https://docs.python.org/3/library/enum.html#enum.Enum.__repr__
   name: __repr__
@@ -16847,10 +16883,6 @@ references:
   href: https://docs.python.org/3/library/turtle.html#turtle.Shape.addcomponent
   name: addcomponent
   uid: turtle.Shape.addcomponent
-- fullName: types.CodeType.replace
-  href: https://docs.python.org/3/library/types.html#types.CodeType.replace
-  name: replace
-  uid: types.CodeType.replace
 - fullName: types.MappingProxyType.copy
   href: https://docs.python.org/3/library/types.html#types.MappingProxyType.copy
   name: copy
@@ -20091,6 +20123,10 @@ references:
   href: https://docs.python.org/3/library/datetime.html#datetime.MINYEAR
   name: MINYEAR
   uid: datetime.MINYEAR
+- fullName: dbm.gnu.open_flags
+  href: https://docs.python.org/3/library/dbm.html#dbm.gnu.open_flags
+  name: open_flags
+  uid: dbm.gnu.open_flags
 - fullName: dbm.ndbm.library
   href: https://docs.python.org/3/library/dbm.html#dbm.ndbm.library
   name: library
@@ -21495,6 +21531,14 @@ references:
   href: https://docs.python.org/3/library/msilib.html#msilib.text
   name: text
   uid: msilib.text
+- fullName: msvcrt.CRT_ASSEMBLY_VERSION
+  href: https://docs.python.org/3/library/msvcrt.html#msvcrt.CRT_ASSEMBLY_VERSION
+  name: CRT_ASSEMBLY_VERSION
+  uid: msvcrt.CRT_ASSEMBLY_VERSION
+- fullName: msvcrt.LIBRARIES_ASSEMBLY_NAME_PREFIX
+  href: https://docs.python.org/3/library/msvcrt.html#msvcrt.LIBRARIES_ASSEMBLY_NAME_PREFIX
+  name: LIBRARIES_ASSEMBLY_NAME_PREFIX
+  uid: msvcrt.LIBRARIES_ASSEMBLY_NAME_PREFIX
 - fullName: msvcrt.LK_LOCK
   href: https://docs.python.org/3/library/msvcrt.html#msvcrt.LK_LOCK
   name: LK_LOCK
@@ -21515,6 +21559,10 @@ references:
   href: https://docs.python.org/3/library/msvcrt.html#msvcrt.LK_UNLCK
   name: LK_UNLCK
   uid: msvcrt.LK_UNLCK
+- fullName: msvcrt.VC_ASSEMBLY_PUBLICKEYTOKEN
+  href: https://docs.python.org/3/library/msvcrt.html#msvcrt.VC_ASSEMBLY_PUBLICKEYTOKEN
+  name: VC_ASSEMBLY_PUBLICKEYTOKEN
+  uid: msvcrt.VC_ASSEMBLY_PUBLICKEYTOKEN
 - fullName: object.__match_args__
   href: https://docs.python.org/3/reference/datamodel.html#object.__match_args__
   name: __match_args__

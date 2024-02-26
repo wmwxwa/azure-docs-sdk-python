@@ -14,7 +14,7 @@ constructor:
     services: _models.EncryptionServices | None = None, require_infrastructure_encryption:
     bool | None = None, key_vault_properties: _models.KeyVaultProperties | None =
     None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: services
     description: List of services which support encryption.
     types:

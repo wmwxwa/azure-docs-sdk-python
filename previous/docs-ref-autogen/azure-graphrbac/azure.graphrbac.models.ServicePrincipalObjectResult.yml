@@ -22,9 +22,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: value
+    isRequired: true
   - name: odatametadata
+    isRequired: true
 methods:
 - uid: azure.graphrbac.models.ServicePrincipalObjectResult.as_dict
   name: as_dict

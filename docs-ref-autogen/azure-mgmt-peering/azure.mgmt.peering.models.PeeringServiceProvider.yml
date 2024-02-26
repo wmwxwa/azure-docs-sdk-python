@@ -17,8 +17,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: service_provider_name
+    isRequired: true
 variables:
 - description: The name of the resource.
   name: name

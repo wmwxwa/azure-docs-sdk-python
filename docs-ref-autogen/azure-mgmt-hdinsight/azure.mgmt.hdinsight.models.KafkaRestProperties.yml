@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: client_group_info
+    isRequired: true
   - name: configuration_override
+    isRequired: true

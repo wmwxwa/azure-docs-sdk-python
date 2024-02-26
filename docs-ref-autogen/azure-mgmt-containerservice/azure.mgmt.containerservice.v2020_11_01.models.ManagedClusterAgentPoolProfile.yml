@@ -28,7 +28,7 @@ constructor:
     str] | None = None, node_taints: List[str] | None = None, proximity_placement_group_id:
     str | None = None, kubelet_config: _models.KubeletConfig | None = None, linux_os_config:
     _models.LinuxOSConfig | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: count
     description: 'Number of agents (VMs) to host docker containers. Allowed values
       must be in the

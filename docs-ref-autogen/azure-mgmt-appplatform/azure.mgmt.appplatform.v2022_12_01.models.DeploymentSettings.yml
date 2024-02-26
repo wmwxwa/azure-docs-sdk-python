@@ -13,7 +13,7 @@ constructor:
     = None, readiness_probe: _models.Probe | None = None, startup_probe: _models.Probe
     | None = None, termination_grace_period_seconds: int = 90, container_probe_settings:
     _models.ContainerProbeSettings | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: resource_requests
     description: 'The requested resource quantity for required CPU and Memory. It
       is

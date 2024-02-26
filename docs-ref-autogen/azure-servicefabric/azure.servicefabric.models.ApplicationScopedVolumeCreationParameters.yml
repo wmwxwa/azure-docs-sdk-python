@@ -29,8 +29,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: description
+    isRequired: true
 methods:
 - uid: azure.servicefabric.models.ApplicationScopedVolumeCreationParameters.as_dict
   name: as_dict

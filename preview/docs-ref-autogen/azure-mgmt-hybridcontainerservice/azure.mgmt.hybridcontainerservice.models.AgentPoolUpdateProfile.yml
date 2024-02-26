@@ -9,7 +9,7 @@ summary: AgentPool update configuration.
 constructor:
   syntax: 'AgentPoolUpdateProfile(*, count: int = 1, vm_size: str | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: count
     description: 'Count - Number of agents to host docker containers. Allowed values
       must be in

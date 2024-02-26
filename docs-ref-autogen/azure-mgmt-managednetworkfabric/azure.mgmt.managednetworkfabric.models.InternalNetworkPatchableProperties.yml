@@ -14,7 +14,7 @@ constructor:
     export_route_policy: _models.ExportRoutePolicy | None = None, ingress_acl_id:
     str | None = None, egress_acl_id: str | None = None, is_monitoring_enabled: str
     | _models.IsMonitoringEnabled = ''False'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: mtu
     description: Maximum transmission unit. Default value is 1500.
     defaultValue: '1500'

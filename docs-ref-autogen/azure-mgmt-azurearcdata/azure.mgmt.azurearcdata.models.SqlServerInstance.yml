@@ -31,10 +31,13 @@ constructor:
     isRequired: true
     types:
     - <xref:azure_arc_data_management_client.models.SqlServerInstanceProperties>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
+    isRequired: true
   - name: tags
+    isRequired: true
   - name: properties
+    isRequired: true
 variables:
 - description: 'Fully qualified resource Id for the resource. Ex -
 

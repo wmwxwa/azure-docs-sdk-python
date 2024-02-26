@@ -14,5 +14,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: existing_lab_disk_id
+    isRequired: true

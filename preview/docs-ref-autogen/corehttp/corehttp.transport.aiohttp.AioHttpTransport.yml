@@ -12,7 +12,7 @@ summary: 'AioHttp HTTP sender implementation.
 constructor:
   syntax: 'AioHttpTransport(*, session: ClientSession | None = None, session_owner:
     bool = True, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session
     description: The client session.
     types:
@@ -50,7 +50,7 @@ methods:
     isRequired: true
     types:
     - <xref:<xref:corehttp.rest#corehttp.rest.HttpRequest>>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: config
     description: Any keyword arguments
     types:

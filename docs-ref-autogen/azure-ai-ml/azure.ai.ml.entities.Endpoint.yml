@@ -77,7 +77,7 @@ constructor:
     isRequired: true
     types:
     - <xref:typing.Optional>[<xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: traffic
     description: Traffic rules on how the traffic will be routed across deployments,
       defaults to {}

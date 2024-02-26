@@ -19,5 +19,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.datamigration.models.SqlConnectionInfo>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: target_connection_info
+    isRequired: true

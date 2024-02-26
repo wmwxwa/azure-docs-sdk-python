@@ -52,7 +52,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure_arc_data_management_client.models.SqlManagedInstance>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -97,7 +97,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -142,7 +142,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -160,7 +160,7 @@ methods:
 
     List sqlManagedInstance resources in the subscription.'
   signature: 'list(**kwargs: Any) -> Iterable[''_models.SqlManagedInstanceListResult'']'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -185,7 +185,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -218,7 +218,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure_arc_data_management_client.models.SqlManagedInstanceUpdate>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

@@ -22,7 +22,7 @@ constructor:
     | None = None, interface_name: str | None = None, ip_allocation_type: str | _models.IpAllocationType
     = ''DualStack'', ipv4_connected_prefix: str | None = None, ipv6_connected_prefix:
     str | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

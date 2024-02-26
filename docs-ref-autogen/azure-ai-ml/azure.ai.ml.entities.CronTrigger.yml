@@ -9,7 +9,7 @@ summary: Cron Trigger for a job schedule.
 constructor:
   syntax: 'CronTrigger(*, expression: str, start_time: str | datetime | None = None,
     end_time: str | datetime | None = None, time_zone: str | TimeZone = TimeZone.UTC)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: expression
     description: The cron expression of schedule, following NCronTab format.
     types:

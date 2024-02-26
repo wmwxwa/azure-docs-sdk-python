@@ -17,5 +17,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.databoxedge.v2020_09_01.models.MetricCounter>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: counters
+    isRequired: true

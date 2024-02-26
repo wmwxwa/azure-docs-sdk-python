@@ -9,5 +9,6 @@ summary: Parameters to diagnose a workspace.
 constructor:
   syntax: 'DiagnoseWorkspaceParameters(*, value: DiagnoseRequestProperties | None
     = None)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: value
+    isRequired: true

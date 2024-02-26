@@ -9,7 +9,7 @@ summary: Extension property.
 constructor:
   syntax: 'ExtensionEnumProperty(*, extension: str | _models.Extension = ''NoExtension'',
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: extension
     description: 'Extension. Example: NoExtension | NPB. Known values are: "NoExtension"
       and

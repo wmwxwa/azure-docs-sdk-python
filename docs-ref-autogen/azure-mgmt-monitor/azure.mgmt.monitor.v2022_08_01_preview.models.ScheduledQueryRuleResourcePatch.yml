@@ -22,7 +22,7 @@ constructor:
     bool | None = None, skip_query_validation: bool | None = None, auto_mitigate:
     bool | None = None, rule_resolve_configuration: _models.RuleResolveConfiguration
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: identity
     description: The identity of the resource.
     types:

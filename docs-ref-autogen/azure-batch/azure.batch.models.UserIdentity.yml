@@ -28,9 +28,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.AutoUserSpecification>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: user_name
+    isRequired: true
   - name: auto_user
+    isRequired: true
 methods:
 - uid: azure.batch.models.UserIdentity.as_dict
   name: as_dict

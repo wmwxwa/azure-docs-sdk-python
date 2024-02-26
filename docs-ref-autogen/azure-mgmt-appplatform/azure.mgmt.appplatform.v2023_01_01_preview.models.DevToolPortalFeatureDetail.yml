@@ -12,7 +12,7 @@ summary: 'Detail settings for Dev Tool Portal feature.
 constructor:
   syntax: 'DevToolPortalFeatureDetail(*, state: str | _models.DevToolPortalFeatureState
     = ''Enabled'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: state
     description: 'State of the plugin. Known values are: "Enabled" and "Disabled".'
     defaultValue: Enabled

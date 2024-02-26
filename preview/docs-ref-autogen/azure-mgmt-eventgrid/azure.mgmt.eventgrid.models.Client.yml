@@ -14,7 +14,7 @@ constructor:
     = None, client_certificate_authentication: _models.ClientCertificateAuthentication
     | None = None, state: str | _models.ClientState = ''Enabled'', attributes: Dict[str,
     Any] | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: description
     description: Description for the Client resource.
     types:

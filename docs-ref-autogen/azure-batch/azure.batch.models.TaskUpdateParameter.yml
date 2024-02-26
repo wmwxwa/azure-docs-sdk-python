@@ -18,8 +18,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.batch.models.TaskConstraints>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: constraints
+    isRequired: true
 methods:
 - uid: azure.batch.models.TaskUpdateParameter.as_dict
   name: as_dict

@@ -24,6 +24,8 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: frequency
+    isRequired: true
   - name: interval
+    isRequired: true

@@ -12,7 +12,7 @@ constructor:
     str | _models.DeterministicOutboundIP = ''Disabled'', public_network_access: str
     | _models.PublicNetworkAccess = ''Enabled'', grafana_integrations: _models.GrafanaIntegrations
     | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: zone_redundancy
     description: 'The zone redundancy setting of the Grafana instance. Known values
 

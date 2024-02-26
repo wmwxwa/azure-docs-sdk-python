@@ -52,7 +52,7 @@ methods:
     types:
     - <xref:azure.mgmt.netapp.models.BackupRestoreFiles>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

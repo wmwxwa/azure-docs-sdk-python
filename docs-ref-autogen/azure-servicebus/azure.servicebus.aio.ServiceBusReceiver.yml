@@ -53,7 +53,7 @@ constructor:
     - <xref:azure.core.credentials_async.AsyncTokenCredential>
     - <xref:azure.core.credentials.AzureSasCredential>
     - <xref:azure.core.credentials.AzureNamedKeyCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: queue_name
     description: The path of specific Service Bus Queue the client connects to.
     types:
@@ -368,7 +368,7 @@ methods:
     defaultValue: '1'
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: sequence_number
     description: A message sequence number from which to start browsing messages.
     types:
@@ -412,7 +412,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:int>, <xref:list>[<xref:int>]]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: timeout
     description: 'The total operation timeout in seconds including all the retries.
 
@@ -538,7 +538,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.servicebus.ServiceBusReceivedMessage>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: timeout
     description: 'The total operation timeout in seconds including all the retries.
 

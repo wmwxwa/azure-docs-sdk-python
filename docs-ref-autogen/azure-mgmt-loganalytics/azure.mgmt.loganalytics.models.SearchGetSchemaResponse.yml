@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.loganalytics.models.SearchSchemaValue>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: metadata
+    isRequired: true
   - name: value
+    isRequired: true

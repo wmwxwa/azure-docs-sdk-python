@@ -17,7 +17,7 @@ constructor:
     | _models.IsMonitoringEnabled = ''False'', annotation: str | None = None, bgp_configuration:
     _models.BgpConfiguration | None = None, static_route_configuration: _models.StaticRouteConfiguration
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: mtu
     description: Maximum transmission unit. Default value is 1500.
     defaultValue: '1500'

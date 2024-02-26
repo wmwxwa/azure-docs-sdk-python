@@ -16,7 +16,7 @@ constructor:
     time_limit_in_seconds: int = 18000, storage_location: _models.PacketCaptureStorageLocation
     | None = None, filters: List[_models.PacketCaptureFilter] | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: target
     description: 'The ID of the targeted resource, only AzureVM and AzureVMSS as target
       type are

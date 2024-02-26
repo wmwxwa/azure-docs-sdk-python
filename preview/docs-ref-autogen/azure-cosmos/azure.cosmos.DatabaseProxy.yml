@@ -88,7 +88,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -168,7 +168,7 @@ methods:
   - name: conflict_resolution_policy
     description: The conflict resolution policy to apply to the container.
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -229,7 +229,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -270,7 +270,7 @@ methods:
     types:
     - <xref:typing.Union>[<xref:str>, <xref:azure.cosmos.ContainerProxy>, <xref:typing.Dict>[<xref:str>,
       <xref:typing.Any>]]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -315,7 +315,7 @@ methods:
     types:
     - <xref:typing.Union>[<xref:str>, <xref:azure.cosmos.UserProxy>, <xref:typing.Dict>[<xref:str>,
       <xref:typing.Any>]]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -363,7 +363,7 @@ methods:
 
     If no ThroughputProperties already exist for the database, an exception is raised.'
   signature: 'get_throughput(**kwargs: Any) -> ThroughputProperties'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -405,7 +405,7 @@ methods:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -443,7 +443,7 @@ methods:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -475,7 +475,7 @@ methods:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -514,7 +514,7 @@ methods:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -528,7 +528,7 @@ methods:
   summary: Read the database properties.
   signature: 'read(populate_query_metrics: bool | None = None, **kwargs: Any) -> Dict[str,
     Any]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -554,7 +554,7 @@ methods:
 
     If no ThroughputProperties already exist for the database, an exception is raised.'
   signature: 'read_offer(**kwargs: Any) -> ThroughputProperties'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -614,7 +614,7 @@ methods:
   - name: populate_query_metrics
     description: Enable returning query metrics in response headers.
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -670,7 +670,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:int>, <xref:azure.cosmos.ThroughputProperties>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -702,7 +702,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -730,7 +730,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:

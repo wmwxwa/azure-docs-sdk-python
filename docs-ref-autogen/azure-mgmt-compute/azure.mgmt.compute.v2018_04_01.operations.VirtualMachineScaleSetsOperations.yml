@@ -37,7 +37,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSet>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -110,7 +110,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSetVMInstanceIDs>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -165,7 +165,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -223,7 +223,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSetVMInstanceRequiredIDs>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -296,7 +296,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSetVMInstanceIDs>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -367,7 +367,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSetVMInstanceIDs>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -435,7 +435,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSetVMInstanceIDs>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -501,7 +501,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSetVMInstanceIDs>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -569,7 +569,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSetVMInstanceIDs>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -634,7 +634,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSetVMInstanceIDs>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -699,7 +699,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSetVMInstanceIDs>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -764,7 +764,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSetUpdate>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -831,7 +831,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSetVMInstanceRequiredIDs>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -890,7 +890,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: platform_update_domain
     description: 'The platform update domain for which a manual recovery walk is
 
@@ -923,7 +923,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -950,7 +950,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -977,7 +977,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -1001,7 +1001,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -1025,7 +1025,7 @@ methods:
 
     till nextLink is null to fetch all the VM Scale Sets.'
   signature: 'list_all(**kwargs: Any) -> Iterable[VirtualMachineScaleSet]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -1058,7 +1058,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

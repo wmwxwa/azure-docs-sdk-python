@@ -14,8 +14,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: query
+    isRequired: true
 methods:
 - uid: azure.iot.hub.protocol.models.query_specification_py3.QuerySpecification.as_dict
   name: as_dict

@@ -14,7 +14,7 @@ summary: 'Grammar-based tokenizer that is suitable for processing most European-
   All required parameters must be populated in order to send to Azure.'
 constructor:
   syntax: 'ClassicTokenizer(*, name: str, max_token_length: int = 255, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
     description: 'The name of the tokenizer. It must only contain letters, digits,
       spaces, dashes

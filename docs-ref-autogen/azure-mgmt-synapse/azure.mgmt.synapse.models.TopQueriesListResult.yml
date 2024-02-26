@@ -17,5 +17,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.synapse.models.TopQueries>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: value
+    isRequired: true

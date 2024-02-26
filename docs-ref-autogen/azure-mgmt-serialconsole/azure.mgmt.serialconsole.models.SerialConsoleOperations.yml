@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.serialconsole.models.SerialConsoleOperationsValueItem>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: value
+    isRequired: true

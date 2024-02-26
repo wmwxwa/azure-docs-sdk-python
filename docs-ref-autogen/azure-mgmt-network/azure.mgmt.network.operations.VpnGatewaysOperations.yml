@@ -36,7 +36,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.VpnGateway>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -91,7 +91,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -140,7 +140,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: ip_configuration_id
     description: 'VpnGateway ipConfigurationId to specify the gateway instance.
 
@@ -208,7 +208,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.VpnGatewayPacketCaptureStartParameters>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -276,7 +276,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.VpnGatewayPacketCaptureStopParameters>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -339,7 +339,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.TagsObject>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -393,7 +393,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -408,7 +408,7 @@ methods:
   name: list
   summary: Lists all the VpnGateways in a subscription.
   signature: 'list(**kwargs: Any) -> Iterable[VpnGateway]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -429,7 +429,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -464,7 +464,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.TagsObject>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

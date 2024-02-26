@@ -9,7 +9,7 @@ summary: The content trust policy for a container registry.
 constructor:
   syntax: 'TrustPolicy(*, type: str | _models.TrustPolicyType = ''Notary'', status:
     str | _models.PolicyStatus | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: type
     description: The type of trust policy. "Notary"
     defaultValue: Notary

@@ -12,7 +12,7 @@ summary: 'Backup properties of a server.
 constructor:
   syntax: 'Backup(*, backup_retention_days: int = 7, geo_redundant_backup: str | _models.GeoRedundantBackupEnum
     = ''Disabled'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: backup_retention_days
     description: Backup retention days for the server.
     defaultValue: '7'

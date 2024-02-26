@@ -18,8 +18,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.billing.models.ReservationUtilizationAggregates>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: aggregates
+    isRequired: true
 variables:
 - description: The number of days trend for a reservation.
   name: trend

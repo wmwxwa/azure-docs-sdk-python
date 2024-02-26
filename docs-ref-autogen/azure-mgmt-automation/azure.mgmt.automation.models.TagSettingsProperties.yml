@@ -23,6 +23,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.automation.models.TagOperators>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
+    isRequired: true
   - name: filter_operator
+    isRequired: true

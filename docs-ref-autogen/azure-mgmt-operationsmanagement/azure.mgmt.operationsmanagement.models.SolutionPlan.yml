@@ -39,8 +39,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true
   - name: publisher
+    isRequired: true
   - name: promotion_code
+    isRequired: true
   - name: product
+    isRequired: true

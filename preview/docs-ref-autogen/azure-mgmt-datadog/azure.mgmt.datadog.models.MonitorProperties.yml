@@ -13,7 +13,7 @@ constructor:
   syntax: 'MonitorProperties(*, monitoring_status: str | _models.MonitoringStatus
     = ''Enabled'', datadog_organization_properties: _models.DatadogOrganizationProperties
     | None = None, user_info: _models.UserInfo | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: monitoring_status
     description: 'Flag specifying if the resource monitoring is enabled or disabled.
 

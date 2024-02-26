@@ -13,7 +13,7 @@ constructor:
   syntax: 'StartStopManagedInstanceSchedule(*, description: str = '''', time_zone_id:
     str = ''UTC'', schedule_list: List[_models.ScheduleItem] | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: description
     description: The description of the schedule.
     types:

@@ -17,5 +17,6 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: concurrent_jobs_limit
+    isRequired: true

@@ -30,8 +30,12 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.edgegateway.models.ServiceSpecification>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true
   - name: display
+    isRequired: true
   - name: origin
+    isRequired: true
   - name: service_specification
+    isRequired: true

@@ -83,7 +83,7 @@ functions:
     defaultValue: None
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: protocol
     description: Specifies the protocol permitted for a request made. The default
       value is https.
@@ -188,7 +188,7 @@ functions:
     defaultValue: None
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: protocol
     description: Specifies the protocol permitted for a request made. The default
       value is https.

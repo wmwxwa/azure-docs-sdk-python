@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.portal.models.DashboardPartMetadata>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: position
+    isRequired: true
   - name: metadata
+    isRequired: true

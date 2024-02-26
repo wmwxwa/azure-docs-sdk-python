@@ -16,7 +16,7 @@ constructor:
   syntax: 'DictionaryDecompounderTokenFilter(*, name: str, word_list: List[str], min_word_size:
     int = 5, min_subword_size: int = 2, max_subword_size: int = 15, only_longest_match:
     bool = False, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
     description: 'The name of the token filter. It must only contain letters, digits,
       spaces,

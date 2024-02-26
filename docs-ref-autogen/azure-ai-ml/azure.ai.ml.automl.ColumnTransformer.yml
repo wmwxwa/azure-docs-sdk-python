@@ -18,6 +18,8 @@ constructor:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Optional>[<xref:str>, <xref:float>]]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: fields
+    isRequired: true
   - name: parameters
+    isRequired: true

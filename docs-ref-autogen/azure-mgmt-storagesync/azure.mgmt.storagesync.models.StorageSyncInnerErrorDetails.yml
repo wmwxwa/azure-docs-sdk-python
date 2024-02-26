@@ -31,8 +31,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: call_stack
+    isRequired: true
   - name: message
+    isRequired: true
   - name: inner_exception
+    isRequired: true
   - name: inner_exception_call_stack
+    isRequired: true

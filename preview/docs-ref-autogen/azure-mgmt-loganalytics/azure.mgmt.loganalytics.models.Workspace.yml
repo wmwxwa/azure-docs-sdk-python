@@ -20,7 +20,7 @@ constructor:
     = ''Enabled'', public_network_access_for_query: str | _models.PublicNetworkAccessType
     = ''Enabled'', force_cmk_for_query: bool | None = None, features: _models.WorkspaceFeatures
     | None = None, default_data_collection_rule_resource_id: str | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

@@ -22,7 +22,7 @@ constructor:
     str = ''Enabled'', disable_local_auth: bool = False, disable_aad_auth: bool =
     False, region_endpoint_enabled: str = ''Enabled'', resource_stopped: str = ''false'',
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

@@ -14,8 +14,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.knowledge.qnamaker.models.KnowledgebaseDTO>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: knowledgebases
+    isRequired: true
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.KnowledgebasesDTO.as_dict
   name: as_dict

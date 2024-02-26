@@ -13,7 +13,7 @@ constructor:
   syntax: 'MsTeamsChannelProperties(*, is_enabled: bool, enable_calling: bool = False,
     calling_webhook: str | None = None, incoming_call_route: str | None = None, deployment_environment:
     str = ''FallbackDeploymentEnvironment'', accepted_terms: bool | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: enable_calling
     description: Enable calling for Microsoft Teams channel.
     types:

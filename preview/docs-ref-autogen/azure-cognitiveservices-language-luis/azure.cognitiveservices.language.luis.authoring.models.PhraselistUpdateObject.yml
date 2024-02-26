@@ -62,9 +62,11 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: phrases
+    isRequired: true
   - name: name
+    isRequired: true
   - name: is_active
     defaultValue: 'True'
   - name: is_exchangeable

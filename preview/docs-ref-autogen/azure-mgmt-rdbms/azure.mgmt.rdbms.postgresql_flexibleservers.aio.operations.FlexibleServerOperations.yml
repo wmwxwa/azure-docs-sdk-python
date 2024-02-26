@@ -39,7 +39,7 @@ methods:
     types:
     - <xref:azure.mgmt.rdbms.postgresql_flexibleservers.models.LtrBackupRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -111,7 +111,7 @@ methods:
     types:
     - <xref:azure.mgmt.rdbms.postgresql_flexibleservers.models.LtrPreBackupRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

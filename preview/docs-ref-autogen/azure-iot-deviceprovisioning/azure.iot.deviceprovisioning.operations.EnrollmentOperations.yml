@@ -38,7 +38,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: if_match
     description: The ETag of the enrollment record. Default value is None.
     types:
@@ -401,7 +401,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: if_match
     description: The ETag of the enrollment record. Default value is None.
     types:
@@ -705,7 +705,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: Page size. Default value is None.
     types:
@@ -918,7 +918,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

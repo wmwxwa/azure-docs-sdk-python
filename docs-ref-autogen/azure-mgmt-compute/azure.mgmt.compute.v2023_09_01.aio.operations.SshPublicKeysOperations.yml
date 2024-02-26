@@ -36,7 +36,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2023_09_01.models.SshPublicKeyResource>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -69,7 +69,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -111,7 +111,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2023_09_01.models.SshGenerateKeyPairInputParameters>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -144,7 +144,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -168,7 +168,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -189,7 +189,7 @@ methods:
 
     to get the next page of SSH public keys.'
   signature: 'list_by_subscription(**kwargs: Any) -> AsyncIterable[SshPublicKeyResource]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -228,7 +228,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2023_09_01.models.SshPublicKeyUpdateResource>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

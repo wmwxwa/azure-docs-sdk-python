@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: registration_id
+    isRequired: true
   - name: id_scope
+    isRequired: true

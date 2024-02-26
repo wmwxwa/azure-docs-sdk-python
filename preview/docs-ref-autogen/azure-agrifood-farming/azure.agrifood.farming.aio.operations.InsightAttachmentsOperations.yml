@@ -236,7 +236,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: insight_ids
     description: List of insight IDs. Default value is None.
     types:

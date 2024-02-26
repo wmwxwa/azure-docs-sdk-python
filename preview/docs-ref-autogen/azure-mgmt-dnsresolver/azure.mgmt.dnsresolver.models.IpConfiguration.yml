@@ -13,7 +13,7 @@ constructor:
   syntax: 'IpConfiguration(*, subnet: _models.SubResource, private_ip_address: str
     | None = None, private_ip_allocation_method: str | _models.IpAllocationMethod
     = ''Dynamic'', **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: subnet
     description: The reference to the subnet bound to the IP configuration. Required.
     types:

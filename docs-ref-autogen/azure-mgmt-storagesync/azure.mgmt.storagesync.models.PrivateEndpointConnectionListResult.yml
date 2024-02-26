@@ -16,5 +16,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.storagesync.models.PrivateEndpointConnection>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: value
+    isRequired: true

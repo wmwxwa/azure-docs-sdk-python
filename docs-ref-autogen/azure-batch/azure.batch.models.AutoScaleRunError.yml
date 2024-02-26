@@ -24,10 +24,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.batch.models.NameValuePair>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: code
+    isRequired: true
   - name: message
+    isRequired: true
   - name: values
+    isRequired: true
 methods:
 - uid: azure.batch.models.AutoScaleRunError.as_dict
   name: as_dict

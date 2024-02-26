@@ -14,5 +14,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.operationsmanagement.models.Solution>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: value
+    isRequired: true

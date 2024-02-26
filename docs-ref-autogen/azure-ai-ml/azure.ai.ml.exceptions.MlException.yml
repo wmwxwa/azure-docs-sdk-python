@@ -40,7 +40,7 @@ constructor:
     isRequired: true
     types:
     - <xref:Exception>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: target
     defaultValue: Unknown
   - name: error_category

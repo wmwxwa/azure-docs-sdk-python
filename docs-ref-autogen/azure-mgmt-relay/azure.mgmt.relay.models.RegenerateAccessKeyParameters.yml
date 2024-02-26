@@ -31,6 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: key_type
+    isRequired: true
   - name: key
+    isRequired: true

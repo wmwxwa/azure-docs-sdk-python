@@ -35,7 +35,7 @@ constructor:
     defaultValue: None
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: timeout
     description: An absolute timeout in seconds, for the combined HTTP request and
       response processing.
@@ -145,7 +145,7 @@ methods:
   - name: offer_throughput
     description: The provisioned throughput for this offer.
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -212,7 +212,7 @@ methods:
     types:
     - <xref:int>
     - <xref:azure.cosmos.ThroughputProperties.>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -259,7 +259,7 @@ methods:
     - <xref:str>
     - <xref:dict>(<xref:str>, <xref:str>)
     - <xref:azure.cosmos.DatabaseProxy>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -324,7 +324,7 @@ methods:
   name: get_database_account
   summary: Retrieve the database account information.
   signature: 'get_database_account(**kwargs: Any) -> DatabaseAccount'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -364,7 +364,7 @@ methods:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -412,7 +412,7 @@ methods:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:

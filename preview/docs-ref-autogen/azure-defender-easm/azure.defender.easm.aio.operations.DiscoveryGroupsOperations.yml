@@ -106,7 +106,7 @@ methods:
     Retrieve a list of discovery group for the provided search parameters.'
   signature: 'list(*, filter: str | None = None, skip: int = 0, **kwargs: Any) ->
     AsyncIterable[MutableMapping[str, Any]]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: filter
     description: 'An expression on the resource type that selects the resources to
       be returned.
@@ -192,7 +192,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: filter
     description: 'An expression on the resource type that selects the resources to
       be returned.
@@ -259,7 +259,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -360,7 +360,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

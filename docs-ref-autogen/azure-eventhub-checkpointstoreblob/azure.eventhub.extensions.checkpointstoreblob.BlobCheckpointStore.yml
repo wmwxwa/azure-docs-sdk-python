@@ -43,7 +43,8 @@ constructor:
       priority.'
     defaultValue: None
   - name: blob_account_url
-  keywordOnlyArguments:
+    isRequired: true
+  keywordOnlyParameters:
   - name: api_version
     description: The Storage API version to use for requests. Default value is '2019-07-07'.
     types:
@@ -119,7 +120,7 @@ methods:
       Credentials provided here will take precedence over those in the connection
       string.'
     defaultValue: None
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: The Storage API version to use for requests. Default value is '2019-07-07'.
     types:

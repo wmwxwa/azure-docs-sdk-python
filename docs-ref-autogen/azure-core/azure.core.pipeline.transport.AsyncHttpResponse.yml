@@ -16,7 +16,9 @@ constructor:
     int | None = None)'
   parameters:
   - name: request
+    isRequired: true
   - name: internal_response
+    isRequired: true
   - name: block_size
     defaultValue: None
 methods:
@@ -67,7 +69,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.core.pipeline.Pipeline>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: decompress
     description: 'If True which is default, will attempt to decode the body based
 

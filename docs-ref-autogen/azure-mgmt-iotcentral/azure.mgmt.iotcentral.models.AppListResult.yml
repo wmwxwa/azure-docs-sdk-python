@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.iotcentral.models.App>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: next_link
+    isRequired: true
   - name: value
+    isRequired: true

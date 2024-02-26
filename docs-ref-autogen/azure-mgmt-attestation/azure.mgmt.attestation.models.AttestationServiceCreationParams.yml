@@ -32,7 +32,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.attestation.models.AttestationServiceCreationSpecificParams>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
+    isRequired: true
   - name: properties
+    isRequired: true
   - name: tags
+    isRequired: true

@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.billing.models.ErrorDetails>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: error
+    isRequired: true

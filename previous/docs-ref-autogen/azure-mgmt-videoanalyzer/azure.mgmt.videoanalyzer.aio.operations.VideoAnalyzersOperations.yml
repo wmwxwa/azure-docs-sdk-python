@@ -55,7 +55,7 @@ methods:
     isRequired: true
     types:
     - <xref:video_analyzer.models.VideoAnalyzer>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -108,7 +108,7 @@ methods:
     isRequired: true
     types:
     - <xref:video_analyzer.models.VideoAnalyzerUpdate>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -156,7 +156,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -186,7 +186,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -210,7 +210,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -228,7 +228,7 @@ methods:
 
     List all Video Analyzer accounts in the specified subscription.'
   signature: 'async list_by_subscription(**kwargs: Any) -> VideoAnalyzerCollection'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

@@ -33,10 +33,13 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.automation.models.SyncType>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: source_control_sync_job_id
+    isRequired: true
   - name: provisioning_state
+    isRequired: true
   - name: sync_type
+    isRequired: true
 variables:
 - description: Resource name.
   name: name

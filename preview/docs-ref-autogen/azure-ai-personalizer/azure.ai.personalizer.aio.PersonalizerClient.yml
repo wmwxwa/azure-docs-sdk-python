@@ -34,7 +34,7 @@ constructor:
     types:
     - <xref:azure.core.credentials.AzureKeyCredential>
     - <xref:azure.core.credentials_async.AsyncTokenCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'Api Version. Default value is "2022-09-01-preview". Note that overriding
 
@@ -107,7 +107,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Content type parameter for JSON body.
 
@@ -181,7 +181,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Content type parameter for JSON body.
 
@@ -266,7 +266,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Content type parameter for JSON body.
 
@@ -311,7 +311,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Content type parameter for JSON body.
 
@@ -363,7 +363,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.core.rest.HttpRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: stream
     description: Whether the response payload will be streamed. Defaults to False.
     types:

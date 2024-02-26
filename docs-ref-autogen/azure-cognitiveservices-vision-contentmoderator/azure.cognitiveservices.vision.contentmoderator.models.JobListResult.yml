@@ -14,8 +14,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: value
+    isRequired: true
 methods:
 - uid: azure.cognitiveservices.vision.contentmoderator.models.JobListResult.as_dict
   name: as_dict

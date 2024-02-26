@@ -20,7 +20,7 @@ constructor:
     str | _models.ScaleSetPriority = ''Regular'', scale_set_eviction_policy: str |
     _models.ScaleSetEvictionPolicy = ''Delete'', node_taints: List[str] | None = None,
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: count
     description: 'Number of agents (VMs) to host docker containers. Allowed values
       must be in the

@@ -17,7 +17,7 @@ constructor:
     defaultValue: None
   - name: items
     defaultValue: None
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: summary
     description: Summary of the results for the batch request.
     types:

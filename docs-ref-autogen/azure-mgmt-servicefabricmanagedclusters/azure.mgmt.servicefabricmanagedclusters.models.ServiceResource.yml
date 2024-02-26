@@ -28,10 +28,13 @@ constructor:
     isRequired: true
     types:
     - <xref:service_fabric_managed_clusters_management_client.models.ServiceResourceProperties>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
+    isRequired: true
   - name: tags
+    isRequired: true
   - name: properties
+    isRequired: true
 variables:
 - description: Azure resource identifier.
   name: id

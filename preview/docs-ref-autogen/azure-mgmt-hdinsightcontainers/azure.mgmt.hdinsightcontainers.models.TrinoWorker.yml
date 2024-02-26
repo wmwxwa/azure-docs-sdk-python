@@ -9,7 +9,7 @@ summary: Trino worker.
 constructor:
   syntax: 'TrinoWorker(*, enable: bool = False, port: int = 8008, suspend: bool =
     False, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: enable
     description: The flag that if enable debug or not.
     types:

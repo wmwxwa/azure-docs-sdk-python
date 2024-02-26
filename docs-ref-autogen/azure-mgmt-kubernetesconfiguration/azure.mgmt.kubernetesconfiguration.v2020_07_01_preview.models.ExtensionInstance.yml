@@ -16,7 +16,7 @@ constructor:
     configuration_settings: Dict[str, str] | None = None, configuration_protected_settings:
     Dict[str, str] | None = None, statuses: List[_models.ExtensionStatus] | None =
     None, identity: _models.ConfigurationIdentity | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: system_data
     description: 'Top level metadata
 

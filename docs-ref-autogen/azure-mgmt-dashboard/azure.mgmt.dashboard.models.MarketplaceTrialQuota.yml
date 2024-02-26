@@ -10,7 +10,7 @@ constructor:
   syntax: 'MarketplaceTrialQuota(*, available_promotion: str | _models.AvailablePromotion
     = ''None'', grafana_resource_id: str | None = None, trial_start_at: datetime |
     None = None, trial_end_at: datetime | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: available_promotion
     description: 'Available enterprise promotion for the subscription. Known values
 

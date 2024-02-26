@@ -31,8 +31,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.alertsmanagement.models.AlertsSummaryGroupItem>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: total
+    isRequired: true
   - name: smart_groups_count
+    isRequired: true
   - name: groupedby
+    isRequired: true
   - name: values
+    isRequired: true

@@ -17,7 +17,7 @@ constructor:
     = None, scopes: List[str] | None = None, enabled: bool = True, condition: _models.ActivityLogAlertAllOfCondition
     | None = None, actions: _models.ActivityLogAlertActionList | None = None, description:
     str | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: Resource location. Required.
     types:

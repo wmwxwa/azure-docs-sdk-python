@@ -53,7 +53,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.redisenterprise.models.Cluster>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -102,7 +102,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -156,7 +156,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.redisenterprise.models.ClusterUpdate>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -204,7 +204,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -219,7 +219,7 @@ methods:
   name: list
   summary: Gets all RedisEnterprise clusters in the specified subscription.
   signature: 'list(**kwargs: Any) -> Iterable[ClusterList]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -241,7 +241,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

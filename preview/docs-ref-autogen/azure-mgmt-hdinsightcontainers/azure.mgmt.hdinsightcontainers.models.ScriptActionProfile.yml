@@ -13,7 +13,7 @@ constructor:
   syntax: 'ScriptActionProfile(*, type: str, name: str, url: str, services: List[str],
     parameters: str | None = None, timeout_in_minutes: int | None = None, should_persist:
     bool = True, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: type
     description: Type of the script action. Supported type is bash scripts. Required.
     types:

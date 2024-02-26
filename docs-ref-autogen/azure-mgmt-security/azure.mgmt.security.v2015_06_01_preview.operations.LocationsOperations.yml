@@ -24,7 +24,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -45,7 +45,7 @@ methods:
 
     used to read or write other resources in ASC according to their ID.'
   signature: 'list(**kwargs: Any) -> Iterable[AscLocation]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

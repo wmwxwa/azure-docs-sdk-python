@@ -15,7 +15,7 @@ summary: 'Range of port numbers to use as translated ports on each translated ad
   Ports 50,000 and above are reserved for non-NAPT use.).'
 constructor:
   syntax: 'PortRange(*, min_port: int = 1024, max_port: int = 49999, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: min_port
     description: The minimum port number.
     defaultValue: '1024'

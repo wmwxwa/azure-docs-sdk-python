@@ -38,7 +38,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.core.credentials.TokenCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: signing_key
     description: 'PEM encoded signing key to be used for all
 
@@ -132,7 +132,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: signing_key
     description: 'PEM encoded signing Key representing the key
 
@@ -234,7 +234,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:str>, <xref:azure.security.attestation.AttestationType>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: validate_token
     description: If True, validate the token, otherwise return the token unvalidated.
     types:
@@ -308,7 +308,7 @@ methods:
     attestation service instance is in Isolated mode.'
   signature: 'get_policy_management_certificates(**kwargs: Any) -> Tuple[List[List[str]],
     AttestationToken]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: validate_token
     description: 'If True, validate the token, otherwise
 
@@ -428,7 +428,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: signing_key
     description: 'PEM encoded signing Key representing the key
 
@@ -521,7 +521,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:str>, <xref:azure.security.attestation.AttestationType>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: signing_key
     description: 'PEM encoded signing key to be used to sign the policy
 
@@ -626,7 +626,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: signing_key
     description: 'PEM encoded signing key to be used to sign the policy
 

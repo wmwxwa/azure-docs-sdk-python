@@ -17,7 +17,7 @@ constructor:
     None = None, zone_type: str | _models.ZoneType = ''Public'', registration_virtual_networks:
     List[_models.SubResource] | None = None, resolution_virtual_networks: List[_models.SubResource]
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

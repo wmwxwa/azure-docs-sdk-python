@@ -14,5 +14,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.sql.models.RecommendedSensitivityLabelUpdate>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: operations
+    isRequired: true

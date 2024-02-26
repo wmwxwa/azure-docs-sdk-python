@@ -18,7 +18,7 @@ constructor:
     = ''False'', hold_time: str | None = None, keep_alive_time: str | None = None,
     my_asn: int | None = None, password: str | None = None, peer_port: int = 179,
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: bfd_enabled
     description: 'The indicator of BFD enablement for this BgpPeer. Known values are:
 

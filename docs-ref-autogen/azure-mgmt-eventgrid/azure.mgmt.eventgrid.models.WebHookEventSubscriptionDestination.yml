@@ -18,7 +18,7 @@ constructor:
     None = 64, azure_active_directory_tenant_id: str | None = None, azure_active_directory_application_id_or_uri:
     str | None = None, delivery_attribute_mappings: List[DeliveryAttributeMapping]
     | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: endpoint_url
     description: 'The URL that represents the endpoint of the destination of an event
 

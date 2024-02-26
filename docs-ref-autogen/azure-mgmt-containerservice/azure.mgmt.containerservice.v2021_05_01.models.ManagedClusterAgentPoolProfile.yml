@@ -32,7 +32,7 @@ constructor:
     None = None, enable_encryption_at_host: bool | None = None, enable_ultra_ssd:
     bool | None = None, enable_fips: bool | None = None, gpu_instance_profile: str
     | _models.GPUInstanceProfile | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: count
     description: 'Number of agents (VMs) to host docker containers. Allowed values
       must be in the

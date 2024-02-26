@@ -14,8 +14,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.customvision.training.models.ImageTagCreateEntry>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
+    isRequired: true
 methods:
 - uid: azure.cognitiveservices.vision.customvision.training.models.ImageTagCreateBatch.as_dict
   name: as_dict

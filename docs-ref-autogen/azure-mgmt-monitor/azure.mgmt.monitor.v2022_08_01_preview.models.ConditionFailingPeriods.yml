@@ -12,7 +12,7 @@ summary: 'The minimum number of violations required within the selected lookback
 constructor:
   syntax: 'ConditionFailingPeriods(*, number_of_evaluation_periods: int = 1, min_failing_periods_to_alert:
     int = 1, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: number_of_evaluation_periods
     description: 'The number of aggregated lookback points. The lookback
 

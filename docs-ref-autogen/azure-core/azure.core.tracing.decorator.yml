@@ -19,7 +19,7 @@ functions:
     - <xref:callable>
   - name: __func
     defaultValue: None
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name_of_span
     description: The span name to replace func name if necessary
     types:

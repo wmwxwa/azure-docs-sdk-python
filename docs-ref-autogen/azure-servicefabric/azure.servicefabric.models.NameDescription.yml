@@ -19,8 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true
 methods:
 - uid: azure.servicefabric.models.NameDescription.as_dict
   name: as_dict

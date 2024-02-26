@@ -14,7 +14,7 @@ constructor:
     | None = None, bgp_peers: List[_models.ServiceLoadBalancerBgpPeer] | None = None,
     fabric_peering_enabled: str | _models.FabricPeeringEnabled = ''True'', ip_address_pools:
     List[_models.IpAddressPool] | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: bgp_advertisements
     description: 'The association of IP address pools to the communities and peers,
 

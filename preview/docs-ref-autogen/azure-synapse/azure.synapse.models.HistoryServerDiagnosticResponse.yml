@@ -14,8 +14,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.models.HistoryServerDiagnosticResponseData>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: data
+    isRequired: true
 methods:
 - uid: azure.synapse.models.HistoryServerDiagnosticResponse.as_dict
   name: as_dict

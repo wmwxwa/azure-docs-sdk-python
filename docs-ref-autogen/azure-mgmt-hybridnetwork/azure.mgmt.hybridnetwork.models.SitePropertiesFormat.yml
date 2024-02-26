@@ -12,7 +12,7 @@ summary: 'Site properties.
 constructor:
   syntax: 'SitePropertiesFormat(*, nfvis: List[_models.NFVIs] | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: nfvis
     description: List of NFVIs.
     types:

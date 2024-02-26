@@ -22,6 +22,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.datamigration.models.Severity>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: text
+    isRequired: true
   - name: severity
+    isRequired: true

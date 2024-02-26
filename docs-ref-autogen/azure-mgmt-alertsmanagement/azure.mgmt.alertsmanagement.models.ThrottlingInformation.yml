@@ -18,5 +18,6 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.timedelta>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: duration
+    isRequired: true

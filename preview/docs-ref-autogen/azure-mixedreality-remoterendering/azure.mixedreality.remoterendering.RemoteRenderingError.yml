@@ -25,9 +25,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: code
+    isRequired: true
   - name: message
+    isRequired: true
 variables:
 - description: An array of details about specific errors that led to this reported
     error.

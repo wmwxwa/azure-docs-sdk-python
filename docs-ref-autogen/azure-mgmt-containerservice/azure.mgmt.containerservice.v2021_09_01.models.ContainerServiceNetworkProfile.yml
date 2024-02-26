@@ -15,7 +15,7 @@ constructor:
     load_balancer_sku: str | _models.LoadBalancerSku | None = None, load_balancer_profile:
     _models.ManagedClusterLoadBalancerProfile | None = None, nat_gateway_profile:
     _models.ManagedClusterNATGatewayProfile | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: network_plugin
     description: 'Network plugin used for building the Kubernetes network. Known values
 

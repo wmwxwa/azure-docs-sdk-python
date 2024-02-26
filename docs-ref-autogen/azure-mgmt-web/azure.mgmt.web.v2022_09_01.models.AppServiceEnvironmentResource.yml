@@ -24,7 +24,7 @@ constructor:
     = None, custom_dns_suffix_configuration: _models.CustomDnsSuffixConfiguration
     | None = None, networking_configuration: _models.AseV3NetworkingConfiguration
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: kind
     description: Kind of resource.
     types:

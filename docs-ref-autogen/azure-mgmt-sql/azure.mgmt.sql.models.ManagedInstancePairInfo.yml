@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: primary_managed_instance_id
+    isRequired: true
   - name: partner_managed_instance_id
+    isRequired: true

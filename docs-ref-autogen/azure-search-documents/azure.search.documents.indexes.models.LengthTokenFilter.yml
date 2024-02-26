@@ -15,7 +15,7 @@ summary: 'Removes words that are too long or too short. This token filter is imp
 constructor:
   syntax: 'LengthTokenFilter(*, name: str, min_length: int = 0, max_length: int =
     300, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
     description: 'The name of the token filter. It must only contain letters, digits,
       spaces,

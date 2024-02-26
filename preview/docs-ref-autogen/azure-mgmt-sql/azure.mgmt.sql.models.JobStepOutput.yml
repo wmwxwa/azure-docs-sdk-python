@@ -14,7 +14,7 @@ constructor:
     credential: str, type: str | _models.JobStepOutputType = ''SqlDatabase'', subscription_id:
     str | None = None, resource_group_name: str | None = None, schema_name: str =
     ''dbo'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: type
     description: The output destination type. "SqlDatabase"
     defaultValue: SqlDatabase

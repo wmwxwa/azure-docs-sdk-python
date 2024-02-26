@@ -17,7 +17,7 @@ constructor:
     count: int | _models.Count = 1, os_disk_size_gb: int | None = None, vnet_subnet_id:
     str | None = None, first_consecutive_static_ip: str = ''10.240.255.5'', storage_profile:
     str | _models.ContainerServiceStorageProfileTypes | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: count
     description: 'Number of masters (VMs) in the container service cluster. Allowed
       values are 1,

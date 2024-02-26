@@ -53,7 +53,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.storagesync.models.StorageSyncServiceCreateParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -98,7 +98,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -149,7 +149,7 @@ methods:
     defaultValue: None
     types:
     - <xref:azure.mgmt.storagesync.models.StorageSyncServiceUpdateParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -194,7 +194,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.storagesync.models.CheckNameAvailabilityParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -221,7 +221,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -242,7 +242,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -258,7 +258,7 @@ methods:
   name: list_by_subscription
   summary: Get a StorageSyncService list by subscription.
   signature: 'list_by_subscription(**kwargs: Any) -> Iterable[''_models.StorageSyncServiceArray'']'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

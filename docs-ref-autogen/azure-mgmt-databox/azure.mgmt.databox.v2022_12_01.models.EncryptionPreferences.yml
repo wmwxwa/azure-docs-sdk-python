@@ -10,7 +10,7 @@ constructor:
   syntax: 'EncryptionPreferences(*, double_encryption: str | _models.DoubleEncryption
     = ''Disabled'', hardware_encryption: str | _models.HardwareEncryption | None =
     None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: double_encryption
     description: 'Defines secondary layer of software-based encryption enablement.
 

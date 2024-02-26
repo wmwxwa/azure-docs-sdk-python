@@ -18,5 +18,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.devtestlabs.models.NotificationChannelEventType>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: event_name
+    isRequired: true

@@ -32,8 +32,12 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.powerbidedicated.models.Mode>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: sku
+    isRequired: true
   - name: tags
+    isRequired: true
   - name: administration
+    isRequired: true
   - name: mode
+    isRequired: true

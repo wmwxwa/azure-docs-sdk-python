@@ -76,7 +76,7 @@ methods:
   - name: conflict_resolution_policy
     description: The conflict resolution policy to apply to the container.
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -182,7 +182,7 @@ methods:
   - name: conflict_resolution_policy
     description: The conflict resolution policy to apply to the container.
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -241,7 +241,7 @@ methods:
       The user ID must be unique within the database, and consist of no more than
       255 characters.'
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -279,7 +279,7 @@ methods:
 
       a dict representing the properties of the container.'
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -321,7 +321,7 @@ methods:
 
       instance of the user to be deleted.'
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -394,7 +394,7 @@ methods:
   - name: max_item_count
     description: Max number of items to be returned in the enumeration operation.
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -430,7 +430,7 @@ methods:
   - name: max_item_count
     description: Max number of users to be returned in the enumeration operation.
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -456,7 +456,7 @@ methods:
   - name: max_item_count
     description: Max number of items to be returned in the enumeration operation.
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -489,7 +489,7 @@ methods:
   - name: max_item_count
     description: Max number of users to be returned in the enumeration operation.
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -503,7 +503,7 @@ methods:
   summary: Read the database properties.
   signature: 'read(populate_query_metrics: bool | None = None, **kwargs: Any) -> Dict[str,
     Any]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -570,7 +570,7 @@ methods:
   - name: populate_query_metrics
     description: Enable returning query metrics in response headers.
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -637,7 +637,7 @@ methods:
   - name: throughput
     description: The throughput to be set (an integer).
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -664,7 +664,7 @@ methods:
   - name: body
     description: A dict-like object representing the user to replace.
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -689,7 +689,7 @@ methods:
   - name: body
     description: A dict-like object representing the user to update or insert.
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:

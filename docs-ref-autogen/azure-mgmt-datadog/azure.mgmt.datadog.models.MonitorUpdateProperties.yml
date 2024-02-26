@@ -10,7 +10,7 @@ summary: The set of properties that can be update in a PATCH request to a monito
 constructor:
   syntax: 'MonitorUpdateProperties(*, monitoring_status: str | _models.MonitoringStatus
     = ''Enabled'', cspm: bool | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: monitoring_status
     description: 'Flag specifying if the resource monitoring is enabled or disabled.
 

@@ -17,7 +17,7 @@ constructor:
   syntax: 'RoutePolicyProperties(*, network_fabric_id: str, statements: List[_models.RoutePolicyStatementProperties]
     | None = None, annotation: str | None = None, address_family_type: str | _models.AddressFamilyType
     = ''IPv4'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: statements
     description: Route Policy statements.
     types:

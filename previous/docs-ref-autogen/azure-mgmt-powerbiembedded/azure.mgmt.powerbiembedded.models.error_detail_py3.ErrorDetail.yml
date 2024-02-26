@@ -22,7 +22,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: code
+    isRequired: true
   - name: message
+    isRequired: true
   - name: target
+    isRequired: true

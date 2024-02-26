@@ -11,7 +11,7 @@ constructor:
     str = ''Stable'', version: str | None = None, configuration_settings: Dict[str,
     str] | None = None, configuration_protected_settings: Dict[str, str] | None =
     None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: auto_upgrade_minor_version
     description: 'Flag to note if this extension participates in auto
 

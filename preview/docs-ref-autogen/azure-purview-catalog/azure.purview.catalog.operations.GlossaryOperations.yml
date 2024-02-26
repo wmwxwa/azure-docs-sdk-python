@@ -63,7 +63,7 @@ methods:
     isRequired: true
   - name: files
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: include_term_hierarchy
     isRequired: true
 - uid: azure.purview.catalog.operations.GlossaryOperations.begin_import_glossary_terms_via_csv_by_glossary_name
@@ -86,7 +86,7 @@ methods:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:any>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: include_term_hierarchy
     description: Whether include term hierarchy. Default value is False.
     types:
@@ -556,7 +556,7 @@ methods:
     isRequired: true
     types:
     - <xref:JSON>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: include_term_hierarchy
     description: Whether include term hierarchy. Default value is False.
     types:
@@ -1026,7 +1026,7 @@ methods:
     isRequired: true
     types:
     - <xref:list>[<xref:JSON>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: include_term_hierarchy
     description: Whether include term hierarchy. Default value is False.
     types:
@@ -1645,7 +1645,7 @@ methods:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: include_term_hierarchy
     description: Whether include term hierarchy. Default value is False.
     types:
@@ -1673,7 +1673,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: include_term_hierarchy
     description: Whether include term hierarchy. Default value is False.
     types:
@@ -2099,7 +2099,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: limit
     description: The page size - by default there is no paging. Default value is None.
     types:
@@ -2296,7 +2296,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: include_term_hierarchy
     description: Whether include term hierarchy. Default value is False.
     types:
@@ -2585,7 +2585,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: limit
     description: The page size - by default there is no paging. Default value is None.
     types:
@@ -2625,7 +2625,7 @@ methods:
   signature: 'list_glossaries(*, limit: int | None = None, offset: int | None = None,
     sort: str | None = ''ASC'', ignore_terms_and_categories: bool | None = False,
     **kwargs: Any) -> List[MutableMapping[str, Any]]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: limit
     description: The page size - by default there is no paging. Default value is None.
     types:
@@ -2719,7 +2719,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: limit
     description: The page size - by default there is no paging. Default value is None.
     types:
@@ -2816,7 +2816,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: limit
     description: The page size - by default there is no paging. Default value is None.
     types:
@@ -2858,7 +2858,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: limit
     description: The page size - by default there is no paging. Default value is None.
     types:
@@ -2904,7 +2904,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: include_term_hierarchy
     description: Whether include term hierarchy. Default value is False.
     types:
@@ -3194,7 +3194,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: limit
     description: The page size - by default there is no paging. Default value is None.
     types:
@@ -3240,7 +3240,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: limit
     description: The page size - by default there is no paging. Default value is None.
     types:
@@ -3287,7 +3287,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: limit
     description: The page size - by default there is no paging. Default value is None.
     types:
@@ -3580,7 +3580,7 @@ methods:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: include_term_hierarchy
     description: Whether include term hierarchy. Default value is False.
     types:
@@ -3749,7 +3749,7 @@ methods:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: include_term_hierarchy
     description: Whether include term hierarchy. Default value is False.
     types:
@@ -4307,7 +4307,7 @@ methods:
     isRequired: true
     types:
     - <xref:JSON>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: include_term_hierarchy
     description: Whether include term hierarchy. Default value is False.
     types:

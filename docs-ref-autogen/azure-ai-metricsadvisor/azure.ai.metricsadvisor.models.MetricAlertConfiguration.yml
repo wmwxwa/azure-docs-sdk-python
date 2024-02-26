@@ -20,7 +20,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.ai.metricsadvisor.models.MetricAnomalyAlertScope>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: negation_operation
     description: Negation operation.
     types:

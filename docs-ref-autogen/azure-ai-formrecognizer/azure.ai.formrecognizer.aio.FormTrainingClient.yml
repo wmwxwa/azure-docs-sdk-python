@@ -46,7 +46,7 @@ constructor:
     types:
     - <xref:azure.core.credentials.AzureKeyCredential>
     - <xref:azure.core.credentials_async.AsyncTokenCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'The API version of the service to use for requests. It defaults
       to API version v2.1.
@@ -113,7 +113,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Union>[<xref:str>, <xref:int>]]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: continuation_token
     description: A continuation token to restart a poller from a saved state.
     types:
@@ -165,7 +165,7 @@ methods:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: model_name
     description: An optional, user-defined name to associate with your model.
     types:
@@ -264,7 +264,7 @@ methods:
     isRequired: true
     types:
     - <xref:bool>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: prefix
     description: 'A case-sensitive prefix string to filter documents in the source
       path for

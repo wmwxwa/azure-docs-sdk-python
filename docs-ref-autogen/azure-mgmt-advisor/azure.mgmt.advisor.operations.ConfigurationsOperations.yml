@@ -57,7 +57,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.advisor.models.ConfigData>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -91,7 +91,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.advisor.models.ConfigData>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -115,7 +115,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -137,7 +137,7 @@ methods:
 
     groups.'
   signature: 'list_by_subscription(**kwargs: Any) -> Iterable[''_models.ConfigurationListResult'']'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

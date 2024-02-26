@@ -17,8 +17,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: reason
+    isRequired: true
 variables:
 - description: Maintenance configuration name.
   name: name

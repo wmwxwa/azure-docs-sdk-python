@@ -30,7 +30,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:microsoft_logz.models.TagAction>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true
   - name: value
+    isRequired: true
   - name: action
+    isRequired: true

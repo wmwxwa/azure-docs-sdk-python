@@ -12,7 +12,7 @@ summary: 'Represents the filter actions which are allowed for the transformation
 constructor:
   syntax: 'Action(*, sql_expression: str | None = None, compatibility_level: int |
     None = None, requires_preprocessing: bool = True, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: sql_expression
     description: SQL expression. e.g. MyProperty='ABC'.
     types:

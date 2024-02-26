@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:batch_ai.models.AutoScaleSettings>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: manual
+    isRequired: true
   - name: auto_scale
+    isRequired: true

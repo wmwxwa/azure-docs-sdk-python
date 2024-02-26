@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: vm_resource_id
+    isRequired: true

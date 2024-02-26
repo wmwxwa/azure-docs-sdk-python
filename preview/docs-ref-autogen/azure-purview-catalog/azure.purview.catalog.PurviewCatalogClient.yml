@@ -31,7 +31,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.core.credentials.TokenCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'Api Version. Default value is "2022-03-01-preview". Note that overriding
 
@@ -106,7 +106,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.core.rest.HttpRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: stream
     description: Whether the response payload will be streamed. Defaults to False.
     types:

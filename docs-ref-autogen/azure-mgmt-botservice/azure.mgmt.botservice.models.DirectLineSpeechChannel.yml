@@ -15,7 +15,7 @@ summary: 'DirectLine Speech channel definition.
 constructor:
   syntax: 'DirectLineSpeechChannel(*, etag: str | None = None, location: str = ''global'',
     properties: _models.DirectLineSpeechChannelProperties | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: etag
     description: Entity Tag of the resource.
     types:

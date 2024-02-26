@@ -50,7 +50,7 @@ constructor:
     bool | None = None, website_time_zone: str | None = None, minimum_elastic_instance_count:
     int | None = None, azure_storage_accounts: Dict[str, _models.AzureStorageInfoValue]
     | None = None, public_network_access: str | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: kind
     description: Kind of resource.
     types:

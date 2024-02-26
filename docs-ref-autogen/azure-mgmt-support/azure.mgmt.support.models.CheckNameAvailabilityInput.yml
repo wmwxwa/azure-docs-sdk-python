@@ -25,6 +25,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:typing.Type>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true
   - name: type
+    isRequired: true

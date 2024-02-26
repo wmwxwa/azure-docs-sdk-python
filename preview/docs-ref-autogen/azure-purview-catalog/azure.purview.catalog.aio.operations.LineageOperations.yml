@@ -36,7 +36,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: direction
     description: 'The direction of the lineage, which could be INPUT, OUTPUT or BOTH.
       Known
@@ -164,7 +164,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: direction
     description: 'The direction of the lineage, which could be INPUT, OUTPUT or BOTH.
       Known
@@ -292,7 +292,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: direction
     description: 'The direction of the lineage, which could be INPUT, OUTPUT or BOTH.
       Known

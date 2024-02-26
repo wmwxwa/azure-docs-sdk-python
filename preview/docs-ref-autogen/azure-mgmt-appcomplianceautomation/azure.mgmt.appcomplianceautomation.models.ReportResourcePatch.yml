@@ -9,7 +9,7 @@ summary: A class represent a AppComplianceAutomation report resource update prop
 constructor:
   syntax: 'ReportResourcePatch(*, properties: _models.ReportProperties | None = None,
     **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: properties
     description: Report property.
     types:

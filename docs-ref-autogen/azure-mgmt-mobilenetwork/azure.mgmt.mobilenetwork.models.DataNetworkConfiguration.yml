@@ -18,7 +18,7 @@ constructor:
     default_session_type: str | _models.PduSessionType | None = None, additional_allowed_session_types:
     List[str | _models.PduSessionType] | None = None, maximum_number_of_buffered_packets:
     int = 10, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: data_network
     description: 'A reference to the data network that these settings apply to. The
       data

@@ -16,7 +16,7 @@ constructor:
     types:
     - <xref:azure.core.credentials.TokenCredential>
     - <xref:azure.core.credentials.AzureKeyCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: base_url
     description: 'Supported Maps Services or Language resource base_url
 
@@ -138,7 +138,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.List>[<xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: batch_id
     description: Batch id for querying the operation.
     types:
@@ -188,7 +188,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: is_type_ahead
     description: 'Boolean. If the typeahead flag is set, the query will be interpreted
       as a
@@ -432,7 +432,7 @@ methods:
 
     to provide more meaningful results through other Search Service APIs,'
   signature: 'get_point_of_interest_categories(**kwargs: Any) -> List[PointOfInterestCategory]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: language
     description: 'Language in which search results should be returned. Should be one
       of
@@ -480,7 +480,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: include_speed_limit
     description: Boolean. To enable return of the posted speed limit.
     types:
@@ -601,7 +601,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.maps.search.models.LatLon>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: 'Maximum number of responses that will be returned. Default: 10,
       minimum: 1 and
@@ -702,7 +702,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: is_type_ahead
     description: 'Boolean. If the typeahead flag is set, the query will be interpreted
       as a
@@ -826,7 +826,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.maps.search.models.SearchAlongRouteOptions>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: 'Maximum number of responses that will be returned. Default value
       is 10. Max value
@@ -951,7 +951,7 @@ methods:
     types:
     - <xref:obejct>
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: 'Maximum number of responses that will be returned. Default: 10,
       minimum: 1 and
@@ -1060,7 +1060,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.maps.search.models.LatLon>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: 'Maximum number of responses that will be returned. Default: 10,
       minimum: 1 and
@@ -1163,7 +1163,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: is_type_ahead
     description: 'Boolean. If the typeahead flag is set, the query will be interpreted
       as a
@@ -1279,7 +1279,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: is_type_ahead
     description: 'Boolean. If the typeahead flag is set, the query will be interpreted
       as a
@@ -1406,7 +1406,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.maps.search._models.StructuredAddress>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: skip
     description: 'Starting offset of the returned results within the full result set.
 

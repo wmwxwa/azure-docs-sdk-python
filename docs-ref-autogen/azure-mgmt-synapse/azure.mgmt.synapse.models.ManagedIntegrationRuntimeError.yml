@@ -20,8 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:object>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: additional_properties
+    isRequired: true
 variables:
 - description: The time when the error occurred.
   name: time

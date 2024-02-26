@@ -17,8 +17,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.synapse.models.CustomerManagedKeyDetails>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cmk
+    isRequired: true
 variables:
 - description: Double Encryption enabled.
   name: double_encryption_enabled

@@ -17,7 +17,7 @@ constructor:
     False, auto_download_certificate: bool = False, ca_certificate_uri: str | None
     = None, credentials: _models.CacheUsernameDownloadSettingsCredentials | None =
     None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: extended_groups
     description: Whether or not Extended Groups is enabled.
     types:

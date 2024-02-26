@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure_ag_food_platform_rp_service.models.ErrorDetail>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: error
+    isRequired: true

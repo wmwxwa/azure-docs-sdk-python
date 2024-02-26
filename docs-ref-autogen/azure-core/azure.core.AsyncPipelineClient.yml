@@ -21,7 +21,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: config
     description: If omitted, the standard configuration is used.
     types:
@@ -270,7 +270,7 @@ methods:
     defaultValue: None
     types:
     - <xref:dict>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content
     description: The body content
   - name: form_content
@@ -443,7 +443,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.core.rest.HttpRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: stream
     description: Whether the response payload will be streamed. Defaults to False.
     types:

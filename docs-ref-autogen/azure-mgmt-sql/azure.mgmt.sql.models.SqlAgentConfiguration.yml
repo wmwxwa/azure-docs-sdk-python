@@ -19,8 +19,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.sql.models.SqlAgentConfigurationPropertiesState>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: state
+    isRequired: true
 variables:
 - description: Resource ID.
   name: id

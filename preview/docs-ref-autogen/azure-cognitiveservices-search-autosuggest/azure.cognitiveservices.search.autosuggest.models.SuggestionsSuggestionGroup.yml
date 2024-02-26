@@ -32,8 +32,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: search_suggestions
+    isRequired: true
   - name: name
     defaultValue: Unknown
 methods:

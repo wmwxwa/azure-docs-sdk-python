@@ -23,6 +23,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.devtestlabs.models.StorageType>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: lun
+    isRequired: true
   - name: storage_type
+    isRequired: true

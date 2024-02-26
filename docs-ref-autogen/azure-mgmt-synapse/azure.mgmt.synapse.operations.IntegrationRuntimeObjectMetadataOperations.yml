@@ -55,7 +55,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -114,7 +114,7 @@ methods:
     defaultValue: None
     types:
     - <xref:azure.mgmt.synapse.models.GetSsisObjectMetadataRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

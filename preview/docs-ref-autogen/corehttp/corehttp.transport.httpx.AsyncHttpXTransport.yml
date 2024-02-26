@@ -9,7 +9,7 @@ summary: Implements a basic async httpx HTTP sender
 constructor:
   syntax: 'AsyncHttpXTransport(*, client: AsyncClient | None = None, client_owner:
     bool = True, use_env_settings: bool = True, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: client
     description: HTTPX client to use instead of the default one
     types:
@@ -42,7 +42,7 @@ methods:
     isRequired: true
     types:
     - <xref:<xref:corehttp.rest#corehttp.rest.HttpRequest>>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: stream
     description: Whether to stream the response. Defaults to False.
     types:

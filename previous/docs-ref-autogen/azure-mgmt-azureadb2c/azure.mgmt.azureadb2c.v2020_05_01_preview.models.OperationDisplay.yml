@@ -17,8 +17,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: description
+    isRequired: true
 variables:
 - description: 'Service provider: Microsoft.AzureActiveDirectory.'
   name: provider

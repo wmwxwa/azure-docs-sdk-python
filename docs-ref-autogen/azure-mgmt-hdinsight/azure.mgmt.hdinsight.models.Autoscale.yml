@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.AutoscaleRecurrence>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: capacity
+    isRequired: true
   - name: recurrence
+    isRequired: true

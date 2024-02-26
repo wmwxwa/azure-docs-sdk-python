@@ -32,7 +32,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.maps.search.models.LatLon>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: type
     description: 'Possible values include: "POI", "Street", "Geography", "Point Address",
 
@@ -112,6 +112,10 @@ constructor:
     types:
     - <xref:int>
   - name: type_
+    isRequired: true
   - name: id_
+    isRequired: true
   - name: entity_type
+    isRequired: true
   - name: position
+    isRequired: true

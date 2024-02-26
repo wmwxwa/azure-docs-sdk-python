@@ -32,7 +32,10 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.datamigration.models.MigrateMySqlAzureDbForMySqlSyncDatabaseInput>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: source_connection_info
+    isRequired: true
   - name: target_connection_info
+    isRequired: true
   - name: selected_databases
+    isRequired: true

@@ -21,8 +21,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:storage_pool_management.models.OutboundEnvironmentEndpoint>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: value
+    isRequired: true
 variables:
 - description: Link to next page of resources.
   name: next_link

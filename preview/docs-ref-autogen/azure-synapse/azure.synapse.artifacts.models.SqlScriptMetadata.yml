@@ -22,9 +22,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: additional_properties
+    isRequired: true
   - name: language
+    isRequired: true
 methods:
 - uid: azure.synapse.artifacts.models.SqlScriptMetadata.as_dict
   name: as_dict

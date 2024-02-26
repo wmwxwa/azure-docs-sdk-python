@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:Microsoft.ChangeAnalysis.models.ErrorDetail>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: error
+    isRequired: true

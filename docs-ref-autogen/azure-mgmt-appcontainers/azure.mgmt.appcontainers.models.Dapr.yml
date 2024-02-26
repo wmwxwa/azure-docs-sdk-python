@@ -12,7 +12,7 @@ constructor:
     int | None = None, http_max_request_size: int | None = None, log_level: str |
     _models.LogLevel | None = None, enable_api_logging: bool | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: enabled
     description: Boolean indicating if the Dapr side car is enabled.
     types:

@@ -23,5 +23,6 @@ constructor:
     isRequired: true
     types:
     - <xref:batch_ai.models.AppInsightsReference>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: app_insights_reference
+    isRequired: true

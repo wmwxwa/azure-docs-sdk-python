@@ -21,6 +21,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.powerbidedicated.models.Mode>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: administration
+    isRequired: true
   - name: mode
+    isRequired: true

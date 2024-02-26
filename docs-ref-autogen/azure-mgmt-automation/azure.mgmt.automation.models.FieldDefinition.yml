@@ -28,7 +28,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: type
+    isRequired: true
   - name: is_encrypted
+    isRequired: true
   - name: is_optional
+    isRequired: true

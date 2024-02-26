@@ -33,7 +33,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.BastionShareableLinkListRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -99,7 +99,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.BastionShareableLinkTokenListRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -168,7 +168,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.VirtualWanVpnProfileParameters>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -225,7 +225,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -285,7 +285,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.BastionShareableLinkListRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -338,7 +338,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: domain_name_label
     description: 'The domain name to be verified. It must conform to the following
 
@@ -380,7 +380,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.SessionIds>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -408,7 +408,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -444,7 +444,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.BastionShareableLinkListRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -489,7 +489,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.ActiveConfigurationParameter>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: 'An optional query parameter which specifies the maximum number of
       records to be
@@ -538,7 +538,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.ActiveConfigurationParameter>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: 'An optional query parameter which specifies the maximum number of
       records to be
@@ -587,7 +587,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.QueryRequestOptions>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: 'An optional query parameter which specifies the maximum number of
       records to be
@@ -639,7 +639,7 @@ methods:
     types:
     - <xref:azure.mgmt.network.models.QueryRequestOptions>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: 'An optional query parameter which specifies the maximum number of
       records to be
@@ -683,7 +683,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

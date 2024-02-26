@@ -25,10 +25,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.customvision.training.models.Region>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: url
+    isRequired: true
   - name: tag_ids
+    isRequired: true
   - name: regions
+    isRequired: true
 methods:
 - uid: azure.cognitiveservices.vision.customvision.training.models.ImageUrlCreateEntry.as_dict
   name: as_dict

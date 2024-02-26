@@ -31,9 +31,11 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: trigger
+    isRequired: true
   - name: action
+    isRequired: true
   - name: state
     defaultValue: ScheduleStatus.ENABLED
 examples:

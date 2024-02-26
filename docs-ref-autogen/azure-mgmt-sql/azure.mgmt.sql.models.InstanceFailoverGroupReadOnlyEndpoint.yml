@@ -18,5 +18,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.sql.models.ReadOnlyEndpointFailoverPolicy>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: failover_policy
+    isRequired: true

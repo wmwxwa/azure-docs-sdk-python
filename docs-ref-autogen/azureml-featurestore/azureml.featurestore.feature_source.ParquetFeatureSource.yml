@@ -21,10 +21,13 @@ summary: 'A parquet feature source
 constructor:
   syntax: 'ParquetFeatureSource(*, path: str, timestamp_column: TimestampColumn =
     None, source_delay: DateTimeOffset = None)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: path
+    isRequired: true
   - name: timestamp_column
+    isRequired: true
   - name: source_delay
+    isRequired: true
 methods:
 - uid: azureml.featurestore.feature_source.ParquetFeatureSource.load
   name: load

@@ -16,7 +16,7 @@ constructor:
   syntax: 'Snapshot(*, location: str, tags: Dict[str, str] | None = None, creation_data:
     _models.CreationData | None = None, snapshot_type: str | _models.SnapshotType
     = ''NodePool'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: Resource location. Required.
     types:

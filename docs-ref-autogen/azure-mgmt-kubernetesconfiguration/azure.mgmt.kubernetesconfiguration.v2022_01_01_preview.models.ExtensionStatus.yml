@@ -10,7 +10,7 @@ constructor:
   syntax: 'ExtensionStatus(*, code: str | None = None, display_status: str | None
     = None, level: str | _models.LevelType = ''Information'', message: str | None
     = None, time: str | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: code
     description: Status code provided by the Extension.
     types:

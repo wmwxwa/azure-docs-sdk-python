@@ -23,7 +23,7 @@ constructor:
     types:
     - <xref:azure.core.credentials.TokenCredential>
     - <xref:None>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: API Version. The default value is "2021-07-01".
     types:
@@ -312,7 +312,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: order_by
     description: Query parameter for ordering by time ascending or descending
     types:
@@ -332,7 +332,7 @@ methods:
   name: list_repository_names
   summary: List all repositories
   signature: list_repository_names(**kwargs) -> ItemPaged[str]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: results_per_page
     description: Number of repositories to return per page
     types:
@@ -372,7 +372,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: order_by
     description: Query parameter for ordering by time ascending or descending
     types:
@@ -407,7 +407,7 @@ methods:
     types:
     - <xref:dict>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tag
     description: Tag of the manifest.
     types:

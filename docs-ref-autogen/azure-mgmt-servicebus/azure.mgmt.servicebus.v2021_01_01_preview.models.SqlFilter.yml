@@ -12,7 +12,7 @@ summary: 'Represents a filter which is a composition of an expression and an act
 constructor:
   syntax: 'SqlFilter(*, sql_expression: str | None = None, compatibility_level: int
     = 20, requires_preprocessing: bool = True, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: sql_expression
     description: The SQL expression. e.g. MyProperty='ABC'.
     types:

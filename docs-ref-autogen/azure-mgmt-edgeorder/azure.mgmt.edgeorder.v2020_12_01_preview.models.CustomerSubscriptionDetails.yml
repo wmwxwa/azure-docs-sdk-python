@@ -29,7 +29,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: quota_id
+    isRequired: true
   - name: registered_features
+    isRequired: true
   - name: location_placement_id
+    isRequired: true

@@ -20,7 +20,7 @@ constructor:
     str = ''predictions.csv'', resources: _models.DeploymentResourceConfiguration
     | None = None, retry_settings: _models.BatchRetrySettings | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: code_configuration
     description: Code configuration for the endpoint deployment.
     types:

@@ -22,7 +22,7 @@ constructor:
     None, arguments: str | None = None, environment_variables: List[_models.EnvironmentVariable]
     | None = None, force_update_tag: str | None = None, timeout: timedelta = ''P1D'',
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: identity
     description: 'Optional property. Managed identity to be used for this deployment
       script.

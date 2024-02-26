@@ -17,8 +17,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.ComputeNodeRebootOption>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: node_reboot_option
+    isRequired: true
 methods:
 - uid: azure.batch.models.NodeRebootParameter.as_dict
   name: as_dict

@@ -47,10 +47,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: target
+    isRequired: true
   - name: credentials
+    isRequired: true
   - name: api_version
+    isRequired: true
   - name: api_type
     defaultValue: Azure
 methods:

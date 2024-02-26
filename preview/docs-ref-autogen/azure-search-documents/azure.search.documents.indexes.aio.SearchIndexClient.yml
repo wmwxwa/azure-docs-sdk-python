@@ -21,7 +21,7 @@ constructor:
     types:
     - <xref:azure.core.credentials.AzureKeyCredential>
     - <xref:azure.core.credentials_async.AsyncTokenCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: The Search API version to use for requests.
     types:
@@ -152,7 +152,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.search.documents.indexes.models.SearchAlias>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: match_condition
     description: The match condition to use upon the etag
     types:
@@ -219,7 +219,7 @@ methods:
     isRequired: true
     types:
     - <xref:bool>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: match_condition
     description: The match condition to use upon the etag
     types:
@@ -270,7 +270,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.search.documents.indexes.models.SynonymMap>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: match_condition
     description: The match condition to use upon the etag
     types:
@@ -346,7 +346,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.search.documents.indexes.models.SearchIndex>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: match_condition
     description: The match condition to use upon the etag
     types:
@@ -380,7 +380,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.search.documents.indexes.models.SynonymMap>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: match_condition
     description: The match condition to use upon the etag
     types:
@@ -524,7 +524,7 @@ methods:
   summary: List the Synonym Maps in an Azure Search service.
   signature: 'async get_synonym_maps(*, select: List[str] | None = None, **kwargs)
     -> List[SynonymMap]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: select
     description: 'Selects which top-level properties of the skillsets to retrieve.
       Specified as a
@@ -565,7 +565,7 @@ methods:
   name: list_aliases
   summary: List the aliases in an Azure Search service.
   signature: 'list_aliases(*, select: List[str] | None = None, **kwargs) -> AsyncItemPaged[SearchAlias]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: select
     description: 'Selects which top-level properties of the skillsets to retrieve.
       Specified as a
@@ -595,7 +595,7 @@ methods:
   name: list_indexes
   summary: List the indexes in an Azure Search service.
   signature: 'list_indexes(*, select: List[str] | None = None, **kwargs) -> AsyncItemPaged[SearchIndex]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: select
     description: 'Selects which top-level properties of the skillsets to retrieve.
       Specified as a

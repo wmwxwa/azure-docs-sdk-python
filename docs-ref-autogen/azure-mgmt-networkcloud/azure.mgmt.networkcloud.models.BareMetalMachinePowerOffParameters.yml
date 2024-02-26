@@ -12,7 +12,7 @@ summary: 'BareMetalMachinePowerOffParameters represents the body of the request 
 constructor:
   syntax: 'BareMetalMachinePowerOffParameters(*, skip_shutdown: str | _models.BareMetalMachineSkipShutdown
     = ''False'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: skip_shutdown
     description: 'The indicator of whether to skip the graceful OS shutdown and power
       off

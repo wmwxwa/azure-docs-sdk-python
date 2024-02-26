@@ -33,7 +33,7 @@ constructor:
     types:
     - <xref:azure.core.credentials.AzureKeyCredential>
     - <xref:azure.core.credentials_async.AsyncTokenCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'Api Version. Available values are "2023-04-01" and "2022-05-01".
       Default value is
@@ -72,7 +72,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: continuation_token
     description: A continuation token to restart a poller from a saved state.
     types:
@@ -187,7 +187,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: continuation_token
     description: A continuation token to restart a poller from a saved state.
     types:
@@ -273,7 +273,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: continuation_token
     description: A continuation token to restart a poller from a saved state.
     types:
@@ -371,7 +371,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -441,7 +441,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: string_index_type
     description: 'Specifies the method used to interpret string offsets. For
 
@@ -562,7 +562,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: exported_project_format
     description: 'The format of the exported project file to use. Known values
 
@@ -749,7 +749,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: continuation_token
     description: A continuation token to restart a poller from a saved state.
     types:
@@ -844,7 +844,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -948,7 +948,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -1088,7 +1088,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are:
 
@@ -1920,7 +1920,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: 'The maximum number of resources to return from the collection. Default
       value is
@@ -1981,7 +1981,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: string_index_type
     description: 'Specifies the method used to interpret string offsets. For
 
@@ -2045,7 +2045,7 @@ methods:
     for more information.'
   signature: 'list_projects(*, top: int | None = None, skip: int | None = None, **kwargs:
     Any) -> AsyncIterable[MutableMapping[str, Any]]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: 'The maximum number of resources to return from the collection. Default
       value is
@@ -2101,7 +2101,7 @@ methods:
     for more information.'
   signature: 'list_supported_languages(*, project_kind: str, top: int | None = None,
     skip: int | None = None, **kwargs: Any) -> AsyncIterable[MutableMapping[str, Any]]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: project_kind
     description: 'The project kind. Known values are: "Conversation" and "Orchestration".
 
@@ -2151,7 +2151,7 @@ methods:
   signature: 'list_supported_prebuilt_entities(*, language: str | None = None, multilingual:
     bool | None = None, top: int | None = None, skip: int | None = None, **kwargs:
     Any) -> AsyncIterable[MutableMapping[str, Any]]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: language
     description: 'The language to get supported prebuilt entities for. Required if
 
@@ -2214,7 +2214,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: 'The maximum number of resources to return from the collection. Default
       value is
@@ -2262,7 +2262,7 @@ methods:
   signature: 'list_training_config_versions(*, project_kind: str, top: int | None
     = None, skip: int | None = None, **kwargs: Any) -> AsyncIterable[MutableMapping[str,
     Any]]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: project_kind
     description: 'The project kind. Known values are: "Conversation" and "Orchestration".
 
@@ -2315,7 +2315,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: 'The maximum number of resources to return from the collection. Default
       value is
@@ -2429,7 +2429,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.core.rest.HttpRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: stream
     description: Whether the response payload will be streamed. Defaults to False.
     types:

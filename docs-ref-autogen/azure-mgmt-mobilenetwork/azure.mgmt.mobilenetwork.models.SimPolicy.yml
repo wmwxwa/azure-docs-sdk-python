@@ -17,7 +17,7 @@ constructor:
     slice_configurations: List[_models.SliceConfiguration], tags: Dict[str, str] |
     None = None, rfsp_index: int | None = None, registration_timer: int = 3240, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

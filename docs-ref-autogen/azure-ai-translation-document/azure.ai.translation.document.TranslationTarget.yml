@@ -34,7 +34,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: category_id
     description: Category / custom model ID for using custom translation.
     types:

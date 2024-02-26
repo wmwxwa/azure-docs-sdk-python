@@ -14,5 +14,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.hdinsight.models.VersionSpec>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: available
+    isRequired: true

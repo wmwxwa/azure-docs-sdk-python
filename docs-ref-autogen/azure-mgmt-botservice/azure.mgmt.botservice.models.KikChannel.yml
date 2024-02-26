@@ -15,7 +15,7 @@ summary: 'Kik channel definition.
 constructor:
   syntax: 'KikChannel(*, etag: str | None = None, location: str = ''global'', properties:
     _models.KikChannelProperties | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: etag
     description: Entity Tag of the resource.
     types:

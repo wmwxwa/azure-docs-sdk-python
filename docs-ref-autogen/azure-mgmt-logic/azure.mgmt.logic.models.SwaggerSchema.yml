@@ -18,7 +18,7 @@ constructor:
     dynamic_schema_new: SwaggerCustomDynamicProperties | None = None, dynamic_list_new:
     SwaggerCustomDynamicList | None = None, dynamic_tree: SwaggerCustomDynamicTree
     | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: ref
     description: The reference.
     types:

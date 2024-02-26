@@ -17,5 +17,6 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:dict>[<xref:str>, <xref:str>]]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: configurations
+    isRequired: true

@@ -15,7 +15,7 @@ constructor:
   syntax: 'ConnectionConfiguration(*, connection_timeout: float = 300, read_timeout:
     float = 300, connection_verify: bool | str = True, connection_cert: str | None
     = None, connection_data_block_size: int = 4096, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: connection_timeout
     description: A single float in seconds for the connection timeout. Defaults to
       300 seconds.

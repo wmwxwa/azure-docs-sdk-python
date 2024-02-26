@@ -24,6 +24,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.Errors>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: status
+    isRequired: true
   - name: error
+    isRequired: true

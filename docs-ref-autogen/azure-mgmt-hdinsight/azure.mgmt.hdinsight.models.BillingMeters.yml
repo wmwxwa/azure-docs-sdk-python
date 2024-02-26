@@ -25,7 +25,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: meter_parameter
+    isRequired: true
   - name: meter
+    isRequired: true
   - name: unit
+    isRequired: true

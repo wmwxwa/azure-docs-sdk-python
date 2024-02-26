@@ -54,7 +54,7 @@ methods:
     defaultValue: None
     types:
     - <xref:$>(<xref:python-base-namespace>)<xref:azure.mgmt.azureadb2c.v2019_01_01_preview.models.CreateTenantRequestBody>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -101,7 +101,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -139,7 +139,7 @@ methods:
     defaultValue: None
     types:
     - <xref:$>(<xref:python-base-namespace>)<xref:azure.mgmt.azureadb2c.v2019_01_01_preview.models.CheckNameAvailabilityRequestBody>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -166,7 +166,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -187,7 +187,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -203,7 +203,7 @@ methods:
   name: list_by_subscription
   summary: Get all the Azure AD B2C tenant resources in a subscription.
   signature: list_by_subscription(**kwargs) -> AsyncIterable[B2CTenantResourceList]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -235,7 +235,7 @@ methods:
     defaultValue: None
     types:
     - <xref:$>(<xref:python-base-namespace>)<xref:azure.mgmt.azureadb2c.v2019_01_01_preview.models.B2CTenantUpdateRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

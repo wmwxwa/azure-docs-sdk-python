@@ -17,7 +17,7 @@ constructor:
     _models.Identity | None = None, distro: str | _models.Distro = ''AKSEdge'', infrastructure_config:
     _models.AppliancePropertiesInfrastructureConfig | None = None, public_key: str
     | None = None, version: str | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

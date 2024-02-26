@@ -23,7 +23,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.core.credentials.AzureKeyCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'Azure Communication Job Router API version.
 
@@ -56,7 +56,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: stream
     description: 'Whether to stream the response of this operation. Defaults to False.
       You
@@ -313,7 +313,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: stream
     description: 'Whether to stream the response of this operation. Defaults to False.
       You
@@ -340,7 +340,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: stream
     description: 'Whether to stream the response of this operation. Defaults to False.
       You
@@ -370,7 +370,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: stream
     description: 'Whether to stream the response of this operation. Defaults to False.
       You
@@ -398,7 +398,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: stream
     description: 'Whether to stream the response of this operation. Defaults to False.
       You
@@ -420,7 +420,7 @@ methods:
     classification_policy_id: str | None = None, scheduled_before: str | datetime
     | None = None, scheduled_after: str | datetime | None = None, results_per_page:
     int | None = None, **kwargs: Any) -> AsyncItemPaged[RouterJob]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: status
     description: 'If specified, filter jobs by status. Default value is "all".
 
@@ -489,7 +489,7 @@ methods:
   signature: 'list_workers(*, state: str | RouterWorkerState | Literal[''all''] |
     None = ''all'', channel_id: str | None = None, queue_id: str | None = None, has_capacity:
     bool | None = None, results_per_page: int | None = None, **kwargs: Any) -> AsyncItemPaged[RouterWorker]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: state
     description: 'If specified, select workers by worker status. Default value is
       "all".
@@ -600,7 +600,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.core.rest.HttpRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: stream
     description: Whether the response payload will be streamed. Defaults to False.
     types:
@@ -638,7 +638,7 @@ methods:
     - <xref:azure.communication.jobrouter.models.UnassignJobOptions>
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body parameter Content-Type. Known values are: application/json.
       Default
@@ -670,7 +670,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: channel_reference
     description: Reference to an external parent context, eg. call ID.
     types:
@@ -774,7 +774,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: queues
     description: The queue(s) that this worker can receive work from.
     types:

@@ -19,9 +19,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: capacity
+    isRequired: true
   - name: available_space
+    isRequired: true
 methods:
 - uid: azure.servicefabric.models.DiskInfo.as_dict
   name: as_dict

@@ -21,8 +21,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.servicefabric.models.HealthState>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: health_state
+    isRequired: true
 methods:
 - uid: azure.servicefabric.models.EntityHealthStateChunk.as_dict
   name: as_dict

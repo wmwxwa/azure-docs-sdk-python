@@ -15,7 +15,7 @@ summary: 'Line channel definition.
 constructor:
   syntax: 'LineChannel(*, etag: str | None = None, location: str = ''global'', properties:
     _models.LineChannelProperties | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: etag
     description: Entity Tag of the resource.
     types:

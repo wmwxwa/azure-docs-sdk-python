@@ -17,8 +17,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: current_attempts
+    isRequired: true
 variables:
 - description: Resource ID.
   name: id

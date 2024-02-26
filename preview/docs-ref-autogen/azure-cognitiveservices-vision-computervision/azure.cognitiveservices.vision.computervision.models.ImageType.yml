@@ -22,9 +22,11 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: clip_art_type
+    isRequired: true
   - name: line_drawing_type
+    isRequired: true
 methods:
 - uid: azure.cognitiveservices.vision.computervision.models.ImageType.as_dict
   name: as_dict

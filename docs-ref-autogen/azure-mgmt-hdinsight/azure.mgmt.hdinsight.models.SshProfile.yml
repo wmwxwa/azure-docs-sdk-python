@@ -14,5 +14,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.hdinsight.models.SshPublicKey>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: public_keys
+    isRequired: true

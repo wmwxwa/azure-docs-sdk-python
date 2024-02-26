@@ -52,7 +52,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.alertsmanagement.models.AlertRule>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -79,7 +79,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -111,7 +111,7 @@ methods:
     defaultValue: None
     types:
     - <xref:bool>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -132,7 +132,7 @@ methods:
     defaultValue: None
     types:
     - <xref:bool>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -161,7 +161,7 @@ methods:
     defaultValue: None
     types:
     - <xref:bool>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -194,7 +194,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.alertsmanagement.models.AlertRulePatchObject>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

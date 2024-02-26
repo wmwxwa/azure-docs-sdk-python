@@ -12,7 +12,7 @@ summary: 'Configuration settings for Docker build context.
 constructor:
   syntax: 'BuildContext(*, context_uri: str, dockerfile_path: str = ''Dockerfile'',
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: context_uri
     description: '[Required] URI of the Docker build context used to build the image.
 

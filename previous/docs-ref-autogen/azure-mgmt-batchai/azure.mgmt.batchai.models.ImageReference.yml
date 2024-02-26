@@ -57,9 +57,14 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: publisher
+    isRequired: true
   - name: offer
+    isRequired: true
   - name: sku
+    isRequired: true
   - name: version
+    isRequired: true
   - name: virtual_machine_image_id
+    isRequired: true

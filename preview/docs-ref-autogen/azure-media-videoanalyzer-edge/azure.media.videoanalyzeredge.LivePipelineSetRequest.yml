@@ -15,7 +15,7 @@ summary: 'Creates a new live pipeline or updates an existing one.
 constructor:
   syntax: 'LivePipelineSetRequest(*, live_pipeline: LivePipeline, api_version: str
     | None = ''1.1'', **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'Video Analyzer API version. The only acceptable values to pass in
       are

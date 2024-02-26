@@ -9,7 +9,7 @@ summary: Zone details data.
 constructor:
   syntax: 'A2AZoneDetails(*, source: str | None = None, target: str | None = None,
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: source
     description: Source zone info.
     types:

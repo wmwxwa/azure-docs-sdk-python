@@ -14,7 +14,7 @@ constructor:
   syntax: 'StopwordsTokenFilter(*, name: str, stopwords: List[str] | None = None,
     stopwords_list: str | _models.StopwordsList | None = None, ignore_case: bool =
     False, remove_trailing_stop_words: bool = True, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
     description: 'The name of the token filter. It must only contain letters, digits,
       spaces,

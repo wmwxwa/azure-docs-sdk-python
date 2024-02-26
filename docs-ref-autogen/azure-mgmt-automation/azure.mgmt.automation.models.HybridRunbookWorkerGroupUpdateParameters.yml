@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.automation.models.RunAsCredentialAssociationProperty>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: credential
+    isRequired: true

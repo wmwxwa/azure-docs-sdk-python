@@ -30,11 +30,15 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: status
+    isRequired: true
   - name: name
+    isRequired: true
   - name: properties
+    isRequired: true
   - name: error
+    isRequired: true
 methods:
 - uid: azure.synapse.artifacts.models.SsisObjectMetadataStatusResponse.as_dict
   name: as_dict

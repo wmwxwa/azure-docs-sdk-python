@@ -15,7 +15,7 @@ constructor:
     = ''FastProd'', ssl_configuration: _models.SslConfiguration | None = None, aks_networking_configuration:
     _models.AksNetworkingConfiguration | None = None, load_balancer_type: str | _models.LoadBalancerType
     = ''PublicIp'', load_balancer_subnet: str | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cluster_fqdn
     description: Cluster full qualified domain name.
     types:

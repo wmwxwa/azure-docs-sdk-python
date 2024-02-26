@@ -23,6 +23,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.edgegateway.models.SkuTier>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true
   - name: tier
+    isRequired: true

@@ -10,7 +10,7 @@ constructor:
   syntax: 'ProbeSettings(*, failure_threshold: int = 30, initial_delay: timedelta
     | None = None, period: timedelta = ''PT10S'', success_threshold: int = 1, timeout:
     timedelta = ''PT2S'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: failure_threshold
     description: 'The number of failures to allow before returning an unhealthy
 

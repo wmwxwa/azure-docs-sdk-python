@@ -13,8 +13,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: terminate_reason
+    isRequired: true
 methods:
 - uid: azure.batch.models.JobTerminateParameter.as_dict
   name: as_dict

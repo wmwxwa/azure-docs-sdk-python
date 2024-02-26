@@ -15,7 +15,7 @@ constructor:
     600, retry_interval_in_seconds: int | None = None, prune: bool = False, validation:
     str | _models.KustomizationValidationType = ''none'', force: bool = False, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: path
     description: The path in the source reference to reconcile on the cluster.
     types:

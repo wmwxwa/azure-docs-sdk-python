@@ -37,7 +37,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2016_03_30.models.AvailabilitySet>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -70,7 +70,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -98,7 +98,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -119,7 +119,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -150,7 +150,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -167,7 +167,7 @@ methods:
   summary: Lists all availability sets in a subscription.
   signature: 'list_by_subscription(*, expand: str | None = None, **kwargs: Any) ->
     AsyncIterable[AvailabilitySet]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: expand
     description: 'The expand expression to apply to the operation. Allowed values
       are

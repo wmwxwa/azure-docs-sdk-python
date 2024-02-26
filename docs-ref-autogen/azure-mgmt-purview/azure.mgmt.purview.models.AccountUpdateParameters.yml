@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:dict>[<xref:str>, <xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: properties
+    isRequired: true
   - name: tags
+    isRequired: true

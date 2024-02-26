@@ -43,7 +43,7 @@ constructor:
     | None = None, scm_min_tls_version: str | _models.SupportedTlsVersions | None
     = None, ftps_state: str | _models.FtpsState | None = None, pre_warmed_instance_count:
     int | None = None, health_check_path: str | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: kind
     description: Kind of resource.
     types:

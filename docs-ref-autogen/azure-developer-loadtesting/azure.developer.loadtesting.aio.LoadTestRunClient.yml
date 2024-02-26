@@ -22,7 +22,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.core.credentials_async.AsyncTokenCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'Api Version. Default value is "2022-11-01". Note that overriding
       this
@@ -55,7 +55,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: old_test_run_id
     description: 'Existing test run identifier that should be rerun, if this is
 
@@ -106,7 +106,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are:
 
@@ -186,7 +186,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are:
 
@@ -322,7 +322,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: metric_namespace
     description: Metric namespace to query metric definitions for. Required.
     types:
@@ -716,7 +716,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: metric_name
     description: Metric name. Required.
     types:
@@ -777,7 +777,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: metric_name
     description: Metric name. Required.
     types:
@@ -840,7 +840,7 @@ methods:
     test_id: str | None = None, execution_from: datetime | None = None, execution_to:
     datetime | None = None, status: str | None = None, **kwargs: Any) -> AsyncIterable[MutableMapping[str,
     Any]]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: orderby
     description: 'Sort on the supported fields in (field asc/desc) format. eg: executedDateTime
 
@@ -1104,7 +1104,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.core.rest.HttpRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: stream
     description: Whether the response payload will be streamed. Defaults to False.
     types:

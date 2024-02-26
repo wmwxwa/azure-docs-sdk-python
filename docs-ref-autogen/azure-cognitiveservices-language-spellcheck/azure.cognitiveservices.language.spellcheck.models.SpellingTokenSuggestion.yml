@@ -22,8 +22,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: suggestion
+    isRequired: true
 variables:
 - name: score
   types:

@@ -19,7 +19,7 @@ constructor:
     = ''Linux'', max_count: int | None = None, min_count: int | None = None, enable_auto_scaling:
     bool | None = None, type: str | _models.AgentPoolType | None = None, orchestrator_version:
     str | None = None, availability_zones: List[str] | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: count
     description: 'Number of agents (VMs) to host docker containers. Allowed values
       must be in the

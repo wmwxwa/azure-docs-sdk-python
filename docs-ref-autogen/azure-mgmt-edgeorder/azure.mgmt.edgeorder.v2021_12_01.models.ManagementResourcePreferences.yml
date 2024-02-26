@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: preferred_management_resource_id
+    isRequired: true

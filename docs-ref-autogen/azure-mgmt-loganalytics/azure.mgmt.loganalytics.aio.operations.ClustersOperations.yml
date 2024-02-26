@@ -52,7 +52,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.loganalytics.models.Cluster>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -97,7 +97,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -147,7 +147,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.loganalytics.models.ClusterPatch>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -192,7 +192,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -207,7 +207,7 @@ methods:
   name: list
   summary: Gets the Log Analytics clusters in a subscription.
   signature: 'list(**kwargs: Any) -> AsyncIterable[ClusterListResult]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -229,7 +229,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

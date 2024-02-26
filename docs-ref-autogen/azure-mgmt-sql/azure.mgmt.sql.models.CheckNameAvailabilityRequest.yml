@@ -20,8 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true
 variables:
 - description: 'Has constant value: "Microsoft.Sql/servers".'
   name: type

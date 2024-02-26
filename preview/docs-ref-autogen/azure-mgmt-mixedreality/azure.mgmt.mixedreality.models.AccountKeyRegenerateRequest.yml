@@ -8,7 +8,7 @@ inheritances:
 summary: Request for account key regeneration.
 constructor:
   syntax: 'AccountKeyRegenerateRequest(*, serial: int | _models.Serial = 1, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: serial
     description: 'Serial of key to be regenerated. Known values are: 1 and 2.'
     defaultValue: '1'

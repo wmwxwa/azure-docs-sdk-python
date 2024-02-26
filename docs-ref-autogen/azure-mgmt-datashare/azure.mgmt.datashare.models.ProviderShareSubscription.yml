@@ -17,8 +17,9 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: expiration_date
+    isRequired: true
 variables:
 - description: The resource id of the azure resource.
   name: id

@@ -27,7 +27,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.cognitiveservices.search.entitysearch.models.EntityScenario>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: entity_scenario
     defaultValue: DominantEntity
 variables:

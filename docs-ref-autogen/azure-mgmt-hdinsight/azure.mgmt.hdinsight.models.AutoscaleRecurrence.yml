@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.hdinsight.models.AutoscaleSchedule>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: time_zone
+    isRequired: true
   - name: schedule
+    isRequired: true

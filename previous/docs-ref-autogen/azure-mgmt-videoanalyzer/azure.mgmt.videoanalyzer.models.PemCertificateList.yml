@@ -24,5 +24,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: certificates
+    isRequired: true

@@ -18,5 +18,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:microsoft_logz.models.UserRole>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: role
+    isRequired: true

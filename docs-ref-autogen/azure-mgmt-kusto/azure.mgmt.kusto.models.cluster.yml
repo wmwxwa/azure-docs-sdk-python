@@ -28,7 +28,7 @@ constructor:
     allowed_fqdn_list: List[str] | None = None, public_ip_type: str | _models.PublicIPType
     = ''IPv4'', virtual_cluster_graduation_properties: str | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

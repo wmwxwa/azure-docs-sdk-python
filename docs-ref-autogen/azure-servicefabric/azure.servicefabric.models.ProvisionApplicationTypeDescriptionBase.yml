@@ -41,8 +41,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: async_property
+    isRequired: true
 methods:
 - uid: azure.servicefabric.models.ProvisionApplicationTypeDescriptionBase.as_dict
   name: as_dict

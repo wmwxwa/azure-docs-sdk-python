@@ -15,7 +15,7 @@ summary: 'ManagedInstancePrivateLinkServiceConnectionStateProperty.
 constructor:
   syntax: 'ManagedInstancePrivateLinkServiceConnectionStateProperty(*, status: str,
     description: str, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: status
     description: The private link service connection status. Required.
     types:

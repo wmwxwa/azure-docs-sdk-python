@@ -16,7 +16,7 @@ constructor:
   syntax: 'AccountSasParameters(*, signing_key: str | _models.SigningKey, principal_id:
     str, max_rate_per_second: int = 500, start: str, expiry: str, regions: List[str]
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: signing_key
     description: 'The Map account key to use for signing. Picking `primaryKey` or
 

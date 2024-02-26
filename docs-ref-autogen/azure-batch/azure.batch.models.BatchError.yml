@@ -24,10 +24,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.batch.models.BatchErrorDetail>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: code
+    isRequired: true
   - name: message
+    isRequired: true
   - name: values
+    isRequired: true
 methods:
 - uid: azure.batch.models.BatchError.as_dict
   name: as_dict

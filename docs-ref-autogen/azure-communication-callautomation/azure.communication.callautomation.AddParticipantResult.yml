@@ -9,7 +9,7 @@ summary: The result payload for adding participants to the call.
 constructor:
   syntax: 'AddParticipantResult(*, invitation_id: str, participant: CallParticipant
     | None = None, operation_context: str | None = None)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: participant
     description: Participant that was added with this request.
     types:
@@ -19,6 +19,7 @@ constructor:
     types:
     - <xref:str>
   - name: invitation_id
+    isRequired: true
 attributes:
 - uid: azure.communication.callautomation.AddParticipantResult.invitation_id
   name: invitation_id

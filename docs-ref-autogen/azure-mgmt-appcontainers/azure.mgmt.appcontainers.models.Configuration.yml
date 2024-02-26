@@ -15,7 +15,7 @@ constructor:
     = None, registries: List[_models.RegistryCredentials] | None = None, dapr: _models.Dapr
     | None = None, max_inactive_revisions: int | None = None, service: _models.Service
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: secrets
     description: Collection of secrets used by a Container app.
     types:

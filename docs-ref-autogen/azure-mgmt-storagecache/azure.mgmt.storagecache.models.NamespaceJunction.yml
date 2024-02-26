@@ -10,7 +10,7 @@ constructor:
   syntax: 'NamespaceJunction(*, namespace_path: str | None = None, target_path: str
     | None = None, nfs_export: str | None = None, nfs_access_policy: str = ''default'',
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: namespace_path
     description: Namespace path on a cache for a Storage Target.
     types:

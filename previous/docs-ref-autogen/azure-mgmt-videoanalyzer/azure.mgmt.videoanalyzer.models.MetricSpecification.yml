@@ -18,8 +18,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: supported_aggregation_types
+    isRequired: true
 variables:
 - description: The metric name.
   name: name

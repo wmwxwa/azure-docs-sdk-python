@@ -39,7 +39,7 @@ methods:
     types:
     - <xref:azure.mgmt.databox.v2021_08_01_preview.models.AvailableSkuRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -80,7 +80,7 @@ methods:
     types:
     - <xref:azure.mgmt.databox.v2021_08_01_preview.models.RegionConfigurationRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -126,7 +126,7 @@ methods:
     types:
     - <xref:azure.mgmt.databox.v2021_08_01_preview.models.RegionConfigurationRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -166,7 +166,7 @@ methods:
     types:
     - <xref:azure.mgmt.databox.v2021_08_01_preview.models.ValidateAddress>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -203,7 +203,7 @@ methods:
     types:
     - <xref:azure.mgmt.databox.v2021_08_01_preview.models.ValidationRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -247,7 +247,7 @@ methods:
     types:
     - <xref:azure.mgmt.databox.v2021_08_01_preview.models.ValidationRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

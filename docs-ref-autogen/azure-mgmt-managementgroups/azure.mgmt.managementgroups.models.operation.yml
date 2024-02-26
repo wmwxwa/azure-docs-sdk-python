@@ -17,8 +17,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.managementgroups.models.OperationDisplayProperties>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: display
+    isRequired: true
 variables:
 - description: 'Operation name: {provider}/{resource}/{operation}.'
   name: name

@@ -9,7 +9,7 @@ summary: Desired managed outbound IPs for the cluster load balancer.
 constructor:
   syntax: 'ManagedClusterLoadBalancerProfileManagedOutboundIPs(*, count: int = 1,
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: count
     description: 'The desired number of outbound IPs created/managed by Azure for
       the cluster

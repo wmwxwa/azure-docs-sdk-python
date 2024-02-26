@@ -27,6 +27,8 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: day
+    isRequired: true
   - name: occurrence
+    isRequired: true

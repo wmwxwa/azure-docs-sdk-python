@@ -25,7 +25,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.automation.models.TagSettingsProperties>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: scope
+    isRequired: true
   - name: locations
+    isRequired: true
   - name: tag_settings
+    isRequired: true

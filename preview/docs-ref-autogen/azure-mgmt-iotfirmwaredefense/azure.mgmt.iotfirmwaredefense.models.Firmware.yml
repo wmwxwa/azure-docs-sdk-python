@@ -14,7 +14,7 @@ constructor:
     str | None = None, version: str | None = None, description: str | None = None,
     file_size: int | None = None, status: str | _models.Status = ''Pending'', status_messages:
     List[MutableMapping[str, Any]] | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: file_name
     description: File name for a firmware that user uploaded.
     types:

@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.datetime>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: database_name
+    isRequired: true
   - name: commit_time_stamp
+    isRequired: true

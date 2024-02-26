@@ -19,7 +19,7 @@ constructor:
   syntax: 'BackupSchedule(*, frequency_interval: int = 7, frequency_unit: str | _models.FrequencyUnit
     = ''Day'', keep_at_least_one_backup: bool = True, retention_period_in_days: int
     = 30, start_time: datetime | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: frequency_interval
     description: 'How often the backup should be executed (e.g. for weekly backup,
 

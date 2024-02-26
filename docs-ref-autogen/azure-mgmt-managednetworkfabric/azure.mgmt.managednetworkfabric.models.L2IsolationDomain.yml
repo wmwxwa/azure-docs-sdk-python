@@ -16,7 +16,7 @@ constructor:
   syntax: 'L2IsolationDomain(*, location: str, network_fabric_id: str, vlan_id: int,
     tags: Dict[str, str] | None = None, annotation: str | None = None, mtu: int =
     1500, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

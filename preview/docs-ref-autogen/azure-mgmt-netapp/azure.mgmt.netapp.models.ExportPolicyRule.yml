@@ -14,7 +14,7 @@ constructor:
     bool = False, cifs: bool | None = None, nfsv3: bool | None = None, nfsv41: bool
     | None = None, allowed_clients: str | None = None, has_root_access: bool = True,
     chown_mode: str | _models.ChownMode = ''Restricted'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: rule_index
     description: Order index.
     types:

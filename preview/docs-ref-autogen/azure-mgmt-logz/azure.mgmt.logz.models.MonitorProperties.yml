@@ -15,7 +15,7 @@ constructor:
     = ''Active'', logz_organization_properties: _models.LogzOrganizationProperties
     | None = None, user_info: _models.UserInfo | None = None, plan_data: _models.PlanData
     | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: monitoring_status
     description: 'Flag specifying if the resource monitoring is enabled or disabled.
 

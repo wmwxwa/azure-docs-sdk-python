@@ -27,6 +27,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: variable_name
+    isRequired: true
   - name: variable_value
+    isRequired: true

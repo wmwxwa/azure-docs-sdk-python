@@ -27,6 +27,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.automation.models.ScheduleDay>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: occurrence
+    isRequired: true
   - name: day
+    isRequired: true

@@ -31,7 +31,7 @@ constructor:
     bool | None = None, enable_fips: bool | None = None, gpu_instance_profile: str
     | _models.GPUInstanceProfile | None = None, creation_data: _models.CreationData
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: count
     description: 'Desired Number of agents (VMs) specified to host docker containers.
       Allowed

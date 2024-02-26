@@ -9,7 +9,7 @@ summary: Serverless settings.
 constructor:
   syntax: 'ServerlessSettings(*, connection_timeout_in_seconds: int = 30, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: connection_timeout_in_seconds
     description: 'Gets or sets Client Connection Timeout. Optional to be
 

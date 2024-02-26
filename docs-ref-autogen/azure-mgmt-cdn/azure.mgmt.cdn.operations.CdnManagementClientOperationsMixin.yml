@@ -31,7 +31,7 @@ methods:
     types:
     - <xref:azure.mgmt.cdn.models.CheckEndpointNameAvailabilityInput>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -65,7 +65,7 @@ methods:
     types:
     - <xref:azure.mgmt.cdn.models.CheckNameAvailabilityInput>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -100,7 +100,7 @@ methods:
     types:
     - <xref:azure.mgmt.cdn.models.CheckNameAvailabilityInput>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -138,7 +138,7 @@ methods:
     types:
     - <xref:azure.mgmt.cdn.models.ValidateProbeInput>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

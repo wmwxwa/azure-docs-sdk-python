@@ -13,7 +13,7 @@ constructor:
   syntax: 'TriggerCondition(*, threshold_operator: str | _models.ConditionalOperator
     = ''GreaterThanOrEqual'', threshold: float, metric_trigger: _models.LogMetricTrigger
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: threshold_operator
     description: 'Evaluation operation for rule - ''GreaterThan'' or ''LessThan. Known
 

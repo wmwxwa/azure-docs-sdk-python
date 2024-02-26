@@ -19,5 +19,6 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: user_assigned_identity
+    isRequired: true

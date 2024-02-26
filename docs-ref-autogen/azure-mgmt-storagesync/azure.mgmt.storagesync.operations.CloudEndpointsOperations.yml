@@ -63,7 +63,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.storagesync.models.CloudEndpointCreateParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -118,7 +118,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -179,7 +179,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.storagesync.models.BackupRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -240,7 +240,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.storagesync.models.PostRestoreRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -301,7 +301,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.storagesync.models.BackupRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -362,7 +362,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.storagesync.models.PreRestoreRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -426,7 +426,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.storagesync.models.TriggerChangeDetectionParameters>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -481,7 +481,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -513,7 +513,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -551,7 +551,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

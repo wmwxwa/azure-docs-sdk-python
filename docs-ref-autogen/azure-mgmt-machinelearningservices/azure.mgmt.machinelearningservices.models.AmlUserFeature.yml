@@ -25,7 +25,10 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: id
+    isRequired: true
   - name: display_name
+    isRequired: true
   - name: description
+    isRequired: true

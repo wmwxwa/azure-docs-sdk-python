@@ -9,7 +9,7 @@ summary: Properties to configure Identity for Bring your Own Keys.
 constructor:
   syntax: 'Identity(*, principal_id: str | None = None, tenant_id: str | None = None,
     type: Literal[''SystemAssigned''] = ''SystemAssigned'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: principal_id
     description: ObjectId from the KeyVault.
     types:

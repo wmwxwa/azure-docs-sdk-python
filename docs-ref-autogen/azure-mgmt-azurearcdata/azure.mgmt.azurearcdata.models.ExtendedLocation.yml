@@ -21,6 +21,8 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure_arc_data_management_client.models.ExtendedLocationTypes>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true
   - name: type
+    isRequired: true

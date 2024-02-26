@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: message
+    isRequired: true
   - name: code
+    isRequired: true

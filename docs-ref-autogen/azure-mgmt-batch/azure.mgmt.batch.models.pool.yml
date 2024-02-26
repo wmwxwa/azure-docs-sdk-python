@@ -23,7 +23,7 @@ constructor:
     List[_models.MountConfiguration] | None = None, target_node_communication_mode:
     str | _models.NodeCommunicationMode | None = None, resource_tags: Dict[str, str]
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: identity
     description: The type of identity used for the Batch Pool.
     types:

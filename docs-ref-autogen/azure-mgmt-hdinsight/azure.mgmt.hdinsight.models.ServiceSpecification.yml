@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.hdinsight.models.MetricSpecifications>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: metric_specifications
+    isRequired: true

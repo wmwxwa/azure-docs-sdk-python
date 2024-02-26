@@ -43,7 +43,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2022_11_01.models.CapacityReservationGroup>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -85,7 +85,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -113,7 +113,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: expand
     description: 'The expand expression to apply on the operation. ''InstanceView''
       will retrieve
@@ -155,7 +155,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: expand
     description: 'The expand expression to apply on the operation. Based on the expand
       param(s)
@@ -191,7 +191,7 @@ methods:
     the response to get the next page of capacity reservation groups.'
   signature: 'list_by_subscription(*, expand: str | ExpandTypesForGetCapacityReservationGroups
     | None = None, **kwargs: Any) -> Iterable[CapacityReservationGroup]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: expand
     description: 'The expand expression to apply on the operation. Based on the expand
       param(s)
@@ -248,7 +248,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2022_11_01.models.CapacityReservationGroupUpdate>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

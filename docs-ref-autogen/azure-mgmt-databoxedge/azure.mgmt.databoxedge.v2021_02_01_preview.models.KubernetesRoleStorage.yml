@@ -18,8 +18,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.databoxedge.v2021_02_01_preview.models.MountPointMap>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: endpoints
+    isRequired: true
 variables:
 - description: Kubernetes storage class info.
   name: storage_classes

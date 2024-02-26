@@ -14,8 +14,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: job_version
+    isRequired: true
 methods:
 - uid: azure.synapse.artifacts.models.StartDataFlowDebugSessionResponse.as_dict
   name: as_dict

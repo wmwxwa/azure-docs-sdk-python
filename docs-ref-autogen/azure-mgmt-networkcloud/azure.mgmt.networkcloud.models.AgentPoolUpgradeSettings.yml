@@ -8,7 +8,7 @@ inheritances:
 summary: AgentPoolUpgradeSettings specifies the upgrade settings for an agent pool.
 constructor:
   syntax: 'AgentPoolUpgradeSettings(*, max_surge: str = ''1'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: max_surge
     description: 'The maximum number or percentage of nodes that are surged during
       upgrade.

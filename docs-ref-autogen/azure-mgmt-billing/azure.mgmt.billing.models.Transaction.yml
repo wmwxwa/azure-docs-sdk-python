@@ -30,9 +30,11 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.billing.models.ReservationType>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: kind
+    isRequired: true
   - name: transaction_type
+    isRequired: true
 variables:
 - description: Resource Id.
   name: id

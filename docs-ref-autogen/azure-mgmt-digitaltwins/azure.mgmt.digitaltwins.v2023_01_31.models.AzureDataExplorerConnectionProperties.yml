@@ -23,7 +23,7 @@ constructor:
     str | None = None, adx_relationship_lifecycle_events_table_name: str | None =
     None, event_hub_consumer_group: str = ''$Default'', record_property_and_item_removals:
     str | _models.RecordPropertyAndItemRemovals = ''false'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: identity
     description: 'Managed identity properties for the time series database connection
 

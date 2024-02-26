@@ -55,7 +55,7 @@ methods:
     isRequired: true
     types:
     - <xref:container_apps_api_client.models.ManagedEnvironment>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -109,7 +109,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -160,7 +160,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -184,7 +184,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -205,7 +205,7 @@ methods:
 
     Get all Managed Environments for a subscription.'
   signature: 'list_by_subscription(**kwargs: Any) -> Iterable[ManagedEnvironmentsCollection]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -243,7 +243,7 @@ methods:
     isRequired: true
     types:
     - <xref:container_apps_api_client.models.ManagedEnvironmentPatch>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

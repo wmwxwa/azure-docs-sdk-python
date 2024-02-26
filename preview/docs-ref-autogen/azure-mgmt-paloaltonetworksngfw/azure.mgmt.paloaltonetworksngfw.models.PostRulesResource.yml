@@ -24,7 +24,7 @@ constructor:
     | None = None, enable_logging: str | _models.StateEnum | None = None, decryption_rule_type:
     str | _models.DecryptionRuleTypeEnum | None = None, tags: List[_models.TagInfo]
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: etag
     description: etag info.
     types:

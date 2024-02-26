@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: nodes
+    isRequired: true
   - name: force
+    isRequired: true

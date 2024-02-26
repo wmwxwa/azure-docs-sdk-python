@@ -13,5 +13,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.powerbiembedded.models.Operation>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: value
+    isRequired: true

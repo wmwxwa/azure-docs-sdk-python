@@ -55,13 +55,19 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.purview.models.PublicNetworkAccess>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: identity
+    isRequired: true
   - name: location
+    isRequired: true
   - name: tags
+    isRequired: true
   - name: sku
+    isRequired: true
   - name: cloud_connectors
+    isRequired: true
   - name: managed_resource_group_name
+    isRequired: true
   - name: public_network_access
     defaultValue: Enabled
 variables:

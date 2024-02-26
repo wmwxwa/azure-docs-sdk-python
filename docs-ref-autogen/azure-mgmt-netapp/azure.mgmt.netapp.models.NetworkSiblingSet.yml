@@ -14,7 +14,7 @@ constructor:
     str | None = None, network_sibling_set_state_id: str | None = None, network_features:
     str | _models.NetworkFeatures = ''Basic'', nic_info_list: List[_models.NicInfo]
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: network_sibling_set_id
     description: 'Network Sibling Set ID for a group of volumes sharing
 

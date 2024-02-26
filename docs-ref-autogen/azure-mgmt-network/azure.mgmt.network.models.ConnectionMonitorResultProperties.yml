@@ -17,7 +17,7 @@ constructor:
     | None = None, test_groups: List[_models.ConnectionMonitorTestGroup] | None =
     None, outputs: List[_models.ConnectionMonitorOutput] | None = None, notes: str
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: source
     description: Describes the source of connection monitor.
     types:

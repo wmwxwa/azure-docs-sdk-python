@@ -9,7 +9,7 @@ summary: Details of check name availability request body.
 constructor:
   syntax: 'CheckNameAvailabilityParameters(*, name: str | None = None, type: str =
     ''Microsoft.Quantum/Workspaces'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
     description: Name for checking availability.
     types:

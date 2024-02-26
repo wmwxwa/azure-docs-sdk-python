@@ -16,7 +16,7 @@ constructor:
     configuration_settings: Dict[str, str] | None = None, configuration_protected_settings:
     Dict[str, str] | None = None, statuses: List[_models.ExtensionStatus] | None =
     None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: identity
     description: Identity of the Extension resource.
     types:

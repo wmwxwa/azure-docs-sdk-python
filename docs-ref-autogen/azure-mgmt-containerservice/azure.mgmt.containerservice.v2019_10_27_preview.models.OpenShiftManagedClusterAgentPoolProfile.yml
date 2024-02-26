@@ -14,7 +14,7 @@ constructor:
     str | _models.OpenShiftContainerServiceVMSize, subnet_cidr: str = ''10.0.0.0/24'',
     os_type: str | _models.OSType = ''Linux'', role: str | _models.OpenShiftAgentPoolProfileRole
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
     description: 'Unique name of the pool profile in the context of the subscription
       and resource

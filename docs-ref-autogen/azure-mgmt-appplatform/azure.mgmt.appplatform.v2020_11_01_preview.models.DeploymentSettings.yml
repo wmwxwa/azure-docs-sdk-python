@@ -11,7 +11,7 @@ constructor:
     str | None = None, net_core_main_entry_path: str | None = None, environment_variables:
     Dict[str, str] | None = None, runtime_version: str | _models.RuntimeVersion =
     ''Java_8'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cpu
     description: Required CPU, basic tier should be 1, standard tier should be in
       range (1, 4).

@@ -29,7 +29,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.automation.models.TokenType>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: access_token
+    isRequired: true
   - name: refresh_token
+    isRequired: true
   - name: token_type
+    isRequired: true

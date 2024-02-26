@@ -13,11 +13,12 @@ constructor:
   syntax: 'LatLon(lat: float = 0, lon: float = 0)'
   parameters:
   - name: _cls
+    isRequired: true
   - name: lat
     defaultValue: '0'
   - name: lon
     defaultValue: '0'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: lat
     description: The coordinate as latitude.
     types:
@@ -31,7 +32,7 @@ methods:
   name: count
   summary: Return number of occurrences of value.
   signature: count(value, /)
-  positionalOnlyArguments:
+  positionalOnlyParameters:
   - name: value
     isRequired: true
 - uid: azure.maps.search.models.LatLon.index
@@ -41,11 +42,11 @@ methods:
 
     Raises ValueError if the value is not present.'
   signature: index(value, start=0, stop=9223372036854775807, /)
-  positionalOnlyArguments:
+  positionalOnlyParameters:
   - name: value
     isRequired: true
   - name: start
-    isRequired: true
+    defaultValue: '0'
   - name: stop
     defaultValue: '9223372036854775807'
 attributes:

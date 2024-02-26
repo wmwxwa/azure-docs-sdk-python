@@ -22,7 +22,7 @@ constructor:
     | None = None, storage_account_settings: _models.StorageAccountConfiguration |
     None = None, cleanup_preference: str | _models.CleanupOptions = ''Always'', **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: primary_script_uri
     description: 'Uri for the script. This is the entry point for the external
 

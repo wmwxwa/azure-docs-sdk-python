@@ -17,8 +17,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.communication.administration.models.PstnConfiguration>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: pstn_configuration
+    isRequired: true
 methods:
 - uid: azure.communication.administration.NumberConfigurationResponse.as_dict
   name: as_dict

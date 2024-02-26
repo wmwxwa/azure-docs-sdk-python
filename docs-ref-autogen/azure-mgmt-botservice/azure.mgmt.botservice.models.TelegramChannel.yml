@@ -15,7 +15,7 @@ summary: 'Telegram channel definition.
 constructor:
   syntax: 'TelegramChannel(*, etag: str | None = None, location: str = ''global'',
     properties: _models.TelegramChannelProperties | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: etag
     description: Entity Tag of the resource.
     types:

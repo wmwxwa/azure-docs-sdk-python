@@ -27,10 +27,13 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: service_name
+    isRequired: true
   - name: partition_id
+    isRequired: true
   - name: unplaced_replica_details
+    isRequired: true
 methods:
 - uid: azure.servicefabric.models.UnplacedReplicaInformation.as_dict
   name: as_dict

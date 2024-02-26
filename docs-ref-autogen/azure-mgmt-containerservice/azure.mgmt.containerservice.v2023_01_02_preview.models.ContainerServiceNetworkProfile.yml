@@ -20,7 +20,7 @@ constructor:
     = None, ip_families: List[str | _models.IpFamily] | None = None, kube_proxy_config:
     _models.ContainerServiceNetworkProfileKubeProxyConfig | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: network_plugin
     description: 'Network plugin used for building the Kubernetes network. Known values
 

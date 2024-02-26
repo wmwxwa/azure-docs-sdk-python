@@ -38,7 +38,7 @@ constructor:
     _models.AgentPoolSecurityProfile | None = None, gpu_profile: _models.AgentPoolGPUProfile
     | None = None, artifact_streaming_profile: _models.AgentPoolArtifactStreamingProfile
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: count
     description: 'Number of agents (VMs) to host docker containers. Allowed values
       must be in the

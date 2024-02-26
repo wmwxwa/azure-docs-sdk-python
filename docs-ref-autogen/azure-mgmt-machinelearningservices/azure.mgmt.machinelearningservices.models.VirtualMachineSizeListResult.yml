@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.machinelearningservices.models.VirtualMachineSize>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: aml_compute
+    isRequired: true

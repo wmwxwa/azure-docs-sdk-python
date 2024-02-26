@@ -34,7 +34,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: credential
     description: 'The credentials with which to authenticate. This is optional if
       the
@@ -278,7 +278,7 @@ methods:
   name: list_tables
   summary: Queries tables under the given account.
   signature: 'list_tables(*, results_per_page: int | None = None, **kwargs) -> ItemPaged[TableItem]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: results_per_page
     description: Number of tables per page in returned ItemPaged
     types:
@@ -311,7 +311,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: results_per_page
     description: Number of tables per page in return ItemPaged
     types:
@@ -344,7 +344,7 @@ methods:
   signature: 'set_service_properties(*, analytics_logging: TableAnalyticsLogging |
     None = None, hour_metrics: TableMetrics | None = None, minute_metrics: TableMetrics
     | None = None, cors: List[TableCorsRule] | None = None, **kwargs) -> None'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: analytics_logging
     description: Properties for analytics
     types:

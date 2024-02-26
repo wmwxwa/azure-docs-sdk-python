@@ -59,7 +59,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.cosmos.partition_key.PartitionKey>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: indexing_policy
     description: The indexing policy to apply to the container.
     types:
@@ -172,7 +172,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.cosmos.partition_key.PartitionKey>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: indexing_policy
     description: The indexing policy to apply to the container.
     types:
@@ -256,7 +256,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -300,7 +300,7 @@ methods:
     - <xref:str>
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
     - <xref:azure.cosmos.aio.ContainerProxy>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -346,7 +346,7 @@ methods:
     types:
     - <xref:typing.Union>[<xref:str>, <xref:typing.Dict>[<xref:str>, <xref:typing.Any>],
       <xref:azure.cosmos.aio.UserProxy>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -395,7 +395,7 @@ methods:
 
     If no ThroughputProperties already exists for the database, an exception is raised.'
   signature: 'async get_throughput(**kwargs: Any) -> ThroughputProperties'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -431,7 +431,7 @@ methods:
   name: list_containers
   summary: List the containers in the database.
   signature: list_containers(**kwargs) -> AsyncItemPaged[Dict[str, Any]]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: max_item_count
     description: Max number of items to be returned in the enumeration operation.
     types:
@@ -468,7 +468,7 @@ methods:
   name: list_users
   summary: List all the users in the container.
   signature: 'list_users(**kwargs: Any) -> AsyncItemPaged[Dict[str, Any]]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: max_item_count
     description: Max number of users to be returned in the enumeration operation.
     types:
@@ -486,7 +486,7 @@ methods:
   name: query_containers
   summary: List the properties for containers in the current database.
   signature: 'query_containers(**kwargs: Any) -> AsyncItemPaged[Dict[str, Any]]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: query
     description: The Azure Cosmos DB SQL query to execute.
     types:
@@ -529,7 +529,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:str>, <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: parameters
     description: 'Optional array of parameters to the query.
 
@@ -555,7 +555,7 @@ methods:
   name: read
   summary: Read the database properties.
   signature: 'async read(**kwargs: Any) -> Dict[str, Any]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: session_token
     description: Token for use with Session consistency.
     types:
@@ -600,7 +600,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.cosmos.partition_key.PartitionKey>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: indexing_policy
     description: The indexing policy to apply to the container.
     types:
@@ -688,7 +688,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:int>, <xref:azure.cosmos.ThroughputProperties>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -722,7 +722,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:
@@ -750,7 +750,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: response_hook
     description: A callable invoked with the response metadata.
     types:

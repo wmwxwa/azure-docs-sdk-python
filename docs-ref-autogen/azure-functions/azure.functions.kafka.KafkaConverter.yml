@@ -27,7 +27,7 @@ methods:
   parameters:
   - name: data
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: trigger_metadata
     isRequired: true
 - uid: azure.functions.kafka.KafkaConverter.decode_multiple_events
@@ -52,7 +52,7 @@ methods:
   parameters:
   - name: obj
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: expected_type
     isRequired: true
 - uid: azure.functions.kafka.KafkaConverter.has_implicit_output

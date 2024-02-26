@@ -20,7 +20,7 @@ constructor:
     List[str] | None = None, circuit: _models.Circuit | None = None, vcenter_password:
     str | None = None, nsxt_password: str | None = None, secondary_circuit: _models.Circuit
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: management_cluster
     description: The default cluster used for management.
     types:

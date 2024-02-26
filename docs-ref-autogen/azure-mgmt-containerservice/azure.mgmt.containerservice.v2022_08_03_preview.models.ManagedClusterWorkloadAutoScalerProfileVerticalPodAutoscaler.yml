@@ -13,7 +13,7 @@ constructor:
   syntax: 'ManagedClusterWorkloadAutoScalerProfileVerticalPodAutoscaler(*, enabled:
     bool = False, controlled_values: str | _models.ControlledValues = ''RequestsAndLimits'',
     update_mode: str | _models.UpdateMode = ''Off'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: enabled
     description: Whether to enable VPA. Default value is false. Required.
     types:

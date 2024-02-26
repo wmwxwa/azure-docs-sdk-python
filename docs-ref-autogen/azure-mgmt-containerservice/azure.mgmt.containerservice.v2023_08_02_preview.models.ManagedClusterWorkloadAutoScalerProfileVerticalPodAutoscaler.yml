@@ -13,7 +13,7 @@ constructor:
   syntax: 'ManagedClusterWorkloadAutoScalerProfileVerticalPodAutoscaler(*, enabled:
     bool = False, addon_autoscaling: str | _models.AddonAutoscaling = ''Disabled'',
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: enabled
     description: Whether to enable VPA add-on in cluster. Default value is false.
       Required.

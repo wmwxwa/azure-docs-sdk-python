@@ -14,5 +14,6 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: enabled
+    isRequired: true

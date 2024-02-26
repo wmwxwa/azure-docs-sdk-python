@@ -57,7 +57,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.operationsmanagement.models.Solution>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -106,7 +106,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -160,7 +160,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.operationsmanagement.models.SolutionPatch>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -209,7 +209,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -237,7 +237,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -256,7 +256,7 @@ methods:
     Retrieves the solution list. It will retrieve both first party and third party
     solutions.'
   signature: async list_by_subscription(**kwargs) -> SolutionPropertiesList
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

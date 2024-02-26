@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: event_name
+    isRequired: true
   - name: json_payload
+    isRequired: true

@@ -11,7 +11,7 @@ summary: 'Describes a server to forward the DNS queries to.
   All required parameters must be populated in order to send to Azure.'
 constructor:
   syntax: 'TargetDnsServer(*, ip_address: str, port: int = 53, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: ip_address
     description: DNS server IP address. Required.
     types:

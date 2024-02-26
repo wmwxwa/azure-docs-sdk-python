@@ -22,6 +22,8 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: number_of_documents
+    isRequired: true
   - name: status
+    isRequired: true

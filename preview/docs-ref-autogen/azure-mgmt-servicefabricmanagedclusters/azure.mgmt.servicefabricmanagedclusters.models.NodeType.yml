@@ -40,7 +40,7 @@ constructor:
     | None = None, service_artifact_reference_id: str | None = None, dscp_configuration_id:
     str | None = None, additional_network_interface_configurations: List[_models.AdditionalNetworkInterfaceConfiguration]
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Azure resource tags.
     types:

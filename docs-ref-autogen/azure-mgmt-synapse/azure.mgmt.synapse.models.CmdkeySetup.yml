@@ -33,7 +33,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.synapse.models.SecretBase>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: target_name
+    isRequired: true
   - name: user_name
+    isRequired: true
   - name: password
+    isRequired: true

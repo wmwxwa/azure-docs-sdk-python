@@ -10,7 +10,7 @@ constructor:
   syntax: 'Input(*, type: Literal[''uri_folder''] = ''uri_folder'', path: str | None
     = None, mode: str | None = None, optional: bool | None = None, description: str
     | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: type
     description: 'The type of the data input. Accepted values are
 
@@ -74,6 +74,7 @@ constructor:
     types:
     - <xref:azure.ai.ml.entities.IntellectualProperty>
   - name: enum
+    isRequired: true
 examples:
 - "Creating a CommandJob with two inputs.<!--[!code-python[Main](les\\ml_samples_misc.py\
   \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\

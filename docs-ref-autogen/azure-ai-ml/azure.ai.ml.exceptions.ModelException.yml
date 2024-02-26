@@ -33,7 +33,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.ai.ml.exceptions.ErrorCategory>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: target
     defaultValue: Unknown
   - name: error_category

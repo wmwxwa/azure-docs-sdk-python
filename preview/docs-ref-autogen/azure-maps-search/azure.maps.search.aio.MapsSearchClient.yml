@@ -16,7 +16,7 @@ constructor:
     types:
     - <xref:azure.core.credentials.AsyncTokenCredential>
     - <xref:azure.core.credentials.AzureKeyCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: base_url
     description: 'Supported Maps Services or Language resource base_url
 
@@ -61,7 +61,7 @@ methods:
     API up to **100** queries.'
   signature: 'async begin_fuzzy_search_batch(search_queries: List[str], **kwargs:
     Any) -> AsyncLROPoller[SearchAddressBatchResult]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: search_queries
     description: 'The list of search fuzzy queries/requests to process.
 
@@ -100,7 +100,7 @@ methods:
     API up to **100** queries.'
   signature: 'async begin_reverse_search_address_batch(search_queries: List[str],
     **kwargs: Any) -> AsyncLROPoller[SearchAddressBatchResult]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: search_queries
     description: 'The list of search fuzzy queries/requests to process.
 
@@ -137,7 +137,7 @@ methods:
     API up to **100** queries.'
   signature: 'async begin_search_address_batch(search_queries: List[str], **kwargs:
     Any) -> AsyncLROPoller[SearchAddressBatchResult]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: search_queries
     description: 'The list of search fuzzy queries/requests to process.
 
@@ -193,7 +193,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: is_type_ahead
     description: 'Boolean. If the typeahead flag is set, the query will be interpreted
       as a
@@ -438,7 +438,7 @@ methods:
 
     to provide more meaningful results through other Search Service APIs,'
   signature: 'async get_point_of_interest_categories(**kwargs: Any) -> List[PointOfInterestCategory]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: language
     description: 'Language in which search results should be returned. Should be one
       of
@@ -487,7 +487,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: include_speed_limit
     description: Boolean. To enable return of the posted speed limit.
     types:
@@ -608,7 +608,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.maps.search.models.LatLon>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: 'Maximum number of responses that will be returned. Default: 10,
       minimum: 1 and
@@ -709,7 +709,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: is_type_ahead
     description: 'Boolean. If the typeahead flag is set, the query will be interpreted
       as a
@@ -834,7 +834,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.maps.search.models.SearchAlongRouteOptions>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: 'Maximum number of responses that will be returned. Default value
       is 10. Max value
@@ -959,7 +959,7 @@ methods:
     types:
     - <xref:obejct>
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: 'Maximum number of responses that will be returned. Default: 10,
       minimum: 1 and
@@ -1074,7 +1074,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.maps.search.models.LatLon>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: top
     description: 'Maximum number of responses that will be returned. Default: 10,
       minimum: 1 and
@@ -1177,7 +1177,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: is_type_ahead
     description: 'Boolean. If the typeahead flag is set, the query will be interpreted
       as a
@@ -1294,7 +1294,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: is_type_ahead
     description: 'Boolean. If the typeahead flag is set, the query will be interpreted
       as a
@@ -1421,7 +1421,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.maps.search._models.StructuredAddress>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: skip
     description: 'Starting offset of the returned results within the full result set.
 

@@ -20,7 +20,7 @@ constructor:
     isRequired: true
     types:
     - <xref:string>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: input_data
     description: Input data used by the monitor.
     types:

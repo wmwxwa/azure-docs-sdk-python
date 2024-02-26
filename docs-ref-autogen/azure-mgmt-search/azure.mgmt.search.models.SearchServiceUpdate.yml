@@ -18,7 +18,7 @@ constructor:
     _models.EncryptionWithCmk | None = None, disable_local_auth: bool | None = None,
     auth_options: _models.DataPlaneAuthOptions | None = None, semantic_search: str
     | _models.SearchSemanticSearch | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: sku
     description: 'The SKU of the Search Service, which determines price tier and capacity
       limits.

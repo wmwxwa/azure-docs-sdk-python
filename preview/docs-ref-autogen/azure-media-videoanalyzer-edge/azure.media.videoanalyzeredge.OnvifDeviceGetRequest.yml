@@ -15,7 +15,7 @@ summary: 'Retrieves properties and media profiles of an ONVIF device.
 constructor:
   syntax: 'OnvifDeviceGetRequest(*, endpoint: EndpointBase, api_version: str | None
     = ''1.1'', **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'Video Analyzer API version. The only acceptable values to pass in
       are

@@ -22,7 +22,7 @@ constructor:
     bool = False, auto_create_topic_with_first_subscription: bool = True, auto_delete_topic_with_last_subscription:
     bool = True, data_residency_boundary: str | _models.DataResidencyBoundary | None
     = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: Location of the resource. Required.
     types:

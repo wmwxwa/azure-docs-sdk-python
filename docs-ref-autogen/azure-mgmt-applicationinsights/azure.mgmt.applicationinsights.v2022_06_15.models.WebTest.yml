@@ -21,7 +21,7 @@ constructor:
     | None = None, configuration: _models.WebTestPropertiesConfiguration | None =
     None, request: _models.WebTestPropertiesRequest | None = None, validation_rules:
     _models.WebTestPropertiesValidationRules | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: Resource location. Required.
     types:

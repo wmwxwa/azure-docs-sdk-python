@@ -16,7 +16,7 @@ constructor:
     | None = None, subnet: _models.SubResource | None = None, private_ip_address_version:
     str | _models.PrivateIPAddressVersion = ''IPv4'', public_ip_address_configuration:
     _models.IpConfigurationPublicIPAddressConfiguration | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
     description: Name of the network interface. Required.
     types:

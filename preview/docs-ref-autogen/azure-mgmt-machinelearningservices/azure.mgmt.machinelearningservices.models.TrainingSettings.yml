@@ -12,7 +12,7 @@ constructor:
     bool = True, enable_vote_ensemble: bool = True, ensemble_model_download_timeout:
     timedelta = ''PT5M'', stack_ensemble_settings: _models.StackEnsembleSettings |
     None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: enable_dnn_training
     description: Enable recommendation of DNN models.
     types:

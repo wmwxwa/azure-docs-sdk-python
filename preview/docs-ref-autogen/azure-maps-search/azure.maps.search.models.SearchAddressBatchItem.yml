@@ -15,7 +15,7 @@ constructor:
   parameters:
   - name: response
     defaultValue: None
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: status_code
     description: HTTP request status code.
     types:

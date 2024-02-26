@@ -9,7 +9,7 @@ summary: An Activity Log Alert rule object for the body of patch operations.
 constructor:
   syntax: 'AlertRulePatchObject(*, tags: Dict[str, str] | None = None, enabled: bool
     = True, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: The resource tags.
     types:

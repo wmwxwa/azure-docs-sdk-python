@@ -10,7 +10,7 @@ constructor:
   syntax: 'RecurrenceTrigger(*, frequency: str, interval: int, schedule: RecurrencePattern
     | None = None, start_time: str | datetime | None = None, end_time: str | datetime
     | None = None, time_zone: str | TimeZone = TimeZone.UTC)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: start_time
     description: Specifies the start time of the schedule in ISO 8601 format.
     types:

@@ -37,7 +37,7 @@ constructor:
     types:
     - <xref:azure.core.credentials.AzureKeyCredential>
     - <xref:azure.core.credentials_async.AsyncTokenCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: default_language
     description: Sets the default language to use for all operations.
     types:
@@ -67,7 +67,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.ai.language.questionanswering.models.AnswersOptions>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: project_name
     description: The name of the knowledge base project to use.
     types:
@@ -166,7 +166,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.ai.language.questionanswering.models.AnswersFromTextOptions>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: question
     description: User question to query against the given text records.
     types:
@@ -248,7 +248,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.core.rest.HttpRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: stream
     description: Whether the response payload will be streamed. Defaults to False.
     types:

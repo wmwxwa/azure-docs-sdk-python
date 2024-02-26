@@ -32,7 +32,7 @@ constructor:
     defaultValue: 'False'
     types:
     - <xref:bool>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: add
     description: Append data to a file in the directory.
     types:

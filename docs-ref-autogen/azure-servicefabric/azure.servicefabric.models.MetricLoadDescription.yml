@@ -31,10 +31,13 @@ constructor:
     isRequired: true
     types:
     - <xref:long>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: metric_name
+    isRequired: true
   - name: current_load
+    isRequired: true
   - name: predicted_load
+    isRequired: true
 methods:
 - uid: azure.servicefabric.models.MetricLoadDescription.as_dict
   name: as_dict

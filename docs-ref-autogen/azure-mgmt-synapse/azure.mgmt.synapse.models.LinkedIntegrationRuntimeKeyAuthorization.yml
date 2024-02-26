@@ -24,5 +24,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.synapse.models.SecureString>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: key
+    isRequired: true

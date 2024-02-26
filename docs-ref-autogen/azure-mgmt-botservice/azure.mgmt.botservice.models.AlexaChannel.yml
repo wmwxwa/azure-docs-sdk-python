@@ -15,7 +15,7 @@ summary: 'Alexa channel definition.
 constructor:
   syntax: 'AlexaChannel(*, etag: str | None = None, location: str = ''global'', properties:
     _models.AlexaChannelProperties | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: etag
     description: Entity Tag of the resource.
     types:

@@ -17,8 +17,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.scheduler.models.JobProperties>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: properties
+    isRequired: true
 variables:
 - description: Gets the job resource identifier.
   name: id

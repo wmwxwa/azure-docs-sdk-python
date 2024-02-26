@@ -70,7 +70,7 @@ methods:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: if_modified_since
     description: 'A DateTime value. Azure expects the date value passed in to be UTC.
 
@@ -173,7 +173,7 @@ methods:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: if_modified_since
     description: 'A DateTime value. Azure expects the date value passed in to be UTC.
 
@@ -237,7 +237,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: if_modified_since
     description: 'A DateTime value. Azure expects the date value passed in to be UTC.
 
@@ -310,7 +310,7 @@ methods:
     to immediately acquire the lease for the container or blob as soon as the release
     is complete.'
   signature: 'release(**kwargs: Any) -> None'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: if_modified_since
     description: 'A DateTime value. Azure expects the date value passed in to be UTC.
 
@@ -385,7 +385,7 @@ methods:
 
     renew a lease, the lease duration clock resets.'
   signature: 'renew(**kwargs: Any) -> None'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: if_modified_since
     description: 'A DateTime value. Azure expects the date value passed in to be UTC.
 

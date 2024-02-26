@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.ErrorDetail>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: error
+    isRequired: true

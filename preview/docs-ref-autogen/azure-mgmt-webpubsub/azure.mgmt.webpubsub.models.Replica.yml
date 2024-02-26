@@ -16,7 +16,7 @@ constructor:
   syntax: 'Replica(*, location: str, tags: Dict[str, str] | None = None, sku: _models.ResourceSku
     | None = None, region_endpoint_enabled: str = ''Enabled'', resource_stopped: str
     = ''false'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

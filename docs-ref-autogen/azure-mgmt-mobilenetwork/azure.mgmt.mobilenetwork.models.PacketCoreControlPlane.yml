@@ -23,7 +23,7 @@ constructor:
     | None = None, event_hub: _models.EventHubConfiguration | None = None, signaling:
     _models.SignalingConfiguration | None = None, interop_settings: MutableMapping[str,
     Any] | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

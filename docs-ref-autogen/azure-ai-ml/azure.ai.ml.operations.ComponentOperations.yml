@@ -102,7 +102,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: skip_validation
     description: whether to skip validation before creating/updating the component,
       defaults to False
@@ -175,7 +175,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: version
     description: Version of the component.
     types:
@@ -240,7 +240,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Optional>[<xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: list_view_type
     description: 'View type for including/excluding (for example) archived components.
 

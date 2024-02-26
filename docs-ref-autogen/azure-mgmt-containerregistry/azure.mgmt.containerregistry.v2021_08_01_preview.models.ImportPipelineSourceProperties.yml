@@ -12,7 +12,7 @@ summary: 'The properties of the import pipeline source.
 constructor:
   syntax: 'ImportPipelineSourceProperties(*, key_vault_uri: str, type: str | _models.PipelineSourceType
     = ''AzureStorageBlobContainer'', uri: str | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: type
     description: The type of source for the import pipeline. "AzureStorageBlobContainer"
     defaultValue: AzureStorageBlobContainer

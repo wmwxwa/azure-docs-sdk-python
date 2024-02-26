@@ -9,7 +9,7 @@ summary: The logging properties of the connected registry.
 constructor:
   syntax: 'LoggingProperties(*, log_level: str | _models.LogLevel = ''Information'',
     audit_log_status: str | _models.AuditLogStatus = ''Disabled'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: log_level
     description: 'The verbosity of logs persisted on the connected registry. Known
       values

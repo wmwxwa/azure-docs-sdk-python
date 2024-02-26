@@ -12,7 +12,7 @@ summary: 'The action to be executed by a job step.
 constructor:
   syntax: 'JobStepAction(*, value: str, type: str | _models.JobStepActionType = ''TSql'',
     source: str | _models.JobStepActionSource = ''Inline'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: type
     description: Type of action being executed by the job step. "TSql"
     defaultValue: TSql

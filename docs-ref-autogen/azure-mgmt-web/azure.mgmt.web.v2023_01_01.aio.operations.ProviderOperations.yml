@@ -28,7 +28,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.web.v2023_01_01.models.ProviderOsTypeSelected>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -59,7 +59,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.web.v2023_01_01.models.ProviderOsTypeSelected>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -91,7 +91,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.web.v2023_01_01.models.ProviderStackOsType>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -126,7 +126,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.web.v2023_01_01.models.ProviderStackOsType>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -156,7 +156,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.web.v2023_01_01.models.ProviderStackOsType>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -191,7 +191,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.web.v2023_01_01.models.ProviderStackOsType>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -216,7 +216,7 @@ methods:
 
     exposes resource metric definitions.'
   signature: 'list_operations(**kwargs: Any) -> AsyncIterable[CsmOperationDescription]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

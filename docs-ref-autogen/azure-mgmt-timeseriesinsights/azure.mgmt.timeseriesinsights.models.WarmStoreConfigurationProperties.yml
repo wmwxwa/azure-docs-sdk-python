@@ -20,5 +20,6 @@ constructor:
     isRequired: true
     types:
     - <xref:datetime.timedelta>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: data_retention
+    isRequired: true

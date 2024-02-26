@@ -184,7 +184,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: skip_token
     types:
     - <xref:str>
@@ -208,7 +208,7 @@ methods:
   name: list_collections
   summary: List the collections in the account.
   signature: 'list_collections(**kwargs: Any) -> Iterable[Any]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: skip_token
     types:
     - <xref:str>

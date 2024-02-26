@@ -15,7 +15,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.core.credentials.TokenCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: endpoint
     description: Service URL. Required. Default value is "".
     types:
@@ -214,7 +214,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.core.rest.HttpRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: stream
     description: Whether the response payload will be streamed. Defaults to False.
     types:

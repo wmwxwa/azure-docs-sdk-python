@@ -20,7 +20,7 @@ constructor:
     | None = None, retry_enabled: bool | None = None, locations: List[_models.WebTestGeolocation]
     | None = None, configuration: _models.WebTestPropertiesConfiguration | None =
     None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: Resource location. Required.
     types:

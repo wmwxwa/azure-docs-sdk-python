@@ -45,10 +45,16 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.devtestlabs.models.ReportingCycleType>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: status
+    isRequired: true
   - name: target
+    isRequired: true
   - name: cost_thresholds
+    isRequired: true
   - name: cycle_start_date_time
+    isRequired: true
   - name: cycle_end_date_time
+    isRequired: true
   - name: cycle_type
+    isRequired: true

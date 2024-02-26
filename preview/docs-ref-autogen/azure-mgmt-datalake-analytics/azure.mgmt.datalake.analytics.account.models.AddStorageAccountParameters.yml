@@ -12,7 +12,7 @@ summary: 'The parameters used to add a new Azure Storage account.
 constructor:
   syntax: 'AddStorageAccountParameters(*, access_key: str, suffix: str = ''azuredatalakestore.net'',
     **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: access_key
     description: 'The access key associated with this Azure Storage account that will
       be

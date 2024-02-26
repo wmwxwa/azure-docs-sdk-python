@@ -20,7 +20,7 @@ constructor:
     | None = None, disable_local_auth: bool | None = None, alternate_name: str | None
     = None, public_network_access: str | _models.PublicNetworkAccess = ''Enabled'',
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: The Geo-location where the resource lives. Required.
     types:

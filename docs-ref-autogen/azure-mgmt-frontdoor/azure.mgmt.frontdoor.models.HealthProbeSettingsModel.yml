@@ -15,7 +15,7 @@ constructor:
     interval_in_seconds: int | None = None, health_probe_method: str | _models.FrontDoorHealthProbeMethod
     = ''HEAD'', enabled_state: str | _models.HealthProbeEnabled | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: id
     description: Resource ID.
     types:

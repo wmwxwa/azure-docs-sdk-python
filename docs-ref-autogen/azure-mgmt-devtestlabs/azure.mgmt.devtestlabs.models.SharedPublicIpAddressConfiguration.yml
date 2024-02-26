@@ -16,5 +16,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.devtestlabs.models.InboundNatRule>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: inbound_nat_rules
+    isRequired: true

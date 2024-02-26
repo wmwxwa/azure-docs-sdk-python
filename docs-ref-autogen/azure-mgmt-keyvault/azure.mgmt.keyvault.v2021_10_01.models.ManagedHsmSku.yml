@@ -12,7 +12,7 @@ summary: 'SKU details.
 constructor:
   syntax: 'ManagedHsmSku(*, family: str | _models.ManagedHsmSkuFamily = ''B'', name:
     str | _models.ManagedHsmSkuName, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: family
     description: SKU Family of the managed HSM Pool. "B"
     defaultValue: B

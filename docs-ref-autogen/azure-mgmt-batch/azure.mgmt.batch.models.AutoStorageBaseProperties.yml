@@ -13,7 +13,7 @@ constructor:
   syntax: 'AutoStorageBaseProperties(*, storage_account_id: str, authentication_mode:
     str | _models.AutoStorageAuthenticationMode = ''StorageKeys'', node_identity_reference:
     _models.ComputeNodeIdentityReference | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: storage_account_id
     description: 'The resource ID of the storage account to be used for auto-storage
 

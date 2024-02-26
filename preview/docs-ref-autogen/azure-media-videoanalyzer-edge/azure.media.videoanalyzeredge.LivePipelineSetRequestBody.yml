@@ -18,7 +18,7 @@ constructor:
   syntax: 'LivePipelineSetRequestBody(*, name: str, api_version: str | None = ''1.1'',
     system_data: SystemData | None = None, properties: LivePipelineProperties | None
     = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'Video Analyzer API version. The only acceptable values to pass in
       are

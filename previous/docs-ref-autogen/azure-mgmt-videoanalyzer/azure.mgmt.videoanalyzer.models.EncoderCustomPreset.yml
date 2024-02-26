@@ -30,6 +30,8 @@ constructor:
     isRequired: true
     types:
     - <xref:video_analyzer.models.VideoEncoderBase>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: audio_encoder
+    isRequired: true
   - name: video_encoder
+    isRequired: true

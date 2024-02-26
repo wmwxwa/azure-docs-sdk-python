@@ -14,5 +14,6 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: storage_size_gb
+    isRequired: true

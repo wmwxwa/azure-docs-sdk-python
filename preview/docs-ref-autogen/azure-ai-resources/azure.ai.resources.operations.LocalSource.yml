@@ -14,5 +14,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.ai.ml.input>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: input_data
+    isRequired: true

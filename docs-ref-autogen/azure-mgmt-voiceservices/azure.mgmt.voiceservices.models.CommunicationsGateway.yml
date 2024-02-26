@@ -22,7 +22,7 @@ constructor:
     | None = None, teams_voicemail_pilot_number: str | None = None, on_prem_mcp_enabled:
     bool = False, emergency_dial_strings: List[str] = [''911'', ''933''], **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

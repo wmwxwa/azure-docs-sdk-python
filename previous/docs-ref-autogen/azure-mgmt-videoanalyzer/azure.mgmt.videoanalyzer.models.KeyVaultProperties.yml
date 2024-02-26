@@ -26,8 +26,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: key_identifier
+    isRequired: true
 variables:
 - description: 'The current key used to encrypt Video Analyzer account, including
 

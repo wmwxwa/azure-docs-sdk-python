@@ -61,7 +61,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.sql.models.ServerConnectionPolicy>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -96,7 +96,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.sql.models.ConnectionPolicyName>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

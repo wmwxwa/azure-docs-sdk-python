@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: fields
+    isRequired: true
   - name: is_unique
+    isRequired: true

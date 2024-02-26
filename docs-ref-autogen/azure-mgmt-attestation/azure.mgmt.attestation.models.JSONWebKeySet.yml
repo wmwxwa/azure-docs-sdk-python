@@ -22,5 +22,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.attestation.models.JSONWebKey>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: keys
+    isRequired: true

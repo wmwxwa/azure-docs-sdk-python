@@ -20,7 +20,7 @@ methods:
   parameters:
   - name: data
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: trigger_metadata
     isRequired: true
 - uid: azure.functions.servicebus.ServiceBusMessageInConverter.has_implicit_output

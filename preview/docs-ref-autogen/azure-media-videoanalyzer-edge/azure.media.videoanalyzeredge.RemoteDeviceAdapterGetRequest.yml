@@ -15,7 +15,7 @@ summary: 'Retrieves an existing remote device adapter.
 constructor:
   syntax: 'RemoteDeviceAdapterGetRequest(*, name: str, api_version: str | None = ''1.1'',
     **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'Video Analyzer API version. The only acceptable values to pass in
       are

@@ -35,7 +35,7 @@ constructor:
     str | None = None, volume_spec_name: str | None = None, placement_rules: List[_models.PlacementKeyValuePairs]
     | None = None, enable_subvolumes: str | _models.EnableSubvolumes = ''Disabled'',
     is_large_volume: bool = False, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

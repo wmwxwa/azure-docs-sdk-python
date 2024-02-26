@@ -22,7 +22,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.resourcehealth.v2022_10_01.models.IssueNameParameter>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -37,7 +37,7 @@ methods:
   name: list
   summary: Lists Azure services' emerging issues.
   signature: 'list(**kwargs: Any) -> Iterable[EmergingIssuesGetResult]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

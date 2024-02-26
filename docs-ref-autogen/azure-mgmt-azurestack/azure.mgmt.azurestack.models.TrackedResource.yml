@@ -33,10 +33,13 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
+    isRequired: true
   - name: tags
+    isRequired: true
   - name: etag
+    isRequired: true
 variables:
 - description: ID of the resource.
   name: id

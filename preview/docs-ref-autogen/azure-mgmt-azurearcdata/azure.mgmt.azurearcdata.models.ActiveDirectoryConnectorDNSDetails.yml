@@ -13,7 +13,7 @@ constructor:
   syntax: 'ActiveDirectoryConnectorDNSDetails(*, nameserver_ip_addresses: List[str],
     domain_name: str | None = None, replicas: int = 1, prefer_k8_s_dns_for_ptr_lookups:
     bool = True, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: domain_name
     description: 'DNS domain name for which DNS lookups should be forwarded to the
       Active

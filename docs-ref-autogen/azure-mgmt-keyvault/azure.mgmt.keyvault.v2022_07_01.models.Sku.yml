@@ -12,7 +12,7 @@ summary: 'SKU details.
 constructor:
   syntax: 'Sku(*, family: str | _models.SkuFamily = ''A'', name: str | _models.SkuName,
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: family
     description: SKU family name. "A"
     defaultValue: A

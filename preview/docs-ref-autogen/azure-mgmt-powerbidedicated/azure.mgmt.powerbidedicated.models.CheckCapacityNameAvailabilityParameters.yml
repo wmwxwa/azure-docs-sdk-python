@@ -9,7 +9,7 @@ summary: Details of capacity name request body.
 constructor:
   syntax: 'CheckCapacityNameAvailabilityParameters(*, name: str | None = None, type:
     str = ''Microsoft.PowerBIDedicated/capacities'', **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
     description: Name for checking availability.
     types:

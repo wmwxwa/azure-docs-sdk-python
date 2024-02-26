@@ -54,7 +54,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.customproviders.models.CustomRPManifest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -99,7 +99,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -144,7 +144,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -165,7 +165,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -181,7 +181,7 @@ methods:
   name: list_by_subscription
   summary: Gets all the custom resource providers within a subscription.
   signature: list_by_subscription(**kwargs) -> AsyncIterable[ListByCustomRPManifest]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -217,7 +217,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.customproviders.models.ResourceProvidersUpdate>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

@@ -17,8 +17,9 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.batch.models.DisableComputeNodeSchedulingOption>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: node_disable_scheduling_option
+    isRequired: true
 methods:
 - uid: azure.batch.models.NodeDisableSchedulingParameter.as_dict
   name: as_dict

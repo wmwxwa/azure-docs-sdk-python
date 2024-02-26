@@ -32,7 +32,10 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.deploymentmanager.models.RestResponse>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true
   - name: request
+    isRequired: true
   - name: response
+    isRequired: true

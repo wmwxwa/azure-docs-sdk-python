@@ -37,7 +37,7 @@ methods:
     types:
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are:
 
@@ -178,7 +178,7 @@ methods:
     datetime | None = None, min_last_modified_date_time: datetime | None = None, max_last_modified_date_time:
     datetime | None = None, skip_token: str | None = None, **kwargs: Any) -> AsyncIterable[MutableMapping[str,
     Any]]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: parent_type
     description: 'Type of the parent it belongs to.
 
@@ -299,7 +299,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: parent_type
     description: 'Type of the parent it belongs to.
 

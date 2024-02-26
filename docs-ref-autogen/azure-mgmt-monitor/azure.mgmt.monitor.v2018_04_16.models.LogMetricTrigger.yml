@@ -11,7 +11,7 @@ constructor:
     = ''GreaterThanOrEqual'', threshold: float | None = None, metric_trigger_type:
     str | _models.MetricTriggerType = ''Consecutive'', metric_column: str | None =
     None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: threshold_operator
     description: 'Evaluation operation for Metric -''GreaterThan'' or ''LessThan''
       or

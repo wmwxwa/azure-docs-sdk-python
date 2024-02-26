@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:connected_kubernetes_client.models.ErrorDetail>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: error
+    isRequired: true

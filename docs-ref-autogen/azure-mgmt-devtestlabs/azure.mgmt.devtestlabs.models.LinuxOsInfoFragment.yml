@@ -20,5 +20,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.devtestlabs.models.LinuxOsState>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: linux_os_state
+    isRequired: true

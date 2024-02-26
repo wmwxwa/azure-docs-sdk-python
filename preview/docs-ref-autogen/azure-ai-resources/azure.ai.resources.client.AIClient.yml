@@ -95,7 +95,7 @@ methods:
     isRequired: true
     types:
     - <xref:<xref:azure.ai.resources.client.str, optional>>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: output_index_name
     isRequired: true
   - name: vector_store
@@ -137,7 +137,7 @@ methods:
   parameters:
   - name: credential
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: path
     isRequired: true
   - name: file_name

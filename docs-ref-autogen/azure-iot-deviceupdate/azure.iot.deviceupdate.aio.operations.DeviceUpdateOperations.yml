@@ -35,7 +35,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: continuation_token
     description: A continuation token to restart a poller from a saved state.
     types:
@@ -83,7 +83,7 @@ methods:
     types:
     - <xref:list>[<xref:JSON>]
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -187,7 +187,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: if_none_match
     description: 'Defines the If-None-Match condition. The operation will be performed
 
@@ -239,7 +239,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: if_none_match
     description: 'Defines the If-None-Match condition. The operation will be performed
 
@@ -305,7 +305,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: if_none_match
     description: 'Defines the If-None-Match condition. The operation will be performed
 
@@ -425,7 +425,7 @@ methods:
     auto-deleted. Delete operations are not returned by this API version.'
   signature: 'list_operation_statuses(*, filter: str | None = None, top: int | None
     = None, **kwargs: Any) -> AsyncIterable[MutableMapping[str, Any]]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: filter
     description: 'Optional to filter operations by status property. Only one specific
       filter is
@@ -505,7 +505,7 @@ methods:
     IoT Hub.
   signature: 'list_updates(*, search: str | None = None, filter: str | None = None,
     **kwargs: Any) -> AsyncIterable[MutableMapping[str, Any]]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: search
     description: Request updates matching a free-text search expression. Default value
       is None.
@@ -583,7 +583,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: filter
     description: Optional to filter updates by isDeployable property. Default value
       is None.

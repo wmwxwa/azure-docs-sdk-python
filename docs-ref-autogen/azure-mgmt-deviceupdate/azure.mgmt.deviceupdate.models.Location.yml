@@ -9,7 +9,7 @@ summary: Location.
 constructor:
   syntax: 'Location(*, name: str | None = None, role: str | _models.Role = ''Primary'',
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
     types:
     - <xref:str>

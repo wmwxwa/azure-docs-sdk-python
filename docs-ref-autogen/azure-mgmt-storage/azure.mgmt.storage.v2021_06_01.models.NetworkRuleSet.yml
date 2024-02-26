@@ -14,7 +14,7 @@ constructor:
     bypass: str | _models.Bypass = ''AzureServices'', resource_access_rules: List[_models.ResourceAccessRule]
     | None = None, virtual_network_rules: List[_models.VirtualNetworkRule] | None
     = None, ip_rules: List[_models.IPRule] | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: bypass
     description: 'Specifies whether traffic is bypassed for Logging/Metrics/AzureServices.
 

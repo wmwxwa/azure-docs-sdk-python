@@ -12,7 +12,7 @@ constructor:
     str = ''10.244.0.0/16'', service_cidr: str = ''10.0.0.0/16'', dns_service_ip:
     str = ''10.0.0.10'', docker_bridge_cidr: str = ''172.17.0.1/16'', load_balancer_sku:
     str | _models.LoadBalancerSku | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: network_plugin
     description: 'Network plugin used for building Kubernetes network. Known values
       are:

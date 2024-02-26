@@ -34,7 +34,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2021_04_01.models.RequestRateByIntervalInput>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -98,7 +98,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2021_04_01.models.ThrottledRequestsInput>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

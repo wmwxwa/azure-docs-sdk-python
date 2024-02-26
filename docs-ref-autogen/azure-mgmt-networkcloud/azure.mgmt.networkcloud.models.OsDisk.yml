@@ -13,7 +13,7 @@ constructor:
   syntax: 'OsDisk(*, disk_size_gb: int, create_option: str | _models.OsDiskCreateOption
     = ''Ephemeral'', delete_option: str | _models.OsDiskDeleteOption = ''Delete'',
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: create_option
     description: The strategy for creating the OS disk. "Ephemeral"
     defaultValue: Ephemeral

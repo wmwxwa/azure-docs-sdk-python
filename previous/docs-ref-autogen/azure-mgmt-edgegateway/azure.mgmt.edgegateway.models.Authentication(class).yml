@@ -14,5 +14,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.edgegateway.models.SymmetricKey>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: symmetric_key
+    isRequired: true

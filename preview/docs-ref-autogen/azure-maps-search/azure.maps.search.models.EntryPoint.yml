@@ -13,7 +13,7 @@ constructor:
     defaultValue: None
   - name: position
     defaultValue: None
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: entry_point_type
     description: The type of entry point.
     types:

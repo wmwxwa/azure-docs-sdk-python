@@ -9,7 +9,7 @@ summary: Implements a basic httpx HTTP sender
 constructor:
   syntax: 'HttpXTransport(*, client: Client | None = None, client_owner: bool = True,
     use_env_settings: bool = True, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: client
     description: HTTPX client to use instead of the default one
     types:
@@ -48,7 +48,7 @@ methods:
     types:
     - <xref:azure.core.rest.HTTPRequest>
     - <xref:LegacyHTTPRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: stream
     description: Whether to stream the response. Defaults to False.
     types:

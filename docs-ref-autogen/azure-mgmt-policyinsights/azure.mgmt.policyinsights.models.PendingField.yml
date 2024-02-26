@@ -28,6 +28,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: field
+    isRequired: true
   - name: values
+    isRequired: true

@@ -16,7 +16,7 @@ constructor:
     = ''Linux'', max_count: int | None = None, min_count: int | None = None, enable_auto_scaling:
     bool | None = None, type: str | _models.AgentPoolType | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
     description: 'Unique name of the agent pool profile in the context of the subscription
       and

@@ -20,7 +20,7 @@ constructor:
     bool | None = False, auto_create_topic_with_first_subscription: bool | None =
     True, auto_delete_topic_with_last_subscription: bool | None = True, data_residency_boundary:
     str | DataResidencyBoundary | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: Required. Location of the resource.
     types:

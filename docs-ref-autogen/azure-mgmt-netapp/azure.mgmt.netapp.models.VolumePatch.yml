@@ -21,7 +21,7 @@ constructor:
     bool | None = None, smb_access_based_enumeration: str | _models.SmbAccessBasedEnumeration
     | None = None, smb_non_browsable: str | _models.SmbNonBrowsable | None = None,
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: Resource location.
     types:

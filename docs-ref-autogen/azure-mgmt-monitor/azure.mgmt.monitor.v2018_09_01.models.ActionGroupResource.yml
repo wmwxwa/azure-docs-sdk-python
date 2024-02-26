@@ -23,7 +23,7 @@ constructor:
     List[_models.LogicAppReceiver] | None = None, azure_function_receivers: List[_models.AzureFunctionReceiver]
     | None = None, arm_role_receivers: List[_models.ArmRoleReceiver] | None = None,
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: Resource location. Required.
     types:

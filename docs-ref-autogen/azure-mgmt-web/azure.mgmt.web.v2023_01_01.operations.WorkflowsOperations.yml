@@ -42,7 +42,7 @@ methods:
     types:
     - <xref:azure.mgmt.web.v2023_01_01.models.RegenerateActionParameter>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -87,7 +87,7 @@ methods:
     types:
     - <xref:azure.mgmt.web.v2023_01_01.models.Workflow>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

@@ -18,5 +18,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.scheduler.models.JobExecutionStatus>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: status
+    isRequired: true

@@ -21,7 +21,7 @@ constructor:
     scale_set_eviction_policy: str | _models.ScaleSetEvictionPolicy = ''Delete'',
     spot_max_price: float = -1, tags: Dict[str, str] | None = None, node_labels: Dict[str,
     str] | None = None, node_taints: List[str] | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: count
     description: 'Number of agents (VMs) to host docker containers. Allowed values
       must be in the

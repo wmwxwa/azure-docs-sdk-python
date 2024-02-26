@@ -27,7 +27,7 @@ methods:
   parameters:
   - name: data
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: trigger_metadata
     isRequired: true
 - uid: azure.functions.durable_functions.ActivityTriggerConverter.encode
@@ -36,7 +36,7 @@ methods:
   parameters:
   - name: obj
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: expected_type
     isRequired: true
 - uid: azure.functions.durable_functions.ActivityTriggerConverter.has_implicit_output

@@ -8,7 +8,7 @@ inheritances:
 summary: Information required to execute the archive operation.
 constructor:
   syntax: 'AmlFilesystemArchiveInfo(*, filesystem_path: str = ''/'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: filesystem_path
     description: 'Lustre file system path to archive relative to the file system root.
 

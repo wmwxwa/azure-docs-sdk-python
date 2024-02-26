@@ -20,6 +20,6 @@ methods:
   parameters:
   - name: obj
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: expected_type
     isRequired: true

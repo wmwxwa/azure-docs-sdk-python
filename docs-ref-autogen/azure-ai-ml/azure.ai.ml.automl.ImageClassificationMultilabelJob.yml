@@ -19,8 +19,9 @@ constructor:
   - name: kwargs
     description: Job-specific arguments
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: primary_metric
+    isRequired: true
 methods:
 - uid: azure.ai.ml.automl.ImageClassificationMultilabelJob.dump
   name: dump
@@ -36,7 +37,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:PathLike>, <xref:str>, <xref:typing.IO>[<xref:typing.AnyStr>]]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: kwargs
     description: Additional arguments to pass to the YAML serializer.
     types:
@@ -65,7 +66,7 @@ methods:
   name: set_data
   signature: 'set_data(*, training_data: Input, target_column_name: str, validation_data:
     Input | None = None, validation_data_size: float | None = None) -> None'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: training_data
     isRequired: true
   - name: target_column_name
@@ -79,7 +80,7 @@ methods:
   summary: Limit settings for all AutoML Image Verticals.
   signature: 'set_limits(*, max_concurrent_trials: int | None = None, max_trials:
     int | None = None, timeout_minutes: int | None = None) -> None'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: timeout_minutes
     description: AutoML job timeout.
     types:
@@ -94,7 +95,7 @@ methods:
   signature: 'set_sweep(*, sampling_algorithm: str | Random | Grid | Bayesian, early_termination:
     BanditPolicy | MedianStoppingPolicy | TruncationSelectionPolicy | None = None)
     -> None'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: sampling_algorithm
     description: 'Required. [Required] Type of the hyperparameter sampling
 
@@ -125,7 +126,7 @@ methods:
     int | None = None, weight_decay: float | None = None, training_crop_size: int
     | None = None, validation_crop_size: int | None = None, validation_resize_size:
     int | None = None, weighted_loss: int | None = None) -> None'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: advanced_settings
     description: Settings for advanced scenarios.
     types:

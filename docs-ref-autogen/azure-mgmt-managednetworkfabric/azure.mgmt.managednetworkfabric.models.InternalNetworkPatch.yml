@@ -16,7 +16,7 @@ constructor:
     | _models.IsMonitoringEnabled = ''False'', bgp_configuration: _models.BgpConfiguration
     | None = None, static_route_configuration: _models.StaticRouteConfiguration |
     None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: annotation
     description: Switch configuration description.
     types:

@@ -39,7 +39,7 @@ constructor:
     bool | None = None, http20_enabled: bool = True, min_tls_version: str | _models.SupportedTlsVersions
     | None = None, ftps_state: str | _models.FtpsState | None = None, reserved_instance_count:
     int | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: kind
     description: Kind of resource.
     types:

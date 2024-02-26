@@ -21,7 +21,7 @@ summary: 'Properties related to Digital Twins Endpoint.
 constructor:
   syntax: 'DigitalTwinsEndpointResourceProperties(*, tags: Dict[str, str] | None =
     None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: The resource tags.
     types:

@@ -50,7 +50,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: validate_token
     description: If True, validate the token, otherwise return the token unvalidated.
     types:
@@ -128,7 +128,7 @@ methods:
     isRequired: true
     types:
     - <xref:bytes>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: inittime_data
     description: 'Data presented at the time that the SGX
 
@@ -253,7 +253,7 @@ methods:
     isRequired: true
     types:
     - <xref:bytes>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: inittime_data
     description: 'Data presented at the time that the SGX
 

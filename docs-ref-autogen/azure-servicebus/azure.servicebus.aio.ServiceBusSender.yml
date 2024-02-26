@@ -42,7 +42,7 @@ constructor:
     - <xref:azure.core.credentials_async.AsyncTokenCredential>
     - <xref:azure.core.credentials.AzureSasCredential>
     - <xref:azure.core.credentials.AzureNamedKeyCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: queue_name
     description: 'The path of specific Service Bus Queue the client connects to.
 
@@ -126,7 +126,7 @@ methods:
     types:
     - <xref:int>
     - <xref:list>[<xref:int>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: timeout
     description: 'The total operation timeout in seconds including all the retries.
       The value must be
@@ -222,7 +222,7 @@ methods:
     isRequired: true
     types:
     - <xref:datetime.datetime>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: timeout
     description: 'The total operation timeout in seconds including all the retries.
       The value must be
@@ -269,7 +269,7 @@ methods:
     - <xref:typing.Union>[<xref:azure.servicebus.ServiceBusMessage>, <xref:azure.servicebus.ServiceBusMessageBatch>,
       <xref:azure.servicebus.amqp.AmqpAnnotatedMessage>, <xref:typing.List>[<xref:typing.Union>[<xref:azure.servicebus.ServiceBusMessage>,
       <xref:azure.servicebus.amqp.AmqpAnnotatedMessage>]]]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: timeout
     description: 'The total operation timeout in seconds including all the retries.
 

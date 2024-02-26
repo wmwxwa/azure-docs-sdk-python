@@ -14,5 +14,6 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: estimated_lab_cost
+    isRequired: true

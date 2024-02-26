@@ -12,7 +12,7 @@ summary: 'The managed server capability.
 constructor:
   syntax: 'ManagedInstanceEditionCapability(*, reason: str | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: reason
     description: The reason for the capability not being available.
     types:

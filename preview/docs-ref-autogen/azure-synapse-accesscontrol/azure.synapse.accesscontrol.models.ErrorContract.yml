@@ -14,8 +14,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.synapse.accesscontrol.models.ErrorResponse>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: error
+    isRequired: true
 methods:
 - uid: azure.synapse.accesscontrol.models.ErrorContract.as_dict
   name: as_dict

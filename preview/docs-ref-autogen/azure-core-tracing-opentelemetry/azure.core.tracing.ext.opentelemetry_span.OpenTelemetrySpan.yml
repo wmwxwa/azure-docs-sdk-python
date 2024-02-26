@@ -21,7 +21,7 @@ constructor:
     defaultValue: span
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: kind
     description: The span kind of this span.
     types:
@@ -192,7 +192,7 @@ methods:
     defaultValue: span
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: kind
     description: The span kind of this span.
     types:

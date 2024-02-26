@@ -17,7 +17,7 @@ constructor:
     str | _models.ServiceLevel = ''Premium'', tags: Dict[str, str] | None = None,
     qos_type: str | _models.QosType | None = None, cool_access: bool = False, encryption_type:
     str | _models.EncryptionType = ''Single'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

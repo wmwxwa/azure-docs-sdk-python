@@ -39,7 +39,7 @@ constructor:
       If the URL already has a SAS token, specifying an explicit credential will take
       priority.'
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: The Storage API version to use for requests. Default value is '2019-07-07'.
     types:
@@ -49,6 +49,7 @@ constructor:
     types:
     - <xref:str>
   - name: credential
+    isRequired: true
 methods:
 - uid: azure.eventhub.extensions.checkpointstoreblobaio.BlobCheckpointStore.claim_ownership
   name: claim_ownership
@@ -117,7 +118,7 @@ methods:
       Credentials provided here will take precedence over those in the connection
       string.'
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: The Storage API version to use for requests. Default value is '2019-07-07'.
     types:

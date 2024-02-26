@@ -36,7 +36,7 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.servicefabric.models.CreateFabricDump>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: node_instance_id
     defaultValue: '0'
   - name: create_fabric_dump

@@ -21,6 +21,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.policyinsights.models.IfNotExistsEvaluationDetails>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: evaluated_expressions
+    isRequired: true
   - name: if_not_exists_details
+    isRequired: true

@@ -13,7 +13,7 @@ constructor:
     | None = None, effective_outbound_i_ps: List[_models.ResourceReference] | None
     = None, allocated_outbound_ports: int = 0, idle_timeout_in_minutes: int = 30,
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: managed_outbound_i_ps
     description: Desired managed outbound IPs for the cluster load balancer.
     types:

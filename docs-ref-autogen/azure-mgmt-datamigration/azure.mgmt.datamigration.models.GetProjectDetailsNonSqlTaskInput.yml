@@ -25,6 +25,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: project_name
+    isRequired: true
   - name: project_location
+    isRequired: true

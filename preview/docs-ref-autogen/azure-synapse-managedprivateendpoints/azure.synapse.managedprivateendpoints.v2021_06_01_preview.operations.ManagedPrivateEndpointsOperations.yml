@@ -53,7 +53,7 @@ methods:
     defaultValue: None
     types:
     - <xref:azure.synapse.managedprivateendpoints.v2021_06_01_preview.models.ManagedPrivateEndpointProperties>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -80,7 +80,7 @@ methods:
     defaultValue: default
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -107,7 +107,7 @@ methods:
     defaultValue: default
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -129,7 +129,7 @@ methods:
     defaultValue: default
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

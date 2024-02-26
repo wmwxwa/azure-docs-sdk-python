@@ -25,7 +25,10 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true
   - name: display_name
+    isRequired: true
   - name: to_be_exported_for_shoebox
+    isRequired: true

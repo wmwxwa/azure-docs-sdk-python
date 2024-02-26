@@ -44,7 +44,7 @@ methods:
     types:
     - <xref:azure.mgmt.synapse.models.DataMaskingPolicy>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: data_masking_policy_name
     description: 'The name of the data masking policy for which the masking
 
@@ -93,7 +93,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: data_masking_policy_name
     description: 'The name of the data masking policy for which the masking
 

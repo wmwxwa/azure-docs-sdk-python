@@ -9,7 +9,7 @@ summary: Service update request.
 constructor:
   syntax: 'ServiceUpdateParameters(*, tags: Dict[str, str] | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Service update parameters.
     types:

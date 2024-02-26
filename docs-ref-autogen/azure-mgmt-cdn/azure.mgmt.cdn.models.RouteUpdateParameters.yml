@@ -19,7 +19,7 @@ constructor:
     None, link_to_default_domain: str | _models.LinkToDefaultDomain = ''Disabled'',
     https_redirect: str | _models.HttpsRedirect = ''Disabled'', enabled_state: str
     | _models.EnabledState | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: custom_domains
     description: Domains referenced by this endpoint.
     types:

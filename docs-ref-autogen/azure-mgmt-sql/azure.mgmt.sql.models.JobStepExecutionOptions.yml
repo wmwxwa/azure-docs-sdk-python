@@ -41,7 +41,7 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: timeout_seconds
     defaultValue: '43200'
   - name: retry_attempts

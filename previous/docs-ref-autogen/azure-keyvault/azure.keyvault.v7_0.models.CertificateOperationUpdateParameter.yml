@@ -19,8 +19,9 @@ constructor:
     isRequired: true
     types:
     - <xref:bool>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cancellation_requested
+    isRequired: true
 methods:
 - uid: azure.keyvault.v7_0.models.CertificateOperationUpdateParameter.as_dict
   name: as_dict

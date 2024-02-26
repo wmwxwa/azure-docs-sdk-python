@@ -30,8 +30,12 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: message
+    isRequired: true
   - name: available
+    isRequired: true
   - name: reason
+    isRequired: true
   - name: name
+    isRequired: true

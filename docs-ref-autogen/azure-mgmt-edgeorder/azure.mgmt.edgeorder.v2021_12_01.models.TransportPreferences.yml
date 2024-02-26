@@ -21,5 +21,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.edgeorder.v2021_12_01.models.TransportShipmentTypes>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: preferred_shipment_type
+    isRequired: true

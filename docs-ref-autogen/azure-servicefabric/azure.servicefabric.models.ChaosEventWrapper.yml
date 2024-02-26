@@ -14,8 +14,9 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.servicefabric.models.ChaosEvent>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: chaos_event
+    isRequired: true
 methods:
 - uid: azure.servicefabric.models.ChaosEventWrapper.as_dict
   name: as_dict

@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.azurestack.models.CustomerSubscription>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: next_link
+    isRequired: true
   - name: value
+    isRequired: true

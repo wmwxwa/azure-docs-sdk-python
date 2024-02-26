@@ -13,7 +13,7 @@ constructor:
     defaultValue: None
   - name: iso_code
     defaultValue: None
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: ip_address
     description: The IP Address of the request.
     types:

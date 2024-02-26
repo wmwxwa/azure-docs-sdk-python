@@ -25,7 +25,7 @@ constructor:
     str | PublicNetworkAccess | None = None, inbound_ip_rules: List[InboundIpRule]
     | None = None, disable_local_auth: bool | None = False, partner_topic_routing_mode:
     str | PartnerTopicRoutingMode | None = ''SourceEventAttribute'', **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: Required. Location of the resource.
     types:
@@ -73,6 +73,7 @@ constructor:
     - <xref:str>
     - <xref:azure.mgmt.eventgrid.models.PartnerTopicRoutingMode>
   - name: public_network_access
+    isRequired: true
 variables:
 - description: Fully qualified identifier of the resource.
   name: id

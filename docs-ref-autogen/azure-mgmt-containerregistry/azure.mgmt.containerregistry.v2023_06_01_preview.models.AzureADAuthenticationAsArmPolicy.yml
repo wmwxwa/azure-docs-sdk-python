@@ -9,7 +9,7 @@ summary: The policy for using ARM audience token for a container registry.
 constructor:
   syntax: 'AzureADAuthenticationAsArmPolicy(*, status: str | _models.AzureADAuthenticationAsArmPolicyStatus
     = ''enabled'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: status
     description: 'The value that indicates whether the policy is enabled or not. Known
       values

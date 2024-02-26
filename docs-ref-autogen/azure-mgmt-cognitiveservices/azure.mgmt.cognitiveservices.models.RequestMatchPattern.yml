@@ -9,7 +9,7 @@ summary: RequestMatchPattern.
 constructor:
   syntax: 'RequestMatchPattern(*, path: str | None = None, method: str | None = None,
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: path
     types:
     - <xref:str>

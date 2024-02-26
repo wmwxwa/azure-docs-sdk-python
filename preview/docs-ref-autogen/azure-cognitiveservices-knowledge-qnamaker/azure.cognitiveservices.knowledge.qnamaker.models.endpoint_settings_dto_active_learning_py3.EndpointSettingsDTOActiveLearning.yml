@@ -14,8 +14,9 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: enable
+    isRequired: true
 methods:
 - uid: azure.cognitiveservices.knowledge.qnamaker.models.endpoint_settings_dto_active_learning_py3.EndpointSettingsDTOActiveLearning.as_dict
   name: as_dict

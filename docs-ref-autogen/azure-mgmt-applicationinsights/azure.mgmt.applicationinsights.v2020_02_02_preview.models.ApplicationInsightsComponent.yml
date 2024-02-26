@@ -23,7 +23,7 @@ constructor:
     str | _models.PublicNetworkAccessType = ''Enabled'', ingestion_mode: str | _models.IngestionMode
     = ''LogAnalytics'', disable_local_auth: bool | None = None, force_customer_storage_for_profiler:
     bool | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: Resource location. Required.
     types:

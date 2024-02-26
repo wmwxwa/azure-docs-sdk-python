@@ -13,7 +13,7 @@ constructor:
   syntax: 'ManagedCCFProperties(*, member_identity_certificates: List[_models.MemberIdentityCertificate]
     | None = None, deployment_type: _models.DeploymentType | None = None, node_count:
     int = 3, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: member_identity_certificates
     description: List of member identity certificates for  Managed CCF.
     types:

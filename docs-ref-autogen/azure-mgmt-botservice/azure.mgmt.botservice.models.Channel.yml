@@ -26,7 +26,7 @@ summary: 'Channel definition.
   All required parameters must be populated in order to send to Azure.'
 constructor:
   syntax: 'Channel(*, etag: str | None = None, location: str = ''global'', **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: etag
     description: Entity Tag of the resource.
     types:

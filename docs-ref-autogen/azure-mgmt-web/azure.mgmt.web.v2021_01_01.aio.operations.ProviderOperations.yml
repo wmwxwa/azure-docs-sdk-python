@@ -28,7 +28,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.web.v2021_01_01.models.Enum9>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -59,7 +59,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.web.v2021_01_01.models.Enum14>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -91,7 +91,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.web.v2021_01_01.models.Enum10>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -126,7 +126,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.web.v2021_01_01.models.Enum11>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -156,7 +156,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.web.v2021_01_01.models.Enum13>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -191,7 +191,7 @@ methods:
     types:
     - <xref:str>
     - <xref:azure.mgmt.web.v2021_01_01.models.Enum12>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -216,7 +216,7 @@ methods:
 
     metric definitions.'
   signature: 'list_operations(**kwargs: Any) -> AsyncIterable[CsmOperationDescription]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

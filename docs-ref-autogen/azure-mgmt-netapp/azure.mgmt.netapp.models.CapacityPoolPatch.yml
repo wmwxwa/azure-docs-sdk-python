@@ -13,7 +13,7 @@ constructor:
   syntax: 'CapacityPoolPatch(*, location: str | None = None, tags: Dict[str, str]
     | None = None, size: int = 4398046511104, qos_type: str | _models.QosType | None
     = None, cool_access: bool | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: Resource location.
     types:

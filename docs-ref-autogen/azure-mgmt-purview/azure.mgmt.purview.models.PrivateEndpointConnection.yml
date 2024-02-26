@@ -24,9 +24,11 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.purview.models.PrivateLinkServiceConnectionState>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: private_endpoint
+    isRequired: true
   - name: private_link_service_connection_state
+    isRequired: true
 variables:
 - description: Gets or sets the identifier.
   name: id

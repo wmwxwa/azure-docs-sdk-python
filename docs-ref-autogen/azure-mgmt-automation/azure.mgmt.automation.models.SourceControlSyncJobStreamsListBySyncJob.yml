@@ -18,8 +18,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.automation.models.SourceControlSyncJobStream>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: value
+    isRequired: true
 variables:
 - description: The next link.
   name: next_link

@@ -18,7 +18,7 @@ constructor:
     str | None = None, context_path: str | None = None, build_arguments: List[_models.BuildArgument]
     | None = None, base_image_trigger: str | _models.BaseImageTriggerType | None =
     None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: branch
     description: The repository branch name.
     types:

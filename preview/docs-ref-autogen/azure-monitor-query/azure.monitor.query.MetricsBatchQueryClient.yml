@@ -29,7 +29,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.core.credentials.TokenCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: audience
     description: 'The audience to use when requesting a token. If not provided, the
       public cloud audience
@@ -66,7 +66,7 @@ methods:
     isRequired: true
     types:
     - <xref:list>[<xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: timespan
     description: 'The timespan for which to query the data. This can be a timedelta,
 

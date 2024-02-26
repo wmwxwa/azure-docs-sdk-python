@@ -45,7 +45,7 @@ constructor:
     isRequired: true
     types:
     - <xref:Exception>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: error_type
     defaultValue: ValidationErrorType.GENERIC
   - name: target

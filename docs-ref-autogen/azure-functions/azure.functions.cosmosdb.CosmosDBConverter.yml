@@ -27,7 +27,7 @@ methods:
   parameters:
   - name: data
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: trigger_metadata
     isRequired: true
 - uid: azure.functions.cosmosdb.CosmosDBConverter.encode
@@ -36,7 +36,7 @@ methods:
   parameters:
   - name: obj
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: expected_type
     isRequired: true
 - uid: azure.functions.cosmosdb.CosmosDBConverter.has_implicit_output

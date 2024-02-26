@@ -14,5 +14,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.hdinsight.models.Role>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: roles
+    isRequired: true

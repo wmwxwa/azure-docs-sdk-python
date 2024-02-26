@@ -17,7 +17,7 @@ constructor:
     | None = None, sticky_sessions: _models.IngressStickySessions | None = None, client_certificate_mode:
     str | _models.IngressClientCertificateMode | None = None, cors_policy: _models.CorsPolicy
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: external
     description: Bool indicating if app exposes an external http endpoint.
     types:

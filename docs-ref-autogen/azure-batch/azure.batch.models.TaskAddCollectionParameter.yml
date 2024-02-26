@@ -25,8 +25,9 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.batch.models.TaskAddParameter>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: value
+    isRequired: true
 methods:
 - uid: azure.batch.models.TaskAddCollectionParameter.as_dict
   name: as_dict

@@ -14,7 +14,7 @@ constructor:
     = None, password: str | None = None, data_source: str | None = None, encrypt_connection:
     bool = True, authentication: str | _models.AuthenticationType | None = None, additional_settings:
     str | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: user_name
     description: User name.
     types:

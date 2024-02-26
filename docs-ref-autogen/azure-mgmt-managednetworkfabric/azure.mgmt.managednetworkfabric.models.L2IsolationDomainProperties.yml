@@ -15,7 +15,7 @@ summary: 'L2Isolation Domain Properties defines the properties of the resource.
 constructor:
   syntax: 'L2IsolationDomainProperties(*, network_fabric_id: str, vlan_id: int, annotation:
     str | None = None, mtu: int = 1500, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: annotation
     description: Switch configuration description.
     types:

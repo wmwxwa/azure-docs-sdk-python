@@ -8,5 +8,6 @@ inheritances:
 summary: DiagnoseResponseResult.
 constructor:
   syntax: 'DiagnoseResponseResult(*, value: DiagnoseResponseResultValue | None = None)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: value
+    isRequired: true

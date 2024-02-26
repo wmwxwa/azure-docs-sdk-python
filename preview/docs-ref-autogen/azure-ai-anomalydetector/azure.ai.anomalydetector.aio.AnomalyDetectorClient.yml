@@ -55,7 +55,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.core.credentials.AzureKeyCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'Api Version. Default value is "v1.1". Note that overriding this
       default
@@ -120,7 +120,7 @@ methods:
     - <xref:azure.ai.anomalydetector.models.MultivariateBatchDetectionOptions>
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body parameter Content-Type. Known values are: application/json.
       Default
@@ -168,7 +168,7 @@ methods:
     - <xref:azure.ai.anomalydetector.models.MultivariateLastDetectionOptions>
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body parameter Content-Type. Known values are: application/json.
       Default
@@ -204,7 +204,7 @@ methods:
     - <xref:azure.ai.anomalydetector.models.UnivariateChangePointDetectionOptions>
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body parameter Content-Type. Known values are: application/json.
       Default
@@ -246,7 +246,7 @@ methods:
     - <xref:azure.ai.anomalydetector.models.UnivariateDetectionOptions>
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body parameter Content-Type. Known values are: application/json.
       Default
@@ -284,7 +284,7 @@ methods:
     - <xref:azure.ai.anomalydetector.models.UnivariateDetectionOptions>
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body parameter Content-Type. Known values are: application/json.
       Default
@@ -356,7 +356,7 @@ methods:
     List models of a resource.'
   signature: 'list_multivariate_models(*, skip: int | None = None, top: int | None
     = None, **kwargs: Any) -> AsyncIterable[AnomalyDetectionModel]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: skip
     description: Skip indicates how many models will be skipped. Default value is
       None.
@@ -404,7 +404,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.core.rest.HttpRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: stream
     description: Whether the response payload will be streamed. Defaults to False.
     types:
@@ -443,7 +443,7 @@ methods:
     - <xref:azure.ai.anomalydetector.models.ModelInfo>
     - <xref:JSON>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body parameter Content-Type. Known values are: application/json.
       Default

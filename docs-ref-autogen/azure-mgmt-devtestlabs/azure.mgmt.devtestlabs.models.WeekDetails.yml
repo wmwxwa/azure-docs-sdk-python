@@ -23,6 +23,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: weekdays
+    isRequired: true
   - name: time
+    isRequired: true

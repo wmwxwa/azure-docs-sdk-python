@@ -43,7 +43,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2021_07_01.models.Gallery>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -100,7 +100,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -165,7 +165,7 @@ methods:
     types:
     - <xref:azure.mgmt.compute.v2021_07_01.models.GalleryUpdate>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -222,7 +222,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: select
     description: 'The select expression to apply on the operation. "Permissions" Default
       value
@@ -245,7 +245,7 @@ methods:
   name: list
   summary: List galleries under a subscription.
   signature: 'list(**kwargs: Any) -> AsyncIterable[Gallery]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -266,7 +266,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

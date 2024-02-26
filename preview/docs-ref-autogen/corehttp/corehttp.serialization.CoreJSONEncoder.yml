@@ -76,8 +76,9 @@ summary: 'A JSON encoder that''s capable of serializing datetime objects and byt
 constructor:
   syntax: CoreJSONEncoder(*, skipkeys=False, ensure_ascii=True, check_circular=True,
     allow_nan=True, sort_keys=False, indent=None, separators=None, default=None)
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: skipkeys
+    isRequired: true
   - name: ensure_ascii
     defaultValue: 'True'
   - name: check_circular
@@ -85,9 +86,13 @@ constructor:
   - name: allow_nan
     defaultValue: 'True'
   - name: sort_keys
+    isRequired: true
   - name: indent
+    isRequired: true
   - name: separators
+    isRequired: true
   - name: default
+    isRequired: true
 methods:
 - uid: corehttp.serialization.CoreJSONEncoder.default
   name: default

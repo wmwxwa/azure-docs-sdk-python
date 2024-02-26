@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:microsoft_logz.models.ErrorDetail>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: error
+    isRequired: true

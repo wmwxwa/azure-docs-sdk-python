@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: max_retries
+    isRequired: true
   - name: timeout
+    isRequired: true

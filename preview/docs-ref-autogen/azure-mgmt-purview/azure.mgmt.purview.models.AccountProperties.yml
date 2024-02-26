@@ -13,7 +13,7 @@ constructor:
   syntax: 'AccountProperties(*, cloud_connectors: _models.CloudConnectors | None =
     None, managed_resource_group_name: str | None = None, public_network_access: str
     | _models.PublicNetworkAccess = ''Enabled'', **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cloud_connectors
     description: 'Cloud connectors.
 

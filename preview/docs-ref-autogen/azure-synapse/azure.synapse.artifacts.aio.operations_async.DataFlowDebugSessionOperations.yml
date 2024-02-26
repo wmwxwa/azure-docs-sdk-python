@@ -41,7 +41,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.DataFlowDebugPackage>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -63,7 +63,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.CreateDataFlowDebugSessionRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -102,7 +102,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.DataFlowDebugCommandRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -141,7 +141,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.synapse.artifacts.models.DeleteDataFlowDebugSessionRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -156,7 +156,7 @@ methods:
   name: query_data_flow_debug_sessions_by_workspace
   summary: Query all active data flow debug sessions.
   signature: query_data_flow_debug_sessions_by_workspace(**kwargs) -> AsyncIterable[QueryDataFlowDebugSessionsResponse]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

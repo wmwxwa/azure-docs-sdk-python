@@ -22,7 +22,7 @@ constructor:
     = None, export_route_policy: _models.ExportRoutePolicyInformation | None = None,
     egress_acl_id: str | None = None, ingress_acl_id: str | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: nni_type
     description: 'Type of NNI used. Example: CE | NPB. Known values are: "CE" and
       "NPB".'

@@ -37,7 +37,7 @@ methods:
     isRequired: true
     types:
     - <xref:bool>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -55,7 +55,7 @@ methods:
 
     Gets publishing user.'
   signature: 'async get_publishing_user(**kwargs: Any) -> User'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -80,7 +80,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -98,7 +98,7 @@ methods:
 
     Gets list of available geo regions plus ministamps.'
   signature: 'async get_subscription_deployment_locations(**kwargs: Any) -> DeploymentLocations'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -128,7 +128,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -184,7 +184,7 @@ methods:
     isRequired: true
     types:
     - <xref:bool>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -202,7 +202,7 @@ methods:
 
     List all premier add-on offers.'
   signature: 'list_premier_add_on_offers(**kwargs: Any) -> AsyncIterable[PremierAddOnOffer]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -231,7 +231,7 @@ methods:
     types:
     - <xref:azure.mgmt.web.v2021_01_15.models.NameIdentifier>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -255,7 +255,7 @@ methods:
 
     List all SKUs.'
   signature: 'async list_skus(**kwargs: Any) -> SkuInfos'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -273,7 +273,7 @@ methods:
 
     Gets the source controls available for Azure websites.'
   signature: 'list_source_controls(**kwargs: Any) -> AsyncIterable[SourceControl]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -307,7 +307,7 @@ methods:
     types:
     - <xref:azure.mgmt.web.v2021_01_15.models.CsmMoveResourceEnvelope>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -339,7 +339,7 @@ methods:
     types:
     - <xref:azure.mgmt.web.v2021_01_15.models.User>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -380,7 +380,7 @@ methods:
     types:
     - <xref:azure.mgmt.web.v2021_01_15.models.SourceControl>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -419,7 +419,7 @@ methods:
     types:
     - <xref:azure.mgmt.web.v2021_01_15.models.ValidateRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -459,7 +459,7 @@ methods:
     types:
     - <xref:azure.mgmt.web.v2021_01_15.models.CsmMoveResourceEnvelope>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -497,7 +497,7 @@ methods:
     types:
     - <xref:azure.mgmt.web.v2021_01_15.models.VnetParameters>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

@@ -25,7 +25,7 @@ constructor:
     = ''Modern'', vm_device_model: str | _models.VirtualMachineDeviceModelType = ''T2'',
     vm_image_repository_credentials: _models.ImageRepositoryCredentials | None = None,
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

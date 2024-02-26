@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.storagesync.models.OperationResourceServiceSpecification>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: service_specification
+    isRequired: true

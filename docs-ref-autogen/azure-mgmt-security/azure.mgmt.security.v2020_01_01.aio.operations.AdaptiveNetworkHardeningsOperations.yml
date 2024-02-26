@@ -56,7 +56,7 @@ methods:
     types:
     - <xref:azure.mgmt.security.v2020_01_01.models.AdaptiveNetworkHardeningEnforceRequest>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: adaptive_network_hardening_enforce_action
     description: 'Enforces the given rules on the NSG(s)
 
@@ -141,7 +141,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -182,7 +182,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

@@ -17,7 +17,7 @@ constructor:
     | None = None, kustomizations: Dict[str, _models.KustomizationDefinition] | None
     = None, configuration_protected_settings: Dict[str, str] | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: scope
     description: 'Scope at which the operator will be installed. Known values are:
       "cluster" and

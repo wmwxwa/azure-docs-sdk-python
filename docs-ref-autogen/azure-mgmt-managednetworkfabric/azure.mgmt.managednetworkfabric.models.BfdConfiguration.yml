@@ -12,7 +12,7 @@ summary: 'BFD configuration properties.
 constructor:
   syntax: 'BfdConfiguration(*, interval_in_milli_seconds: int = 300, multiplier: int
     = 5, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: interval_in_milli_seconds
     description: 'Interval in milliseconds. Example: 300.'
     defaultValue: '300'

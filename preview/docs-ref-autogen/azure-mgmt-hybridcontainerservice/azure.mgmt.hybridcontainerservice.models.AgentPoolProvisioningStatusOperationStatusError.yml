@@ -9,7 +9,7 @@ summary: AgentPoolProvisioningStatusOperationStatusError.
 constructor:
   syntax: 'AgentPoolProvisioningStatusOperationStatusError(*, code: str | None = None,
     message: str | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: code
     types:
     - <xref:str>

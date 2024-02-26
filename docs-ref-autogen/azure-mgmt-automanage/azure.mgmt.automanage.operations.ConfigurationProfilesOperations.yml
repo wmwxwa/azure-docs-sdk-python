@@ -32,7 +32,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.automanage.models.ConfigurationProfile>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -59,7 +59,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -86,7 +86,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -107,7 +107,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -125,7 +125,7 @@ methods:
   name: list_by_subscription
   summary: Retrieve a list of configuration profile within a subscription.
   signature: 'list_by_subscription(**kwargs: Any) -> Iterable[ConfigurationProfileList]'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -160,7 +160,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.mgmt.automanage.models.ConfigurationProfileUpdate>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

@@ -9,7 +9,7 @@ summary: Trino Coordinator.
 constructor:
   syntax: 'TrinoCoordinator(*, high_availability_enabled: bool = True, enable: bool
     = False, port: int = 8008, suspend: bool = False, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: high_availability_enabled
     description: 'The flag that if enable coordinator HA, uses multiple
 

@@ -15,7 +15,7 @@ summary: 'Creates a new pipeline topology or updates an existing one.
 constructor:
   syntax: 'PipelineTopologySetRequest(*, pipeline_topology: PipelineTopology, api_version:
     str | None = ''1.1'', **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'Video Analyzer API version. The only acceptable values to pass in
       are

@@ -18,7 +18,7 @@ constructor:
     = ''Enabled'', private_endpoint_connections: List[_models.PrivateEndpointConnection]
     | None = None, sku: str | _models.SKU = ''Standard'', encryption: _models.Encryption
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

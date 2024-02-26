@@ -20,8 +20,9 @@ constructor:
     isRequired: true
     types:
     - <xref:object>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: value
+    isRequired: true
 methods:
 - uid: azure.synapse.artifacts.models.SSISExecutionParameter.as_dict
   name: as_dict

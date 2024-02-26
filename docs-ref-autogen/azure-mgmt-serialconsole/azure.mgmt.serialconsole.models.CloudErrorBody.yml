@@ -39,8 +39,12 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.serialconsole.models.CloudErrorBody>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: code
+    isRequired: true
   - name: message
+    isRequired: true
   - name: target
+    isRequired: true
   - name: details
+    isRequired: true

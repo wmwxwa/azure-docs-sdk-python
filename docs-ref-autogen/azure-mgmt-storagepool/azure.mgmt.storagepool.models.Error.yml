@@ -14,5 +14,6 @@ constructor:
     isRequired: true
     types:
     - <xref:storage_pool_management.models.ErrorResponse>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: error
+    isRequired: true

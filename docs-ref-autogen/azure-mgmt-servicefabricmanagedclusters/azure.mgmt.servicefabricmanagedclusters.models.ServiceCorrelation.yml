@@ -31,6 +31,8 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: scheme
+    isRequired: true
   - name: service_name
+    isRequired: true

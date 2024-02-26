@@ -16,7 +16,7 @@ constructor:
   syntax: 'NetworkFunctionDefinitionVersion(*, location: str, tags: Dict[str, str]
     | None = None, properties: _models.NetworkFunctionDefinitionVersionPropertiesFormat
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

@@ -38,7 +38,7 @@ constructor:
     | None = None, capacity_reservation_group_id: str | None = None, host_group_id:
     str | None = None, windows_profile: _models.AgentPoolWindowsProfile | None = None,
     network_profile: _models.AgentPoolNetworkProfile | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: count
     description: 'Number of agents (VMs) to host docker containers. Allowed values
       must be in the

@@ -12,7 +12,7 @@ summary: 'Result of the product transfer eligibility validation.
 constructor:
   syntax: 'ValidateProductTransferEligibilityResult(*, error_details: _models.ValidateProductTransferEligibilityError
     | None = None, **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: error_details
     description: Validation error details.
     types:

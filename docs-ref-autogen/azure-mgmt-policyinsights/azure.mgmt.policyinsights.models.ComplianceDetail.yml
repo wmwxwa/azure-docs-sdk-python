@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: compliance_state
+    isRequired: true
   - name: count
+    isRequired: true

@@ -75,7 +75,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: match_condition
     description: The condition under which to perform the operation.
     types:
@@ -155,7 +155,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: match_condition
     description: The condition under which to perform the operation.
     types:
@@ -252,7 +252,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: include_model_definition
     description: 'Include the model definition
 
@@ -299,7 +299,7 @@ methods:
   name: list_event_routes
   summary: Retrieves all event routes.
   signature: list_event_routes(**kwargs) -> AsyncItemPaged[DigitalTwinsEventRoute]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: results_per_page
     description: 'The maximum number of items to retrieve per request.
 
@@ -345,7 +345,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.List>[<xref:str>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: include_model_definition
     description: 'Include the model definition
 
@@ -415,7 +415,7 @@ methods:
     isRequired: true
     types:
     - <xref:object>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: message_id
     description: The message ID. If not specified, a UUID will be generated.
     types:
@@ -448,7 +448,7 @@ methods:
     isRequired: true
     types:
     - <xref:object>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: message_id
     description: The message ID. If not specified, a UUID will be generated.
     types:
@@ -510,7 +510,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.List>[<xref:typing.Dict>[<xref:str>,<xref:object>]]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: match_condition
     description: The condition under which to perform the operation.
     types:
@@ -552,7 +552,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.List>[<xref:typing.Dict>[<xref:str>,<xref:object>]]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: match_condition
     description: The condition under which to perform the operation.
     types:
@@ -596,7 +596,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.List>[<xref:typing.Dict>[<xref:str>,<xref:object>]]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: match_condition
     description: The condition under which to perform the operation.
     types:
@@ -634,7 +634,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>,<xref:object>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: match_condition
     description: The condition under which to perform the operation.
     types:
@@ -697,7 +697,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Dict>[<xref:str>,<xref:object>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: match_condition
     description: The condition under which to perform the operation.
     types:

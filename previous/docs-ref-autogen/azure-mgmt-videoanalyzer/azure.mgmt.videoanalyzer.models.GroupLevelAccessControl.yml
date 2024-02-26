@@ -19,5 +19,6 @@ constructor:
     types:
     - <xref:str>
     - <xref:video_analyzer.models.PublicNetworkAccess>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: public_network_access
+    isRequired: true

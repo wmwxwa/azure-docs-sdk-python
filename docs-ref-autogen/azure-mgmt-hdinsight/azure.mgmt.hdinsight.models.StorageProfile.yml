@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.hdinsight.models.StorageAccount>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: storageaccounts
+    isRequired: true

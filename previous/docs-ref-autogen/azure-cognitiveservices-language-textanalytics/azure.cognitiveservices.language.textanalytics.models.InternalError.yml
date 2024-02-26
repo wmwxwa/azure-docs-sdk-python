@@ -22,10 +22,13 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.cognitiveservices.language.textanalytics.models.InternalError>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: code
+    isRequired: true
   - name: message
+    isRequired: true
   - name: inner_error
+    isRequired: true
 methods:
 - uid: azure.cognitiveservices.language.textanalytics.models.InternalError.as_dict
   name: as_dict

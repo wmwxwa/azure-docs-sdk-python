@@ -12,7 +12,7 @@ summary: 'Specifies how tasks should be distributed across compute nodes.
 constructor:
   syntax: 'TaskSchedulingPolicy(*, node_fill_type: str | _models.ComputeNodeFillType
     = ''Spread'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: node_fill_type
     description: 'How tasks should be distributed across compute nodes. Known values
 

@@ -106,7 +106,7 @@ constructor:
     defaultValue: UTF-8
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: refresh_window
     description: 'The time in seconds before the token expiration
 

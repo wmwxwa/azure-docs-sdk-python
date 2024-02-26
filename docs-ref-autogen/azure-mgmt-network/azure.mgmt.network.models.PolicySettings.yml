@@ -14,7 +14,7 @@ constructor:
     bool = True, file_upload_limit_in_mb: int | None = None, custom_block_response_status_code:
     int | None = None, custom_block_response_body: str | None = None, log_scrubbing:
     _models.PolicySettingsLogScrubbing | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: state
     description: 'The state of the policy. Known values are: "Disabled" and "Enabled".'
     types:

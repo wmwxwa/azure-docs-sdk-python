@@ -22,7 +22,7 @@ summary: 'Base class for direct method calls.
   All required parameters must be populated in order to send to Azure.'
 constructor:
   syntax: 'MethodRequest(*, api_version: str | None = ''1.1'', **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'Video Analyzer API version. The only acceptable values to pass in
       are

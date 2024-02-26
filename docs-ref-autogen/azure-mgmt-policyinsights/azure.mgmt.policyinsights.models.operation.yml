@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.policyinsights.models.OperationDisplay>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true
   - name: display
+    isRequired: true

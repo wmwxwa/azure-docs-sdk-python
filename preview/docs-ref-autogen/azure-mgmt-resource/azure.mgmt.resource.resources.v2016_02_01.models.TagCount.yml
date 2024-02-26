@@ -9,7 +9,7 @@ summary: Tag count.
 constructor:
   syntax: 'TagCount(*, type: str | None = None, value: str | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: type
     description: Type of count.
     types:

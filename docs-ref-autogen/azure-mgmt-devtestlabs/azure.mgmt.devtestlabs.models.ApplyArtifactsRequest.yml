@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:list>[<xref:azure.mgmt.devtestlabs.models.ArtifactInstallProperties>]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: artifacts
+    isRequired: true

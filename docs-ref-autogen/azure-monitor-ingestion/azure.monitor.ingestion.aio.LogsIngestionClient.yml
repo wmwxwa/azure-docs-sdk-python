@@ -22,7 +22,7 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.core.credentials_async.AsyncTokenCredential>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: api_version
     description: 'Api Version. Default value is "2023-01-01". Note that overriding
 
@@ -62,7 +62,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.core.rest.HttpRequest>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: stream
     description: Whether the response payload will be streamed. Defaults to False.
     types:
@@ -103,7 +103,7 @@ methods:
     - <xref:typing.IO>
   - name: stream_name
     isRequired: true
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: on_error
     description: 'The callback function that is called when a chunk of logs fails
       to upload.

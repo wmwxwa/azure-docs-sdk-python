@@ -11,7 +11,7 @@ constructor:
     None, skip: int | None = None, result_format: str | _models.ResultFormat | None
     = None, allow_partial_scopes: bool = False, authorization_scope_filter: str |
     _models.AuthorizationScopeFilter = ''AtScopeAndBelow'', **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: skip_token
     description: 'Continuation token for pagination, capturing the next page size
       and

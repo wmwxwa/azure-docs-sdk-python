@@ -43,7 +43,7 @@ constructor:
     | None = None, virtual_machines_profile: _models.VirtualMachinesProfile | None
     = None, virtual_machine_nodes_status: List[_models.VirtualMachineNodes] | None
     = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: count
     description: 'Number of agents (VMs) to host docker containers. Allowed values
       must be in the

@@ -11,7 +11,7 @@ constructor:
     ''IPv4'', load_balancer_backend_address_pool_id: str | None = None, load_balancer_inbound_nat_pool_id:
     str | None = None, application_gateway_backend_address_pool_id: str | None = None,
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: ip_address_type
     description: 'The IP address type of this frontend configuration. If omitted the
 

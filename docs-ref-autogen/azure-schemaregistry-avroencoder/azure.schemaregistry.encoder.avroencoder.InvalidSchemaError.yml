@@ -14,7 +14,7 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: error
     description: The original exception, if any.
 variables:

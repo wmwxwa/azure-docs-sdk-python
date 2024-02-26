@@ -13,7 +13,7 @@ constructor:
   syntax: 'TargetUtilizationScaleSettings(*, max_instances: int = 1, min_instances:
     int = 1, polling_interval: timedelta = ''PT1S'', target_utilization_percentage:
     int = 70, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: max_instances
     description: 'The maximum number of instances that the deployment can scale to.
       The

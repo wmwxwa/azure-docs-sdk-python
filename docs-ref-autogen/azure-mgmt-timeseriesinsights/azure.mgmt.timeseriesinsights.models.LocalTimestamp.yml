@@ -30,6 +30,8 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.timeseriesinsights.models.LocalTimestampTimeZoneOffset>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: format
+    isRequired: true
   - name: time_zone_offset
+    isRequired: true

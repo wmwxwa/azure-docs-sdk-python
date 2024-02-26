@@ -33,7 +33,7 @@ constructor:
     None = None, public_i_pv6_prefix_id: str | None = None, ddos_protection_plan_id:
     str | None = None, upgrade_description: _models.ClusterUpgradePolicy | None =
     None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: Azure resource location. Required.
     types:

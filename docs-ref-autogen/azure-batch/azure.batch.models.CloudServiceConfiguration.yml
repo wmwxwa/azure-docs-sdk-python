@@ -40,9 +40,11 @@ constructor:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: os_family
+    isRequired: true
   - name: os_version
+    isRequired: true
 methods:
 - uid: azure.batch.models.CloudServiceConfiguration.as_dict
   name: as_dict

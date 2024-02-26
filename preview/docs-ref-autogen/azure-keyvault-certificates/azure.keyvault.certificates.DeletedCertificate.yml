@@ -28,7 +28,7 @@ constructor:
     types:
     - <xref:bytearray>
     - <xref:None>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: deleted_on
     description: The time when the certificate was deleted, in UTC.
     types:

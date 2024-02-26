@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:float>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: threshold_value
+    isRequired: true

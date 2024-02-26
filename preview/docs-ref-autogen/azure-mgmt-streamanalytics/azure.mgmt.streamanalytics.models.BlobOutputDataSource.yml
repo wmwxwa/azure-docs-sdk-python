@@ -16,7 +16,7 @@ constructor:
     str | _models.AuthenticationMode = ''ConnectionString'', blob_path_prefix: str
     | None = None, blob_write_mode: str | _models.BlobWriteMode | None = None, **kwargs:
     Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: storage_accounts
     description: 'A list of one or more Azure Storage accounts. Required on PUT
 

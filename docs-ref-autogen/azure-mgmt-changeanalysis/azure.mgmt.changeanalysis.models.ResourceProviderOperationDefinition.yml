@@ -20,6 +20,8 @@ constructor:
     isRequired: true
     types:
     - <xref:Microsoft.ChangeAnalysis.models.ResourceProviderOperationDisplay>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
+    isRequired: true
   - name: display
+    isRequired: true

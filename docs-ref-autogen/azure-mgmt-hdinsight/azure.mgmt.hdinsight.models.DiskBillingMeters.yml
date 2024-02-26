@@ -29,7 +29,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.hdinsight.models.Tier>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: disk_rp_meter
+    isRequired: true
   - name: sku
+    isRequired: true
   - name: tier
+    isRequired: true

@@ -26,5 +26,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.deploymentmanager.models.WaitStepAttributes>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: attributes
+    isRequired: true

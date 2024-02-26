@@ -47,7 +47,7 @@ methods:
     types:
     - <xref:azure.mgmt.synapse.models.SqlPoolBlobAuditingPolicy>
     - <xref:typing.IO>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: blob_auditing_policy_name
     description: 'The name of the blob auditing policy. Default value is
 
@@ -97,7 +97,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: blob_auditing_policy_name
     description: 'The name of the blob auditing policy. Default value is
 
@@ -138,7 +138,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

@@ -20,7 +20,7 @@ constructor:
     | None = None, unmasked_ip_logging_status: str | _models.UnmaskedIpLoggingStatus
     = ''Disabled'', additional_workspaces: List[_models.AdditionalWorkspacesProperties]
     | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: tags
     description: Resource tags.
     types:

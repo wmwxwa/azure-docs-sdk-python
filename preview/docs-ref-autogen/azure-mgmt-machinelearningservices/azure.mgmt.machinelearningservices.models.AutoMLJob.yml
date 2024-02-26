@@ -25,7 +25,7 @@ constructor:
     | None = None, environment_id: str | None = None, environment_variables: Dict[str,
     str] | None = None, outputs: Dict[str, _models.JobOutput] | None = None, resources:
     _models.JobResourceConfiguration | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: description
     description: The asset description text.
     types:

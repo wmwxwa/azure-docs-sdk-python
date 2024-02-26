@@ -20,7 +20,7 @@ constructor:
     Objective | None = None, trial: CommandJob | CommandComponent | None = None, early_termination:
     BanditPolicy | MedianStoppingPolicy | TruncationSelectionPolicy | None = None,
     queue_settings: QueueSettings | None = None, **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: name
     description: Name of the job.
     types:
@@ -143,7 +143,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.Union>[<xref:PathLike>, <xref:str>, <xref:typing.IO>[<xref:typing.AnyStr>]]
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: kwargs
     description: Additional arguments to pass to the YAML serializer.
     types:
@@ -160,7 +160,7 @@ methods:
   signature: 'set_limits(*, max_concurrent_trials: int | None = None, max_total_trials:
     int | None = None, timeout: int | None = None, trial_timeout: int | None = None)
     -> None'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: max_concurrent_trials
     description: maximum concurrent trial number.
     types:
@@ -192,7 +192,7 @@ methods:
     :paramtype primary_metric: str'
   signature: 'set_objective(*, goal: str | None = None, primary_metric: str | None
     = None) -> None'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: goal
     description: 'Defines supported metric goals for hyperparameter tuning. Acceptable
       values are:'

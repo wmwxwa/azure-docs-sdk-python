@@ -15,5 +15,6 @@ constructor:
     isRequired: true
     types:
     - <xref:azure.mgmt.hdinsight.models.Autoscale>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: autoscale
+    isRequired: true

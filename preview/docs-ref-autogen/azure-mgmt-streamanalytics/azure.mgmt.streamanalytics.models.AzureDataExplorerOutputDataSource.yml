@@ -13,7 +13,7 @@ constructor:
   syntax: 'AzureDataExplorerOutputDataSource(*, cluster: str | None = None, database:
     str | None = None, table: str | None = None, authentication_mode: str | _models.AuthenticationMode
     = ''ConnectionString'', **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: cluster
     description: 'The name of the Azure Data Explorer cluster. Required on PUT
 

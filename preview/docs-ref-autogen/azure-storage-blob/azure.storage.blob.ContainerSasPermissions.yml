@@ -63,7 +63,7 @@ constructor:
     defaultValue: 'False'
     types:
     - <xref:bool>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: add
     description: Add a block to an append blob.
     types:

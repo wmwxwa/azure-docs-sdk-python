@@ -38,8 +38,9 @@ constructor:
     isRequired: true
     types:
     - <xref:int>
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: outputdirectoryid
+    isRequired: true
   - name: directory
     defaultValue: .
   - name: linkexpiryinminutes

@@ -12,7 +12,7 @@ constructor:
     str = ''PT0H2M0S'', health_check_retry_timeout: str = ''PT0H10M0S'', upgrade_timeout:
     str = ''P10675199DT02H48M05.4775807S'', upgrade_domain_timeout: str = ''P10675199DT02H48M05.4775807S'',
     **kwargs)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: failure_action
     description: 'The activation Mode of the service package. Known values are:
 

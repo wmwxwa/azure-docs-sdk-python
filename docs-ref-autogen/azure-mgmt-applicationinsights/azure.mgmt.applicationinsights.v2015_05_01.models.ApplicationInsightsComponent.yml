@@ -20,7 +20,7 @@ constructor:
     = None, retention_in_days: int = 90, disable_ip_masking: bool | None = None, immediate_purge_data_on30_days:
     bool | None = None, ingestion_mode: str | _models.IngestionMode = ''ApplicationInsights'',
     **kwargs: Any)'
-  keywordOnlyArguments:
+  keywordOnlyParameters:
   - name: location
     description: Resource location. Required.
     types:
