@@ -10,7 +10,8 @@ summary: 'Defines the url redirect action for the delivery rule.
 
   All required parameters must be populated in order to send to Azure.'
 constructor:
-  syntax: 'UrlRedirectAction(*, parameters: _models.UrlRedirectActionParameters, **kwargs)'
+  syntax: 'UrlRedirectAction(*, parameters: _models.UrlRedirectActionParameters, **kwargs:
+    Any)'
   parameters:
   - name: parameters
     description: Defines the parameters for the action. Required.

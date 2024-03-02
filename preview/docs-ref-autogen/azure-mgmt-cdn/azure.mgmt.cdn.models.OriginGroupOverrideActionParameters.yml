@@ -11,7 +11,7 @@ summary: 'Defines the parameters for the origin group override action.
   All required parameters must be populated in order to send to Azure.'
 constructor:
   syntax: 'OriginGroupOverrideActionParameters(*, type_name: str | _models.OriginGroupOverrideActionParametersTypeName,
-    origin_group: _models.ResourceReference, **kwargs)'
+    origin_group: _models.ResourceReference, **kwargs: Any)'
   parameters:
   - name: type_name
     description: Required. "DeliveryRuleOriginGroupOverrideActionParameters"

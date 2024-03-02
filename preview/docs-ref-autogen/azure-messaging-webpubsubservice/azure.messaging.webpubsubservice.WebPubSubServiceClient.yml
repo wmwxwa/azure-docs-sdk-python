@@ -258,11 +258,12 @@ methods:
     \ user_id: str\n:keyword roles: Roles that the connection with the generated token\
     \ will have.\n:paramtype roles: list[str]\n:keyword minutes_to_expire: The expire\
     \ time of the generated token.\n:paramtype minutes_to_expire: int\n:keyword dict[str,\
-    \ any] jwt_headers: Any headers you want to pass to jwt encoding.\n:returns: JSON\
-    \ response containing the web socket endpoint, the token and a url with the generated\
-    \ access token.\n:rtype: JSON\nExample:\n>>> get_client_access_token()\n{\n\n\
-    \   'baseUrl': 'wss://contoso.com/api/webpubsub/client/hubs/theHub',\n   'token':\
-    \ '<access-token>...',\n   'url': 'wss://contoso.com/api/webpubsub/client/hubs/theHub?access_token=<access-token>...'\n\
+    \ any] jwt_headers: Any headers you want to pass to jwt encoding.\n:keyword groups:\
+    \ Groups that the connection will join when it connects. Default value is None.\n\
+    :paramtype groups: list[str]\n:returns: JSON response containing the web socket\
+    \ endpoint, the token and a url with the generated access token.\n:rtype: JSON\n\
+    Example:\n>>> get_client_access_token()\n{\n\n   'baseUrl': 'wss://contoso.com/api/webpubsub/client/hubs/theHub',\n\
+    \   'token': '<access-token>...',\n   'url': 'wss://contoso.com/api/webpubsub/client/hubs/theHub?access_token=<access-token>...'\n\
     \n}"
   signature: 'get_client_access_token(**kwargs: Any) -> MutableMapping[str, Any]'
 - uid: azure.messaging.webpubsubservice.WebPubSubServiceClient.grant_permission

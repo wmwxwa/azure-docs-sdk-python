@@ -12,9 +12,9 @@ summary: 'Defines the parameters for RequestScheme match conditions.
 constructor:
   syntax: 'RequestSchemeMatchConditionParameters(*, type_name: str | _models.RequestSchemeMatchConditionParametersTypeName,
     operator: str | _models.RequestSchemeMatchConditionParametersOperator, negate_condition:
-    bool | None = None, transforms: List[str | _models.Transform] | None = None, match_values:
+    bool = False, transforms: List[str | _models.Transform] | None = None, match_values:
     List[str | _models.RequestSchemeMatchConditionParametersMatchValuesItem] | None
-    = None, **kwargs)'
+    = None, **kwargs: Any)'
   parameters:
   - name: type_name
     description: Required. "DeliveryRuleRequestSchemeConditionParameters"
