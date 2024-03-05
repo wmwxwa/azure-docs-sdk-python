@@ -34,11 +34,12 @@ methods:
     description: 'The parameters for creating or updating a healthcare workspace.
       Is either a
 
-      model type or a IO type. Required.'
+      Workspace type or a IO type. Required.'
     isRequired: true
     types:
     - <xref:azure.mgmt.healthcareapis.models.Workspace>
     - <xref:typing.IO>
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -95,6 +96,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -149,11 +151,12 @@ methods:
   - name: workspace_patch_resource
     description: 'The parameters for updating a specified workspace. Is either a
 
-      model type or a IO type. Required.'
+      WorkspacePatchResource type or a IO type. Required.'
     isRequired: true
     types:
     - <xref:azure.mgmt.healthcareapis.models.WorkspacePatchResource>
     - <xref:typing.IO>
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -210,6 +213,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -232,6 +236,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -246,7 +251,7 @@ methods:
   name: list_by_subscription
   summary: Lists all the available workspaces under the specified subscription.
   signature: 'list_by_subscription(**kwargs: Any) -> Iterable[Workspace]'
-  parameters:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

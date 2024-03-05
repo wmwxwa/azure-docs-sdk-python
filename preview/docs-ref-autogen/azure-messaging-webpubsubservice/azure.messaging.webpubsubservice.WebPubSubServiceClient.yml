@@ -30,6 +30,7 @@ constructor:
     types:
     - <xref:azure.core.credentials.TokenCredential>
     - <xref:azure.core.credentials.AzureKeyCredential>
+  keywordOnlyParameters:
   - name: api_version
     description: 'Api Version. The default value is "2021-10-01". Note that overriding
       this
@@ -104,7 +105,7 @@ methods:
     Close the connections in the hub.'
   signature: 'close_all_connections(*, excluded: List[str] | None = None, reason:
     str | None = None, **kwargs: Any) -> None'
-  parameters:
+  keywordOnlyParameters:
   - name: excluded
     description: 'Exclude these connectionIds when closing the connections in the
       hub. Default
@@ -136,6 +137,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: reason
     description: The reason closing the client connection. Default value is None.
     types:
@@ -163,6 +165,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: excluded
     description: 'Exclude these connectionIds when closing the connections in the
       group.
@@ -194,6 +197,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: excluded
     description: 'Exclude these connectionIds when closing the connections for the
       user.
@@ -258,11 +262,12 @@ methods:
     \ user_id: str\n:keyword roles: Roles that the connection with the generated token\
     \ will have.\n:paramtype roles: list[str]\n:keyword minutes_to_expire: The expire\
     \ time of the generated token.\n:paramtype minutes_to_expire: int\n:keyword dict[str,\
-    \ any] jwt_headers: Any headers you want to pass to jwt encoding.\n:returns: JSON\
-    \ response containing the web socket endpoint, the token and a url with the generated\
-    \ access token.\n:rtype: JSON\nExample:\n>>> get_client_access_token()\n{\n\n\
-    \   'baseUrl': 'wss://contoso.com/api/webpubsub/client/hubs/theHub',\n   'token':\
-    \ '<access-token>...',\n   'url': 'wss://contoso.com/api/webpubsub/client/hubs/theHub?access_token=<access-token>...'\n\
+    \ any] jwt_headers: Any headers you want to pass to jwt encoding.\n:keyword groups:\
+    \ Groups that the connection will join when it connects. Default value is None.\n\
+    :paramtype groups: list[str]\n:returns: JSON response containing the web socket\
+    \ endpoint, the token and a url with the generated access token.\n:rtype: JSON\n\
+    Example:\n>>> get_client_access_token()\n{\n\n   'baseUrl': 'wss://contoso.com/api/webpubsub/client/hubs/theHub',\n\
+    \   'token': '<access-token>...',\n   'url': 'wss://contoso.com/api/webpubsub/client/hubs/theHub?access_token=<access-token>...'\n\
     \n}"
   signature: 'get_client_access_token(**kwargs: Any) -> MutableMapping[str, Any]'
 - uid: azure.messaging.webpubsubservice.WebPubSubServiceClient.grant_permission
@@ -286,6 +291,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: target_name
     description: 'The meaning of the target depends on the specific permission. For
 
@@ -344,6 +350,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: target_name
     description: 'The meaning of the target depends on the specific permission. For
 
@@ -474,6 +481,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: target_name
     description: 'The meaning of the target depends on the specific permission. For
 
@@ -518,6 +526,7 @@ methods:
     isRequired: true
     types:
     - <xref:azure.core.rest.HttpRequest>
+  keywordOnlyParameters:
   - name: stream
     description: Whether the response payload will be streamed. Defaults to False.
     types:
@@ -541,6 +550,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.IO>
+  keywordOnlyParameters:
   - name: excluded
     description: Excluded connection Ids. Default value is None.
     types:
@@ -605,6 +615,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.IO>
+  keywordOnlyParameters:
   - name: excluded
     description: Excluded connection Ids. Default value is None.
     types:
@@ -641,6 +652,7 @@ methods:
     isRequired: true
     types:
     - <xref:typing.IO>
+  keywordOnlyParameters:
   - name: filter
     description: 'Following OData filter syntax to filter out the subscribers receiving
       the

@@ -21,14 +21,14 @@ methods:
     str = ''application/json'', **kwargs: Any) -> _models.ConfluentAgreementResource'
   parameters:
   - name: body
-    description: 'Confluent Marketplace Agreement resource. Is either a model type
-      or a IO type.
+    description: 'Confluent Marketplace Agreement resource. Is either a ConfluentAgreementResource
 
-      Default value is None.'
+      type or a IO type. Default value is None.'
     isRequired: true
     types:
     - <xref:azure.mgmt.confluent.models.ConfluentAgreementResource>
     - <xref:typing.IO>
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -52,7 +52,7 @@ methods:
 
     List Confluent marketplace agreements in the subscription.'
   signature: 'list(**kwargs: Any) -> Iterable[ConfluentAgreementResource]'
-  parameters:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

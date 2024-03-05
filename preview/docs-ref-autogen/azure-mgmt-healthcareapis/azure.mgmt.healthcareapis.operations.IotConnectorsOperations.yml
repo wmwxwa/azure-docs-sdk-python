@@ -39,11 +39,12 @@ methods:
     description: 'The parameters for creating or updating an IoT Connectors resource.
       Is
 
-      either a model type or a IO type. Required.'
+      either a IotConnector type or a IO type. Required.'
     isRequired: true
     types:
     - <xref:azure.mgmt.healthcareapis.models.IotConnector>
     - <xref:typing.IO>
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -107,6 +108,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -166,11 +168,12 @@ methods:
   - name: iot_connector_patch_resource
     description: 'The parameters for updating an IoT Connector. Is either a
 
-      model type or a IO type. Required.'
+      IotConnectorPatchResource type or a IO type. Required.'
     isRequired: true
     types:
     - <xref:azure.mgmt.healthcareapis.models.IotConnectorPatchResource>
     - <xref:typing.IO>
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -234,6 +237,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -262,6 +266,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:

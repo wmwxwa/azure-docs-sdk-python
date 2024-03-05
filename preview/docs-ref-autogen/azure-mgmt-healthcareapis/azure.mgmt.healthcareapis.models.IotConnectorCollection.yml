@@ -8,8 +8,8 @@ inheritances:
 summary: A collection of IoT Connectors.
 constructor:
   syntax: 'IotConnectorCollection(*, next_link: str | None = None, value: List[_models.IotConnector]
-    | None = None, **kwargs)'
-  parameters:
+    | None = None, **kwargs: Any)'
+  keywordOnlyParameters:
   - name: next_link
     description: The link used to get the next page of IoT Connectors.
     types:

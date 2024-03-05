@@ -21,12 +21,13 @@ methods:
     -> AsyncLROPoller[None]'
   parameters:
   - name: connected_cluster_resource_uri
-    description: 'The fully qualified Azure Resource manager identifier of
+    description: 'The fully qualified Azure Resource Manager identifier of
 
       the connected cluster resource. Required.'
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -68,12 +69,13 @@ methods:
   signature: 'async get(connected_cluster_resource_uri: str, **kwargs: Any) -> HybridIdentityMetadata'
   parameters:
   - name: connected_cluster_resource_uri
-    description: 'The fully qualified Azure Resource manager identifier of
+    description: 'The fully qualified Azure Resource Manager identifier of
 
       the connected cluster resource. Required.'
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -95,12 +97,13 @@ methods:
     -> AsyncIterable[HybridIdentityMetadata]'
   parameters:
   - name: connected_cluster_resource_uri
-    description: 'The fully qualified Azure Resource manager identifier of
+    description: 'The fully qualified Azure Resource Manager identifier of
 
       the connected cluster resource. Required.'
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -127,18 +130,21 @@ methods:
     *, content_type: str = ''application/json'', **kwargs: Any) -> _models.HybridIdentityMetadata'
   parameters:
   - name: connected_cluster_resource_uri
-    description: 'The fully qualified Azure Resource manager identifier of
+    description: 'The fully qualified Azure Resource Manager identifier of
 
       the connected cluster resource. Required.'
     isRequired: true
     types:
     - <xref:str>
   - name: body
-    description: Is either a HybridIdentityMetadata type or a IO type. Required.
+    description: 'Hybrid Identity Metadata resource definition. Is either a HybridIdentityMetadata
+
+      type or a IO type. Required.'
     isRequired: true
     types:
     - <xref:azure.mgmt.hybridcontainerservice.models.HybridIdentityMetadata>
     - <xref:typing.IO>
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

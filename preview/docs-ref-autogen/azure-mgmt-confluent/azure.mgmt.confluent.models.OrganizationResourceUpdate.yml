@@ -7,8 +7,9 @@ inheritances:
 - azure.mgmt.confluent._serialization.Model
 summary: Organization Resource update.
 constructor:
-  syntax: 'OrganizationResourceUpdate(*, tags: Dict[str, str] | None = None, **kwargs)'
-  parameters:
+  syntax: 'OrganizationResourceUpdate(*, tags: Dict[str, str] | None = None, **kwargs:
+    Any)'
+  keywordOnlyParameters:
   - name: tags
     description: ARM resource tags.
     types:

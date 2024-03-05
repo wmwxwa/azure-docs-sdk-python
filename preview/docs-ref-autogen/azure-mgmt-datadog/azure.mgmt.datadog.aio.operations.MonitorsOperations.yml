@@ -34,11 +34,13 @@ methods:
     types:
     - <xref:str>
   - name: body
-    description: Is either a model type or a IO type. Default value is None.
+    description: Is either a DatadogMonitorResource type or a IO type. Default value
+      is None.
     isRequired: true
     types:
     - <xref:azure.mgmt.datadog.models.DatadogMonitorResource>
     - <xref:typing.IO>
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -100,6 +102,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -155,11 +158,15 @@ methods:
     types:
     - <xref:str>
   - name: body
-    description: Is either a model type or a IO type. Default value is None.
+    description: 'Is either a DatadogMonitorResourceUpdateParameters type or a IO
+      type. Default
+
+      value is None.'
     isRequired: true
     types:
     - <xref:azure.mgmt.datadog.models.DatadogMonitorResourceUpdateParameters>
     - <xref:typing.IO>
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 
@@ -221,6 +228,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -252,6 +260,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -269,7 +278,7 @@ methods:
 
     List all monitors under the specified subscription.'
   signature: 'list(**kwargs: Any) -> AsyncIterable[DatadogMonitorResource]'
-  parameters:
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -304,6 +313,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -330,6 +340,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -364,6 +375,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -398,6 +410,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -430,6 +443,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -462,6 +476,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
+  keywordOnlyParameters:
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -495,11 +510,12 @@ methods:
     types:
     - <xref:str>
   - name: body
-    description: Is either a model type or a IO type. Default value is None.
+    description: Is either a DatadogApiKey type or a IO type. Default value is None.
     isRequired: true
     types:
     - <xref:azure.mgmt.datadog.models.DatadogApiKey>
     - <xref:typing.IO>
+  keywordOnlyParameters:
   - name: content_type
     description: 'Body Parameter content-type. Known values are: ''application/json''.
 

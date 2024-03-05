@@ -11,8 +11,8 @@ constructor:
     _models.PrivateLinkServiceConnectionState | None = None, remote_private_endpoint_connection:
     _models.PrivateLinkServiceProxyRemotePrivateEndpointConnection | None = None,
     group_connectivity_information: List[_models.GroupConnectivityInformation] | None
-    = None, **kwargs)'
-  parameters:
+    = None, **kwargs: Any)'
+  keywordOnlyParameters:
   - name: id
     description: NRP resource ID.
     types:

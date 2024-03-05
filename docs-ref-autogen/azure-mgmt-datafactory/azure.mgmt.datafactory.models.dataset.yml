@@ -64,11 +64,11 @@ summary: 'The Azure Data Factory nested object which identifies data within diff
 
   ServiceNowObjectDataset, SharePointOnlineListResourceDataset, ShopifyObjectDataset,
 
-  SnowflakeDataset, SparkObjectDataset, SqlServerTableDataset, SquareObjectDataset,
+  SnowflakeDataset, SnowflakeV2Dataset, SparkObjectDataset, SqlServerTableDataset,
 
-  SybaseTableDataset, TeradataTableDataset, VerticaTableDataset, WebTableDataset,
+  SquareObjectDataset, SybaseTableDataset, TeradataTableDataset, VerticaTableDataset,
 
-  XeroObjectDataset, XmlDataset, ZohoObjectDataset
+  WarehouseTableDataset, WebTableDataset, XeroObjectDataset, XmlDataset, ZohoObjectDataset
 
 
   All required parameters must be populated in order to send to Azure.'
@@ -79,7 +79,7 @@ constructor:
     Any] | None = None, parameters: Dict[str, _models.ParameterSpecification] | None
     = None, annotations: List[MutableMapping[str, Any]] | None = None, folder: _models.DatasetFolder
     | None = None, **kwargs: Any)'
-  parameters:
+  keywordOnlyParameters:
   - name: additional_properties
     description: 'Unmatched properties from the message are deserialized to this
 
