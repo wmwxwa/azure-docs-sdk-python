@@ -8,7 +8,7 @@ ms.service: core
 ---
 
 
-# Azure Core Tracing OpenCensus client library for Python - version 1.0.0a20240305003 
+# Azure Core Tracing OpenCensus client library for Python - version 1.0.0a20240306001 
 
 
 ## Getting started
