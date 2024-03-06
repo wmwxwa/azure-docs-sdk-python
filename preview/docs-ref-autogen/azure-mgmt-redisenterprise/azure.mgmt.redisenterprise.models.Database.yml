@@ -86,12 +86,6 @@ variables:
   name: type
   types:
   - <xref:str>
-- description: 'Azure Resource Manager metadata containing createdBy and modifiedBy
-
-    information.'
-  name: system_data
-  types:
-  - <xref:azure.mgmt.redisenterprise.models.SystemData>
 - description: 'Specifies whether redis clients can connect using TLS-encrypted or
 
     plaintext redis protocols. Default is TLS-encrypted. Known values are: "Encrypted"
@@ -121,7 +115,7 @@ variables:
     "Creating", "CreateFailed", "Updating", "UpdateFailed", "Deleting", "DeleteFailed",
     "Enabling",
 
-    "EnableFailed", "Disabling", "DisableFailed", and "Disabled".'
+    "EnableFailed", "Disabling", "DisableFailed", "Disabled", "Scaling", and "ScalingFailed".'
   name: resource_state
   types:
   - <xref:str>

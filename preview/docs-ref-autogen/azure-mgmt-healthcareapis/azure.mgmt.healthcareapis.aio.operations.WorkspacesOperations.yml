@@ -34,7 +34,7 @@ methods:
     description: 'The parameters for creating or updating a healthcare workspace.
       Is either a
 
-      model type or a IO type. Required.'
+      Workspace type or a IO type. Required.'
     isRequired: true
     types:
     - <xref:azure.mgmt.healthcareapis.models.Workspace>
@@ -153,7 +153,7 @@ methods:
   - name: workspace_patch_resource
     description: 'The parameters for updating a specified workspace. Is either a
 
-      model type or a IO type. Required.'
+      WorkspacePatchResource type or a IO type. Required.'
     isRequired: true
     types:
     - <xref:azure.mgmt.healthcareapis.models.WorkspacePatchResource>
