@@ -27,9 +27,10 @@ constructor:
     - <xref:str>
   keywordOnlyParameters:
   - name: api_version
-    description: 'Api Version. Default value is "2023-03-01-preview". Note that overriding
+    description: 'Api Version. Default value is "2023-11-01". Note that overriding
+      this
 
-      this default value may result in unsupported behavior.'
+      default value may result in unsupported behavior.'
     types:
     - <xref:str>
   - name: polling_interval
@@ -63,10 +64,6 @@ variables:
   name: private_link_resources
   types:
   - <xref:azure.mgmt.redisenterprise.operations.PrivateLinkResourcesOperations>
-- description: SkusOperations operations
-  name: skus
-  types:
-  - <xref:azure.mgmt.redisenterprise.operations.SkusOperations>
 methods:
 - uid: azure.mgmt.redisenterprise.RedisEnterpriseManagementClient.close
   name: close
