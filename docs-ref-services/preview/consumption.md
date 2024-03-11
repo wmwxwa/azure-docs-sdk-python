@@ -5,9 +5,9 @@ ms.date: 03/11/2024
 ms.topic: reference
 ms.devlang: python
 ms.service: consumption
+keywords: Azure, python, SDK, API, Consumption
 manager: douge
 ms.technology: azure
-keywords: Azure, python, SDK, API, Consumption
 ---
 # Azure Consumption libraries for python
 
