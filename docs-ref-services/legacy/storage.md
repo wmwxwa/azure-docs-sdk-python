@@ -5,9 +5,9 @@ ms.date: 03/19/2024
 ms.topic: reference
 ms.devlang: python
 ms.service: storage
-ms.technology: azure
-keywords: Azure, Python, SDK, API, Storage
 manager: douge
+keywords: Azure, Python, SDK, API, Storage
+ms.technology: azure
 ---
 # Azure Storage client libraries for Python
 

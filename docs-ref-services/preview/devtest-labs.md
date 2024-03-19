@@ -5,9 +5,9 @@ ms.date: 03/19/2024
 ms.topic: reference
 ms.devlang: python
 ms.service: devtest-lab
-ms.technology: azure
-keywords: Azure, python, SDK, API, DevTest Labs
 manager: routlaw
+keywords: Azure, python, SDK, API, DevTest Labs
+ms.technology: azure
 ---
 # Azure DevTest Labs libraries for python
 
