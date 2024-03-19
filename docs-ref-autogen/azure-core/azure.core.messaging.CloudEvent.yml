@@ -40,7 +40,7 @@ constructor:
     - <xref:object>
   - name: time
     description: Optional. The time (in UTC) the event was generated.
-    defaultValue: <object object at 0x0000022240A62CC0>
+    defaultValue: <object object at 0x000001FBEEB72CC0>
     types:
     - <xref:datetime.datetime>
   - name: dataschema
