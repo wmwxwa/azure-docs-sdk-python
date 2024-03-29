@@ -37,9 +37,10 @@ methods:
     types:
     - <xref:str>
   - name: security_policy
-    description: 'The security policy properties. Is either a model type or a IO type.
+    description: 'The security policy properties. Is either a SecurityPolicy type
+      or a IO
 
-      Required.'
+      type. Required.'
     isRequired: true
     types:
     - <xref:azure.mgmt.cdn.models.SecurityPolicy>
@@ -168,9 +169,9 @@ methods:
     types:
     - <xref:str>
   - name: security_policy_update_properties
-    description: 'Security policy update properties. Is either a model
+    description: 'Security policy update properties. Is either a
 
-      type or a IO type. Required.'
+      SecurityPolicyUpdateParameters type or a IO type. Required.'
     isRequired: true
     types:
     - <xref:azure.mgmt.cdn.models.SecurityPolicyUpdateParameters>
@@ -285,4 +286,4 @@ methods:
 attributes:
 - uid: azure.mgmt.cdn.aio.operations.SecurityPoliciesOperations.models
   name: models
-  signature: models = <module 'azure.mgmt.cdn.models' from 'C:\\hostedtoolcache\\windows\\Python\\3.11.7\\x64\\Lib\\site-packages\\azure\\mgmt\\cdn\\models\\__init__.py'>
+  signature: models = <module 'azure.mgmt.cdn.models' from 'C:\\hostedtoolcache\\windows\\Python\\3.11.8\\x64\\Lib\\site-packages\\azure\\mgmt\\cdn\\models\\__init__.py'>

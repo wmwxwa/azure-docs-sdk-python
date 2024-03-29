@@ -276,8 +276,8 @@ methods:
   - "Creates a file share.<!--[!code-python[Main](les\\file_samples_share_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
-    \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    203\\\\azure-storage-file-share-12.15.0b1\\\\samples\\\\file_samples_share_async.py\"\
+    \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
+    203\\\\azure-storage-file-share-12.16.0a20240327002\\\\samples\\\\file_samples_share_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   # Create share with Access Tier set to Hot\n   await share.create_share(access_tier=ShareAccessTier(\"\
@@ -325,8 +325,8 @@ methods:
   - "Creates a snapshot of the file share.<!--[!code-python[Main](les\\file_samples_share_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
-    \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    203\\\\azure-storage-file-share-12.15.0b1\\\\samples\\\\file_samples_share_async.py\"\
+    \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
+    203\\\\azure-storage-file-share-12.16.0a20240327002\\\\samples\\\\file_samples_share_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   await share.create_snapshot()\n\n   ````\n"
@@ -363,14 +363,15 @@ methods:
   summary: 'Marks the specified share for deletion. The share is
 
     later deleted during garbage collection.'
-  signature: 'async delete_share(delete_snapshots: bool | None = False, **kwargs)
-    -> None'
+  signature: 'async delete_share(delete_snapshots: bool | Literal[''include'', ''include-leased'']
+    | None = False, **kwargs: Any) -> None'
   parameters:
   - name: delete_snapshots
     description: Indicates if snapshots are to be deleted.
     isRequired: true
     types:
-    - <xref:bool>
+    - <xref:typing.Optional>[<xref:typing.Union>[<xref:bool>, <xref:typing.Literal>['include',
+      'include-leased']]]
   keywordOnlyParameters:
   - name: timeout
     description: 'Sets the server-side timeout for the operation in seconds. For more
@@ -399,8 +400,8 @@ methods:
   - "Deletes the share and any snapshots.<!--[!code-python[Main](les\\file_samples_share_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
-    \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    203\\\\azure-storage-file-share-12.15.0b1\\\\samples\\\\file_samples_share_async.py\"\
+    \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
+    203\\\\azure-storage-file-share-12.16.0a20240327002\\\\samples\\\\file_samples_share_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   await share.delete_share(delete_snapshots=True)\n\n   ````\n"
@@ -459,8 +460,8 @@ methods:
   - "Gets the share client from connection string.<!--[!code-python[Main](les\\file_samples_share.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
-    \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    203\\\\azure-storage-file-share-12.15.0b1\\\\samples\\\\file_samples_share.py\"\
+    \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
+    203\\\\azure-storage-file-share-12.16.0a20240327002\\\\samples\\\\file_samples_share.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   from azure.storage.fileshare import ShareClient\n   share = ShareClient.from_connection_string(self.connection_string,\
@@ -647,8 +648,8 @@ methods:
   - "Gets the share properties.<!--[!code-python[Main](les\\file_samples_hello_world_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
-    \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    203\\\\azure-storage-file-share-12.15.0b1\\\\samples\\\\file_samples_hello_world_async.py\"\
+    \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
+    203\\\\azure-storage-file-share-12.16.0a20240327002\\\\samples\\\\file_samples_hello_world_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   properties = await share.get_share_properties()\n\n   ````\n"
@@ -761,8 +762,8 @@ methods:
   - "List directories and files in the share.<!--[!code-python[Main](les\\file_samples_share_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
-    \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    203\\\\azure-storage-file-share-12.15.0b1\\\\samples\\\\file_samples_share_async.py\"\
+    \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
+    203\\\\azure-storage-file-share-12.16.0a20240327002\\\\samples\\\\file_samples_share_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   # Create a directory in the share\n   dir_client = await share.create_directory(\"\
@@ -868,8 +869,8 @@ methods:
   - "Sets the share metadata.<!--[!code-python[Main](les\\file_samples_share_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
-    \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    203\\\\azure-storage-file-share-12.15.0b1\\\\samples\\\\file_samples_share_async.py\"\
+    \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
+    203\\\\azure-storage-file-share-12.16.0a20240327002\\\\samples\\\\file_samples_share_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   data = {'category': 'test'}\n   await share.set_share_metadata(metadata=data)\n\
@@ -928,8 +929,8 @@ methods:
   - "Sets the share properties.<!--[!code-python[Main](les\\file_samples_share_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
-    \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    203\\\\azure-storage-file-share-12.15.0b1\\\\samples\\\\file_samples_share_async.py\"\
+    \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
+    203\\\\azure-storage-file-share-12.16.0a20240327002\\\\samples\\\\file_samples_share_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   # Set the tier for the first share to Hot\n   await share1.set_share_properties(access_tier=\"\
@@ -983,8 +984,8 @@ methods:
   - "Sets the share quota.<!--[!code-python[Main](les\\file_samples_share_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
-    \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    203\\\\azure-storage-file-share-12.15.0b1\\\\samples\\\\file_samples_share_async.py\"\
+    \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
+    203\\\\azure-storage-file-share-12.16.0a20240327002\\\\samples\\\\file_samples_share_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   # Set the quota for the share to 1GB\n   await share.set_share_quota(quota=1)\n\
@@ -993,18 +994,30 @@ attributes:
 - uid: azure.storage.fileshare.aio.ShareClient.api_version
   name: api_version
   summary: The version of the Storage API used for requests.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.fileshare.aio.ShareClient.location_mode
   name: location_mode
   summary: 'The location mode that the client is currently using.
 
 
     By default this will be "primary". Options include "primary" and "secondary".'
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.fileshare.aio.ShareClient.primary_endpoint
   name: primary_endpoint
   summary: The full primary endpoint URL.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.fileshare.aio.ShareClient.primary_hostname
   name: primary_hostname
   summary: The hostname of the primary endpoint.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.fileshare.aio.ShareClient.secondary_endpoint
   name: secondary_endpoint
   summary: 'The full secondary endpoint URL if configured.
@@ -1014,6 +1027,9 @@ attributes:
     hostname, use the optional
 
     *secondary_hostname* keyword argument on instantiation.'
+  return:
+    types:
+    - <xref:str>
   exceptions:
   - type: ValueError
 - uid: azure.storage.fileshare.aio.ShareClient.secondary_hostname
@@ -1025,6 +1041,9 @@ attributes:
     use the optional
 
     *secondary_hostname* keyword argument on instantiation.'
+  return:
+    types:
+    - <xref:typing.Optional>[<xref:str>]
 - uid: azure.storage.fileshare.aio.ShareClient.url
   name: url
   summary: 'The full endpoint URL to this entity, including SAS token if used.

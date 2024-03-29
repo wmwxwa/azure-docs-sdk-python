@@ -149,16 +149,16 @@ examples:
 - "Creating the BlobClient from a URL to a public blob (no auth needed).<!--[!code-python[Main](les\\\
   blob_samples_authentication.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
   : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\
-  \\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
-  \\200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\blob_samples_authentication.py\"\
+  \\windows\\\\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
+  \\200\\\\azure-storage-blob-12.20.0a20240327002\\\\samples\\\\blob_samples_authentication.py\"\
   , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
   : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.storage.blob\
   \ import BlobClient\n   blob_client = BlobClient.from_blob_url(blob_url=\"https://account.blob.core.windows.net/container/blob-name\"\
   )\n\n   ````\n\nCreating the BlobClient from a SAS URL to a blob.<!--[!code-python[Main](les\\\
   blob_samples_authentication.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
   : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\
-  \\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
-  \\200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\blob_samples_authentication.py\"\
+  \\windows\\\\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
+  \\200\\\\azure-storage-blob-12.20.0a20240327002\\\\samples\\\\blob_samples_authentication.py\"\
   , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
   : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.storage.blob\
   \ import BlobClient\n\n   sas_url = \"https://account.blob.core.windows.net/container/blob-name?sv=2015-04-05&st=2015-04-29T22%3A18%3A26Z&se=2015-04-30T02%3A23%3A26Z&sr=b&sp=rw&sip=168.1.5.60-168.1.5.70&spr=https&sig=Z%2FRHIX5Xcg0Mq2rqI3OlWTjEg2tYkboXr1P9ZUXDtkk%3D\"\
@@ -191,13 +191,14 @@ methods:
   - "Abort copying a blob from URL.<!--[!code-python[Main](les\\blob_samples_common.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
-    \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\blob_samples_common.py\", \"\
-    xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
-    : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   # Passing\
-    \ in copy id to abort copy operation\n   if props.copy.status != \"success\":\n\
-    \       copied_blob.abort_copy(copy_id)\n\n   # check copy status\n   props =\
-    \ copied_blob.get_blob_properties()\n   print(props.copy.status)\n\n   ````\n"
+    \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
+    200\\\\azure-storage-blob-12.20.0a20240327002\\\\samples\\\\blob_samples_common.py\"\
+    , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
+    highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
+    \n   # Passing in copy id to abort copy operation\n   if props.copy.status !=\
+    \ \"success\":\n       copied_blob.abort_copy(copy_id)\n\n   # check copy status\n\
+    \   props = copied_blob.get_blob_properties()\n   print(props.copy.status)\n\n\
+    \   ````\n"
 - uid: azure.storage.blob.BlobClient.acquire_lease
   name: acquire_lease
   summary: 'Requests a new lease.
@@ -295,12 +296,13 @@ methods:
   - "Acquiring a lease on a blob.<!--[!code-python[Main](les\\blob_samples_common.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
-    \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\blob_samples_common.py\", \"\
-    xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
-    : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   # Acquire\
-    \ a lease on the blob\n   lease = blob_client.acquire_lease()\n\n   # Delete blob\
-    \ by passing in the lease\n   blob_client.delete_blob(lease=lease)\n\n   ````\n"
+    \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
+    200\\\\azure-storage-blob-12.20.0a20240327002\\\\samples\\\\blob_samples_common.py\"\
+    , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
+    highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
+    \n   # Acquire a lease on the blob\n   lease = blob_client.acquire_lease()\n\n\
+    \   # Delete blob by passing in the lease\n   blob_client.delete_blob(lease=lease)\n\
+    \n   ````\n"
 - uid: azure.storage.blob.BlobClient.append_block
   name: append_block
   summary: Commits a new block of data to the end of the existing append blob.
@@ -654,6 +656,11 @@ methods:
       the prefix of the source_authorization string.'
     types:
     - <xref:str>
+  return:
+    description: Result after appending a new block.
+    types:
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Union>[<xref:str>, <xref:datetime>,
+      <xref:int>]]
 - uid: azure.storage.blob.BlobClient.clear_page
   name: clear_page
   summary: Clears a range of pages.
@@ -1398,12 +1405,13 @@ methods:
   - "Create a snapshot of the blob.<!--[!code-python[Main](les\\blob_samples_common.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
-    \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\blob_samples_common.py\", \"\
-    xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
-    : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   # Create a\
-    \ read-only snapshot of the blob at this point in time\n   snapshot_blob = blob_client.create_snapshot()\n\
-    \n   # Get the snapshot ID\n   print(snapshot_blob.get('snapshot'))\n\n   ````\n"
+    \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
+    200\\\\azure-storage-blob-12.20.0a20240327002\\\\samples\\\\blob_samples_common.py\"\
+    , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
+    highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
+    \n   # Create a read-only snapshot of the blob at this point in time\n   snapshot_blob\
+    \ = blob_client.create_snapshot()\n\n   # Get the snapshot ID\n   print(snapshot_blob.get('snapshot'))\n\
+    \n   ````\n"
 - uid: azure.storage.blob.BlobClient.delete_blob
   name: delete_blob
   summary: 'Marks the specified blob for deletion.
@@ -1527,7 +1535,7 @@ methods:
   - "Delete a blob.<!--[!code-python[Main](les\\blob_samples_hello_world.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
     : [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\
-    \\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.19.0b1\\\
+    \\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.20.0a20240327002\\\
     \\samples\\\\blob_samples_hello_world.py\", \"xml:space\": \"preserve\", \"force\"\
     : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   blob_client.delete_blob()\n\n   ````\n"
@@ -1725,7 +1733,7 @@ methods:
   - "Download a blob.<!--[!code-python[Main](les\\blob_samples_hello_world.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
     : [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\
-    \\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.19.0b1\\\
+    \\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.20.0a20240327002\\\
     \\samples\\\\blob_samples_hello_world.py\", \"xml:space\": \"preserve\", \"force\"\
     : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   with open(DEST_FILE, \"wb\") as my_blob:\n\
@@ -1918,9 +1926,9 @@ methods:
   - "Creating the BlobClient from a connection string.<!--[!code-python[Main](les\\\
     blob_samples_authentication.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
-    hostedtoolcache\\\\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\\
-    blob_samples_authentication.py\", \"xml:space\": \"preserve\", \"force\": false,\
+    hostedtoolcache\\\\windows\\\\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\
+    \\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.20.0a20240327002\\\\samples\\\
+    \\blob_samples_authentication.py\", \"xml:space\": \"preserve\", \"force\": false,\
     \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
     : false} -->\n\n````python\n\n   from azure.storage.blob import BlobClient\n \
     \  blob_client = BlobClient.from_connection_string(\n       self.connection_string,\
@@ -2041,11 +2049,11 @@ methods:
   - "Getting the properties for a blob.<!--[!code-python[Main](les\\blob_samples_common.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
-    \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\blob_samples_common.py\", \"\
-    xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
-    : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   properties\
-    \ = blob_client.get_blob_properties()\n\n   ````\n"
+    \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
+    200\\\\azure-storage-blob-12.20.0a20240327002\\\\samples\\\\blob_samples_common.py\"\
+    , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
+    highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
+    \n   properties = blob_client.get_blob_properties()\n\n   ````\n"
 - uid: azure.storage.blob.BlobClient.get_blob_tags
   name: get_blob_tags
   summary: 'The Get Tags operation enables users to get tags on a blob or specific
@@ -2167,6 +2175,8 @@ methods:
 
       its previous snapshot.'
     isRequired: true
+    types:
+    - <xref:str>
   - name: offset
     description: 'Start of byte range to use for getting valid page ranges.
 
@@ -2543,7 +2553,15 @@ methods:
       as a string or enum).
 
       These dialects can be passed through their respective classes, the QuickQueryDialect
-      enum or as a string'
+      enum or as a string
+
+
+
+      > [!NOTE]
+
+      > "ParquetDialect" is in preview, so some features may not work as intended.
+
+      >'
     types:
     - <xref:azure.storage.blob.DelimitedTextDialect>
     - <xref:azure.storage.blob.DelimitedJsonDialect>
@@ -2651,17 +2669,17 @@ methods:
   - "select/project on blob/or blob snapshot data by providing simple query expressions.<!--[!code-python[Main](les\\\
     blob_samples_query.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [],\
     \ \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\
-    \\windows\\\\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
-    \\200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\blob_samples_query.py\", \"\
-    xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
-    : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   errors = []\n\
-    \   def on_error(error):\n       errors.append(error)\n\n   # upload the csv file\n\
-    \   blob_client = blob_service_client.get_blob_client(container_name, \"csvfile\"\
-    )\n   with open(\"./sample-blobs/quick_query.csv\", \"rb\") as stream:\n     \
-    \  blob_client.upload_blob(stream, overwrite=True)\n\n   # select the second column\
-    \ of the csv file\n   query_expression = \"SELECT _2 from BlobStorage\"\n   input_format\
-    \ = DelimitedTextDialect(delimiter=',', quotechar='\"', lineterminator='\\n',\
-    \ escapechar=\"\", has_header=False)\n   output_format = DelimitedJsonDialect(delimiter='\\\
+    \\windows\\\\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
+    \\200\\\\azure-storage-blob-12.20.0a20240327002\\\\samples\\\\blob_samples_query.py\"\
+    , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
+    highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
+    \n   errors = []\n   def on_error(error):\n       errors.append(error)\n\n   #\
+    \ upload the csv file\n   blob_client = blob_service_client.get_blob_client(container_name,\
+    \ \"csvfile\")\n   with open(\"./sample-blobs/quick_query.csv\", \"rb\") as stream:\n\
+    \       blob_client.upload_blob(stream, overwrite=True)\n\n   # select the second\
+    \ column of the csv file\n   query_expression = \"SELECT _2 from BlobStorage\"\
+    \n   input_format = DelimitedTextDialect(delimiter=',', quotechar='\"', lineterminator='\\\
+    n', escapechar=\"\", has_header=False)\n   output_format = DelimitedJsonDialect(delimiter='\\\
     n')\n   reader = blob_client.query_blob(query_expression, on_error=on_error, blob_format=input_format,\
     \ output_format=output_format)\n   content = reader.readall()\n\n   ````\n"
 - uid: azure.storage.blob.BlobClient.resize_blob
@@ -2949,6 +2967,8 @@ methods:
     - <xref:int>
   return:
     description: Blob-updated property dict (Etag and last modified)
+    types:
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Union>[<xref:str>, <xref:datetime>]]
 - uid: azure.storage.blob.BlobClient.set_blob_tags
   name: set_blob_tags
   summary: "The Set Tags operation enables users to set tags on a blob or specific\
@@ -3423,6 +3443,8 @@ methods:
   - name: data
     description: The blob data.
     isRequired: true
+    types:
+    - <xref:typing.Union>[<xref:typing.Iterable>[<xref:typing.AnyStr>], <xref:typing.IO>[<xref:typing.AnyStr>]]
   - name: length
     description: Size of the block.
     isRequired: true
@@ -3932,7 +3954,7 @@ methods:
   - "Copy a blob from a URL.<!--[!code-python[Main](les\\blob_samples_common.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
     : [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\
-    \\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.19.0b1\\\
+    \\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.20.0a20240327002\\\
     \\samples\\\\blob_samples_common.py\", \"xml:space\": \"preserve\", \"force\"\
     : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   # Get the blob client with the source\
@@ -3978,7 +4000,7 @@ methods:
   - "Undeleting a blob.<!--[!code-python[Main](les\\blob_samples_common.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
     : [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\
-    \\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.19.0b1\\\
+    \\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.20.0a20240327002\\\
     \\samples\\\\blob_samples_common.py\", \"xml:space\": \"preserve\", \"force\"\
     : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   # Undelete the blob before the retention\
@@ -3986,13 +4008,16 @@ methods:
 - uid: azure.storage.blob.BlobClient.upload_blob
   name: upload_blob
   summary: Creates a new blob from a data source with automatic chunking.
-  signature: 'upload_blob(data: bytes | str | Iterable | IO, blob_type: str | BlobType
-    = BlobType.BLOCKBLOB, length: int | None = None, metadata: Dict[str, str] | None
-    = None, **kwargs) -> Dict[str, Any]'
+  signature: 'upload_blob(data: bytes | str | Iterable | IO[bytes], blob_type: str
+    | BlobType = BlobType.BLOCKBLOB, length: int | None = None, metadata: Dict[str,
+    str] | None = None, **kwargs) -> Dict[str, Any]'
   parameters:
   - name: data
     description: The blob data to upload.
     isRequired: true
+    types:
+    - <xref:typing.Union>[<xref:bytes>, <xref:str>, <xref:typing.Iterable>[<xref:typing.AnyStr>],
+      <xref:typing.IO>[<xref:typing.AnyStr>]]
   - name: blob_type
     description: 'The type of the blob. This can be
 
@@ -4248,8 +4273,8 @@ methods:
   - "Upload a blob to the container.<!--[!code-python[Main](les\\blob_samples_hello_world.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
-    \\Python\\\\3.11.7\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\blob_samples_hello_world.py\"\
+    \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
+    200\\\\azure-storage-blob-12.20.0a20240327002\\\\samples\\\\blob_samples_hello_world.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   # Upload content to block blob\n   with open(SOURCE_FILE, \"rb\") as data:\n\
@@ -4456,6 +4481,10 @@ methods:
       the prefix of the source_authorization string.'
     types:
     - <xref:str>
+  return:
+    description: Response from creating a new block blob for a given URL.
+    types:
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
 - uid: azure.storage.blob.BlobClient.upload_page
   name: upload_page
   summary: The Upload Pages operation writes a range of pages to a page blob.
@@ -4826,22 +4855,38 @@ methods:
       the prefix of the source_authorization string.'
     types:
     - <xref:str>
+  return:
+    description: Response after uploading pages from specified URL.
+    types:
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
 attributes:
 - uid: azure.storage.blob.BlobClient.api_version
   name: api_version
   summary: The version of the Storage API used for requests.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.blob.BlobClient.location_mode
   name: location_mode
   summary: 'The location mode that the client is currently using.
 
 
     By default this will be "primary". Options include "primary" and "secondary".'
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.blob.BlobClient.primary_endpoint
   name: primary_endpoint
   summary: The full primary endpoint URL.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.blob.BlobClient.primary_hostname
   name: primary_hostname
   summary: The hostname of the primary endpoint.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.blob.BlobClient.secondary_endpoint
   name: secondary_endpoint
   summary: 'The full secondary endpoint URL if configured.
@@ -4851,6 +4896,9 @@ attributes:
     hostname, use the optional
 
     *secondary_hostname* keyword argument on instantiation.'
+  return:
+    types:
+    - <xref:str>
   exceptions:
   - type: ValueError
 - uid: azure.storage.blob.BlobClient.secondary_hostname
@@ -4862,6 +4910,9 @@ attributes:
     use the optional
 
     *secondary_hostname* keyword argument on instantiation.'
+  return:
+    types:
+    - <xref:typing.Optional>[<xref:str>]
 - uid: azure.storage.blob.BlobClient.url
   name: url
   summary: 'The full endpoint URL to this entity, including SAS token if used.

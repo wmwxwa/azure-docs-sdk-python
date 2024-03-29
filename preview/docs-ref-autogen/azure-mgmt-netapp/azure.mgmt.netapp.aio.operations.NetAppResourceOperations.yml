@@ -52,9 +52,11 @@ methods:
     types:
     - <xref:str>
   - name: network_features
-    description: 'Network features available to the volume. Known values are: "Basic",
+    description: 'Network features available to the volume, some such. Known values
+      are:
 
-      "Standard", "Basic_Standard", and "Standard_Basic". Default value is "Basic".'
+      "Basic", "Standard", "Basic_Standard", and "Standard_Basic". Default value is
+      "Basic".'
     isRequired: true
     types:
     - <xref:str>
@@ -295,4 +297,4 @@ methods:
 attributes:
 - uid: azure.mgmt.netapp.aio.operations.NetAppResourceOperations.models
   name: models
-  signature: models = <module 'azure.mgmt.netapp.models' from 'C:\\hostedtoolcache\\windows\\Python\\3.11.7\\x64\\Lib\\site-packages\\azure\\mgmt\\netapp\\models\\__init__.py'>
+  signature: models = <module 'azure.mgmt.netapp.models' from 'C:\\hostedtoolcache\\windows\\Python\\3.11.8\\x64\\Lib\\site-packages\\azure\\mgmt\\netapp\\models\\__init__.py'>
