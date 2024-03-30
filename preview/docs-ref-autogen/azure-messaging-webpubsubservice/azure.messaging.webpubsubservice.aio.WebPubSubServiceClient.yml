@@ -550,7 +550,8 @@ methods:
 
     Broadcast content inside request body to all the connected client connections.'
   signature: 'async send_to_all(message: IO, *, excluded: List[str] | None = None,
-    filter: str | None = None, **kwargs: Any) -> None'
+    filter: str | None = None, content_type: str | None = None, **kwargs: Any) ->
+    None'
   parameters:
   - name: message
     description: The payload body. Required.
@@ -569,6 +570,11 @@ methods:
       messages. Default value is None.'
     types:
     - <xref:str>
+  - name: content_type
+    description: The content type of the payload. Default value is None. Allowed values
+      are 'application/json', 'application/octet-stream' and 'text/plain'
+    types:
+    - <xref:str>
   return:
     description: None
     types:
@@ -581,8 +587,8 @@ methods:
 
 
     Send content inside request body to the specific connection.'
-  signature: 'async send_to_connection(connection_id: str, message: IO, **kwargs:
-    Any) -> None'
+  signature: 'async send_to_connection(connection_id: str, message: IO, *, content_type:
+    str | None = None, **kwargs: Any) -> None'
   parameters:
   - name: connection_id
     description: The connection Id. Required.
@@ -594,6 +600,12 @@ methods:
     isRequired: true
     types:
     - <xref:typing.IO>
+  keywordOnlyParameters:
+  - name: content_type
+    description: The content type of the payload. Default value is None. Allowed values
+      are 'application/json', 'application/octet-stream' and 'text/plain'
+    types:
+    - <xref:str>
   return:
     description: None
     types:
@@ -607,7 +619,8 @@ methods:
 
     Send content inside request body to a group of connections.'
   signature: 'async send_to_group(group: str, message: IO, *, excluded: List[str]
-    | None = None, filter: str | None = None, **kwargs: Any) -> None'
+    | None = None, filter: str | None = None, content_type: str | None = None, **kwargs:
+    Any) -> None'
   parameters:
   - name: group
     description: 'Target group name, which length should be greater than 0 and less
@@ -634,6 +647,11 @@ methods:
       messages. Default value is None.'
     types:
     - <xref:str>
+  - name: content_type
+    description: The content type of the payload. Default value is None. Allowed values
+      are 'application/json', 'application/octet-stream' and 'text/plain'
+    types:
+    - <xref:str>
   return:
     description: None
     types:
@@ -647,7 +665,7 @@ methods:
 
     Send content inside request body to the specific user.'
   signature: 'async send_to_user(user_id: str, message: IO, *, filter: str | None
-    = None, **kwargs: Any) -> None'
+    = None, content_type: str | None = None, **kwargs: Any) -> None'
   parameters:
   - name: user_id
     description: The user Id. Required.
@@ -665,6 +683,11 @@ methods:
       the
 
       messages. Default value is None.'
+    types:
+    - <xref:str>
+  - name: content_type
+    description: The content type of the payload. Default value is None. Allowed values
+      are 'application/json', 'application/octet-stream' and 'text/plain'
     types:
     - <xref:str>
   return:
