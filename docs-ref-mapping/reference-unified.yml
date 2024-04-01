@@ -12,7 +12,7 @@
         href: ~/docs-ref-services/{moniker}/mgmt-advisor-readme.md
         children:
         - azure-mgmt-advisor
-  - name: Agrifood
+  - name: AgriFood
     href: ~/docs-ref-services/{moniker}/agrifood.md
     landingPageType: Service
     items:
@@ -618,6 +618,14 @@
         href: ~/docs-ref-services/{moniker}/mgmt-cdn-readme.md
         children:
         - azure-mgmt-cdn
+  - name: Core
+    href: ~/docs-ref-services/{moniker}/core.md
+    landingPageType: Service
+    items:
+    - name: Core Tracing Opencensus
+      href: ~/docs-ref-services/{moniker}/core-tracing-opencensus-readme.md
+      children:
+      - azure-core-tracing-opencensus
   - name: Cosmos DB
     href: ~/docs-ref-services/{moniker}/cosmos-db.md
     landingPageType: Service
@@ -1876,6 +1884,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-redisenterprise-readme.md
         children:
         - azure-mgmt-redisenterprise
+  - name: Region Move
+    href: ~/docs-ref-services/{moniker}/region-move.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Region Move (deprecated)
+        href: ~/docs-ref-services/{moniker}/mgmt-regionmove-readme.md
+        children:
+        - azure-mgmt-regionmove
   - name: Relay
     href: ~/docs-ref-services/{moniker}/relay.md
     landingPageType: Service
@@ -2449,10 +2467,6 @@
           href: ~/docs-ref-services/{moniker}/core-experimental-readme.md
           children:
           - azure-core-experimental
-        - name: Tracing Opencensus
-          href: ~/docs-ref-services/{moniker}/core-tracing-opencensus-readme.md
-          children:
-          - azure-core-tracing-opencensus
         - name: Tracing Opentelemetry
           href: ~/docs-ref-services/{moniker}/core-tracing-opentelemetry-readme.md
           children:
