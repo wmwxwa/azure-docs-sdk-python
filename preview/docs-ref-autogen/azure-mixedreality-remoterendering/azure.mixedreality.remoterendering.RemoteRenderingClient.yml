@@ -14,7 +14,7 @@ summary: 'A client for the Azure Remote Rendering Service.
   lifetime of remote rendering sessions.'
 constructor:
   syntax: 'RemoteRenderingClient(endpoint: str, account_id: str, account_domain: str,
-    credential: TokenCredential | AccessToken, **kwargs: Any)'
+    credential: AzureKeyCredential | TokenCredential | AccessToken, **kwargs)'
   parameters:
   - name: endpoint
     description: 'The rendering service endpoint. This determines the region in which
@@ -46,16 +46,21 @@ constructor:
       from the Mixed Reality Secure Token Service (STS).'
     isRequired: true
     types:
-    - <xref:typing.Union>[<xref:TokenCredential>, <xref:AzureKeyCredential>, <xref:AccessToken>]
+    - <xref:typing.Union>[<xref:AzureKeyCredential>, <xref:TokenCredential>, <xref:AccessToken>]
   keywordOnlyParameters:
   - name: api_version
     description: 'The API version of the service to use for requests. It defaults
       to the latest service version.
 
       Setting to an older version may result in reduced feature compatibility.'
-    types:
-    - <xref:str>
-    - <xref:azure.mixedreality.remoterenderings.RemoteRenderingApiVersion>
+  - name: polling_interval
+    description: Seconds to wait between each check, whether the session is ready
+      yet.
+  - name: authentication_endpoint_url
+    description: 'Overwrite for the authentication endpoint. Usually using account_domain
+      for the authentication domain is enough.
+
+      If used, specify the whole authentication url including the schema.'
 methods:
 - uid: azure.mixedreality.remoterendering.RemoteRenderingClient.begin_asset_conversion
   name: begin_asset_conversion
@@ -179,22 +184,26 @@ methods:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mixedreality.remoterendering.RemoteRenderingClient.list_asset_conversions
   name: list_asset_conversions
-  summary: 'Gets conversions for the remote rendering account.
+  summary: 'Returns list of conversions for the remote rendering account.
 
     :rtype: ItemPaged[AssetConversion]
 
-    :raises ~azure.core.exceptions.HttpResponseError:'
+    :raises ~azure.core.exceptions.HttpResponseError:
+
+    :return: List of conversion for the remote rendering account.'
   signature: list_asset_conversions(**kwargs) -> ItemPaged[AssetConversion]
 - uid: azure.mixedreality.remoterendering.RemoteRenderingClient.list_rendering_sessions
   name: list_rendering_sessions
-  summary: "List rendering sessions in the 'Ready' or 'Starting' state. Does not return\
-    \ stopped or failed rendering\n   sessions."
+  summary: 'Returns list of rendering sessions in the ''Ready'' or ''Starting'' state.
+
+    Does not return stopped or failed rendering sessions.
+
+    :rtype: ItemPaged[RenderingSession]
+
+    :raises ~azure.core.exceptions.HttpResponseError:
+
+    :return: List of rendering sessions in the ''Ready'' or ''Starting'' state.'
   signature: list_rendering_sessions(**kwargs) -> ItemPaged[RenderingSession]
-  return:
-    types:
-    - <xref:ItemPaged>[<xref:azure.mixedreality.remoterendering.RenderingSession>]
-  exceptions:
-  - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mixedreality.remoterendering.RemoteRenderingClient.stop_rendering_session
   name: stop_rendering_session
   signature: 'stop_rendering_session(session_id: str, **kwargs: Any) -> None'

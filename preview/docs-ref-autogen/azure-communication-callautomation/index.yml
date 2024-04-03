@@ -6,3 +6,7 @@ type: distribution
 packages:
 - azure.communication.callautomation
 - azure.communication.callautomation.aio
+- azure.communication.callautomation.streaming
+modules:
+- azure.communication.callautomation.streaming.models
+- azure.communication.callautomation.streaming.streaming_data_parser
