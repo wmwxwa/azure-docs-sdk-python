@@ -8,7 +8,7 @@ inheritances:
 summary: 'Translation result.
 
 
-  All required parameters must be populated in order to send to Azure.'
+  All required parameters must be populated in order to send to server.'
 constructor:
   syntax: 'Translation(*args: Any, **kwargs: Any)'
 variables:
@@ -25,7 +25,7 @@ variables:
     toScript parameter.'
   name: transliteration
   types:
-  - <xref:azure.ai.translation.text.models.Transliteration>
+  - <xref:azure.ai.translation.text.models.TransliteratedText>
 - description: Alignment information.
   name: alignment
   types:
@@ -35,6 +35,19 @@ variables:
   types:
   - <xref:azure.ai.translation.text.models.SentenceLength>
 methods:
+- uid: azure.ai.translation.text.models.Translation.as_dict
+  name: as_dict
+  summary: Return a dict that can be JSONify using json.dump.
+  signature: 'as_dict(*, exclude_readonly: bool = False) -> Dict[str, Any]'
+  keywordOnlyParameters:
+  - name: exclude_readonly
+    description: Whether to remove the readonly properties.
+    types:
+    - <xref:bool>
+  return:
+    description: A dict JSON compatible object
+    types:
+    - <xref:dict>
 - uid: azure.ai.translation.text.models.Translation.clear
   name: clear
   signature: clear() -> None
@@ -99,4 +112,4 @@ attributes:
   name: transliteration
   summary: An object giving the translated text in the script specified by the toScript
     parameter.
-  signature: 'transliteration: _models.Transliteration | None'
+  signature: 'transliteration: _models.TransliteratedText | None'
