@@ -113,8 +113,7 @@ constructor:
   - name: volume_type
     description: 'What type of volume is this. For destination volumes in Cross Region
 
-      Replication, set type to DataProtection. For creating clone volume, set type
-      to ShortTermClone.'
+      Replication, set type to DataProtection.'
     types:
     - <xref:str>
   - name: data_protection
@@ -421,8 +420,7 @@ variables:
   - <xref:list>[<xref:azure.mgmt.netapp.models.MountTargetProperties>]
 - description: 'What type of volume is this. For destination volumes in Cross Region
 
-    Replication, set type to DataProtection. For creating clone volume, set type to
-    ShortTermClone.'
+    Replication, set type to DataProtection.'
   name: volume_type
   types:
   - <xref:str>
@@ -678,9 +676,3 @@ variables:
   name: originating_resource_id
   types:
   - <xref:str>
-- description: 'Space shared by short term clone volume with parent volume in
-
-    bytes.'
-  name: inherited_size_in_bytes
-  types:
-  - <xref:int>
