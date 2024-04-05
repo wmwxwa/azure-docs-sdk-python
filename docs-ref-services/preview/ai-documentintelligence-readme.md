@@ -1,12 +1,12 @@
 ---
 title: Azure AI Document Intelligence client library for Python
 keywords: Azure, python, SDK, API, azure-ai-documentintelligence, documentintelligence
-ms.date: 03/08/2024
+ms.date: 04/05/2024
 ms.topic: reference
 ms.devlang: python
 ms.service: documentintelligence
 ---
-# Azure AI Document Intelligence client library for Python - version 1.0.0b2 
+# Azure AI Document Intelligence client library for Python - version 1.0.0a20240405001 
 
 
 Azure AI Document Intelligence ([previously known as Form Recognizer][service-rename]) is a cloud service that uses machine learning to analyze text and structured data from your documents. It includes the following main features:
@@ -21,7 +21,13 @@ Azure AI Document Intelligence ([previously known as Form Recognizer][service-re
 
 [Source code][python-di-src]
 | [Package (PyPI)][python-di-pypi]
+| [API reference documentation][python-di-ref-docs]
+| [Product documentation][python-di-product-docs]
 | [Samples][python-di-samples]
+
+## _Disclaimer_
+
+_The API version 2024-02-29-preview is currently only available in some Azure regions, the available regions can be found from [here][python-di-available-regions]._
 
 ## Getting started
 
@@ -445,31 +451,40 @@ if result.documents:
                     f"......found field of type '{field.type}' with value '{field_value}' and with confidence {field.confidence}"
                 )
 
-# iterate over tables, lines, and selection marks on each page
-for page in result.pages:
-    print(f"\nLines found on page {page.page_number}")
-    if page.lines:
-        for line in page.lines:
-            print(f"...Line '{line.content}'")
-    if page.words:
-        for word in page.words:
-            print(f"...Word '{word.content}' has a confidence of {word.confidence}")
-    if page.selection_marks:
-        print(f"\nSelection marks found on page {page.page_number}")
-        for selection_mark in page.selection_marks:
-            print(
-                f"...Selection mark is '{selection_mark.state}' and has a confidence of {selection_mark.confidence}"
-            )
+    # Extract table cell values
+    SYMBOL_OF_TABLE_TYPE = "array"
+    KEY_OF_VALUE_OBJECT = "valueObject"
+    KEY_OF_CELL_CONTENT = "content"
 
-if result.tables:
-    for i, table in enumerate(result.tables):
-        print(f"\nTable {i + 1} can be found on page:")
-        if table.bounding_regions:
-            for region in table.bounding_regions:
-                print(f"...{region.page_number}")
-        for cell in table.cells:
-            print(f"...Cell[{cell.row_index}][{cell.column_index}] has text '{cell.content}'")
-print("-----------------------------------")
+    for doc in result.documents:
+        if not doc.fields is None:
+            for field_name, field_value in doc.fields.items():
+                # "MaintenanceLog" is the table field name which you labeled. Table cell information store as array in document field.
+                if (
+                    field_name == "MaintenanceLog"
+                    and field_value.type == SYMBOL_OF_TABLE_TYPE
+                    and field_value.value_array
+                ):
+                    col_names = []
+                    sample_obj = field_value.value_array[0]
+                    if KEY_OF_VALUE_OBJECT in sample_obj:
+                        col_names = list(sample_obj[KEY_OF_VALUE_OBJECT].keys())
+                    print("----Extracting Table Cell Values----")
+                    table_rows = []
+                    for obj in field_value.value_array:
+                        if KEY_OF_VALUE_OBJECT in obj:
+                            value_obj = obj[KEY_OF_VALUE_OBJECT]
+                            extract_value_by_col_name = lambda key: (
+                                value_obj[key].get(KEY_OF_CELL_CONTENT)
+                                if key in value_obj
+                                and KEY_OF_CELL_CONTENT in value_obj[key]
+                                else "None"
+                            )
+                            row_data = list(map(extract_value_by_col_name, col_names))
+                            table_rows.append(row_data)
+                    print_table(col_names, table_rows)
+
+print("------------------------------------")
 ```
 
 <!-- END SNIPPET -->
@@ -677,9 +692,14 @@ additional questions or comments.
 
 <!-- LINKS -->
 [code_of_conduct]: https://opensource.microsoft.com/codeofconduct/
-[default_azure_credential]: https://github.com/Azure/azure-sdk-for-python/tree/azure-ai-documentintelligence_1.0.0b2/sdk/identity/azure-identity#defaultazurecredential
+[default_azure_credential]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/identity/azure-identity#defaultazurecredential
 [azure_sub]: https://azure.microsoft.com/free/
-[python-di-product-docs]: https://learn.microsoft.com/azure/applied-ai-services/form-recognizer/overview?view=form-recog-3.0.0
+[python-di-src]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/documentintelligence/azure-ai-documentintelligence/azure/ai/documentintelligence
+[python-di-pypi]: https://pypi.org/project/azure-ai-documentintelligence/
+[python-di-product-docs]: https://learn.microsoft.com/azure/ai-services/document-intelligence/overview?view=doc-intel-4.0.0&viewFallbackFrom=form-recog-3.0.0
+[python-di-ref-docs]: https://aka.ms/azsdk/python/documentintelligence/docs
+[python-di-samples]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/documentintelligence/azure-ai-documentintelligence/samples
+[python-di-available-regions]: https://aka.ms/azsdk/documentintelligence/available-regions
 [azure_portal]: https://ms.portal.azure.com/
 [regional_endpoints]: https://azure.microsoft.com/global-infrastructure/services/?products=form-recognizer
 [cognitive_resource_portal]: https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesFormRecognizer
@@ -698,15 +718,15 @@ additional questions or comments.
 [cognitive_authentication_api_key]: /azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2Cwindows#get-the-keys-for-your-resource
 [register_aad_app]: /azure/cognitive-services/authentication#assign-a-role-to-a-service-principal
 [custom_subdomain]: /azure/cognitive-services/authentication#create-a-resource-with-a-custom-subdomain
-[azure_identity]: https://github.com/Azure/azure-sdk-for-python/tree/azure-ai-documentintelligence_1.0.0b2/sdk/identity/azure-identity
+[azure_identity]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/identity/azure-identity
 [sdk_logging_docs]: /azure/developer/python/sdk/azure-sdk-logging
-[migration-guide]: https://github.com/Azure/azure-sdk-for-python/blob/azure-ai-documentintelligence_1.0.0b2/sdk/documentintelligence/azure-ai-documentintelligence/MIGRATION_GUIDE.md
-[sample_readme]: https://github.com/Azure/azure-sdk-for-python/tree/azure-ai-documentintelligence_1.0.0b2/sdk/documentintelligence/azure-ai-documentintelligence/samples
-[addon_barcodes_sample]: https://github.com/Azure/azure-sdk-for-python/tree/azure-ai-documentintelligence_1.0.0b2/sdk/documentintelligence/azure-ai-documentintelligence/samples/sample_analyze_addon_barcodes.py
-[addon_fonts_sample]: https://github.com/Azure/azure-sdk-for-python/tree/azure-ai-documentintelligence_1.0.0b2/sdk/documentintelligence/azure-ai-documentintelligence/samples/sample_analyze_addon_fonts.py
-[addon_formulas_sample]: https://github.com/Azure/azure-sdk-for-python/tree/azure-ai-documentintelligence_1.0.0b2/sdk/documentintelligence/azure-ai-documentintelligence/samples/sample_analyze_addon_formulas.py
-[addon_highres_sample]: https://github.com/Azure/azure-sdk-for-python/tree/azure-ai-documentintelligence_1.0.0b2/sdk/documentintelligence/azure-ai-documentintelligence/samples/sample_analyze_addon_highres.py
-[addon_languages_sample]: https://github.com/Azure/azure-sdk-for-python/tree/azure-ai-documentintelligence_1.0.0b2/sdk/documentintelligence/azure-ai-documentintelligence/samples/sample_analyze_addon_languages.py
-[query_fields_sample]: https://github.com/Azure/azure-sdk-for-python/tree/azure-ai-documentintelligence_1.0.0b2/sdk/documentintelligence/azure-ai-documentintelligence/samples/sample_analyze_addon_query_fields.py
+[migration-guide]: https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/documentintelligence/azure-ai-documentintelligence/MIGRATION_GUIDE.md
+[sample_readme]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/documentintelligence/azure-ai-documentintelligence/samples
+[addon_barcodes_sample]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/documentintelligence/azure-ai-documentintelligence/samples/sample_analyze_addon_barcodes.py
+[addon_fonts_sample]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/documentintelligence/azure-ai-documentintelligence/samples/sample_analyze_addon_fonts.py
+[addon_formulas_sample]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/documentintelligence/azure-ai-documentintelligence/samples/sample_analyze_addon_formulas.py
+[addon_highres_sample]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/documentintelligence/azure-ai-documentintelligence/samples/sample_analyze_addon_highres.py
+[addon_languages_sample]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/documentintelligence/azure-ai-documentintelligence/samples/sample_analyze_addon_languages.py
+[query_fields_sample]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/documentintelligence/azure-ai-documentintelligence/samples/sample_analyze_addon_query_fields.py
 [service-rename]: https://techcommunity.microsoft.com/t5/azure-ai-services-blog/azure-form-recognizer-is-now-azure-ai-document-intelligence-with/ba-p/3875765
 
