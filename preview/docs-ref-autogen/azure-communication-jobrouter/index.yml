@@ -6,3 +6,4 @@ type: distribution
 packages:
 - azure.communication.jobrouter
 - azure.communication.jobrouter.aio
+- azure.communication.jobrouter.models

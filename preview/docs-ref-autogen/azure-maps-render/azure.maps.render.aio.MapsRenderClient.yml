@@ -29,23 +29,25 @@ examples:
   async_samples\\sample_authentication_async.py )]-->\n\n<!-- literal_block {\"ids\"\
   : [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
   : \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\
-  \\py2docfx\\\\dist_temp\\\\47\\\\azure-maps-render-1.0.0b2\\\\samples\\\\async_samples\\\
-  \\sample_authentication_async.py\", \"xml:space\": \"preserve\", \"force\": false,\
-  \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
-  : false} -->\n\n````python\n\n   from azure.core.credentials import AzureKeyCredential\n\
-  \   from azure.maps.render.aio import MapsRenderClient\n\n   subscription_key =\
-  \ os.getenv(\"AZURE_SUBSCRIPTION_KEY\")\n\n   maps_render_client = MapsRenderClient(credential=AzureKeyCredential(subscription_key))\n\
-  \n   ````\n\nCreating the MapsRenderClient with a token credential.<!--[!code-python[Main](les\\\
+  \\py2docfx\\\\dist_temp\\\\47\\\\azure-maps-render-1.0.0a20240405001\\\\samples\\\
+  \\async_samples\\\\sample_authentication_async.py\", \"xml:space\": \"preserve\"\
+  , \"force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\"\
+  : 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.core.credentials import\
+  \ AzureKeyCredential\n   from azure.maps.render.aio import MapsRenderClient\n\n\
+  \   subscription_key = os.getenv(\"AZURE_SUBSCRIPTION_KEY\")\n\n   maps_render_client\
+  \ = MapsRenderClient(credential=AzureKeyCredential(subscription_key))\n\n   ````\n\
+  \nCreating the MapsRenderClient with a token credential.<!--[!code-python[Main](les\\\
   async_samples\\sample_authentication_async.py )]-->\n\n<!-- literal_block {\"ids\"\
   : [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
   : \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\
-  \\py2docfx\\\\dist_temp\\\\47\\\\azure-maps-render-1.0.0b2\\\\samples\\\\async_samples\\\
-  \\sample_authentication_async.py\", \"xml:space\": \"preserve\", \"force\": false,\
-  \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
-  : false} -->\n\n````python\n\n   from azure.identity.aio import DefaultAzureCredential\n\
-  \   from azure.maps.render.aio import MapsRenderClient\n\n   credential = DefaultAzureCredential()\n\
-  \   maps_client_id = os.getenv(\"AZURE_MAPS_CLIENT_ID\")\n\n   maps_render_client\
-  \ = MapsRenderClient(client_id=maps_client_id, credential=credential)\n\n   ````\n"
+  \\py2docfx\\\\dist_temp\\\\47\\\\azure-maps-render-1.0.0a20240405001\\\\samples\\\
+  \\async_samples\\\\sample_authentication_async.py\", \"xml:space\": \"preserve\"\
+  , \"force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\"\
+  : 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.identity.aio import\
+  \ DefaultAzureCredential\n   from azure.maps.render.aio import MapsRenderClient\n\
+  \n   credential = DefaultAzureCredential()\n   maps_client_id = os.getenv(\"AZURE_MAPS_CLIENT_ID\"\
+  )\n\n   maps_render_client = MapsRenderClient(client_id=maps_client_id, credential=credential)\n\
+  \n   ````\n"
 methods:
 - uid: azure.maps.render.aio.MapsRenderClient.get_copyright_caption
   name: get_copyright_caption
@@ -71,7 +73,7 @@ methods:
     async_samples\\sample_get_copyright_caption_async.py )]-->\n\n<!-- literal_block\
     \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\
     : [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.8\\\\x64\\\
-    \\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\47\\\\azure-maps-render-1.0.0b2\\\
+    \\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\47\\\\azure-maps-render-1.0.0a20240405001\\\
     \\samples\\\\async_samples\\\\sample_get_copyright_caption_async.py\", \"xml:space\"\
     : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.core.credentials\
@@ -134,7 +136,7 @@ methods:
     async_samples\\sample_get_copyright_for_tile_async.py )]-->\n\n<!-- literal_block\
     \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\
     : [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.8\\\\x64\\\
-    \\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\47\\\\azure-maps-render-1.0.0b2\\\
+    \\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\47\\\\azure-maps-render-1.0.0a20240405001\\\
     \\samples\\\\async_samples\\\\sample_get_copyright_for_tile_async.py\", \"xml:space\"\
     : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.core.credentials\
@@ -177,7 +179,7 @@ methods:
     async_samples\\sample_get_copyright_for_world_async.py )]-->\n\n<!-- literal_block\
     \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\
     : [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.8\\\\x64\\\
-    \\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\47\\\\azure-maps-render-1.0.0b2\\\
+    \\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\47\\\\azure-maps-render-1.0.0a20240405001\\\
     \\samples\\\\async_samples\\\\sample_get_copyright_for_world_async.py\", \"xml:space\"\
     : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.core.credentials\
@@ -216,6 +218,24 @@ methods:
     - <xref:azure.maps.render.models.Copyright>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
+  examples:
+  - "Return copyright information for a given bounding box.<!--[!code-python[Main](les\\\
+    async_samples\\sample_get_copyright_from_bounding_box_async.py )]-->\n\n<!-- literal_block\
+    \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\
+    : [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.8\\\\x64\\\
+    \\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\47\\\\azure-maps-render-1.0.0a20240405001\\\
+    \\samples\\\\async_samples\\\\sample_get_copyright_from_bounding_box_async.py\"\
+    , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
+    highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
+    \n   from azure.core.credentials import AzureKeyCredential\n   from azure.maps.render.aio\
+    \ import MapsRenderClient\n   from azure.maps.render.models import BoundingBox\n\
+    \n   maps_render_client = MapsRenderClient(credential=AzureKeyCredential(subscription_key))\n\
+    \n   async with maps_render_client:\n       result = await maps_render_client.get_copyright_from_bounding_box(\n\
+    \           bounding_box=BoundingBox(\n               south=42.982261,\n     \
+    \          west=24.980233,\n               north=56.526017,\n               east=1.355233\n\
+    \           )\n       )\n\n   print(\"Get copyright from bounding box result:\"\
+    )\n   print(result.general_copyrights[0])\n   print(\"Result country code:\")\n\
+    \   print(result.regions[0].country.iso3)\n\n   ````\n"
 - uid: azure.maps.render.aio.MapsRenderClient.get_map_attribution
   name: get_map_attribution
   summary: 'The Get Map Attribution API allows users to request map copyright attribution
@@ -262,7 +282,7 @@ methods:
     async_samples\\sample_get_map_attribution_async.py )]-->\n\n<!-- literal_block\
     \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\
     : [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.8\\\\x64\\\
-    \\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\47\\\\azure-maps-render-1.0.0b2\\\
+    \\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\47\\\\azure-maps-render-1.0.0a20240405001\\\
     \\samples\\\\async_samples\\\\sample_get_map_attribution_async.py\", \"xml:space\"\
     : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.core.credentials\
@@ -418,7 +438,7 @@ methods:
     async_samples\\sample_get_map_static_image_async.py )]-->\n\n<!-- literal_block\
     \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\
     : [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.8\\\\x64\\\
-    \\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\47\\\\azure-maps-render-1.0.0b2\\\
+    \\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\47\\\\azure-maps-render-1.0.0a20240405001\\\
     \\samples\\\\async_samples\\\\sample_get_map_static_image_async.py\", \"xml:space\"\
     : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.core.credentials\
@@ -502,13 +522,14 @@ methods:
     sample_get_map_tile_async.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\47\\\\azure-maps-render-1.0.0b2\\\\samples\\\\async_samples\\\
-    \\sample_get_map_tile_async.py\", \"xml:space\": \"preserve\", \"force\": false,\
-    \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
-    : false} -->\n\n````python\n\n   from azure.core.credentials import AzureKeyCredential\n\
-    \   from azure.maps.render.aio import MapsRenderClient\n   from azure.maps.render.models\
-    \ import TilesetID\n\n   maps_render_client = MapsRenderClient(credential=AzureKeyCredential(subscription_key))\n\
-    \n\n   async with maps_render_client:\n       result = await maps_render_client.get_map_tile(tileset_id=TilesetID.MICROSOFT_BASE,\
+    \\py2docfx\\\\dist_temp\\\\47\\\\azure-maps-render-1.0.0a20240405001\\\\samples\\\
+    \\async_samples\\\\sample_get_map_tile_async.py\", \"xml:space\": \"preserve\"\
+    , \"force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\"\
+    : 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.core.credentials\
+    \ import AzureKeyCredential\n   from azure.maps.render.aio import MapsRenderClient\n\
+    \   from azure.maps.render.models import TilesetID\n\n   maps_render_client =\
+    \ MapsRenderClient(credential=AzureKeyCredential(subscription_key))\n\n\n   async\
+    \ with maps_render_client:\n       result = await maps_render_client.get_map_tile(tileset_id=TilesetID.MICROSOFT_BASE,\
     \ z=6, x=9, y=22, tile_size=\"512\")\n\n\n   ````\n"
 - uid: azure.maps.render.aio.MapsRenderClient.get_map_tileset
   name: get_map_tileset
@@ -534,3 +555,17 @@ methods:
     - <xref:azure.maps.render.models.MapTileset>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
+  examples:
+  - "Return metadata for a tileset.<!--[!code-python[Main](les\\async_samples\\sample_get_map_tileset_async.py\
+    \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
+    dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
+    \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
+    47\\\\azure-maps-render-1.0.0a20240405001\\\\samples\\\\async_samples\\\\sample_get_map_tileset_async.py\"\
+    , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
+    highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
+    \n   from azure.core.credentials import AzureKeyCredential\n   from azure.maps.render.aio\
+    \ import MapsRenderClient\n   from azure.maps.render.models import TilesetID\n\
+    \n   maps_render_client = MapsRenderClient(credential=AzureKeyCredential(subscription_key))\n\
+    \n   async with maps_render_client:\n       result = await maps_render_client.get_map_tileset(tileset_id=TilesetID.MICROSOFT_BASE)\n\
+    \n   print(\"Get map tileset result:\")\n   print(result.map_attribution)\n  \
+    \ print(result.bounds)\n   print(result.version)\n\n   ````\n"
