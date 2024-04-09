@@ -262,11 +262,12 @@ methods:
     \ user_id: str\n:keyword roles: Roles that the connection with the generated token\
     \ will have.\n:paramtype roles: list[str]\n:keyword minutes_to_expire: The expire\
     \ time of the generated token.\n:paramtype minutes_to_expire: int\n:keyword dict[str,\
-    \ any] jwt_headers: Any headers you want to pass to jwt encoding.\n:returns: JSON\
-    \ response containing the web socket endpoint, the token and a url with the generated\
-    \ access token.\n:rtype: JSON\nExample:\n>>> get_client_access_token()\n{\n\n\
-    \   'baseUrl': 'wss://contoso.com/api/webpubsub/client/hubs/theHub',\n   'token':\
-    \ '<access-token>...',\n   'url': 'wss://contoso.com/api/webpubsub/client/hubs/theHub?access_token=<access-token>...'\n\
+    \ any] jwt_headers: Any headers you want to pass to jwt encoding.\n:keyword groups:\
+    \ Groups that the connection will join when it connects. Default value is None.\n\
+    :paramtype groups: list[str]\n:returns: JSON response containing the web socket\
+    \ endpoint, the token and a url with the generated access token.\n:rtype: JSON\n\
+    Example:\n>>> get_client_access_token()\n{\n\n   'baseUrl': 'wss://contoso.com/api/webpubsub/client/hubs/theHub',\n\
+    \   'token': '<access-token>...',\n   'url': 'wss://contoso.com/api/webpubsub/client/hubs/theHub?access_token=<access-token>...'\n\
     \n}"
   signature: 'get_client_access_token(**kwargs: Any) -> MutableMapping[str, Any]'
 - uid: azure.messaging.webpubsubservice.WebPubSubServiceClient.grant_permission
@@ -542,7 +543,7 @@ methods:
 
     Broadcast content inside request body to all the connected client connections.'
   signature: 'send_to_all(message: IO, *, excluded: List[str] | None = None, filter:
-    str | None = None, **kwargs: Any) -> None'
+    str | None = None, content_type: str | None = None, **kwargs: Any) -> None'
   parameters:
   - name: message
     description: The payload body. Required.
@@ -561,6 +562,11 @@ methods:
       messages. Default value is None.'
     types:
     - <xref:str>
+  - name: content_type
+    description: The content type of the payload. Default value is None. Allowed values
+      are 'application/json', 'application/octet-stream' and 'text/plain'
+    types:
+    - <xref:str>
   return:
     description: None
     types:
@@ -573,8 +579,8 @@ methods:
 
 
     Send content inside request body to the specific connection.'
-  signature: 'send_to_connection(connection_id: str, message: IO, **kwargs: Any) ->
-    None'
+  signature: 'send_to_connection(connection_id: str, message: IO, *, content_type:
+    str | None = None, **kwargs: Any) -> None'
   parameters:
   - name: connection_id
     description: The connection Id. Required.
@@ -586,6 +592,12 @@ methods:
     isRequired: true
     types:
     - <xref:typing.IO>
+  keywordOnlyParameters:
+  - name: content_type
+    description: The content type of the payload. Default value is None. Allowed values
+      are 'application/json', 'application/octet-stream' and 'text/plain'
+    types:
+    - <xref:str>
   return:
     description: None
     types:
@@ -599,7 +611,8 @@ methods:
 
     Send content inside request body to a group of connections.'
   signature: 'send_to_group(group: str, message: IO, *, excluded: List[str] | None
-    = None, filter: str | None = None, **kwargs: Any) -> None'
+    = None, filter: str | None = None, content_type: str | None = None, **kwargs:
+    Any) -> None'
   parameters:
   - name: group
     description: 'Target group name, which length should be greater than 0 and less
@@ -626,6 +639,11 @@ methods:
       messages. Default value is None.'
     types:
     - <xref:str>
+  - name: content_type
+    description: The content type of the payload. Default value is None. Allowed values
+      are 'application/json', 'application/octet-stream' and 'text/plain'
+    types:
+    - <xref:str>
   return:
     description: None
     types:
@@ -639,7 +657,7 @@ methods:
 
     Send content inside request body to the specific user.'
   signature: 'send_to_user(user_id: str, message: IO, *, filter: str | None = None,
-    **kwargs: Any) -> None'
+    content_type: str | None = None, **kwargs: Any) -> None'
   parameters:
   - name: user_id
     description: The user Id. Required.
@@ -657,6 +675,11 @@ methods:
       the
 
       messages. Default value is None.'
+    types:
+    - <xref:str>
+  - name: content_type
+    description: The content type of the payload. Default value is None. Allowed values
+      are 'application/json', 'application/octet-stream' and 'text/plain'
     types:
     - <xref:str>
   return:

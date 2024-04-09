@@ -14,7 +14,7 @@ summary: 'A client for the Azure Remote Rendering Service.
   lifetime of remote rendering sessions.'
 constructor:
   syntax: 'RemoteRenderingClient(endpoint: str, account_id: str, account_domain: str,
-    credential: AsyncTokenCredential | AzureKeyCredential | AccessToken, **kwargs)'
+    credential: AzureKeyCredential | AsyncTokenCredential | AccessToken, **kwargs)'
   parameters:
   - name: endpoint
     description: 'The rendering service endpoint. This determines the region in which
@@ -46,7 +46,7 @@ constructor:
       from the Mixed Reality Secure Token Service (STS).'
     isRequired: true
     types:
-    - <xref:typing.Union>[<xref:AsyncTokenCredential>, <xref:AzureKeyCredential>,
+    - <xref:typing.Union>[<xref:AzureKeyCredential>, <xref:AsyncTokenCredential>,
       <xref:AccessToken>]
   keywordOnlyParameters:
   - name: api_version
@@ -54,9 +54,14 @@ constructor:
       to the latest service version.
 
       Setting to an older version may result in reduced feature compatibility.'
-    types:
-    - <xref:str>
-    - <xref:azure.mixedreality.remoterenderings.RemoteRenderingApiVersion>
+  - name: polling_interval
+    description: Seconds to wait between each check, whether the session is ready
+      yet.
+  - name: authentication_endpoint_url
+    description: 'Overwrite for the authentication endpoint. Usually using account_domain
+      for the authentication domain is enough.
+
+      If used, specify the whole authentication url including the schema.'
 methods:
 - uid: azure.mixedreality.remoterendering.aio.RemoteRenderingClient.begin_asset_conversion
   name: begin_asset_conversion
@@ -70,7 +75,7 @@ methods:
   - name: input_settings
     description: 'Options for the
 
-      input of the conversion'
+      input of the conversion.'
     isRequired: true
     types:
     - <xref:azure.mixedreality.remoterendering.AssetConversionInputSettings>
@@ -172,18 +177,22 @@ methods:
     - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mixedreality.remoterendering.RenderingSession>]
 - uid: azure.mixedreality.remoterendering.aio.RemoteRenderingClient.list_asset_conversions
   name: list_asset_conversions
-  summary: 'Gets conversions for the remote rendering account.
+  summary: 'Returns list of conversions for the remote rendering account.
 
-    :rtype: AsyncItemPaged[AssetConversion]'
+    :rtype: AsyncItemPaged[AssetConversion]
+
+    :return: List of conversions for the remote rendering account.'
   signature: async list_asset_conversions(**kwargs) -> AsyncItemPaged[AssetConversion]
 - uid: azure.mixedreality.remoterendering.aio.RemoteRenderingClient.list_rendering_sessions
   name: list_rendering_sessions
-  summary: "List rendering sessions in the 'Ready' or 'Starting' state. Does not return\
-    \ stopped or failed rendering\n   sessions."
+  summary: 'Returns list of rendering sessions in the ''Ready'' or ''Starting'' state.
+
+    Does not return stopped or failed rendering sessions.
+
+    :rtype: ~azure.core.async_paging.AsyncItemPaged[~azure.mixedreality.remoterendering.RenderingSession]
+
+    :return: List of rendering sessions in the ''Ready'' or ''Starting'' state.'
   signature: async list_rendering_sessions(**kwargs) -> AsyncItemPaged[RenderingSession]
-  return:
-    types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mixedreality.remoterendering.RenderingSession>]
 - uid: azure.mixedreality.remoterendering.aio.RemoteRenderingClient.stop_rendering_session
   name: stop_rendering_session
   signature: 'async stop_rendering_session(session_id: str, **kwargs) -> None'
