@@ -88,10 +88,10 @@ examples:
   datalake_samples_instantiate_client_async.py )]-->\n\n<!-- literal_block {\"ids\"\
   : [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
   : \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\
-  \\py2docfx\\\\dist_temp\\\\202\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\
-  \\datalake_samples_instantiate_client_async.py\", \"xml:space\": \"preserve\", \"\
-  force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\":\
-  \ 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.storage.filedatalake.aio\
+  \\py2docfx\\\\dist_temp\\\\202\\\\azure-storage-file-datalake-12.15.0a20240409001\\\
+  \\samples\\\\datalake_samples_instantiate_client_async.py\", \"xml:space\": \"preserve\"\
+  , \"force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\"\
+  : 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.storage.filedatalake.aio\
   \ import DataLakeFileClient\n   DataLakeFileClient.from_connection_string(connection_string,\
   \ \"myfilesystem\", \"mydirectory\", \"myfile\")\n\n   ````\n"
 methods:
@@ -265,7 +265,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    202\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\\datalake_samples_upload_download_async.py\"\
+    202\\\\azure-storage-file-datalake-12.15.0a20240409001\\\\samples\\\\datalake_samples_upload_download_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   await file_client.append_data(data=file_content[2048:3072], offset=2048,\
@@ -451,7 +451,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    202\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\\datalake_samples_upload_download_async.py\"\
+    202\\\\azure-storage-file-datalake-12.15.0a20240409001\\\\samples\\\\datalake_samples_upload_download_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   file_client = filesystem_client.get_file_client(file_name)\n   await file_client.create_file()\n\
@@ -523,7 +523,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    202\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\\datalake_samples_upload_download_async.py\"\
+    202\\\\azure-storage-file-datalake-12.15.0a20240409001\\\\samples\\\\datalake_samples_upload_download_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   await new_client.delete_file()\n\n   ````\n"
@@ -633,7 +633,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    202\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\\datalake_samples_upload_download_async.py\"\
+    202\\\\azure-storage-file-datalake-12.15.0a20240409001\\\\samples\\\\datalake_samples_upload_download_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   download = await file_client.download_file()\n   downloaded_bytes = await\
@@ -809,7 +809,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    202\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\\datalake_samples_file_system_async.py\"\
+    202\\\\azure-storage-file-datalake-12.15.0a20240409001\\\\samples\\\\datalake_samples_file_system_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   file_client = file_system_client.get_file_client(\"myfile\")\n   await file_client.create_file()\n\
@@ -1017,6 +1017,24 @@ methods:
       Required if the file was created with a customer-provided key.'
     types:
     - <xref:azure.storage.filedatalake.CustomerProvidedEncryptionKey>
+  - name: upn
+    description: 'Optional. Valid only when Hierarchical Namespace is
+
+      enabled for the account. If "True", the user identity values returned
+
+      in the x-ms-owner, x-ms-group, and x-ms-acl response headers will be
+
+      transformed from Azure Active Directory Object IDs to User Principal
+
+      Names. If "False", the values will be returned as Azure Active
+
+      Directory Object IDs. The default value is false. Note that group and
+
+      application Object IDs are not translated because they do not have
+
+      unique friendly names.'
+    types:
+    - <xref:bool>
   - name: timeout
     description: 'Sets the server-side timeout for the operation in seconds. For more
       details see
@@ -1037,7 +1055,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    202\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\\datalake_samples_upload_download_async.py\"\
+    202\\\\azure-storage-file-datalake-12.15.0a20240409001\\\\samples\\\\datalake_samples_upload_download_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   properties = await file_client.get_file_properties()\n\n   ````\n"
@@ -1170,11 +1188,11 @@ methods:
     datalake_samples_query.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\202\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\
-    \\datalake_samples_query.py\", \"xml:space\": \"preserve\", \"force\": false,\
-    \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
-    : false} -->\n\n````python\n\n   errors = []\n   def on_error(error):\n      \
-    \ errors.append(error)\n\n   # upload the csv file\n   file_client = datalake_service_client.get_file_client(filesystem_name,\
+    \\py2docfx\\\\dist_temp\\\\202\\\\azure-storage-file-datalake-12.15.0a20240409001\\\
+    \\samples\\\\datalake_samples_query.py\", \"xml:space\": \"preserve\", \"force\"\
+    : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
+    linenos\": false} -->\n\n````python\n\n   errors = []\n   def on_error(error):\n\
+    \       errors.append(error)\n\n   # upload the csv file\n   file_client = datalake_service_client.get_file_client(filesystem_name,\
     \ \"csvfile\")\n   file_client.upload_data(CSV_DATA, overwrite=True)\n\n   # select\
     \ the second column of the csv file\n   query_expression = \"SELECT _2 from DataLakeStorage\"\
     \n   input_format = DelimitedTextDialect(delimiter=',', quotechar='\"', lineterminator='\\\
@@ -1394,7 +1412,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    202\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\\datalake_samples_upload_download_async.py\"\
+    202\\\\azure-storage-file-datalake-12.15.0a20240409001\\\\samples\\\\datalake_samples_upload_download_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   new_client = await file_client.rename_file(file_client.file_system_name +\
@@ -2043,18 +2061,30 @@ attributes:
 - uid: azure.storage.filedatalake.aio.DataLakeFileClient.api_version
   name: api_version
   summary: The version of the Storage API used for requests.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.filedatalake.aio.DataLakeFileClient.location_mode
   name: location_mode
   summary: 'The location mode that the client is currently using.
 
 
     By default this will be "primary". Options include "primary" and "secondary".'
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.filedatalake.aio.DataLakeFileClient.primary_endpoint
   name: primary_endpoint
   summary: The full primary endpoint URL.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.filedatalake.aio.DataLakeFileClient.primary_hostname
   name: primary_hostname
   summary: The hostname of the primary endpoint.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.filedatalake.aio.DataLakeFileClient.secondary_endpoint
   name: secondary_endpoint
   summary: 'The full secondary endpoint URL if configured.
@@ -2064,6 +2094,9 @@ attributes:
     hostname, use the optional
 
     *secondary_hostname* keyword argument on instantiation.'
+  return:
+    types:
+    - <xref:str>
   exceptions:
   - type: ValueError
 - uid: azure.storage.filedatalake.aio.DataLakeFileClient.secondary_hostname
@@ -2075,6 +2108,9 @@ attributes:
     use the optional
 
     *secondary_hostname* keyword argument on instantiation.'
+  return:
+    types:
+    - <xref:typing.Optional>[<xref:str>]
 - uid: azure.storage.filedatalake.aio.DataLakeFileClient.url
   name: url
   summary: 'The full endpoint URL to this entity, including SAS token if used.
