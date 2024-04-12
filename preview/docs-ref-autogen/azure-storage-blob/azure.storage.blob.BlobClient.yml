@@ -78,7 +78,7 @@ constructor:
       feature compatibility.
 
 
-      New in version 12.2.0.'
+      *New in version 12.2.0.*'
     types:
     - <xref:str>
   - name: secondary_hostname
@@ -150,7 +150,7 @@ examples:
   blob_samples_authentication.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
   : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\
   \\windows\\\\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
-  \\200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\blob_samples_authentication.py\"\
+  \\200\\\\azure-storage-blob-12.20.0a20240410001\\\\samples\\\\blob_samples_authentication.py\"\
   , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
   : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.storage.blob\
   \ import BlobClient\n   blob_client = BlobClient.from_blob_url(blob_url=\"https://account.blob.core.windows.net/container/blob-name\"\
@@ -158,7 +158,7 @@ examples:
   blob_samples_authentication.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
   : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\
   \\windows\\\\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
-  \\200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\blob_samples_authentication.py\"\
+  \\200\\\\azure-storage-blob-12.20.0a20240410001\\\\samples\\\\blob_samples_authentication.py\"\
   , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
   : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.storage.blob\
   \ import BlobClient\n\n   sas_url = \"https://account.blob.core.windows.net/container/blob-name?sv=2015-04-05&st=2015-04-29T22%3A18%3A26Z&se=2015-04-30T02%3A23%3A26Z&sr=b&sp=rw&sip=168.1.5.60-168.1.5.70&spr=https&sig=Z%2FRHIX5Xcg0Mq2rqI3OlWTjEg2tYkboXr1P9ZUXDtkk%3D\"\
@@ -192,12 +192,13 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\blob_samples_common.py\", \"\
-    xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
-    : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   # Passing\
-    \ in copy id to abort copy operation\n   if props.copy.status != \"success\":\n\
-    \       copied_blob.abort_copy(copy_id)\n\n   # check copy status\n   props =\
-    \ copied_blob.get_blob_properties()\n   print(props.copy.status)\n\n   ````\n"
+    200\\\\azure-storage-blob-12.20.0a20240410001\\\\samples\\\\blob_samples_common.py\"\
+    , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
+    highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
+    \n   # Passing in copy id to abort copy operation\n   if props.copy.status !=\
+    \ \"success\":\n       copied_blob.abort_copy(copy_id)\n\n   # check copy status\n\
+    \   props = copied_blob.get_blob_properties()\n   print(props.copy.status)\n\n\
+    \   ````\n"
 - uid: azure.storage.blob.BlobClient.acquire_lease
   name: acquire_lease
   summary: 'Requests a new lease.
@@ -272,7 +273,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -296,11 +297,12 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\blob_samples_common.py\", \"\
-    xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
-    : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   # Acquire\
-    \ a lease on the blob\n   lease = blob_client.acquire_lease()\n\n   # Delete blob\
-    \ by passing in the lease\n   blob_client.delete_blob(lease=lease)\n\n   ````\n"
+    200\\\\azure-storage-blob-12.20.0a20240410001\\\\samples\\\\blob_samples_common.py\"\
+    , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
+    highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
+    \n   # Acquire a lease on the blob\n   lease = blob_client.acquire_lease()\n\n\
+    \   # Delete blob by passing in the lease\n   blob_client.delete_blob(lease=lease)\n\
+    \n   ````\n"
 - uid: azure.storage.blob.BlobClient.append_block
   name: append_block
   summary: Commits a new block of data to the end of the existing append blob.
@@ -409,7 +411,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: encoding
@@ -440,7 +442,7 @@ methods:
       be raised.
 
 
-      New in version 12.2.0.'
+      *New in version 12.2.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -570,7 +572,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: source_if_modified_since
@@ -632,7 +634,7 @@ methods:
       be raised.
 
 
-      New in version 12.2.0.'
+      *New in version 12.2.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -654,6 +656,11 @@ methods:
       the prefix of the source_authorization string.'
     types:
     - <xref:str>
+  return:
+    description: Result after appending a new block.
+    types:
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Union>[<xref:str>, <xref:datetime>,
+      <xref:int>]]
 - uid: azure.storage.blob.BlobClient.clear_page
   name: clear_page
   summary: Clears a range of pages.
@@ -751,7 +758,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: cpk
@@ -829,7 +836,7 @@ methods:
       (=), underscore (_)
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:dict>(<xref:str>, <xref:str>)
   - name: lease
@@ -845,14 +852,14 @@ methods:
       version.
 
 
-      New in version 12.10.0: This was introduced in API version ''2020-10-02''.'
+      *New in version 12.10.0:* This was introduced in API version ''2020-10-02''.'
     types:
     - <xref:azure.storage.blob.ImmutabilityPolicy>
   - name: legal_hold
     description: 'Specified if a legal hold should be set on the blob.
 
 
-      New in version 12.10.0: This was introduced in API version ''2020-10-02''.'
+      *New in version 12.10.0:* This was introduced in API version ''2020-10-02''.'
     types:
     - <xref:bool>
   - name: validate_content
@@ -909,7 +916,7 @@ methods:
       blob with a matching value.
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: standard_blob_tier
@@ -943,7 +950,7 @@ methods:
       be raised.
 
 
-      New in version 12.2.0.'
+      *New in version 12.2.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -1004,7 +1011,7 @@ methods:
       (=), underscore (_)
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:dict>(<xref:str>, <xref:str>)
   - name: lease
@@ -1020,14 +1027,14 @@ methods:
       version.
 
 
-      New in version 12.10.0: This was introduced in API version ''2020-10-02''.'
+      *New in version 12.10.0:* This was introduced in API version ''2020-10-02''.'
     types:
     - <xref:azure.storage.blob.ImmutabilityPolicy>
   - name: legal_hold
     description: 'Specified if a legal hold should be set on the blob.
 
 
-      New in version 12.10.0: This was introduced in API version ''2020-10-02''.'
+      *New in version 12.10.0:* This was introduced in API version ''2020-10-02''.'
     types:
     - <xref:bool>
   - name: if_modified_since
@@ -1089,7 +1096,7 @@ methods:
       be raised.
 
 
-      New in version 12.2.0.'
+      *New in version 12.2.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -1161,7 +1168,7 @@ methods:
       (=), underscore (_)
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:dict>(<xref:str>, <xref:str>)
   - name: sequence_number
@@ -1186,14 +1193,14 @@ methods:
       version.
 
 
-      New in version 12.10.0: This was introduced in API version ''2020-10-02''.'
+      *New in version 12.10.0:* This was introduced in API version ''2020-10-02''.'
     types:
     - <xref:azure.storage.blob.ImmutabilityPolicy>
   - name: legal_hold
     description: 'Specified if a legal hold should be set on the blob.
 
 
-      New in version 12.10.0: This was introduced in API version ''2020-10-02''.'
+      *New in version 12.10.0:* This was introduced in API version ''2020-10-02''.'
     types:
     - <xref:bool>
   - name: if_modified_since
@@ -1255,7 +1262,7 @@ methods:
       be raised.
 
 
-      New in version 12.2.0.'
+      *New in version 12.2.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -1340,7 +1347,7 @@ methods:
       blob with a matching value.
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: lease
@@ -1375,7 +1382,7 @@ methods:
       be raised.
 
 
-      New in version 12.2.0.'
+      *New in version 12.2.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -1399,11 +1406,12 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\blob_samples_common.py\", \"\
-    xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
-    : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   # Create a\
-    \ read-only snapshot of the blob at this point in time\n   snapshot_blob = blob_client.create_snapshot()\n\
-    \n   # Get the snapshot ID\n   print(snapshot_blob.get('snapshot'))\n\n   ````\n"
+    200\\\\azure-storage-blob-12.20.0a20240410001\\\\samples\\\\blob_samples_common.py\"\
+    , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
+    highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
+    \n   # Create a read-only snapshot of the blob at this point in time\n   snapshot_blob\
+    \ = blob_client.create_snapshot()\n\n   # Get the snapshot ID\n   print(snapshot_blob.get('snapshot'))\n\
+    \n   ````\n"
 - uid: azure.storage.blob.BlobClient.delete_blob
   name: delete_blob
   summary: 'Marks the specified blob for deletion.
@@ -1442,15 +1450,9 @@ methods:
     - <xref:str>
   keywordOnlyParameters:
   - name: version_id
-    description: 'The version id parameter is an opaque DateTime
-
-      value that, when present, specifies the version of the blob to delete.
-
-
-      New in version 12.4.0.
-
-
-      This keyword argument was introduced in API version ''2019-12-12''.'
+    description: "The version id parameter is an opaque DateTime\nvalue that, when\
+      \ present, specifies the version of the blob to delete.\n\n*New in version 12.4.0.*\
+      \ \n\nThis keyword argument was introduced in API version '2019-12-12'."
     types:
     - <xref:str>
   - name: lease
@@ -1505,7 +1507,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -1527,7 +1529,7 @@ methods:
   - "Delete a blob.<!--[!code-python[Main](les\\blob_samples_hello_world.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
     : [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\
-    \\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.19.0b1\\\
+    \\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.20.0a20240410001\\\
     \\samples\\\\blob_samples_hello_world.py\", \"xml:space\": \"preserve\", \"force\"\
     : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   blob_client.delete_blob()\n\n   ````\n"
@@ -1537,7 +1539,7 @@ methods:
     on the blob.
 
 
-    New in version 12.10.0: This operation was introduced in API version ''2020-10-02''.'
+    *New in version 12.10.0:* This operation was introduced in API version ''2020-10-02''.'
   signature: 'delete_immutability_policy(**kwargs: Any) -> None'
   keywordOnlyParameters:
   - name: timeout
@@ -1585,15 +1587,9 @@ methods:
     - <xref:int>
   keywordOnlyParameters:
   - name: version_id
-    description: 'The version id parameter is an opaque DateTime
-
-      value that, when present, specifies the version of the blob to download.
-
-
-      New in version 12.4.0.
-
-
-      This keyword argument was introduced in API version ''2019-12-12''.'
+    description: "The version id parameter is an opaque DateTime\nvalue that, when\
+      \ present, specifies the version of the blob to download.\n\n*New in version\
+      \ 12.4.0.* \n\nThis keyword argument was introduced in API version '2019-12-12'."
     types:
     - <xref:str>
   - name: validate_content
@@ -1667,7 +1663,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: cpk
@@ -1725,7 +1721,7 @@ methods:
   - "Download a blob.<!--[!code-python[Main](les\\blob_samples_hello_world.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
     : [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\
-    \\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.19.0b1\\\
+    \\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.20.0a20240410001\\\
     \\samples\\\\blob_samples_hello_world.py\", \"xml:space\": \"preserve\", \"force\"\
     : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   with open(DEST_FILE, \"wb\") as my_blob:\n\
@@ -1919,8 +1915,8 @@ methods:
     blob_samples_authentication.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\\
     hostedtoolcache\\\\windows\\\\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\
-    \\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\\
-    blob_samples_authentication.py\", \"xml:space\": \"preserve\", \"force\": false,\
+    \\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.20.0a20240410001\\\\samples\\\
+    \\blob_samples_authentication.py\", \"xml:space\": \"preserve\", \"force\": false,\
     \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
     : false} -->\n\n````python\n\n   from azure.storage.blob import BlobClient\n \
     \  blob_client = BlobClient.from_connection_string(\n       self.connection_string,\
@@ -1955,15 +1951,9 @@ methods:
     - <xref:azure.storage.blob.BlobLeaseClient>
     - <xref:str>
   - name: version_id
-    description: 'The version id parameter is an opaque DateTime
-
-      value that, when present, specifies the version of the blob to get properties.
-
-
-      New in version 12.4.0.
-
-
-      This keyword argument was introduced in API version ''2019-12-12''.'
+    description: "The version id parameter is an opaque DateTime\nvalue that, when\
+      \ present, specifies the version of the blob to get properties.\n\n*New in version\
+      \ 12.4.0.* \n\nThis keyword argument was introduced in API version '2019-12-12'."
     types:
     - <xref:str>
   - name: if_modified_since
@@ -2008,7 +1998,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: cpk
@@ -2042,17 +2032,17 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\blob_samples_common.py\", \"\
-    xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
-    : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   properties\
-    \ = blob_client.get_blob_properties()\n\n   ````\n"
+    200\\\\azure-storage-blob-12.20.0a20240410001\\\\samples\\\\blob_samples_common.py\"\
+    , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
+    highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
+    \n   properties = blob_client.get_blob_properties()\n\n   ````\n"
 - uid: azure.storage.blob.BlobClient.get_blob_tags
   name: get_blob_tags
   summary: 'The Get Tags operation enables users to get tags on a blob or specific
     blob version, or snapshot.
 
 
-    New in version 12.4.0: This operation was introduced in API version ''2019-12-12''.'
+    *New in version 12.4.0:* This operation was introduced in API version ''2019-12-12''.'
   signature: 'get_blob_tags(**kwargs: Any) -> Dict[str, str]'
   keywordOnlyParameters:
   - name: version_id
@@ -2123,7 +2113,7 @@ methods:
       blob with a matching value.
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -2154,7 +2144,7 @@ methods:
     >
 
 
-    New in version 12.2.0: This operation was introduced in API version ''2019-07-07''.'
+    *New in version 12.2.0:* This operation was introduced in API version ''2019-07-07''.'
   signature: 'get_page_range_diff_for_managed_disk(previous_snapshot_url: str, offset:
     int | None = None, length: int | None = None, **kwargs) -> Tuple[List[Dict[str,
     int]], List[Dict[str, int]]]'
@@ -2167,6 +2157,8 @@ methods:
 
       its previous snapshot.'
     isRequired: true
+    types:
+    - <xref:str>
   - name: offset
     description: 'Start of byte range to use for getting valid page ranges.
 
@@ -2361,7 +2353,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -2487,7 +2479,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: results_per_page
@@ -2543,7 +2535,15 @@ methods:
       as a string or enum).
 
       These dialects can be passed through their respective classes, the QuickQueryDialect
-      enum or as a string'
+      enum or as a string
+
+
+
+      > [!NOTE]
+
+      > "ParquetDialect" is in preview, so some features may not work as intended.
+
+      >'
     types:
     - <xref:azure.storage.blob.DelimitedTextDialect>
     - <xref:azure.storage.blob.DelimitedJsonDialect>
@@ -2618,7 +2618,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: cpk
@@ -2652,16 +2652,16 @@ methods:
     blob_samples_query.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [],\
     \ \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\
     \\windows\\\\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\
-    \\200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\blob_samples_query.py\", \"\
-    xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
-    : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   errors = []\n\
-    \   def on_error(error):\n       errors.append(error)\n\n   # upload the csv file\n\
-    \   blob_client = blob_service_client.get_blob_client(container_name, \"csvfile\"\
-    )\n   with open(\"./sample-blobs/quick_query.csv\", \"rb\") as stream:\n     \
-    \  blob_client.upload_blob(stream, overwrite=True)\n\n   # select the second column\
-    \ of the csv file\n   query_expression = \"SELECT _2 from BlobStorage\"\n   input_format\
-    \ = DelimitedTextDialect(delimiter=',', quotechar='\"', lineterminator='\\n',\
-    \ escapechar=\"\", has_header=False)\n   output_format = DelimitedJsonDialect(delimiter='\\\
+    \\200\\\\azure-storage-blob-12.20.0a20240410001\\\\samples\\\\blob_samples_query.py\"\
+    , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
+    highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
+    \n   errors = []\n   def on_error(error):\n       errors.append(error)\n\n   #\
+    \ upload the csv file\n   blob_client = blob_service_client.get_blob_client(container_name,\
+    \ \"csvfile\")\n   with open(\"./sample-blobs/quick_query.csv\", \"rb\") as stream:\n\
+    \       blob_client.upload_blob(stream, overwrite=True)\n\n   # select the second\
+    \ column of the csv file\n   query_expression = \"SELECT _2 from BlobStorage\"\
+    \n   input_format = DelimitedTextDialect(delimiter=',', quotechar='\"', lineterminator='\\\
+    n', escapechar=\"\", has_header=False)\n   output_format = DelimitedJsonDialect(delimiter='\\\
     n')\n   reader = blob_client.query_blob(query_expression, on_error=on_error, blob_format=input_format,\
     \ output_format=output_format)\n   content = reader.readall()\n\n   ````\n"
 - uid: azure.storage.blob.BlobClient.resize_blob
@@ -2733,7 +2733,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: premium_page_blob_tier
@@ -2763,8 +2763,8 @@ methods:
     - <xref:dict>(<xref:str>, <xref:typing.Any>)
 - uid: azure.storage.blob.BlobClient.seal_append_blob
   name: seal_append_blob
-  summary: "The Seal operation seals the Append Blob to make it read-only.\n\n   New\
-    \ in version 12.4.0."
+  summary: "The Seal operation seals the Append Blob to make it read-only.\n\n   *New\
+    \ in version 12.4.0.*"
   signature: seal_append_blob(**kwargs) -> Dict[str, str | datetime | int]
   keywordOnlyParameters:
   - name: appendpos_condition
@@ -2905,7 +2905,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: cpk
@@ -2932,7 +2932,7 @@ methods:
       be raised.
 
 
-      New in version 12.2.0.'
+      *New in version 12.2.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -2949,13 +2949,15 @@ methods:
     - <xref:int>
   return:
     description: Blob-updated property dict (Etag and last modified)
+    types:
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Union>[<xref:str>, <xref:datetime>]]
 - uid: azure.storage.blob.BlobClient.set_blob_tags
   name: set_blob_tags
   summary: "The Set Tags operation enables users to set tags on a blob or specific\
     \ blob version, but not snapshot.\n   Each call to this operation replaces all\
     \ existing tags attached to the blob. To remove all\n   tags from the blob, call\
-    \ this operation with no tags set.\n\nNew in version 12.4.0: This operation was\
-    \ introduced in API version '2019-12-12'."
+    \ this operation with no tags set.\n\n*New in version 12.4.0:* This operation\
+    \ was introduced in API version '2019-12-12'."
   signature: 'set_blob_tags(tags: Dict[str, str] | None = None, **kwargs: Any) ->
     Dict[str, Any]'
   parameters:
@@ -3095,7 +3097,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -3120,7 +3122,7 @@ methods:
     the blob.
 
 
-    New in version 12.10.0: This operation was introduced in API version ''2020-10-02''.'
+    *New in version 12.10.0:* This operation was introduced in API version ''2020-10-02''.'
   signature: 'set_immutability_policy(immutability_policy: ImmutabilityPolicy, **kwargs:
     Any) -> Dict[str, str]'
   parameters:
@@ -3129,7 +3131,7 @@ methods:
       version.
 
 
-      New in version 12.10.0: This was introduced in API version ''2020-10-02''.'
+      *New in version 12.10.0:* This was introduced in API version ''2020-10-02''.'
     isRequired: true
     types:
     - <xref:azure.storage.blob.ImmutabilityPolicy>
@@ -3155,7 +3157,7 @@ methods:
   summary: 'The Set Legal Hold operation sets a legal hold on the blob.
 
 
-    New in version 12.10.0: This operation was introduced in API version ''2020-10-02''.'
+    *New in version 12.10.0:* This operation was introduced in API version ''2020-10-02''.'
   signature: 'set_legal_hold(legal_hold: bool, **kwargs: Any) -> Dict[str, str | datetime
     | bool]'
   parameters:
@@ -3207,7 +3209,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -3308,7 +3310,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -3361,15 +3363,9 @@ methods:
     types:
     - <xref:azure.storage.blob.RehydratePriority>
   - name: version_id
-    description: 'The version id parameter is an opaque DateTime
-
-      value that, when present, specifies the version of the blob to download.
-
-
-      New in version 12.4.0.
-
-
-      This keyword argument was introduced in API version ''2019-12-12''.'
+    description: "The version id parameter is an opaque DateTime\nvalue that, when\
+      \ present, specifies the version of the blob to download.\n\n*New in version\
+      \ 12.4.0.* \n\nThis keyword argument was introduced in API version '2019-12-12'."
     types:
     - <xref:str>
   - name: if_tags_match_condition
@@ -3379,7 +3375,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -3423,6 +3419,8 @@ methods:
   - name: data
     description: The blob data.
     isRequired: true
+    types:
+    - <xref:typing.Union>[<xref:typing.Iterable>[<xref:typing.AnyStr>], <xref:typing.IO>[<xref:typing.AnyStr>]]
   - name: length
     description: Size of the block.
     isRequired: true
@@ -3484,7 +3482,7 @@ methods:
       be raised.
 
 
-      New in version 12.2.0.'
+      *New in version 12.2.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -3578,7 +3576,7 @@ methods:
       be raised.
 
 
-      New in version 12.2.0.'
+      *New in version 12.2.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -3735,7 +3733,7 @@ methods:
       This option is only available when *incremental_copy=False* and *requires_sync=True*.
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:dict>(<xref:str>, <xref:str>)
     - <xref:typing.Literal>["COPY"]
@@ -3744,14 +3742,14 @@ methods:
       version.
 
 
-      New in version 12.10.0: This was introduced in API version ''2020-10-02''.'
+      *New in version 12.10.0:* This was introduced in API version ''2020-10-02''.'
     types:
     - <xref:azure.storage.blob.ImmutabilityPolicy>
   - name: legal_hold
     description: 'Specified if a legal hold should be set on the blob.
 
 
-      New in version 12.10.0: This was introduced in API version ''2020-10-02''.'
+      *New in version 12.10.0:* This was introduced in API version ''2020-10-02''.'
     types:
     - <xref:bool>
   - name: source_if_modified_since
@@ -3886,7 +3884,7 @@ methods:
       blob.
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:bool>
   - name: requires_sync
@@ -3904,7 +3902,7 @@ methods:
       set to False and *requires_sync* is set to True.
 
 
-      New in version 12.9.0.'
+      *New in version 12.9.0.*'
     types:
     - <xref:str>
   - name: encryption_scope
@@ -3921,7 +3919,7 @@ methods:
       be raised.
 
 
-      New in version 12.10.0.'
+      *New in version 12.10.0.*'
     types:
     - <xref:str>
   return:
@@ -3932,7 +3930,7 @@ methods:
   - "Copy a blob from a URL.<!--[!code-python[Main](les\\blob_samples_common.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
     : [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\
-    \\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.19.0b1\\\
+    \\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.20.0a20240410001\\\
     \\samples\\\\blob_samples_common.py\", \"xml:space\": \"preserve\", \"force\"\
     : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   # Get the blob client with the source\
@@ -3978,7 +3976,7 @@ methods:
   - "Undeleting a blob.<!--[!code-python[Main](les\\blob_samples_common.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
     : [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\
-    \\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.19.0b1\\\
+    \\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\200\\\\azure-storage-blob-12.20.0a20240410001\\\
     \\samples\\\\blob_samples_common.py\", \"xml:space\": \"preserve\", \"force\"\
     : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
     linenos\": false} -->\n\n````python\n\n   # Undelete the blob before the retention\
@@ -3986,13 +3984,16 @@ methods:
 - uid: azure.storage.blob.BlobClient.upload_blob
   name: upload_blob
   summary: Creates a new blob from a data source with automatic chunking.
-  signature: 'upload_blob(data: bytes | str | Iterable | IO, blob_type: str | BlobType
-    = BlobType.BLOCKBLOB, length: int | None = None, metadata: Dict[str, str] | None
-    = None, **kwargs) -> Dict[str, Any]'
+  signature: 'upload_blob(data: bytes | str | Iterable | IO[bytes], blob_type: str
+    | BlobType = BlobType.BLOCKBLOB, length: int | None = None, metadata: Dict[str,
+    str] | None = None, **kwargs) -> Dict[str, Any]'
   parameters:
   - name: data
     description: The blob data to upload.
     isRequired: true
+    types:
+    - <xref:typing.Union>[<xref:bytes>, <xref:str>, <xref:typing.Iterable>[<xref:typing.AnyStr>],
+      <xref:typing.IO>[<xref:typing.AnyStr>]]
   - name: blob_type
     description: 'The type of the blob. This can be
 
@@ -4028,7 +4029,7 @@ methods:
       (=), underscore (_)
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:dict>(<xref:str>, <xref:str>)
   - name: overwrite
@@ -4127,7 +4128,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: premium_page_blob_tier
@@ -4153,7 +4154,7 @@ methods:
       Currently this parameter of upload_blob() API is for BlockBlob only.
 
 
-      New in version 12.10.0: This was introduced in API version ''2020-10-02''.'
+      *New in version 12.10.0:* This was introduced in API version ''2020-10-02''.'
     types:
     - <xref:azure.storage.blob.ImmutabilityPolicy>
   - name: legal_hold
@@ -4162,7 +4163,7 @@ methods:
       Currently this parameter of upload_blob() API is for BlockBlob only.
 
 
-      New in version 12.10.0: This was introduced in API version ''2020-10-02''.'
+      *New in version 12.10.0:* This was introduced in API version ''2020-10-02''.'
     types:
     - <xref:bool>
   - name: maxsize_condition
@@ -4208,7 +4209,7 @@ methods:
       be raised.
 
 
-      New in version 12.2.0.'
+      *New in version 12.2.0.*'
     types:
     - <xref:str>
   - name: encoding
@@ -4249,7 +4250,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    200\\\\azure-storage-blob-12.19.0b1\\\\samples\\\\blob_samples_hello_world.py\"\
+    200\\\\azure-storage-blob-12.20.0a20240410001\\\\samples\\\\blob_samples_hello_world.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   # Upload content to block blob\n   with open(SOURCE_FILE, \"rb\") as data:\n\
@@ -4456,6 +4457,10 @@ methods:
       the prefix of the source_authorization string.'
     types:
     - <xref:str>
+  return:
+    description: Response from creating a new block blob for a given URL.
+    types:
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
 - uid: azure.storage.blob.BlobClient.upload_page
   name: upload_page
   summary: The Upload Pages operation writes a range of pages to a page blob.
@@ -4572,7 +4577,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: cpk
@@ -4599,7 +4604,7 @@ methods:
       be raised.
 
 
-      New in version 12.2.0.'
+      *New in version 12.2.0.*'
     types:
     - <xref:str>
   - name: encoding
@@ -4777,7 +4782,7 @@ methods:
       eg. `"\"tagname\"=''my tag''"`
 
 
-      New in version 12.4.0.'
+      *New in version 12.4.0.*'
     types:
     - <xref:str>
   - name: cpk
@@ -4804,7 +4809,7 @@ methods:
       be raised.
 
 
-      New in version 12.2.0.'
+      *New in version 12.2.0.*'
     types:
     - <xref:str>
   - name: timeout
@@ -4826,22 +4831,38 @@ methods:
       the prefix of the source_authorization string.'
     types:
     - <xref:str>
+  return:
+    description: Response after uploading pages from specified URL.
+    types:
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
 attributes:
 - uid: azure.storage.blob.BlobClient.api_version
   name: api_version
   summary: The version of the Storage API used for requests.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.blob.BlobClient.location_mode
   name: location_mode
   summary: 'The location mode that the client is currently using.
 
 
     By default this will be "primary". Options include "primary" and "secondary".'
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.blob.BlobClient.primary_endpoint
   name: primary_endpoint
   summary: The full primary endpoint URL.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.blob.BlobClient.primary_hostname
   name: primary_hostname
   summary: The hostname of the primary endpoint.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.blob.BlobClient.secondary_endpoint
   name: secondary_endpoint
   summary: 'The full secondary endpoint URL if configured.
@@ -4851,6 +4872,9 @@ attributes:
     hostname, use the optional
 
     *secondary_hostname* keyword argument on instantiation.'
+  return:
+    types:
+    - <xref:str>
   exceptions:
   - type: ValueError
 - uid: azure.storage.blob.BlobClient.secondary_hostname
@@ -4862,6 +4886,9 @@ attributes:
     use the optional
 
     *secondary_hostname* keyword argument on instantiation.'
+  return:
+    types:
+    - <xref:typing.Optional>[<xref:str>]
 - uid: azure.storage.blob.BlobClient.url
   name: url
   summary: 'The full endpoint URL to this entity, including SAS token if used.

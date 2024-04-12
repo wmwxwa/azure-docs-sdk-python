@@ -95,10 +95,10 @@ examples:
   datalake_samples_instantiate_client_async.py )]-->\n\n<!-- literal_block {\"ids\"\
   : [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
   : \"C:\\\\hostedtoolcache\\\\windows\\\\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\
-  \\py2docfx\\\\dist_temp\\\\202\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\
-  \\datalake_samples_instantiate_client_async.py\", \"xml:space\": \"preserve\", \"\
-  force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\":\
-  \ 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.storage.filedatalake.aio\
+  \\py2docfx\\\\dist_temp\\\\202\\\\azure-storage-file-datalake-12.15.0a20240410001\\\
+  \\samples\\\\datalake_samples_instantiate_client_async.py\", \"xml:space\": \"preserve\"\
+  , \"force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\"\
+  : 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.storage.filedatalake.aio\
   \ import DataLakeDirectoryClient\n   DataLakeDirectoryClient.from_connection_string(connection_string,\
   \ \"myfilesystem\", \"mydirectory\")\n\n   ````\n"
 methods:
@@ -347,7 +347,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    202\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\\datalake_samples_directory_async.py\"\
+    202\\\\azure-storage-file-datalake-12.15.0a20240410001\\\\samples\\\\datalake_samples_directory_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   await directory_client.create_directory()\n\n   ````\n"
@@ -748,7 +748,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    202\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\\datalake_samples_directory_async.py\"\
+    202\\\\azure-storage-file-datalake-12.15.0a20240410001\\\\samples\\\\datalake_samples_directory_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   await new_directory.delete_directory()\n\n   ````\n"
@@ -1046,6 +1046,24 @@ methods:
       Required if the directory was created with a customer-provided key.'
     types:
     - <xref:azure.storage.filedatalake.CustomerProvidedEncryptionKey>
+  - name: upn
+    description: 'Optional. Valid only when Hierarchical Namespace is
+
+      enabled for the account. If "True", the user identity values returned
+
+      in the x-ms-owner, x-ms-group, and x-ms-acl response headers will be
+
+      transformed from Azure Active Directory Object IDs to User Principal
+
+      Names. If "False", the values will be returned as Azure Active
+
+      Directory Object IDs. The default value is false. Note that group and
+
+      application Object IDs are not translated because they do not have
+
+      unique friendly names.'
+    types:
+    - <xref:bool>
   - name: timeout
     description: 'Sets the server-side timeout for the operation in seconds. For more
       details see
@@ -1066,7 +1084,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    202\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\\datalake_samples_directory_async.py\"\
+    202\\\\azure-storage-file-datalake-12.15.0a20240410001\\\\samples\\\\datalake_samples_directory_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   props = await new_directory.get_directory_properties()\n\n   ````\n"
@@ -1321,7 +1339,7 @@ methods:
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"C:\\\\hostedtoolcache\\\\windows\\\
     \\Python\\\\3.11.8\\\\x64\\\\Lib\\\\site-packages\\\\py2docfx\\\\dist_temp\\\\\
-    202\\\\azure-storage-file-datalake-12.14.0b1\\\\samples\\\\datalake_samples_directory_async.py\"\
+    202\\\\azure-storage-file-datalake-12.15.0a20240410001\\\\samples\\\\datalake_samples_directory_async.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   new_dir_name = \"testdir2\"\n   print(\"Renaming the directory named '{}'\
@@ -1776,18 +1794,30 @@ attributes:
 - uid: azure.storage.filedatalake.aio.DataLakeDirectoryClient.api_version
   name: api_version
   summary: The version of the Storage API used for requests.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.filedatalake.aio.DataLakeDirectoryClient.location_mode
   name: location_mode
   summary: 'The location mode that the client is currently using.
 
 
     By default this will be "primary". Options include "primary" and "secondary".'
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.filedatalake.aio.DataLakeDirectoryClient.primary_endpoint
   name: primary_endpoint
   summary: The full primary endpoint URL.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.filedatalake.aio.DataLakeDirectoryClient.primary_hostname
   name: primary_hostname
   summary: The hostname of the primary endpoint.
+  return:
+    types:
+    - <xref:str>
 - uid: azure.storage.filedatalake.aio.DataLakeDirectoryClient.secondary_endpoint
   name: secondary_endpoint
   summary: 'The full secondary endpoint URL if configured.
@@ -1797,6 +1827,9 @@ attributes:
     hostname, use the optional
 
     *secondary_hostname* keyword argument on instantiation.'
+  return:
+    types:
+    - <xref:str>
   exceptions:
   - type: ValueError
 - uid: azure.storage.filedatalake.aio.DataLakeDirectoryClient.secondary_hostname
@@ -1808,6 +1841,9 @@ attributes:
     use the optional
 
     *secondary_hostname* keyword argument on instantiation.'
+  return:
+    types:
+    - <xref:typing.Optional>[<xref:str>]
 - uid: azure.storage.filedatalake.aio.DataLakeDirectoryClient.url
   name: url
   summary: 'The full endpoint URL to this entity, including SAS token if used.
