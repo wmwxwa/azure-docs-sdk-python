@@ -27,9 +27,10 @@ constructor:
     - <xref:str>
   keywordOnlyParameters:
   - name: api_version
-    description: 'Api Version. Default value is "2023-05-01-preview". Note that overriding
+    description: 'Api Version. Default value is "2023-07-01". Note that overriding
+      this
 
-      this default value may result in unsupported behavior.'
+      default value may result in unsupported behavior.'
     types:
     - <xref:str>
   - name: polling_interval
@@ -51,10 +52,6 @@ variables:
   name: net_app_resource_quota_limits
   types:
   - <xref:azure.mgmt.netapp.operations.NetAppResourceQuotaLimitsOperations>
-- description: NetAppResourceRegionInfosOperations operations
-  name: net_app_resource_region_infos
-  types:
-  - <xref:azure.mgmt.netapp.operations.NetAppResourceRegionInfosOperations>
 - description: AccountsOperations operations
   name: accounts
   types:
@@ -79,10 +76,6 @@ variables:
   name: backups
   types:
   - <xref:azure.mgmt.netapp.operations.BackupsOperations>
-- description: AccountBackupsOperations operations
-  name: account_backups
-  types:
-  - <xref:azure.mgmt.netapp.operations.AccountBackupsOperations>
 - description: BackupPoliciesOperations operations
   name: backup_policies
   types:
@@ -99,22 +92,6 @@ variables:
   name: subvolumes
   types:
   - <xref:azure.mgmt.netapp.operations.SubvolumesOperations>
-- description: BackupVaultsOperations operations
-  name: backup_vaults
-  types:
-  - <xref:azure.mgmt.netapp.operations.BackupVaultsOperations>
-- description: BackupsUnderBackupVaultOperations operations
-  name: backups_under_backup_vault
-  types:
-  - <xref:azure.mgmt.netapp.operations.BackupsUnderBackupVaultOperations>
-- description: BackupsUnderVolumeOperations operations
-  name: backups_under_volume
-  types:
-  - <xref:azure.mgmt.netapp.operations.BackupsUnderVolumeOperations>
-- description: BackupsUnderAccountOperations operations
-  name: backups_under_account
-  types:
-  - <xref:azure.mgmt.netapp.operations.BackupsUnderAccountOperations>
 methods:
 - uid: azure.mgmt.netapp.NetAppManagementClient.close
   name: close
