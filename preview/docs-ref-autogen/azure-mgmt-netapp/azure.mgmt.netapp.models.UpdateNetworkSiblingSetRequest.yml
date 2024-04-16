@@ -37,9 +37,9 @@ constructor:
     types:
     - <xref:str>
   - name: network_features
-    description: 'Network features available to the volume. Known values are: "Basic",
+    description: 'Network features available to the volume, some such. Known values
 
-      "Standard", "Basic_Standard", and "Standard_Basic".'
+      are: "Basic", "Standard", "Basic_Standard", and "Standard_Basic".'
     defaultValue: Basic
     types:
     - <xref:str>
@@ -67,9 +67,10 @@ variables:
   name: network_sibling_set_state_id
   types:
   - <xref:str>
-- description: 'Network features available to the volume. Known values are: "Basic",
+- description: 'Network features available to the volume, some such. Known values
+    are:
 
-    "Standard", "Basic_Standard", and "Standard_Basic".'
+    "Basic", "Standard", "Basic_Standard", and "Standard_Basic".'
   name: network_features
   types:
   - <xref:str>
