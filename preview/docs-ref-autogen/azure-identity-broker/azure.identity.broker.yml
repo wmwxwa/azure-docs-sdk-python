@@ -5,4 +5,3 @@ fullName: azure.identity.broker
 type: import
 classes:
 - azure.identity.broker.InteractiveBrowserBrokerCredential
-- azure.identity.broker.UsernamePasswordBrokerCredential
