@@ -1,7 +1,7 @@
 {
   "Name": "azure-communication-networktraversal",
   "Version": "1.1.0b2",
-  "DevVersion": null,
+  "DevVersion": "1.1.0b2",
   "DirectoryPath": "sdk/communication/azure-communication-networktraversal",
   "ServiceDirectory": "communication",
   "ReadMePath": "sdk/communication/azure-communication-networktraversal/README.md",
