@@ -39,7 +39,7 @@ methods:
     description: 'The parameters for creating or updating a Fhir Service resource.
       Is either
 
-      a model type or a IO type. Required.'
+      a FhirService type or a IO type. Required.'
     isRequired: true
     types:
     - <xref:azure.mgmt.healthcareapis.models.FhirService>
@@ -168,7 +168,7 @@ methods:
   - name: fhirservice_patch_resource
     description: 'The parameters for updating a Fhir Service. Is either a
 
-      model type or a IO type. Required.'
+      FhirServicePatchResource type or a IO type. Required.'
     isRequired: true
     types:
     - <xref:azure.mgmt.healthcareapis.models.FhirServicePatchResource>

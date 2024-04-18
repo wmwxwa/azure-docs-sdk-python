@@ -15,7 +15,8 @@ constructor:
     = None, etag: str | None = None, location: str | None = None, tags: Dict[str,
     str] | None = None, authentication_configuration: _models.DicomServiceAuthenticationConfiguration
     | None = None, cors_configuration: _models.CorsConfiguration | None = None, public_network_access:
-    str | _models.PublicNetworkAccess | None = None, **kwargs)'
+    str | _models.PublicNetworkAccess | None = None, encryption: _models.Encryption
+    | None = None, **kwargs: Any)'
   keywordOnlyParameters:
   - name: identity
     description: 'Setting indicating whether the service has a managed identity associated
@@ -54,6 +55,10 @@ constructor:
     types:
     - <xref:str>
     - <xref:azure.mgmt.healthcareapis.models.PublicNetworkAccess>
+  - name: encryption
+    description: The encryption settings of the DICOM service.
+    types:
+    - <xref:azure.mgmt.healthcareapis.models.Encryption>
 variables:
 - description: 'Setting indicating whether the service has a managed identity associated
     with
@@ -127,3 +132,15 @@ variables:
   types:
   - <xref:str>
   - <xref:azure.mgmt.healthcareapis.models.PublicNetworkAccess>
+- description: 'DICOM Service event support status. Known values are: "Disabled",
+    "Enabled",
+
+    and "Updating".'
+  name: event_state
+  types:
+  - <xref:str>
+  - <xref:azure.mgmt.healthcareapis.models.ServiceEventState>
+- description: The encryption settings of the DICOM service.
+  name: encryption
+  types:
+  - <xref:azure.mgmt.healthcareapis.models.Encryption>
