@@ -229,9 +229,9 @@
       children:
       - azure.ai.documentintelligence
     - name: Personalizer
+      href: ~/docs-ref-services/preview/ai-personalizer-readme.md
       children:
       - azure.ai.personalizer
-      landingPageType: Service
     - name: Text Translation
       href: ~/docs-ref-services/preview/ai-translation-text-readme.md
       children:

@@ -44,7 +44,7 @@ methods:
   - name: iot_fhir_destination
     description: 'The parameters for creating or updating an IoT Connector FHIR
 
-      destination resource. Is either a model type or a IO type. Required.'
+      destination resource. Is either a IotFhirDestination type or a IO type. Required.'
     isRequired: true
     types:
     - <xref:azure.mgmt.healthcareapis.models.IotFhirDestination>

@@ -4,4 +4,5 @@ name: aio
 fullName: azure.ai.translation.text.aio
 type: import
 classes:
+- azure.ai.translation.text.aio.AsyncTranslatorAADCredential
 - azure.ai.translation.text.aio.TextTranslationClient
